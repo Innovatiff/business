@@ -1,0 +1,216 @@
+---
+/**
+ * One dynamic route that generates every category page (e.g. /service-businesses)
+ * and every situation/filter page (e.g. /businesses-under-500). Explicit page
+ * files like /about take precedence, so this only matches these slugs.
+ */
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import BusinessCard from '../components/BusinessCard.astro';
+import FAQ from '../components/FAQ.astro';
+import AdSlot from '../components/AdSlot.astro';
+import DisclaimerBox from '../components/DisclaimerBox.astro';
+import { CATEGORIES, CATEGORY_MAP, CATEGORY_FAQS } from '../data/categories';
+import { FILTERS } from '../data/filters';
+import { SITE } from '../config';
+
+export async function getStaticPaths() {
+  const all = await getCollection('businesses');
+
+  const categoryPaths = CATEGORIES.map((cat) => {
+    const businesses = all
+      .filter((b) => b.data.category === cat.slug)
+      .sort((a, b) => a.data.startupCostLow - b.data.startupCostLow);
+    return {
+      params: { listing: cat.slug },
+      props: {
+        kind: 'category' as const,
+        title: cat.name,
+        metaTitle: `${cat.name} — Honest Startup Costs, Earnings & How to Start`,
+        metaDescription: cat.description.slice(0, 155),
+        intro: cat.description,
+        mostImportant: cat.mostImportant,
+        businesses,
+        faqs: CATEGORY_FAQS[cat.slug] ?? [],
+        relatedCats: cat.related,
+        relatedFilters: [] as string[],
+      },
+    };
+  });
+
+  const filterPaths = FILTERS.map((filter) => {
+    let businesses = all.filter((b) => filter.match(b.data));
+    businesses = businesses.sort((a, b) =>
+      filter.sort ? filter.sort(a.data, b.data) : a.data.startupCostLow - b.data.startupCostLow,
+    );
+    return {
+      params: { listing: filter.slug },
+      props: {
+        kind: 'filter' as const,
+        title: filter.name,
+        metaTitle: `${filter.name} — Real Costs and Earnings`,
+        metaDescription: filter.description.slice(0, 155),
+        intro: filter.description,
+        mostImportant: filter.mostImportant,
+        businesses,
+        faqs: [] as { question: string; answer: string }[],
+        relatedCats: [] as string[],
+        relatedFilters: FILTERS.filter((f) => f.slug !== filter.slug)
+          .slice(0, 5)
+          .map((f) => f.slug),
+      },
+    };
+  });
+
+  return [...categoryPaths, ...filterPaths];
+}
+
+const { listing } = Astro.params;
+const props = Astro.props;
+const path = `/${listing}`;
+
+const relatedCategories = props.relatedCats
+  .map((s) => CATEGORY_MAP[s])
+  .filter(Boolean);
+const relatedFilters = props.relatedFilters
+  .map((s) => FILTERS.find((f) => f.slug === s))
+  .filter(Boolean);
+
+const jsonLd: Record<string, unknown>[] = [];
+if (props.faqs.length) {
+  jsonLd.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: props.faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  });
+}
+jsonLd.push({
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: props.title,
+  description: props.metaDescription,
+  url: new URL(path, SITE.url).href,
+});
+---
+
+<BaseLayout title={props.metaTitle} description={props.metaDescription} path={path} jsonLd={jsonLd}>
+  <div class="container listing-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Businesses', href: '/businesses' }, { label: props.title }]} />
+    <span class="eyebrow">{props.kind === 'category' ? 'Category' : 'Browse by situation'}</span>
+    <h1>{props.title}</h1>
+    <p class="lead listing-intro">{props.intro}</p>
+  </div>
+
+  <div class="container">
+    <div class="most-important">
+      <span class="mi-title">The most important thing to know</span>
+      <p>{props.mostImportant}</p>
+    </div>
+  </div>
+
+  <div class="container section-tight">
+    {props.businesses.length > 0 ? (
+      <>
+        <p class="listing-count muted">{props.businesses.length} {props.businesses.length === 1 ? 'business' : 'businesses'}, ordered to put the most accessible first.</p>
+        <div class="grid grid-3">
+          {props.businesses.map((b) => <BusinessCard business={b} />)}
+        </div>
+      </>
+    ) : (
+      <div class="empty card">
+        <h3>More businesses coming to this section</h3>
+        <p>
+          We are building toward hundreds of honest business breakdowns. This section does not have
+          published pages yet — in the meantime, try the
+          <a href="/find-my-business">Business Finder</a> or
+          <a href="/businesses">browse everything published so far</a>.
+        </p>
+      </div>
+    )}
+  </div>
+
+  <div class="container">
+    <AdSlot slot="listing-mid" />
+  </div>
+
+  {props.faqs.length > 0 && (
+    <div class="container container-narrow section-tight">
+      <h2>Frequently asked questions</h2>
+      <FAQ faqs={props.faqs} />
+    </div>
+  )}
+
+  <div class="container">
+    {(relatedCategories.length > 0 || relatedFilters.length > 0) && (
+      <section class="related-links">
+        <h2>Keep exploring</h2>
+        <div class="related-chips">
+          {relatedCategories.map((c) => <a href={`/${c!.slug}`} class="tag tag-link">{c!.name}</a>)}
+          {relatedFilters.map((f) => <a href={`/${f!.slug}`} class="tag tag-link">{f!.shortName}</a>)}
+        </div>
+      </section>
+    )}
+    <div class="section-tight">
+      <DisclaimerBox />
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .listing-head {
+    padding-top: var(--space-8);
+  }
+  .listing-head .eyebrow {
+    margin-top: 0.75rem;
+  }
+  .listing-intro {
+    max-width: 70ch;
+  }
+  .most-important {
+    background: var(--navy);
+    color: #e2e8f0;
+    border-radius: var(--radius);
+    padding: 1.5rem 1.75rem;
+    margin-top: 0.5rem;
+  }
+  .mi-title {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #4ade80;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .most-important p {
+    margin: 0;
+    font-size: 1.05rem;
+  }
+  .listing-count {
+    margin-bottom: 1.25rem;
+    font-size: 0.9rem;
+  }
+  .empty {
+    padding: 2rem;
+    text-align: center;
+  }
+  .related-links h2 {
+    margin-bottom: 1rem;
+  }
+  .related-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .tag-link:hover {
+    border-color: var(--green);
+    color: var(--green-dark);
+    text-decoration: none;
+  }
+</style>

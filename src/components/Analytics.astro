@@ -1,0 +1,24 @@
+---
+/**
+ * Firebase Analytics (Google Analytics for Firebase).
+ *
+ * Loaded as a deferred ES module so it never blocks page rendering. Records
+ * only standard pageview/engagement events. We never pass Business Finder
+ * answers, financial details, or personal data here — the finder is fully
+ * client-side and self-contained. Controlled by ANALYTICS.enabled.
+ */
+import { ANALYTICS } from '../config';
+const cfg = JSON.stringify(ANALYTICS.firebase);
+---
+{ANALYTICS.enabled && (
+  <script type="module" is:inline set:html={`
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js';
+    import { getAnalytics } from 'https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js';
+    try {
+      const app = initializeApp(${cfg});
+      getAnalytics(app);
+    } catch (e) {
+      /* analytics is non-essential; never let it break the page */
+    }
+  `} />
+)}

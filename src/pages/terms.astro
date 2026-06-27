@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../config';
+---
+<BaseLayout
+  title="Terms of Use"
+  description="The terms of use for ProfitPath. Educational information only — not financial, legal, or investment advice. Use at your own risk and do your own research."
+  path="/terms"
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Terms' }]} />
+    <h1>Terms of Use</h1>
+    <p class="lead">By using {SITE.name}, you agree to these terms.</p>
+  </div>
+
+  <div class="container container-narrow page-body">
+    <h2>Educational information only</h2>
+    <p>
+      All content on {SITE.name} is provided for general educational and informational purposes
+      only. It is not financial, legal, investment, tax, or professional advice, and it is not a
+      recommendation to start any particular business. Starting a business involves real financial
+      risk. You are solely responsible for your own decisions and for doing your own research and
+      seeking qualified professional advice before spending money.
+    </p>
+
+    <h2>No guarantees</h2>
+    <p>
+      Startup costs, earnings ranges, timelines, and difficulty assessments are informed estimates
+      based on publicly reported data and operator accounts. They are not guarantees or predictions
+      of your results. Individual outcomes vary significantly based on location, skill, effort,
+      market conditions, regulation, and factors outside anyone's control. We make no warranty that
+      any business will be profitable or suitable for you.
+    </p>
+
+    <h2>Accuracy and changes</h2>
+    <p>
+      We work to keep content accurate and current, but we do not warrant that it is complete,
+      error-free, or up to date. Costs, regulations, and market conditions change. We may update,
+      add, or remove content at any time without notice.
+    </p>
+
+    <h2>Third-party links and advertising</h2>
+    <p>
+      The site may contain links to third-party websites and may display third-party advertising. We
+      do not control and are not responsible for the content, products, or practices of any
+      third-party sites or advertisers. Links and ads are not endorsements.
+    </p>
+
+    <h2>Acceptable use</h2>
+    <p>
+      You agree not to misuse the site, including by attempting to disrupt it, scrape it at a scale
+      that burdens our infrastructure, or republish substantial portions of our content without
+      permission. Content on this site is owned by {SITE.name} or its licensors and is protected by
+      applicable law.
+    </p>
+
+    <h2>Limitation of liability</h2>
+    <p>
+      To the fullest extent permitted by law, {SITE.name} and its operators are not liable for any
+      loss or damage — including lost profits, lost capital, or business losses — arising from your
+      use of, or reliance on, anything on this site. You use the site and act on its information
+      entirely at your own risk.
+    </p>
+
+    <h2>Changes to these terms</h2>
+    <p>We may revise these terms from time to time. Continued use of the site after changes means you accept the revised terms.</p>
+
+    <p class="page-updated">Last updated: June 2026 · {SITE.domain}</p>
+  </div>
+</BaseLayout>

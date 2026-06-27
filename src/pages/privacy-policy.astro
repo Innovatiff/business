@@ -1,0 +1,83 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../config';
+---
+<BaseLayout
+  title="Privacy Policy"
+  description="ProfitPath's privacy policy: what we do and do not collect. We do not require accounts, do not store Business Finder answers, and never collect your financial information."
+  path="/privacy-policy"
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Privacy Policy' }]} />
+    <h1>Privacy Policy</h1>
+    <p class="lead">Plain-language transparency about what we collect — and the things we deliberately do not.</p>
+  </div>
+
+  <div class="container container-narrow page-body">
+    <h2>The short version</h2>
+    <ul>
+      <li><strong>No accounts.</strong> You never need to register or log in to use this site.</li>
+      <li><strong>We do not store your Business Finder answers.</strong> The finder runs entirely in your browser. Your answers are never sent to us or saved anywhere, and they disappear when you close the page.</li>
+      <li><strong>We never collect your financial information.</strong> We do not ask for income, bank details, or payment information.</li>
+      <li>We use privacy-respecting analytics to understand general site usage, and we may show advertising. Details below.</li>
+    </ul>
+
+    <h2>Information we do not collect</h2>
+    <p>
+      We do not require or request your name, email, phone number, address, or financial details to
+      browse the site or use the Business Finder. The Business Finder is fully client-side: the
+      questions you answer are processed in your browser to generate matches and are not transmitted
+      to our servers or stored.
+    </p>
+
+    <h2>Analytics</h2>
+    <p>
+      We use Google Analytics for Firebase to understand aggregate, anonymous usage — such as which
+      pages are visited and general engagement. This helps us improve the site. Analytics may set
+      cookies or similar identifiers and collect standard technical data (such as approximate
+      location, device, and browser type) as described in
+      <a href="https://policies.google.com/privacy" rel="nofollow noopener" target="_blank">Google's Privacy Policy</a>.
+      We do not send your Business Finder answers or any financial or personal information to analytics.
+    </p>
+
+    <h2>Advertising</h2>
+    <p>
+      To keep the site free, we may display advertising, including through Google AdSense. Third-party
+      advertising vendors, including Google, may use cookies to serve ads based on your prior visits
+      to this and other websites. Google's use of advertising cookies enables it and its partners to
+      serve ads to you based on your visits to our site and other sites on the internet. You can opt
+      out of personalized advertising by visiting
+      <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">Google Ads Settings</a>,
+      and you can learn about your choices at
+      <a href="https://www.aboutads.info/choices/" rel="nofollow noopener" target="_blank">aboutads.info/choices</a>.
+    </p>
+
+    <h2>Cookies</h2>
+    <p>
+      Cookies and similar technologies may be set by our analytics and (where enabled) advertising
+      providers. You can control or delete cookies through your browser settings. Disabling cookies
+      will not prevent you from reading the site or using the Business Finder.
+    </p>
+
+    <h2>If we ever add submissions</h2>
+    <p>
+      If we add features that let you submit information (for example, suggesting a business idea or
+      contacting us), we will only collect what you explicitly choose to provide, we will tell you
+      what it is used for, and we will require your clear consent. We will not repurpose that
+      information for anything you did not agree to.
+    </p>
+
+    <h2>Children</h2>
+    <p>This site is intended for adults and is not directed at children under 13. We do not knowingly collect information from children.</p>
+
+    <h2>Your choices and contact</h2>
+    <p>
+      Because we do not collect personal accounts or financial data, there is very little personal
+      information for us to hold. For any privacy question, contact us via our
+      <a href="/contact">contact page</a>.
+    </p>
+
+    <p class="page-updated">Last updated: June 2026 · {SITE.domain}</p>
+  </div>
+</BaseLayout>

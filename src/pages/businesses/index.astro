@@ -1,0 +1,86 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import BusinessCard from '../../components/BusinessCard.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { CATEGORIES } from '../../data/categories';
+import { FILTERS } from '../../data/filters';
+
+const all = (await getCollection('businesses')).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title),
+);
+
+// Categories that actually have at least one business yet.
+const populated = CATEGORIES.filter((c) => all.some((b) => b.data.category === c.slug));
+const quickFilters = FILTERS.filter((f) =>
+  ['businesses-under-500', 'businesses-from-home', 'businesses-no-experience', 'businesses-start-this-week', 'businesses-high-income', 'businesses-part-time'].includes(f.slug),
+);
+---
+
+<BaseLayout
+  title="Browse All Businesses — Honest Startup Costs and Earnings"
+  description="Browse every business on ProfitPath. Each one has real startup costs, realistic earnings, time to first income, and an honest difficulty rating."
+  path="/businesses"
+>
+  <div class="container browse-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Businesses' }]} />
+    <h1>Browse every business</h1>
+    <p class="lead">
+      {all.length} honest business breakdowns and counting — each with real startup costs, realistic
+      earnings, and a straight assessment of difficulty and risk. Filter by category or your situation.
+    </p>
+
+    <div class="browse-filters">
+      <span class="browse-filters-label">By category:</span>
+      {populated.map((c) => <a href={`/${c.slug}`} class="tag tag-link">{c.shortName}</a>)}
+    </div>
+    <div class="browse-filters">
+      <span class="browse-filters-label">By situation:</span>
+      {quickFilters.map((f) => <a href={`/${f.slug}`} class="tag tag-link">{f.shortName}</a>)}
+    </div>
+  </div>
+
+  <div class="container section-tight">
+    <div class="grid grid-3">
+      {all.map((b) => <BusinessCard business={b} />)}
+    </div>
+  </div>
+
+  <div class="container">
+    <AdSlot slot="browse-bottom" />
+  </div>
+</BaseLayout>
+
+<style>
+  .browse-head {
+    padding-top: var(--space-8);
+  }
+  .browse-head .lead {
+    max-width: 65ch;
+  }
+  .browse-filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .browse-filters-label {
+    font-family: var(--font-display);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    font-weight: 700;
+    margin-right: 0.25rem;
+  }
+  .tag-link {
+    transition: border-color 0.12s ease, color 0.12s ease;
+  }
+  .tag-link:hover {
+    border-color: var(--green);
+    color: var(--green-dark);
+    text-decoration: none;
+  }
+</style>

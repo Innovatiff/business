@@ -1,0 +1,99 @@
+---
+import { money } from '../lib/format';
+import type { CollectionEntry } from 'astro:content';
+
+export interface Props {
+  items: CollectionEntry<'businesses'>['data']['startupCostsItemized'];
+  startupCostLow: number;
+  startupCostHigh: number;
+}
+const { items, startupCostLow, startupCostHigh } = Astro.props;
+---
+
+<div class="cost-table-wrap">
+  <table class="cost-table">
+    <thead>
+      <tr>
+        <th scope="col">Item</th>
+        <th scope="col" class="num">Low</th>
+        <th scope="col" class="num">High</th>
+        <th scope="col">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {items.map((it) => (
+        <tr>
+          <th scope="row">{it.item}</th>
+          <td class="num figure">{it.low === 0 ? 'Free' : money(it.low)}</td>
+          <td class="num figure">{money(it.high)}</td>
+          <td class="notes">
+            {it.annual && <span class="tag">Annual</span>}
+            {it.optional && <span class="tag tag-optional">Can skip at first</span>}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row">Realistic total to start</th>
+        <td class="num figure">{money(startupCostLow)}</td>
+        <td class="num figure">{money(startupCostHigh)}</td>
+        <td class="notes muted">Minimum vs. comfortable budget</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+<style>
+  .cost-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: #fff;
+  }
+  .cost-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    min-width: 480px;
+  }
+  .cost-table th,
+  .cost-table td {
+    text-align: left;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .cost-table thead th {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    background: var(--surface);
+  }
+  .cost-table tbody th {
+    font-weight: 600;
+    color: var(--navy);
+  }
+  .cost-table .num {
+    text-align: right;
+    white-space: nowrap;
+  }
+  .cost-table tfoot th,
+  .cost-table tfoot td {
+    background: var(--navy-tint);
+    font-weight: 800;
+    color: var(--navy);
+    border-bottom: none;
+  }
+  .notes {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+  .tag-optional {
+    color: var(--amber);
+    border-color: #fde68a;
+    background: var(--amber-tint);
+  }
+</style>

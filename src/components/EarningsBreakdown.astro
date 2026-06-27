@@ -1,0 +1,71 @@
+---
+import type { CollectionEntry } from 'astro:content';
+export interface Props {
+  earnings: CollectionEntry<'businesses'>['data']['realEarnings'];
+}
+const { earnings } = Astro.props;
+
+const rows = [
+  { label: 'Year one (beginner)', value: earnings.yearOne },
+  { label: 'Experienced operators', value: earnings.experienced },
+  { label: 'Top earners', value: earnings.topEarners },
+  { label: 'Per hour of actual work', value: earnings.perHour },
+];
+---
+
+<div class="earnings">
+  {rows.map((r) => (
+    <div class="earnings-row">
+      <span class="earnings-label">{r.label}</span>
+      <p class="earnings-value">{r.value}</p>
+    </div>
+  ))}
+  {earnings.whatAffectsMost && (
+    <div class="earnings-affects">
+      <span class="earnings-label">What affects earnings most</span>
+      <p>{earnings.whatAffectsMost}</p>
+    </div>
+  )}
+</div>
+
+<style>
+  .earnings {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: #fff;
+  }
+  .earnings-row {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .earnings-label {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--green-dark);
+  }
+  .earnings-value {
+    margin: 0;
+    color: var(--slate);
+  }
+  .earnings-affects {
+    padding: 1rem 1.25rem;
+    background: var(--surface);
+  }
+  .earnings-affects p {
+    margin: 0.3rem 0 0;
+    color: var(--slate);
+  }
+  @media (max-width: 640px) {
+    .earnings-row {
+      grid-template-columns: 1fr;
+      gap: 0.25rem;
+    }
+  }
+</style>

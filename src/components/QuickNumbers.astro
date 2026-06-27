@@ -1,0 +1,119 @@
+---
+import { moneyRange, monthlyRange } from '../lib/format';
+import DifficultyBadge from './DifficultyBadge.astro';
+import type { CollectionEntry } from 'astro:content';
+
+export interface Props {
+  data: CollectionEntry<'businesses'>['data'];
+}
+const { data } = Astro.props;
+---
+
+<section class="quick-numbers" aria-label="Key numbers at a glance">
+  <div class="qn-grid">
+    <div class="qn-cell">
+      <span class="qn-label">Startup cost</span>
+      <span class="qn-value figure">{moneyRange(data.startupCostLow, data.startupCostHigh)}</span>
+    </div>
+    <div class="qn-cell">
+      <span class="qn-label">Realistic monthly earnings</span>
+      <span class="qn-value figure figure-green">{monthlyRange(data.monthlyEarningsLow, data.monthlyEarningsHigh)}</span>
+    </div>
+    <div class="qn-cell">
+      <span class="qn-label">Time to first income</span>
+      <span class="qn-value">{data.timeToFirstIncome}</span>
+    </div>
+    <div class="qn-cell">
+      <span class="qn-label">Difficulty</span>
+      <span class="qn-value"><DifficultyBadge level={data.difficultyLevel} /></span>
+    </div>
+  </div>
+  <div class="qn-row">
+    <div class="qn-note">
+      <span class="qn-label">Best for</span>
+      <p>{data.bestFor}</p>
+    </div>
+    <div class="qn-note qn-risk">
+      <span class="qn-label">Biggest risk</span>
+      <p>{data.biggestRisk}</p>
+    </div>
+  </div>
+  <p class="qn-foot">
+    Ranges reflect realistic outcomes across reported data — not best-case promises.
+    See the full earnings breakdown below.
+  </p>
+</section>
+
+<style>
+  .quick-numbers {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-top: 4px solid var(--navy);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-md);
+    padding: 1.5rem;
+  }
+  .qn-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+  }
+  .qn-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding-right: 1rem;
+    border-right: 1px solid var(--border);
+  }
+  .qn-cell:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+  .qn-label {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .qn-value {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--navy);
+  }
+  .qn-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border);
+  }
+  .qn-note p {
+    margin: 0.25rem 0 0;
+    color: var(--slate);
+    font-size: 0.95rem;
+  }
+  .qn-risk .qn-label {
+    color: var(--red);
+  }
+  .qn-foot {
+    margin: 1.1rem 0 0;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  @media (max-width: 760px) {
+    .qn-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .qn-cell {
+      border-right: none;
+      padding-right: 0;
+    }
+    .qn-row {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

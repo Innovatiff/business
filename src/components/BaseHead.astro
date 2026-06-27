@@ -1,0 +1,79 @@
+---
+/**
+ * Global <head>. Single source of truth for SEO tags, Open Graph, and the
+ * (currently disabled) AdSense script. After AdSense approval, set
+ * PUBLIC_ADSENSE_ENABLED=true and PUBLIC_ADSENSE_CLIENT — the script then
+ * loads site-wide automatically because this component is in the base layout.
+ */
+import { SITE, ADSENSE } from '../config';
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description: string;
+  /** Path-only canonical, e.g. "/businesses/pressure-washing-business". */
+  path?: string;
+  /** Optional structured data objects (JSON-LD). */
+  jsonLd?: Record<string, unknown>[];
+  noindex?: boolean;
+  ogType?: string;
+}
+
+const { title, description, path = '', jsonLd = [], noindex = false, ogType = 'website' } = Astro.props;
+
+const canonical = new URL(path || Astro.url.pathname, SITE.url).href.replace(/\/$/, '') || SITE.url;
+const ogImage = new URL('/og-default.svg', SITE.url).href;
+const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content={Astro.generator} />
+
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+
+<!-- Open Graph -->
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:type" content={ogType} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:locale" content={SITE.locale} />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<!-- Icons & theme -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="theme-color" content="#0f172a" />
+
+<!-- Performance hints -->
+<link rel="sitemap" href="/sitemap-index.xml" />
+
+<!-- Structured data -->
+{
+  jsonLd.map((obj) => (
+    <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+  ))
+}
+
+<!--
+  Google AdSense. DISABLED by default and only injected after approval.
+  Controlled entirely by environment config in src/config.ts.
+-->
+{
+  ADSENSE.enabled && ADSENSE.client && (
+    <script
+      async
+      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE.client}`}
+      crossorigin="anonymous"
+    />
+  )
+}

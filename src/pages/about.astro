@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import DisclaimerBox from '../components/DisclaimerBox.astro';
+import { SITE } from '../config';
+---
+<BaseLayout
+  title="About ProfitPath"
+  description="ProfitPath is an honest business reference: real startup costs, realistic earnings, and straight talk about difficulty and failure — with no courses to sell and no affiliate pressure."
+  path="/about"
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
+    <h1>About ProfitPath</h1>
+    <p class="lead">A serious, honest reference for anyone seriously considering starting a business.</p>
+  </div>
+
+  <div class="container container-narrow page-body">
+    <h2>Why this site exists</h2>
+    <p>
+      Most "business ideas" content online is built to sell you something — a course, a coaching
+      program, an affiliate link, or a dream. The numbers are cherry-picked, the failures are
+      hidden, and the hard parts are glossed over. We built {SITE.name} to be the opposite: a
+      practical reference that respects your intelligence and your real circumstances.
+    </p>
+    <p>
+      Every business we cover gets the same honest treatment — what it actually costs to start,
+      what it realistically earns, how long it really takes to see income, what skills it truly
+      requires, and what most people get wrong when they try it. We show the full realistic range,
+      not the best case. If a business is hard, capital-intensive, or fails often, we say so.
+    </p>
+
+    <h2>What makes us different</h2>
+    <ul>
+      <li><strong>Real startup costs</strong> — itemized and realistic, not estimates pulled from thin air.</li>
+      <li><strong>Realistic earnings</strong> — based on reported data and operator accounts, not best-case scenarios.</li>
+      <li><strong>Honest failure analysis</strong> — what goes wrong, why people quit, and how to avoid it.</li>
+      <li><strong>No courses to sell</strong> — no upsells, no affiliate pressure, no "secret system."</li>
+      <li><strong>Written for real constraints</strong> — real budgets, real time, real skills.</li>
+    </ul>
+
+    <h2>How we make money</h2>
+    <p>
+      We believe in being transparent about this. {SITE.name} is supported by advertising. We may
+      display ads from advertising networks (such as Google AdSense) to keep the site free and
+      independent. Ads are clearly labeled, kept away from the data and tools so they never confuse
+      a financial decision, and never disguised as recommendations. We do not sell courses, and our
+      business breakdowns are not influenced by advertisers.
+    </p>
+
+    <h2>Our standard</h2>
+    <p>
+      The measure of success for any page on this site is simple: when you finish reading, you
+      should be able to say, "Now I actually know whether this is right for me, and exactly what I
+      need to do to start." Everything we publish is built toward that moment.
+    </p>
+    <p>
+      Want to know exactly how we put each page together? Read
+      <a href="/how-we-research-businesses">how we research businesses</a> and our
+      <a href="/data-sources">data sources</a>.
+    </p>
+
+    <div style="margin-top: 2rem;">
+      <DisclaimerBox />
+    </div>
+  </div>
+</BaseLayout>

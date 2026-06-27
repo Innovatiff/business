@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+---
+<BaseLayout
+  title="Data Sources"
+  description="The categories of sources ProfitPath uses for startup costs, earnings, and difficulty — government data, industry reports, cost guides, and operator accounts."
+  path="/data-sources"
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Data Sources' }]} />
+    <h1>Data sources</h1>
+    <p class="lead">Where our numbers come from — and how to read them honestly.</p>
+  </div>
+
+  <div class="container container-narrow page-body">
+    <p>
+      We draw on several categories of sources for the costs, earnings, timelines, and difficulty
+      ratings on each business page. Specific sources are cited at the bottom of each individual
+      business page. Broadly, we rely on:
+    </p>
+
+    <h2>Government and labor statistics</h2>
+    <p>
+      Public data such as the U.S. Bureau of Labor Statistics provides grounding for self-employment
+      incomes, wages in related occupations, and industry employment trends. These are useful for
+      realistic baselines and sanity checks.
+    </p>
+
+    <h2>Industry and trade reports</h2>
+    <p>
+      Established companies, trade associations, and market researchers publish reports on specific
+      industries — pricing trends, demand, and operating benchmarks. We use these for typical
+      pricing and market context.
+    </p>
+
+    <h2>Reputable cost and pricing guides</h2>
+    <p>
+      Services that aggregate real quotes and consumer pricing help us estimate what customers
+      actually pay for a given job or product, which in turn informs realistic revenue ranges.
+    </p>
+
+    <h2>Operator accounts and communities</h2>
+    <p>
+      We review firsthand accounts from people actually running these businesses — interviews,
+      industry forums, and communities where operators share real numbers. We use these to
+      reality-check ranges and to surface what people genuinely get wrong, not as precise figures.
+    </p>
+
+    <h2>How to read our numbers</h2>
+    <p>
+      All figures are presented as <strong>ranges and informed estimates</strong>, not guarantees.
+      Sources sometimes disagree, data ages, and your local market may differ. When sources
+      conflict, we lean toward the more conservative, realistic figure rather than the most
+      flattering one. Always verify costs and regulations for your specific location before
+      committing money.
+    </p>
+
+    <p>
+      Curious about the full process? See <a href="/how-we-research-businesses">how we research businesses</a>.
+    </p>
+  </div>
+</BaseLayout>

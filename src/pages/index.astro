@@ -1,0 +1,313 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BusinessCard from '../components/BusinessCard.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { CATEGORIES } from '../data/categories';
+import { SITE, DISCLAIMER } from '../config';
+
+const all = await getCollection('businesses');
+const byTitle = Object.fromEntries(all.map((b) => [b.data.slug, b]));
+
+// Featured order requested in the brief (falls back gracefully to whatever exists).
+const featuredSlugs = [
+  'pressure-washing-business',
+  'bookkeeping-business',
+  'lawn-care-and-landscaping-business',
+  'amazon-fba-business',
+  'house-cleaning-business',
+  'freelance-copywriting-business',
+  'mobile-notary-business',
+  'dropshipping-business',
+  'dog-walking-and-pet-sitting-business',
+  'hvac-business',
+];
+let featured = featuredSlugs.map((s) => byTitle[s]).filter(Boolean);
+if (featured.length < 6) {
+  featured = all.filter((b) => b.data.featured).slice(0, 10);
+}
+if (featured.length === 0) featured = all.slice(0, 10);
+
+const situations = [
+  { label: 'I have under $500 to invest', href: '/businesses-under-500' },
+  { label: 'I have $500 to $5,000', href: '/businesses-under-5000' },
+  { label: 'I have $5,000 to $25,000', href: '/businesses-under-25000' },
+  { label: 'I have $25,000 or more', href: '/businesses-higher-investment' },
+  { label: 'I want something I can do from home', href: '/businesses-from-home' },
+  { label: 'I want something with no experience required', href: '/businesses-no-experience' },
+  { label: 'I want something with high income potential', href: '/businesses-high-income' },
+  { label: 'I want something I can start this week', href: '/businesses-start-this-week' },
+  { label: 'I want something part-time', href: '/businesses-part-time' },
+  { label: 'I want something that can grow to full-time', href: '/businesses-grow-to-full-time' },
+];
+
+const differentiators = [
+  { title: 'Real startup costs', body: 'Itemized and realistic — not estimates pulled from thin air.' },
+  { title: 'Realistic earnings', body: 'Based on reported data and operator accounts, not best-case scenarios.' },
+  { title: 'Honest failure analysis', body: 'What actually goes wrong, why people quit, and how to avoid it.' },
+  { title: 'No courses to sell', body: 'No upsells, no affiliate pressure, no hype. Just the numbers.' },
+  { title: 'Written for real constraints', body: 'For real people with real budgets, time, and skills.' },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: SITE.url,
+    description: SITE.description,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${SITE.url}/businesses`,
+      'query-input': 'required name=search_term_string',
+    },
+  },
+];
+---
+
+<BaseLayout
+  title={`${SITE.name} — Find a Real Business You Can Actually Start, With Honest Numbers`}
+  description={SITE.description}
+  path="/"
+  jsonLd={jsonLd}
+>
+  <!-- HERO -->
+  <section class="hero bg-navy">
+    <div class="container hero-inner">
+      <p class="hero-eyebrow">Honest business research · no hype · no courses to sell</p>
+      <h1>Find a real business you can actually start — with honest numbers, not hype.</h1>
+      <p class="hero-sub">
+        Every business on this site comes with real startup costs, realistic earnings, time to
+        profit, and exactly what it takes to make it work.
+      </p>
+      <div class="hero-cta">
+        <a href="/find-my-business" class="btn btn-primary btn-lg">Find the Right Business for Me</a>
+      </div>
+      <p class="hero-note">Free · no account · we never store your answers</p>
+    </div>
+  </section>
+
+  <AdSlot slot="home-below-hero" />
+
+  <!-- WHAT MAKES THIS DIFFERENT -->
+  <section class="section-tight">
+    <div class="container">
+      <div class="diff-strip">
+        {differentiators.map((d) => (
+          <div class="diff">
+            <span class="diff-check" aria-hidden="true">✓</span>
+            <div>
+              <strong>{d.title}</strong>
+              <p>{d.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- BROWSE BY SITUATION -->
+  <section class="section bg-surface">
+    <div class="container">
+      <p class="eyebrow">Start where you are</p>
+      <h2>Browse by your situation</h2>
+      <p class="lead">Pick the line that sounds most like you. We will only show businesses that honestly fit.</p>
+      <div class="situation-grid">
+        {situations.map((s) => (
+          <a href={s.href} class="situation card">
+            <span>{s.label}</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- BROWSE BY CATEGORY -->
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Explore the library</p>
+      <h2>Browse by category</h2>
+      <p class="lead">Ten categories, built to grow into hundreds of honest business breakdowns.</p>
+      <div class="grid grid-3 category-grid">
+        {CATEGORIES.map((c) => (
+          <a href={`/${c.slug}`} class="cat-card card">
+            <h3>{c.name}</h3>
+            <p>{c.description.split('. ')[0]}.</p>
+            <span class="cat-link">Explore {c.shortName} →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED BUSINESSES -->
+  <section class="section bg-surface">
+    <div class="container">
+      <p class="eyebrow">Honest breakdowns</p>
+      <h2>Featured business pages</h2>
+      <p class="lead">Real costs, real earnings, real difficulty. Start with one of these.</p>
+      <div class="grid grid-3">
+        {featured.map((b) => <BusinessCard business={b} />)}
+      </div>
+      <div class="text-center" style="margin-top: 2rem;">
+        <a href="/businesses" class="btn btn-secondary">Browse all businesses →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HONESTY DISCLAIMER -->
+  <section class="section-tight">
+    <div class="container container-narrow">
+      <div class="honesty card">
+        <h3>The honesty disclaimer</h3>
+        <p>{DISCLAIMER}</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding-block: clamp(3.5rem, 8vw, 6rem);
+  }
+  .hero-inner {
+    max-width: 820px;
+  }
+  .hero-eyebrow {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #4ade80;
+    margin-bottom: 1rem;
+  }
+  .hero h1 {
+    color: #fff;
+    font-size: clamp(2.1rem, 5vw, 3.4rem);
+    margin-bottom: 1.1rem;
+  }
+  .hero-sub {
+    font-size: 1.25rem;
+    color: #cbd5e1;
+    max-width: 60ch;
+    margin-bottom: 1.75rem;
+  }
+  .hero-note {
+    margin-top: 1rem;
+    color: #94a3b8;
+    font-size: 0.9rem;
+  }
+  .diff-strip {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.25rem;
+  }
+  .diff {
+    display: flex;
+    gap: 0.6rem;
+  }
+  .diff strong {
+    display: block;
+    font-family: var(--font-display);
+    color: var(--navy);
+    margin-bottom: 0.2rem;
+  }
+  .diff p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  .diff-check {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--green-tint);
+    color: var(--green-dark);
+    font-weight: 800;
+    font-size: 0.8rem;
+  }
+  .situation-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.85rem;
+    margin-top: 1.5rem;
+  }
+  .situation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    color: var(--navy);
+    font-weight: 600;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+  }
+  .situation:hover {
+    text-decoration: none;
+    border-color: var(--green);
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+  }
+  .situation .arrow {
+    color: var(--green-dark);
+    font-weight: 800;
+  }
+  .category-grid {
+    margin-top: 1.5rem;
+  }
+  .cat-card {
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+  }
+  .cat-card:hover {
+    text-decoration: none;
+    border-color: var(--slate);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+  .cat-card h3 {
+    margin-bottom: 0.5rem;
+  }
+  .cat-card p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    flex: 1 0 auto;
+  }
+  .cat-link {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--green-dark);
+    font-size: 0.9rem;
+  }
+  .honesty {
+    padding: 1.75rem;
+    border-left: 4px solid var(--amber);
+  }
+  .honesty h3 {
+    margin-bottom: 0.6rem;
+  }
+  .honesty p {
+    margin: 0;
+    color: var(--slate);
+  }
+  @media (max-width: 900px) {
+    .diff-strip {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 560px) {
+    .situation-grid {
+      grid-template-columns: 1fr;
+    }
+    .diff-strip {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

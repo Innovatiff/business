@@ -1,0 +1,71 @@
+---
+export interface Props {
+  faqs: { question: string; answer: string }[];
+}
+const { faqs } = Astro.props;
+---
+<div class="faq">
+  {faqs.map((faq) => (
+    <details class="faq-item">
+      <summary>
+        <span>{faq.question}</span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="faq-answer"><p>{faq.answer}</p></div>
+    </details>
+  ))}
+</div>
+
+<style>
+  .faq {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: #fff;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--border);
+  }
+  .faq-item:last-child {
+    border-bottom: none;
+  }
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+    padding: 1.05rem 1.25rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--navy);
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary:hover {
+    background: var(--surface);
+  }
+  .chev {
+    flex: none;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid var(--muted);
+    border-bottom: 2px solid var(--muted);
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+    margin-top: -4px;
+  }
+  .faq-item[open] .chev {
+    transform: rotate(-135deg);
+    margin-top: 4px;
+  }
+  .faq-answer {
+    padding: 0 1.25rem 1.2rem;
+    color: var(--slate);
+  }
+  .faq-answer p {
+    margin: 0;
+  }
+</style>

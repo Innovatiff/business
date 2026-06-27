@@ -1,0 +1,144 @@
+---
+import { SITE, FOOTER_NAV } from '../config';
+import { CATEGORIES } from '../data/categories';
+const year = 2026;
+const topCategories = CATEGORIES.slice(0, 6);
+---
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-text">Profit<span class="brand-accent">Path</span></span>
+      <p class="footer-tag">{SITE.promise}</p>
+      <p class="footer-mini muted">
+        A serious, honest business reference — not a get-rich-quick site. No courses to sell.
+        No affiliate pressure.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="/find-my-business">Find My Business</a></li>
+        <li><a href="/businesses">Browse All Businesses</a></li>
+        <li><a href="/businesses-under-500">Under $500 to Start</a></li>
+        <li><a href="/businesses-from-home">Run From Home</a></li>
+        <li><a href="/businesses-for-beginners">Best for Beginners</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <ul>
+        {topCategories.map((c) => (
+          <li><a href={`/${c.slug}`}>{c.name}</a></li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Trust &amp; Info</h4>
+      <ul>
+        {FOOTER_NAV.map((item) => (
+          <li><a href={item.href}>{item.label}</a></li>
+        ))}
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p class="muted">© {year} {SITE.name} · {SITE.domain}</p>
+    <p class="muted footer-disclaimer">
+      Educational information only. Not financial, legal, or investment advice. Individual
+      results vary. <a href="/disclaimer">Read the full disclaimer</a>.
+    </p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--navy);
+    color: #cbd5e1;
+    padding-top: var(--space-16);
+    margin-top: var(--space-20);
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-bottom: var(--space-12);
+  }
+  .brand-text {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: #fff;
+    letter-spacing: -0.03em;
+  }
+  .brand-accent {
+    color: var(--green);
+  }
+  .footer-tag {
+    margin-top: 0.75rem;
+    color: #e2e8f0;
+    font-weight: 500;
+    max-width: 32ch;
+  }
+  .footer-mini {
+    font-size: 0.9rem;
+    color: #94a3b8 !important;
+    max-width: 40ch;
+  }
+  .footer-col h4 {
+    color: #fff;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.9rem;
+  }
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-col li {
+    margin-bottom: 0.55rem;
+  }
+  .footer-col a {
+    color: #cbd5e1;
+    font-size: 0.95rem;
+  }
+  .footer-col a:hover {
+    color: #fff;
+  }
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding-block: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+  }
+  .footer-bottom .muted {
+    color: #94a3b8 !important;
+  }
+  .footer-disclaimer {
+    max-width: 60ch;
+  }
+  .footer-bottom a {
+    color: #cbd5e1;
+    text-decoration: underline;
+  }
+  @media (max-width: 880px) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 520px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+</style>

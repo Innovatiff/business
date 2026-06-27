@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../config';
+const subject = encodeURIComponent('Business idea submission');
+const body = encodeURIComponent(
+  'Business name/type:\n\nWhy it deserves a page:\n\nRough startup cost:\n\nRough monthly earnings:\n\nTime to first income:\n\nAnything people get wrong:\n\nAre you an operator of this business? (optional):\n',
+);
+---
+<BaseLayout
+  title="Submit a Business Idea"
+  description="Suggest a real, specific business for ProfitPath to cover. Tell us what it is, what it costs, and what it earns — and we'll research it honestly."
+  path="/submit-a-business-idea"
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Submit a Business Idea' }]} />
+    <h1>Submit a business idea</h1>
+    <p class="lead">Know a real, specific business we should cover? Tell us — we research every serious suggestion.</p>
+  </div>
+
+  <div class="container container-narrow page-body">
+    <p>
+      We are building toward hundreds of honest business breakdowns. If there is a real, specific
+      business you wish had an honest cost-and-earnings page — especially one you operate or know
+      well — we would love the suggestion. We are most interested in concrete businesses, not vague
+      ideas ("start a blog" is not specific; "mobile bike repair" is).
+    </p>
+
+    <h2>What to include</h2>
+    <ul>
+      <li>The specific business (for example, "mobile dog grooming," not "pet stuff").</li>
+      <li>Rough real numbers if you know them: startup cost, monthly earnings, time to first income.</li>
+      <li>What most people get wrong about it.</li>
+      <li>Whether you actually run this business — firsthand numbers are gold.</li>
+    </ul>
+
+    <p style="margin-top:1.5rem;">
+      <a class="btn btn-primary btn-lg" href={`mailto:${SITE.email}?subject=${subject}&body=${body}`}>
+        Email your suggestion
+      </a>
+    </p>
+
+    <h2>A note on your privacy</h2>
+    <p>
+      We do not run an account system or store form data on this site. When you email a suggestion,
+      you are choosing to share that information with us, and we will use it only to research and
+      potentially publish the business (we will not publish your personal contact details, and we
+      will not add you to any list without your explicit consent). If we ever add an on-site
+      submission form, it will ask for your clear consent and explain exactly what is collected. See
+      our <a href="/privacy-policy">privacy policy</a> for details.
+    </p>
+  </div>
+</BaseLayout>

@@ -1,0 +1,116 @@
+---
+import { moneyRange, monthlyRange } from '../lib/format';
+import { CATEGORY_MAP } from '../data/categories';
+import DifficultyBadge from './DifficultyBadge.astro';
+import type { CollectionEntry } from 'astro:content';
+
+export interface Props {
+  business: CollectionEntry<'businesses'>;
+}
+const { business } = Astro.props;
+const d = business.data;
+const category = CATEGORY_MAP[d.category];
+---
+
+<article class="biz-card card">
+  <a href={`/businesses/${d.slug}`} class="biz-card-link">
+    <div class="biz-card-head">
+      <h3 class="biz-card-title">{d.title}</h3>
+      <DifficultyBadge level={d.difficultyLevel} />
+    </div>
+    {category && <span class="biz-card-cat">{category.shortName}</span>}
+    <p class="biz-card-best">{d.bestFor}</p>
+    <dl class="biz-card-stats">
+      <div>
+        <dt>Startup cost</dt>
+        <dd class="figure">{moneyRange(d.startupCostLow, d.startupCostHigh)}</dd>
+      </div>
+      <div>
+        <dt>Monthly earnings</dt>
+        <dd class="figure figure-green">{monthlyRange(d.monthlyEarningsLow, d.monthlyEarningsHigh)}</dd>
+      </div>
+      <div>
+        <dt>First income</dt>
+        <dd>{d.timeToFirstIncome}</dd>
+      </div>
+    </dl>
+    <span class="biz-card-cta">Read the honest breakdown →</span>
+  </a>
+</article>
+
+<style>
+  .biz-card {
+    transition: box-shadow 0.15s ease, transform 0.1s ease, border-color 0.15s ease;
+    height: 100%;
+  }
+  .biz-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--slate);
+    transform: translateY(-2px);
+  }
+  .biz-card-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1.25rem;
+    color: inherit;
+  }
+  .biz-card-link:hover {
+    text-decoration: none;
+  }
+  .biz-card-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+  .biz-card-title {
+    font-size: 1.15rem;
+    margin: 0;
+    color: var(--navy);
+  }
+  .biz-card-cat {
+    display: inline-block;
+    margin-top: 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--green-dark);
+  }
+  .biz-card-best {
+    margin: 0.6rem 0 1rem;
+    color: var(--slate);
+    font-size: 0.92rem;
+    flex: 1 0 auto;
+  }
+  .biz-card-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1rem;
+    margin: 0 0 1rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--border);
+  }
+  .biz-card-stats div:first-child {
+    grid-column: 1 / -1;
+  }
+  .biz-card-stats dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .biz-card-stats dd {
+    margin: 0.1rem 0 0;
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+  .biz-card-cta {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--green-dark);
+  }
+</style>
