@@ -1,0 +1,161 @@
+{
+  "title": "AI Consulting Business",
+  "slug": "ai-consulting-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start an AI Consulting Business — Real Costs, Day Rates, and Reality",
+  "metaDescription": "Honest guide to starting an AI consulting business: advising and training companies on adopting AI tools, real day rates and retainers, and what most consultants get wrong in a fast-changing field.",
+  "startupCostLow": 500,
+  "startupCostHigh": 6000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 18000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced professionals who already understand a business domain and can translate AI into practical, trusted advice",
+  "biggestRisk": "Positioning as a generic AI expert with no real track record, in a field that changes so fast that yesterday's advice is quickly outdated",
+  "speedToIncome": "months",
+  "minWeeklyHours": 15,
+  "skills": ["tech", "teaching", "sales"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["max-income", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "An AI consulting business advises companies on how to adopt AI tools sensibly — helping them choose where AI genuinely fits, training their staff to use tools like ChatGPT, Claude, Copilot, and industry-specific software, and running light implementation such as drafting prompts, setting policies, and integrating off-the-shelf tools into existing workflows. It is distinct from a build-focused automation agency: you are selling judgment, strategy, and training rather than custom-engineered systems. Work is typically sold as scoped projects (an AI audit, a strategy roadmap, a training workshop) plus ongoing retainers for advisory support, and day rates are high because clients are paying for clarity in a confusing, fast-moving area.",
+  "dailyReality": "A typical week mixes client-facing work — discovery calls, workshops, training sessions, and strategy presentations — with behind-the-scenes preparation: assessing a client's current tools and processes, researching which AI options actually fit their situation, writing playbooks and prompt libraries, and drafting usage and governance policies. A large and often underestimated part of the job is keeping yourself current, because the tools, pricing, and capabilities shift constantly, and you also spend meaningful time on business development — proposals, follow-ups, and content that demonstrates your expertise. Much of the value you deliver is translation: turning hype and jargon into specific, safe, practical steps a non-technical team can actually follow.",
+  "startupCostsItemized": [
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Professional liability / E&O insurance", "low": 500, "high": 2000, "annual": true },
+    { "item": "AI tool subscriptions (Claude, ChatGPT, others) for testing and demos", "low": 200, "high": 1200, "annual": true },
+    { "item": "Laptop capable of running tools and presenting", "low": 0, "high": 2000, "optional": true },
+    { "item": "Website, portfolio, and professional branding", "low": 100, "high": 1500, "optional": true },
+    { "item": "Contract templates and legal review", "low": 200, "high": 1000, "optional": true },
+    { "item": "Ongoing learning (courses, conferences, certifications)", "low": 0, "high": 2000, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Income in year one is highly variable and depends heavily on your existing network and reputation. Some consultants land an early project quickly while others spend the first months building credibility for little or no income, so a realistic first year ranges from roughly $0 in slow early months to $3,000 to $8,000 per month once a few projects and a retainer or two are in place.",
+    "experienced": "Established consultants with a clear niche, referrals, and proven results commonly bill $1,000 to $3,000+ per project day, run workshops in the $2,000 to $10,000 range, and hold retainers of $2,000 to $8,000 per month per client. A solid solo practice with a few retainers and steady projects typically nets $8,000 to $18,000 per month.",
+    "topEarners": "Top independent consultants and small boutique firms with strong reputations, enterprise clients, and premium positioning earn $25,000 to $60,000+ per month, often through high day rates, multiple retainers, and selective high-value engagements. Reaching this requires a real track record, a recognized niche, referrals from respected clients, and usually years of domain credibility — not just familiarity with the latest tools.",
+    "whatAffectsMost": "Credibility and niche matter far more than tool knowledge alone. Clients pay premium rates to consultants who clearly understand their industry and can point to results; a specific, defensible positioning (AI for law firms, for marketing teams, for manufacturing operations) commands far higher rates than generic AI advice.",
+    "perHour": "Billed day rates imply $150 to $400+ per hour, but counting unbilled business development, proposals, and the constant learning the field demands, realistic blended rates for a solo consultant are often $80 to $200 per hour, rising with reputation and niche."
+  },
+  "howToStart": [
+    "Month 1: Define a specific niche where you already have credibility — an industry or function you understand deeply (marketing, legal ops, customer support, finance) — and become genuinely fluent in the AI tools that matter there. Generic AI consulting is crowded and low-trust; specific domain expertise is what clients pay for.",
+    "Month 1-2: Productize your offering into clear packages: an AI readiness audit, a strategy roadmap, a team training workshop, and an advisory retainer, each with a defined scope and price. Set up the business basics — entity, contracts, professional liability insurance, and demo accounts on the major tools.",
+    "Month 2-3: Win your first one or two clients, ideally through your existing network or a low-cost pilot, and over-deliver to earn a case study and referrals. Real, named results matter more than any marketing.",
+    "Months 3-6: Publish practical content (talks, posts, a newsletter) that demonstrates judgment, not hype, and convert project clients into ongoing retainers. Track outcomes so you can quantify the value you delivered.",
+    "Months 6-12: Raise rates as your track record grows, tighten your niche, and decide whether to stay a premium solo advisor or build toward a small team or productized training program."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Deep, current, hands-on understanding of mainstream AI tools and their real capabilities and limits",
+      "Genuine domain expertise in an industry or business function so your advice is practical and trusted",
+      "Strong communication and teaching ability to translate complex tools into clear steps for non-technical teams"
+    ],
+    "canLearn": [
+      "Productizing and scoping consulting engagements (audits, roadmaps, workshops, retainers)",
+      "Sales, proposals, and pricing for advisory work",
+      "Light implementation skills such as prompt design, tool integration, and writing usage policies"
+    ],
+    "separators": [
+      "A specific, defensible niche and named client results that justify premium day rates",
+      "The judgment to tell clients where AI does not fit, which builds the trust that wins retainers and referrals",
+      "Keeping genuinely current in a fast-changing field so your advice is never out of date or naive"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Positioning as a generic AI expert with no domain depth or track record, which clients have learned to distrust",
+    "Overpromising and hyping AI as a cure-all instead of giving honest, scoped advice including where it should not be used",
+    "Selling vague advisory time instead of clear, productized outcomes clients can understand and buy",
+    "Underestimating how fast the field moves and giving advice that is outdated within months",
+    "Ignoring real risks — data privacy, security, accuracy, compliance, and AI governance — that clients are right to worry about",
+    "Confusing this with a build-focused automation agency and overcommitting to technical implementation they cannot reliably deliver"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Subscriptions to major AI tools", "note": "Claude, ChatGPT, Copilot, and relevant industry tools — you must use what you recommend.", "low": 200, "high": 1200 },
+    { "item": "Capable laptop", "note": "For testing tools, building demos, and presenting; nothing exotic required.", "low": 0, "high": 2000 },
+    { "item": "Presentation and workshop tools", "note": "Slides, screen-share, and collaboration tools for training sessions.", "low": 0, "high": 300 },
+    { "item": "CRM and proposal tools", "note": "To manage a pipeline of prospects, proposals, and retainers.", "low": 0, "high": 600 },
+    { "item": "Contract and engagement templates", "note": "Clear scopes of work protect you and the client; worth a one-time legal review.", "low": 200, "high": 1000 },
+    { "item": "Professional liability / E&O insurance", "note": "Advice carries liability; appropriate coverage is prudent, especially with enterprise clients.", "low": 500, "high": 2000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Your existing professional network and former colleagues, who already trust your judgment in your domain",
+      "Practical, credible content (talks, LinkedIn posts, a newsletter, workshops) that demonstrates judgment rather than hype",
+      "Speaking at industry events, webinars, and association meetings where decision-makers gather",
+      "Referrals and named case studies from early clients you over-delivered for",
+      "Partnerships with agencies, software vendors, or consultants who serve your niche and need an AI specialist to refer to"
+    ],
+    "whereCustomersAre": "Your clients are business owners, operations leaders, and department heads at small and mid-sized companies who know they should be using AI but lack the internal expertise and are wary of being misled. They are reachable through industry networks, professional communities, referrals, and content that signals trustworthy, practical expertise.",
+    "timeToClientBase": "With an existing network and clear niche, first paid work often comes within one to three months. Without that, building enough credibility to win premium engagements can take six months or more. A stable base of projects and retainers usually develops over the first year as case studies and referrals compound.",
+    "wasteOfTime": "Broad cold outreach and generic AI hype content rarely work and can hurt credibility. Buyers in this space are wary of overclaiming; demonstrated judgment, niche depth, and referrals convert far better than volume marketing."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and faster to full-time income than many service businesses because day rates are high. A solo consultant with a couple of retainers and steady projects can reach strong full-time income, though it remains capped by your billable hours and the constant time the field demands for staying current.",
+    "hireAndStepBack": "Possible but demanding. You can hire associate consultants or trainers and step back into a lead-advisor and business-development role, but the value is tied to expertise and trust, which are hard to transfer. Productized training programs and courses scale better than purely bespoke advisory work.",
+    "sellable": "A boutique consultancy with recurring retainers, documented methodologies, a team, and a recognized brand can be sold, though buyers scrutinize how dependent the business is on the founder. A pure solo advisory practice is largely your personal reputation and is much harder to sell.",
+    "whatScalingRequires": "Productized offerings, documented methodologies, a recognized niche and brand, a pipeline that does not depend solely on your time, and ideally a small team or training products. The fast-changing nature of the field also means scaling requires ongoing investment in staying current across the whole team."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You already have deep expertise in an industry or business function plus genuine, current AI fluency",
+      "You can communicate clearly and teach non-technical teams without hype",
+      "You are comfortable with sales, proposals, and premium pricing for advisory work",
+      "You enjoy continuous learning and can keep pace with a fast-changing field"
+    ],
+    "poorFit": [
+      "Your only qualification is enthusiasm for AI, with no domain depth or track record",
+      "You dislike business development and selling, which is central to consulting",
+      "You want stable, predictable income immediately rather than a variable ramp",
+      "You are uncomfortable telling clients honestly where AI does not fit"
+    ],
+    "askYourself": [
+      "What specific domain or industry can I credibly advise on, beyond just knowing the tools?",
+      "Can I keep genuinely current in a field that changes month to month, and build advice that ages well?",
+      "Am I prepared to sell, scope, and price advisory work, not just deliver it?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is AI consulting different from an AI automation agency?",
+      "answer": "An AI consulting business sells strategy, judgment, and training — helping companies decide where AI fits, training their staff, and doing light implementation like prompts and policies. A build-focused automation agency engineers custom systems and integrations. Consulting leads with advice and outcomes; an agency leads with technical delivery. Many consultants deliberately stay out of heavy build work and refer it to specialists."
+    },
+    {
+      "question": "Do I need to be a technical or AI engineer to do this?",
+      "answer": "No, and that is a key distinction. You need deep, current, hands-on fluency with mainstream AI tools and, crucially, real expertise in a business domain so your advice is practical. Many successful AI consultants come from marketing, operations, legal, or finance backgrounds rather than engineering. If a project needs heavy custom engineering, you can partner with or refer to a build specialist."
+    },
+    {
+      "question": "What can I realistically charge?",
+      "answer": "Experienced consultants commonly bill $1,000 to $3,000+ per project day, run workshops in the $2,000 to $10,000 range, and hold monthly retainers of $2,000 to $8,000 per client. Beginners charge less while building a track record. Rates depend heavily on your niche and demonstrated results — generic AI advice commands far less than credible, industry-specific expertise."
+    },
+    {
+      "question": "Isn't the field changing too fast to consult on?",
+      "answer": "The pace of change is exactly why clients pay for help, but it is also the biggest risk to your credibility. You must invest real, ongoing time in staying current, frame advice around durable principles rather than this week's tool, and be honest about uncertainty. Consultants who give confident, soon-outdated advice lose trust quickly in this market."
+    },
+    {
+      "question": "How do I find my first clients?",
+      "answer": "Most early clients come from your existing professional network and a clear niche, often through a low-cost pilot you over-deliver on to earn a case study and referrals. Practical content that demonstrates judgment, speaking at industry events, and partnerships with vendors or agencies also work. Broad cold outreach and hype-heavy marketing tend to underperform."
+    },
+    {
+      "question": "What risks and liabilities should I be aware of?",
+      "answer": "Advising on AI means engaging with data privacy, security, accuracy, intellectual property, and emerging AI governance and compliance issues. Give honest guidance on these rather than glossing over them, use clear contracts and scopes of work, and consider professional liability (errors and omissions) insurance, especially with larger clients. Taking risk seriously is itself part of the value clients pay for."
+    },
+    {
+      "question": "Can I start this part-time alongside a job?",
+      "answer": "Yes, many consultants start part-time, taking on a project or two and building case studies before going full-time. The flexible, project-based nature suits this, though client meetings and workshops require availability during business hours. The high day rates mean even part-time engagements can be meaningful while you build a reputation."
+    }
+  ],
+  "similarBusinesses": [
+    "automation-agency-business",
+    "data-analytics-consulting-business",
+    "it-support-business",
+    "online-course-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Management Analysts (consultants) occupational and wage data",
+    "Published consulting day-rate and retainer benchmarks from independent consultant and freelance platforms",
+    "Industry reporting on enterprise AI adoption, training demand, and consulting market trends",
+    "Independent consultant communities and forums for reported day rates, retainers, and engagement structures"
+  ],
+  "lastReviewed": "2026-06"
+}

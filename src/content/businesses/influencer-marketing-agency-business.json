@@ -1,0 +1,162 @@
+{
+  "title": "Influencer Marketing Agency",
+  "slug": "influencer-marketing-agency-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start an Influencer Marketing Agency — Costs, Earnings, Steps",
+  "metaDescription": "Honest breakdown of starting an influencer marketing agency: real startup costs, realistic monthly earnings connecting brands with creators, how to find clients, and what most people get wrong.",
+  "startupCostLow": 400,
+  "startupCostHigh": 5000,
+  "monthlyEarningsLow": 1500,
+  "monthlyEarningsHigh": 20000,
+  "timeToFirstIncome": "2 to 4 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Relationship-driven people who can manage creators and brands at once and stay calm when a campaign goes sideways",
+  "biggestRisk": "A campaign underdelivers or a creator goes off-message, and the brand blames you while you have little direct control over either side",
+  "speedToIncome": "months",
+  "minWeeklyHours": 20,
+  "skills": ["sales", "people", "creative"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["max-income", "flexibility", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "An influencer marketing agency connects brands with content creators and runs the campaigns between them. You source and vet creators on Instagram, TikTok, YouTube, and increasingly newsletters and podcasts; negotiate rates and deliverables; manage briefs, contracts, and FTC disclosure; coordinate product seeding and timelines; and report on results. You sit in the middle of two parties with different incentives — brands want measurable performance and brand safety, creators want fair pay and creative freedom — and your value is making that relationship work smoothly at scale. Revenue usually comes from a project fee or monthly retainer plus a markup on creator fees or a percentage of campaign budget.",
+  "dailyReality": "Your day is mostly communication and coordination. You are negotiating rates with creators, chasing content approvals, reviewing drafts against the brand brief, confirming FTC #ad disclosures, tracking shipping of seeded product, and herding everyone toward go-live dates. When campaigns are live you monitor posts, screenshot deliverables, and compile performance — reach, engagement, clicks, promo-code redemptions, and conversions where trackable. Expect a steady stream of small fires: a creator posts late, a brand wants last-minute changes, a discount code breaks, or a post needs to come down. A meaningful share of time goes to relationship maintenance with creators you want to use again, because a reliable roster is your real asset.",
+  "startupCostsItemized": [
+    { "item": "Creator discovery / database tool (Modash, Upfluence, or manual at first)", "low": 0, "high": 3000, "annual": true, "optional": true },
+    { "item": "Contract templates + FTC-compliant agreement review", "low": 0, "high": 800 },
+    { "item": "Project management + CRM (Notion, Airtable, ClickUp)", "low": 0, "high": 360, "annual": true },
+    { "item": "Portfolio / case-study site", "low": 0, "high": 400, "optional": true },
+    { "item": "Link tracking + promo-code analytics (Bitly, GA4, affiliate platform)", "low": 0, "high": 600, "annual": true, "optional": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Business insurance (general liability / E&O)", "low": 400, "high": 1200, "annual": true, "optional": true },
+    { "item": "Float for creator payments before client pays (working capital)", "low": 0, "high": 2000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Beginners often run one or two small campaigns at a time and earn roughly $1,500 to $4,000 per month in year one, frequently on a project basis ($1,500 to $5,000 per campaign) plus a markup on creator fees. Many start by working with micro-influencers, where rates are lower and the math is easier to manage.",
+    "experienced": "With repeat brand clients on retainers and several concurrent campaigns, experienced operators and small agencies commonly report $8,000 to $25,000 per month. Income is a mix of retainers, per-campaign fees, and a markup or percentage (commonly 10 to 20 percent of creator and budget spend).",
+    "topEarners": "Established agencies managing large campaigns for recognizable brands, with account managers and a vetted creator network, gross $50,000 to $250,000+ per month. Reaching that requires a team, a strong creator roster, and the working capital to float five- and six-figure campaign budgets — and it lives and dies on a few key brand relationships.",
+    "whatAffectsMost": "Brand budgets and the quality of your creator roster matter most. A single retained brand running monthly campaigns is worth more than a dozen one-off micro deals. Your reputation for delivering on time, on-brief, and on-compliance is what turns one campaign into an ongoing relationship.",
+    "perHour": "Effective rates are wide because campaigns are lumpy — often $50 to $150 per hour blended for solo operators once you have a roster and templates. Early on, sourcing and negotiating eat a lot of unpaid time, dragging the real rate lower."
+  },
+  "howToStart": [
+    "Month 1: Pick a niche (beauty, fitness, food, gaming, B2B SaaS) and start building a private roster of creators in it — follow them, note their rates and engagement, and open friendly relationships before you need them. Learn FTC disclosure rules and get solid contract templates.",
+    "Month 1-2: Run one campaign at cost or low margin for a brand you can reach, even a small local or DTC brand, in exchange for a documented case study. Use micro-influencers so the budget is manageable and the relationships are easier to land.",
+    "Month 2-3: Build a simple, repeatable process: brief template, creator outreach, rate negotiation, contract, content approval checklist, go-live tracking, and a results report. Decide your pricing — retainer plus markup, or per-campaign fee.",
+    "Days 90-150: Turn your first result into a pitch deck and target brands of similar size in your niche. Set written expectations about what you control (sourcing, coordination, compliance) versus what you do not (a creator's exact performance).",
+    "Ongoing: Protect your downside — use contracts with usage rights, disclosure requirements, and reshoot/penalty clauses, and never personally guarantee a creator's results. Keep nurturing your best creators so your roster stays reliable."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Relationship and people skills — you manage two demanding parties with different incentives",
+      "Sales ability to land brand budgets and negotiate creator rates that leave you a margin",
+      "Organization to track many moving pieces, deadlines, contracts, and disclosures at once"
+    ],
+    "canLearn": [
+      "FTC disclosure rules and contract/usage-rights basics for sponsored content",
+      "Creator discovery tools and how to read engagement quality versus follower count",
+      "Campaign measurement — promo codes, UTM links, affiliate tracking, and reporting"
+    ],
+    "separators": [
+      "A vetted creator roster you trust to deliver, which lets you say yes to campaigns fast",
+      "Spotting fake engagement and the wrong creator-brand fit before money is spent",
+      "Staying calm and diplomatic when a campaign goes sideways, keeping both the brand and the creator"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Choosing creators by follower count instead of engagement quality and audience fit, then delivering weak results",
+    "Promising the brand specific sales numbers when creator performance is genuinely hard to control",
+    "Skipping clear contracts and FTC disclosure terms, exposing both the brand and themselves to legal and reputational risk",
+    "Floating large creator payments before the brand pays, then getting squeezed on cash flow",
+    "Ignoring usage rights, so the brand cannot legally reuse content in ads or the creator demands more later",
+    "Treating creators as disposable, which burns the roster relationships that make the business repeatable"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Creator discovery database (Modash, Upfluence, GRIN)", "note": "Speeds sourcing and vetting at scale. Manual research is fine until volume justifies the cost.", "low": 0, "high": 3000 },
+    { "item": "Contract + brief templates", "note": "Reusable agreements covering deliverables, usage rights, disclosure, and timelines. Worth a one-time legal review.", "low": 0, "high": 800 },
+    { "item": "Project management (Airtable or Notion)", "note": "Tracks every creator, deadline, and approval across concurrent campaigns.", "low": 0, "high": 360 },
+    { "item": "Tracking (UTM links, promo codes, affiliate platform)", "note": "How you prove results. Set this up before launch, not after.", "low": 0, "high": 600 },
+    { "item": "Payment / payout system (PayPal, Wise, or platform escrow)", "note": "For paying creators across regions. Plan cash flow so you are not floating budgets.", "low": 0, "high": 300 },
+    { "item": "A laptop and phone you already own", "note": "This is a coordination-and-relationships business; no special gear is needed." }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to DTC and emerging brands in your niche with a specific campaign idea and relevant creators already in mind",
+      "Niching tightly so brand referrals and creator relationships reinforce each other within one category",
+      "Partnerships with PR firms, ad agencies, and ecommerce consultants who have brand clients but no creator network",
+      "A documented case study or two used as a pitch deck — proof matters far more than a polished brand",
+      "Showing up where brand marketers are (LinkedIn, niche Slack and Discord communities, industry events)"
+    ],
+    "whereCustomersAre": "Direct-to-consumer brands, app and SaaS companies, and consumer-product startups that want creator-driven growth but lack the time or relationships to run campaigns. Mid-size brands with real but not enormous marketing budgets are the sweet spot — big enough to pay, small enough to need you.",
+    "timeToClientBase": "The first campaign usually takes two to four months to land and run because brands move slowly and you need a roster ready. Repeat retainers and a steady pipeline typically build over six to twelve months as case studies and creator relationships compound.",
+    "wasteOfTime": "Cold-pitching huge brands with no case study, buying generic influencer lists, and chasing mega-influencers before you can handle small campaigns cleanly. Brands buy proof and a relevant creator fit, not a big follower count you do not control."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but it ramps slower than ads or email work because campaigns are lumpy and sales cycles are long. A few retained brands running monthly campaigns create the steady base that turns it full-time. The solo ceiling is how many concurrent campaigns one coordinator can manage well, usually three to five.",
+    "hireAndStepBack": "Realistic. Campaign managers and a sourcing specialist can run accounts off your playbook while you handle brand relationships and strategy. Stepping back requires documented processes, a maintained creator roster, and trusted account managers, since the work is relationship-heavy.",
+    "sellable": "Agencies with retained brand clients, a proprietary vetted creator network, and documented results do sell for a multiple of profit. Buyers care about how much revenue depends on one or two brand relationships and whether the creator roster transfers.",
+    "whatScalingRequires": "A reliable creator network, standardized briefs/contracts/reporting, working capital to float larger budgets, account managers, and a steady source of brand leads. Cash flow and client concentration are the usual constraints, more than demand."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are genuinely good with people and enjoy managing relationships on both sides",
+      "You can sell to brands and negotiate firmly but fairly with creators",
+      "You stay organized and calm with many moving deadlines at once",
+      "You have or can quickly build credibility in a specific content niche"
+    ],
+    "poorFit": [
+      "You want a heads-down, low-communication role with no client or creator drama",
+      "You need quick, predictable income — campaigns are lumpy and sales cycles are long",
+      "You are uncomfortable being the middle person when a campaign disappoints",
+      "You will not learn FTC compliance, contracts, and usage rights"
+    ],
+    "askYourself": [
+      "Am I willing to be the buffer between a demanding brand and an independent creator, and keep both happy?",
+      "Can I build and maintain a roster of creators who trust me enough to deliver reliably?",
+      "Do I have the cash flow or terms to avoid floating large creator payments before clients pay?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a big following or to be an influencer myself?",
+      "answer": "No. This is an agency and coordination business, not a personal-brand play. Your value is sourcing, vetting, negotiating, and managing creators and campaigns — skills built on relationships and organization, not on your own audience. A modest professional presence helps credibility, but you are selling execution, not your follower count."
+    },
+    {
+      "question": "How do I make money — fee, markup, or commission?",
+      "answer": "Common models are a flat project fee per campaign, a monthly retainer for ongoing management, and a markup or percentage (often 10 to 20 percent) on creator fees and total campaign budget. Many agencies blend a retainer with a percentage. Be transparent with brands about how creator costs and your fee are structured to avoid trust issues."
+    },
+    {
+      "question": "How do I prove a campaign worked?",
+      "answer": "You track what you reasonably can: reach and engagement on the content, click-throughs via UTM links, promo-code redemptions, and conversions or affiliate sales where the platform allows. Be honest that influencer attribution is imperfect — top-of-funnel awareness is real but hard to tie to exact dollars. Setting that expectation before the campaign protects the relationship."
+    },
+    {
+      "question": "What is the biggest legal risk?",
+      "answer": "FTC disclosure and content rights. Sponsored posts must be clearly disclosed (#ad or similar), and your contracts need to specify usage rights so the brand can legally reuse the content. Missing disclosures can trigger regulatory trouble for the brand, and missing usage rights leads to disputes. Solid templates and a one-time legal review are worth it."
+    },
+    {
+      "question": "Should I work with micro-influencers or big names?",
+      "answer": "Most agencies start with micro and mid-tier creators (roughly 10k to 250k followers) because rates are affordable, engagement is often higher, and the relationships are easier to manage. Larger creators bring reach but also higher fees, more negotiation, and more risk if a single expensive post underperforms. Match creator size to the brand's budget and goal."
+    },
+    {
+      "question": "Why does cash flow matter so much here?",
+      "answer": "Creators often expect payment around the time content goes live, while brands may pay you on net-30 or net-60 terms. That gap can force you to float large sums. Protect yourself by collecting deposits from brands, negotiating creator payment timing, or paying creators only after the brand funds the campaign — never finance a campaign out of pocket if you can avoid it."
+    },
+    {
+      "question": "What happens if a creator goes off-message or posts something controversial?",
+      "answer": "It is one of the real risks of the business, and the brand will look to you. You reduce the odds with careful vetting, clear briefs, content approval before posting, and contract clauses covering brand safety and takedowns. You cannot fully control an independent person, so honest expectation-setting and good contracts are your main protection."
+    }
+  ],
+  "similarBusinesses": [
+    "social-media-management-business",
+    "ugc-creator-business",
+    "lead-generation-business",
+    "video-editing-business"
+  ],
+  "dataSources": [
+    "Influencer Marketing Hub — Influencer Marketing Benchmark Report (rates, ROI, and budget trends)",
+    "Federal Trade Commission — Endorsement Guides and disclosure requirements for sponsored content",
+    "U.S. Bureau of Labor Statistics — Advertising, Promotions, and Marketing Managers occupational data",
+    "Creator and brand-marketing communities for real-world campaign pricing and markup norms"
+  ],
+  "lastReviewed": "2026-06"
+}

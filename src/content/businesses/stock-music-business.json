@@ -1,0 +1,163 @@
+{
+  "title": "Stock Music Business",
+  "slug": "stock-music-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start a Stock Music Business — Real Costs, Royalties, and Reality",
+  "metaDescription": "Honest guide to starting a stock music business: composing and licensing royalty-free tracks on AudioJungle, Artlist, and Pond5, how royalties really accrue, oversupply, and what most composers get wrong.",
+  "startupCostLow": 300,
+  "startupCostHigh": 4000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 3000,
+  "timeToFirstIncome": "3 to 9 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Capable composers and producers who can write fast, finish tracks, and tolerate a long, uncertain ramp",
+  "biggestRisk": "Spending months building a catalog that earns almost nothing because the market is oversupplied and most tracks never sell",
+  "speedToIncome": "long",
+  "minWeeklyHours": 10,
+  "skills": ["creative", "tech"],
+  "workLocations": ["home", "online"],
+  "priorities": ["flexibility", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A stock music business means composing and producing instrumental tracks and then licensing them to creators — YouTubers, video editors, filmmakers, advertisers, podcasters — who need royalty-free music for their projects. You upload your tracks to marketplaces like AudioJungle (Envato), Pond5, and PremiumBeat, or to subscription libraries like Artlist and Epidemic Sound, and earn per-license royalties or a share of subscription revenue each time your music is used. It is an inventory business: you build a catalog once and it earns over time, but it is far closer to a slow-compounding asset than to quick income, and the market is crowded.",
+  "dailyReality": "Most weeks you are in your DAW writing, arranging, mixing, and mastering tracks in commercially useful genres and moods — corporate uplifting, cinematic, ambient, upbeat pop, holiday — then preparing the variations and edits (loops, 15- and 30-second cuts, stingers) that buyers expect. Around the music you spend real time on the unglamorous parts: tagging tracks with accurate keywords, writing descriptions, meeting each platform's technical specs, and reviewing which tracks actually earn so you write more of what sells. Early on you will produce a lot of music that earns nothing, and you have to be comfortable releasing tracks into the catalog and moving on.",
+  "startupCostsItemized": [
+    { "item": "Digital audio workstation (DAW) license", "low": 0, "high": 200, "optional": true },
+    { "item": "Studio headphones and/or monitors", "low": 100, "high": 600 },
+    { "item": "Audio interface", "low": 80, "high": 300 },
+    { "item": "Virtual instruments, sample libraries, and plugins", "low": 0, "high": 1500, "optional": true },
+    { "item": "MIDI keyboard controller", "low": 0, "high": 300, "optional": true },
+    { "item": "Acoustic treatment for your room", "low": 0, "high": 400, "optional": true },
+    { "item": "Performing rights organization (PRO) registration", "low": 0, "high": 150, "optional": true },
+    { "item": "Reliable computer capable of running your DAW", "low": 0, "high": 1500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Realistically, expect very little in the first several months — many composers earn $0 for a while and then small, irregular sales as the catalog grows. A focused first year with a steady output of quality tracks often produces $0 to $500 per month, heavily back-loaded, and many composers never get past hobby-level earnings.",
+    "experienced": "Composers with large, well-targeted catalogs (hundreds of tracks), good placement on the right platforms, and a feel for what buyers actually license commonly report $500 to $3,000 per month across marketplaces and subscription libraries. Getting there typically takes two or more years of consistent releasing.",
+    "topEarners": "A small number of prolific, business-minded composers with very large catalogs, exclusive deals with major subscription libraries, and sync/film placements earn $5,000 to $20,000+ per month. This usually reflects years of output, hundreds or thousands of tracks, exclusivity arrangements, and treating it as a full production operation — not a side hobby.",
+    "whatAffectsMost": "Catalog size, consistency of release, and writing genres buyers actually need (not the music you most want to make) matter most. Exclusivity deals and placement on high-traffic subscription libraries can dramatically change earnings, but those slots are competitive and not guaranteed.",
+    "perHour": "Early on the effective rate is often near zero or even negative once you count production time and gear. Over the life of a catalog, productive composers eventually reach a modest effective rate, but stock music rewards accumulated inventory over years, not hours worked this week."
+  },
+  "howToStart": [
+    "Month 1: Set up a working production setup (DAW, interface, headphones or monitors) and study what actually sells on AudioJungle, Pond5, and Artlist. Identify two or three commercial genres and moods you can produce well and quickly, such as corporate, cinematic, or upbeat pop.",
+    "Months 1-3: Produce a starter batch of polished, broadcast-quality tracks with the standard variations (full, loop, short cuts, stinger) and learn each platform's technical and metadata requirements. Quality and proper formatting matter as much as the music itself.",
+    "Months 2-4: Apply to and upload across marketplaces (non-exclusive to start, so you can list widely) and accurately tag and describe every track. Expect a slow trickle of sales and use it as feedback on what to write next.",
+    "Months 3-9: Keep releasing consistently, double down on whatever genres and moods are actually earning, and prune your focus. As your catalog and reputation grow, consider applying to selective subscription libraries or exclusive arrangements that pay better but lock tracks to one platform.",
+    "Year 1+: Decide your model — broad non-exclusive presence across many marketplaces, or a smaller catalog tied to a strong subscription library — and scale output deliberately, treating the catalog as a long-term asset."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid composition and production skills — you can write, arrange, and finish a track that sounds commercially broadcast-ready",
+      "Mixing and mastering competence so tracks meet professional loudness and quality standards",
+      "Patience and self-direction to keep producing through months of little or no income"
+    ],
+    "canLearn": [
+      "What commercial buyers actually license (corporate, cinematic, holiday, upbeat) versus what you personally prefer",
+      "Each platform's technical specs, file deliverables, and accurate keyword tagging",
+      "Producing standard variations — loops, short cuts, stingers — efficiently"
+    ],
+    "separators": [
+      "Writing fast and consistently so your catalog grows large enough to earn meaningfully",
+      "Reading the market and producing the moods and genres that are actually in demand and underserved",
+      "Landing exclusive deals or placements on high-traffic subscription libraries that pay far better than open marketplaces"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Expecting quick income — stock music is a slow-compounding catalog, and the first months commonly earn close to nothing",
+    "Writing the music they love instead of the commercial genres and moods buyers actually license",
+    "Uploading a handful of tracks and quitting, when meaningful earnings require a large, consistently growing catalog",
+    "Underestimating the unglamorous work of metadata, tagging, formatting, and meeting each platform's specs",
+    "Ignoring the impact of oversupply and, increasingly, AI-generated music driving down prices on open marketplaces",
+    "Misunderstanding exclusivity — locking tracks to one library can raise per-use pay but cuts you off from other channels, and the math is not always favorable"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Digital audio workstation (DAW)", "note": "Reaper is inexpensive; many use Logic, Ableton, or FL Studio. The DAW is your core tool.", "low": 0, "high": 200 },
+    { "item": "Studio headphones or monitors", "note": "Accurate monitoring is essential for mixes that translate; treated monitors are ideal but good headphones suffice to start.", "low": 100, "high": 600 },
+    { "item": "Audio interface", "note": "For clean audio I/O and recording any live instruments.", "low": 80, "high": 300 },
+    { "item": "Virtual instruments and sample libraries", "note": "Quality orchestral, piano, and synth libraries raise production value. Build up over time, not all at once.", "low": 0, "high": 1500 },
+    { "item": "MIDI keyboard controller", "note": "Speeds up composition; a small 25-49 key controller is plenty to start.", "low": 0, "high": 300 },
+    { "item": "Marketplace and library accounts", "note": "AudioJungle, Pond5, PremiumBeat, Artlist, Epidemic Sound. No upfront fee; they take a revenue share." },
+    { "item": "Acoustic treatment", "note": "Basic panels improve mix accuracy in an untreated room; optional early on.", "low": 0, "high": 400 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Listing tracks across multiple non-exclusive marketplaces (AudioJungle, Pond5, PremiumBeat) so buyers searching there can find them",
+      "Accurate, thorough keyword tagging and clear descriptions so your tracks surface in buyer searches",
+      "Applying to curated subscription libraries (Artlist, Epidemic Sound) once your quality and catalog justify it",
+      "Producing the in-demand genres and moods buyers search for, which is its own form of marketing",
+      "Building a simple portfolio site or SoundCloud and connecting with video editors and creators who need custom or licensed music"
+    ],
+    "whereCustomersAre": "Your buyers are video creators, editors, advertisers, filmmakers, and podcasters who find music through search and curation on the marketplaces and subscription libraries themselves. You rarely interact with them directly — the platforms are the storefront, and discoverability inside them is everything.",
+    "timeToClientBase": "There is no client base in the usual sense; there is a catalog that earns. First sales often take three to nine months, and a catalog large enough to produce steady monthly income usually takes a year or more of consistent releasing.",
+    "wasteOfTime": "Heavy personal marketing and social media promotion early on rarely moves stock music sales — buyers discover tracks through platform search, not your social feed. Time is better spent producing more well-targeted, well-tagged tracks."
+  },
+  "howItScales": {
+    "toFullTime": "Possible but slow and uncertain. Full-time income requires a large catalog, years of consistent output, and ideally placement on well-paying libraries. Many capable composers never reach full-time stock income and keep it as a supplementary stream alongside sync, custom work, or other production income.",
+    "hireAndStepBack": "Limited and unusual. Some established composers collaborate or commission additional production to grow output, but the creative work is hard to fully delegate without losing quality and consistency. The catalog itself, once built, does earn somewhat passively, which is the closest thing to stepping back.",
+    "sellable": "A large, proven, earning catalog is an asset and can sometimes be sold or licensed in bulk, since it represents ongoing royalty streams. Value depends heavily on exclusivity terms, platform contracts, and demonstrated earnings history. A small or unproven catalog has little resale value.",
+    "whatScalingRequires": "Consistent, high-volume production of commercially relevant music, disciplined tracking of what earns, and ideally negotiating placement or exclusivity with strong subscription libraries. Scaling is fundamentally about accumulating more good, well-targeted inventory over years."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are already a capable composer/producer who can finish broadcast-quality tracks",
+      "You can write quickly and consistently across multiple commercial genres",
+      "You are patient enough to build a catalog for months before meaningful income arrives",
+      "You want a long-term, compounding income stream you can build around other work"
+    ],
+    "poorFit": [
+      "You need income soon — the ramp is long and the first months often earn near zero",
+      "You only want to make the music you personally love rather than what buyers license",
+      "You are not yet confident in your production, mixing, and mastering quality",
+      "You will be discouraged by an oversupplied market where most individual tracks never sell"
+    ],
+    "askYourself": [
+      "Can I keep producing and releasing tracks for six to twelve months with little or no income before it compounds?",
+      "Am I willing to write commercial genres and moods that sell, not just the music I prefer?",
+      "Is my production quality genuinely competitive in a crowded, increasingly AI-pressured market?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How long until I make money from stock music?",
+      "answer": "Realistically, expect little to nothing for the first several months. First sales commonly arrive within three to nine months, and a catalog large enough to produce steady monthly income usually takes a year or more of consistent releasing. Stock music rewards accumulated inventory over years, not quick wins."
+    },
+    {
+      "question": "Should I list my tracks exclusively or non-exclusively?",
+      "answer": "Non-exclusive lets you list the same track across many marketplaces, maximizing exposure, while exclusivity (common with subscription libraries) usually pays more per use but locks tracks to one platform. Many composers start non-exclusive to learn what sells, then consider exclusive deals once they have proven, in-demand tracks. Run the math carefully — exclusivity is not automatically better."
+    },
+    {
+      "question": "Is AI-generated music going to ruin this business?",
+      "answer": "It is a real and growing pressure. AI tools are flooding open marketplaces with cheap tracks and pushing down prices, especially for generic, low-effort music. Composers who produce distinctive, high-quality, well-targeted music for buyers who need rights-cleared, human-made work are better positioned, but no one should assume the market looks the way it did a few years ago. Treat this as a serious headwind."
+    },
+    {
+      "question": "How much can I realistically earn?",
+      "answer": "Based on reported ranges, most composers earn $0 to $500 per month in year one, $500 to $3,000 per month once they have a large, well-targeted catalog after a couple of years, and a small minority with very large catalogs and library deals earn far more. Many capable composers never get past hobby-level earnings, which is the honest baseline expectation."
+    },
+    {
+      "question": "Do I need expensive gear and sample libraries to start?",
+      "answer": "No. A capable computer, an inexpensive or free DAW like Reaper, an audio interface, and good headphones are enough to produce competitive tracks. Premium virtual instruments and sample libraries raise production value, but build them up over time as earnings justify it rather than spending thousands before your first sale."
+    },
+    {
+      "question": "Which platforms should I start with?",
+      "answer": "Common starting points are AudioJungle (Envato Market), Pond5, and PremiumBeat for per-license sales, and Artlist or Epidemic Sound for subscription-library royalties (these are more selective and often exclusive). Many composers list non-exclusively across several marketplaces first, then apply to curated libraries once their catalog and quality justify it."
+    },
+    {
+      "question": "Do I need to register with a performing rights organization (PRO)?",
+      "answer": "It can help you collect performance royalties when your music airs in broadcast or other public contexts, and registration is inexpensive. It is not required to sell on most marketplaces, but for composers serious about all royalty streams it is worth setting up. Understand how it interacts with each platform's licensing before relying on it."
+    }
+  ],
+  "similarBusinesses": [
+    "music-production-business",
+    "voiceover-business",
+    "stock-media-business",
+    "youtube-channel-business"
+  ],
+  "dataSources": [
+    "Published royalty and revenue-share structures from Envato (AudioJungle), Pond5, Artlist, and Epidemic Sound",
+    "U.S. Bureau of Labor Statistics — Music Directors and Composers occupational data",
+    "Stock music and production composer communities (forums, Reddit r/WeAreTheMusicMakers, Envato author forums) for reported earnings",
+    "Industry reporting on royalty-free music marketplaces and the impact of AI-generated music on pricing"
+  ],
+  "lastReviewed": "2026-06"
+}

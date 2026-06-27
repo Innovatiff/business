@@ -1,0 +1,163 @@
+{
+  "title": "Window and Door Installation Business",
+  "slug": "window-installation-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Window and Door Installation Business — Costs & Earnings",
+  "metaDescription": "Honest breakdown of starting a window and door installation business: real startup costs, earnings by experience, contractor licensing, measuring precision, and common mistakes.",
+  "startupCostLow": 4000,
+  "startupCostHigh": 30000,
+  "monthlyEarningsLow": 3000,
+  "monthlyEarningsHigh": 16000,
+  "timeToFirstIncome": "3 to 8 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Detail-oriented people with carpentry skills who measure carefully and want a high-ticket, repeatable trade",
+  "biggestRisk": "A mismeasured or poorly flashed installation that leaks, voids the warranty, and turns into a costly callback",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 30,
+  "skills": ["hands"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A window and door installation business replaces and installs windows and exterior doors for homeowners — removing old units, preparing the opening, setting the new window or door dead-level and plumb, flashing and sealing it against water and air, and finishing the trim. It sits between a low-skill handyman service and a full remodeling operation: jobs are higher-ticket than basic services, demand is steady (energy efficiency, curb appeal, storm damage), and the work rewards precision. The single most important skill is measuring accurately, because a window ordered to the wrong dimensions is an expensive, unrecoverable mistake, and flashing it correctly is what prevents the leaks that destroy walls and reputations.",
+  "dailyReality": "A typical day means arriving at a home, protecting the floors and landscaping, and carefully removing existing windows or doors without damaging the surrounding structure. You dry-fit and set each new unit level, plumb, and square, shim it, fasten it, then flash and seal it properly before installing trim and caulking. The work is physical — lifting heavy units, working on ladders, and prying out old frames — and exacting, since a fraction of an inch off in measuring or leveling causes operation and sealing problems. Around installs, you spend real time measuring openings precisely for orders, quoting jobs, coordinating supplier deliveries, and managing the lead time between order and installation.",
+  "startupCostsItemized": [
+    { "item": "Hand and power tools (drills, saws, levels, pry bars, caulk guns)", "low": 800, "high": 3000 },
+    { "item": "Ladders, scaffolding, and lifting equipment", "low": 300, "high": 1500 },
+    { "item": "Work van or truck setup (if not owned)", "low": 0, "high": 12000, "optional": true },
+    { "item": "General liability insurance", "low": 700, "high": 2500, "annual": true },
+    { "item": "Business registration / LLC and contractor license (where required)", "low": 200, "high": 2000 },
+    { "item": "Material float / first-order deposits", "low": 1000, "high": 5000 },
+    { "item": "Measuring tools (laser measure, framing squares, levels)", "low": 100, "high": 600 },
+    { "item": "Website, Google Business Profile, photos, marketing", "low": 100, "high": 1500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Skilled solo installers typically net $3,000 to $6,000 per month in year one as they build supplier relationships and a referral base. Labor on a standard window replacement commonly runs $150 to $400 per opening, and a full-house job of 10-15 windows is a strong revenue day or two of work.",
+    "experienced": "Experienced installers with two or more years and steady supplier and contractor relationships commonly report $7,000 to $16,000 per month. Adding exterior and patio doors, which carry higher labor rates, and full-house replacement projects raises both ticket size and consistency.",
+    "topEarners": "Top operators running crews and partnering with window dealers and remodelers gross several hundred thousand dollars a year, with the best diversifying into doors, sunrooms, and full exterior packages. Reaching that requires hiring reliable installers, managing supplier relationships, and shifting from installing to running the business and sales.",
+    "whatAffectsMost": "Measuring accuracy, supplier relationships, and job mix matter most. Good supplier pricing and lead times protect margins, doors and full-house jobs pay better than one-off windows, and a reputation for clean, leak-free installs turns into steady referrals and dealer subcontract work.",
+    "perHour": "Effective rates for skilled solo installers commonly run $50 to $100 per hour of actual installation, before measuring trips, quoting, and waiting on supplier deliveries. Counting all unpaid time, realistic blended rates are often $40 to $80 per hour."
+  },
+  "howToStart": [
+    "Before launch: Build real carpentry and installation skill. Window and door work demands precise measuring, leveling, and flashing, so apprentice or work for an installer or remodeler first. Learning proper flashing and water management is essential before you take jobs.",
+    "Week 1: Check your state's contractor licensing rules and dollar thresholds, register the business, and get general liability insurance. Many states require a license once a job exceeds a set value.",
+    "Weeks 2-4: Assemble tools, and most importantly establish accounts with window and door suppliers or distributors — your pricing, lead times, and product range depend on these relationships. Build a Google Business Profile and a simple portfolio.",
+    "Weeks 3-8: Take first jobs, measure every opening meticulously, photograph clean results, and collect reviews. Track your real labor time per opening and per door so you price profitably.",
+    "Months 2-12: Build referral and dealer relationships, add higher-margin door and full-house work, and consider subcontracting for window dealers and remodelers who need reliable installers. Decide whether to add a helper as demand grows."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Precise measuring — ordering windows and doors to exact dimensions, where small errors are costly",
+      "Carpentry and installation skill to set units level, plumb, and square, and finish trim cleanly",
+      "Proper flashing and water-management technique to prevent leaks"
+    ],
+    "canLearn": [
+      "Estimating and quoting jobs per opening and per door for profit",
+      "Working with different window and door types, materials, and brands",
+      "Coordinating supplier orders, lead times, and deliveries"
+    ],
+    "separators": [
+      "Strong supplier and dealer relationships that protect pricing, product range, and lead times",
+      "A flawless, leak-free finish that earns referrals and dealer subcontract work",
+      "Diversifying into higher-margin doors and full-house and exterior packages"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Mismeasuring openings, then eating the cost of a window or door ordered to the wrong size",
+    "Flashing and sealing poorly, causing leaks that damage walls and trigger expensive callbacks",
+    "Underbidding labor without accounting for old-unit removal, prep, and trim finishing",
+    "Failing to build supplier relationships, leaving them with poor pricing and slow lead times",
+    "Ignoring contractor licensing thresholds and getting fined or unable to pull permits on larger jobs",
+    "Damaging interior finishes, siding, or landscaping during removal and not protecting the work area"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Drills, drivers, and saws", "note": "Core power tools for removal, fastening, and trim work.", "low": 400, "high": 1500 },
+    { "item": "Levels, framing squares, and laser measure", "note": "Precision tools; accurate measuring is the heart of the trade.", "low": 100, "high": 600 },
+    { "item": "Pry bars, shims, and removal tools", "note": "For removing old units without damaging the structure.", "low": 80, "high": 400 },
+    { "item": "Caulk guns, flashing tape, and sealants", "note": "For water and air sealing; the difference between a lasting and a leaking install.", "low": 50, "high": 300 },
+    { "item": "Ladders and scaffolding", "note": "For upper-floor windows; safety and reach matter.", "low": 300, "high": 1500 },
+    { "item": "Work van or truck and racking", "note": "For transporting windows, doors, and tools safely.", "low": 0, "high": 12000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Subcontract relationships with window and door dealers, remodelers, and general contractors",
+      "A Google Business Profile and portfolio site showing clean before/after installs",
+      "Referrals and reviews from completed jobs, which compound on a high-ticket home upgrade",
+      "Local Facebook groups, Nextdoor, and home-service platforms for direct homeowner work",
+      "Relationships with real estate agents and property managers needing replacements before sales or turnovers"
+    ],
+    "whereCustomersAre": "Homeowners replacing old, drafty, or storm-damaged windows and doors for efficiency, comfort, or curb appeal, plus dealers and remodelers who need reliable installation labor. Dealer and contractor relationships are the most consistent source of work.",
+    "timeToClientBase": "Skilled installers often land first jobs within three to eight weeks, but a steady pipeline through dealers, contractors, and referrals usually takes six to twelve months of proving precision and reliability.",
+    "wasteOfTime": "Cheap printed ads and competing purely on price. On a high-ticket home upgrade, trust, clean results, and dealer relationships convert far better than discount marketing."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A skilled solo installer can reach a strong full-time income within the first year or two by combining direct homeowner jobs with dealer and contractor subcontract work. The solo ceiling is set by your hours and how many openings you can install per day.",
+    "hireAndStepBack": "Possible but demanding. You can train and hire installers and run crews, but quality and measuring accuracy are hard to delegate since callbacks for leaks or wrong sizes are costly. Stepping back requires trusted lead installers and tight quality control.",
+    "sellable": "Moderately sellable. A business with crews, dealer relationships, systems, and a brand can sell, while a pure solo operation is largely tied to the founder. Recurring dealer subcontract accounts and documented processes increase value.",
+    "whatScalingRequires": "Training reliable installers without losing measuring and finish quality, strong supplier and dealer relationships, scheduling and estimating systems, and a shift from installing to managing crews, sales, and supplier logistics."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have or are building real carpentry and installation skill and measure carefully",
+      "You take pride in precise, leak-free, clean-finishing work",
+      "You are physically able to lift heavy units and work on ladders",
+      "You can build supplier and dealer relationships and commit to reliable scheduling"
+    ],
+    "poorFit": [
+      "You want low-skill, hands-off, or part-time work",
+      "You are careless with measurements — this trade punishes that immediately",
+      "You dislike physical lifting, ladder work, or detailed sealing and trim",
+      "You are unwilling to learn licensing rules or carry insurance"
+    ],
+    "askYourself": [
+      "Am I genuinely precise with measurements, where an error means eating the cost of a custom unit?",
+      "Do I understand flashing and water management well enough to avoid leaks and callbacks?",
+      "Can I build the supplier and dealer relationships that protect my pricing and lead times?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a contractor license to install windows and doors?",
+      "answer": "It depends on your state and the job size. Many states require a contractor's license once a project exceeds a dollar threshold, and some regulate window and door work under a general or specialty contractor classification. Smaller jobs may be exempt. Always check your state and local rules before bidding, because working unlicensed above the threshold risks fines and unenforceable contracts."
+    },
+    {
+      "question": "How much can a window and door installer earn?",
+      "answer": "Skilled solo installers commonly net $7,000 to $16,000 per month once established. Window replacement labor often runs $150 to $400 per opening, and exterior and patio doors carry higher labor rates. Full-house replacement projects and door work raise both ticket size and consistency. Top operators running crews and partnering with dealers earn well into six figures annually."
+    },
+    {
+      "question": "Why is measuring so important?",
+      "answer": "Windows and doors are typically ordered to the exact dimensions of each opening, often custom. If you mismeasure, the unit will not fit and you usually cannot return a custom order, so you eat the cost. Accurate measuring is the single most important skill in this trade and the most common expensive mistake new installers make."
+    },
+    {
+      "question": "Can I start with no experience?",
+      "answer": "You can start learning, but you should not run the business with no skill. The work demands precise measuring, leveling, and proper flashing to prevent leaks. Apprentice with an installer, remodeler, or window dealer first, because early mistakes — a mismeasured custom window or a leaking install — are costly to fix and damage your reputation."
+    },
+    {
+      "question": "How do supplier relationships affect the business?",
+      "answer": "They are central. Your pricing, product range, lead times, and even warranty support depend on accounts with window and door manufacturers or distributors. Good relationships mean better margins and faster turnaround, while poor ones leave you uncompetitive and slow. Many installers also win steady subcontract work directly from dealers who need reliable installation labor."
+    },
+    {
+      "question": "What causes the most callbacks?",
+      "answer": "Water leaks from improper flashing and sealing, and operation problems from units set out of level or square. Both are preventable with correct technique and careful measuring. Callbacks are expensive and reputation-damaging, which is why mastering flashing and water management before taking jobs is essential, especially for doors and large windows."
+    },
+    {
+      "question": "Is the work seasonal?",
+      "answer": "Less seasonal than many exterior trades, since replacements happen year-round, though demand often rises in spring and after storm seasons. In cold climates, installers manage winter installs carefully to limit heat loss and weather exposure. Diversifying into interior doors and pairing with remodelers helps smooth out any slower stretches."
+    }
+  ],
+  "similarBusinesses": [
+    "handyman-business",
+    "flooring-installation-business",
+    "custom-carpentry-business",
+    "painting-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Carpenters and Construction Trades occupational data",
+    "Home-service cost guides (Angi, HomeAdvisor, Modernize) for reported window and door installation pricing",
+    "Window and door manufacturer installation and flashing standards",
+    "State contractor licensing boards for licensing thresholds and requirements",
+    "Contractor and remodeling communities for real-world labor rates and supplier dynamics"
+  ],
+  "lastReviewed": "2026-06"
+}
