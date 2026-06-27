@@ -76,7 +76,8 @@ export const SEO = {
 } as const;
 
 export type NavChild = { label: string; href: string };
-export type NavGroup = { heading: string; items: NavChild[] };
+/** `href` is the landing page used for the flat mobile button for this group. */
+export type NavGroup = { heading: string; href: string; items: NavChild[] };
 export type NavItem = { label: string; href?: string; groups?: NavGroup[] };
 
 export const PRIMARY_NAV: NavItem[] = [
@@ -89,6 +90,7 @@ export const PRIMARY_NAV: NavItem[] = [
     groups: [
       {
         heading: 'Budget',
+        href: '/businesses-under-5000',
         items: [
           { label: 'Under $500', href: '/businesses-under-500' },
           { label: '$500 to $5,000', href: '/businesses-under-5000' },
@@ -99,6 +101,7 @@ export const PRIMARY_NAV: NavItem[] = [
       },
       {
         heading: 'Skill',
+        href: '/businesses-no-experience',
         items: [
           { label: 'No experience needed', href: '/businesses-no-experience' },
           { label: 'Best for beginners', href: '/businesses-for-beginners' },
@@ -107,6 +110,7 @@ export const PRIMARY_NAV: NavItem[] = [
       },
       {
         heading: 'Time',
+        href: '/businesses-part-time',
         items: [
           { label: 'Start this week', href: '/businesses-start-this-week' },
           { label: 'Part-time', href: '/businesses-part-time' },
