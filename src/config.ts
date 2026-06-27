@@ -75,14 +75,38 @@ export const SEO = {
   googleSiteVerification: import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION ?? '',
 } as const;
 
-export type NavItem = { label: string; href: string };
+export type NavChild = { label: string; href: string };
+export type NavItem = { label: string; href?: string; children?: NavChild[] };
 
 export const PRIMARY_NAV: NavItem[] = [
   { label: 'Find My Business', href: '/find-my-business' },
   { label: 'Browse Businesses', href: '/businesses' },
-  { label: 'By Budget', href: '/businesses-under-5000' },
-  { label: 'By Skill', href: '/businesses-no-experience' },
-  { label: 'By Time', href: '/businesses-part-time' },
+  {
+    label: 'By Budget',
+    children: [
+      { label: 'Under $500', href: '/businesses-under-500' },
+      { label: '$500 to $5,000', href: '/businesses-under-5000' },
+      { label: '$5,000 to $25,000', href: '/businesses-under-25000' },
+      { label: 'Larger investment', href: '/businesses-higher-investment' },
+      { label: 'High income potential', href: '/businesses-high-income' },
+    ],
+  },
+  {
+    label: 'By Skill',
+    children: [
+      { label: 'No experience needed', href: '/businesses-no-experience' },
+      { label: 'Best for beginners', href: '/businesses-for-beginners' },
+      { label: 'Run from home', href: '/businesses-from-home' },
+    ],
+  },
+  {
+    label: 'By Time',
+    children: [
+      { label: 'Start this week', href: '/businesses-start-this-week' },
+      { label: 'Part-time', href: '/businesses-part-time' },
+      { label: 'Grow to full-time', href: '/businesses-grow-to-full-time' },
+    ],
+  },
   { label: 'About', href: '/about' },
 ];
 

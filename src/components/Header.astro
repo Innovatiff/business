@@ -1,7 +1,12 @@
 ---
 import { SITE, PRIMARY_NAV } from '../config';
 const path = Astro.url.pathname.replace(/\/$/, '');
-const isActive = (href: string) => path === href || (href !== '/' && path.startsWith(href));
+// Exact match, or a true sub-path (with trailing slash) so /businesses doesn't
+// falsely light up on /businesses-under-500.
+const isActive = (href?: string) =>
+  !!href && (path === href || (href !== '/' && path.startsWith(href + '/')));
+const groupActive = (children?: { href: string }[]) =>
+  !!children && children.some((c) => isActive(c.href));
 ---
 
 <header class="site-header">
@@ -17,11 +22,34 @@ const isActive = (href: string) => path === href || (href !== '/' && path.starts
     </a>
 
     <nav class="nav-desktop" aria-label="Primary">
-      {PRIMARY_NAV.map((item) => (
-        <a href={item.href} class:list={['nav-link', { active: isActive(item.href) }]}>
-          {item.label}
-        </a>
-      ))}
+      {PRIMARY_NAV.map((item) =>
+        item.children ? (
+          <div class="nav-item">
+            <button
+              type="button"
+              class:list={['nav-link', 'nav-trigger', { active: groupActive(item.children) }]}
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              {item.label}
+              <span class="caret" aria-hidden="true"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              {item.children.map((c) => (
+                <li role="none">
+                  <a role="menuitem" href={c.href} class:list={['dropdown-link', { active: isActive(c.href) }]}>
+                    {c.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : (
+          <a href={item.href} class:list={['nav-link', { active: isActive(item.href) }]}>
+            {item.label}
+          </a>
+        ),
+      )}
     </nav>
 
     <div class="header-actions">
@@ -33,9 +61,23 @@ const isActive = (href: string) => path === href || (href !== '/' && path.starts
   </div>
 
   <nav class="nav-mobile" id="mobile-nav" aria-label="Mobile" hidden>
-    {PRIMARY_NAV.map((item) => (
-      <a href={item.href} class:list={['nav-link', { active: isActive(item.href) }]}>{item.label}</a>
-    ))}
+    {PRIMARY_NAV.map((item) =>
+      item.children ? (
+        <details class="m-group">
+          <summary class:list={['m-summary', { active: groupActive(item.children) }]}>
+            <span>{item.label}</span>
+            <span class="m-caret" aria-hidden="true"></span>
+          </summary>
+          <div class="m-children">
+            {item.children.map((c) => (
+              <a href={c.href} class:list={['m-child', { active: isActive(c.href) }]}>{c.label}</a>
+            ))}
+          </div>
+        </details>
+      ) : (
+        <a href={item.href} class:list={['nav-link', { active: isActive(item.href) }]}>{item.label}</a>
+      ),
+    )}
     <a href="/find-my-business" class="btn btn-primary">Find My Business</a>
   </nav>
 </header>
@@ -85,7 +127,7 @@ const isActive = (href: string) => path === href || (href !== '/' && path.starts
   .nav-desktop {
     display: flex;
     align-items: center;
-    gap: 0.35rem;
+    gap: 0.25rem;
     margin-left: auto;
     margin-right: 0.75rem;
   }
@@ -106,6 +148,81 @@ const isActive = (href: string) => path === href || (href !== '/' && path.starts
   .nav-link.active {
     color: var(--green-dark);
   }
+
+  /* ---- Desktop dropdown ---- */
+  .nav-item {
+    position: relative;
+    display: inline-flex;
+  }
+  .nav-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .caret {
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg) translateY(-1px);
+    transition: transform 0.18s ease;
+    opacity: 0.65;
+  }
+  .nav-item:hover .caret,
+  .nav-trigger[aria-expanded='true'] .caret {
+    transform: rotate(-135deg) translateY(1px);
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    min-width: 232px;
+    list-style: none;
+    margin: 0;
+    padding: 0.4rem;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-md);
+    z-index: 120;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+  }
+  .nav-item:hover .dropdown-menu,
+  .nav-item:focus-within .dropdown-menu,
+  .nav-trigger[aria-expanded='true'] + .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .dropdown-menu li {
+    margin: 0;
+  }
+  .dropdown-link {
+    display: block;
+    padding: 0.55rem 0.7rem;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--slate);
+    white-space: nowrap;
+  }
+  .dropdown-link:hover {
+    background: var(--surface);
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .dropdown-link.active {
+    color: var(--green-dark);
+    background: var(--green-tint);
+  }
+
   .header-actions {
     display: flex;
     align-items: center;
@@ -141,21 +258,75 @@ const isActive = (href: string) => path === href || (href !== '/' && path.starts
   .nav-toggle[aria-expanded='true'] span:nth-child(3) {
     transform: translateY(-6px) rotate(-45deg);
   }
+
+  /* ---- Mobile nav ---- */
   .nav-mobile {
     display: none;
     flex-direction: column;
-    gap: 0.25rem;
-    padding: 0.75rem 1.25rem 1.25rem;
+    gap: 0;
+    padding: 0.5rem 1.25rem 1.25rem;
     border-top: 1px solid var(--border);
     background: var(--warm-white);
   }
-  .nav-mobile .nav-link {
-    padding: 0.7rem 0.5rem;
+  .nav-mobile > .nav-link {
+    padding: 0.8rem 0.5rem;
     border-bottom: 1px solid var(--border);
     border-radius: 0;
   }
+  .m-group {
+    border-bottom: 1px solid var(--border);
+  }
+  .m-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    list-style: none;
+    padding: 0.8rem 0.5rem;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--slate);
+  }
+  .m-summary::-webkit-details-marker {
+    display: none;
+  }
+  .m-summary.active {
+    color: var(--green-dark);
+  }
+  .m-caret {
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--muted);
+    border-bottom: 2px solid var(--muted);
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+  }
+  .m-group[open] .m-caret {
+    transform: rotate(-135deg);
+  }
+  .m-children {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0.6rem;
+  }
+  .m-child {
+    padding: 0.55rem 0.5rem 0.55rem 1.1rem;
+    font-size: 0.92rem;
+    color: var(--slate);
+    border-left: 2px solid var(--border);
+    margin-left: 0.5rem;
+  }
+  .m-child:hover {
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .m-child.active {
+    color: var(--green-dark);
+    border-left-color: var(--green);
+  }
   .nav-mobile .btn {
-    margin-top: 0.75rem;
+    margin-top: 0.9rem;
     justify-content: center;
   }
 
@@ -174,11 +345,34 @@ const isActive = (href: string) => path === href || (href !== '/' && path.starts
 </style>
 
 <script>
+  // Mobile menu toggle
   const toggle = document.querySelector<HTMLButtonElement>('.nav-toggle');
   const menu = document.getElementById('mobile-nav');
   toggle?.addEventListener('click', () => {
     const open = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!open));
     if (menu) menu.hidden = open;
+  });
+
+  // Desktop dropdown disclosure (click + keyboard; hover handled by CSS)
+  const triggers = Array.from(document.querySelectorAll<HTMLButtonElement>('.nav-trigger'));
+  const closeAll = (except?: HTMLButtonElement) =>
+    triggers.forEach((t) => t !== except && t.setAttribute('aria-expanded', 'false'));
+
+  triggers.forEach((trigger) => {
+    trigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = trigger.getAttribute('aria-expanded') === 'true';
+      closeAll(trigger);
+      trigger.setAttribute('aria-expanded', String(!open));
+    });
+  });
+
+  document.addEventListener('click', () => closeAll());
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeAll();
+      (document.activeElement as HTMLElement | null)?.blur();
+    }
   });
 </script>
