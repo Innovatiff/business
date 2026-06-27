@@ -76,35 +76,43 @@ export const SEO = {
 } as const;
 
 export type NavChild = { label: string; href: string };
-export type NavItem = { label: string; href?: string; children?: NavChild[] };
+export type NavGroup = { heading: string; items: NavChild[] };
+export type NavItem = { label: string; href?: string; groups?: NavGroup[] };
 
 export const PRIMARY_NAV: NavItem[] = [
   { label: 'Find My Business', href: '/find-my-business' },
   { label: 'Browse Businesses', href: '/businesses' },
   {
-    label: 'By Budget',
-    children: [
-      { label: 'Under $500', href: '/businesses-under-500' },
-      { label: '$500 to $5,000', href: '/businesses-under-5000' },
-      { label: '$5,000 to $25,000', href: '/businesses-under-25000' },
-      { label: 'Larger investment', href: '/businesses-higher-investment' },
-      { label: 'High income potential', href: '/businesses-high-income' },
-    ],
-  },
-  {
-    label: 'By Skill',
-    children: [
-      { label: 'No experience needed', href: '/businesses-no-experience' },
-      { label: 'Best for beginners', href: '/businesses-for-beginners' },
-      { label: 'Run from home', href: '/businesses-from-home' },
-    ],
-  },
-  {
-    label: 'By Time',
-    children: [
-      { label: 'Start this week', href: '/businesses-start-this-week' },
-      { label: 'Part-time', href: '/businesses-part-time' },
-      { label: 'Grow to full-time', href: '/businesses-grow-to-full-time' },
+    // Single dropdown that holds the budget / skill / time filters so the
+    // header stays uncluttered.
+    label: 'Browse by',
+    groups: [
+      {
+        heading: 'Budget',
+        items: [
+          { label: 'Under $500', href: '/businesses-under-500' },
+          { label: '$500 to $5,000', href: '/businesses-under-5000' },
+          { label: '$5,000 to $25,000', href: '/businesses-under-25000' },
+          { label: 'Larger investment', href: '/businesses-higher-investment' },
+          { label: 'High income potential', href: '/businesses-high-income' },
+        ],
+      },
+      {
+        heading: 'Skill',
+        items: [
+          { label: 'No experience needed', href: '/businesses-no-experience' },
+          { label: 'Best for beginners', href: '/businesses-for-beginners' },
+          { label: 'Run from home', href: '/businesses-from-home' },
+        ],
+      },
+      {
+        heading: 'Time',
+        items: [
+          { label: 'Start this week', href: '/businesses-start-this-week' },
+          { label: 'Part-time', href: '/businesses-part-time' },
+          { label: 'Grow to full-time', href: '/businesses-grow-to-full-time' },
+        ],
+      },
     ],
   },
   { label: 'About', href: '/about' },

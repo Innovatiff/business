@@ -5,8 +5,8 @@ const path = Astro.url.pathname.replace(/\/$/, '');
 // falsely light up on /businesses-under-500.
 const isActive = (href?: string) =>
   !!href && (path === href || (href !== '/' && path.startsWith(href + '/')));
-const groupActive = (children?: { href: string }[]) =>
-  !!children && children.some((c) => isActive(c.href));
+const groupsActive = (groups?: { items: { href: string }[] }[]) =>
+  !!groups && groups.some((g) => g.items.some((c) => isActive(c.href)));
 ---
 
 <header class="site-header">
@@ -23,26 +23,33 @@ const groupActive = (children?: { href: string }[]) =>
 
     <nav class="nav-desktop" aria-label="Primary">
       {PRIMARY_NAV.map((item) =>
-        item.children ? (
+        item.groups ? (
           <div class="nav-item">
             <button
               type="button"
-              class:list={['nav-link', 'nav-trigger', { active: groupActive(item.children) }]}
+              class:list={['nav-link', 'nav-trigger', { active: groupsActive(item.groups) }]}
               aria-haspopup="true"
               aria-expanded="false"
             >
               {item.label}
               <span class="caret" aria-hidden="true"></span>
             </button>
-            <ul class="dropdown-menu" role="menu">
-              {item.children.map((c) => (
-                <li role="none">
-                  <a role="menuitem" href={c.href} class:list={['dropdown-link', { active: isActive(c.href) }]}>
-                    {c.label}
-                  </a>
-                </li>
+            <div class="dropdown-menu mega">
+              {item.groups.map((g) => (
+                <div class="mega-col">
+                  <span class="mega-heading">{g.heading}</span>
+                  <ul role="menu">
+                    {g.items.map((c) => (
+                      <li role="none">
+                        <a role="menuitem" href={c.href} class:list={['dropdown-link', { active: isActive(c.href) }]}>
+                          {c.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         ) : (
           <a href={item.href} class:list={['nav-link', { active: isActive(item.href) }]}>
@@ -62,15 +69,20 @@ const groupActive = (children?: { href: string }[]) =>
 
   <nav class="nav-mobile" id="mobile-nav" aria-label="Mobile" hidden>
     {PRIMARY_NAV.map((item) =>
-      item.children ? (
+      item.groups ? (
         <details class="m-group">
-          <summary class:list={['m-summary', { active: groupActive(item.children) }]}>
+          <summary class:list={['m-summary', { active: groupsActive(item.groups) }]}>
             <span>{item.label}</span>
             <span class="m-caret" aria-hidden="true"></span>
           </summary>
           <div class="m-children">
-            {item.children.map((c) => (
-              <a href={c.href} class:list={['m-child', { active: isActive(c.href) }]}>{c.label}</a>
+            {item.groups.map((g) => (
+              <>
+                <span class="m-subheading">{g.heading}</span>
+                {g.items.map((c) => (
+                  <a href={c.href} class:list={['m-child', { active: isActive(c.href) }]}>{c.label}</a>
+                ))}
+              </>
             ))}
           </div>
         </details>
@@ -222,6 +234,41 @@ const groupActive = (children?: { href: string }[]) =>
     color: var(--green-dark);
     background: var(--green-tint);
   }
+  /* Grouped (mega) dropdown: one trigger, three columns */
+  .dropdown-menu.mega {
+    left: auto;
+    right: 0;
+    display: flex;
+    gap: 0.4rem;
+    padding: 0.85rem;
+    min-width: 540px;
+  }
+  .mega-col {
+    flex: 1;
+    min-width: 168px;
+  }
+  .mega-col + .mega-col {
+    border-left: 1px solid var(--border);
+    padding-left: 0.4rem;
+  }
+  .mega-col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .mega-col li {
+    margin: 0;
+  }
+  .mega-heading {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-weight: 700;
+    padding: 0.1rem 0.7rem 0.45rem;
+  }
 
   .header-actions {
     display: flex;
@@ -324,6 +371,19 @@ const groupActive = (children?: { href: string }[]) =>
   .m-child.active {
     color: var(--green-dark);
     border-left-color: var(--green);
+  }
+  .m-subheading {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-weight: 700;
+    padding: 0.7rem 0.5rem 0.2rem;
+  }
+  .m-subheading:first-child {
+    padding-top: 0.2rem;
   }
   .nav-mobile .btn {
     margin-top: 0.9rem;
