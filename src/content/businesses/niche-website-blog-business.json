@@ -1,0 +1,163 @@
+{
+  "title": "Niche Website and Blog Business",
+  "slug": "niche-website-blog-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start a Niche Website and Blog Business — Real Costs and Earnings",
+  "metaDescription": "Honest breakdown of building a niche website or blog: real startup costs, the long road to income, Google algorithm risk, and what most people get wrong.",
+  "startupCostLow": 100,
+  "startupCostHigh": 2500,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 6000,
+  "timeToFirstIncome": "6 to 18 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Patient writers who can produce useful content consistently for a year or more before meaningful income arrives",
+  "biggestRisk": "A Google algorithm update wiping out most of your traffic and income overnight, after months or years of work",
+  "speedToIncome": "long",
+  "minWeeklyHours": 10,
+  "skills": ["writing", "tech", "creative"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["flexibility", "alongside-job", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A niche website or blog is a content site focused on a specific topic — personal finance for nurses, backyard chicken keeping, budget travel in Southeast Asia — that earns money mainly through display advertising and affiliate commissions. You publish articles that rank in Google (and increasingly get surfaced in AI answers and other platforms), attract organic traffic, and monetize that traffic with ad networks like Mediavine, Raptive, or Ezoic, plus affiliate programs such as Amazon Associates or niche partner programs. The model is appealing because it is cheap to start and can produce semi-passive income later, but it is badly over-hyped: the timeline to meaningful money is long, and a large share of sites never earn more than pocket change.",
+  "dailyReality": "Most of the work is research, writing, and editing — either you write the articles yourself or you brief, manage, and edit freelance writers. A typical week is keyword research, drafting one to four articles, updating older posts, building internal links, and watching analytics and Google Search Console for what is ranking and what is slipping. There is also ongoing technical housekeeping: site speed, broken links, plugin updates, and ad and affiliate setup. For the first six to twelve months, you are publishing into near silence — traffic and income are often close to zero — and the hardest part is staying consistent with no feedback yet.",
+  "startupCostsItemized": [
+    { "item": "Domain name (annual)", "low": 10, "high": 20, "annual": true },
+    { "item": "Web hosting (shared to managed WordPress, annual)", "low": 50, "high": 400, "annual": true },
+    { "item": "WordPress theme / page builder", "low": 0, "high": 100, "optional": true },
+    { "item": "Keyword and SEO research tools (Ahrefs, Semrush, or cheaper alternatives; monthly)", "low": 0, "high": 1200, "annual": true, "optional": true },
+    { "item": "Freelance writers for initial content (per 1,500-word article, if outsourcing)", "low": 0, "high": 2000, "optional": true },
+    { "item": "Stock photos / design tools (Canva)", "low": 0, "high": 150, "annual": true, "optional": true },
+    { "item": "Business registration / LLC", "low": 0, "high": 300, "optional": true },
+    { "item": "Email newsletter tool (free tier to paid)", "low": 0, "high": 240, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Realistically, expect $0 to a few hundred dollars total in year one — and many sites earn essentially nothing in the first 6 to 12 months because Google rewards established sites slowly. Display ad networks like Mediavine and Raptive require 50,000+ sessions per month before you can even join, which most beginners take a year or more to reach. The honest expectation for year one is that you are building an asset, not earning a wage.",
+    "experienced": "Sites that survive and reach real traffic (roughly 50,000 to 200,000 monthly sessions) commonly earn $1,000 to $6,000 per month from ads plus affiliates, depending on niche RPMs. High-value niches (finance, software, insurance) earn far more per visitor than low-value ones (general lifestyle, entertainment).",
+    "topEarners": "Top portfolio operators and large single sites earn $10,000 to $100,000+ per month, but this almost always means multiple sites or one large site, years of compounding content, a team of writers and editors, and significant traffic. Many of these operators also got hit hard by Google's 2023-2024 'Helpful Content' and core updates, which permanently cut some sites' income by 50-90%. Reaching the top is rare and increasingly fragile.",
+    "whatAffectsMost": "Niche choice (commercial intent and ad RPM) and search traffic volume matter most, followed by content quality and consistency. A site in a high-RPM niche can out-earn a much larger site in a low-RPM niche. Algorithm exposure is the wildcard that can erase all of it.",
+    "perHour": "Early on the effective hourly rate is often near zero or negative, since you may work hundreds of hours before earning meaningfully. Once a site matures, owners who systematize content sometimes reach $30 to $100+ per hour of their own time — but that figure ignores the unpaid build-up period and the real risk of a traffic collapse."
+  },
+  "howToStart": [
+    "Month 1: Pick a niche you can write about for years that also has commercial intent (people searching to buy, compare, or solve a costly problem). Validate demand with keyword tools, check that the niche has affiliate programs and decent ad RPMs, and register a domain and hosting. Avoid niches dominated by huge authority sites.",
+    "Months 1-3: Set up WordPress, install a fast theme, and publish a focused cluster of 15 to 30 genuinely useful articles around a few core topics. Write for real readers first, then optimize for search. Set up Google Search Console and analytics from day one.",
+    "Months 3-9: Keep publishing on a consistent schedule, build internal links between related posts, earn a few quality backlinks, and update underperforming posts. Expect traffic to stay low for months — this is normal, not failure.",
+    "Months 9-18: As traffic grows, apply to an ad network (start with Ezoic or Google AdSense, move to Mediavine/Raptive at 50,000+ sessions) and add affiliate links to your best commercial posts. Reinvest early earnings into more content or writers.",
+    "Ongoing: Diversify traffic beyond Google (email list, Pinterest, YouTube, niche communities) so a single algorithm update cannot wipe you out, and decide whether to grow this site or start a second."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Ability to research and write clear, genuinely useful content (or edit writers to that standard)",
+      "Patience and consistency to publish for 6 to 18 months before meaningful income",
+      "Basic comfort with WordPress, settings, and simple troubleshooting"
+    ],
+    "canLearn": [
+      "Keyword research and on-page SEO using tools and free guides",
+      "Affiliate and display-ad setup and optimization",
+      "Building internal links and a simple content strategy around topic clusters"
+    ],
+    "separators": [
+      "Picking a profitable niche with commercial intent and reasonable competition",
+      "Writing content that is more useful and trustworthy than what already ranks, with real expertise or first-hand experience",
+      "Diversifying traffic and income so a Google update does not end the business"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Expecting income in the first few months and quitting before the site has any chance to rank — this is the single most common reason sites fail",
+    "Choosing a niche with no commercial intent or terrible ad RPMs, so even good traffic earns very little",
+    "Publishing thin, generic, AI-spun content that Google's helpful-content systems now actively suppress",
+    "Relying 100% on Google search traffic with no email list or other channel, then getting wiped out by a core update",
+    "Chasing high-competition keywords a new site cannot rank for, instead of low-competition long-tail topics",
+    "Underestimating how much consistent work it takes and how long the unpaid build-up period really is"
+  ],
+  "toolsAndEquipment": [
+    { "item": "A laptop you already own", "note": "Any reliable computer is enough; no special hardware needed." },
+    { "item": "Domain + web hosting", "note": "Start with reputable shared or managed WordPress hosting; upgrade as traffic grows.", "low": 60, "high": 420 },
+    { "item": "WordPress + a fast, lightweight theme", "note": "Free options are fine; speed and clean layout matter more than premium themes.", "low": 0, "high": 100 },
+    { "item": "Keyword/SEO research tool", "note": "Ahrefs or Semrush are powerful but pricey; cheaper tools or free Search Console data can work at the start.", "low": 0, "high": 1200 },
+    { "item": "Display ad network account", "note": "AdSense/Ezoic to start; Mediavine or Raptive once you hit their traffic minimums.", "low": 0, "high": 0 },
+    { "item": "Email marketing tool", "note": "Build a list early to reduce Google dependence; free tiers cover beginners.", "low": 0, "high": 240 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Ranking in Google search for specific, lower-competition keywords your audience actually types",
+      "Building an email list so you own a direct channel to returning readers",
+      "Pinterest and short-form video for visual and how-to niches, which can drive traffic faster than search",
+      "Participating genuinely in niche communities (Reddit, forums, Facebook groups) without spamming links",
+      "Getting cited in AI answers and featured snippets by writing clear, well-structured, authoritative content"
+    ],
+    "whereCustomersAre": "Your 'customers' are readers searching Google or browsing social platforms for information in your niche; the actual paying parties are ad networks and affiliate merchants who pay you for the attention and clicks you generate.",
+    "timeToClientBase": "Building meaningful organic traffic typically takes 6 to 18 months of consistent publishing, and a stable, diversified audience often takes two to three years. There is no fast version of this.",
+    "wasteOfTime": "Paying for low-quality backlinks, obsessing over site design before you have content, and posting your articles into social feeds where no one is searching for them. Early on, publishing more useful content and earning a few real backlinks beats almost everything else."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but slowly. A single site in a decent niche can reach full-time income in two to four years, and many owners scale by building or buying additional sites into a portfolio rather than relying on one. The income can become semi-passive once content matures, but it is never truly hands-off because of updates and algorithm risk.",
+    "hireAndStepBack": "Yes. The most common scaling path is hiring freelance writers and an editor and shifting your role to strategy, keyword research, and quality control. Many portfolio owners run sites that they barely write for, though they still manage SEO and risk.",
+    "sellable": "Highly sellable. Content sites with steady traffic and revenue sell on marketplaces like Flippa and through brokers, typically for a multiple of monthly profit (often in the 30x to 45x monthly range, lower since recent volatility). Clean analytics, diversified traffic, and documented processes raise the price.",
+    "whatScalingRequires": "A repeatable content production system, reliable writers and editors, capital to fund content before it earns, and genuine traffic diversification. Scaling also means accepting and managing the constant background risk of Google updates."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You genuinely enjoy researching and writing, and can do it for a year-plus with little reward",
+      "You can treat this as a long-term asset, not a quick income source",
+      "You already have expertise or strong interest in a specific, monetizable niche",
+      "You want flexible, location-independent work you can build alongside a job"
+    ],
+    "poorFit": [
+      "You need income within the next few months to pay bills",
+      "You dislike writing or managing writers and editing",
+      "You cannot tolerate the risk of a Google update erasing months of work",
+      "You expect 'passive income' with little ongoing effort"
+    ],
+    "askYourself": [
+      "Can I realistically publish useful content for 12+ months before earning a meaningful income?",
+      "Does my chosen niche have buyers, affiliate programs, and decent ad rates, or am I writing into a low-value topic?",
+      "How will I diversify so a single algorithm change does not destroy the business?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How long until a niche website makes real money?",
+      "answer": "Realistically 6 to 18 months before meaningful income, and often longer. New sites earn close to nothing for the first several months because Google trusts established sites first. Anyone promising fast blog income is selling hype, not reality."
+    },
+    {
+      "question": "How much can a blog actually earn?",
+      "answer": "It varies enormously. Many blogs never earn more than a few dollars. Sites that reach real traffic commonly earn $1,000 to $6,000 a month, and a small number of large or portfolio operators earn far more. The single biggest variable is your niche's commercial value and ad RPM."
+    },
+    {
+      "question": "What is the biggest risk?",
+      "answer": "Google algorithm updates. The 2023-2024 'Helpful Content' and core updates cut traffic to many established sites by 50% to 90% overnight, ending some businesses. Building an email list and diversifying traffic is the only real defense, and even that is partial."
+    },
+    {
+      "question": "Do I have to write everything myself?",
+      "answer": "No. Many successful owners hire freelance writers and act as editor and strategist. But you must hold a high quality bar — cheap, generic, or AI-spun content is now actively suppressed by Google's systems, so outsourcing badly can sink the site."
+    },
+    {
+      "question": "Can I just use AI to write all the articles?",
+      "answer": "Pure AI-generated content at scale is risky and increasingly penalized. AI can help with research, outlines, and drafts, but content that ranks and lasts shows real expertise, first-hand experience, and editing. Sites that mass-published unedited AI content were among the hardest hit by recent updates."
+    },
+    {
+      "question": "What niche should I pick?",
+      "answer": "Pick something you can write about for years that also has commercial intent — readers searching to buy, compare, or solve an expensive problem — and reasonable competition. High-RPM niches like finance, software, and home improvement earn far more per visitor than general lifestyle topics, but they are also more competitive."
+    },
+    {
+      "question": "Is starting a blog still worth it given AI search?",
+      "answer": "It is harder than it was five years ago, with AI overviews capturing some clicks and more competition for attention. It can still work for genuinely expert, differentiated content and diversified traffic, but treat it as a slow, uncertain long-term project, not a reliable income plan."
+    }
+  ],
+  "similarBusinesses": [
+    "freelance-copywriting-business",
+    "youtube-channel-business",
+    "dropshipping-business",
+    "online-course-business"
+  ],
+  "dataSources": [
+    "Mediavine and Raptive (formerly AdThrive) publisher requirements and reported RPM ranges",
+    "Ahrefs and Semrush blog studies on how long it takes pages to rank in Google",
+    "Google Search Central documentation on helpful content and core updates",
+    "Flippa and Empire Flippers content-site valuation and sale data",
+    "Operator communities (r/juststart, r/blogging, Fat Stacks) for real-world earnings and timelines"
+  ],
+  "lastReviewed": "2026-06"
+}

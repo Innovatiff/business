@@ -1,0 +1,169 @@
+{
+  "title": "Appliance Repair Business",
+  "slug": "appliance-repair-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start an Appliance Repair Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting an appliance repair business: real startup costs, realistic earnings, diagnostic skills, EPA certification, and what trips people up.",
+  "startupCostLow": 2000,
+  "startupCostHigh": 12000,
+  "monthlyEarningsLow": 3000,
+  "monthlyEarningsHigh": 14000,
+  "timeToFirstIncome": "3 to 8 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Mechanically minded problem-solvers who like diagnosing and fixing things and want a mobile, recession-resistant service trade",
+  "biggestRisk": "Misdiagnosing repairs and eating the cost of wrong parts and return trips, or doing refrigerant work without EPA certification and facing fines",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 20,
+  "skills": ["hands", "tech"],
+  "workLocations": ["mobile"],
+  "priorities": ["low-risk", "max-income", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "An appliance repair business diagnoses and fixes home appliances — refrigerators, washers, dryers, dishwashers, ovens and ranges, microwaves, and increasingly the electronic control boards inside them. The business model is straightforward: charge a service-call (diagnostic) fee to come out and identify the problem, then a labor charge plus marked-up parts to complete the repair. It's a recession-resistant, demand-steady trade because appliances always break and replacing them is expensive, but it rewards genuine diagnostic skill — the money is in correctly identifying the failure on the first visit, not in turning a wrench.",
+  "dailyReality": "A typical day is a route of three to seven service calls across town. At each stop you interview the customer about symptoms, test and diagnose the appliance, quote the repair, and either fix it on the spot if you have the part or order the part and schedule a return trip. You'll be pulling appliances out, removing panels, testing components with a multimeter, and working in kitchens and laundry rooms — sometimes in cramped or dirty conditions. Around the calls, expect daily time on parts ordering and pickup, scheduling, invoicing, and looking up model-specific repair info and wiring diagrams. Managing your parts inventory and your route efficiently is most of what separates a profitable day from a frustrating one.",
+  "startupCostsItemized": [
+    { "item": "Diagnostic tools (multimeter, clamp meter, leak detector) and hand tools", "low": 300, "high": 1200 },
+    { "item": "Specialty tools (nut drivers, appliance dollies, sealed-system gauges)", "low": 200, "high": 1500 },
+    { "item": "Work vehicle (used van or SUV) and organization", "low": 0, "high": 8000, "optional": true },
+    { "item": "Starting parts inventory (common belts, pumps, valves, igniters, boards)", "low": 300, "high": 2000 },
+    { "item": "EPA Section 608 certification (for sealed-system/refrigerant work)", "low": 20, "high": 150, "optional": true },
+    { "item": "General liability insurance", "low": 500, "high": 1500, "annual": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Repair-database/manual subscription and service software", "low": 100, "high": 800, "annual": true, "optional": true },
+    { "item": "Google Business Profile + simple website and reviews setup", "low": 0, "high": 400, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most beginners building diagnostic speed and a route earn $3,000 to $6,000 per month, often part-time at first. Solo techs who go full-time, book steadily, and diagnose accurately typically reach $5,000 to $9,000 per month once their calendar fills and return trips drop.",
+    "experienced": "Experienced solo techs with strong reviews, efficient routes, healthy parts markup, and relationships with property managers and warranty/insurance companies commonly report $8,000 to $16,000 per month. First-visit fix rates and parts margin are the levers at this stage.",
+    "topEarners": "Multi-tech appliance repair companies covering a metro area gross $30,000 to $120,000+ per month, but reaching that requires hiring and training techs (hard to find good ones), dispatching, warranty-company contracts, and the owner moving into management. Tech quality and turnover are the usual ceiling.",
+    "whatAffectsMost": "First-visit fix rate, parts markup, and route density matter most. A tech who diagnoses correctly and carries the right parts completes more jobs per day and wastes fewer trips; misdiagnosis and unbillable return visits are where the money leaks.",
+    "perHour": "Effective rates for solo techs typically run $60 to $150 per billable hour combining the service-call fee, labor, and parts margin. Counting parts runs, diagnosis time, and travel between calls, realistic blended rates are often $45 to $90 per hour, higher for those who batch routes well."
+  },
+  "howToStart": [
+    "Weeks 1-4: Build real diagnostic skill before charging anyone. If you're not already mechanically experienced, work through manufacturer training, online courses (many free on YouTube and paid programs like Master Samurai Tech), and practice on used or free appliances from marketplace listings. Learn to read wiring diagrams and use a multimeter confidently.",
+    "Week 4: Decide your scope. If you'll do refrigerator sealed-system or any refrigerant work, get EPA Section 608 certification — it's inexpensive and legally required to handle refrigerant. Register your business and buy general liability insurance before any paid work.",
+    "Month 1: Set your service-call fee, labor rate, and parts markup. Stock a starter inventory of the most common failing parts (belts, pumps, valves, igniters, door switches). Set up a Google Business Profile and take on first jobs through your network, local Facebook and Nextdoor groups, and a launch rate.",
+    "Months 1-3: Complete your first paid repairs, tracking your first-visit fix rate and which parts you keep needing so your van inventory gets smarter. Ask every satisfied customer for a Google review the day you finish, and refine your route so calls cluster geographically.",
+    "Months 3-12: Build repeat and referral business, pursue property-manager and landlord accounts for steady volume, and consider warranty-company or insurance dispatch work once you're fast and reliable. Decide whether your demand justifies a second tech."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Genuine mechanical and electrical aptitude — comfort using a multimeter and reasoning through how a machine fails",
+      "The patience to diagnose methodically instead of guessing and swapping expensive parts",
+      "Reliability and customer communication — explaining problems and repair-vs-replace honestly"
+    ],
+    "canLearn": [
+      "Brand- and model-specific quirks and where common failures occur (builds quickly with reps and repair databases)",
+      "Reading wiring diagrams and tech sheets to pinpoint failed components",
+      "Pricing, parts markup, and inventory management as a business owner"
+    ],
+    "separators": [
+      "A high first-visit fix rate — diagnosing correctly and carrying the right parts so jobs finish in one trip",
+      "Knowing when to recommend replacement honestly, which builds the trust that drives referrals",
+      "Landing property-manager, landlord, and warranty-company accounts for steady, repeatable volume"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Guessing at the diagnosis and swapping parts until something works, which eats the cost of wrong parts, kills margin, and forces unbillable return trips",
+    "Doing refrigerator sealed-system or any refrigerant work without EPA Section 608 certification, which is illegal and carries fines",
+    "Carrying the wrong inventory, so common jobs that could be one-and-done require a parts order and a second visit the customer resents",
+    "Pricing the service-call fee too low or rolling it into the repair, then losing money on no-fix or replace-it diagnoses",
+    "Underestimating how brand- and model-specific the work is — control-board and modern-appliance repair require constant learning, not just a wrench",
+    "Skipping insurance, then facing a claim when a misdiagnosed dishwasher or washer floods a customer's home"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Multimeter and electrical diagnostic tools", "note": "The core of the trade — most appliance failures are diagnosed electrically. A good meter and clamp meter are essential.", "low": 100, "high": 600 },
+    { "item": "Hand and specialty tools", "note": "Nut driver set, pliers, screwdrivers, putty knives, and appliance-specific tools for spanner nuts and clips.", "low": 200, "high": 900 },
+    { "item": "Appliance dolly and moving straps", "note": "You'll constantly move heavy appliances; a proper dolly prevents injury and floor damage.", "low": 80, "high": 300 },
+    { "item": "Starter parts inventory", "note": "Stock the most common failing parts so frequent jobs finish in one visit; expand based on what you actually need.", "low": 300, "high": 2000 },
+    { "item": "Sealed-system gauges and recovery equipment", "note": "Only if you do refrigerant work, which requires EPA 608 certification. Many techs avoid sealed-system work early on.", "low": 0, "high": 1500 },
+    { "item": "Repair-database / tech-sheet subscription", "note": "Access to wiring diagrams and model-specific repair info speeds diagnosis dramatically.", "low": 0, "high": 800 },
+    { "item": "Work vehicle with organized shelving", "note": "Your rolling parts shop. A used van or large SUV is enough to start.", "low": 0, "high": 8000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A complete Google Business Profile with strong reviews — homeowners with a broken appliance search locally and call the top-rated result",
+      "Property managers, landlords, and HOAs needing fast, reliable repairs across many units",
+      "Local Facebook groups and Nextdoor, where neighbors ask for repair recommendations",
+      "Warranty companies, home-warranty plans, and insurance dispatch (steady volume, lower per-job pay)",
+      "Referral and repeat business — appliances keep breaking, so a trusted tech becomes the household's go-to"
+    ],
+    "whereCustomersAre": "Homeowners and renters with a broken refrigerator, washer, dryer, dishwasher, or oven who need it fixed quickly because replacement is expensive. Property managers and landlords are the steadiest source because they have many units and recurring failures.",
+    "timeToClientBase": "Most techs land first jobs within a few weeks of marketing and reach a steady calendar over two to four months as reviews and repeat customers accumulate. Property-manager and warranty relationships, once landed, fill the schedule fastest.",
+    "wasteOfTime": "Broad untargeted advertising and an elaborate brand before you have reviews. Early on, a strong Google profile, fast response time, and a couple of property-manager accounts beat any marketing spend."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. Many solo techs reach a full-time income within their first year by booking steadily and improving their first-visit fix rate. The solo ceiling is set by how many quality calls you can complete in a day, which efficient routing and good inventory raise.",
+    "hireAndStepBack": "Possible but bottlenecked by talent. Adding techs lets you cover more of a metro and take warranty-company contracts, but good appliance techs are genuinely hard to find and train, and a weak tech with a low fix rate loses money and reviews. Stepping back requires strong training, dispatching, and quality control.",
+    "sellable": "Established appliance repair businesses with recurring property-manager and warranty contracts, a brand, documented routes, and trained techs do sell for a modest multiple of profit. A pure solo operation built on the owner's reputation and skill is harder to transfer.",
+    "whatScalingRequires": "Standardized diagnostics and pricing, smart inventory systems across multiple vans, dispatching software, recruiting and training scarce skilled techs, and recurring property-manager or warranty volume. Tech quality and turnover are what stall most appliance businesses at the solo-or-small stage."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You're mechanically and electrically minded and enjoy diagnosing why something fails",
+      "You're patient and methodical rather than a guess-and-swap troubleshooter",
+      "You want a mobile, recession-resistant trade with steady demand",
+      "You're comfortable explaining repair-vs-replace honestly and building trust with customers"
+    ],
+    "poorFit": [
+      "You dislike electrical troubleshooting or get frustrated by intermittent, hard-to-pin-down problems",
+      "You want a desk-based or fully passive business",
+      "You're unwilling to keep learning brand- and model-specific quirks as appliances change",
+      "You won't get EPA certification but plan to do refrigerant work anyway"
+    ],
+    "askYourself": [
+      "Am I genuinely good at diagnosing mechanical and electrical problems, or do I tend to guess and swap parts?",
+      "Will I invest in training and inventory so my first-visit fix rate is high enough to be profitable?",
+      "Is there enough local demand and how many established repair companies already compete in my area?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to start an appliance repair business?",
+      "answer": "Most states do not require a specific appliance-repair license for general mechanical and electrical repairs, though you'll need a business registration and general liability insurance. The key legal requirement is EPA Section 608 certification if you do any refrigerant or sealed-system work on refrigerators and freezers — that's federally required. Always check your state and city, since a few jurisdictions add their own requirements."
+    },
+    {
+      "question": "What is EPA Section 608 certification and do I need it?",
+      "answer": "EPA Section 608 certification is a federal requirement to handle refrigerants, which means any sealed-system work on refrigerators, freezers, and similar appliances. It's inexpensive (typically under $150) and earned by passing an exam. If you'll only do non-sealed repairs — washers, dryers, dishwashers, ovens, and the non-refrigerant parts of a fridge — you may not need it, but you cannot legally touch refrigerant without it. Many techs start without it and add sealed-system work later."
+    },
+    {
+      "question": "How do appliance repair businesses make money?",
+      "answer": "The model is a service-call (diagnostic) fee to come out and identify the problem, plus a labor charge and marked-up parts to complete the repair. The service-call fee covers your time even if the customer declines the repair, and parts markup is a meaningful share of profit. The most profitable techs diagnose correctly on the first visit and carry the right parts, so jobs finish in one trip."
+    },
+    {
+      "question": "Do I need prior experience to start?",
+      "answer": "You need real diagnostic ability, which is why this isn't a no-experience business. If you're already mechanically and electrically skilled you can learn appliance-specific repair through manufacturer training, courses like Master Samurai Tech, and practice on used appliances. Without that foundation, plan to spend serious time learning before charging customers, because misdiagnosis quickly destroys both margin and reputation."
+    },
+    {
+      "question": "How much should I charge for a service call?",
+      "answer": "Service-call (diagnostic) fees commonly run $70 to $150 depending on your market, often credited toward the repair if the customer proceeds. Labor and parts markup are added on top. Set the fee high enough that a no-repair diagnosis still pays for your time and travel — underpricing the service call is a common way new techs lose money on no-fix visits."
+    },
+    {
+      "question": "Is appliance repair a stable business?",
+      "answer": "It's relatively recession-resistant because appliances always break and replacing them is expensive, so demand holds steady or rises in tight economies. The steady volume comes from repeat customers, property managers, and landlords. The main risks are misdiagnosis costing you money and the ongoing need to keep up with increasingly electronic, board-driven appliances."
+    },
+    {
+      "question": "Can I run this part-time around a job?",
+      "answer": "Yes, more so than most trades. Many techs start part-time, taking evening and weekend calls while learning, because jobs are scheduled appointments rather than emergencies. Be honest that property-manager and warranty volume usually expects daytime availability, so growing past a part-time side income typically means going full-time."
+    },
+    {
+      "question": "What's the hardest part of the business?",
+      "answer": "Diagnosis and inventory. The money is made or lost on whether you correctly identify the failure on the first visit and have the right part on the van. Wrong diagnoses, missing parts, and unbillable return trips are where new techs bleed profit, and modern appliances with electronic control boards keep raising the diagnostic skill required."
+    }
+  ],
+  "similarBusinesses": [
+    "handyman-business",
+    "hvac-business",
+    "electrician-business",
+    "pressure-washing-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Home Appliance Repairers occupational data (wages and outlook)",
+    "U.S. EPA — Section 608 Technician Certification requirements for refrigerant handling",
+    "Angi / HomeAdvisor — Appliance Repair Cost Guides (reported service-call and repair pricing)",
+    "Appliance repair training providers (e.g., Master Samurai Tech) for skill and certification benchmarks",
+    "Operator communities and trade forums (r/appliancerepair) for real-world pricing, inventory, and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

@@ -1,0 +1,162 @@
+{
+  "title": "Podcast Production Business",
+  "slug": "podcast-production-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a Podcast Production Business — Real Costs and Earnings",
+  "metaDescription": "Honest guide to starting a podcast production business: editing and producing shows for clients, real per-episode and retainer rates, finding clients, and common mistakes.",
+  "startupCostLow": 200,
+  "startupCostHigh": 2500,
+  "monthlyEarningsLow": 500,
+  "monthlyEarningsHigh": 8000,
+  "timeToFirstIncome": "2 to 8 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Detail-oriented people who like audio work and client relationships, and want recurring income from producing other people's shows",
+  "biggestRisk": "Failing to land a steady roster of clients, or underpricing per-episode work so the hourly rate collapses",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 10,
+  "skills": ["creative", "tech"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["flexibility", "alongside-job", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A podcast production business is a service business: you edit and produce podcasts for other people — entrepreneurs, agencies, businesses, and established hosts — rather than running your own show. Depending on the package, you might clean up and edit audio, remove filler and mistakes, mix and master, add intros and music, write show notes, create audiograms and social clips, and manage publishing to platforms. Clients pay you because they want a polished show without spending hours editing, so your income comes from per-episode fees or monthly retainers, not ads or sponsorships.",
+  "dailyReality": "Most of your time is spent at a computer in a digital audio workstation, listening through raw recordings and editing out mistakes, long pauses, crosstalk, and 'ums', then balancing levels and removing background noise. A single hour-long episode commonly takes one to three hours to edit well, more if there are multiple speakers or messy audio. Around the editing you handle client communication, deliver files, manage revisions, and often produce extras like show notes, timestamps, and short video or audio clips for social media. Deadlines are recurring and real — clients publish on a schedule.",
+  "startupCostsItemized": [
+    { "item": "Computer you already own", "low": 0, "high": 0 },
+    { "item": "Closed-back headphones for accurate monitoring", "low": 60, "high": 250 },
+    { "item": "Audio editing software (Audacity free, or Adobe Audition / Hindenburg ~$15-20/mo)", "low": 0, "high": 240, "annual": true, "optional": true },
+    { "item": "Audio cleanup tools (e.g. iZotope RX, Auphonic credits)", "low": 0, "high": 400, "optional": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Simple website / portfolio with audio samples", "low": 0, "high": 200, "optional": true },
+    { "item": "Project / file delivery tools (Dropbox, Frame.io, scheduling)", "low": 0, "high": 150, "annual": true, "optional": true },
+    { "item": "Microphone (only if you record or produce your own demo)", "low": 70, "high": 300, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Beginners often start around $50 to $150 per episode and may earn $500 to $2,500 per month part-time while building skill and a client list. Early rates are low because you are competing with cheap freelancers and have no portfolio; many take a few low-paid jobs first to build samples.",
+    "experienced": "Experienced producers with a portfolio and a few retainer clients commonly earn $3,000 to $8,000 per month. The shift comes from charging per-episode rates of $150 to $500+ for full production, or monthly retainers of $500 to $2,000+ per show, and from holding several recurring clients at once.",
+    "topEarners": "Top solo producers and small studios earn $10,000 to $20,000+ per month by managing many shows, offering premium full-service packages (video clips, show notes, strategy), and often subcontracting routine editing to junior editors. Getting there requires real sales, systems, and a reputation, and most producers never reach it.",
+    "whatAffectsMost": "Whether you sell full production packages and retainers rather than one-off editing, and how efficiently you edit, matter most. A producer who turns an episode around in 90 minutes at a flat package rate earns far more per hour than one charging hourly for slow editing.",
+    "perHour": "Beginners often net an effective $15 to $30 per hour as editing is slow and rates are low. Experienced producers on package or retainer pricing realistically reach $40 to $90+ per hour as their speed and pricing improve."
+  },
+  "howToStart": [
+    "Weeks 1-2: Learn one editing workflow well in a tool like Audacity (free), Adobe Audition, or Hindenburg. Edit two or three sample episodes — your own recordings or public-domain audio — into polished pieces you can show as a portfolio.",
+    "Weeks 2-4: Define clear packages (e.g. basic edit, full production, full production plus show notes and clips) with flat per-episode prices. Set up a simple one-page site or portfolio with before/after audio samples and a way to contact you.",
+    "Month 1: Find your first one or two clients — pitch new and existing podcasters in your niche, apply to podcast-specific job boards, and offer a discounted first episode to earn a testimonial. Deliver early work fast and flawlessly.",
+    "Months 1-3: Convert one-off clients into monthly retainers so income becomes predictable. Track exactly how long each episode takes you so you can price for a healthy hourly rate and stop underbidding.",
+    "Months 3-6: Standardize your process with templates and checklists, raise your rates as your portfolio and reviews grow, and consider adding higher-value services like audiograms, video repurposing, and show-note writing."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "A genuine ear for audio — hearing what makes a recording sound clean, balanced, and professional",
+      "Proficiency in at least one digital audio workstation and a willingness to learn its tools deeply",
+      "Reliability with recurring deadlines, since clients publish on a fixed schedule"
+    ],
+    "canLearn": [
+      "Noise reduction, leveling, and mastering using tools like iZotope RX or Auphonic",
+      "Writing show notes and timestamps, and creating audiograms and short video clips",
+      "Publishing workflows across hosting platforms like Buzzsprout, Libsyn, and Spotify for Podcasters"
+    ],
+    "separators": [
+      "Selling full-production packages and retainers instead of cheap one-off edits",
+      "Editing efficiently so a polished episode takes far less time than a beginner would spend",
+      "Offering repurposing (clips, show notes, social assets) that makes you a strategic partner, not just an editor"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Charging hourly while editing slowly, which caps income; package and retainer pricing earns far more",
+    "Underpricing against ultra-cheap overseas freelancers instead of competing on reliability and quality",
+    "Taking one-off gigs forever instead of converting clients to recurring monthly retainers",
+    "Over-editing — stripping every breath and pause until the show sounds robotic and unnatural",
+    "Ignoring the business side: no clear packages, no contracts, vague scope, and endless free revisions",
+    "Assuming technical editing skill alone wins clients, when finding and keeping clients is the real bottleneck"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Digital audio workstation", "note": "Audacity is free and capable; Adobe Audition, Reaper, and Hindenburg are common paid choices among pros.", "low": 0, "high": 240 },
+    { "item": "Closed-back monitoring headphones", "note": "Accurate headphones are essential to hear noise and balance issues your laptop speakers hide.", "low": 60, "high": 250 },
+    { "item": "Audio repair tools", "note": "iZotope RX or Auphonic handle noise, clipping, and loudness normalization that manual editing cannot.", "low": 0, "high": 400 },
+    { "item": "File delivery and storage", "note": "Dropbox, Google Drive, or Frame.io for moving large audio files and collecting client recordings.", "low": 0, "high": 150 },
+    { "item": "Portfolio website", "note": "Before/after audio samples convert prospects far better than a list of skills.", "low": 0, "high": 200 },
+    { "item": "Repurposing tools", "note": "Tools like Descript or Headliner create audiograms and clips, a high-value upsell.", "low": 0, "high": 300 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Pitching podcasters directly — message hosts whose audio could be improved or who are launching new shows",
+      "Podcast-specific job boards and freelance platforms (Podjobs, Upwork, podcasting Facebook groups and Discords)",
+      "Niche down and become known as the producer for a specific type of show (business, true crime, interview)",
+      "Referrals from existing clients, who often know other podcasters needing help",
+      "A portfolio site and presence in podcasting communities where hosts ask for recommendations"
+    ],
+    "whereCustomersAre": "Your clients are busy podcast hosts — entrepreneurs, coaches, agencies, and businesses — who want a polished show without doing the editing themselves. They congregate in podcasting Facebook groups, Discords, niche subreddits, and on freelance and podcast job boards.",
+    "timeToClientBase": "Most producers land their first paid client within two to eight weeks of building a portfolio and pitching actively. Building a roster of recurring retainer clients that creates stable income usually takes three to six months of consistent outreach and reliable delivery.",
+    "wasteOfTime": "Competing purely on price against the cheapest freelancers is a race to the bottom. Spending on heavy branding or paid ads before you have audio samples and a few testimonials is premature; samples and referrals win clients."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, fairly realistically. A handful of monthly retainer clients at solid package rates can replace a full-time income, and demand for podcast production has grown as more businesses launch shows. The ceiling solo is set by how many episodes you can produce and how high your packages are priced.",
+    "hireAndStepBack": "Yes. Many producers grow into small studios by subcontracting routine editing to junior editors while keeping client relationships, quality control, and sales. Stepping back requires documented processes and trusted editors who deliver consistent quality.",
+    "sellable": "A production studio with recurring retainer contracts, documented processes, and a team is sellable as a service business. A pure solo operation where you personally edit every episode is harder to sell because the service is essentially you.",
+    "whatScalingRequires": "Standardized editing templates and checklists, a reliable team of editors, clear contracts and onboarding, and a steady lead source so you are not personally hunting every client. The jump from solo editor to studio owner is mostly a sales and management shift."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You enjoy focused, detailed audio work and have a good ear",
+      "You are reliable with recurring weekly deadlines",
+      "You want recurring client income rather than building your own audience from scratch",
+      "You are comfortable pitching clients and managing relationships"
+    ],
+    "poorFit": [
+      "You dislike repetitive editing or sitting at a computer with headphones for hours",
+      "You will not do the sales and outreach needed to find clients",
+      "You want to build your own brand or audience rather than serve others' shows",
+      "You need a high income immediately with no portfolio-building period"
+    ],
+    "askYourself": [
+      "Am I willing to do meticulous editing on a deadline, week after week, for the same clients?",
+      "Will I actually pitch and follow up with potential clients, not just wait for work to appear?",
+      "Can I price in packages and retainers so my hourly rate holds up as I get faster?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need my own podcast to produce podcasts for others?",
+      "answer": "No. This is a service business — you edit and produce other people's shows. Having produced a sample episode or two helps build a portfolio, but you do not need a successful show of your own. Many clients actually prefer a producer who focuses on craft rather than running a competing show."
+    },
+    {
+      "question": "How much should I charge to edit a podcast?",
+      "answer": "Beginners often start at $50 to $150 per episode for basic editing, while experienced producers charge $150 to $500+ for full production, or monthly retainers of $500 to $2,000+ per show. The most profitable approach is flat-rate packages or retainers rather than hourly billing, because your speed improves over time."
+    },
+    {
+      "question": "How long does it take to edit one episode?",
+      "answer": "A clean, single-host episode might take under an hour, but a typical multi-speaker, hour-long interview commonly takes one to three hours to edit well, including cleanup, leveling, and adding intros or show notes. Messy audio takes longer. As you build templates and skill, your time per episode drops significantly."
+    },
+    {
+      "question": "What software do podcast producers use?",
+      "answer": "Common digital audio workstations include the free Audacity, plus Adobe Audition, Reaper, and Hindenburg. Many producers add audio-repair tools like iZotope RX or Auphonic for noise and loudness, and Descript for transcription and clip creation. You can start fully on free tools and upgrade as income allows."
+    },
+    {
+      "question": "Is there still demand for podcast production?",
+      "answer": "Yes. Businesses, coaches, and creators keep launching shows but rarely want to edit them, so demand for reliable producers remains steady. Competition exists, especially at the low end, so the way to win is reliability, quality, and offering full-service packages rather than the cheapest rate."
+    },
+    {
+      "question": "Can I do this part-time around a job?",
+      "answer": "Yes, it is genuinely part-time friendly. Editing is flexible and asynchronous as long as you hit publishing deadlines, so many producers start with one or two shows in evenings and weekends. The main constraint is that clients publish on a schedule, so you must reliably deliver each episode on time."
+    },
+    {
+      "question": "Do I need to be good at recording audio too?",
+      "answer": "Not necessarily. Most clients record their own audio and send you the files, so your core skill is editing and producing, not recording. Understanding good recording practices helps you coach clients toward cleaner source audio, which makes your editing faster and your final product better."
+    }
+  ],
+  "similarBusinesses": [
+    "video-editing-business",
+    "social-media-management-business",
+    "freelance-copywriting-business",
+    "virtual-assistant-business"
+  ],
+  "dataSources": [
+    "Freelance and podcast job boards (Upwork, Podjobs) for reported per-episode and retainer rate ranges",
+    "Podcast hosting platform reports (Buzzsprout, Libsyn) on podcasting growth and publishing trends",
+    "Podcast producer communities and forums for real-world pricing, turnaround times, and client-finding tactics",
+    "Industry rate guides for audio editing and production services in the United States"
+  ],
+  "lastReviewed": "2026-06"
+}

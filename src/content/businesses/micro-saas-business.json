@@ -1,0 +1,163 @@
+{
+  "title": "Micro-SaaS Business",
+  "slug": "micro-saas-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start a Micro-SaaS Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of building a micro-SaaS business: real costs, realistic recurring revenue, why most fail, churn, and what it actually takes to reach profitable subscription income.",
+  "startupCostLow": 500,
+  "startupCostHigh": 15000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 10000,
+  "timeToFirstIncome": "6 to 18 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Capable developers who can validate a narrow problem, ship a real product, and survive a long unpaid build-and-find-customers phase",
+  "biggestRisk": "Spending months building something nobody will pay for, then watching the few users who sign up churn faster than you can replace them",
+  "speedToIncome": "long",
+  "minWeeklyHours": 15,
+  "skills": ["tech"],
+  "workLocations": ["home", "online"],
+  "priorities": ["max-income", "sellable", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A micro-SaaS is a small, focused software product sold by subscription, usually built and run by one person or a tiny team. Instead of competing with large software companies, a micro-SaaS solves one narrow problem for a specific audience — a scheduling tool for tattoo studios, a niche analytics dashboard, a plugin or add-on for a larger platform like Shopify, WordPress, or Slack. The appeal is real but easy to romanticize: recurring monthly revenue, high gross margins once it works, and the ability to build it nights and weekends. The reality is that most micro-SaaS attempts never reach meaningful revenue, because building software is the easy part and getting strangers to pay for it month after month is the hard part.",
+  "dailyReality": "Early on, daily reality is long stretches of solitary work with no income: validating an idea by talking to potential users, building the product, and rebuilding it as you learn what people actually need. Once it launches, the work shifts and never stops — fixing bugs, answering support tickets, writing content and doing outreach to find customers, handling the occasional outage at an inconvenient hour, and obsessively watching signups, conversions, and churn. Even a 'finished' product needs constant marketing and support. Many founders are surprised that running a live SaaS is at least as much customer support and marketing as it is coding.",
+  "startupCostsItemized": [
+    { "item": "Hosting, servers, and cloud infrastructure", "low": 120, "high": 1200, "annual": true },
+    { "item": "Domain, email, and SSL", "low": 30, "high": 150, "annual": true },
+    { "item": "Payment and subscription billing platform fees (per transaction, plus tooling)", "low": 0, "high": 600, "annual": true },
+    { "item": "Third-party APIs, libraries, and SaaS tools your product depends on", "low": 0, "high": 2400, "annual": true, "optional": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 500 },
+    { "item": "Landing page, analytics, and email/marketing tools", "low": 0, "high": 800, "annual": true },
+    { "item": "Contract design or development help (if you cannot do all of it)", "low": 0, "high": 8000, "optional": true },
+    { "item": "Initial paid marketing or ad experiments", "low": 0, "high": 2000, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Be honest with yourself: most micro-SaaS products make little or nothing in year one, and a large share never reach meaningful revenue at all. Founders who validate well and ship something useful might reach $100 to $1,500 in monthly recurring revenue (MRR) within the first year. Many spend the year building and earn zero.",
+    "experienced": "A product that finds a real, paying niche and survives the early churn commonly reaches $1,000 to $8,000 in MRR after one to three years of consistent work on both the product and customer acquisition. At this stage the margins are high because the main cost is your time plus modest infrastructure.",
+    "topEarners": "Successful single-founder micro-SaaS products that reach product-market fit can grow to $10,000 to $50,000+ in MRR, and a small number go well beyond, sometimes leading to an acquisition. Reaching this takes years, relentless attention to churn and acquisition, and usually several failed or abandoned products before one works. This is the rare outcome, not the expected one.",
+    "whatAffectsMost": "Distribution and churn matter far more than the code. Choosing a niche you can actually reach, and keeping monthly churn low (every percentage point of churn caps your growth), determine success more than product features. Building on top of a platform with an existing marketplace (Shopify, WordPress, Slack) can solve much of the distribution problem.",
+    "perHour": "For most of the build and validation phase, the effective hourly rate is effectively zero or negative — you are investing time with no guarantee of return. If a product succeeds, the long-run effective rate can become excellent because revenue continues with limited ongoing hours, but this is back-loaded and uncertain. Treat early hours as an investment, not income."
+  },
+  "howToStart": [
+    "Months 1 to 2 (validate first): Resist building. Pick a narrow problem for a specific audience you can actually reach, and talk to 15 to 30 potential users. Confirm the problem is painful enough that people would pay. A pre-sale, waitlist, or signed letters of intent are far stronger signals than encouraging words.",
+    "Months 2 to 5 (build the smallest useful version): Build a genuinely minimal product that solves the core problem and nothing else. Set up subscription billing from day one so you can charge real money. Resist the urge to add features before anyone is paying.",
+    "Months 4 to 8 (charge real money early): Launch to your validated audience and charge from the start, even at a low price. Free users teach you little about willingness to pay. Watch signups, activation, conversion, and especially churn closely, and talk to everyone who cancels.",
+    "Months 6 to 12 (find a repeatable acquisition channel): The make-or-break work is finding one channel that reliably brings paying customers — SEO and content, a platform marketplace, partnerships, or community presence. Without repeatable distribution, the product stalls regardless of quality.",
+    "Months 12+ (reduce churn, then grow): Once you have early revenue, prioritize keeping customers over chasing new features. Fix the reasons people cancel, deepen the value, and only then push harder on growth. Decide whether to keep it as a profitable side product or go full-time."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Real software development ability — you must be able to build, deploy, and maintain a live product, or fund someone who can",
+      "Discipline to validate demand before building and to keep working through a long phase with no income",
+      "Comfort with running production software: handling bugs, support, security, and the occasional outage"
+    ],
+    "canLearn": [
+      "Subscription billing, basic SaaS metrics (MRR, churn, LTV, CAC), and analytics",
+      "Marketing fundamentals: landing pages, SEO, content, and email",
+      "Customer support and onboarding that keeps users from churning"
+    ],
+    "separators": [
+      "Choosing a niche you can actually reach and validating it before writing code, which prevents the most common failure",
+      "Treating distribution and churn as the core job, not the code, so growth becomes repeatable",
+      "Resilience and persistence across multiple attempts, since most founders' first products do not work"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Building the product first and looking for customers later, then discovering nobody wanted it",
+    "Picking a problem with no reachable audience, so even a great product cannot find users",
+    "Underestimating churn — adding customers feels like progress while just as many quietly cancel",
+    "Endlessly adding features instead of solving acquisition and retention, the things that actually determine survival",
+    "Offering generous free tiers that attract non-paying users and teach nothing about willingness to pay",
+    "Assuming it is passive income, then being blindsided by ongoing support, maintenance, and marketing demands"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Cloud hosting / infrastructure", "note": "Where the product runs. Start on affordable managed platforms and scale only as paying usage grows.", "low": 10, "high": 200 },
+    { "item": "Subscription billing platform", "note": "Handles payments, plans, and recurring billing. Several take a percentage rather than a large fixed fee, which suits early-stage products.", "low": 0, "high": 100 },
+    { "item": "Code and deployment tooling", "note": "Your development environment, version control, and CI/CD. Mostly free and open source.", "low": 0, "high": 100 },
+    { "item": "Landing page and website", "note": "Where you convert visitors to signups. Can be a simple builder or hand-coded page.", "low": 0, "high": 50 },
+    { "item": "Analytics and product metrics tools", "note": "To track signups, activation, conversion, and churn — the numbers that tell you if it is working.", "low": 0, "high": 100 },
+    { "item": "Email and customer support tools", "note": "For onboarding, retention emails, and answering support, which directly affect churn.", "low": 0, "high": 80 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "SEO and helpful content targeting the specific problem your product solves",
+      "Building on a platform marketplace (Shopify, WordPress, Slack, Chrome Web Store) that already has your target users",
+      "Being genuinely active and helpful in communities where your niche audience gathers",
+      "Partnerships and integrations with complementary tools your audience already uses",
+      "Direct outreach to a clearly defined target audience during early validation and launch"
+    ],
+    "whereCustomersAre": "A narrowly defined audience that already feels the specific pain your product solves — often reachable through a platform marketplace, an industry community, or search. The tighter and more reachable the niche, the better your odds.",
+    "timeToClientBase": "Realistically, building a base of paying subscribers takes many months to a few years. There is usually a long stretch with little or no revenue, followed by slow growth if you find a repeatable channel. This is not a fast-income business.",
+    "wasteOfTime": "Broad paid ads before you understand your unit economics, chasing viral launches as a primary strategy, and over-polishing the product instead of finding a reliable acquisition channel. Many founders also waste months building before validating demand at all."
+  },
+  "howItScales": {
+    "toFullTime": "Possibly, but slowly and uncertainly. Many micro-SaaS founders keep it a side product for a long time and only go full-time once recurring revenue is reliable enough to replace a salary. A large share never reach that point.",
+    "hireAndStepBack": "The high-margin, software-based model can run with very little ongoing labor once stable, which is the appeal. But stepping back fully still requires handling support, maintenance, and security, so most solo founders stay involved or hire carefully as revenue allows.",
+    "sellable": "Profitable micro-SaaS products with steady MRR and low churn are genuinely sellable, often through marketplaces, typically at a multiple of annual profit or revenue. Clean code, documentation, low churn, and revenue not dependent on the founder make a product far more valuable.",
+    "whatScalingRequires": "A repeatable acquisition channel, low churn, and reliable infrastructure. Scaling is less about adding features and more about systematically reducing churn and increasing the rate at which you acquire paying customers profitably."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You can build and run a real software product yourself, or fund someone who can",
+      "You can validate demand before building and resist shipping features nobody asked for",
+      "You can tolerate months of work with little or no income while you find paying customers",
+      "You see distribution and retention as the real job, not just the code"
+    ],
+    "poorFit": [
+      "You cannot code and are not willing to invest heavily to have it built and maintained",
+      "You need income soon — this is a long-payoff, high-uncertainty path",
+      "You expect truly passive income and dislike support, marketing, and maintenance",
+      "You give up quickly, when most founders need several attempts before one works"
+    ],
+    "askYourself": [
+      "Have I confirmed that a specific, reachable group of people will actually pay for this, before I build it?",
+      "Can I financially and mentally survive 6 to 18 months with little or no income from this?",
+      "Am I prepared for the real job to be acquisition, churn, and support rather than just writing code?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can I build a micro-SaaS if I can't code?",
+      "answer": "It is very difficult. No-code and AI tools have lowered the barrier somewhat, but running a reliable, secure, billable software product almost always requires real technical skill at some point — for bugs, security, scaling, and maintenance. Non-technical founders usually need to partner with or pay a developer, which adds significant cost and dependency. This is one of the more skill-dependent businesses on this site."
+    },
+    {
+      "question": "How long until a micro-SaaS makes money?",
+      "answer": "Honestly, often a long time, and frequently never. Validation and building can take months before launch, and finding a repeatable way to get paying customers can take many more. Plan for 6 to 18 months before meaningful revenue, and accept that many products never reach it. If you need income soon, this is the wrong business."
+    },
+    {
+      "question": "Why do so many micro-SaaS products fail?",
+      "answer": "The most common reasons are building something nobody will pay for, picking a niche with no reachable audience, and underestimating churn and the ongoing work of marketing and support. Founders often spend their energy on features while the things that actually determine survival — distribution and retention — go neglected. Validating demand before building avoids the biggest failure mode."
+    },
+    {
+      "question": "What is churn and why does everyone obsess over it?",
+      "answer": "Churn is the rate at which paying customers cancel. It matters enormously because high churn caps your growth — if you lose customers nearly as fast as you add them, the business cannot grow no matter how much you market. Keeping monthly churn low through real value and good support is often more important than acquiring new customers."
+    },
+    {
+      "question": "Can I really build this nights and weekends around a job?",
+      "answer": "Yes, and many founders do exactly that, which is part of the appeal. The flexible, asynchronous nature of software work makes it genuinely part-time-friendly during the build phase. The constraint is that progress is slow, and once the product is live, support and the occasional urgent issue can intrude on your time unpredictably."
+    },
+    {
+      "question": "Is micro-SaaS passive income?",
+      "answer": "No, especially not early on. The build and customer-acquisition phases are intensely active and unpaid, and even a stable product needs ongoing support, maintenance, security updates, and marketing. A successful micro-SaaS can eventually require fewer hours per dollar than most businesses, but calling it passive sets a false expectation that leads people to quit when reality hits."
+    },
+    {
+      "question": "Should I build on a platform like Shopify or WordPress, or standalone?",
+      "answer": "Building on an established platform's marketplace can solve a large part of the distribution problem because the users are already there, which is a major advantage given that distribution is the hardest part. The trade-off is dependence on that platform's rules, fees, and policy changes. Many successful micro-SaaS products start as add-ons inside an existing ecosystem for exactly this reason."
+    }
+  ],
+  "similarBusinesses": [
+    "web-development-business",
+    "it-support-business",
+    "niche-website-blog-business",
+    "online-course-business"
+  ],
+  "dataSources": [
+    "Indie founder and bootstrapper communities (Indie Hackers, MicroConf) for real-world MRR, churn, and failure-rate reporting",
+    "SaaS metrics and benchmark reports on churn, conversion, and customer acquisition cost",
+    "Platform marketplace data (Shopify App Store, WordPress, Chrome Web Store) on developer revenue distribution",
+    "Operator communities (r/SaaS, r/microsaas, r/Entrepreneur) for founder earnings and timelines",
+    "Subscription billing and analytics provider reports on SaaS retention and pricing"
+  ],
+  "lastReviewed": "2026-06"
+}
