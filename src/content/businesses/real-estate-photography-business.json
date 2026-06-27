@@ -1,0 +1,158 @@
+{
+  "title": "Real Estate Photography Business",
+  "slug": "real-estate-photography-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a Real Estate Photography Business — Costs, Earnings, Steps",
+  "metaDescription": "Honest breakdown of starting a real estate photography business: real gear costs, realistic earnings, how to win recurring agent clients, and what people get wrong.",
+  "startupCostLow": 1500,
+  "startupCostHigh": 12000,
+  "monthlyEarningsLow": 1500,
+  "monthlyEarningsHigh": 9000,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Reliable, fast-turnaround photographers who want recurring B2B clients rather than chasing one-off creative gigs",
+  "biggestRisk": "Building a business around a few agents and losing income overnight when the housing market slows or those agents leave",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 10,
+  "skills": ["creative", "tech", "people"],
+  "workLocations": ["mobile", "home"],
+  "priorities": ["max-income", "flexibility", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A real estate photography business shoots property listings for agents, brokerages, builders, and property managers. The core product is a set of bright, well-composed interior and exterior photos, but the modern offering increasingly bundles video walkthroughs, aerial drone shots, twilight photos, floor plans, and 3D virtual tours (such as Matterport). It is one of the more business-like creative niches: clients are repeat buyers who need consistent quality and, above all, fast turnaround, because a listing cannot go live without photos. That makes it less about artistic self-expression and more about being reliable, efficient, and easy to work with.",
+  "dailyReality": "A typical day means driving to one to four properties, shooting each in 30 to 90 minutes depending on the package, then spending significant time at the computer editing — blending exposures, correcting verticals, removing clutter, and color-grading to MLS standards. Turnaround pressure is constant: many agents expect delivery within 24 hours, sometimes the same day. You coordinate access and timing with agents and sellers, work around occupied homes and bad weather, and handle scheduling, invoicing, and follow-up between shoots. Editing often takes as long as or longer than shooting, so the home computer time is a real part of the job, not an afterthought.",
+  "startupCostsItemized": [
+    { "item": "Camera body (mirrorless/DSLR, can buy used)", "low": 600, "high": 2500 },
+    { "item": "Wide-angle lens (e.g. 16-35mm equivalent)", "low": 300, "high": 1500 },
+    { "item": "Tripod, flash/strobes, and remote trigger", "low": 200, "high": 800 },
+    { "item": "Editing computer and software (Lightroom/Photoshop subscription)", "low": 0, "high": 1500, "optional": true },
+    { "item": "Drone (FAA-registered) for aerial work", "low": 500, "high": 2000, "optional": true },
+    { "item": "3D tour camera or subscription (e.g. Matterport)", "low": 0, "high": 3500, "optional": true },
+    { "item": "FAA Part 107 drone certification (if offering aerials)", "low": 150, "high": 350, "optional": true },
+    { "item": "General liability insurance, business registration, website/portfolio", "low": 400, "high": 1200 }
+  ],
+  "realEarnings": {
+    "yearOne": "Most operators in their first year earn $1,500 to $4,000 per month part-time as they build a roster of agents, with income closely tied to how many shoots they book per week. A photographer who markets aggressively and delivers fast can reach $4,000 to $6,000 per month by year-end in an active market.",
+    "experienced": "Established operators with a steady roster of repeat agents commonly report $5,000 to $10,000 per month solo. Bundling video, drone, twilight, and 3D tours raises the average order value substantially, and packages can run from roughly $150 for basic photos to $400 or more for full media bundles.",
+    "topEarners": "Top operators build a media company with multiple shooters and editors, serving high-volume brokerages and new-construction builders, grossing $200,000 to $500,000-plus per year. Getting there requires hiring and training shooters and editors, standardizing quality, and managing logistics and scheduling at scale — and revenue still rises and falls with the housing market.",
+    "whatAffectsMost": "Turnaround speed and reliability matter more than artistic flair — agents rebook the photographer who delivers fast and never misses a listing. The local housing market's health, the number of media products you offer, and your repeat-client retention drive earnings most.",
+    "perHour": "Effective rates commonly run $75 to $200 per hour when you count shooting plus editing, since editing eats much of the time. Counting driving, scheduling, and unpaid admin, realistic blended rates are often $50 to $120 per hour."
+  },
+  "howToStart": [
+    "Weeks 1-2: Learn to shoot and edit interiors well — exposure blending, vertical correction, and clean, bright color are the baseline agents expect. Build a small portfolio by shooting friends' homes, rentals, or offering a few free or discounted shoots to one or two agents in exchange for permission to use the photos.",
+    "Weeks 2-4: Set clear package pricing (basic photos, photo+video, photo+drone, full media bundle) and a guaranteed turnaround time. Build a simple portfolio website and get business liability insurance. If offering aerials, get your FAA Part 107 certification before flying for pay.",
+    "Month 1-2: Market directly to agents — they are your repeat buyers. Attend open houses, join local realtor groups, email and message agents with your portfolio and turnaround promise, and ask early clients for referrals to their brokerage colleagues.",
+    "Months 2-4: Lock in reliability: never miss a shoot, always deliver on time, and make rebooking effortless. Add higher-margin products (video, drone, 3D tours) and aim to build a roster of repeat agents who book you weekly rather than chasing one-off jobs."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid photography fundamentals — composition, lighting, and exposure for interiors",
+      "Editing ability to produce bright, corrected, MLS-ready images consistently",
+      "Reliability and time management to hit fast, often same-day turnaround promises"
+    ],
+    "canLearn": [
+      "Real estate-specific shooting workflow (HDR/exposure blending, flash, vertical correction)",
+      "Video walkthroughs, drone aerials, and 3D virtual tour capture",
+      "Selling packages and managing recurring agent relationships"
+    ],
+    "separators": [
+      "Fast, dependable turnaround that makes agents rebook you for every listing",
+      "Offering bundled video, drone, twilight, and 3D tours to raise average order value",
+      "Treating it as a B2B service relationship, not a creative side hobby, so agents trust you with deadlines"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underestimating editing time and missing turnaround deadlines, which is the fastest way to lose an agent",
+    "Pricing as a one-off artist instead of building repeat, recurring agent relationships",
+    "Buying expensive gear before they can edit interiors to the standard agents expect",
+    "Flying a drone for paid work without FAA Part 107 certification, which is illegal and uninsurable",
+    "Building the entire business around two or three agents, then losing most income when one leaves or the market slows",
+    "Competing only on being the cheapest, attracting price-shopping agents who churn and never pay for premium media"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Camera and wide-angle lens", "note": "The core kit. A used mid-range body and a quality wide lens beat an expensive body with a poor lens.", "low": 900, "high": 4000 },
+    { "item": "Tripod and flash/strobes", "note": "Essential for sharp, evenly lit interiors and exposure blending.", "low": 200, "high": 800 },
+    { "item": "Editing computer and Lightroom/Photoshop", "note": "Editing is half the job; a capable computer and editing software are required.", "low": 500, "high": 2000 },
+    { "item": "Drone (FAA-registered)", "note": "Adds high-margin aerial shots. Requires Part 107 certification for paid work.", "low": 500, "high": 2000 },
+    { "item": "3D tour camera or subscription", "note": "Matterport-style tours command premium pricing for higher-end listings.", "low": 0, "high": 3500 },
+    { "item": "Portfolio website and scheduling/delivery system", "note": "Lets agents book and download easily; reliability and ease of use win repeat work.", "low": 0, "high": 500 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to local real estate agents — they are repeat buyers, not one-time clients",
+      "Attending open houses and joining local realtor associations and Facebook groups to build relationships",
+      "A strong, fast-loading portfolio website that showcases bright interiors and media options",
+      "Referrals within brokerages — one happy agent often introduces you to their colleagues",
+      "Builders, property managers, and short-term rental hosts needing recurring listing media",
+      "Bundling and upselling video, drone, and 3D tours to raise the value of each booking"
+    ],
+    "whereCustomersAre": "Real estate agents and brokerages are the core market, plus builders, property managers, and Airbnb/short-term rental hosts. The most valuable clients are high-volume listing agents and brokerages who book repeatedly every week.",
+    "timeToClientBase": "Most operators land their first paid shoots within two to six weeks of marketing. A reliable roster of repeat agents usually takes three to six months to build, and it grows largely through referrals once a few agents trust your turnaround.",
+    "wasteOfTime": "Generic photography directories, broad social media ads aimed at the public, and competing on price alone. Agents hire on reliability, turnaround, and word of mouth within their brokerage, not on the lowest advertised rate."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, in an active housing market. A reliable operator can reach full-time income within the first year by building a repeat agent roster and offering higher-value media bundles. Solo capacity is capped by how many shoots you can shoot and edit per day.",
+    "hireAndStepBack": "Yes, more so than many creative niches. Many operators hire additional shooters and dedicated editors, standardize their editing style, and step back into scheduling and client management. The challenge is keeping quality and turnaround consistent across a team.",
+    "sellable": "A media company with multiple shooters, recurring brokerage contracts, documented workflows, and a brand is sellable. A pure solo operation tied to the owner's personal client relationships is harder to sell, though the client roster has some value.",
+    "whatScalingRequires": "Hiring and training reliable shooters and editors, standardized editing presets and quality standards, scheduling and delivery systems, and brokerage or builder relationships that generate steady volume independent of the owner shooting every job."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You can shoot and edit interiors to a bright, clean, professional standard",
+      "You are extremely reliable and can hit fast, often same-day turnaround",
+      "You prefer recurring B2B clients over chasing one-off creative gigs",
+      "You enjoy efficient, repeatable work more than open-ended artistic projects"
+    ],
+    "poorFit": [
+      "You dislike deadline pressure or are inconsistent about delivering on time",
+      "You want purely artistic, self-directed photography work",
+      "You are unwilling to learn editing, which is half the job",
+      "You cannot tolerate income that rises and falls with the housing market"
+    ],
+    "askYourself": [
+      "Can I consistently deliver edited, MLS-ready photos within a day, every time?",
+      "Is my local housing market active enough to support steady listing volume?",
+      "Am I comfortable marketing myself to agents as a dependable service provider rather than an artist?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a high-end camera to start real estate photography?",
+      "answer": "No. A used mid-range mirrorless or DSLR body paired with a quality wide-angle lens, a tripod, and a flash is enough to produce professional listing photos. Agents care about bright, clean, well-edited images and fast delivery far more than which camera you used. Spend on a good wide lens and your editing skill before an expensive body."
+    },
+    {
+      "question": "How much can I charge for real estate photography?",
+      "answer": "Pricing varies by market, but basic photo packages commonly run around $150 to $250, with full media bundles (photo, video, drone, and 3D tour) reaching $400 or more. The way to raise income is to bundle higher-margin products and build repeat agents, not to undercut on basic photos. Track your shooting plus editing time so your effective rate stays profitable."
+    },
+    {
+      "question": "Do I need a license to fly a drone for listings?",
+      "answer": "Yes. Flying a drone for commercial work, including paid real estate shoots, requires an FAA Part 107 Remote Pilot Certificate in the United States, and the drone must be registered. Flying for pay without it is illegal and will void your insurance. The certification is inexpensive and a strong selling point once you have it."
+    },
+    {
+      "question": "Why is turnaround time so important in this business?",
+      "answer": "A listing cannot go live until the photos are delivered, so agents lose money every day a property sits unphotographed. The photographer who reliably delivers within 24 hours, or same day, gets rebooked for every listing; the one who is slow gets dropped. Reliability and speed matter more than artistic flair in this niche."
+    },
+    {
+      "question": "Is real estate photography affected by the housing market?",
+      "answer": "Yes, directly. When sales volume drops or interest rates rise, listings and therefore shoots decline, and income can fall quickly. The biggest risk is depending on too few agents in a slowing market. Diversifying across many agents, brokerages, builders, and rental hosts cushions the swings."
+    },
+    {
+      "question": "How do I get my first clients without a portfolio?",
+      "answer": "Shoot a few homes you have access to, or offer one or two agents free or discounted shoots in exchange for using the images in your portfolio. Then market directly to agents with that portfolio and a clear turnaround promise. One satisfied agent often refers colleagues within the same brokerage, which is how most rosters grow."
+    }
+  ],
+  "similarBusinesses": [
+    "photography-business",
+    "drone-services-business",
+    "video-editing-business",
+    "social-media-management-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Photographers (wage and self-employment data)",
+    "National Association of Realtors — listing media and home-sale trend reports",
+    "FAA — Part 107 commercial drone certification requirements",
+    "Real estate photography operator communities and pricing guides (reported package rates and turnaround norms)"
+  ],
+  "lastReviewed": "2026-06"
+}

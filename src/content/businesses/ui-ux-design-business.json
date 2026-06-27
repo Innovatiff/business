@@ -1,0 +1,163 @@
+{
+  "title": "UI/UX Design Business",
+  "slug": "ui-ux-design-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a UI/UX Design Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a UI/UX design business: real startup costs, realistic monthly earnings, how to find clients, project vs. retainer work, and what most people get wrong.",
+  "startupCostLow": 200,
+  "startupCostHigh": 3000,
+  "monthlyEarningsLow": 1500,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Designers who can think in user flows, not just visuals, and are comfortable defending decisions to non-designer clients",
+  "biggestRisk": "Building a portfolio of pretty screens with no proof of outcomes, so clients see you as a decorator and price you like one",
+  "speedToIncome": "months",
+  "minWeeklyHours": 15,
+  "skills": ["creative", "tech"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["max-income", "flexibility", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A UI/UX design business sells the planning and visual design of digital products — websites, web apps, mobile apps, dashboards, and SaaS tools. UX (user experience) is the structural work: research, user flows, information architecture, wireframes, and prototypes that make a product usable. UI (user interface) is the visual layer: layout, typography, color, components, and the polished, clickable screens a developer builds from. Most independent designers sell both, usually delivered in Figma, the dominant tool in the field. Work comes as one-off projects (redesign a site, design an app's first version) or — the more stable model — monthly retainers and design partnerships with startups and agencies.",
+  "dailyReality": "A typical week is a mix of client calls, focused design time, and revisions. You might run a kickoff call to understand a client's product and users, spend a few hours mapping flows and wireframes, then several more building high-fidelity screens and interactive prototypes in Figma. Expect meaningful time in feedback loops — presenting work, explaining why you made a choice, and revising. There is also unpaid business time: writing proposals, scoping projects, invoicing, and chasing the next client. Heads-down design is satisfying; the harder skill is communicating with founders and product managers who think in features and deadlines, not user journeys.",
+  "startupCostsItemized": [
+    { "item": "Figma subscription (Professional plan)", "low": 0, "high": 180, "annual": true },
+    { "item": "Laptop capable of running Figma smoothly", "low": 0, "high": 1800, "optional": true },
+    { "item": "Portfolio site (Webflow, Framer, or a template)", "low": 0, "high": 300, "annual": true },
+    { "item": "Design assets — fonts, icons, UI kits, stock", "low": 0, "high": 400, "optional": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Contract templates and invoicing tool", "low": 0, "high": 240, "annual": true },
+    { "item": "Online course or UX bootcamp (if upskilling)", "low": 0, "high": 8000, "optional": true },
+    { "item": "Professional liability / general business insurance", "low": 300, "high": 800, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Beginners building a first client base typically earn $1,500 to $4,000 per month part-time, and many start by charging $30 to $60 per hour or small flat projects ($800 to $3,000) while their portfolio is thin. The first year is mostly about converting practice and a few real projects into proof and reviews.",
+    "experienced": "Designers with two-plus years, a focused portfolio, and case studies that show outcomes commonly bill $75 to $150 per hour or run project fees of $5,000 to $20,000, reaching $6,000 to $12,000 per month solo. Monthly retainers with startups ($3,000 to $8,000 each) create the most reliable income at this stage.",
+    "topEarners": "Specialists in high-value niches (SaaS, fintech, healthcare, B2B products) or those who productize design sprints bill $150 to $250+ per hour and clear $15,000 to $30,000+ per month, sometimes more by running a small studio with subcontractors. Getting there takes years, a sharp niche, strong case studies, and a referral network — not just better visuals.",
+    "whatAffectsMost": "Specialization and proof of business outcomes matter far more than raw skill. A designer who can say 'I redesigned this checkout and conversions rose' commands multiples of a generalist showing 'nice' screens. Charging by project or value rather than by the hour also raises effective rates significantly.",
+    "perHour": "Effective rates for solo designers commonly run $50 to $150 per hour of billable work, but counting unpaid time on proposals, sales, and revisions, blended rates are often $40 to $100 per hour, especially in the first year."
+  },
+  "howToStart": [
+    "Month 1: Get fluent in Figma and core UX fundamentals — flows, wireframes, prototyping, and component systems. If you already design, skip the basics and focus on a process you can explain to clients. Pick a direction (e.g. SaaS dashboards, mobile apps, or marketing sites) rather than trying to do everything.",
+    "Months 1–2: Build 3 to 5 strong portfolio pieces, ideally redesigns of real products or projects for early real clients. Frame each as a case study: the problem, your process, the decisions, and the result — not just final screens. This is the single most important asset you have.",
+    "Month 2: Set up a clean portfolio site, a contract template, and clear pricing. Reach out to startups, agencies, and your network. Offer a small, well-scoped first project rather than vague 'design help' so you can deliver a win and a testimonial.",
+    "Months 2–4: Deliver your first paid projects, collect testimonials and metrics, and ask every client for a referral. Start converting one-off clients into monthly retainers, which stabilize income far more than chasing new projects.",
+    "Months 4–6: Tighten your niche based on what sold, raise your rates as your case studies improve, and build a repeatable lead source (referrals, agency subcontracting, or content) so you are not starting from zero each month."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid command of Figma and modern interface design conventions",
+      "UX thinking — the ability to design flows and structure, not just decorate screens",
+      "Clear communication: presenting work and explaining design decisions to non-designers",
+      "Self-management to hit deadlines without a boss"
+    ],
+    "canLearn": [
+      "User research methods, usability testing, and accessibility basics",
+      "Design systems and component libraries for consistency at scale",
+      "Prototyping and handoff practices that developers actually like working from"
+    ],
+    "separators": [
+      "Framing work around business outcomes and metrics, not aesthetics, so clients see ROI",
+      "Specializing in a high-value niche where your domain knowledge justifies premium rates",
+      "Selling and scoping confidently — turning vague requests into priced, well-defined projects and retainers"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Treating UI/UX as decoration — building a portfolio of attractive screens with no story about users, problems, or results, which gets priced like template work",
+    "Underpricing by charging hourly with no ceiling, then doing endless free revisions because the contract had no scope",
+    "Trying to serve everyone instead of specializing, which makes them forgettable and easy to undercut",
+    "Skipping a written contract with defined deliverables, revision limits, and payment milestones, leading to scope creep and unpaid work",
+    "Designing in a vacuum without talking to real users or the client's developers, then handing off work that cannot realistically be built",
+    "Assuming a bootcamp certificate equals clients — without a portfolio and proof, certificates do little"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Figma (Professional plan)", "note": "The industry-standard tool for UI/UX, prototyping, and developer handoff. Free tier works to start; upgrade when you run multiple client files.", "low": 0, "high": 180 },
+    { "item": "Capable laptop or desktop", "note": "Figma is browser/app based but benefits from RAM and a good screen. Use what you own before buying.", "low": 0, "high": 1800 },
+    { "item": "Portfolio platform (Framer, Webflow, or template)", "note": "Your portfolio sells you. Spend effort on the case studies, not the site builder.", "low": 0, "high": 300 },
+    { "item": "UI kits, icon sets, and quality fonts", "note": "Speed up production, but do not over-buy; most clients want a custom look.", "low": 0, "high": 400 },
+    { "item": "Contract and proposal templates", "note": "A clear contract with scope and revision limits prevents most income loss.", "low": 0, "high": 200 },
+    { "item": "Second monitor", "note": "Genuinely improves design speed once you work full days. Optional at first.", "low": 0, "high": 350 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Subcontracting for design or development agencies that have overflow work — the fastest path to steady paid projects early",
+      "Direct outreach to startups and small SaaS companies, offering a specific, scoped project rather than vague help",
+      "Referrals from past clients and developers you have worked with — the highest-converting source over time",
+      "A focused portfolio with case studies that rank and get shared, plus presence on Dribbble or LinkedIn within your niche",
+      "Freelance marketplaces (Upwork, Contra, Toptal) to build early reviews, accepting lower rates short-term"
+    ],
+    "whereCustomersAre": "Startups, SaaS companies, agencies, and product teams that need digital products designed or redesigned. They cluster on LinkedIn, in founder communities, on agency rosters, and in your existing professional network.",
+    "timeToClientBase": "With an existing portfolio, first paid projects can come within a few weeks via outreach or marketplaces. Building a reliable pipeline of repeat clients and retainers usually takes six months to a year of consistent delivery and referrals.",
+    "wasteOfTime": "Posting beautiful shots to social media with no case study or call to action rarely converts to paid work. Early on, targeted outreach and agency subcontracting beat building an audience."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. Many designers reach full-time income within a year by stacking a few retainers and project clients. The solo ceiling is set by your billable hours, so raising rates and value-based pricing matters more than working more hours.",
+    "hireAndStepBack": "Possible by building a small studio with subcontracted or employed designers, but you shift from designing to selling, managing quality, and reviewing work. Margins per project shrink and client relationships become the core asset.",
+    "sellable": "A pure solo design practice is hard to sell because it is essentially you. A studio with a brand, recurring retainer clients, documented process, and a team has real, if modest, sale value. Most designers instead 'exit' by moving to a senior in-house role.",
+    "whatScalingRequires": "A repeatable lead source, a documented design process others can follow, productized offerings (e.g. fixed-scope design sprints), and the willingness to hand off design work and focus on sales and quality control."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You can think in user flows and problems, not just visuals, and enjoy solving usability puzzles",
+      "You are comfortable presenting work and defending decisions to founders and developers",
+      "You already have or can build a portfolio with real case studies",
+      "You like flexible, remote, project-based work and can manage your own deadlines"
+    ],
+    "poorFit": [
+      "You want passive income or work with no client interaction or feedback loops",
+      "You dislike revisions, presenting, or being told a design choice is wrong",
+      "You are starting with no design skills and expect a certificate alone to bring clients",
+      "You need a steady, predictable paycheck and cannot tolerate variable income early on"
+    ],
+    "askYourself": [
+      "Can I show, not just claim, that my design work improves how a product performs or feels to use?",
+      "Am I willing to specialize and do unglamorous sales and scoping, not just the fun design parts?",
+      "Do I have a financial runway to absorb the slow first few months while my portfolio earns trust?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a degree to start a UI/UX design business?",
+      "answer": "No. Clients hire on portfolio and results, not credentials. A degree or bootcamp can teach fundamentals faster, but what wins work is a portfolio of strong case studies that show your process and outcomes. Many successful designers are self-taught."
+    },
+    {
+      "question": "What is the difference between UI and UX, and do I need both?",
+      "answer": "UX is the structural, problem-solving side — research, flows, wireframes, and usability. UI is the visual interface layer. Independent designers usually sell both because most clients want one person to take a product from idea to polished, buildable screens. You can specialize, but generalists find more solo work."
+    },
+    {
+      "question": "Should I charge hourly, per project, or on retainer?",
+      "answer": "Hourly is simplest to start but caps your income and punishes you for being efficient. Per-project pricing rewards speed and is better once you can scope accurately. Monthly retainers, where a client pays for ongoing design support, create the most stable income — aim to convert good project clients into retainers."
+    },
+    {
+      "question": "Is AI going to replace UI/UX designers?",
+      "answer": "AI tools can generate layouts and speed up production, and they are raising the bar on low-end, purely visual work. They do not replace the judgment-heavy parts — understanding users, structuring complex flows, and aligning design with business goals. Designers who lean into strategy and outcomes are more insulated than those who only push pixels."
+    },
+    {
+      "question": "How important is the tool I use — does it have to be Figma?",
+      "answer": "Figma is the dominant industry tool and most clients, agencies, and developers expect it for collaboration and handoff. You can use alternatives, but being fluent in Figma removes friction and is effectively expected for professional UI/UX work today."
+    },
+    {
+      "question": "How long until I can realistically quit my job for this?",
+      "answer": "Plan for several months to a year. Most designers build the business part-time alongside a job, stacking retainers and projects until the income is stable and repeatable, then transition. Going full-time before you have a reliable lead source is the most common reason people stall."
+    },
+    {
+      "question": "What separates designers who charge $50/hour from those who charge $150+?",
+      "answer": "Rarely raw visual skill. The higher earners specialize in valuable niches, frame their work around measurable business results, and present and sell with confidence. They show case studies that connect their design to outcomes, which lets them price on value rather than time."
+    }
+  ],
+  "similarBusinesses": [
+    "freelance-graphic-design-business",
+    "web-development-business",
+    "freelance-copywriting-business",
+    "illustration-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Web Developers and Digital Interface Designers occupational data",
+    "Nielsen Norman Group and UX industry reports (UX practice, process, and salary benchmarks)",
+    "Freelance platform rate data (Upwork, Contra, Toptal reported designer rates)",
+    "Designer communities and surveys (Dribbble, ADPList, r/userexperience) for real-world pricing and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

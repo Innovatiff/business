@@ -1,0 +1,161 @@
+{
+  "title": "Laundromat Business",
+  "slug": "laundromat-business",
+  "category": "local-and-community",
+  "metaTitle": "How to Start a Laundromat Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest guide to the laundromat business: real startup capital, why location decides survival, semi-absentee reality, and the utility, repair, and vandalism risks.",
+  "startupCostLow": 80000,
+  "startupCostHigh": 500000,
+  "monthlyEarningsLow": 2000,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "6 to 18 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Capital-backed buyers who want a semi-absentee, location-dependent cash-flow asset and can handle utilities, repairs, and the unglamorous side of self-service retail",
+  "biggestRisk": "Overpaying to build or buy in a weak location, then being trapped by a long lease and heavy equipment costs while utilities and repairs eat the margin",
+  "speedToIncome": "long",
+  "minWeeklyHours": 10,
+  "skills": ["finance"],
+  "workLocations": ["space"],
+  "priorities": ["sellable", "max-income", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "whatItIs": "A laundromat is a self-service coin- or card-operated laundry where customers wash and dry their own clothes. It's a real-estate-and-equipment business: you either build one out from scratch (lease space, buy and install commercial washers and dryers, set up plumbing, gas, and electrical) or buy an existing one as a going concern. The appeal is semi-absentee, relatively steady cash flow from an essential service that's recession-resilient. The catch is high upfront capital, dependence on location and demographics, and exposure to utility costs, equipment failure, and vandalism.",
+  "dailyReality": "A well-run laundromat doesn't need an owner present full-time, which is the main draw. A typical week is cleaning and maintaining the space, collecting and counting cash (or reviewing card/app revenue), refilling soap vending and change machines, handling minor repairs, and managing an attendant if you have one. You'll respond to broken machines, clogged drains, and the occasional flooded floor or vandalism, often at inconvenient times. Behind the scenes you watch utility bills closely, since water, gas, and electricity are your largest ongoing expense and small efficiency gains move the bottom line.",
+  "startupCostsItemized": [
+    { "item": "Buying an existing laundromat (turnkey, varies widely)", "low": 100000, "high": 500000, "optional": true },
+    { "item": "Commercial washers and dryers (new build, full set)", "low": 50000, "high": 250000 },
+    { "item": "Buildout — plumbing, gas, electrical, flooring, water heater", "low": 30000, "high": 200000 },
+    { "item": "Lease deposit and first months' rent", "low": 5000, "high": 30000 },
+    { "item": "Payment systems (coin mechs or card/app readers, kiosks)", "low": 3000, "high": 25000 },
+    { "item": "Security cameras and alarm system", "low": 1500, "high": 8000 },
+    { "item": "Signage, seating, folding tables, vending", "low": 3000, "high": 20000 },
+    { "item": "Business registration, permits, and insurance", "low": 1500, "high": 6000, "annual": true },
+    { "item": "Working capital reserve for slow ramp and repairs", "low": 10000, "high": 40000 }
+  ],
+  "realEarnings": {
+    "yearOne": "Owners often net little to nothing in the first year of a new build while customers discover the location and the buildout loan is serviced. A purchased, already-busy store can net the owner $2,000 to $6,000 per month from day one, but a new or weak-location store may run near break-even until traffic builds.",
+    "experienced": "A single well-located, well-run laundromat commonly nets the owner $3,000 to $15,000 per month after rent, utilities, and maintenance, depending on size, machine count, prices, and demographics. Adding wash-and-fold service and vending can lift this further.",
+    "topEarners": "Multi-store owners and operators with large, high-traffic stores plus wash-and-fold and commercial laundry contracts gross several hundred thousand to over a million dollars a year, but that means owning multiple locations, managing staff, and significant capital. Reaching that level is a serious operation, not semi-absentee.",
+    "whatAffectsMost": "Location and demographics dominate — density of renters and households without in-unit laundry, plus visibility and parking. After that, utility efficiency (water and gas costs), machine reliability and turn frequency, lease terms, and pricing power decide whether the store is profitable or just busy.",
+    "perHour": "Because it's semi-absentee, effective hourly rates can be high relative to time spent once stable — often well over $100 per hour of active work for a good single store. But that ignores the large capital at risk; the true return is better measured against the money invested than against hours."
+  },
+  "howToStart": [
+    "Months 1-3: Decide between buying an existing store and building new. Study the market hard — local demographics, renter density, competing laundromats, and water/gas rates. For a purchase, demand verified utility bills, coin counts, and revenue records, not just the seller's claims.",
+    "Months 2-6: Secure the location and negotiate the lease carefully — term length, rent escalations, and who pays for major repairs matter enormously. Line up financing (SBA loans and equipment financing are common) and confirm the buildout or purchase numbers with contractors and equipment distributors.",
+    "Months 4-9: Build out or take over the store: install or inspect machines, set up payment systems and security cameras, obtain permits and insurance, and establish utility accounts. Set competitive pricing based on your real costs and local rates.",
+    "Months 6-18: Open or transition ownership, market locally to nearby renters, decide whether to staff an attendant, and add services like wash-and-fold once base laundry traffic is steady. Track utilities and machine uptime closely from day one."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Financial analysis to evaluate location, deal, lease, and utility costs before committing capital",
+      "Access to or ability to secure significant capital or financing",
+      "Comfort owning a physical retail space with real estate, equipment, and liability exposure"
+    ],
+    "canLearn": [
+      "Basic equipment maintenance and troubleshooting (or building a reliable repair contact)",
+      "Payment system and card/app management",
+      "Day-to-day operations like cleaning routines, cash handling, and managing an attendant"
+    ],
+    "separators": [
+      "Buying or building in a genuinely strong location and negotiating a favorable lease",
+      "Driving down utility costs with efficient machines and water heaters, since utilities are the biggest expense",
+      "Adding higher-margin services (wash-and-fold, commercial accounts, vending) on top of self-service"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Treating it as truly passive — it's semi-absentee, and broken machines, floods, and vandalism still demand attention",
+    "Choosing the wrong location, then being locked into a long lease with expensive equipment that can't be easily moved",
+    "Underestimating utility costs, which are the single largest ongoing expense and can quietly destroy margins",
+    "Trusting a seller's revenue claims without verifying utility bills, coin counts, and tax records on a purchase",
+    "Skimping on the working-capital reserve, so a slow ramp or a major repair creates a cash crisis",
+    "Ignoring equipment age and condition, then facing a wave of expensive failures soon after taking over"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Commercial washers and dryers", "note": "The core asset. Efficient, reliable machines reduce utility cost and downtime; this is where most capital goes.", "low": 50000, "high": 250000 },
+    { "item": "High-efficiency water heater and plumbing", "note": "Heating water is a major cost; efficient systems directly improve the bottom line.", "low": 5000, "high": 40000 },
+    { "item": "Payment system (card/app or coin)", "note": "Card and app systems reduce theft and enable price changes and data, but cost more upfront than coin.", "low": 3000, "high": 25000 },
+    { "item": "Security cameras and alarm", "note": "Essential for an unattended store to deter theft and vandalism and resolve disputes.", "low": 1500, "high": 8000 },
+    { "item": "Soap/vending and change machines", "note": "Adds incremental revenue and convenience; keep them stocked and working.", "low": 1500, "high": 10000 },
+    { "item": "Folding tables, seating, signage", "note": "Cleanliness and a pleasant space drive repeat traffic in a competitive area.", "low": 2000, "high": 15000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A clean, well-lit, reliable store in a high-traffic location — physical presence is the primary marketing",
+      "Local outreach to nearby apartment complexes and households without in-unit laundry",
+      "Competitive, clearly posted pricing and loyalty incentives via a card or app system",
+      "A Google Business Profile with hours, photos, and reviews so people find you when searching nearby",
+      "Adding wash-and-fold and pickup/delivery to capture customers who want service, not self-service"
+    ],
+    "whereCustomersAre": "Customers are renters and households without in-unit laundry, concentrated in dense neighborhoods, near apartment complexes, and in mixed-income urban and suburban areas. Convenience, cleanliness, working machines, and parking decide where they go among nearby options.",
+    "timeToClientBase": "A purchased store with existing traffic has customers from day one. A new build typically takes six to eighteen months to build a steady base as the neighborhood discovers it, which is why location and a working-capital reserve are critical.",
+    "wasteOfTime": "Broad paid advertising for a hyper-local, convenience-driven service. Most customers come because the store is nearby, clean, and reliable; money is better spent on machine uptime and store condition than on ads."
+  },
+  "howItScales": {
+    "toFullTime": "A single strong store can replace a full-time income on a semi-absentee basis, and it's one of the more genuinely cash-flowing small businesses once stable. The income is tied to the location's capacity and demographics rather than your hours.",
+    "hireAndStepBack": "Yes — laundromats are commonly run semi-absentee with an attendant or part-time staff handling cleaning and customer issues, freeing the owner to oversee finances and maintenance. Full hands-off operation still requires reliable staff and a good repair relationship.",
+    "sellable": "Highly sellable. Established laundromats trade on verifiable cash flow and lease terms, typically at a multiple of net income, and there's an active market of buyers seeking semi-passive assets. Clean books and equipment condition strongly affect the price.",
+    "whatScalingRequires": "Capital and financing for additional stores, strong location selection repeated each time, standardized operations and maintenance, staff management, and often layering in wash-and-fold or commercial laundry contracts to lift per-store revenue."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have significant capital or can secure financing and want a cash-flowing asset",
+      "You want semi-absentee ownership rather than a hands-on daily job",
+      "You can analyze locations, leases, and deals rigorously before committing",
+      "You're comfortable owning physical equipment and handling occasional repairs and incidents"
+    ],
+    "poorFit": [
+      "You have little capital or can't take on the financing required",
+      "You expect a truly passive, problem-free investment",
+      "You won't or can't verify a seller's numbers and study the local market",
+      "You're unwilling to deal with utilities, broken machines, and vandalism"
+    ],
+    "askYourself": [
+      "Is the location genuinely strong — enough renters and households without in-unit laundry, with good visibility and parking?",
+      "Have I verified the real numbers, especially utility costs and revenue, rather than trusting projections?",
+      "Do I have enough capital reserve to survive a slow ramp and unexpected repairs?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How much money do I need to start a laundromat?",
+      "answer": "It's capital-intensive. Buying an existing store often runs $100,000 to $500,000 or more depending on size and revenue, while building new can cost $80,000 to several hundred thousand once equipment, buildout, lease, and reserves are counted. Most buyers use SBA loans and equipment financing rather than paying all cash."
+    },
+    {
+      "question": "Is a laundromat really passive income?",
+      "answer": "It's semi-absentee, not passive. A well-run store doesn't need you there all day, but you still handle cleaning, cash or revenue collection, repairs, restocking, and occasional emergencies like floods or vandalism. Many owners hire an attendant to reduce their hands-on time, but someone has to manage the store."
+    },
+    {
+      "question": "Should I build a new laundromat or buy an existing one?",
+      "answer": "Buying an existing, profitable store gives you immediate cash flow and a proven location, but you must verify the numbers carefully. Building new lets you design an efficient store but means a long, often unprofitable ramp while customers discover it. For most first-time owners, buying a verified store is lower risk."
+    },
+    {
+      "question": "What's the biggest ongoing expense?",
+      "answer": "Utilities — water, gas, and electricity to run and heat machines — are typically the largest ongoing cost, followed by rent and maintenance. Efficient machines and water heaters meaningfully improve profitability, which is why utility costs should be central to any purchase or build analysis."
+    },
+    {
+      "question": "Why does location matter so much?",
+      "answer": "Your customers are people without in-unit laundry, so demand depends on local demographics: renter density, apartment complexes, and household income. A laundromat in the wrong area can't generate enough traffic to cover its fixed costs, and you can't easily relocate the heavy, installed equipment, so location largely determines success."
+    },
+    {
+      "question": "How risky is the laundromat business?",
+      "answer": "It's considered relatively recession-resilient because laundry is essential, but the risks are real: overpaying for a weak location, being locked into a long lease, utility cost increases, expensive equipment failures, and vandalism or theft at an unattended store. The biggest risk is committing major capital to a bad location."
+    },
+    {
+      "question": "Can I add services to increase revenue?",
+      "answer": "Yes. Many owners boost income with wash-and-fold service, pickup and delivery, vending, and commercial laundry contracts with gyms, salons, or short-term rentals. These higher-margin services layer on top of self-service revenue, but they add labor and complexity, so most owners add them once the core store is stable."
+    }
+  ],
+  "similarBusinesses": [
+    "vending-machine-business",
+    "property-management-business",
+    "airbnb-arbitrage-business",
+    "laundry-pickup-and-delivery-business"
+  ],
+  "dataSources": [
+    "Coin Laundry Association (CLA) industry data on store economics and utility costs",
+    "Commercial laundry equipment distributors (Speed Queen, Dexter, Continental) for equipment and buildout costs",
+    "SBA and small-business lending resources on laundromat financing and acquisition",
+    "Laundromat owner communities and brokerage listings for real-world revenue, lease, and sale-multiple data"
+  ],
+  "lastReviewed": "2026-06"
+}

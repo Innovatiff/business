@@ -1,0 +1,161 @@
+{
+  "title": "Lead Generation Business",
+  "slug": "lead-generation-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start a Lead Generation Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a lead generation business: real startup costs, realistic monthly earnings, how rank-and-rent and pay-per-lead actually work, and what most people get wrong.",
+  "startupCostLow": 500,
+  "startupCostHigh": 6000,
+  "monthlyEarningsLow": 500,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "2 to 4 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "People comfortable with SEO, paid ads, or sales who want to build a recurring-revenue asset by feeding local service businesses qualified leads",
+  "biggestRisk": "Building lead flow nobody will pay for — either the leads are low quality, the niche has no margin, or the business owner cuts you out once leads start coming",
+  "speedToIncome": "months",
+  "minWeeklyHours": 15,
+  "skills": ["sales", "tech", "writing"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["max-income", "sellable", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A lead generation business creates demand for local service businesses — roofers, plumbers, lawyers, dentists, HVAC companies — and sells them the resulting inquiries. There are three common models. 'Rank and rent' means you build a niche website (for example, 'AustinRoofingPros'), rank it in Google for local searches, and rent the calls and form fills to one contractor for a monthly fee. 'Pay per lead' means you run paid ads or SEO and charge per qualified phone call or booked appointment, often $20 to $300 each depending on the trade. A media-buying model means you run Google or Facebook ads on behalf of clients and get paid for the leads those ads produce. In all three, you are the marketing channel a service business would otherwise have to build themselves.",
+  "dailyReality": "Day to day you are building and optimizing assets, not doing client work in the traditional sense. That means researching keywords and competitors, writing or commissioning local landing pages, building citations and backlinks, setting up call tracking, and watching analytics and ad dashboards. A meaningful chunk of the week is sales and account management: cold outreach to find buyers for your leads, demoing call recordings, negotiating per-lead pricing, and handling the inevitable disputes when a client claims a lead was 'bad.' Expect long stretches early where you are building with no revenue, followed by recurring checks once an asset ranks or an ad account stabilizes.",
+  "startupCostsItemized": [
+    { "item": "Domains for niche/rank-and-rent sites", "low": 20, "high": 150 },
+    { "item": "Web hosting and a site builder (WordPress + theme, or a page builder)", "low": 100, "high": 400, "annual": true },
+    { "item": "Call tracking and lead routing (CallRail or similar)", "low": 360, "high": 1200, "annual": true },
+    { "item": "SEO tools (Ahrefs, SEMrush, or local rank trackers)", "low": 0, "high": 1500, "annual": true, "optional": true },
+    { "item": "Initial ad spend if running paid lead gen (test budget)", "low": 0, "high": 2000, "optional": true },
+    { "item": "Content and citation building (writers, listings, links)", "low": 100, "high": 1000, "optional": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "CRM or simple lead-tracking spreadsheet/software", "low": 0, "high": 300, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most people earn little to nothing for the first two to four months while assets are built and ranked. By the end of year one, operators who stick with it and successfully rent or sell leads commonly report $500 to $4,000 per month across one to a handful of properties or ad accounts. Many quit before any asset earns, because the early stretch has costs and no income.",
+    "experienced": "Operators with a portfolio of ranked sites, proven ad funnels, and reliable buyers typically report $5,000 to $20,000 per month. At this stage the value is in owning multiple lead-producing assets across niches and cities, plus relationships with clients who pay reliably for volume.",
+    "topEarners": "Top operators and small agencies gross $30,000 to $150,000+ per month by running lead gen across many cities and verticals, sometimes operating call centers to qualify leads. Reaching that takes years of building assets, real ad-management skill, a team, and the discipline to drop niches and clients that do not perform. It is closer to running a marketing company than a side hustle.",
+    "whatAffectsMost": "Niche economics matter most. A single emergency roofing or personal-injury lead can be worth hundreds; a lead in a low-margin niche is worth a few dollars. Lead quality and your ability to prove ROI to clients determine whether you keep getting paid. The model (rank-and-rent vs. paid ads) changes your risk profile but not this fundamental truth.",
+    "perHour": "Effective hourly rate is very lumpy. During the build phase it can feel like $0 to $10 per hour; once an asset ranks and rents itself, the same property can effectively pay $100 to $500+ per hour of ongoing maintenance. Paid-ad models are steadier hourly but carry ad-spend risk."
+  },
+  "howToStart": [
+    "Month 1: Pick a niche and a city where local service businesses clearly pay to acquire customers (roofing, HVAC, plumbing, legal, dental). Validate that there is search demand and that one lead is worth real money. Choose your model — rank-and-rent SEO is cheaper but slower; paid ads are faster but cost money to test.",
+    "Month 1–2: Build the asset. For rank-and-rent, register a keyword-relevant domain, build a clean local landing page, set up call tracking, and start on-page SEO, citations, and links. For paid ads, build a tight landing page and a small, measurable Google Local Services or Search campaign.",
+    "Month 2–3: Generate and document leads. Capture call recordings and form fills so you have proof of quality and volume before you sell. Track cost per lead and conversion so you know what the leads are actually worth.",
+    "Month 3–4: Find a buyer. Cold-call or email contractors in that niche, play them real recorded leads, and offer either a monthly rental (rank-and-rent) or a per-lead price. Start with one reliable client per asset rather than splitting low-quality leads across several.",
+    "Days 90+: Reinvest. Once one asset pays, clone the playbook into new cities or niches. Drop anything that does not rank or does not produce profitable leads, and formalize agreements so clients cannot simply stop paying once the calls roll in."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Working knowledge of at least one acquisition channel — local SEO or paid search/social ads",
+      "Sales and outreach ability to find and close the businesses who will buy your leads",
+      "Comfort with analytics, call tracking, and proving ROI with numbers"
+    ],
+    "canLearn": [
+      "Local SEO mechanics — citations, Google Business optimization, on-page and link building",
+      "Landing page copy and conversion basics for local service offers",
+      "Per-lead and rank-and-rent pricing models and how to structure simple agreements"
+    ],
+    "separators": [
+      "Choosing high-value niches where one lead is worth real money, and walking away from low-margin ones",
+      "Qualifying and filtering leads so clients trust the quality and renew rather than churn",
+      "Systematizing the build so you can replicate winning assets across cities instead of hand-crafting each one"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Building lead flow first and only then wondering who will pay — and discovering the niche has no margin or no interested buyers",
+    "Picking low-value niches where leads sell for a few dollars and the math never supports the effort",
+    "Sending unqualified or duplicated leads, which destroys client trust and gets you dropped within a month or two",
+    "Underestimating how long SEO takes to rank — many quit in month two or three, right before assets would have earned",
+    "Having no written agreement, so the contractor simply stops paying once the calls keep coming on their own",
+    "Spreading too thin across many niches and cities at once instead of getting one asset profitable first"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Call tracking platform (CallRail, WhatConverts)", "note": "Essential — it proves volume and quality, and protects you in disputes. Recorded calls are your best sales tool.", "low": 30, "high": 100 },
+    { "item": "Website/landing page stack (WordPress or page builder + hosting)", "note": "Cheap and flexible for rank-and-rent. Keep pages fast and locally relevant.", "low": 10, "high": 40 },
+    { "item": "SEO research tools (Ahrefs, SEMrush, or BrightLocal)", "note": "Used to find niches and track rankings. Start with one tool; do not stack subscriptions early.", "low": 0, "high": 150, "optional": true },
+    { "item": "Ad accounts (Google Ads, Google Local Services, Meta)", "note": "For paid models. Budget real test spend and expect to lose some learning what converts.", "low": 0, "high": 2000, "optional": true },
+    { "item": "CRM or pipeline tracker", "note": "Track which leads went to which client and whether they were accepted, especially with per-lead billing.", "low": 0, "high": 50, "optional": true }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct cold outreach — calling and emailing local service businesses in your chosen niche with recorded proof of real leads",
+      "Demonstrating live or recorded leads so a contractor hears the demand before paying",
+      "Targeting businesses already spending on ads or appearing in Local Services, since they clearly value leads",
+      "Networking in contractor and trade groups where owners discuss lead sources",
+      "Offering a low-risk first month or pay-per-result trial so a skeptical owner can test you"
+    ],
+    "whereCustomersAre": "Your customers are the service businesses themselves — roofers, HVAC and plumbing companies, lawyers, dentists, and similar — found through Google searches, the Map Pack, Local Services Ads, and trade directories in the city you are targeting. The end consumers who fill out the forms are local homeowners and people searching for those services.",
+    "timeToClientBase": "Expect two to four months to generate provable lead flow, then weeks of outreach to land your first paying client. A reliable roster of clients across a few assets typically takes a year or more of building and selling.",
+    "wasteOfTime": "Trying to sell leads before you can prove quality and volume is a waste — contractors have heard every pitch. Building polished branding for your lead-gen company itself, rather than the local sites that rank, also rarely moves the needle early."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but slowly. Lead gen scales to full-time income once you own several assets or run profitable ad accounts across niches and cities. The early build phase is the bottleneck; income compounds only after multiple assets are live and rented.",
+    "hireAndStepBack": "Reasonably well. SEO and citation work can be delegated, ad management can be staffed, and lead qualification can be handed to a small team or call center. Sales and client retention are the hardest to delegate because relationships and ROI proof keep clients paying.",
+    "sellable": "Among the more sellable online businesses. Ranked rank-and-rent sites with documented monthly rental income and clean histories sell as cash-flowing digital assets, and a portfolio with recurring contracts can be sold as an agency. Buyers scrutinize how durable the rankings and client relationships are.",
+    "whatScalingRequires": "A repeatable build process, capital or patience to fund the no-income build phase, reliable lead-quality controls, and a sales engine that keeps clients renewing. Scaling is mostly about cloning what works and ruthlessly cutting niches and clients that do not produce profitable leads."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You already understand local SEO or paid ads and enjoy building marketing systems",
+      "You are comfortable selling and can convince a skeptical contractor with real numbers",
+      "You can tolerate two to four months of building with no income before assets earn",
+      "You want to build an asset you could eventually rent out or sell rather than trade hours for money"
+    ],
+    "poorFit": [
+      "You need income within the first few weeks",
+      "You dislike sales and outreach — finding buyers for leads is half the job",
+      "You have no acquisition skill yet and no patience to learn SEO or ads",
+      "You expect rankings or ad results to be permanent and hands-off"
+    ],
+    "askYourself": [
+      "In my chosen niche, how much is a single lead actually worth to the business buying it?",
+      "Am I prepared to build for months with costs and no revenue before anything pays?",
+      "Can I prove lead quality with recordings and data, and will I have an agreement so a client cannot just stop paying?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is rank-and-rent lead generation legal?",
+      "answer": "The rank-and-rent model itself is legal, but you must follow Google's guidelines and any industry rules for the niche. Some regulated fields — legal, medical, financial — have advertising and referral rules, and a few states restrict paying for legal or healthcare 'referrals.' Avoid fake reviews, doorway pages, and deceptive claims, and check the rules for any regulated niche before building."
+    },
+    {
+      "question": "How long until a rank-and-rent site makes money?",
+      "answer": "Local SEO typically takes two to six months to rank well enough to produce a usable volume of leads, sometimes longer in competitive cities. This is why most people quit early. Paid-ad models can produce leads in days but cost money to run and require you to manage ongoing spend."
+    },
+    {
+      "question": "How much should I charge per lead?",
+      "answer": "It depends entirely on the niche and lead quality. Low-value home services might be $10 to $50 per lead, while a qualified roofing, HVAC, or legal lead can be $75 to $300 or more. The honest approach is to know what the lead is worth to the client — what a closed customer earns them — and price at a fraction of that."
+    },
+    {
+      "question": "What is the difference between rank-and-rent and pay-per-lead?",
+      "answer": "Rank-and-rent means you own a site that ranks for local searches and rent all of its calls to one business for a flat monthly fee. Pay-per-lead means you charge for each qualified lead you deliver, often from ads or SEO, and the client pays per call or appointment. Rank-and-rent is more asset-like and sellable; pay-per-lead can scale faster but requires constant lead-quality management."
+    },
+    {
+      "question": "Do I need to be good at SEO to do this?",
+      "answer": "You need to be good at at least one acquisition channel. If you choose rank-and-rent you must understand local SEO; if you choose paid lead gen you must understand Google or Meta ads. Sales matters just as much — you can generate perfect leads and still fail if you cannot find and keep clients who pay for them."
+    },
+    {
+      "question": "What stops a client from just taking my leads and not paying?",
+      "answer": "Two things: control and proof. In rank-and-rent you own the domain and call-tracking number, so you can route calls elsewhere if they stop paying. In pay-per-lead, call tracking documents exactly what you delivered. A simple written agreement and the ability to redirect lead flow protect you from the common problem of a client cutting you out once leads roll in."
+    },
+    {
+      "question": "Can I run this part-time around a job?",
+      "answer": "Yes, especially the rank-and-rent model, because much of the work is upfront building and then periodic maintenance. Expect to invest 15 or more hours a week during the build phase. Paid-ad models are also workable part-time but need closer daily attention to spend and performance."
+    }
+  ],
+  "similarBusinesses": [
+    "seo-consulting-business",
+    "social-media-management-business",
+    "niche-website-blog-business",
+    "web-development-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Advertising, Promotions, and Marketing Managers occupational data",
+    "Google — Local Services Ads and Google Ads documentation (lead pricing and bidding models)",
+    "Industry cost-per-lead benchmarks from marketing analytics reports (WordStream, HubSpot)",
+    "Operator communities and case studies (r/juststart, local SEO and lead-gen forums) for real-world rank-and-rent earnings"
+  ],
+  "lastReviewed": "2026-06"
+}
