@@ -1,6 +1,6 @@
-# ProfitPath — working notes for Claude
+# Honestly Profitable — working notes for Claude
 
-ProfitPath (HonestlyProfitable.com) is **one** Astro static site — a serious, honest business
+Honestly Profitable (HonestlyProfitable.com) is **one** Astro static site — a serious, honest business
 reference plus an interactive Business Finder. See `README.md` for full architecture.
 
 ## Prime directive: trust over everything

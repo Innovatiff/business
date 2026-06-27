@@ -1,8 +1,8 @@
-# ProfitPath
+# Honestly Profitable
 
 **Every business explained honestly — startup cost, real earnings, time to profit, and exactly how to start today.**
 
-ProfitPath ([HonestlyProfitable.com](https://honestlyprofitable.com)) is a serious, research-driven
+Honestly Profitable ([HonestlyProfitable.com](https://honestlyprofitable.com)) is a serious, research-driven
 business reference. It is **one website with many pages** — a structured library plus an interactive
 Business Finder that helps anyone find, evaluate, and start a profitable business that fits their real
 budget, time, skills, and situation. No hype, no courses to sell, no affiliate pressure.
@@ -65,7 +65,7 @@ up on the next build.
 
 ### Content standards (non-negotiable)
 
-ProfitPath's value is trust. Every page must:
+Honestly Profitable's value is trust. Every page must:
 - Use realistic, sourced **ranges** — never single best-case numbers.
 - Separate beginner / experienced / top-earner earnings honestly.
 - State the difficulty, the biggest risk, and what most people get wrong.

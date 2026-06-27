@@ -1,5 +1,5 @@
 /**
- * ProfitPath — central site configuration.
+ * Honestly Profitable — central site configuration.
  *
  * One website, many pages. Everything that is shared across the site
  * (brand, navigation, AdSense, category/filter definitions) lives here so
@@ -7,7 +7,7 @@
  */
 
 export const SITE = {
-  name: 'ProfitPath',
+  name: 'Honestly Profitable',
   domain: 'honestlyprofitable.com',
   url: 'https://honestlyprofitable.com',
   tagline: 'Every business explained honestly.',
@@ -99,4 +99,4 @@ export const FOOTER_NAV: NavItem[] = [
 
 /** The standard disclaimer shown across the site. */
 export const DISCLAIMER =
-  'ProfitPath provides educational information about business models based on publicly reported data, operator interviews, industry sources, and general research. Individual results vary significantly. Starting a business involves financial risk. Nothing on this site is financial, legal, or investment advice. Always do your own research before spending money.';
+  'Honestly Profitable provides educational information about business models based on publicly reported data, operator interviews, industry sources, and general research. Individual results vary significantly. Starting a business involves financial risk. Nothing on this site is financial, legal, or investment advice. Always do your own research before spending money.';

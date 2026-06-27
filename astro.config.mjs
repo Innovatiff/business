@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// HonestlyProfitable.com — ProfitPath
+// HonestlyProfitable.com — Honestly Profitable
 export default defineConfig({
   site: 'https://honestlyprofitable.com',
   trailingSlash: 'never',

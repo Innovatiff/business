@@ -1,9 +1,9 @@
 {
-  "name": "profitpath",
+  "name": "honestly-profitable",
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "description": "ProfitPath — Every business explained honestly: startup cost, real earnings, time to profit, and how to start.",
+  "description": "Honestly Profitable — Every business explained honestly: startup cost, real earnings, time to profit, and how to start.",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
