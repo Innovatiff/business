@@ -1,0 +1,167 @@
+{
+  "title": "HVAC Business",
+  "slug": "hvac-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start an HVAC Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting an HVAC business: real startup costs, realistic monthly earnings, the certification and licensing required, how to find clients, and what most people get wrong.",
+  "startupCostLow": 10000,
+  "startupCostHigh": 50000,
+  "monthlyEarningsLow": 6000,
+  "monthlyEarningsHigh": 25000,
+  "timeToFirstIncome": "6 months to 3+ years (including training)",
+  "difficultyLevel": "Advanced",
+  "bestFor": "People willing to train for years to earn a real trade credential, who want a high-earning, recession-resistant business where the license itself is the moat",
+  "biggestRisk": "Underestimating the years of training and licensing required, or attempting work without the EPA and state credentials, which is illegal and uninsurable",
+  "speedToIncome": "long",
+  "minWeeklyHours": 40,
+  "skills": ["hands", "tech"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": true,
+  "whatItIs": "An HVAC (heating, ventilation, and air conditioning) business installs, repairs, and maintains the climate-control systems in homes and commercial buildings: furnaces, air conditioners, heat pumps, ductwork, thermostats, and refrigeration. This is a genuine skilled trade, not a side hustle you start next week. To do the work legally you need an EPA Section 608 certification to handle refrigerants, almost always a state or local HVAC contractor or journeyman/master license, and in practice the real-world skill that only comes from an apprenticeship, trade school, or years on the job. The reason it commands high earnings is precisely that the barrier to entry is high — the credential and competence are the moat. Demand is strong and growing, the work is recession-resistant (broken heat and AC are not optional), and the equipment, refrigerants, and codes are complex enough that customers cannot DIY their way around you.",
+  "dailyReality": "A typical day for an established contractor is a mix of service calls and installs: diagnosing why a system is not cooling, recovering and recharging refrigerant, replacing compressors or capacitors, brazing line sets, sizing and installing new systems, and pulling permits. Summer and winter bring brutal peak-season hours and emergency calls — the busiest, most profitable, and most exhausting times of year. You will work in attics, crawlspaces, rooftops, and mechanical rooms in extreme heat and cold. Around the technical work there is significant quoting, permitting, parts ordering, dealing with distributors, and managing warranties and manufacturer rebates. As an owner you also juggle estimating, scheduling, and increasingly, managing techs.",
+  "startupCostsItemized": [
+    { "item": "EPA Section 608 certification", "low": 20, "high": 150 },
+    { "item": "Trade school or apprenticeship (tuition; many apprenticeships are paid)", "low": 0, "high": 15000, "optional": true },
+    { "item": "State/local HVAC contractor license, exam, and bonding", "low": 200, "high": 2000 },
+    { "item": "Specialty tools (gauges, recovery machine, vacuum pump, manifold, meters, brazing kit)", "low": 2000, "high": 8000 },
+    { "item": "Service van and basic outfitting", "low": 3000, "high": 25000 },
+    { "item": "General liability + commercial auto insurance, surety bond", "low": 2000, "high": 6000, "annual": true },
+    { "item": "Initial parts/refrigerant inventory float", "low": 1000, "high": 4000 },
+    { "item": "Software (dispatch, invoicing, CRM like ServiceTitan or Housecall Pro)", "low": 600, "high": 4000, "annual": true, "optional": true },
+    { "item": "Business registration / LLC and marketing setup", "low": 200, "high": 1500 }
+  ],
+  "realEarnings": {
+    "yearOne": "This is the field where 'year one' is misleading because year one is usually training, not earning as an owner. As a working technician, wages commonly run $40,000 to $65,000 per year ($3,300 to $5,400 per month). A brand-new solo contractor who just got licensed and is building a book often clears $6,000 to $9,000 per month once steady, but the first months can be lean while you find customers.",
+    "experienced": "Established solo and small-shop owners with a license, reputation, and repeat/maintenance contracts commonly net $10,000 to $20,000 per month, driven by install jobs (a single system replacement can be $5,000 to $15,000+) and recurring service agreements. Margins are healthier than most trades because the credential limits competition.",
+    "topEarners": "Multi-truck HVAC companies routinely gross $1M to $10M+ per year, and successful owners net $250,000 to $1M+. Reaching that takes years: building a fleet, hiring and retaining licensed techs (the hardest part), strong financing/rebate programs, heavy local marketing, and systems to run it. HVAC companies are also among the most acquirable trade businesses — private equity actively rolls them up.",
+    "whatAffectsMost": "The license and competence come first — without them you legally cannot operate. After that, the biggest earnings levers are install volume, recurring maintenance agreements (the stable, high-margin backbone), seasonal capacity during peak summer/winter, and your ability to hire and keep licensed technicians as you grow.",
+    "perHour": "Billable service rates commonly run $100 to $200+ per hour, and installs are priced as flat jobs with healthy margins. Counting all unpaid time (training, quoting, permitting, driving), a working solo contractor's realistic blended effective rate is often $60 to $120 per hour once established — high for a trade, but earned through years of credentialing."
+  },
+  "howToStart": [
+    "Months 1-24+: Get trained. Enroll in a trade school program or, better, land a paid apprenticeship with an established HVAC company. There is no legitimate shortcut around this — the skill and the supervised hours are what make you employable and, eventually, licensable.",
+    "Along the way: Earn your EPA Section 608 certification (required to legally buy and handle refrigerants) early, and accumulate the documented work experience your state requires before you can sit for a contractor or journeyman license.",
+    "When eligible: Pass your state/local HVAC licensing exam, secure your bond, and get general liability and commercial auto insurance. Register your business. This is the point at which you can legally operate on your own.",
+    "First 90 days as an owner: Outfit a van with core tools and a starter parts inventory, set up a Google Business Profile, and line up a refrigerant and equipment distributor account. Start with service and repair work (lower capital, faster cash) before chasing big installs.",
+    "Months 3-12: Build recurring maintenance agreements (the stable backbone of HVAC income), get reviews, and develop relationships with builders, property managers, and home-service referral sources. Decide whether to stay solo and high-margin or begin hiring.",
+    "Year 2+: If scaling, hire and license additional techs, add trucks, and invest in dispatch/CRM software and financing programs that let you close larger install jobs."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Real HVAC technical skill from an apprenticeship, trade school, or years on the job — this cannot be faked",
+      "EPA Section 608 certification and the path to a state HVAC license",
+      "Mechanical and electrical aptitude plus comfort reading schematics, gauges, and meters",
+      "Physical capability to work in attics, crawlspaces, rooftops, and extreme heat and cold"
+    ],
+    "canLearn": [
+      "The business side: estimating, invoicing, scheduling, and bookkeeping",
+      "Customer communication and how to explain technical problems and options clearly",
+      "Marketing and building a local reputation and review base"
+    ],
+    "separators": [
+      "Accurate diagnostics and clean installs that minimize callbacks and warranty losses",
+      "Selling and structuring recurring maintenance agreements that smooth income year-round",
+      "Hiring, training, and retaining licensed techs — the single hardest part of scaling HVAC"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Believing it is a quick business to start — it is a multi-year path through training and licensing before you can operate legally",
+    "Attempting refrigerant work without EPA 608 certification or contracting without a state license, which is illegal, uninsurable, and risks heavy fines",
+    "Underestimating the capital required for a van, specialty tools, refrigerant, and inventory before the first big job pays out",
+    "Skipping recurring maintenance agreements and living job-to-job, which makes the off-season brutally lean",
+    "Pricing installs without accounting for warranty, callbacks, refrigerant cost swings, and code requirements",
+    "Trying to scale too fast before they can reliably hire and retain licensed technicians, which is the binding constraint in this trade"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Refrigerant gauges / digital manifold and probes", "note": "Core diagnostic gear; digital probes speed up and improve accuracy.", "low": 200, "high": 1200 },
+    { "item": "Refrigerant recovery machine and recovery tanks", "note": "Required to legally and properly handle refrigerant during service.", "low": 300, "high": 1500 },
+    { "item": "Vacuum pump and micron gauge", "note": "Essential for proper evacuation; skipping this causes early system failures.", "low": 200, "high": 800 },
+    { "item": "Brazing/torch kit and nitrogen", "note": "For joining line sets correctly and pressure-testing.", "low": 200, "high": 800 },
+    { "item": "Electrical meters, clamp meter, combustion analyzer", "note": "For diagnostics and gas-furnace safety testing.", "low": 200, "high": 1500 },
+    { "item": "Service van and outfitting", "note": "Your mobile shop. Reliability matters because peak-season downtime is costly.", "low": 3000, "high": 25000 },
+    { "item": "Dispatch/CRM software (ServiceTitan, Housecall Pro)", "note": "Pays off once you have volume or multiple techs; overkill for a brand-new solo.", "low": 600, "high": 4000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A strong Google Business Profile with reviews — homeowners with a dead AC or furnace search locally and call fast",
+      "Recurring maintenance agreements sold to every install and repair customer (the highest-value channel)",
+      "Relationships with builders, general contractors, and property managers for steady install and service work",
+      "Emergency/after-hours availability during peak summer and winter, when demand and pricing spike",
+      "Referrals from satisfied customers and from plumbers, electricians, and home inspectors"
+    ],
+    "whereCustomersAre": "Homeowners and landlords with aging systems, new-construction and remodel projects through builders and GCs, and commercial property managers needing service contracts. Demand concentrates in the hottest and coldest months, and in regions with extreme climates.",
+    "timeToClientBase": "A newly licensed solo contractor can start booking service calls within the first weeks of opening, but building a reliable book with recurring maintenance agreements and builder relationships typically takes six to eighteen months. The credential, not lead generation, is the real gatekeeper.",
+    "wasteOfTime": "Broad, untargeted advertising and trying to win on lowest price. Customers in a heat wave with a broken AC care about speed, trust, and competence far more than being the cheapest, and price-shoppers rarely become loyal maintenance customers."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and to high income. Once licensed, a solo HVAC contractor can reach a strong full-time income within the first year through service and installs. Earnings are well above most trades because the licensing requirement limits competition.",
+    "hireAndStepBack": "Yes, more so than most service trades — HVAC scales well into multi-truck operations. The constraint is hiring and retaining licensed, competent technicians, which is genuinely hard in a tight labor market. With trained techs, dispatch software, and managers, owners can step back from the tools and run the company.",
+    "sellable": "Highly. HVAC companies with recurring maintenance agreements, trained licensed techs, and clean books are among the most sought-after trade acquisitions, with private equity actively consolidating the industry. They sell for meaningful multiples of profit, especially with a strong service-agreement base.",
+    "whatScalingRequires": "Capital for trucks, tools, and inventory; a pipeline of licensed technicians; dispatch and CRM systems; financing and rebate programs to close large installs; and the management capacity to run multiple crews. The licensed-labor bottleneck is what separates companies that scale from those that stall."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are willing to invest years in training and licensing before running your own shop",
+      "You have strong mechanical and electrical aptitude and like technical, hands-on problem-solving",
+      "You want a high-earning, recession-resistant trade where the credential protects you from low-skill competition",
+      "You can handle physically demanding work in extreme conditions and peak-season hours"
+    ],
+    "poorFit": [
+      "You want fast income or a low-commitment side hustle",
+      "You are unwilling or unable to complete the EPA certification, apprenticeship, and state licensing",
+      "You have little capital and cannot fund a van, tools, refrigerant, and inventory",
+      "You dislike technical detail, codes, and precise, safety-critical work"
+    ],
+    "askYourself": [
+      "Am I genuinely prepared to spend two or more years training and getting licensed before I own a business?",
+      "Do I have, or can I access, the $10,000 to $50,000+ in capital this realistically takes to start?",
+      "Once I scale, can I attract and keep licensed technicians, which is the hardest part of this trade?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What certifications and licenses do I need to start an HVAC business?",
+      "answer": "At minimum you need EPA Section 608 certification to legally handle refrigerants, and in nearly all states a state or local HVAC contractor (and often journeyman or master) license, which typically requires documented work experience and passing an exam. You will also need a surety bond and liability insurance in most jurisdictions. Requirements vary significantly by state, so check your specific state licensing board before starting."
+    },
+    {
+      "question": "How long does it take before I can run my own HVAC business?",
+      "answer": "Realistically several years. Most people complete an apprenticeship or trade school program (often two to five years of training and supervised experience) and accumulate the work hours their state requires before they can sit for a contractor license. There is no legitimate shortcut — the training and credential are exactly what make the business valuable and protected from low-skill competition."
+    },
+    {
+      "question": "Can I start an HVAC business with no experience?",
+      "answer": "No. This is one of the few businesses where attempting it without real training is both unsafe and illegal. You cannot legally handle refrigerants without EPA 608, you cannot legally contract without a state license, and you cannot competently diagnose or install systems without years of hands-on experience. The honest path is to train and get licensed first."
+    },
+    {
+      "question": "How much does it cost to start an HVAC business?",
+      "answer": "Most newly licensed contractors need roughly $10,000 to $50,000 to start, depending on how much they spend on a van, specialty tools, refrigerant and parts inventory, insurance, bonding, and software. The cheapest viable path is a used van and a lean tool kit focused on service and repair work before taking on capital-heavy installs."
+    },
+    {
+      "question": "Why do HVAC businesses earn more than other trades?",
+      "answer": "Because the barrier to entry is high. The EPA certification, state licensing, technical complexity, and capital requirements limit competition, while demand is strong and non-optional — people cannot live without working heat and AC. That combination of constrained supply and inelastic demand is what supports the higher earnings and strong resale value."
+    },
+    {
+      "question": "Is HVAC seasonal?",
+      "answer": "Demand peaks hard in the hottest and coldest months, when AC and furnace failures spike and emergency calls command premium pricing. Spring and fall are slower. Recurring maintenance agreements (tune-ups before each season) are the main way operators smooth income and stay busy year-round."
+    },
+    {
+      "question": "What is the hardest part of growing an HVAC company?",
+      "answer": "Hiring and retaining licensed, competent technicians. The same credentialing that protects you from competition also makes skilled labor scarce and expensive. Most owners who stall at one or two trucks do so because they cannot reliably find and keep good techs, not because of a lack of customers."
+    }
+  ],
+  "similarBusinesses": [
+    "handyman-business",
+    "pressure-washing-business",
+    "junk-removal-business",
+    "pool-cleaning-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Heating, Air Conditioning, and Refrigeration Mechanics and Installers (wage and outlook data)",
+    "U.S. EPA — Section 608 Technician Certification requirements",
+    "State HVAC/contractor licensing boards for license, exam, and bonding requirements",
+    "ACCA (Air Conditioning Contractors of America) and industry reports on service pricing and maintenance agreements",
+    "Operator and trade communities (r/HVAC, contractor forums) for real-world pricing, earnings, and hiring realities"
+  ],
+  "lastReviewed": "2026-06"
+}

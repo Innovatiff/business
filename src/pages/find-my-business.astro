@@ -4,7 +4,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { QUESTIONS, FINDER_SECTIONS, type MatchRecord } from '../data/finder';
 import { CATEGORY_MAP } from '../data/categories';
-import { SITE } from '../config';
 
 const all = await getCollection('businesses');
 
@@ -62,7 +61,7 @@ const steps = FINDER_SECTIONS.map((section) => ({
 
   <div class="container finder-shell">
     <!-- Embedded match data (no tracking, no network calls) -->
-    <script type="application/json" id="finder-records" set:html={JSON.stringify(records)}></script>
+    <script type="application/json" id="finder-records" is:inline set:html={JSON.stringify(records)}></script>
 
     <form id="finder" class="finder card" novalidate>
       <div class="finder-progress" aria-hidden="true">
@@ -354,7 +353,8 @@ const steps = FINDER_SECTIONS.map((section) => ({
 <script>
   import { rankBusinesses, type MatchRecord, type Answers } from '../data/finder';
 
-  const form = document.getElementById('finder') as HTMLFormElement | null;
+  // Cast to non-null for typing; the `if (form)` below is the runtime guard.
+  const form = document.getElementById('finder') as HTMLFormElement;
   if (form) {
     const recordsEl = document.getElementById('finder-records');
     const records: MatchRecord[] = recordsEl ? JSON.parse(recordsEl.textContent || '[]') : [];
@@ -479,7 +479,7 @@ const steps = FINDER_SECTIONS.map((section) => ({
       if (current < lastQuestionStep) show(current + 1);
     });
     backBtn.addEventListener('click', () => {
-      if (current > 0) show(Math.min(current, lastQuestionStep) - 1 < 0 ? 0 : current - 1);
+      show(Math.max(0, current - 1));
     });
     seeBtn.addEventListener('click', () => {
       if (!validateStep(current)) return;

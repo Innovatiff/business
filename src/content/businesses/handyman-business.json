@@ -1,0 +1,163 @@
+{
+  "title": "Handyman Business",
+  "slug": "handyman-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Handyman Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a handyman business: real startup costs, realistic monthly earnings, licensing thresholds by state, how to find clients, and what most people get wrong.",
+  "startupCostLow": 800,
+  "startupCostHigh": 8000,
+  "monthlyEarningsLow": 2000,
+  "monthlyEarningsHigh": 9000,
+  "timeToFirstIncome": "1 to 3 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Practical people who are genuinely good with their hands, enjoy variety, and want a low-cost trade business they can scale into a crew",
+  "biggestRisk": "Taking on work that legally requires a contractor's license or specialty trade license, and getting fined or sued for a job gone wrong",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 10,
+  "skills": ["hands", "people", "sales"],
+  "workLocations": ["mobile", "home"],
+  "priorities": ["low-risk", "flexibility", "alongside-job", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A handyman business handles the broad middle of home and small-commercial repair work: mounting TVs and shelving, fixing drywall, replacing fixtures and faucets, assembling furniture, repairing decks and fences, caulking, painting, door and lock repairs, minor electrical and plumbing swaps, and the endless 'punch list' of small jobs homeowners and landlords never get to. The appeal is that the work is varied, demand is constant, and you can start with tools you may already own. The catch is that 'handyman' is a regulated term in many states: there is usually a dollar threshold per job (commonly $500 to $1,000, but it varies widely) above which you legally need a general contractor's license, and trades like electrical, plumbing, gas, and HVAC almost always require a separate specialty license regardless of price.",
+  "dailyReality": "A typical day is two to four jobs in different homes, with a lot of driving, loading and unloading tools, and adapting on the spot when the job is not what the customer described over the phone. You will spend real time diagnosing problems, running to the hardware store for the one part you did not have, and explaining to customers what is and is not worth fixing. Around the wrench time, expect 30 to 90 minutes most days quoting, texting customers, scheduling, and invoicing. The work is physical but not brutal, and the biggest mental load is constant context-switching and managing customer expectations.",
+  "startupCostsItemized": [
+    { "item": "Core hand and power tools (drill, driver, saw, levels, ladders, hand tools)", "low": 500, "high": 2500 },
+    { "item": "Reliable vehicle or van outfitting (racks, bins, organization)", "low": 0, "high": 3000, "optional": true },
+    { "item": "General liability insurance", "low": 500, "high": 1500, "annual": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Contractor or handyman license / registration (state-dependent)", "low": 0, "high": 600, "optional": true },
+    { "item": "Google Business Profile + simple website", "low": 0, "high": 400, "optional": true },
+    { "item": "Invoicing/scheduling app (Jobber, Housecall Pro, or free alternatives)", "low": 0, "high": 600, "annual": true, "optional": true },
+    { "item": "Initial materials/consumables float (fasteners, caulk, anchors, blades)", "low": 100, "high": 400 }
+  ],
+  "realEarnings": {
+    "yearOne": "Most beginners working part-time around a job report $2,000 to $4,000 per month. Those going full-time from the start typically land $3,000 to $6,000 per month once they have a steady flow of jobs and have stopped underbidding. The first few months are slower than people expect because building reviews and repeat customers takes time.",
+    "experienced": "Operators with two or more years, strong reviews, and a base of repeat clients and property managers commonly report $6,000 to $12,000 per month working solo. At this stage you are charging $60 to $100+ per hour or strong flat rates, and you are turning down low-value jobs.",
+    "topEarners": "Operators who build a 2 to 4 person crew and systematize quoting, scheduling, and a recurring property-management book gross $20,000 to $50,000+ per month. Getting there means hiring reliable techs (hard), real marketing spend, and shifting from doing the work to running the company. Many solo operators deliberately stay solo because the jump to managing crews adds payroll, liability, and headache that erodes the per-hour gain.",
+    "whatAffectsMost": "Pricing discipline and job selection matter more than skill. The operators who make real money quote confidently, charge for their expertise, build recurring relationships with landlords and property managers, and stop driving across town for $40 jobs. Route density and a tight service radius also matter a lot.",
+    "perHour": "Skilled solo operators bill $50 to $100+ per hour of wrench time. Counting driving, store runs, quoting, and admin, realistic blended effective rates are often $35 to $75 per hour. Beginners who underprice can effectively earn $20 to $35 per hour until they fix their rates."
+  },
+  "howToStart": [
+    "Week 1: Inventory your tools and skills honestly. Decide which jobs you will and will not take (avoid licensed electrical, plumbing, and gas work unless you hold those licenses). Get general liability insurance before any paid work, and check your state and city rules for handyman registration and the per-job dollar threshold that triggers a contractor's license.",
+    "Week 2: Register your business, set up a Google Business Profile, and decide your pricing model (hourly with a minimum, or flat per-job). Post in local Facebook groups, Nextdoor, and on Craigslist offering small jobs, and tell everyone you know you are open for work.",
+    "Month 1: Complete your first 10 to 15 jobs and photograph the good ones. Ask every satisfied customer for a Google review the day you finish. Track your true time per job, including driving and store runs, so you learn your real hourly rate and stop underpricing.",
+    "Days 30-90: Reach out to local landlords, real estate agents, and small property-management companies — recurring repair work is the most valuable book a handyman can build. Set a minimum service charge to kill unprofitable tiny jobs, and decide whether to invest in van outfitting based on the work you are actually winning.",
+    "Months 3-6: Raise your rates as your reviews accumulate, build a referral habit, and decide whether you want to stay solo and high-margin or begin hiring a helper to take on bigger jobs."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Genuine competence with common tools and a wide range of basic repairs — this is not a true no-experience business",
+      "Problem-solving ability to diagnose issues and adapt when a job is not what was described",
+      "Reliability and clear communication so customers trust you in their homes"
+    ],
+    "canLearn": [
+      "Specific repair techniques you do not know yet via YouTube, manufacturer guides, and reps at the hardware store",
+      "Quoting and pricing jobs profitably by tracking real time and materials",
+      "Basic business admin: invoicing, scheduling, and simple bookkeeping"
+    ],
+    "separators": [
+      "Quoting confidently and charging for expertise instead of competing on being the cheapest",
+      "Building recurring relationships with landlords, property managers, and real estate agents",
+      "Knowing your legal limits cold — which jobs require a licensed trade and which you can legally do"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Taking on electrical, plumbing, or gas work that legally requires a specialty license, exposing themselves to fines, voided insurance, and lawsuits if something fails",
+    "Crossing the per-job dollar threshold that triggers a contractor's license requirement without knowing it exists",
+    "Driving across the metro for tiny $40 to $60 jobs with no minimum service charge, destroying their effective hourly rate",
+    "Quoting by guess instead of tracking real time and materials, then losing money on jobs that ran long",
+    "Skipping general liability insurance, so one water leak or fall claim ends the business",
+    "Being unreliable about showing up and following up — the single fastest way to kill word-of-mouth in this trade"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Cordless drill/driver kit and bits", "note": "The most-used tool you own. Buy a reputable brand battery platform you will expand within.", "low": 150, "high": 500 },
+    { "item": "Saws (circular, oscillating multi-tool, jigsaw)", "note": "An oscillating multi-tool is the handyman's secret weapon for tight, mixed-material cuts.", "low": 150, "high": 600 },
+    { "item": "Ladders (step and extension)", "note": "Buy quality — falls are the most common serious injury in this work.", "low": 100, "high": 400 },
+    { "item": "Hand tools, levels, stud finder, measuring tools", "note": "Build the kit over time; do not buy everything day one.", "low": 150, "high": 600 },
+    { "item": "Van/truck organization (bins, racks, drawers)", "note": "Time saved finding parts is real money. Add as the business grows.", "low": 0, "high": 3000 },
+    { "item": "Invoicing/scheduling software", "note": "Free options work early; Jobber/Housecall Pro pay off once you have volume.", "low": 0, "high": 600 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A complete Google Business Profile with photos and steady reviews — the top driver of local repair leads",
+      "Local Facebook groups, Nextdoor, and neighborhood apps where homeowners ask for recommendations daily",
+      "Recurring relationships with landlords, property managers, and real estate agents who need ongoing repairs",
+      "Lead-gen apps like Thumbtack and Angi (useful early but the leads are competitive and the fees add up)",
+      "Asking every happy customer for a referral and a review while still on site"
+    ],
+    "whereCustomersAre": "Homeowners (especially busy professionals and older homeowners), landlords, and small property managers who have a constant backlog of small repairs and no in-house maintenance person. Real estate agents preparing homes for sale are a steady source of punch-list work.",
+    "timeToClientBase": "Most operators get their first jobs within one to three weeks of marketing. A semi-reliable flow takes two to four months, and a repeat/referral-fed pipeline that keeps you booked usually takes six to twelve months.",
+    "wasteOfTime": "Expensive printed advertising, a polished logo and website before you have any reviews, and chasing the cheapest customers who only ever shop on price. Early on, reviews and showing up reliably beat any branding spend."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. Many operators reach full-time income within their first year by booking consistently and pricing well. As a solo operator your ceiling is set by daylight hours and your body, so high earners get there through strong rates and recurring work, not volume of cheap jobs.",
+    "hireAndStepBack": "Possible but a real shift. Hiring a helper, then a second tech, lets you take bigger and more jobs, but you take on payroll, training, quality control, and the liability of someone else's mistakes in a customer's home. Stepping back fully requires documented processes and a trustworthy lead tech, and many operators find the margin gain not worth the headache.",
+    "sellable": "Modestly. A handyman business with a documented recurring book (property managers, repeat clients), brand, and trained techs can sell for a small multiple of profit. A pure solo operation is hard to sell because the business is essentially you and your reputation.",
+    "whatScalingRequires": "Standardized pricing, quoting templates, scheduling systems, insurance and licensing that covers employees, reliable hiring, and a marketing engine that generates leads without your personal time. The solo-to-crew jump is where most operators stall or decide to stay solo on purpose."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are genuinely handy and can already do a wide range of repairs competently",
+      "You enjoy variety and solving a new problem in a new house every few hours",
+      "You are comfortable quoting jobs and talking with homeowners in their space",
+      "You want a low-cost start and can hustle for your first customers"
+    ],
+    "poorFit": [
+      "You are not actually skilled with tools yet and expect to learn entirely on paying customers' jobs",
+      "You want passive income or to avoid physical, hands-on work",
+      "You are disorganized about scheduling, follow-up, and showing up on time",
+      "You are unwilling to learn and respect the legal limits on licensed trade work"
+    ],
+    "askYourself": [
+      "Can I honestly handle a wide range of repairs well enough that customers will refer me?",
+      "Do I know which jobs in my state require a contractor's or specialty trade license, and the per-job dollar threshold?",
+      "Will I set a minimum charge and track my time so I am actually profitable, not just busy?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to be a handyman?",
+      "answer": "It depends entirely on your state and the size of the jobs. Many states let you do small repairs without a license but set a per-job dollar threshold — often somewhere between $500 and $1,000, though it varies widely — above which you need a general contractor's license. Some states (like California) require registration and set the threshold at $500 including labor and materials. Specialty trades such as electrical, plumbing, gas, and HVAC almost always require a separate license regardless of the job size. Check your specific state and city rules before taking work."
+    },
+    {
+      "question": "Can I do electrical and plumbing work as a handyman?",
+      "answer": "Only minor, unregulated tasks in most areas — swapping a faucet, replacing a light fixture, or changing an outlet cover may be allowed, but anything involving new circuits, gas lines, or significant plumbing usually requires a licensed electrician or plumber. Doing licensed work without the license can void your insurance, expose you to fines, and leave you personally liable if something fails. When in doubt, refer it out."
+    },
+    {
+      "question": "How much should I charge as a handyman?",
+      "answer": "Most operators charge either an hourly rate (commonly $50 to $100+ once established) with a minimum service charge, or flat rates per job. The key is to track your real time including driving and store runs, set a minimum (often one to two hours) so small jobs are worth your trip, and charge for your expertise rather than competing to be the cheapest."
+    },
+    {
+      "question": "Is being a handyman a true no-experience business?",
+      "answer": "No, and anyone telling you otherwise is selling something. You need real, demonstrable competence across a range of repairs before customers will trust you in their homes and refer you. You can keep learning specific techniques as you go, but you should start with solid hands-on skills and good problem-solving. This is why we rate it Intermediate, not Beginner."
+    },
+    {
+      "question": "What insurance do I need?",
+      "answer": "General liability insurance is essential and often non-negotiable — it covers property damage and injury claims, which are real risks when you are working in people's homes. If you hire helpers you will also need workers' compensation in most states. Some property managers and commercial clients will require proof of insurance before they hire you."
+    },
+    {
+      "question": "How quickly can I make money?",
+      "answer": "Most operators complete their first paid jobs within one to three weeks of marketing locally. Reaching a steady, reliable income usually takes two to four months of consistent work, reviews, and referrals, with recurring property-management work taking longer to build but paying off the most."
+    },
+    {
+      "question": "Should I use apps like Thumbtack and Angi?",
+      "answer": "They can be useful for landing your first jobs and reviews, but the leads are competitive, the fees add up, and many of the customers are price shoppers. Treat them as a starting channel while you build your Google Business Profile, reviews, and direct referral base, which are cheaper and higher quality over time."
+    }
+  ],
+  "similarBusinesses": [
+    "hvac-business",
+    "junk-removal-business",
+    "pressure-washing-business",
+    "lawn-care-and-landscaping-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Construction and Maintenance Workers and self-employed trades data",
+    "State contractor licensing boards (e.g. California CSLB, and equivalent state agencies) for license thresholds and requirements",
+    "Jobber — State of Home Service Report (home-service pricing and demand trends)",
+    "Angi / Thumbtack — Handyman cost guides and reported job pricing ranges",
+    "Operator communities and trade forums (r/HandymanBusiness, r/Construction) for real-world pricing and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}
