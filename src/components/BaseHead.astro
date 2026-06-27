@@ -5,7 +5,7 @@
  * PUBLIC_ADSENSE_ENABLED=true and PUBLIC_ADSENSE_CLIENT — the script then
  * loads site-wide automatically because this component is in the base layout.
  */
-import { SITE, ADSENSE } from '../config';
+import { SITE, ADSENSE, SEO } from '../config';
 import '../styles/global.css';
 
 export interface Props {
@@ -34,6 +34,11 @@ const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
 {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+<!-- Google Search Console verification (set PUBLIC_GOOGLE_SITE_VERIFICATION) -->
+{SEO.googleSiteVerification && (
+  <meta name="google-site-verification" content={SEO.googleSiteVerification} />
+)}
 
 <!-- Open Graph -->
 <meta property="og:site_name" content={SITE.name} />

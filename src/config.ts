@@ -62,6 +62,19 @@ export const ANALYTICS = {
   },
 } as const;
 
+/**
+ * Search engine / verification settings.
+ *
+ * Google Search Console site verification: paste the token from the
+ * "HTML tag" verification method (the `content="..."` value) into the
+ * PUBLIC_GOOGLE_SITE_VERIFICATION environment variable in Netlify, then
+ * redeploy. It renders the required <meta> tag site-wide. (Alternatively,
+ * drop Google's google<...>.html file into /public — both methods work.)
+ */
+export const SEO = {
+  googleSiteVerification: import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION ?? '',
+} as const;
+
 export type NavItem = { label: string; href: string };
 
 export const PRIMARY_NAV: NavItem[] = [
