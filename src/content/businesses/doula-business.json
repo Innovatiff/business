@@ -1,0 +1,162 @@
+{
+  "title": "Doula Business",
+  "slug": "doula-business",
+  "category": "health-and-wellness",
+  "metaTitle": "How to Start a Doula Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest guide to starting a doula business: certification, the non-medical scope, realistic package pricing and earnings, the on-call lifestyle, and what most people underestimate.",
+  "startupCostLow": 1200,
+  "startupCostHigh": 5000,
+  "monthlyEarningsLow": 800,
+  "monthlyEarningsHigh": 5000,
+  "timeToFirstIncome": "2 to 6 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Calm, dependable people drawn to supporting families through birth and the postpartum period who can handle an unpredictable, on-call schedule",
+  "biggestRisk": "Building a business around an on-call lifestyle and emotional labor that burns you out before client volume makes it financially worthwhile",
+  "speedToIncome": "months",
+  "minWeeklyHours": 8,
+  "skills": ["health", "people"],
+  "workLocations": ["mobile", "online", "flexible"],
+  "priorities": ["helping", "flexibility", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A doula provides non-medical physical, emotional, and informational support to families before, during, and after childbirth. Birth doulas attend labor and delivery, offering comfort techniques, position guidance, and continuous presence; postpartum doulas support the family in the weeks after birth with newborn care guidance, recovery support, and household help. Crucially, a doula is not a clinician: you do not deliver babies, perform vaginal exams, take blood pressure as a diagnosis, prescribe, or make medical decisions. That clear non-clinical scope is the foundation of the role and the line you must never cross, both legally and for client safety.",
+  "dailyReality": "Birth-doula work is defined by being on call: you carry a phone for weeks around each client's due date, ready to drop everything and attend a labor that may last 4 hours or 30 and may start at 3am. Outside of births you run two prenatal visits and a postpartum visit per client, answer messages, and handle scheduling and contracts. Postpartum doulas work more predictable shifts in clients' homes, often daytime or overnight. Both involve heavy emotional labor, careful boundaries, and a lot of unglamorous logistics around an inherently unpredictable event.",
+  "startupCostsItemized": [
+    { "item": "Doula certification training (e.g., DONA International, CAPPA, ProDoula)", "low": 600, "high": 1500 },
+    { "item": "Certification fees, required reading, and supervised births", "low": 200, "high": 800 },
+    { "item": "Professional liability insurance", "low": 150, "high": 400, "annual": true },
+    { "item": "CPR/infant CPR certification", "low": 50, "high": 150 },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Contracts, intake forms, simple website", "low": 0, "high": 600, "optional": true },
+    { "item": "Comfort tools (birth ball, rebozo, TENS unit, oils)", "low": 100, "high": 400 },
+    { "item": "Background check (often required to attend hospital births)", "low": 30, "high": 100 }
+  ],
+  "realEarnings": {
+    "yearOne": "New doulas typically charge $600 to $1,200 per birth package and take a handful of clients while certifying, earning roughly $800 to $2,500 per month part-time. Many take low-cost or volunteer births first to complete certification requirements and build testimonials.",
+    "experienced": "Established doulas with referrals and reviews commonly charge $1,200 to $2,500 per birth in most U.S. markets (more in high-cost cities) and serve two to four birth clients a month, reaching roughly $3,000 to $5,000 per month. Postpartum doulas bill hourly, often $25 to $50, and can stack predictable shifts.",
+    "topEarners": "Top doulas and agency owners reach $6,000 to $12,000+ per month by charging premium packages in affluent markets, running a small agency that places multiple doulas, offering childbirth education classes, or adding services like placenta encapsulation or lactation support (with appropriate separate credentials). This usually means moving from attending births yourself to managing a team.",
+    "whatAffectsMost": "Your local market's willingness to pay, your referral network with care providers, and how many clients you can serve without burning out. The on-call nature caps how many births one person can realistically take per month.",
+    "perHour": "Birth packages look lucrative until you count on-call weeks, two prenatal visits, a long unpredictable birth, and a postpartum visit — effective rates often work out to $20 to $50 per hour for solo birth doulas. Postpartum hourly work is more transparent at $25 to $50 per hour."
+  },
+  "howToStart": [
+    "Months 1-3: Choose and complete a recognized doula training (DONA International, CAPPA, ProDoula, or similar). Decide whether you want to be a birth doula, postpartum doula, or both, since the training and lifestyle differ.",
+    "During certification: Complete the required supervised births, recommended reading, and a childbirth-education and breastfeeding workshop. Get CPR/infant CPR certified and a background check so hospitals will admit you.",
+    "Before your first paid client: Get professional liability insurance, register your business, and write a clear contract that defines your non-medical scope, fees, backup-doula arrangements, and refund terms.",
+    "First 6 months: Build referral relationships with midwives, OB practices, childbirth educators, and lactation consultants. Take a few introductory-priced clients to earn reviews, and set up a backup doula so you never leave a client uncovered.",
+    "Ongoing: Raise package prices as your reputation grows, track how many on-call weeks you can sustain, and add complementary services or education offerings only once your core practice is steady."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Emotional steadiness and the ability to stay calm and supportive during long, intense, unpredictable events",
+      "Strong boundaries and absolute clarity about staying within a non-medical scope",
+      "Reliability and flexibility to be genuinely on call for weeks at a time"
+    ],
+    "canLearn": [
+      "Comfort and labor-support techniques (positioning, counterpressure, breathing, rebozo) through training",
+      "Postpartum and newborn-care guidance within scope",
+      "Running contracts, scheduling, backup arrangements, and the business side"
+    ],
+    "separators": [
+      "Deep referral relationships with OBs, midwives, and birth centers that feed steady clients",
+      "A reputation for calm professionalism that survives difficult or unexpected births",
+      "Knowing exactly when something is outside your scope and deferring to clinical staff without hesitation"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Drifting outside the non-medical scope — offering clinical advice, doing exams, or contradicting providers — which endangers clients and your insurance and reputation",
+    "Underpricing birth packages without accounting for weeks of on-call time and unpredictable labor length",
+    "Not arranging a reliable backup doula, then facing the impossible choice of two simultaneous births or letting a client down",
+    "Underestimating the emotional toll and burning out within the first year or two",
+    "Expecting steady, predictable income from something tied to unpredictable due dates and a slow-building referral network",
+    "Treating certification as the finish line rather than the start of building trust with providers and families"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Comfort and labor-support tools", "note": "Birth ball, rebozo, TENS unit, massage tools, oils. Modest cost, used at most births.", "low": 100, "high": 400 },
+    { "item": "Reliable phone and transportation", "note": "Being reachable and able to get to a birth fast is the real infrastructure of this job.", "low": 0, "high": 0 },
+    { "item": "Contracts and intake forms", "note": "A clear scope-of-practice and fee contract is your single most important business document.", "low": 0, "high": 300 },
+    { "item": "Professional liability insurance", "note": "Inexpensive but essential; some providers and clients require proof.", "low": 150, "high": 400 },
+    { "item": "Scheduling/booking tool", "note": "Acuity or similar for prenatal/postpartum visits; not needed for the births themselves.", "low": 0, "high": 200 },
+    { "item": "A backup doula relationship", "note": "Not a purchase, but non-negotiable infrastructure so clients are never uncovered.", "low": 0, "high": 0 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Referral relationships with OB-GYNs, midwives, birth centers, and childbirth educators — the strongest source by far",
+      "Listings on doula directories (DoulaMatch, your certifying organization's directory)",
+      "A Google Business Profile and reviews from past families",
+      "Word of mouth from new parents and prenatal/parenting groups (in person and local Facebook groups)",
+      "Partnering with lactation consultants, pediatric offices, and prenatal yoga or childbirth classes"
+    ],
+    "whereCustomersAre": "Expectant families, concentrated through their care providers and prenatal communities. Many find doulas via their midwife or OB, birth-center recommendations, doula directories, and parenting groups, often during the second trimester.",
+    "timeToClientBase": "Because clients book months ahead and referrals build slowly, expect two to six months to land your first paying clients and a year or more to have a steady pipeline. Provider relationships, once earned, are the most durable source.",
+    "wasteOfTime": "Broad paid advertising and generic social posting. This is a deeply trust-based, referral-driven service; one good relationship with a busy midwife outperforms months of ads."
+  },
+  "howItScales": {
+    "toFullTime": "Possible but capped by the on-call lifestyle. One birth doula can realistically attend only a few births a month without burning out, so full-time income often means a high price point in an affluent market or adding postpartum and education work.",
+    "hireAndStepBack": "Yes, by building a doula agency that matches families with a team of contracted doulas, taking a placement cut. This converts you from attending births to recruiting, training, scheduling, and quality control — and changes the job entirely.",
+    "sellable": "A solo practice is essentially your reputation and is hard to sell. An agency with a roster of doulas, provider relationships, contracts, and recurring referral flow has more transferable value, though the market for buying doula businesses is small.",
+    "whatScalingRequires": "A reliable bench of trained, insured doulas, strong provider and community relationships, systems for matching and backup coverage, and additional revenue lines (classes, postpartum, agency placement) to smooth the unpredictable birth schedule."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are calm, dependable, and energized rather than drained by supporting people through intense moments",
+      "You can genuinely be on call for stretches and rearrange life around unpredictable births",
+      "You respect clear boundaries and are comfortable staying strictly within a non-medical role",
+      "You want meaningful, relationship-based work more than fast or passive income"
+    ],
+    "poorFit": [
+      "You need a predictable schedule or cannot drop plans for an overnight birth",
+      "You want quick income or a hands-off business",
+      "You would be tempted to give medical advice or step beyond a support role",
+      "You are easily overwhelmed by emotional intensity or long unpredictable hours"
+    ],
+    "askYourself": [
+      "Can my life and household tolerate being on call and leaving suddenly for long stretches?",
+      "Am I clear on what a doula can and cannot do, and comfortable holding that line under pressure?",
+      "Is there demand and willingness to pay for doulas in my area, and which providers might refer to me?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need to be certified to work as a doula?",
+      "answer": "Doula work is largely unregulated and certification is not legally required in most places, but it is strongly expected. A recognized certification (DONA International, CAPPA, ProDoula, and others) builds client and provider trust, is often needed for insurance and hospital access, and ensures you understand your scope. Most successful doulas certify and keep it current."
+    },
+    {
+      "question": "What can a doula NOT do?",
+      "answer": "A doula provides non-medical support only. You cannot deliver babies, perform vaginal or cervical exams, interpret fetal monitoring, give clinical diagnoses, prescribe or administer medication, or make medical decisions for the client. You also should not contradict the medical team. Comfort, information, advocacy, and continuous presence are your role; anything clinical belongs to nurses, midwives, and doctors."
+    },
+    {
+      "question": "How much do doulas charge?",
+      "answer": "Birth-doula packages commonly run $600 to $1,200 for newer doulas and $1,200 to $2,500 for experienced doulas, with higher fees in expensive cities. Packages usually include prenatal visits, the birth itself, and a postpartum visit. Postpartum doulas typically bill hourly at roughly $25 to $50. Pricing varies widely by region."
+    },
+    {
+      "question": "What is the on-call lifestyle really like?",
+      "answer": "For birth doulas it is the hardest part. Around each client's due date you stay reachable and ready to leave for a birth at any hour, for a labor that could last most of a day. This limits travel, sleep, and other plans, which is why many doulas cap how many clients they take per month and why a reliable backup doula is essential."
+    },
+    {
+      "question": "Birth doula or postpartum doula — what's the difference?",
+      "answer": "A birth doula supports labor and delivery and is on call around the due date; income comes in packages but the schedule is unpredictable. A postpartum doula supports the family in the weeks after birth with newborn-care guidance and recovery help, working more predictable hourly shifts (including overnights). Many doulas train in one or both."
+    },
+    {
+      "question": "Is doula support covered by insurance?",
+      "answer": "Increasingly, but inconsistently. A growing number of states cover doula services through Medicaid, and some private plans or HSAs/FSAs reimburse, but in many areas families still pay out of pocket. Coverage rules change, so check your state and advise clients to verify their own benefits rather than promising reimbursement."
+    },
+    {
+      "question": "How fast can I start earning?",
+      "answer": "Plan on a slow ramp. Certification takes a few months, clients book well in advance, and the referral relationships that drive steady work build over many months. Most doulas take two to six months to land their first paid clients and over a year to reach a reliable pipeline, often keeping other income during year one."
+    }
+  ],
+  "similarBusinesses": [
+    "health-coaching-business",
+    "massage-therapy-business",
+    "personal-training-business",
+    "senior-home-care-business"
+  ],
+  "dataSources": [
+    "DONA International — doula certification standards, scope of practice, and training requirements",
+    "U.S. Bureau of Labor Statistics — Healthcare support occupations and self-employment data",
+    "DoulaMatch and certifying-organization directories for reported package pricing ranges",
+    "State Medicaid doula-coverage policy summaries and doula practitioner communities for real-world rates"
+  ],
+  "lastReviewed": "2026-06"
+}

@@ -1,0 +1,162 @@
+{
+  "title": "Custom Carpentry and Cabinetry Business",
+  "slug": "custom-carpentry-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Custom Carpentry and Cabinetry Business — Costs, Pay",
+  "metaDescription": "Honest guide to a custom carpentry and cabinetry business: real shop and tool costs, realistic earnings, project pricing, lead times, and what woodworkers get wrong.",
+  "startupCostLow": 7000,
+  "startupCostHigh": 60000,
+  "monthlyEarningsLow": 3000,
+  "monthlyEarningsHigh": 18000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Skilled woodworkers with an eye for detail who want to build high-value custom pieces and can manage clients and timelines",
+  "biggestRisk": "Underpricing custom work and mismanaging lead times, so labor-heavy projects run long and quietly lose money",
+  "speedToIncome": "months",
+  "minWeeklyHours": 30,
+  "skills": ["hands", "creative"],
+  "workLocations": ["space", "mobile"],
+  "priorities": ["max-income", "sellable", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A custom carpentry and cabinetry business designs and builds one-off woodwork to order — kitchen and bathroom cabinets, built-in bookcases and entertainment units, closets, trim and millwork, furniture, mantels, and architectural details — usually fabricated in a shop and installed in the customer's home. Unlike production furniture or big-box cabinets, the value is in fit, finish, and design that mass production cannot match, which is why skilled custom work commands premium prices. It is a craft business: your reputation rests on precision joinery, clean finishes, and pieces that fit a specific space exactly.",
+  "dailyReality": "Most of your time is in the shop — milling lumber, cutting joinery, assembling carcasses and face frames, sanding, and finishing — punctuated by client meetings, site measurements, and installation days at customers' homes. A single cabinet or built-in project can span days or weeks of shop work before a one- or two-day install. Around the building, you spend real hours designing, drawing, sourcing materials and hardware, quoting, and managing a queue of projects so the shop stays busy without overpromising delivery dates. Dust, noise, finishing fumes, and careful, repetitive precision define the work; rushing leads to mistakes that are expensive in both material and reputation.",
+  "startupCostsItemized": [
+    { "item": "Shop space (rent deposit or garage/outbuilding setup)", "low": 1000, "high": 12000 },
+    { "item": "Table saw, miter saw, planer, jointer, router", "low": 2000, "high": 12000 },
+    { "item": "Hand tools, clamps, measuring, and layout tools", "low": 800, "high": 3000 },
+    { "item": "Dust collection and shop ventilation", "low": 500, "high": 4000 },
+    { "item": "Finishing equipment (sprayer, booth or curtain, supplies)", "low": 500, "high": 5000 },
+    { "item": "Initial lumber, sheet goods, hardware, and consumables", "low": 1000, "high": 4000 },
+    { "item": "General liability insurance", "low": 700, "high": 2500, "annual": true },
+    { "item": "Business registration / LLC and local registration", "low": 100, "high": 800 },
+    { "item": "CNC router", "low": 0, "high": 30000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "First-year makers typically earn $3,000 to $7,000 per month, and many start part-time while keeping another income because the project pipeline is uneven early. Profit is thin at first while you learn to price for your true shop hours.",
+    "experienced": "Established custom shops with a steady project queue and good design reputation commonly net $7,000 to $15,000 per month for a skilled solo maker or small two-person shop. Kitchens and large built-ins carry the best ticket sizes.",
+    "topEarners": "High-end custom cabinet and millwork shops with employees, designer and builder relationships, and efficient processes gross well into six figures annually and more, but reaching that means hiring skilled labor, investing in machinery like a CNC, and shifting from maker to shop owner. Skilled woodworkers are hard to hire, which caps how fast most shops grow.",
+    "whatAffectsMost": "Pricing for real shop hours and managing lead times matter most. Custom work is labor-intensive, so underbidding or letting projects run long is the fastest way to work hard and earn little. Design reputation and material efficiency separate profitable shops from busy-but-broke ones.",
+    "perHour": "Skilled makers bill an effective $40 to $100 per shop hour, but unpaid design, quoting, sourcing, and finishing time pull realistic blended rates to $30 to $70 per hour, especially in the first year or two."
+  },
+  "howToStart": [
+    "Before anything: Be honestly skilled first. Custom cabinetry demands precise joinery, accurate measuring, and clean finishing; clients pay premium prices because the work is flawless. If your skills are not there yet, build pieces for yourself and friends until your finish quality is sellable.",
+    "Month 1: Set up a functional shop with safe, accurate machinery and dust collection. Register the business and get general liability insurance. Check local rules — carpentry itself is often unlicensed, but a general contractor license may be required for larger installed jobs above a dollar threshold.",
+    "Month 1-2: Build a portfolio of strong photos — built-ins, a cabinet run, a furniture piece — and a simple website and social profiles where the work is the focus. Establish accounts with a lumber and hardware supplier.",
+    "Months 2-3: Get in front of the people who refer custom work: interior designers, remodeling contractors, and home builders. One good designer relationship can keep a small shop busy for months.",
+    "Ongoing: Quote every project from real material and shop-hour estimates, quote honest lead times, and track actual hours per job so your pricing tightens. Decide on machinery upgrades like a CNC only once volume justifies it."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong woodworking and joinery skill with clean, repeatable results",
+      "Accurate measuring, layout, and the ability to build to a tight tolerance for a specific space",
+      "Quality finishing — staining, spraying, and a durable, even final surface",
+      "Design sense to translate a client's idea into a buildable, attractive piece"
+    ],
+    "canLearn": [
+      "Estimating material and shop hours so quotes hold up",
+      "CAD or cabinet design software for drawings and cut lists",
+      "Managing a project queue and realistic lead times"
+    ],
+    "separators": [
+      "Pricing for true shop hours so labor-heavy custom work stays profitable",
+      "Design and detailing that earns premium prices and designer referrals",
+      "Reliable lead-time management so the shop stays busy without overpromising delivery"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underpricing because they forget how many shop hours custom work actually takes, then working hard for poor pay",
+    "Overpromising delivery dates, getting backed up, and losing referrals when projects run weeks late",
+    "Skipping a finishing setup, so otherwise good builds get let down by a poor final finish",
+    "Buying inaccurate or underpowered machinery that produces parts that do not fit cleanly",
+    "Taking on jobs outside their skill (complex kitchens too early) and losing money correcting fit issues",
+    "Marketing to homeowners only and ignoring designers and contractors, who supply steadier higher-value work"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Table saw", "note": "The shop's anchor tool. Accuracy and a good fence matter more than horsepower for clean cabinet parts.", "low": 600, "high": 4000 },
+    { "item": "Planer and jointer", "note": "For milling rough lumber flat and square — essential for furniture and door-grade work.", "low": 700, "high": 5000 },
+    { "item": "Router, miter saw, and track saw", "note": "For joinery, trim, and breaking down sheet goods accurately.", "low": 600, "high": 3000 },
+    { "item": "Dust collection and ventilation", "note": "A health and quality necessity, not a luxury; fine dust ruins finishes and your lungs.", "low": 500, "high": 4000 },
+    { "item": "Finishing equipment", "note": "An HVLP or airless sprayer and a controlled finishing area produce the premium surface clients pay for.", "low": 500, "high": 5000 },
+    { "item": "Clamps, hand tools, and assembly tables", "note": "You can never have too many clamps; assembly accuracy depends on them.", "low": 800, "high": 3000 },
+    { "item": "CNC router", "note": "A scaling investment for repeatable cabinet parts and efficiency. Only worth it at volume.", "low": 0, "high": 40000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Relationships with interior designers, remodelers, and home builders who specify custom millwork repeatedly",
+      "A portfolio-driven website and Instagram where the craftsmanship sells itself",
+      "A Google Business Profile with reviews for local 'custom cabinets' and 'built-ins' searches",
+      "Referrals from happy clients who show off the work in their homes",
+      "Local home shows, kitchen-and-bath showrooms, and design networking events"
+    ],
+    "whereCustomersAre": "Homeowners renovating kitchens, baths, and living spaces; interior designers and remodeling contractors specifying custom cabinetry; and builders needing millwork. Designer and contractor channels supply the steadiest higher-value work.",
+    "timeToClientBase": "Custom work has a slower sales cycle than emergency trades. Expect a few months to land early projects and a year or more to build dependable designer and contractor relationships. A strong portfolio shortens this considerably.",
+    "wasteOfTime": "Competing on price against big-box and online cabinet sellers, and broad advertising before you have a portfolio. Your buyers choose you for craft and design, not for being cheapest — so show the work, not a discount."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but realistically as a full-time craft rather than a casual side hustle, because shop time, machinery, and project complexity demand sustained hours. A skilled maker with a steady designer-fed pipeline reaches full-time income within a year or two.",
+    "hireAndStepBack": "Possible but constrained by talent. Skilled cabinetmakers are hard to find and train, so growth is slower than in trades with simpler labor. Owners who scale add helpers for milling and assembly, invest in machinery, and standardize processes, but many remain hands-on for years.",
+    "sellable": "Established shops with machinery, designer relationships, a brand, and documented processes do sell for a multiple of profit plus equipment value. A solo shop built entirely on the owner's hands and taste is harder to transfer.",
+    "whatScalingRequires": "Skilled labor, efficient machinery (often a CNC), standardized cabinet construction methods, reliable lead-time management, and steady designer and builder relationships that feed the shop without your personal selling."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You already build clean, accurate, well-finished woodwork",
+      "You enjoy detailed, patient shop work and take pride in fit and finish",
+      "You have or can set up a dedicated shop space and tolerate dust and fumes",
+      "You can manage clients, design, and realistic delivery timelines"
+    ],
+    "poorFit": [
+      "You want fast first income or a low-cost, low-skill start",
+      "You dislike detailed, repetitive precision work or get bored sanding and finishing",
+      "You have no shop space and no path to one",
+      "You are unwilling to price for true shop hours and will chase cheap jobs"
+    ],
+    "askYourself": [
+      "Is my finish quality genuinely sellable at premium prices, and if not, how will I get there?",
+      "Can I estimate shop hours accurately enough that custom work actually makes money?",
+      "Do I have a shop space and the patience for long, detailed builds?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to start a custom carpentry business?",
+      "answer": "Shop-based woodworking and cabinetmaking are usually unlicensed, but installing built-ins, kitchens, or millwork in a home can require a general or specialty contractor license once a job exceeds a state dollar threshold. Rules vary by state and city, so check your contractor board and permit office. Carry general liability insurance regardless, since you work in clients' homes."
+    },
+    {
+      "question": "Can I run this from a home garage?",
+      "answer": "Many makers start in a garage or outbuilding, which keeps startup costs low. The limits are space for sheet goods and assembly, dust and noise that may bother neighbors, and finishing in a controlled environment. As projects grow, most successful shops move to dedicated rented space for room and proper ventilation."
+    },
+    {
+      "question": "How do I price custom cabinetry?",
+      "answer": "Price from real material costs plus your true shop hours at a target rate, not by copying a competitor or guessing. Kitchens are often quoted per linear foot of cabinetry as a starting point, then adjusted for materials, finish, and complexity. The most common profit mistake is underestimating shop hours, so track actual time on every job to tighten your estimates."
+    },
+    {
+      "question": "How long do custom projects take?",
+      "answer": "A single built-in or furniture piece might be days to a couple of weeks of shop time; a full kitchen of cabinets can take several weeks plus install. Quoting honest lead times and not overbooking is critical — late delivery is one of the fastest ways to lose the designer and contractor referrals that sustain the business."
+    },
+    {
+      "question": "Do I need a CNC machine to compete?",
+      "answer": "No, not to start. Plenty of profitable custom shops run conventional machinery and compete on craft and design. A CNC pays off for repeatable cabinet parts at volume, but it is a major investment and adds programming time. Buy it only when your work justifies the efficiency, not as a startup purchase."
+    },
+    {
+      "question": "Is custom carpentry profitable, or just a passion?",
+      "answer": "It can be genuinely profitable, but only with disciplined pricing. Custom work is labor-intensive, so makers who price by gut and chase cheap jobs often stay busy and broke. Those who price for real shop hours, target premium clients through designers, and manage lead times build a sustainable income from it."
+    }
+  ],
+  "similarBusinesses": [
+    "handyman-business",
+    "woodworking-products-business",
+    "flooring-installation-business",
+    "deck-building-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Cabinetmakers, Carpenters, and Woodworkers occupational data",
+    "Angi / HomeAdvisor — Custom Cabinet and Built-In Cost Guides (reported pricing ranges)",
+    "Cabinet Makers Association and Fine Woodworking industry resources (techniques and pricing)",
+    "State contractor licensing boards (installation licensing and insurance requirements)",
+    "Operator communities (r/woodworking, custom cabinet shop forums) for real-world pricing and shop economics"
+  ],
+  "lastReviewed": "2026-06"
+}

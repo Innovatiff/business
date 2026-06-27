@@ -1,0 +1,163 @@
+{
+  "title": "Coffee Roasting Business",
+  "slug": "coffee-roasting-business",
+  "category": "food-and-beverage",
+  "metaTitle": "How to Start a Coffee Roasting Business — Real Costs and Earnings",
+  "metaDescription": "Honest breakdown of starting a coffee roasting business: real startup costs, roaster equipment, green bean sourcing, food rules, freshness logistics, and what most people get wrong.",
+  "startupCostLow": 3000,
+  "startupCostHigh": 50000,
+  "monthlyEarningsLow": 200,
+  "monthlyEarningsHigh": 8000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Coffee-obsessed makers who enjoy a craft, like direct customer contact, and accept thin per-bag margins and freshness pressure",
+  "biggestRisk": "Slow sell-through against a freshness deadline, leaving roasted coffee that goes stale and unsold before you recover your costs",
+  "speedToIncome": "months",
+  "minWeeklyHours": 12,
+  "skills": ["food"],
+  "workLocations": ["home", "space"],
+  "priorities": ["flexibility", "helping", "alongside-job"],
+  "noExperienceRequired": true,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A coffee roasting business buys green (unroasted) coffee, roasts it in small batches, and sells roasted beans — online, through wholesale to cafes and offices, at farmers markets, and sometimes via subscription. You are turning a raw commodity into a fresh, branded product where the value is your sourcing, roast quality, freshness, and story. It is a beloved craft business with a passionate customer base, but per-bag margins are thinner than people expect, roasted coffee has a short freshness window, and you compete against both grocery brands and many other small roasters.",
+  "dailyReality": "Roast days mean preheating the roaster, running batches (small roasters do a few pounds at a time, so volume builds slowly), logging roast profiles, cooling, resting, and weighing, bagging, labeling, and sealing the coffee — ideally with a one-way valve. Around roasting, you source and order green beans, cup and dial in roasts, manage freshness-dated inventory, fulfill online orders, restock wholesale accounts, and handle markets on weekends. Marketing and customer education are constant: telling your sourcing and roast story is much of how small roasters stand out. Cleaning, chaff removal, and equipment maintenance are a regular tax on your time.",
+  "startupCostsItemized": [
+    { "item": "Roaster (small-batch, 1–5 lb capacity to start)", "low": 1500, "high": 20000 },
+    { "item": "Initial green coffee inventory", "low": 300, "high": 3000 },
+    { "item": "Bags, valves, labels, scale, sealer", "low": 200, "high": 1500 },
+    { "item": "Cupping and dial-in supplies (grinder, kettle, refractometer)", "low": 200, "high": 2000, "optional": true },
+    { "item": "Commercial/commissary space or kitchen rental (if required)", "low": 0, "high": 12000, "annual": true, "optional": true },
+    { "item": "Permits, food handler/cottage license, kitchen inspection", "low": 50, "high": 1000 },
+    { "item": "Website / Shopify and product photography", "low": 50, "high": 1500, "annual": true },
+    { "item": "Market booth fees, display, and branding", "low": 0, "high": 1500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most roasters earn modestly in year one — often $200 to $2,000 per month — while building a brand, dialing in roasts, and acquiring customers and wholesale accounts. Many start as a paid hobby, and thin per-bag margins plus the cost of stale unsold coffee can make early profit small. Sell-through speed, not roasting skill, usually limits year-one income.",
+    "experienced": "Roasters with steady online sales, a few wholesale accounts, and regular markets after a year or two commonly net $2,000 to $6,000 per month working solo or with light help, sometimes reaching $8,000 in strong months. Wholesale and subscriptions add the volume and predictability that make this work.",
+    "topEarners": "Top small roasters running a roastery, multiple wholesale accounts, subscriptions, and sometimes a cafe can do well into five or six figures of annual profit, but it requires larger roasters, real volume, staff, and a recognized brand — a shift from craft roasting to running a production and sales operation. Most stay small, and many treat it as a lifestyle business rather than a high-income one.",
+    "whatAffectsMost": "Sell-through speed and channel mix matter most. Wholesale and subscriptions move volume against the freshness clock far better than occasional online orders, and selling direct (markets, your own site) protects margin versus selling cheap to retailers. Green bean cost and roast loss also quietly shape per-bag profit.",
+    "perHour": "Counting roasting, bagging, sourcing, fulfillment, and markets, effective rates often start near $10 to $20 per hour for beginners. Efficient roasters with wholesale and subscription volume can reach $25 to $45 per hour; small batch sizes cap how fast you can earn early on."
+  },
+  "howToStart": [
+    "Month 1: Learn to roast consistently on a small roaster, cup your results, and develop a few signature profiles. Sample green beans from importers and decide on a focus (single origins, blends, light vs. dark) and a target customer.",
+    "Sort out the rules: Check your state's cottage food and food-business laws — some allow home roasting and sales, others require a commercial or commissary kitchen, a food handler permit, and proper labeling. Confirm what your channels (markets, wholesale, online, across state lines) require before selling.",
+    "Month 2: Set up branded, freshness-dated packaging with one-way valves, build a simple Shopify or website, shoot clean photos, and tell your sourcing and roast story. Roast small batches to order where possible to keep coffee fresh.",
+    "Get into channels: Apply to a local farmers market, approach a few cafes and offices about wholesale, and offer a subscription option to build repeat volume against the freshness window.",
+    "Months 2–4: Track sell-through speed and which beans and channels actually move volume, tighten roast scheduling to demand, and reinvest in capacity only once consistent orders justify a bigger roaster."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "A genuine palate and willingness to learn to roast and cup consistently",
+      "Care with food handling, packaging, labeling, and freshness dating",
+      "Comfort selling and telling your story directly to customers and wholesale buyers"
+    ],
+    "canLearn": [
+      "Roast profiling, dialing in beans, and reading roast logs",
+      "Sourcing green coffee from importers and understanding origins and pricing",
+      "Setting up Shopify, subscriptions, and fulfillment, plus market booth operations"
+    ],
+    "separators": [
+      "Roast consistency and quality that gives customers a reason to come back",
+      "Building wholesale and subscription volume that moves coffee fast against the freshness clock",
+      "Sourcing and storytelling that differentiate you from grocery brands and other small roasters"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Roasting more than they can sell fresh, then losing money on stale, unsold coffee",
+    "Underestimating how thin per-bag margins are after green cost, roast loss, packaging, and fees",
+    "Skipping the food-business rules — assuming home roasting is legal everywhere when many states require a commercial kitchen",
+    "Buying a too-small roaster, then capping their volume, or a too-big one before demand exists",
+    "Competing on price against grocery and other roasters instead of on freshness, quality, and story",
+    "Neglecting wholesale and subscriptions, which are what actually move volume reliably"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Small-batch roaster", "note": "1–5 lb to start. Sample/drum roasters vary widely; bigger capacity means faster volume but more cost.", "low": 1500, "high": 20000 },
+    { "item": "Green coffee from importers", "note": "Your raw material. Sample widely; quality and price swing with origin and harvest.", "low": 300, "high": 3000 },
+    { "item": "Bags with one-way valves + sealer", "note": "Valves let CO2 escape without letting oxygen in, protecting freshness. Essential for selling beans.", "low": 100, "high": 800 },
+    { "item": "Scale and labels", "note": "Accurate weights and compliant, freshness-dated labels. Cheap but required.", "low": 50, "high": 400 },
+    { "item": "Grinder, kettle, refractometer (for cupping/dialing)", "note": "To evaluate and refine roasts. Quality control that customers can taste.", "low": 200, "high": 2000 },
+    { "item": "Commercial / commissary kitchen", "note": "Required in many states for selling roasted coffee. Rent before building your own roastery.", "low": 0, "high": 12000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Farmers markets and local events where coffee lovers buy fresh and you can sample and tell your story",
+      "Wholesale to cafes, restaurants, offices, and local grocers for steady volume",
+      "Your own Shopify site with a subscription option to drive repeat orders",
+      "Instagram and content showing roasting, sourcing, and origin stories to build a following",
+      "Local stockists and consignment in shops, gyms, and co-working spaces",
+      "Word of mouth and referrals from customers who love a specific roast"
+    ],
+    "whereCustomersAre": "Local coffee enthusiasts at markets and online, plus wholesale buyers (cafes, offices, grocers) who need a reliable fresh supply. The most reachable early customers are your local community and people who value freshness and provenance over grocery prices.",
+    "timeToClientBase": "First sales usually come within one to three months via markets and a site, but a steady income built on wholesale, subscriptions, and repeat buyers typically takes 6 to 12 months. Volume channels are what turn a hobby into a livable income.",
+    "wasteOfTime": "Broad paid ads early, over-investing in branding before roast quality is dialed in, and trying to undercut grocery prices. Freshness, samples, and story convert far better than competing on price."
+  },
+  "howItScales": {
+    "toFullTime": "Possible but volume-limited early. Small batch sizes cap output, so reaching full-time income usually requires wholesale, subscriptions, and eventually a larger roaster. Many roasters stay part-time or run it as a lifestyle business.",
+    "hireAndStepBack": "Partially. Roasting, bagging, fulfillment, and markets can be staffed once volume justifies it, but sourcing decisions, roast profiles, and brand voice tend to stay with the owner. Stepping back fully requires documented profiles and reliable staff.",
+    "sellable": "A roastery with wholesale accounts, subscriptions, a brand, equipment, and documented roast profiles can sell, though much of the value is the brand and relationships. A pure solo home roaster has limited resale value beyond equipment and inventory.",
+    "whatScalingRequires": "Larger roasting capacity, more green inventory and storage, wholesale and subscription growth to move volume, possibly a commercial roastery and staff, and tight scheduling to keep coffee fresh. The jump from small batches to real production is where most roasters either commit or stay a side business."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You love coffee and enjoy the craft of roasting and refining profiles",
+      "You like direct customer contact — markets, wholesale relationships, storytelling",
+      "You can manage freshness-dated inventory and accept thin per-bag margins",
+      "You will pursue wholesale and subscriptions to move volume, not just occasional online orders"
+    ],
+    "poorFit": [
+      "You want passive income or to avoid the hands-on, time-bound nature of roasting",
+      "You expect fat margins or fast riches from selling bags of beans",
+      "You are unwilling to deal with food rules, kitchen requirements, and labeling",
+      "You have no interest in selling and building wholesale or repeat customers"
+    ],
+    "askYourself": [
+      "Do my state's rules let me roast and sell from home, or do I need a commercial kitchen?",
+      "Can I realistically sell my coffee fast enough to keep it fresh and avoid stale stock?",
+      "Am I willing to build wholesale and subscriptions, not just rely on occasional online sales?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can I roast and sell coffee from home?",
+      "answer": "It depends on your state and local rules. Some states allow roasted coffee under cottage food laws with proper labeling, while others require a commercial or commissary kitchen, a food handler permit, and inspection. Selling at markets, to wholesale accounts, or across state lines can add requirements. Check your state's cottage food and food-business laws before you sell anything."
+    },
+    {
+      "question": "How thin are the margins really?",
+      "answer": "Thinner than most people expect. After green coffee cost, roast weight loss (beans lose roughly 12 to 20 percent of their weight when roasted), packaging, labels, and platform or market fees, per-bag profit is modest. Direct sales (your site, markets) protect margin, while wholesale moves volume at a lower margin. Volume and sell-through speed are what make it work, not high markup per bag."
+    },
+    {
+      "question": "What roaster should I start with?",
+      "answer": "Most people start with a small-batch roaster of roughly 1 to 5 pounds, which keeps costs down and lets you dial in quality, but it limits how much you can produce. Buying too small caps your volume once demand grows; buying too big wastes cash before you have orders. Start sized to realistic early demand and upgrade only when consistent sales justify it."
+    },
+    {
+      "question": "How do I keep coffee fresh, and how long does it last?",
+      "answer": "Roasted coffee is best within a few weeks and is typically sold with a roast date and a one-way valve bag that lets CO2 escape without letting oxygen in. Whole beans last longer than ground. Because freshness is part of the value, roasting close to demand and moving inventory quickly through wholesale and subscriptions matters more than long shelf life."
+    },
+    {
+      "question": "Where do I buy green coffee?",
+      "answer": "From green coffee importers and brokers who sell by the bag or in smaller sample quantities, often with origin, process, and pricing details. Many roasters start by sampling widely to find beans they can roast consistently and afford. Prices fluctuate with origin, quality, and global market conditions, which affects your per-bag cost."
+    },
+    {
+      "question": "How long until I make real money?",
+      "answer": "Realistically, first sales come within one to three months through markets and a website, but a steady income usually takes 6 to 12 months as you add wholesale, subscriptions, and repeat customers. The businesses that reach livable income are the ones that build volume channels rather than relying on occasional online orders."
+    },
+    {
+      "question": "Can I run this part-time?",
+      "answer": "Yes, it is part-time friendly because you can roast and bag on your own schedule, and many roasters start in evenings and weekends. Plan for at least 12 hours a week, with spikes around markets and wholesale restocks, plus the freshness pressure that means you should roast close to when you can sell."
+    }
+  ],
+  "similarBusinesses": [
+    "home-bakery-business",
+    "coffee-cart-business",
+    "packaged-food-brand-business",
+    "ecommerce-store-business"
+  ],
+  "dataSources": [
+    "U.S. Food and Drug Administration and state cottage food / food-business regulations",
+    "Specialty Coffee Association — industry and small-roaster reports",
+    "Green coffee importer pricing and roast-loss references",
+    "Small roaster communities and interviews (Sweet Maria's, r/roasting, roaster forums) for real-world margins and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

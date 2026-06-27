@@ -1,0 +1,158 @@
+{
+  "title": "Niche Job Board Business",
+  "slug": "niche-job-board-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start a Niche Job Board — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of running a niche job board: real costs, the chicken-and-egg problem, how listings make money, and what most people get wrong. It is a long build.",
+  "startupCostLow": 300,
+  "startupCostHigh": 5000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 7000,
+  "timeToFirstIncome": "4 to 9 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Patient builders with a real connection to a specific industry who can grind through a slow start",
+  "biggestRisk": "The chicken-and-egg problem — you need employers posting jobs and job seekers visiting, and neither shows up without the other",
+  "speedToIncome": "long",
+  "minWeeklyHours": 10,
+  "skills": ["tech", "sales", "writing"],
+  "workLocations": ["home", "online"],
+  "priorities": ["sellable", "max-income", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A niche job board is a website that lists job openings for one specific industry, role type, or community — for example remote design jobs, nursing positions, marine engineering, or roles at climate-tech startups. Employers pay to post openings, and job seekers come to browse them. Unlike giant general boards like Indeed, a niche board wins by being the focused, trusted place a particular audience checks, which is why employers will pay to reach exactly the candidates they want.\n\nRevenue usually comes from per-listing fees (a flat price per job posted, commonly $50 to $400), subscriptions for employers who post often, featured/highlighted upgrades, and sometimes newsletter sponsorships or a small recruiting fee. It can become a high-margin, semi-passive asset once it has traffic and a posting habit among employers — but getting to that point is a long, unglamorous build, not a quick win.",
+  "dailyReality": "In the early months, the daily work is mostly hustle, not coding. You manually source and post relevant jobs (often for free) so the board does not look empty, you do outreach to employers asking them to post, and you build an audience of job seekers through SEO content, a newsletter, and communities. You moderate listings, answer employer questions, and tweak the site. Once it gains traction, the rhythm shifts to selling listings and subscriptions, growing the audience, and keeping the job feed fresh. Expect months of effort before meaningful revenue, and a lot of cold outreach in the meantime.",
+  "startupCostsItemized": [
+    { "item": "Domain name", "low": 10, "high": 40, "annual": true },
+    { "item": "Job board software / theme (Niceboard, JobBoardly, WP plugin)", "low": 0, "high": 600, "annual": true },
+    { "item": "Web hosting", "low": 60, "high": 300, "annual": true },
+    { "item": "Email / newsletter platform (audience building)", "low": 0, "high": 240, "annual": true },
+    { "item": "Logo and basic branding", "low": 0, "high": 300, "optional": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Custom development (if not using off-the-shelf software)", "low": 0, "high": 4000, "optional": true },
+    { "item": "Initial content / SEO writing", "low": 0, "high": 500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most niche boards earn $0 for the first several months and very little in year one — often $0 to $1,000 per month — because there is no audience and no posting habit yet. Many founders pay employers' first listings forward (post jobs for free) just to look active. A board that finds real traction can reach $500 to $2,000 per month by the end of a strong first year.",
+    "experienced": "An established board with steady traffic, returning employers, and a few subscription clients commonly earns $2,000 to $7,000 per month. At this stage featured upgrades, an email list employers want to reach, and recurring posting accounts drive most revenue.",
+    "topEarners": "The best niche boards in valuable industries earn $15,000 to $60,000+ per month and run with very high margins and little ongoing labor, sometimes selling for six or seven figures. Reaching that level took years of audience building, a dominant SEO position, and a niche where employers have real hiring budget. These are the rare exceptions, not the norm.",
+    "whatAffectsMost": "Earnings depend overwhelmingly on audience and niche economics — how many qualified job seekers you attract and how much employers in that field will pay to reach them. A board in a high-salary, hard-to-hire niche beats a larger board in a low-budget niche.",
+    "perHour": "Early on the effective rate is poor — often near $0 to $15 per hour given how much unpaid building it takes. A mature board can produce an excellent effective rate ($75 to $200+ per hour of light upkeep) because the revenue becomes largely recurring and low-effort."
+  },
+  "howToStart": [
+    "Month 1: Choose a niche you understand and where employers clearly pay to hire — specific role, industry, or community. Validate that companies in it struggle to find candidates. Reserve a domain and pick job board software (Niceboard, JobBoardly, or a WordPress plugin) rather than building custom at first.",
+    "Months 1-2: Solve the empty-board problem by manually aggregating and posting real, relevant jobs for free so the site looks active and useful from day one. Start a niche newsletter and basic SEO content to begin pulling in job seekers.",
+    "Months 2-4: Grow the job-seeker audience relentlessly through SEO, the newsletter, and the communities where your niche gathers. Audience is the asset — without it, employers have no reason to pay.",
+    "Months 4-6: Begin charging employers. Reach out directly to companies already hiring in your niche and offer a paid (or discounted-launch) listing. Add featured upgrades and a simple subscription for frequent posters.",
+    "Months 6+: Double down on whatever channel brings job seekers, convert one-off employers into recurring accounts, and add monetization like newsletter sponsorships once the audience is real."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Genuine knowledge of and access to a specific industry or community",
+      "Persistence to build for months with little or no revenue",
+      "Comfort with sales and cold outreach to employers"
+    ],
+    "canLearn": [
+      "Setting up and managing job board software (off-the-shelf tools require little coding)",
+      "SEO and content marketing to attract job seekers",
+      "Running a newsletter and basic community building"
+    ],
+    "separators": [
+      "Building a job-seeker audience large and qualified enough that employers cannot ignore it",
+      "Owning the SEO and brand position so your board becomes the default place to check in the niche",
+      "Turning one-off listings into recurring subscriptions and sponsorships for stable revenue"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Building the site first and assuming employers and job seekers will just show up — they will not",
+    "Ignoring the chicken-and-egg problem instead of seeding the board with free, manually posted jobs",
+    "Choosing a niche with no hiring budget, where employers will never pay to post",
+    "Over-investing in custom development before proving anyone wants the board",
+    "Trying to charge employers before there is any audience to justify the fee",
+    "Underestimating how long (often a year or more) it takes to reach meaningful revenue and quitting too early"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Job board platform (Niceboard, JobBoardly, WP Job Manager)", "note": "Off-the-shelf tools let you launch in days without custom code. Start here.", "low": 0, "high": 600 },
+    { "item": "Domain and hosting", "note": "A credible, niche-specific domain matters for trust and SEO.", "low": 70, "high": 340 },
+    { "item": "Newsletter / email platform", "note": "Your audience and a key monetization channel. Beehiiv, ConvertKit, or similar.", "low": 0, "high": 240 },
+    { "item": "Job-scraping or aggregation tool", "note": "To seed the board with relevant openings early. Use carefully and respect site terms.", "low": 0, "high": 100, "optional": true },
+    { "item": "SEO tooling (Ahrefs, Ubersuggest, Search Console)", "note": "SEO is the main long-term traffic source for most boards.", "low": 0, "high": 120 },
+    { "item": "Payment processor (Stripe)", "note": "For listing fees and subscriptions. Standard transaction fees apply." }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to companies already posting jobs in your niche on bigger boards",
+      "Free seeded listings that make the board useful, which attracts job seekers and then employers",
+      "SEO content targeting '<niche> jobs' and related searches to pull in candidates",
+      "A niche newsletter and presence in the communities where your audience gathers",
+      "Featured-listing and subscription offers to employers who post repeatedly"
+    ],
+    "whereCustomersAre": "Two audiences: job seekers found through SEO, newsletters, and niche communities; and employers (your paying customers) found by approaching companies already hiring in the niche. You typically must build the seeker side before the employer side will pay.",
+    "timeToClientBase": "Expect four to nine months before steady paid listings, and often a year or more to reach reliable monthly revenue. The slow part is building the job-seeker audience that gives employers a reason to pay.",
+    "wasteOfTime": "Paid ads to drive employers before you have an audience, and expensive custom development before validation. Early effort is better spent seeding jobs and building the job-seeker side."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but slowly. Once a board has audience and recurring employer revenue, it can replace a full-time income with relatively light ongoing work — but reaching that point typically takes a year or more of building.",
+    "hireAndStepBack": "Well-suited to it. A mature board needs only light moderation, audience upkeep, and sales, which can be delegated. Many become near-passive assets run a few hours a week.",
+    "sellable": "Among the more sellable online businesses. Profitable niche boards sell on marketplaces like Flippa or to industry players, often for a multiple of annual profit, because the SEO position, audience, and recurring revenue transfer to a buyer.",
+    "whatScalingRequires": "Dominant SEO and brand position in the niche, a growing qualified audience, recurring employer revenue, and added monetization (subscriptions, sponsorships). Expanding to adjacent niches or launching a network of boards is the common growth path."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You know a specific industry or community and how it hires",
+      "You are patient and can build for months before meaningful revenue",
+      "You enjoy SEO, content, and audience building, and are willing to do employer outreach",
+      "You want an asset that can become low-effort and sellable over time"
+    ],
+    "poorFit": [
+      "You need income within weeks or a couple of months",
+      "You will not do the unglamorous work of seeding jobs and cold-emailing employers",
+      "You picked a niche with no real hiring budget",
+      "You want to build the software and have it run itself with no marketing"
+    ],
+    "askYourself": [
+      "Do employers in my niche have budget and a real, ongoing struggle to hire?",
+      "Am I willing to build the job-seeker audience first, for months, before anyone pays me?",
+      "Can I keep going through a long, low-revenue start that defeats most people who try this?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is the chicken-and-egg problem with job boards?",
+      "answer": "Employers will not pay to post where no job seekers visit, and job seekers will not visit a board with no jobs. You break the cycle by seeding the board with real jobs you aggregate manually and building a job-seeker audience first, so that when you ask employers to pay, there is an audience to justify it."
+    },
+    {
+      "question": "How do niche job boards make money?",
+      "answer": "Mainly per-listing fees (often $50 to $400 per job), employer subscriptions for frequent posting, featured/highlighted listing upgrades, and newsletter sponsorships. Some add a small recruiting or success fee. Recurring subscriptions and sponsorships are what make a mature board stable and high-margin."
+    },
+    {
+      "question": "Do I need to know how to code?",
+      "answer": "No. Tools like Niceboard, JobBoardly, and WordPress job plugins let you launch a professional board without custom development. Custom code is only worth it later, if at all. The hard part is marketing and audience building, not the software."
+    },
+    {
+      "question": "How long until it makes money?",
+      "answer": "Realistically four to nine months before steady paid listings, and often a year or more before reliable monthly income. This is a long-build business. Anyone promising fast revenue from a job board is not describing how these actually grow."
+    },
+    {
+      "question": "How do I pick a profitable niche?",
+      "answer": "Choose a niche where employers genuinely struggle to hire and have budget — specialized, higher-salary, or hard-to-fill roles. Boards in high-paying or in-demand fields can charge far more per listing than broad, low-budget niches. Your own connection to the niche helps you build trust and an audience faster."
+    },
+    {
+      "question": "Can I really sell a job board later?",
+      "answer": "Yes — profitable niche boards regularly sell on marketplaces like Flippa or to industry buyers for a multiple of annual profit, because the SEO ranking, audience, and recurring revenue transfer to a new owner. This sellability is one of the model's biggest long-term advantages."
+    }
+  ],
+  "similarBusinesses": [
+    "niche-website-blog-business",
+    "lead-generation-business",
+    "email-newsletter-business",
+    "micro-saas-business"
+  ],
+  "dataSources": [
+    "Job board software providers' published pricing and case studies (Niceboard, JobBoardly)",
+    "Niche job board operator interviews and write-ups (Indie Hackers, Starter Story)",
+    "Flippa and Empire Flippers marketplace listings for job board sale multiples",
+    "BLS and industry hiring-demand data for assessing niche hiring budgets"
+  ],
+  "lastReviewed": "2026-06"
+}

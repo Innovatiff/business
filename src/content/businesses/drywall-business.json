@@ -1,0 +1,162 @@
+{
+  "title": "Drywall Business",
+  "slug": "drywall-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Drywall Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a drywall business: real startup costs, realistic earnings, hanging and finishing skills, subcontracting, and what most operators get wrong.",
+  "startupCostLow": 1500,
+  "startupCostHigh": 20000,
+  "monthlyEarningsLow": 3000,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "2 to 8 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Skilled hangers and finishers who want to subcontract to builders and remodelers and don't mind hard physical work",
+  "biggestRisk": "Misbidding per-square-foot work or producing finish quality that fails inspection or callbacks, erasing the margin",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 30,
+  "skills": ["hands"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "low-risk", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A drywall business hangs and finishes the gypsum board that forms the interior walls and ceilings of homes and buildings. The trade splits into two related skills: hanging (cutting and fastening sheets to framing) and finishing (taping the seams, applying multiple coats of joint compound or 'mud,' and sanding to a smooth, paint-ready surface). Finishing is the harder, higher-value skill — clean, flat, blemish-free walls are what separate a professional from an amateur, and bad finishing shows the moment paint and light hit the wall.\n\nMost work comes from builders, general contractors, and remodelers rather than directly from homeowners, so a large share of drywall businesses operate as subcontractors. New construction, additions, basement finishes, remodels, and repair work (water damage, settling cracks, patches) all generate demand. Pricing is usually per square foot of board hung and finished, sometimes by the job for repairs. Startup costs are moderate — far below roofing — but the work is physically punishing, the finishing skill takes real time to master, and accurate bidding is what determines whether per-square-foot work is profitable.",
+  "dailyReality": "Days are physical and dusty. Hanging means lifting and positioning heavy 4x8 or larger sheets — often overhead for ceilings — measuring, cutting, and fastening, frequently on stilts or scaffolding. Finishing days mean taping seams, troweling on coats of mud, and waiting for each coat to dry before the next, then sanding, which fills the air with fine dust. You move between job sites that builders schedule, often working solo or with a helper, and the pace is set by the contractor's timeline and the other trades around you. As the owner you also bid jobs (measuring board footage), order materials, coordinate with the general contractor, and chase payment — which, as a subcontractor, can lag behind your work by weeks.",
+  "startupCostsItemized": [
+    { "item": "Hand tools — taping knives, trowels, mud pans, utility knives, T-square", "low": 150, "high": 600 },
+    { "item": "Drill/screw gun, drywall router, rasp", "low": 100, "high": 500 },
+    { "item": "Stilts, scaffolding, or work platforms", "low": 100, "high": 1500 },
+    { "item": "Drywall lift (for ceilings)", "low": 0, "high": 800, "optional": true },
+    { "item": "Automatic taping tools (bazooka, boxes)", "low": 0, "high": 5000, "optional": true },
+    { "item": "Sanders, dust control / vacuum, respirators and PPE", "low": 150, "high": 1200 },
+    { "item": "General liability insurance", "low": 600, "high": 2500, "annual": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Work van or truck", "low": 0, "high": 12000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "A skilled solo operator subcontracting to builders typically earns $3,000 to $7,000 per month in year one, depending on how steady the work is. Drywall is commonly bid per square foot (often roughly $1.50 to $3+ per square foot hung and finished, varying by region and job), so income tracks closely with volume and bidding accuracy.",
+    "experienced": "Established operators with reliable builder relationships and a helper or small crew commonly report $8,000 to $15,000 per month in busy periods. Faster, higher-quality finishing and steady contracts with general contractors raise both rate and volume.",
+    "topEarners": "Drywall companies running multiple crews on new-construction and large remodel contracts gross $40,000 to $150,000+ per month in peak periods, but reaching that requires crews, automatic taping tools, project management, and the cash to float labor and materials. Most operators stay solo or run one to two crews.",
+    "whatAffectsMost": "Bidding accuracy, finishing speed and quality, and steady builder relationships matter most. Per-square-foot work rewards efficient, high-quality crews and punishes misbids; callbacks for poor finishing destroy margin and reputation faster than almost anything else.",
+    "perHour": "Effective rates run $30 to $60+ per hour of actual work for skilled solo operators, higher with automatic tools and crews. Counting bidding, travel, drying time, and cleanup, realistic blended rates are often $25 to $50 per hour early on."
+  },
+  "howToStart": [
+    "Weeks 1-2: Be honest about your skill level. If you can already hang and finish to a paint-ready standard, you are ready; if not, work under an experienced finisher first, because finishing quality is the whole business. Buy core hand tools and get general liability insurance before paid work.",
+    "Weeks 2-4: Learn to bid per square foot accurately — measure board footage, factor in ceilings, repairs, and finish level, and include materials and your time. Build a small portfolio of clean finished work and set up a simple Google Business Profile.",
+    "Month 1-2: Approach local builders, general contractors, and remodeling companies offering subcontract hanging and finishing. Take on a manageable first job, hit the schedule, and deliver flawless finishing to earn the repeat work that keeps this business fed.",
+    "Months 2-4: Turn satisfied contractors into steady repeat clients, add residential repair and patch work to fill gaps, and decide whether to add a helper or automatic taping tools to increase speed and volume."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid drywall hanging skill and, above all, finishing ability to a smooth, paint-ready standard",
+      "Physical stamina for heavy lifting, overhead work, and working on stilts or scaffolding",
+      "Reliability to hit the contractor's schedule on busy multi-trade job sites"
+    ],
+    "canLearn": [
+      "Accurate per-square-foot bidding and material estimating",
+      "Working efficiently alongside other trades and coordinating with general contractors",
+      "Dust control, repair and patch techniques, and texture matching"
+    ],
+    "separators": [
+      "Finishing quality and speed that earns repeat builder work and avoids callbacks",
+      "Building steady relationships with builders and GCs so the schedule stays full",
+      "Adding automatic taping tools and a reliable crew to multiply output per day"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underestimating how hard finishing is — poor seams and sanding show under paint and trigger callbacks that erase profit",
+    "Misbidding per-square-foot jobs by forgetting ceilings, high finish levels, repairs, or material cost, then losing money on volume",
+    "Taking on more than they can deliver on a builder's schedule and damaging the relationships that feed the business",
+    "Ignoring dust control and respirators, risking long-term lung health from silica and joint-compound dust",
+    "Failing to manage cash flow as a subcontractor, when payment from GCs can lag the work by weeks",
+    "Competing only on lowest price instead of speed and quality, which is what builders actually pay repeat rates for"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Taping knives, trowels, and mud pans", "note": "Core finishing tools in multiple widths. Quality knives give cleaner coats and less sanding.", "low": 100, "high": 500 },
+    { "item": "Screw gun / drywall drill", "note": "A dedicated drywall screw gun with depth control speeds hanging and prevents over-driving screws.", "low": 80, "high": 300 },
+    { "item": "Stilts and scaffolding", "note": "For ceilings and high walls. Stilts speed finishing once you're comfortable; scaffolding is safer for some work.", "low": 100, "high": 1500 },
+    { "item": "Drywall lift", "note": "Lets one person hang ceiling board safely. A major back-saver for solo operators.", "low": 0, "high": 800 },
+    { "item": "Automatic taping tools (bazooka, flat boxes)", "note": "Big speed gains for high-volume work. Expensive and skill-dependent — add once volume justifies it.", "low": 0, "high": 5000 },
+    { "item": "Sander with dust control and respirators", "note": "Vacuum-assisted sanders and proper respirators protect your lungs and keep job sites cleaner.", "low": 150, "high": 1200 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to home builders, general contractors, and remodeling companies for subcontract work",
+      "Referrals from contractors, framers, and painters who work the same job sites",
+      "A Google Business Profile and photos of clean finished work for residential repair and patch leads",
+      "Relationships with suppliers and lumberyards who know which builders need subs",
+      "Local trade networks and contractor groups where subcontractors are sourced"
+    ],
+    "whereCustomersAre": "Mostly builders, general contractors, and remodelers running new construction, additions, basement finishes, and renovations. Homeowners are a smaller, mostly repair-and-patch market. The steadiest income comes from a few reliable contractor relationships rather than one-off residential jobs.",
+    "timeToClientBase": "Skilled operators can land first subcontract jobs within a few weeks of reaching out to builders, since demand for reliable drywall subs is strong. A steady, repeat builder base usually takes a few months of proving you hit schedules and finish clean.",
+    "wasteOfTime": "Consumer-style advertising and competing purely on price. Builders care about quality, speed, and reliability; chasing the cheapest residential jobs through broad ads rarely builds the repeat contractor relationships that sustain the business."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A skilled solo operator with steady builder relationships can reach strong full-time income, capped mainly by how much board one person can hang and finish per day. Adding a helper and automatic tools raises that ceiling significantly.",
+    "hireAndStepBack": "Possible. Drywall scales well by adding crews, since the work is teachable and demand from builders is steady. Stepping back requires trained finishers who maintain quality, because callbacks and poor finishing damage the contractor relationships the business depends on.",
+    "sellable": "A drywall company with crews, recurring builder contracts, equipment, and systems can be sold for a reasonable multiple, often to another contractor. A solo operation tied to the owner's hands is harder to sell because the skill walks out the door.",
+    "whatScalingRequires": "Reliable, skilled crews; automatic taping tools for volume; accurate, repeatable bidding; supplier relationships; and the cash to float labor and materials while waiting on GC payments. Steady contracts with active builders are the foundation that makes adding crews worthwhile."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You can hang and, especially, finish drywall to a smooth, paint-ready standard",
+      "You don't mind hard, dusty, physical work including overhead and elevated tasks",
+      "You are comfortable subcontracting to builders and hitting their schedules",
+      "You can bid per-square-foot work accurately and manage subcontractor cash flow"
+    ],
+    "poorFit": [
+      "You have no real hanging or finishing experience and expect to learn it on paid jobs",
+      "You want light, clean, or low-physical-strain work",
+      "You dislike working under a general contractor's timeline and coordination",
+      "You can't wait weeks for payment that often lags the work as a subcontractor"
+    ],
+    "askYourself": [
+      "Is my finishing genuinely good enough to avoid callbacks and earn repeat builder work?",
+      "Can I bid per-square-foot jobs accurately enough to stay profitable on volume?",
+      "Do I have, or can I build, relationships with the builders and GCs who supply steady work?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to start a drywall business?",
+      "answer": "It varies by state and locality. Some states require a contractor's or specialty license for drywall work above a certain job value, while others let you operate with just a business registration and insurance. Many drywall operators work as subcontractors under a general contractor's permit. Check your state contractor board and local rules, and carry liability insurance regardless."
+    },
+    {
+      "question": "How is drywall work priced?",
+      "answer": "Most new-construction and remodel drywall is bid per square foot of board hung and finished, with rates that vary widely by region, finish level, and ceiling height. Repairs and patches are often priced by the job. Accurate measuring and accounting for finish level, ceilings, and materials is essential, because per-square-foot work punishes misbids."
+    },
+    {
+      "question": "What is the difference between hanging and finishing?",
+      "answer": "Hanging is fastening the drywall sheets to the framing; finishing is taping the seams, applying coats of joint compound, and sanding to a smooth, paint-ready surface. Finishing is the harder, higher-value skill — it is what shows under paint and light, and it is what separates a professional from an amateur. Many operators are strong at both, but finishing quality drives reputation."
+    },
+    {
+      "question": "Can I start a drywall business with no experience?",
+      "answer": "It is not realistic to start cold. Finishing in particular takes real practice to do at a professional level, and poor work leads to callbacks and lost contractor relationships. If you lack experience, the responsible path is to work under an experienced finisher first, then go out on your own once your quality is reliable."
+    },
+    {
+      "question": "How physically demanding is drywall work?",
+      "answer": "Very. Hanging involves lifting heavy sheets, often overhead, and finishing means hours of repetitive troweling and sanding on stilts or scaffolding. The fine dust from joint compound and sanding makes respirators and dust control important for protecting your lungs over a long career."
+    },
+    {
+      "question": "Who are my main customers?",
+      "answer": "Mostly home builders, general contractors, and remodeling companies who hire drywall subcontractors for new construction, additions, basements, and renovations. Homeowners are a smaller market, mainly for repairs and patches. The most reliable income comes from a few steady builder relationships rather than one-off residential jobs."
+    },
+    {
+      "question": "How quickly can I realistically make money?",
+      "answer": "Skilled operators can land their first subcontract jobs within a few weeks of reaching out to builders, since demand for dependable drywall subs is strong. Building a steady base of repeat contractors usually takes a few months of proving you hit schedules and finish clean. Note that subcontractor payment can lag the work by weeks."
+    }
+  ],
+  "similarBusinesses": [
+    "painting-business",
+    "handyman-business",
+    "flooring-installation-business",
+    "electrician-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Drywall and Ceiling Tile Installers, and Tapers occupational data",
+    "OSHA / NIOSH — silica and construction dust exposure guidance",
+    "Angi / HomeAdvisor — Drywall Installation and Repair Cost Guides (reported per-square-foot ranges)",
+    "Construction subcontractor communities and operator interviews for real-world bidding and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

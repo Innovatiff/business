@@ -1,0 +1,162 @@
+{
+  "title": "Roadside Assistance Business",
+  "slug": "roadside-assistance-business",
+  "category": "service-businesses",
+  "metaTitle": "How to Start a Roadside Assistance Business — Real Costs and Earnings",
+  "metaDescription": "Honest breakdown of starting a roadside assistance business: real startup costs, realistic earnings, motor-club contracts vs direct work, and what most people get wrong.",
+  "startupCostLow": 3000,
+  "startupCostHigh": 20000,
+  "monthlyEarningsLow": 2000,
+  "monthlyEarningsHigh": 9000,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Mechanically handy people who can tolerate night and weekend calls and want a mobile service with recurring motor-club volume",
+  "biggestRisk": "Building the business on low-paying motor-club dispatch alone, where the per-call rate barely covers fuel, time, and vehicle wear",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 20,
+  "skills": ["hands", "people"],
+  "workLocations": ["mobile"],
+  "priorities": ["low-risk", "flexibility", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A roadside assistance business handles the everyday emergencies that strand drivers: flat-tire changes and tire plugs, jump-starts and battery boosts, lockouts, and emergency fuel delivery. It is distinct from towing — many operators deliberately stay 'light service' to avoid the heavy capital, licensing, and regulation that come with a tow truck, though some add towing later as a separate revenue line. Work comes from two very different channels: contracts with motor clubs and roadside networks (AAA, Agero, Allstate, Honk, Urgent.ly) that dispatch calls to you at a set rate, and direct customers who find you and pay you in full. The mix you choose largely determines whether this is a grind or a real business.",
+  "dailyReality": "Much of the work is reactive and unpredictable. You carry your gear in a pickup, van, or SUV and respond to calls — a stranded commuter with a dead battery, someone locked out in a parking lot, a flat on the shoulder of a highway. A call typically takes 15 to 45 minutes of actual work plus drive time to reach the customer, so location and routing matter enormously. The demand skews to nights, weekends, cold snaps (batteries die), and bad weather, which is exactly when it is least convenient. You will spend the rest of your time managing dispatch apps, confirming locations by phone, photographing completed jobs for motor-club payment, and keeping your vehicle and equipment ready to roll.",
+  "startupCostsItemized": [
+    { "item": "Reliable service vehicle (pickup/van/SUV) — used if you do not already own one", "low": 0, "high": 12000, "optional": true },
+    { "item": "Floor jack, lug wrench/impact wrench, torque wrench, jack stands", "low": 200, "high": 700 },
+    { "item": "Portable jump pack and/or booster, fuel cans, basic lockout kit", "low": 150, "high": 600 },
+    { "item": "Commercial auto insurance + general liability", "low": 1800, "high": 6000, "annual": true },
+    { "item": "Amber/LED warning beacon, safety vest, cones, flares", "low": 100, "high": 400 },
+    { "item": "Business registration / LLC and any local service permits", "low": 100, "high": 500 },
+    { "item": "Smartphone, magnetic signs, simple website + Google Business Profile", "low": 50, "high": 600, "optional": true },
+    { "item": "Motor-club onboarding requirements (background check, vehicle inspection)", "low": 50, "high": 300 }
+  ],
+  "realEarnings": {
+    "yearOne": "Most operators in year one earn $2,000 to $4,500 per month. Part-timers running nights and weekends off motor-club dispatch often land at the low end; those who chase direct cash calls and price them properly do better. Expect a slow ramp while motor-club applications are approved and your direct reputation builds.",
+    "experienced": "Established operators with a healthy mix of motor-club volume and higher-paying direct work commonly report $5,000 to $9,000 per month solo. The ones who clear the top of that range have learned to favor direct and prioritized-network calls over the cheapest dispatch, and they run efficient routes in a dense service area.",
+    "topEarners": "Operators running multiple vehicles and drivers, or who add light towing and lockout/key services, can gross $15,000 to $40,000+ per month. Getting there means buying or financing more rigs, hiring and insuring drivers (a major cost in this trade), and managing 24/7 coverage — which is a genuinely different and harder business than answering calls yourself.",
+    "whatAffectsMost": "Your channel mix and service-area density matter most. Motor-club calls pay roughly $25 to $60 each and you cannot set that rate; direct calls for the same work often pay $75 to $200. Operators who rely only on dispatch and drive long distances between cheap calls struggle to make the math work.",
+    "perHour": "Direct calls can net $60 to $150 per hour of actual work. Counting drive time, waiting, and unpaid downtime between calls, realistic blended rates are often $25 to $70 per hour — and lower if you depend heavily on low-rate motor-club dispatch."
+  },
+  "howToStart": [
+    "Week 1: Confirm your vehicle is reliable and equip it with the core kit — jack, impact and torque wrenches, jump pack, fuel cans, lockout tools, beacon, cones, and a safety vest. Decide up front that you will not start paid work without commercial auto and general liability insurance.",
+    "Week 2: Register the business, secure commercial auto + liability coverage, and set clear direct-call pricing for jump-starts, lockouts, tire changes, and fuel delivery. Build a Google Business Profile and a one-page site so people can find and call you.",
+    "Weeks 2-4: Apply to motor-club and roadside networks (Agero, Honk, Urgent.ly, Allstate, and others). Approval includes background checks and vehicle inspections and can take a few weeks, so apply early while you market for direct work.",
+    "Month 1: Take your first calls, photograph and document every job for clean payment and reviews, and track your true cost per call including fuel and drive time. Ask satisfied direct customers for Google reviews immediately.",
+    "Months 2-3: Lean into the channels that actually pay — direct calls, repeat customers, and any prioritized network tiers — and decline or deprioritize the cheapest long-distance dispatch. Refine your service radius so most calls are close."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Basic mechanical competence — changing tires, jump-starting, safe jacking, and using simple lockout tools without damaging vehicles",
+      "Comfort working at night, in bad weather, and roadside near traffic, with a real focus on safety",
+      "Reliability and calm customer manner with people who are stressed and stranded"
+    ],
+    "canLearn": [
+      "Lockout technique across common vehicle types using proper tools",
+      "Documenting and invoicing jobs cleanly for motor-club payment",
+      "Routing and triage to take the calls worth taking"
+    ],
+    "separators": [
+      "Winning and keeping direct, full-price customers instead of living on cheap dispatch",
+      "Roadside safety discipline that prevents the accident or injury that ends the business",
+      "Knowing which networks, tiers, and call types are profitable in your specific area"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Assuming motor-club dispatch alone is a living — the per-call rates are low and the drive time often eats the profit",
+    "Skipping proper commercial auto insurance, then discovering a personal policy will not cover service work or a roadside incident",
+    "Underestimating the toll of night and weekend on-call life on health, family, and reliability",
+    "Damaging a customer's vehicle during a lockout or jack-up and having no liability coverage for the claim",
+    "Working too large a service radius, so calls are spread out and fuel and time destroy margins",
+    "Treating it like towing and over-investing in a tow rig before validating demand for light service"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Hydraulic floor jack + jack stands", "note": "The everyday workhorse for tire changes. Buy a sturdy unit; cheap jacks fail under real use.", "low": 80, "high": 300 },
+    { "item": "Cordless impact wrench + torque wrench", "note": "Speeds tire work and lets you re-torque lugs to spec, which protects you from comeback claims.", "low": 150, "high": 500 },
+    { "item": "Portable jump pack / battery booster", "note": "A quality lithium pack handles most jump-starts without a second vehicle.", "low": 80, "high": 350 },
+    { "item": "Lockout tool kit", "note": "Wedges, long-reach tools, and air bags. Practice before charging — sloppy work damages doors and trim.", "low": 60, "high": 300 },
+    { "item": "Approved fuel containers", "note": "For fuel delivery calls. Follow local rules on transporting fuel.", "low": 40, "high": 150 },
+    { "item": "Safety gear — beacon, vest, cones, reflective triangles, flashlight", "note": "Non-negotiable for roadside work near traffic.", "low": 100, "high": 400 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Approved accounts with motor clubs and roadside networks (Agero, Honk, Urgent.ly, Allstate, AAA where available) for steady dispatch volume",
+      "A complete Google Business Profile with reviews so stranded drivers searching nearby find you for full-price direct calls",
+      "Relationships with local tow companies, repair shops, auto dealers, and parking-lot/property managers who refer light-service calls they do not want",
+      "Local Facebook groups and Nextdoor where people ask for a quick jump-start or lockout",
+      "Magnetic vehicle signage and a memorable number so completed jobs become roadside advertising"
+    ],
+    "whereCustomersAre": "Stranded drivers anywhere people park and drive — commuter corridors, apartment and business lots, highways, and event venues. Motor clubs aggregate the demand; direct customers find you by search or referral in the moment they are stuck.",
+    "timeToClientBase": "Direct calls can come within weeks of marketing, but motor-club approval can take several weeks, so plan a 2-to-6-week ramp. A reliable mix of dispatch and repeat direct work usually takes three to six months.",
+    "wasteOfTime": "Relying solely on one motor-club contract, and spending on broad paid ads before you have a Google presence and reviews. Early on, search visibility and shop/tow referrals convert far better than advertising."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but the path to full-time income depends on adding direct and prioritized work to dispatch volume, since pure motor-club rates rarely support full-time pay alone. A single operator is also capped by being on call and by drive distances.",
+    "hireAndStepBack": "Possible but capital- and insurance-heavy. Each additional vehicle and driver multiplies commercial insurance cost and demands 24/7 scheduling and trust that crews drive and work safely. Stepping back requires dispatch systems and dependable drivers.",
+    "sellable": "Roadside businesses with established network contracts, documented call volume, and branded vehicles can sell for a modest multiple of profit. A solo operation tied entirely to one person's phone and reputation is harder to sell.",
+    "whatScalingRequires": "Multiple insured vehicles and drivers, real 24/7 dispatch coverage, standardized safety procedures, and a balanced book of network plus direct work. The jump from owner-operator to a fleet is where most stall on insurance and labor costs."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are mechanically handy and comfortable with tires, batteries, and basic lockouts",
+      "You can genuinely tolerate night, weekend, and bad-weather on-call work",
+      "You take roadside safety seriously and stay calm with stressed customers",
+      "You live in or near a dense area where calls will be close together"
+    ],
+    "poorFit": [
+      "You want predictable daytime hours and no after-hours calls",
+      "You are uncomfortable working near live traffic or in harsh weather",
+      "You expect motor-club dispatch alone to pay well",
+      "You are not willing to carry proper commercial insurance"
+    ],
+    "askYourself": [
+      "Can my life and health absorb being on call nights and weekends for months?",
+      "Is my service area dense enough that calls won't be swallowed by drive time?",
+      "Will I do the work to win direct customers instead of just taking cheap dispatch?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a special license to start a roadside assistance business?",
+      "answer": "For light service — jump-starts, tire changes, lockouts, fuel delivery — most areas require only standard business registration plus commercial auto and general liability insurance. Towing is different and usually requires special permits, vehicle inspections, and a tow operator license. Always confirm your state and municipal rules, since some regulate roadside service and fuel transport."
+    },
+    {
+      "question": "Can I make a living on motor-club dispatch alone?",
+      "answer": "It is hard. Motor-club calls commonly pay around $25 to $60 each and you cannot set that rate, while drive time and fuel eat into it. Most operators who do well combine dispatch volume with higher-paying direct calls and prioritized network tiers. Treating motor clubs as the whole business is the most common way this trade disappoints people."
+    },
+    {
+      "question": "Is towing required, or can I stick to light service?",
+      "answer": "You can build a real business on light service only, and many operators intentionally do to avoid the capital, regulation, and insurance of towing. A tow truck adds a large revenue line but also major cost and complexity. Start light, validate demand, and add towing later only if the numbers justify it."
+    },
+    {
+      "question": "What vehicle do I need to start?",
+      "answer": "A reliable pickup, van, or SUV is enough for light service — you mainly need to carry tools, a jump pack, fuel cans, and safety gear. If you already own a suitable vehicle, your startup cost drops sharply. The vehicle must be on a commercial auto policy, not a personal one, before you take paid calls."
+    },
+    {
+      "question": "Why do I need commercial insurance instead of my personal auto policy?",
+      "answer": "Personal auto policies typically exclude business use and will not cover an incident while you are working a service call. You need commercial auto plus general liability to cover both the driving and the risk of damaging a customer's vehicle during a lockout, jump, or jack-up. Skipping this is the fastest way to lose everything after one bad claim."
+    },
+    {
+      "question": "How quickly can I start making money?",
+      "answer": "Direct calls can come within a couple of weeks once you are insured and visible online. Motor-club approval, with its background checks and vehicle inspections, often takes several weeks, so plan a two-to-six-week ramp. A steady income usually takes three to six months."
+    },
+    {
+      "question": "How do night and weekend hours really affect this business?",
+      "answer": "Demand peaks exactly when it is least convenient — late nights, weekends, cold snaps, and storms, when batteries die and people get stuck. That after-hours availability is where much of the money is, but it is also the hardest part to sustain. Be honest with yourself about whether your life can absorb on-call work before you commit."
+    }
+  ],
+  "similarBusinesses": [
+    "mobile-mechanic-business",
+    "locksmith-business",
+    "mobile-car-wash-business",
+    "courier-and-delivery-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Automotive Service Technicians and self-employed services data",
+    "Motor-club and roadside network operator agreements (Agero, Honk, Urgent.ly) for reported per-call rate ranges",
+    "Angi / industry cost guides for roadside service pricing (jump-start, lockout, tire change, fuel delivery)",
+    "Operator communities and forums (towing and roadside subreddits, owner-operator groups) for real-world earnings and channel mix"
+  ],
+  "lastReviewed": "2026-06"
+}
