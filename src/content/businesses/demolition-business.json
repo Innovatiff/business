@@ -1,0 +1,164 @@
+{
+  "title": "Demolition Business",
+  "slug": "demolition-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Demolition Business — Real Costs, Earnings & Steps",
+  "metaDescription": "Honest guide to starting a demolition business: real startup costs, permits, asbestos and lead safety, disposal economics, realistic earnings, and common mistakes.",
+  "startupCostLow": 10000,
+  "startupCostHigh": 80000,
+  "monthlyEarningsLow": 6000,
+  "monthlyEarningsHigh": 30000,
+  "timeToFirstIncome": "1 to 2 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Physically capable, safety-minded operators who can serve remodelers reliably and manage permits, disposal, and hazardous-material awareness",
+  "biggestRisk": "Disturbing asbestos or lead without proper testing and abatement, creating serious health liability, fines, and shutdowns",
+  "speedToIncome": "months",
+  "minWeeklyHours": 40,
+  "skills": ["hands"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A demolition business tears out and removes structures and finishes so the next phase of construction can begin. Most accessible work is interior and selective demolition for remodelers and general contractors — gutting kitchens and bathrooms, removing walls, flooring, drywall, cabinetry, and fixtures down to the studs — plus small exterior structure demolition like sheds, decks, garages, and small additions. It is the unglamorous but essential first step on most renovation jobs, and remodelers value a crew that shows up, works fast and clean, protects the parts of the building that stay, and hauls everything away to disposal. The work is physical and dusty, but the real business is in safety, permits, disposal logistics, and dependable scheduling rather than just swinging a sledgehammer.",
+  "dailyReality": "A typical job starts with protecting what stays — floors, stairs, and adjacent rooms — and setting up dust containment. Then the crew works methodically through the structure: capping or coordinating utility shutoffs, removing fixtures and finishes, taking down walls (after confirming none are load-bearing without a plan), and bagging and hauling debris to a dumpster or dump trailer. A large share of the day is hauling and disposal — loading debris, multiple dump runs or dumpster swaps, and sorting recyclable metal or concrete. Around the labor you handle bidding by the job, pulling demolition permits where required, coordinating tightly with the general contractor's schedule, and staying alert to anything that could be asbestos or lead in older buildings, which stops the job until it is properly handled.",
+  "startupCostsItemized": [
+    { "item": "Demolition tools (sledges, pry bars, reciprocating saws, jackhammer)", "low": 1500, "high": 6000 },
+    { "item": "Dump trailer or truck for debris hauling", "low": 3000, "high": 30000 },
+    { "item": "Skid steer or mini-excavator (purchase or rental budget)", "low": 0, "high": 30000, "optional": true },
+    { "item": "Dust containment, PPE, respirators, and safety gear", "low": 500, "high": 3000 },
+    { "item": "General liability and workers' comp insurance", "low": 3000, "high": 10000, "annual": true },
+    { "item": "Contractor/demolition license, bond, and permit budget", "low": 500, "high": 4000 },
+    { "item": "Initial disposal/dump fees and dumpster rental float", "low": 500, "high": 3000 },
+    { "item": "Marketing: website, Google Business Profile, truck signage", "low": 200, "high": 1500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "A solo or small-crew operation focused on interior demo and small teardowns typically nets $4,000 to $8,000 per month in year one once relationships form, with disposal costs taking a real bite. Income is lumpy early because the work depends on remodelers' project flow.",
+    "experienced": "Established operators with steady general-contractor relationships and a crew commonly take home $8,000 to $20,000 per month. Profit comes from pricing the full job (labor, disposal, equipment, and permits) accurately and turning jobs around fast so crews stay productive.",
+    "topEarners": "Top operators run multiple crews, own hauling and possibly some heavy equipment, and add larger selective and structure demolition or disaster/restoration tie-ins; some gross $1M to $4M+ annually. Reaching that takes reliable crews, equipment, strong GC relationships, and disciplined job costing — disposal and labor mistakes erase profit fast at scale.",
+    "whatAffectsMost": "Disposal cost control, accurate full-job bidding, and dependable scheduling for remodelers move earnings the most. Underestimating dump fees, debris volume, or hidden conditions (especially hazardous materials) is the fastest way to turn a profitable job into a loss.",
+    "perHour": "Crews bill at an effective $40 to $80 per labor hour; an owner running tight jobs can clear an effective $70 to $150+ per hour of their own time, but disposal fees, equipment costs, and dump-run drive time pull the real blended return below the headline."
+  },
+  "howToStart": [
+    "Before anything: get experience and respect the hazards. Demolition looks simple but isn't — load-bearing walls, live utilities, and hidden asbestos or lead in pre-1980s buildings are real dangers. Work on demo crews or in construction first so you know what to look for.",
+    "Month 1: Register the business and check licensing. Many states and cities require a contractor or specialty demolition license, and demolition permits are commonly required even for interior gut work. Secure general liability and, before hiring anyone, workers' comp — this is high-injury work.",
+    "Month 1: Set up disposal logistics: a dump trailer or truck, accounts with local landfills/transfer stations, and dumpster rental relationships. Learn your area's dump fees cold, because disposal is a major cost that must be built into every bid.",
+    "Month 1-2: Build relationships with general contractors, remodelers, kitchen/bath companies, and flippers — they are the steady source of selective-demo work. Take a few direct homeowner teardown jobs (sheds, decks) to build reviews while courting GCs.",
+    "Days 60-90: Establish an asbestos/lead protocol — when in doubt on older buildings, stop and require testing/abatement before proceeding. Track labor, disposal, and equipment cost per job so your by-the-job bids stay profitable, and document a safety and site-protection process."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Physical capability and stamina for heavy, dusty, repetitive work",
+      "Knowledge of safe demolition: identifying load-bearing walls, utilities, and structural risks",
+      "Awareness of asbestos and lead hazards in older buildings and when to stop and test",
+      "Reliability and the discipline to protect the parts of a building that stay"
+    ],
+    "canLearn": [
+      "Permit pulling and local disposal logistics",
+      "Bidding jobs to cover labor, disposal, equipment, and contingency",
+      "Operating skid steers or mini-excavators for larger jobs"
+    ],
+    "separators": [
+      "Dependable, fast, clean work that makes remodelers schedule you on every project",
+      "Tight disposal-cost control and accurate full-job bidding that protect margin",
+      "A solid hazardous-material protocol that keeps jobs legal and avoids costly shutdowns and liability"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Disturbing asbestos or lead in older buildings without testing, creating serious health liability, fines, and stop-work orders",
+    "Underbidding by ignoring how much disposal, dump fees, and debris hauling actually cost",
+    "Taking down a load-bearing wall without an engineered plan, risking structural collapse and catastrophic liability",
+    "Skipping site protection and damaging the floors, stairs, or rooms that were supposed to stay, leading to expensive repairs",
+    "Failing to confirm utilities are shut off or capped before cutting into walls",
+    "Operating without proper insurance or permits, which can end the business after one injury or inspection"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Hand and power demolition tools (sledges, pry bars, recip saws, jackhammer)", "note": "The core kit for interior and selective demo. Buy durable; cheap tools fail under abuse.", "low": 1500, "high": 6000 },
+    { "item": "Dump trailer or truck", "note": "Hauling and disposal are most of the cost and time; owning hauling improves margin.", "low": 3000, "high": 30000 },
+    { "item": "Skid steer or mini-excavator", "note": "For larger and exterior teardowns; rent until volume justifies owning.", "low": 0, "high": 30000 },
+    { "item": "Dust containment, PPE, and respirators", "note": "Protects crew health and keeps jobs clean for the GC.", "low": 500, "high": 3000 },
+    { "item": "Dumpster rental accounts and landfill/transfer-station accounts", "note": "Set these up early; know your dump fees before bidding.", "low": 500, "high": 3000 },
+    { "item": "Site protection (floor protection, plastic sheeting, ram board)", "note": "Cheap insurance against damaging what stays.", "low": 100, "high": 800 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct relationships with general contractors, remodelers, and kitchen/bath companies — the steady source of selective-demo subcontract work",
+      "Relationships with house flippers and property investors who gut properties regularly",
+      "A Google Business Profile and reviews for direct homeowner teardown jobs (sheds, decks, garages)",
+      "Referrals from restoration, junk-removal, and dumpster-rental companies that touch the same projects",
+      "Showing up reliable and clean on a GC's first job, which earns a spot on every future project"
+    ],
+    "whereCustomersAre": "Most steady work comes from general contractors and remodelers who subcontract the demo phase, plus flippers and investors. Direct homeowner work is more occasional — teardowns of decks, sheds, garages, and pre-renovation gut jobs.",
+    "timeToClientBase": "Direct homeowner jobs can start within a month or two, but a reliable GC-fed pipeline usually takes three to twelve months of proving you're fast, clean, dependable, and safe on their projects.",
+    "wasteOfTime": "Broad consumer advertising before you've proven reliability. In this trade, GC and remodeler word of mouth and jobsite reputation drive the steady volume far more than ads."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and full-time income comes relatively quickly for a dependable operator with GC relationships — demand from remodelers is steady. The constraint is reliable labor and disposal logistics, not finding work.",
+    "hireAndStepBack": "Possible. Hiring crews lets you run multiple jobs and step into estimating and GC relationships, but demolition is high-injury work, so safety culture, training, and workers' comp are essential. Stepping back requires a trusted lead and a documented safety/site-protection process.",
+    "sellable": "An established demolition business with crews, equipment, hauling capacity, GC contracts, and a clean safety record can sell for a meaningful multiple of profit. A pure solo operation with no equipment or contracts is closer to selling a job.",
+    "whatScalingRequires": "Reliable crews and a strong safety program, owned or reliable hauling and disposal logistics, possibly heavy equipment, multiple GC relationships so no single client controls your volume, and disciplined job costing to keep disposal and labor from eroding margin."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are physically capable and don't mind heavy, dusty, demanding work",
+      "You have construction experience and understand structural and utility risks",
+      "You can build dependable relationships with remodelers and general contractors",
+      "You will take hazardous-material and safety protocols seriously, not cut corners"
+    ],
+    "poorFit": [
+      "You want light, clean, or low-physical work",
+      "You have no construction background and underestimate structural and hazard risks",
+      "You can't front capital for hauling, insurance, and disposal before payment",
+      "You're tempted to skip permits, testing, or safety to win cheaper bids"
+    ],
+    "askYourself": [
+      "Do I understand demolition well enough to avoid load-bearing, utility, and hazardous-material disasters?",
+      "Can I price the full job — labor, disposal, equipment, permits, and contingency — accurately enough to make money?",
+      "Can I be reliable and clean enough that remodelers want me on every project?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license and permits to start a demolition business?",
+      "answer": "Usually yes on both. Many states and cities require a contractor or specialty demolition license, and demolition permits are commonly required even for interior gut work, with stricter rules for structural and exterior demolition. Requirements vary widely by jurisdiction, so check your state licensing board and local building department before bidding. Operating without required licensing or permits risks fines and stop-work orders."
+    },
+    {
+      "question": "What do I do about asbestos and lead?",
+      "answer": "Treat them as a hard stop. Buildings constructed before roughly 1980 may contain asbestos (in flooring, insulation, popcorn ceilings, and more) and lead paint, and disturbing them without testing and licensed abatement is dangerous and illegal in many cases. If there's any doubt in an older building, stop and require testing before you proceed; abatement is a separate, licensed specialty. Mishandling this is the single biggest liability in the business."
+    },
+    {
+      "question": "How do I price demolition jobs?",
+      "answer": "Most demolition is priced by the job, built up from labor hours, disposal and dump fees, equipment or dumpster costs, permits, and a contingency for hidden conditions. Disposal is a major and often underestimated cost — debris volume and dump fees can blow a bid. Estimate debris volume realistically and always include contingency, because demo frequently uncovers surprises behind walls."
+    },
+    {
+      "question": "Can I start solo, or do I need a crew?",
+      "answer": "You can start solo or with one helper on smaller interior demo and teardowns, which is a reasonable way to build reviews and cash flow. Larger and faster jobs need a crew because remodelers want demo done quickly so the next trades can start. Many operators begin lean and add crew as GC relationships and volume grow. Either way, safety and proper hauling come first."
+    },
+    {
+      "question": "How dangerous is demolition work?",
+      "answer": "It's genuinely high-risk: falling debris, dust, sharp materials, structural collapse from removing load-bearing walls, live utilities, and hazardous materials. That's why insurance, workers' comp for any employees, PPE, and a real safety protocol are non-negotiable. Respecting load-bearing structure, utility shutoffs, and hazardous-material testing is what keeps the work safe and the business alive."
+    },
+    {
+      "question": "Where does the steady work come from?",
+      "answer": "Mostly from general contractors, remodelers, and kitchen/bath companies who subcontract the demolition phase, plus house flippers and investors who gut properties regularly. Direct homeowner jobs (decks, sheds, garages, pre-reno gut-outs) help fill in. Becoming the reliable, clean demo crew that a few good GCs call for every project is the path to consistent income."
+    },
+    {
+      "question": "What's the biggest reason demolition businesses lose money?",
+      "answer": "Underestimating disposal and labor on a job, and getting blindsided by hidden conditions — especially hazardous materials that halt the job. Dump fees and debris hauling are large costs that must be priced into every bid with contingency. Operators who track real cost per job and build in a buffer stay profitable; those who bid on gut feel routinely lose money on surprises."
+    }
+  ],
+  "similarBusinesses": [
+    "junk-removal-business",
+    "remodeling-business",
+    "concrete-business",
+    "restoration-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Construction Laborers and demolition occupational data",
+    "EPA and OSHA — asbestos (NESHAP) and lead (RRP) regulations governing renovation and demolition",
+    "State contractor licensing boards and local building departments for demolition permit requirements",
+    "Angi / HomeAdvisor — Demolition Cost Guides (reported job and disposal pricing ranges)",
+    "Demolition and contractor forums and communities for real-world bidding, disposal, and safety experience"
+  ],
+  "lastReviewed": "2026-06"
+}

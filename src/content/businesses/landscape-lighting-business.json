@@ -1,0 +1,164 @@
+{
+  "title": "Landscape Lighting Business",
+  "slug": "landscape-lighting-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Landscape Lighting Business — Real Costs & Earnings",
+  "metaDescription": "Honest guide to starting a landscape lighting business: real startup costs, design-and-install model, maintenance plans, realistic earnings, and common mistakes.",
+  "startupCostLow": 4000,
+  "startupCostHigh": 25000,
+  "monthlyEarningsLow": 4000,
+  "monthlyEarningsHigh": 20000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Hands-on people with an eye for design who want a higher-end residential niche combining creativity, light electrical work, and recurring maintenance income",
+  "biggestRisk": "Competing on price with cheap big-box DIY kits instead of selling design value, leaving thin margins and no recurring maintenance base",
+  "speedToIncome": "months",
+  "minWeeklyHours": 20,
+  "skills": ["hands", "creative"],
+  "workLocations": ["mobile", "home"],
+  "priorities": ["max-income", "flexibility", "sellable"],
+  "noExperienceRequired": true,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A landscape lighting business designs and installs low-voltage (typically 12-volt) outdoor lighting systems that highlight a home's architecture, trees, paths, and outdoor living spaces. Because the systems run on a transformer that steps household current down to low voltage, the wiring is far safer and less regulated than line-voltage electrical work, which is what makes this niche accessible to skilled hands-on people rather than only licensed electricians. The real value is in design — knowing where to place fixtures, how to layer light, and how to avoid glare — combined with clean, durable installation. The best operators add recurring revenue through maintenance plans: seasonal adjustments, bulb and fixture replacement, timer and transformer service, and re-aiming after landscaping grows.",
+  "dailyReality": "Days split between selling and installing. Design and sales often happen in the evening, when you do a 'demo' — temporarily placing fixtures at dusk to show a homeowner exactly how their yard will look lit — because that nighttime reveal is what closes high-end jobs. Install days are physical and outdoors: trenching or burying low-voltage cable, mounting and aiming fixtures, wiring the transformer, and adjusting beams after dark. Maintenance visits are lighter — swapping LEDs, re-aiming lights as trees grow, resetting timers, and checking connections. Around all of it you handle quoting, sourcing quality fixtures, and following up on the seasonal demand spikes before holidays and outdoor-entertaining season.",
+  "startupCostsItemized": [
+    { "item": "Demo kit (transformer, sample fixtures, cable for nighttime demos)", "low": 800, "high": 2500 },
+    { "item": "Install tools (trenchers, wire strippers, connectors, drills)", "low": 400, "high": 2000 },
+    { "item": "Initial fixture and cable inventory", "low": 500, "high": 3000 },
+    { "item": "Work truck or van", "low": 2000, "high": 15000, "optional": true },
+    { "item": "Business registration, license, and general liability insurance", "low": 600, "high": 2500, "annual": true },
+    { "item": "Lighting design software or training/certification", "low": 0, "high": 2000, "optional": true },
+    { "item": "Website with portfolio and Google Business Profile", "low": 100, "high": 1500 },
+    { "item": "Branded yard signs and marketing materials", "low": 100, "high": 800, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "A solo operator in year one typically nets $3,000 to $7,000 per month, often part-time to start, as the portfolio and referral base build. Installs are seasonal in much of the country, so first-year income is uneven until a maintenance base smooths it out.",
+    "experienced": "Established operators with strong design reviews, a referral network, and a growing book of maintenance plans commonly earn $7,000 to $15,000 per month. A typical residential install ranges from a couple thousand to $10,000+ depending on fixture count and property size, and recurring maintenance contracts add steady, high-margin income.",
+    "topEarners": "Top operators run install crews, serve high-end neighborhoods and builders, and carry a large maintenance base; some gross $500,000 to $1.5M+ annually. Reaching that takes a premium-design reputation, relationships with landscapers and builders, and the discipline to keep selling maintenance rather than only one-off installs.",
+    "whatAffectsMost": "Selling design value (especially the dusk demo) and building a recurring maintenance base move earnings the most. Operators who compete on price against DIY kits stay stuck on thin one-off margins; those who sell the experience and lock in maintenance build a durable, higher-income business.",
+    "perHour": "Solo operators realize an effective $50 to $120 per hour of hands-on design and install work; maintenance visits often bill at a strong effective rate for light work. Counting unpaid quoting, demos, and sourcing, realistic blended rates run roughly $40 to $90 per hour."
+  },
+  "howToStart": [
+    "Month 1: Learn the craft and the design. Study low-voltage system design — transformer sizing, voltage drop, fixture placement, and beam control. Manufacturer training programs and certifications exist and are worth doing. Practice lighting your own and friends' yards.",
+    "Month 1: Register the business, get general liability insurance, and check local rules — low-voltage work is lightly regulated, but some jurisdictions require a contractor or electrical license above a threshold or for any line-voltage transformer hookup, so verify before you sell.",
+    "Month 1-2: Build a demo kit so you can do nighttime fixture demos, which is the single most effective sales tool. Photograph every project after dark for a portfolio, since this is an entirely visual, emotional purchase.",
+    "Months 2-3: Set up a Google Business Profile and portfolio site, and build referral relationships with landscapers, hardscapers, and outdoor-living contractors who are already on high-end properties but don't do lighting.",
+    "Days 90+: Add a maintenance plan offering to every install (seasonal adjustments, LED swaps, re-aiming, timer service) to build recurring revenue and smooth out the seasonal install swings. Track cost per fixture installed so your bids stay profitable."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "A genuine eye for design — fixture placement, layering light, and avoiding glare",
+      "Comfortable, careful hands-on install work outdoors, including some after-dark aiming",
+      "Basic low-voltage electrical understanding: transformers, voltage drop, and connections",
+      "Sales ability, especially conducting an effective nighttime demo"
+    ],
+    "canLearn": [
+      "System design and transformer sizing through manufacturer training and practice",
+      "Trenching, cable runs, and clean fixture installation",
+      "Estimating and pricing by fixture count and property complexity"
+    ],
+    "separators": [
+      "Design taste that produces dramatic, glare-free results clients show off to neighbors",
+      "The dusk demo that closes premium jobs others lose on price",
+      "A growing maintenance base that turns one-off installs into recurring revenue and a sellable business"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Competing on price against cheap big-box DIY kits instead of selling design and the lit experience, leaving razor-thin margins",
+    "Using low-quality fixtures and connectors that corrode and fail outdoors, generating callbacks and killing referrals",
+    "Skipping the nighttime demo, which is the most powerful tool for closing high-end jobs",
+    "Ignoring voltage drop and transformer sizing, so distant fixtures dim and the system underperforms",
+    "Never offering maintenance plans, missing the recurring revenue that makes this business stable and sellable",
+    "Treating it as pure labor and neglecting the design eye and after-dark photography that win premium clients"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Demo kit (transformer, sample fixtures, temporary cable)", "note": "Your top sales tool — show clients their lit yard at dusk before they buy.", "low": 800, "high": 2500 },
+    { "item": "Trenching and install tools", "note": "For burying low-voltage cable and mounting fixtures cleanly.", "low": 400, "high": 2000 },
+    { "item": "Quality fixtures (brass/copper) and weatherproof connectors", "note": "Cheap fixtures corrode and fail; quality protects your reputation.", "low": 500, "high": 3000 },
+    { "item": "Transformers, timers, and smart controllers", "note": "The system's brain; proper sizing prevents dim, failing installs.", "low": 200, "high": 1500 },
+    { "item": "Work truck or van", "note": "You carry fixtures, cable, and tools to mostly residential sites.", "low": 2000, "high": 15000 },
+    { "item": "Lighting design software or manufacturer certification", "note": "Sharpens design and adds credibility with high-end clients.", "low": 0, "high": 2000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Referrals from landscapers, hardscapers, and outdoor-living contractors already serving high-end properties without lighting",
+      "A portfolio website and Instagram full of striking after-dark photos — this is a visual, emotional purchase",
+      "A Google Business Profile with night-shot photos and reviews for local search leads",
+      "Nighttime demos and yard signs in upscale neighborhoods, which prompt neighbor inquiries",
+      "Relationships with builders and custom-home contractors for new-construction lighting packages"
+    ],
+    "whereCustomersAre": "Higher-end residential homeowners who invest in curb appeal, outdoor living, and security, concentrated in affluent neighborhoods. Demand spikes before holidays and outdoor-entertaining season, and landscapers/builders are strong referral partners because they're already on these properties.",
+    "timeToClientBase": "First installs often come within one to three months of marketing and demos, but because installs are large and occasional per customer, a reliable pipeline plus a maintenance base usually takes six months to a year-plus to build.",
+    "wasteOfTime": "Broad cheap advertising and pricing to compete with DIY kits. The clients worth having buy design and quality, so night photography, demos, and referral partnerships convert far better than discount marketing."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, though install demand is seasonal in much of the country. A maintenance base and a mix of installs and service work smooth income into a reliable full-time living, often within the first year or two.",
+    "hireAndStepBack": "Possible. Hiring install crews lets you take on more projects while you focus on design and sales, but the design and demo — the parts that command premium pricing — are hard to delegate early. A trained lead installer and documented standards make stepping back feasible.",
+    "sellable": "A landscape lighting business with a strong portfolio, brand, and especially a sizable book of recurring maintenance contracts is genuinely sellable for a meaningful multiple, because the maintenance revenue is predictable and transferable.",
+    "whatScalingRequires": "Trained install crews, standardized design and pricing, quality fixture sourcing, referral partnerships with landscapers and builders, and a deliberate push to convert every install into a maintenance contract so recurring revenue carries the business."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have an eye for design and enjoy creating a visual, emotional result",
+      "You like a mix of creative selling and hands-on outdoor work",
+      "You are willing to do evening demos and after-dark aiming",
+      "You want recurring maintenance income, not just one-off jobs"
+    ],
+    "poorFit": [
+      "You have no design sense and want purely repetitive labor",
+      "You only want to compete on being the cheapest option",
+      "You are unwilling to do evening demos or seasonal adjustments",
+      "You want a fully year-round, weather-proof workload in a cold climate"
+    ],
+    "askYourself": [
+      "Do I have or can I develop a real design eye that produces results clients want to show off?",
+      "Am I willing to do dusk demos and sell design value rather than race to the bottom on price?",
+      "Will I build a maintenance base to smooth seasonality and make the business stable and sellable?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need to be a licensed electrician to install landscape lighting?",
+      "answer": "Usually not for the low-voltage portion. These systems run on 12 volts from a transformer, which is far safer and less regulated than line-voltage wiring. However, the transformer itself plugs into or is wired to household current, and some jurisdictions require a licensed electrician for that line-voltage connection or a contractor license above a job-value threshold. Always verify your local rules and carry general liability insurance."
+    },
+    {
+      "question": "How much does a landscape lighting install cost the customer?",
+      "answer": "Most residential installs range from a couple thousand dollars to $10,000 or more, depending on the number and quality of fixtures, the size of the property, and the design complexity. Higher-end homes with extensive architecture, trees, and outdoor living areas command the larger jobs. Price by fixture count and labor rather than a flat figure, and quality brass or copper fixtures cost more but last far longer."
+    },
+    {
+      "question": "Why do maintenance plans matter so much?",
+      "answer": "Installs are seasonal and one-time per customer, so a business built only on installs has lumpy, unpredictable income. Maintenance plans — seasonal adjustments, LED replacement, re-aiming as plants grow, timer and transformer service — create recurring, high-margin revenue that smooths the year and makes the business far more valuable if you ever sell. The best operators attach maintenance to every install."
+    },
+    {
+      "question": "Can I really start with no electrical background?",
+      "answer": "Yes, because low-voltage work is accessible and the core skills — transformer sizing, voltage drop, fixture placement, and clean installation — are learnable through manufacturer training and practice. What you cannot skip is developing design judgment, since the value clients pay for is how the lighting looks. Start by lighting your own and friends' yards before charging."
+    },
+    {
+      "question": "What is the nighttime demo and why is it important?",
+      "answer": "A demo means temporarily placing your fixtures around a prospect's yard at dusk and turning them on so the homeowner sees exactly how their property will look lit. Because landscape lighting is an emotional, visual purchase, seeing the actual effect closes jobs far more reliably than a quote on paper. Operators who do demos consistently win more and higher-priced work."
+    },
+    {
+      "question": "Is the work seasonal?",
+      "answer": "Installs spike before holidays and outdoor-entertaining season and slow in deep winter in cold climates, while warm regions run closer to year-round. Maintenance work and a maintenance plan base help fill slower months. Many operators in cold climates pair lighting with related seasonal services to keep income steady."
+    },
+    {
+      "question": "What separates profitable operators from those who struggle?",
+      "answer": "Profitable operators sell design and quality and build recurring maintenance revenue; strugglers compete on price against DIY kits and never build a base. Using durable fixtures, photographing work after dark, doing demos, and attaching maintenance to every install are the habits that turn this from a low-margin labor job into a strong, sellable business."
+    }
+  ],
+  "similarBusinesses": [
+    "electrician-business",
+    "lawn-care-and-landscaping-business",
+    "holiday-light-installation-business",
+    "hardscaping-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Electricians and grounds/landscaping occupational data",
+    "Angi / HomeAdvisor — Landscape Lighting Installation Cost Guides (reported job pricing ranges)",
+    "Manufacturer training programs and certification materials (low-voltage system design and installation)",
+    "Outdoor lighting and landscape contractor forums and communities for real-world pricing and maintenance-plan economics",
+    "Lighting fixture and transformer supplier pricing data"
+  ],
+  "lastReviewed": "2026-06"
+}

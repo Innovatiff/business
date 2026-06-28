@@ -1,0 +1,161 @@
+{
+  "title": "Commercial Real Estate Brokerage Business",
+  "slug": "commercial-real-estate-brokerage-business",
+  "category": "real-estate-and-property",
+  "metaTitle": "How to Start in Commercial Real Estate Brokerage — Costs and Earnings",
+  "metaDescription": "Honest guide to commercial real estate brokerage: real licensing, the long dry start, lumpy commissions, deal cycles, and what most new CRE brokers get wrong.",
+  "startupCostLow": 5000,
+  "startupCostHigh": 30000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "6 to 18 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Financially patient, relationship-driven salespeople who can survive a year or more on savings while building expertise and a pipeline",
+  "biggestRisk": "Running out of money during the long, commission-free ramp before your first deals close",
+  "speedToIncome": "long",
+  "minWeeklyHours": 45,
+  "skills": ["sales", "finance"],
+  "workLocations": ["mobile", "space", "flexible"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A commercial real estate (CRE) broker represents buyers, sellers, landlords, or tenants in transactions involving office, retail, industrial, multifamily, and land — leasing and selling property used to make money rather than to live in. This is a fundamentally different business from being a residential agent: the underlying analysis is financial (cap rates, net operating income, lease economics), deal cycles are long, transactions are large and infrequent, and clients are businesses and investors who expect genuine market expertise. Most new brokers start by joining an established brokerage (a national firm like CBRE, JLL, Cushman & Wakefield, Colliers, Marcus & Millichap, or a strong regional shop) under a senior broker or team, because the relationships, data, and mentorship are nearly impossible to build alone.",
+  "dailyReality": "Your week is prospecting, relationship-building, and analysis far more than showing space. Expect heavy cold and warm outreach to property owners and business decision-makers, building and maintaining a database, touring properties, underwriting deals (rent rolls, comps, cap rates, lease abstracts), preparing pitches and offering memorandums, and negotiating terms over weeks or months. A great deal of time is spent nurturing relationships that may not pay off for a year or more. Income is lumpy: you can go months with nothing, then close a deal worth tens of thousands in commission.",
+  "startupCostsItemized": [
+    { "item": "Real estate license courses, exam, and application", "low": 500, "high": 2000 },
+    { "item": "Living expenses / savings runway for the dry ramp (critical)", "low": 0, "high": 0, "optional": true },
+    { "item": "Brokerage desk fees, board/MLS, and association dues", "low": 1000, "high": 5000, "annual": true },
+    { "item": "CoStar / CRE data and comps subscription (often shared at firm)", "low": 0, "high": 12000, "annual": true, "optional": true },
+    { "item": "Professional wardrobe, reliable vehicle, phone, laptop", "low": 1000, "high": 5000 },
+    { "item": "CRM and marketing/design tools", "low": 200, "high": 2000, "annual": true },
+    { "item": "Errors & omissions and general liability insurance (often via firm)", "low": 500, "high": 2500, "annual": true },
+    { "item": "Networking, designations (CCIM/SIOR coursework), travel", "low": 500, "high": 5000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most new commercial brokers earn very little in year one — frequently $0 to $40,000 — because deals take 6 to 18 months from first contact to closing and you are building a pipeline from scratch. Many are on a small draw or pure commission. This dry period is exactly why most people who try CRE brokerage wash out within two to three years.",
+    "experienced": "Established brokers with three to five years and a real book of business commonly earn $80,000 to $250,000 a year, though it arrives unevenly in large lumps. Commission splits with the firm (often starting near 50/50 and improving with production) and your specialty heavily affect take-home.",
+    "topEarners": "Top producers in major markets and specialties (investment sales, industrial, multifamily) earn $500,000 to several million a year, but this takes a decade of relationships, a dominant market niche, and often a team underneath them. These outliers are real but represent a small fraction of licensed brokers.",
+    "whatAffectsMost": "Your market and specialty, the strength of your relationships and pipeline, your commission split, and sheer persistence through the long ramp. Deal size and frequency dwarf any cost-cutting on tools.",
+    "perHour": "Effective hourly rate is brutal early — often near zero for the first year of full-time effort. Over a career it can become excellent, but the front-loaded unpaid grind is the real price of entry."
+  },
+  "howToStart": [
+    "Months 1-3: Get your real estate salesperson license (and learn whether your state requires anything specific for commercial work). Simultaneously study CRE fundamentals: cap rates, NOI, lease structures (NNN, gross, modified gross), and how investment math works — this is what separates you from residential agents.",
+    "Months 2-4: Interview and join an established brokerage or team. The mentorship, data (CoStar), and warm relationships you inherit matter more than the split early on. Pick a specialty (e.g., industrial leasing, retail, multifamily investment sales) and a defined geographic territory.",
+    "Months 3-9: Build your database and prospect relentlessly — owners, tenants, and investors in your niche. Expect mostly rejection. Tour properties, underwrite real deals, and shadow your mentor's transactions to learn the process end to end.",
+    "Months 6-18: Source and work your first listings or buyer/tenant assignments. Stay disciplined about your savings runway; the gap between effort and your first commission check is the make-or-break stretch.",
+    "Years 2-3: Convert relationships into repeat and referral business, deepen your niche expertise, and improve your commission split as your production grows."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Real financial fluency — reading rent rolls, cap rates, NOI, and lease economics",
+      "Strong, resilient sales and relationship-building ability, including comfort with heavy rejection",
+      "Financial runway to survive 12+ months with little or no income"
+    ],
+    "canLearn": [
+      "Market data tools (CoStar, Crexi) and how to build and pull comps",
+      "Underwriting and modeling deals in spreadsheets",
+      "The mechanics of a commercial transaction, due diligence, and contracts"
+    ],
+    "separators": [
+      "Owning a defined niche and territory so well that owners call you first",
+      "Patience and follow-up discipline to nurture relationships over years",
+      "Negotiation skill and credibility that lets you close large, complex deals"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Assuming it works like residential real estate — the analysis, deal size, cycle length, and clientele are completely different",
+    "Underestimating the runway and quitting (or going broke) before the first deals close in year one or two",
+    "Trying to start solo instead of joining a firm where the data, relationships, and mentorship live",
+    "Spreading across every property type and the whole metro instead of owning one niche and territory",
+    "Treating it as transactional instead of relationship-driven, so prospects never call them back",
+    "Neglecting genuine underwriting skill and getting exposed by sophisticated investor clients"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Active real estate license", "note": "Legally required; held under a broker. Some markets/states have nuances for commercial work.", "low": 500, "high": 2000 },
+    { "item": "CoStar / Crexi market data", "note": "The industry standard for comps and listings; usually accessed through your firm.", "low": 0, "high": 12000 },
+    { "item": "CRM", "note": "Your database of owners, tenants, and investors is your actual business asset.", "low": 200, "high": 1500 },
+    { "item": "Underwriting spreadsheets / Argus", "note": "For modeling NOI, cap rates, and lease cash flows. Argus is common on larger deals.", "low": 0, "high": 5000 },
+    { "item": "Reliable vehicle and professional appearance", "note": "You tour properties and meet decision-makers; presentation matters in this world.", "low": 1000, "high": 5000 },
+    { "item": "Marketing/design tools for offering memorandums", "note": "Clean pitch materials and flyers; often supported by the firm's marketing team.", "low": 200, "high": 1500 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct, persistent prospecting of property owners and business decision-makers in your niche",
+      "Leveraging your brokerage's existing relationships, listings, and referral network",
+      "Targeted outreach to investors, developers, and tenants needing space",
+      "Industry events, local commercial real estate associations, and CCIM/SIOR networks",
+      "Building a reputation in one property type and territory so owners contact you for that submarket"
+    ],
+    "whereCustomersAre": "Your clients are business owners, investors, developers, landlords, and corporate tenants — reached through direct outreach, referrals, and being known as the specialist for a specific property type in a specific submarket.",
+    "timeToClientBase": "Building a real pipeline takes one to three years of consistent prospecting and follow-up. The first deals are the slowest; repeat and referral business compounds once you have proven yourself in a niche.",
+    "wasteOfTime": "Generic mass advertising and waiting for inbound leads. Early on, broad branding and passive marketing produce almost nothing — direct relationship-building and disciplined follow-up are what generate deals."
+  },
+  "howItScales": {
+    "toFullTime": "It is a full-time profession by nature, not a side hustle — the long ramp and relationship demands make part-time work impractical. Once established, income can be very high, but it remains lumpy and tied to deal flow.",
+    "hireAndStepBack": "Top brokers build teams (analysts, junior brokers, marketing) and can step back somewhat into a rainmaker or managing-broker role. Fully stepping back is hard because client relationships are personal; many transition into team leadership or opening their own brokerage.",
+    "sellable": "A book of relationships and recurring clients has real value, and brokers do sell or transition their books, especially when retiring. Owning a brokerage with multiple producing agents is a more clearly sellable asset than an individual practice.",
+    "whatScalingRequires": "Deep niche dominance, a team to leverage your time, strong systems and data, and either rising production within a firm or the capital and management ability to run your own brokerage."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are genuinely strong at sales and long-term relationship-building",
+      "You can comfortably go 12 months or more on savings with little income",
+      "You enjoy financial analysis and the mechanics of investment property"
+    ],
+    "poorFit": [
+      "You need reliable income soon or have no financial cushion",
+      "You dislike cold outreach, rejection, and slow, multi-month deal cycles",
+      "You are uncomfortable with numbers, leases, and investment math"
+    ],
+    "askYourself": [
+      "Do I have the savings and the stomach to work hard for a year or more before real commissions arrive?",
+      "Am I willing to specialize in one niche and territory rather than chasing every deal?",
+      "Can I build and patiently nurture relationships that may not pay off for years?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is commercial brokerage different from being a residential agent?",
+      "answer": "Commercial deals are valued on financial performance (cap rates, NOI, lease terms), are far larger and less frequent, and take months to close. Clients are businesses and investors who expect real market and financial expertise. The skills overlap less than people expect — many strong residential agents struggle to transition without learning the investment side."
+    },
+    {
+      "question": "Do I need a special license for commercial real estate?",
+      "answer": "In most states the same real estate salesperson or broker license covers commercial and residential work; there is no separate 'commercial license.' What sets commercial apart is the expertise and designations (like CCIM or SIOR), not a different credential. Always confirm your specific state's licensing requirements."
+    },
+    {
+      "question": "How long until I make money?",
+      "answer": "Plan for 6 to 18 months before your first commission, and a year or more before income is steady. Deal cycles are long, and you are building relationships from scratch. This is why a financial runway is the single most important thing to have before starting."
+    },
+    {
+      "question": "Should I start solo or join a firm?",
+      "answer": "Almost everyone should start by joining an established brokerage or team. The market data, existing relationships, mentorship, and credibility are extremely hard to replicate alone. Worry about your commission split later — early on, what you learn and who you meet matter far more."
+    },
+    {
+      "question": "How much can I realistically earn?",
+      "answer": "Year one is often near zero. Established brokers commonly earn $80,000 to $250,000, arriving in uneven lumps. Top producers in strong markets and specialties can earn well into the high six or seven figures, but that takes a decade and a dominant niche. Most never reach that tier."
+    },
+    {
+      "question": "Can I do this part-time alongside a job?",
+      "answer": "Realistically, no. The long deal cycles, daytime client availability, and the prospecting volume required make part-time CRE brokerage very difficult. It is best approached as a full-time career change with savings to support the ramp."
+    },
+    {
+      "question": "What specialty should I pick?",
+      "answer": "Choose based on your market's demand and where you can build relationships — common niches are office, retail, industrial, multifamily, and investment sales. Specializing in one property type and submarket helps you build expertise and become the broker owners call first, rather than competing everywhere at once."
+    }
+  ],
+  "similarBusinesses": [
+    "real-estate-agent-business",
+    "rental-property-investing-business",
+    "mortgage-broker-business",
+    "property-management-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Real Estate Brokers and Sales Agents (OES wage and outlook data)",
+    "National Association of Realtors and CCIM Institute — commercial member income and market reports",
+    "CBRE, JLL, and Cushman & Wakefield market research and commission structure overviews",
+    "CoStar and Crexi — commercial market data and transaction trends",
+    "Broker interviews and CRE communities for real-world ramp times and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}
