@@ -1,0 +1,160 @@
+{
+  "title": "Online Reputation Management Business",
+  "slug": "online-reputation-management-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start an Online Reputation Management Business — Costs & Earnings",
+  "metaDescription": "Honest guide to starting an online reputation management business: manage reviews and search results for local businesses, with real costs, earnings ranges, and ethics.",
+  "startupCostLow": 500,
+  "startupCostHigh": 4000,
+  "monthlyEarningsLow": 1500,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "3 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "People with sales and writing ability who can build review-generation systems for local businesses and professionals and handle the occasional reputation crisis",
+  "biggestRisk": "Crossing ethical and platform lines — buying or faking reviews, which gets clients' profiles penalized or removed and can permanently destroy your reputation as a provider",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 10,
+  "skills": ["sales", "writing"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["max-income", "flexibility", "low-risk"],
+  "noExperienceRequired": true,
+  "partTimeFriendly": true,
+  "whatItIs": "An online reputation management (ORM) business helps local businesses and individual professionals control how they appear online — primarily their star ratings and reviews on Google, Yelp, and industry platforms, the accuracy of their Google Business Profile, and what shows up when someone searches their name or company. For most clients the work is proactive: building systems that consistently generate genuine positive reviews from happy customers, responding professionally to reviews, keeping business listings accurate, and gently pushing down outdated or unflattering search results with new, legitimate content. A smaller, higher-stakes slice is reactive crisis work — helping a business or professional recover after a damaging incident or wave of bad press. You charge a monthly retainer, sometimes with project fees for cleanup work.",
+  "dailyReality": "Most of the work is steady, systematic, and done remotely. A typical week involves setting up or tuning review-request automations so clients capture more reviews from satisfied customers, drafting professional responses to new reviews (especially negative ones), auditing and correcting Google Business Profile and directory listings, and reporting metrics like new review volume and average rating to clients. Crisis clients are different — those weeks are intense, involving rapid response, content creation, outreach to platforms through legitimate channels, and a lot of expectation management with a stressed client. The hardest part is not technical; it is constantly resisting clients who want fake reviews or want negative-but-legitimate reviews magically deleted, neither of which you can ethically or reliably do.",
+  "startupCostsItemized": [
+    { "item": "Review generation / management software (Birdeye, Podium, NiceJob, or similar)", "low": 0, "high": 400, "annual": true },
+    { "item": "Local listing / citation management tool (BrightLocal, Yext)", "low": 0, "high": 600, "annual": true, "optional": true },
+    { "item": "Search and monitoring tools (Google Alerts free, plus SEO tool)", "low": 0, "high": 1200, "annual": true, "optional": true },
+    { "item": "Content / publishing for search suppression (writing, basic web)", "low": 0, "high": 500, "annual": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Simple website and case studies", "low": 0, "high": 500, "optional": true },
+    { "item": "CRM and reporting tools", "low": 0, "high": 300, "annual": true },
+    { "item": "Professional liability / general business insurance", "low": 300, "high": 800, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Beginners typically charge $300 to $1,000 per client per month for proactive review management and manage a handful of clients, landing around $1,500 to $4,000 per month in year one. Crisis or cleanup projects, when they come, add one-off fees of $1,000 to $5,000.",
+    "experienced": "Operators with a track record and ten to twenty retainer clients commonly report $5,000 to $12,000 per month, with retainers of $500 to $1,500 each plus occasional higher-fee reputation-repair projects.",
+    "topEarners": "Established agencies serving regional chains, franchises, multi-location businesses, and high-profile professionals gross $20,000 to $60,000+ per month, often blending ORM with broader local SEO and marketing services. Reaching this level requires a strong reputation, repeatable systems, and a sales engine for ongoing retainers.",
+    "whatAffectsMost": "Retention and client mix matter most. Recurring retainers across many local businesses produce stable income; chasing one-off crisis projects is lucrative but unpredictable. Bundling ORM with local SEO raises retainer value substantially.",
+    "perHour": "Because much of the work is automated and systematized, effective rates run $30 to $60 per hour for beginners and $75 to $150+ per hour for experienced operators who have built efficient review-generation systems and serve many clients on retainers."
+  },
+  "howToStart": [
+    "Weeks 1-2: Learn the platforms cold — Google Business Profile, Yelp, and the major review tools — including their guidelines on what is and is not allowed. Choose a niche (dentists, contractors, restaurants, law firms) so your pitch and systems are tailored.",
+    "Weeks 3-4: Set up a review-generation tool and a reporting template. Land your first client, ideally a business with good service but few reviews, and offer a clear monthly retainer to build and run their review system.",
+    "Days 30-60: Deliver visible results — more genuine reviews, a cleaned-up Google profile, professional review responses — and turn those into a case study and testimonial.",
+    "Days 60-180: Use results and referrals to add clients, standardize your onboarding and monthly process, and decide whether to add local SEO or crisis-repair services to raise retainer value."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Selling retainers to skeptical local business owners",
+      "Clear, calm, professional writing for review responses and client communication",
+      "A firm ethical line and the willingness to refuse fake-review requests"
+    ],
+    "canLearn": [
+      "Configuring review-generation and listing-management software",
+      "Google Business Profile optimization and basic local SEO",
+      "Content creation and basic web publishing for search suppression"
+    ],
+    "separators": [
+      "Building a review-request system that reliably captures genuine reviews from happy customers without violating platform rules",
+      "Handling crisis situations calmly and ethically, which commands premium fees",
+      "Retaining clients month after month by demonstrating measurable improvement"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Buying, faking, or incentivizing reviews, which violates platform policies and can get clients' profiles filtered or removed and ruin your credibility",
+    "Promising to delete legitimate negative reviews, which you usually cannot do and should not promise",
+    "Underestimating how much of the value is proactive systems, not reactive damage control",
+    "Failing to set expectations, so clients expect a five-star average overnight when reputation builds slowly",
+    "Ignoring platform guideline changes, then watching review-request tactics that used to work get penalized",
+    "Competing only on price instead of demonstrating measurable results that justify a retainer"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Review management platform (Birdeye, Podium, NiceJob)", "note": "Automates review requests by text and email — the engine of proactive ORM.", "low": 0, "high": 400 },
+    { "item": "Listing / citation tool (BrightLocal, Yext)", "note": "Keeps name, address, and phone consistent across directories, which supports both ratings and local search.", "low": 0, "high": 600 },
+    { "item": "Monitoring tools (Google Alerts, brand monitoring)", "note": "Google Alerts is free; paid monitoring is worth it for higher-profile clients.", "low": 0, "high": 500 },
+    { "item": "Reporting dashboard (Google Looker Studio, agency tools)", "note": "Showing review growth and rating trends is how you keep retainers.", "low": 0, "high": 300 },
+    { "item": "Content and basic web publishing tools", "note": "For creating legitimate positive content to improve what ranks for a client's name.", "low": 0, "high": 400 },
+    { "item": "CRM and project management (HubSpot free, Notion, Trello)", "note": "Manage onboarding and recurring monthly tasks per client.", "low": 0, "high": 200 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to local businesses with strong service but visibly few or low reviews",
+      "Partnering with marketing agencies, web designers, and local SEO firms who want to refer reputation work",
+      "Niche targeting of professionals who live or die by reputation — dentists, lawyers, contractors, real estate agents",
+      "Local networking, chambers of commerce, and industry associations",
+      "Referrals from satisfied clients, which become the main channel once you have results"
+    ],
+    "whereCustomersAre": "Local service businesses and individual professionals whose customers research them online before buying — concentrated among dentists, medical and legal practices, contractors, restaurants, and multi-location local businesses.",
+    "timeToClientBase": "You can land a first retainer within three to six weeks of focused outreach, and build a stable base of ten or more clients over six to twelve months as results and referrals accumulate.",
+    "wasteOfTime": "Broad online ads and cold-pitching huge corporations that already have in-house teams. Early on, targeted local outreach and demonstrating quick wins for one niche converts far better."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. Because the work is largely systematized and recurring, a portfolio of ten to twenty retainer clients is a solid full-time income, and adding services like local SEO raises the ceiling.",
+    "hireAndStepBack": "Yes. The recurring, process-driven nature of ORM makes it well suited to hiring account managers and a virtual assistant for monitoring and review responses, letting you focus on sales and strategy.",
+    "sellable": "An agency with many recurring retainer clients, documented systems, and an ethical track record is genuinely sellable, often at a healthy multiple because the revenue is recurring. A reputation built on fake reviews is a liability, not an asset.",
+    "whatScalingRequires": "Standardized onboarding and monthly workflows, reliable software, trained staff or contractors, a steady lead source, and an unbreakable ethical standard so a single bad-faith tactic does not blow up the brand."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You can sell retainers to local business owners and explain clearly what you do",
+      "You write calmly and professionally, even when responding to angry reviews",
+      "You are comfortable with systematic, recurring work rather than constant novelty",
+      "You hold a firm ethical line and will turn down fake-review requests"
+    ],
+    "poorFit": [
+      "You are tempted to cut corners with fake or incentivized reviews to show fast results",
+      "You dislike selling or ongoing client relationship management",
+      "You want a one-and-done project business rather than recurring retainers",
+      "You are unwilling to keep up with constantly changing platform guidelines"
+    ],
+    "askYourself": [
+      "Am I willing to lose a sale rather than promise something unethical like deleting real reviews or faking new ones?",
+      "Can I sell and retain monthly retainers, which is where the real income is?",
+      "Do I have access to a niche of local businesses or professionals who genuinely care about their online reputation?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is online reputation management ethical and legal?",
+      "answer": "Done correctly, yes — generating genuine reviews from real customers, responding professionally, keeping listings accurate, and publishing legitimate content are all ethical and within platform rules. What is not legal or ethical is buying fake reviews, posting reviews as customers you do not have, or paying for false praise, which violates FTC rules and platform policies and can get clients penalized. The ethical line is the core of a sustainable ORM business."
+    },
+    {
+      "question": "Can I get a negative review removed?",
+      "answer": "Usually not, unless the review violates the platform's specific policies — for example, it contains hate speech, is clearly fake, or comes from a non-customer. You can flag and report those, but legitimate negative reviews generally stay. The honest, effective strategy is to respond professionally and generate enough genuine positive reviews that the overall rating reflects the business fairly."
+    },
+    {
+      "question": "How is this different from local SEO?",
+      "answer": "There is significant overlap, but reputation management focuses specifically on reviews, ratings, and what shows up for a business or person's name, while local SEO focuses on ranking in map and search results for service-related searches. Reviews and Google Business Profile accuracy influence both, which is why many operators bundle the two into a higher-value retainer."
+    },
+    {
+      "question": "How much should I charge?",
+      "answer": "Proactive review management commonly runs $300 to $1,500 per client per month depending on scope and volume, while reactive crisis or cleanup projects carry one-off fees of $1,000 to $5,000 or more. Price on the value of a stronger reputation to the client's revenue, not on your hours, and lean toward recurring retainers for predictable income."
+    },
+    {
+      "question": "Do I need technical or SEO skills to start?",
+      "answer": "Not deep ones to begin. The proactive work relies on review-generation software and clear writing more than technical skill. You can learn Google Business Profile optimization and basic local SEO as you go. Sales ability and an ethical, systematic approach matter more than technical depth early on."
+    },
+    {
+      "question": "What does reputation crisis work involve?",
+      "answer": "Crisis work means helping a business or individual recover after damaging publicity, a coordinated wave of negative reviews, or harmful search results. It involves rapid, ethical response — publishing legitimate positive content, correcting misinformation through proper channels, and managing communications — to gradually improve what people find. It pays well but is unpredictable, high-pressure, and best taken on once you are experienced."
+    },
+    {
+      "question": "How long until a client sees results?",
+      "answer": "Proactive review growth shows within the first month or two once a review-request system is running, but meaningfully shifting an average rating or what ranks for a name takes several months because reputation builds slowly and legitimately. Setting that expectation upfront is essential, since clients who expect instant transformation are the ones most likely to churn."
+    }
+  ],
+  "similarBusinesses": [
+    "seo-consulting-business",
+    "social-media-management-business",
+    "lead-generation-business",
+    "freelance-copywriting-business"
+  ],
+  "dataSources": [
+    "Federal Trade Commission guidance on reviews, endorsements, and deceptive marketing",
+    "Local search and review industry reports (BrightLocal Local Consumer Review Survey)",
+    "Google Business Profile and Yelp content and review policies",
+    "Agency and operator communities (local marketing and ORM forums) for real-world retainer pricing and retention data"
+  ],
+  "lastReviewed": "2026-06"
+}

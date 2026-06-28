@@ -1,0 +1,164 @@
+{
+  "title": "Videography Business",
+  "slug": "videography-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a Videography Business — Real Costs and Earnings",
+  "metaDescription": "Honest breakdown of starting a videography business: real startup costs, realistic earnings, gear and editing skills, finding clients, and what most videographers get wrong.",
+  "startupCostLow": 3000,
+  "startupCostHigh": 25000,
+  "monthlyEarningsLow": 1500,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "3 to 8 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Visual storytellers who can both shoot and edit and are comfortable selling project work to businesses",
+  "biggestRisk": "Underpricing project work that hides huge unpaid editing hours, and being too generalist to stand out",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 12,
+  "skills": ["creative", "tech", "sales", "people"],
+  "workLocations": ["mobile", "home", "online", "flexible"],
+  "priorities": ["flexibility", "max-income", "alongside-job", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A videography business shoots and produces video content for clients — corporate and brand videos, event coverage, real estate tours, testimonials, social media and short-form content, and promotional pieces. Unlike a wedding photographer (a different niche with its own market) or an edit-only operator who only works with footage others provide, a videographer owns the whole production: planning the shoot, capturing footage on-site with cameras, lighting, and audio gear, and editing it into a finished deliverable. The work spans industries because nearly every business now needs video for websites, ads, and social platforms, and the recurring nature of content creation means strong client relationships can produce ongoing work rather than one-off projects.",
+  "dailyReality": "Work clusters around shoot days and edit days. On a shoot you scout or set up a location, rig cameras, lights, and microphones, direct subjects or capture an event, and manage the pressure of getting usable footage in limited time. Then comes editing — often two to five hours of post for every hour shot — assembling clips, color grading, mixing audio, adding graphics and music, and pushing through client revision rounds. Around that is the business itself: writing proposals and quotes, scoping projects, managing usage and deliverable expectations, invoicing, and prospecting. Real estate and social work can be fast turnaround and high volume; corporate and brand work is higher-budget but more involved. Gear maintenance, backups, and file management quietly eat time too.",
+  "startupCostsItemized": [
+    { "item": "Camera body capable of quality video and one or two lenses (used acceptable)", "low": 1000, "high": 6000 },
+    { "item": "Audio gear (shotgun mic, lavaliers, recorder) — critical for professional video", "low": 200, "high": 2000 },
+    { "item": "Lighting kit (LED panels, softboxes, stands)", "low": 300, "high": 3000 },
+    { "item": "Gimbal/stabilizer, tripod, and a drone (optional, for real estate/aerials)", "low": 300, "high": 4000 },
+    { "item": "Editing computer and software (Premiere/DaVinci Resolve/Final Cut)", "low": 0, "high": 4000 },
+    { "item": "Memory cards, batteries, storage drives, and backups", "low": 200, "high": 1500 },
+    { "item": "Business registration / LLC and gear/liability insurance", "low": 200, "high": 1200, "annual": true },
+    { "item": "Portfolio website, sample/demo projects, and music licensing", "low": 100, "high": 2000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most videographers earn $1,500 to $4,000 per month part-time in year one while building a reel and learning to price. Project rates vary widely: real estate videos commonly $150 to $500, social/short-form packages $300 to $1,500, and corporate/brand projects $1,000 to $5,000+. Beginners routinely underprice because they don't account for the heavy editing time hidden in each project.",
+    "experienced": "Videographers with a strong reel, repeat clients, and efficient workflows commonly earn $5,000 to $12,000 per month. Day rates climb to $800 to $2,000+, and recurring corporate content or social-media retainers add predictable income. Many stabilize here as solo operators with occasional contractors.",
+    "topEarners": "Top videographers and small production companies serving agencies and national brands bill $2,500 to $5,000+ per shoot day plus editing and licensing, reaching $150,000 to $300,000+ per year. Getting there takes a standout reel, a niche or signature style, agency relationships, and often a team of shooters and editors. Most never reach this tier, and many plateau at a comfortable solo income.",
+    "whatAffectsMost": "Reel quality, a clear niche, and editing efficiency matter most. The gap between a struggling and thriving videographer is rarely the camera — it's a focused reel that wins a specific kind of client, pricing that accounts for post-production, and turning projects into recurring relationships.",
+    "perHour": "Counting shooting, the substantial editing time, and revisions, realistic blended rates run $30 to $75 per hour early on, rising to $75 to $150+ as you specialize, speed up editing, and land recurring or higher-budget clients. The hidden cost is always post-production hours."
+  },
+  "howToStart": [
+    "Week 1-2: Get comfortable with the full pipeline — exposure and framing, capturing clean audio (the most common beginner failure), basic lighting, and editing in Premiere or DaVinci Resolve. Pick one or two niches to focus on (real estate, corporate, social/short-form, events) rather than offering everything.",
+    "Week 2-4: Build a tight demo reel and portfolio site in your chosen niche, even if it means shooting sample projects for free or trade. Define clear project packages with set deliverables, revision limits, turnaround times, and usage terms. Register your business and get gear/liability insurance.",
+    "Month 1-2: Land first paying work through direct outreach to local businesses, real estate agents, and marketing agencies, plus your existing network. Offer a reasonable first-project rate to earn the reel piece and the relationship, then over-deliver on quality and turnaround.",
+    "Month 2-4: Convert one-off jobs into recurring content arrangements — monthly social videos, ongoing listing videos for agents, regular corporate content. Build editing templates and presets to cut turnaround, and collect testimonials and referrals.",
+    "Ongoing: Raise rates as your reel strengthens, and double down on a niche and style where you become the obvious hire instead of a generalist competing on price."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Both shooting and editing ability — framing, exposure, capturing clean audio, and assembling a finished edit",
+      "Solid editing skill in Premiere, DaVinci Resolve, or Final Cut, including basic color and audio",
+      "Project and client management: scoping, deliverables, revisions, and deadlines",
+      "Comfort selling project work to businesses and quoting accurately"
+    ],
+    "canLearn": [
+      "Advanced color grading, motion graphics, and sound design",
+      "Drone operation (and the FAA Part 107 certificate if flying commercially)",
+      "Lighting setups for interviews and corporate environments"
+    ],
+    "separators": [
+      "A focused reel and signature style that win a specific niche of clients",
+      "Fast, reliable editing and turnaround that recurring clients depend on",
+      "Selling outcomes and ongoing content relationships rather than competing on per-project price"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underpricing projects by ignoring editing hours — a flat fee that hides two days of post is a money-loser",
+    "Neglecting audio; bad sound ruins otherwise good footage and instantly signals an amateur",
+    "Being a generalist who shoots everything, never building a reel strong enough to win premium work",
+    "Buying camera gear endlessly while skill, lighting, and audio lag behind",
+    "No written scope or revision limits, leading to endless unpaid revision rounds that destroy profitability",
+    "Treating every job as one-off instead of pursuing recurring content retainers that stabilize income"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Camera and lenses", "note": "A used hybrid camera with quality video and one or two lenses is plenty. Skill and audio matter more than the newest body.", "low": 1000, "high": 6000 },
+    { "item": "Audio gear", "note": "Shotgun mic, lavaliers, and a recorder. The single most underrated investment — clean audio separates pros from amateurs.", "low": 200, "high": 2000 },
+    { "item": "Lighting kit", "note": "LED panels and modifiers for interviews and interiors. Essential for professional corporate and brand work.", "low": 300, "high": 3000 },
+    { "item": "Gimbal, tripod, and optional drone", "note": "Stabilization for smooth movement; a drone adds aerials for real estate (requires FAA Part 107 to fly commercially).", "low": 300, "high": 4000 },
+    { "item": "Editing computer and software", "note": "A capable machine plus Premiere, DaVinci Resolve (free tier is strong), or Final Cut. Editing skill is where projects are won.", "low": 0, "high": 4000 },
+    { "item": "Storage, backups, and music licensing", "note": "Reliable drives and a backup routine; licensed music/SFX to avoid copyright problems.", "low": 200, "high": 1500, "annual": true }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to local businesses, real estate agents, and brands needing video for sites, ads, and social",
+      "A focused demo reel and portfolio site, plus showcasing work on Instagram, YouTube, and LinkedIn",
+      "Relationships with marketing agencies and event planners who subcontract video",
+      "Referrals and testimonials from satisfied recurring clients",
+      "Niche presence — being the go-to videographer for a specific industry or content type in your area"
+    ],
+    "whereCustomersAre": "Businesses needing brand and social content, real estate agents and property managers, event organizers, marketing agencies, and any organization that needs ongoing video for websites, advertising, and social platforms.",
+    "timeToClientBase": "First paying projects often come within three to eight weeks of having a reel and doing outreach. Building a base of recurring clients that provides steady income usually takes three to six months of consistent, reliable delivery.",
+    "wasteOfTime": "Racing to the bottom on global freelance marketplaces and posting reels with no clear offer or outreach. Early on, targeted direct outreach to local businesses and agents converts far better than waiting to be discovered, and chasing every type of job dilutes the reel that wins premium clients."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. Many videographers reach full-time income with a roster of recurring business and real estate clients. The ceiling as a solo operator is your shoot and edit capacity, which improves significantly with templates and workflow systems.",
+    "hireAndStepBack": "Partly. You can hire editors to offload post-production (the biggest bottleneck) and bring on second shooters for volume, evolving into a small production company. Fully stepping back is harder because clients often buy your eye and direction, but a studio with a consistent style and a team can run with less of your direct involvement.",
+    "sellable": "A solo videography brand centered on the owner is hard to sell. A production company with recurring contracts, a recognizable style, a team, and documented systems has transferable value. Most videographers monetize through ongoing income rather than an eventual sale.",
+    "whatScalingRequires": "Productized packages with clear deliverables, editing help or an in-house editor, recurring/retainer relationships, and possibly second shooters and a project-management system. Systematizing editing and onboarding is what makes delegation and growth possible."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You enjoy both being on location shooting and the detailed craft of editing",
+      "You can manage projects, deadlines, and client revisions without dropping balls",
+      "You're willing to pick a niche and market yourself to businesses",
+      "You can tolerate variable, project-based income while building recurring work"
+    ],
+    "poorFit": [
+      "You only want to shoot and dislike editing — post is a large share of the job",
+      "You want passive income or fully predictable hours",
+      "You expect to win on the lowest price rather than quality and reliability",
+      "You won't do the sales and outreach needed to land business clients"
+    ],
+    "askYourself": [
+      "Am I willing to spend two to five hours editing for every hour I shoot, and to price for it?",
+      "Can I commit to a niche and build a reel strong enough to win that work?",
+      "Do I have enough local businesses, agents, or agencies to build recurring projects?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is videography different from being a video editor or wedding photographer?",
+      "answer": "A videographer owns the full production — planning, shooting on-site with cameras, lighting, and audio, then editing into a finished piece. A video editor typically works only with footage others provide, and a wedding photographer is a separate niche focused on stills at weddings. Videography spans corporate, events, real estate, and social work and requires both strong shooting and editing skills, which is why pricing must account for heavy post-production time."
+    },
+    {
+      "question": "Do I need an expensive cinema camera to start?",
+      "answer": "No. A used hybrid camera with good video, one or two lenses, solid audio gear, and basic lighting will handle the majority of client work. Clients judge the finished video, not your camera's spec sheet, and clean audio and good editing matter far more than resolution. Invest in skill, audio, and lighting before chasing the latest body."
+    },
+    {
+      "question": "How should I price video projects?",
+      "answer": "Common approaches are per-project packages (e.g., real estate videos $150 to $500, social packages $300 to $1,500, corporate projects $1,000 to $5,000+) and day rates ($800 to $2,500+ depending on experience). Always price in editing time, revision limits, and usage rights. The most common beginner mistake is a flat fee that ignores how many hours post-production really takes."
+    },
+    {
+      "question": "Do I need a license to fly a drone for client videos?",
+      "answer": "Yes. To fly a drone commercially in the U.S., you need the FAA Part 107 Remote Pilot Certificate, which requires passing a knowledge exam, plus you must register the aircraft and follow airspace rules. Drone aerials are valuable for real estate and certain brand work, but flying for paid jobs without Part 107 is illegal and uninsurable."
+    },
+    {
+      "question": "Can I run a videography business part-time?",
+      "answer": "Yes, many start part-time around a job, shooting on weekends and editing in evenings. Real estate and social work suit part-time schedules well. The main constraints are turnaround expectations and the fact that some corporate shoots happen on weekdays, so be selective about what you take on until you can go full-time."
+    },
+    {
+      "question": "What separates videographers who do well from those who don't?",
+      "answer": "A focused reel and niche, editing efficiency, and the ability to turn one-off jobs into recurring relationships. The ones who struggle are usually generalists who underprice, neglect audio, and chase one-off work. The ones who thrive specialize, price for the full production including editing, and build repeat clients who need ongoing content."
+    },
+    {
+      "question": "How do I build a reel with no client work yet?",
+      "answer": "Shoot sample projects in your target niche — a mock business promo, a local property, a short brand piece — for free or trade to earn portfolio pieces and testimonials. Approach local businesses with weak or no video and offer a strong first project at a fair starter rate. Deliver fast and polished, then use those pieces and references to win paying clients and recurring work."
+    }
+  ],
+  "similarBusinesses": [
+    "video-editing-business",
+    "photography-business",
+    "real-estate-photography-business",
+    "social-media-management-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Film and Video Editors and Camera Operators occupational data",
+    "Videography and production pricing guides and freelancer rate surveys",
+    "FAA Part 107 Remote Pilot certification requirements for commercial drone operation",
+    "Videographer and filmmaker communities and forums (r/videography, r/Filmmakers) for real-world rates and workflow",
+    "Marketing and agency industry reports on business demand for video content"
+  ],
+  "lastReviewed": "2026-06"
+}
