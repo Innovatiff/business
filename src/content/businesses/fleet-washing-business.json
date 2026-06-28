@@ -1,0 +1,160 @@
+{
+  "title": "Fleet Washing Business",
+  "slug": "fleet-washing-business",
+  "category": "service-businesses",
+  "metaTitle": "How to Start a Fleet Washing Business — Real Costs and Earnings",
+  "metaDescription": "Honest guide to starting a fleet washing business: real startup costs, recurring B2B earnings, water-reclamation rules, night work, and what most people get wrong.",
+  "startupCostLow": 5000,
+  "startupCostHigh": 35000,
+  "monthlyEarningsLow": 3000,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "People who can sell B2B contracts, don't mind night work, and want recurring commercial revenue over one-off residential jobs",
+  "biggestRisk": "Violating water-reclamation and stormwater rules, which can bring heavy environmental fines and kill commercial contracts",
+  "speedToIncome": "months",
+  "minWeeklyHours": 20,
+  "skills": ["hands", "sales"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A fleet washing business cleans commercial vehicle fleets — semi-trucks and trailers, box trucks, delivery vans, buses, and service vehicles — on-site at the client's yard, usually overnight when the vehicles are parked. It is distinct from a mobile car wash: the customers are businesses on recurring contracts, the vehicles are large and dirty, the work happens at night on a schedule, and you must capture and manage wash water under environmental rules rather than letting it run into storm drains. Revenue is recurring and predictable — a single trucking yard or delivery hub can mean dozens of vehicles washed weekly under contract — which makes it more stable than consumer detailing, but the equipment, water-reclamation requirements, and B2B sales cycle make it a more serious operation to start.",
+  "dailyReality": "Most of the work happens at night and on weekends, when fleets sit idle in their yards. You arrive with a rig — pressure washers, water and chemical tanks, often a hot-water unit, and a water-reclamation system to capture runoff — and work down rows of trucks, applying detergent, brushing or pressure-washing, and rinsing. It is physical, wet, and often cold late-night work, and you are responsible for not letting contaminated water reach storm drains. Around the washing you spend daytime hours on the part that actually makes the business work: bidding contracts, meeting fleet managers, invoicing, and managing schedules. Because it is contract-based, you trade the flexibility of residential work for the discipline of showing up reliably, every cycle, for business clients who will drop you fast if quality or compliance slips.",
+  "startupCostsItemized": [
+    { "item": "Commercial hot/cold pressure washer(s)", "low": 1500, "high": 6000 },
+    { "item": "Water tank, chemical tanks, hoses, brushes, and wands", "low": 800, "high": 3000 },
+    { "item": "Water-reclamation / vacuum recovery system", "low": 1000, "high": 8000 },
+    { "item": "Trailer or work truck to carry the rig", "low": 1000, "high": 12000 },
+    { "item": "General liability and commercial auto insurance", "low": 1500, "high": 4000, "annual": true },
+    { "item": "Business registration / LLC and EPA/stormwater permits where required", "low": 100, "high": 1000 },
+    { "item": "Detergents, degreasers, and brightener inventory", "low": 200, "high": 800 },
+    { "item": "Generator and lighting for night work", "low": 0, "high": 1500, "optional": true },
+    { "item": "Website, sales materials, and B2B outreach", "low": 0, "high": 800, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most operators in year one earn $3,000 to $7,000 per month while landing their first contracts. Per-vehicle pricing is common — roughly $15 to $40 to wash a truck or trailer exterior, more for trailers needing degreasing — so a single recurring yard of 30 to 60 trucks washed weekly is the foundation of viable income.",
+    "experienced": "Operators with two-plus years and several recurring fleet contracts commonly report $8,000 to $15,000 per month, often running one or two helpers. Stable contracts with set wash cycles make revenue far more predictable than consumer work.",
+    "topEarners": "Multi-crew fleet washing companies with multiple rigs and regional contracts gross $30,000 to $100,000-plus per month, but reaching that requires hiring and managing night crews, multiple compliant rigs, a real sales operation, and the systems to run several yards on schedule. Labor and turnover are the main constraints.",
+    "whatAffectsMost": "Contract density and reliability matter most. A few large recurring yards close together beat many scattered small accounts. Compliance reputation also matters — fleet managers want a vendor who won't expose them to environmental violations — and so does the ability to win and keep B2B contracts.",
+    "perHour": "Effective rates run $40 to $90 per hour of washing once you have route density and efficient equipment. Counting bidding, driving, and equipment maintenance, blended rates early on are often $30 to $60 per hour, rising as contracts stack up."
+  },
+  "howToStart": [
+    "Month 1: Research your area's stormwater and water-reclamation rules — washing fleets and letting runoff hit storm drains is regulated, and compliance is non-negotiable. Decide whether you'll use a vacuum recovery system or arrange approved discharge. Register the business and get commercial liability and auto insurance.",
+    "Month 1-2: Buy or finance a commercial pressure-wash rig with a reclamation setup, water and chemical tanks, and lighting for night work. Test your full process on a few vehicles so you know your time and water use per truck before quoting.",
+    "Month 2: Start B2B outreach — call and visit fleet managers at trucking yards, delivery hubs, bus depots, and service-vehicle fleets. Offer a paid trial wash to prove quality and compliance, and bid per-vehicle on a recurring weekly or biweekly cycle.",
+    "Month 2-3: Land your first one or two recurring contracts and build your night schedule around them. Invoice on clear terms and document your compliance so clients trust you.",
+    "Days 90-180: Densify contracts geographically, add a helper as volume grows, and pursue larger yards once your process and reliability are proven."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "B2B sales ability — landing and keeping recurring contracts with fleet managers",
+      "Reliability on a night/weekend schedule, since fleets must be ready for morning routes",
+      "Understanding of stormwater and water-reclamation compliance"
+    ],
+    "canLearn": [
+      "Efficient wash technique and chemical selection for heavy road grime and trailers",
+      "Operating and maintaining a reclamation/vacuum recovery rig",
+      "Per-vehicle bidding and contract structuring"
+    ],
+    "separators": [
+      "Winning and retaining large recurring contracts instead of chasing small accounts",
+      "Spotless compliance that makes you a safe vendor for risk-averse fleet managers",
+      "Route and contract density that keeps crews and equipment fully utilized each night"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Letting wash water run into storm drains, which violates Clean Water Act and local stormwater rules and can bring heavy fines and lost contracts",
+    "Treating it like a bigger mobile car wash and underestimating the equipment, water management, and B2B sales required",
+    "Underbidding per-vehicle pricing to win a contract, then losing money once water, chemicals, and night labor are counted",
+    "Skipping commercial liability and auto insurance that fleet clients require",
+    "Building a scattered set of small accounts with long drives instead of dense recurring yards",
+    "Promising a wash cycle they can't reliably hit, then getting dropped when trucks aren't ready for morning"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Commercial hot/cold pressure washer", "note": "Hot water cuts road grime and grease far faster on heavy trucks.", "low": 1500, "high": 6000 },
+    { "item": "Water-reclamation / vacuum recovery system", "note": "Captures runoff to stay compliant; the single most important compliance tool.", "low": 1000, "high": 8000 },
+    { "item": "Water and chemical tanks, hoses, brushes", "note": "On-site water capacity and the right detergents for fleet grime.", "low": 800, "high": 3000 },
+    { "item": "Trailer or work truck", "note": "Carries the full rig to client yards; can be financed.", "low": 1000, "high": 12000 },
+    { "item": "Generator and work lighting", "note": "Essential for safe, efficient night work in unlit yards.", "low": 0, "high": 1500 },
+    { "item": "Detergents, degreasers, brighteners", "note": "Heavy-duty chemistry for trucks and aluminum trailers.", "low": 200, "high": 800 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct B2B outreach — calling and visiting fleet managers at trucking yards, delivery hubs, and bus depots",
+      "Offering a paid trial wash to prove quality and compliance before a contract",
+      "Targeting businesses with visible fleets (logistics, construction, food distribution, municipal vehicles)",
+      "Referrals and reputation among fleet managers, who talk to each other",
+      "A simple website and LinkedIn presence emphasizing recurring service and environmental compliance"
+    ],
+    "whereCustomersAre": "Companies that run vehicle fleets — trucking and logistics firms, delivery and courier companies, construction outfits, food and beverage distributors, bus operators, and municipal fleets. The decision-maker is a fleet or operations manager, and the work happens at their yard, usually overnight.",
+    "timeToClientBase": "B2B contracts have a slower sales cycle than consumer work — expect one to three months to land your first recurring accounts. Once you have a few reliable contracts and a compliance reputation, growth comes through referrals and proven uptime, often over six to twelve months.",
+    "wasteOfTime": "Consumer-style advertising, flyers, and discount promos aimed at the public. This is a relationship-driven B2B business won through direct outreach, trial washes, and reliability, not retail marketing."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and it is built for it — recurring B2B contracts create predictable monthly revenue. A solo operator with two or three good yards can reach full-time income, though night work and equipment costs make it a more serious commitment than residential washing.",
+    "hireAndStepBack": "Strong potential. Because the work is scheduled and repetitive, you can train night crews to run yards while you handle sales, compliance, and management. The constraint is night-shift labor reliability and turnover.",
+    "sellable": "Yes — a fleet washing business with documented recurring contracts, compliant equipment, and trained crews is a genuine asset that sells for a multiple of profit. The contracts and systems are the value, not your personal labor.",
+    "whatScalingRequires": "Multiple compliant rigs, reliable night crews, standardized processes and pricing, a real B2B sales pipeline, and tight scheduling to keep large yards serviced on cycle. Compliance must scale with you, since one violation can cost multiple contracts."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You can sell to businesses and value recurring contracts over one-off jobs",
+      "You are willing to work nights and weekends when fleets are parked",
+      "You will take compliance and water management seriously",
+      "You want a business you can grow with crews and eventually sell"
+    ],
+    "poorFit": [
+      "You want flexible daytime hours or a low-commitment side hustle",
+      "You are uncomfortable with B2B sales and long contract cycles",
+      "You aren't prepared to invest in proper equipment and water-reclamation gear",
+      "You can't reliably hit a fixed wash schedule for demanding business clients"
+    ],
+    "askYourself": [
+      "Am I willing to work nights consistently and run a compliant water-reclamation operation?",
+      "Can I sell and retain recurring B2B contracts, not just do the washing?",
+      "Are there enough fleet yards in my area to build dense, profitable routes?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is fleet washing different from a mobile car wash?",
+      "answer": "Fleet washing serves businesses on recurring contracts, cleans large commercial vehicles, happens on-site at the client's yard (usually overnight), and requires capturing wash water under environmental rules. A mobile car wash typically serves individual consumers, one car at a time, during the day. Fleet washing is a more serious, equipment- and compliance-heavy B2B operation with steadier revenue."
+    },
+    {
+      "question": "What are the water-reclamation rules I need to follow?",
+      "answer": "Under the federal Clean Water Act and local stormwater ordinances, you generally cannot let contaminated wash water flow into storm drains. Most operators use a vacuum recovery or water-reclamation system to capture runoff, then dispose of it properly. Rules vary by municipality, so check local stormwater and EPA requirements before your first job — fleet managers will expect you to be compliant."
+    },
+    {
+      "question": "How much does it cost to start a fleet washing business?",
+      "answer": "Realistically $5,000 to $35,000 depending on equipment. A lean start with one pressure washer, tanks, and a basic reclamation setup runs at the low end; a fully equipped rig with a hot-water unit, vacuum recovery, and a dedicated trailer or truck runs much higher. Insurance and permits add to the baseline, and equipment can often be financed."
+    },
+    {
+      "question": "How do I price fleet washing?",
+      "answer": "Per-vehicle pricing is most common — roughly $15 to $40 to wash a truck or trailer exterior, more for trailers needing heavy degreasing — billed on a recurring weekly or biweekly cycle. Price so water, chemicals, night labor, and drive time are all covered. A single yard of 30 to 60 trucks washed regularly is the foundation of a viable account."
+    },
+    {
+      "question": "Is fleet washing really mostly night work?",
+      "answer": "Largely, yes. Fleets are out on routes during the day and parked in their yards at night, so washing happens overnight or on weekends so vehicles are clean and ready by morning. Daytime hours go to sales, bidding, and admin. If you can't commit to night work, this is probably not the right business for you."
+    },
+    {
+      "question": "How long until I'm profitable?",
+      "answer": "Expect a slower start than residential work because B2B contracts take time to land — often one to three months to your first recurring accounts. Once you have a couple of reliable contracts close together, revenue becomes predictable and grows through referrals and a compliance reputation, typically over six to twelve months."
+    }
+  ],
+  "similarBusinesses": [
+    "mobile-car-wash-business",
+    "pressure-washing-business",
+    "commercial-cleaning-business",
+    "boat-detailing-business"
+  ],
+  "dataSources": [
+    "U.S. EPA — Clean Water Act and stormwater discharge guidance for vehicle washing",
+    "Local municipal stormwater ordinances and discharge permitting requirements",
+    "U.S. Bureau of Labor Statistics — Building and Vehicle Cleaning occupational data",
+    "Industry cost guides and equipment supplier pricing for fleet and pressure-wash rigs",
+    "Operator communities and trade forums for real-world per-vehicle pricing and contract earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

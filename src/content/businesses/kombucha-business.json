@@ -1,0 +1,164 @@
+{
+  "title": "Kombucha Brewing Business",
+  "slug": "kombucha-business",
+  "category": "food-and-beverage",
+  "metaTitle": "How to Start a Kombucha Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest guide to starting a kombucha brewing business: permits and food safety, the alcohol-content rule that catches founders, real costs, margins, and distribution.",
+  "startupCostLow": 7000,
+  "startupCostHigh": 60000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 8000,
+  "timeToFirstIncome": "4 to 8 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "People comfortable with fermentation, food safety, and a regulated perishable product who want to build a beverage brand, not a quick side income",
+  "biggestRisk": "Letting kombucha ferment past 0.5% alcohol by volume, which turns an unlicensed soft drink into a regulated alcoholic beverage and can trigger serious legal and tax problems",
+  "speedToIncome": "long",
+  "minWeeklyHours": 20,
+  "skills": ["food"],
+  "workLocations": ["space", "mobile", "flexible"],
+  "priorities": ["sellable", "max-income"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A kombucha business brews fermented sweetened tea — a tangy, lightly fizzy probiotic drink made by fermenting tea and sugar with a SCOBY (symbiotic culture of bacteria and yeast) — and sells it at farmers markets, on tap as kegs to taprooms, cafes, and offices, and bottled through retail and distribution. The defining regulatory wrinkle is alcohol: kombucha naturally produces alcohol as it ferments, and if a finished batch reaches 0.5% alcohol by volume or more, federal and state rules treat it as an alcoholic beverage, requiring alcohol licensing, labeling, and taxes. Staying reliably below that line — or deliberately going above it as a 'hard kombucha' and getting the alcohol permits — is the central technical and legal challenge. Beyond that, it is a perishable, refrigerated beverage that requires a licensed production space, food-safety controls, and a real distribution plan.",
+  "dailyReality": "A brew cycle runs roughly one to three weeks, so a typical week mixes hands-on production days with selling. Production means brewing and cooling tea, pitching starter and SCOBY, monitoring fermentation, testing pH and especially alcohol content, flavoring, force-carbonating, kegging or bottling, and rigorous cleaning and sanitation. Around that you manage cold storage, deliver kegs to taprooms and offices, work weekend markets behind a refrigerated display or jockey box, pitch retail buyers, and handle labeling and inventory. The work is part microbiology, part logistics, and very heavy on sanitation — a contaminated or over-fermented batch is a dumped batch.",
+  "startupCostsItemized": [
+    { "item": "Licensed commercial / commissary brewing space rent", "low": 600, "high": 5000, "annual": true },
+    { "item": "Fermentation vessels, brew kettle, and SCOBY/starter", "low": 500, "high": 6000 },
+    { "item": "Kegs, kegerator/jockey box, CO2, and carbonation setup", "low": 800, "high": 6000 },
+    { "item": "Refrigeration and cold transport", "low": 800, "high": 6000 },
+    { "item": "Alcohol/pH testing equipment (or lab testing)", "low": 200, "high": 2000 },
+    { "item": "Permits, food handler/manager certs, scheduled process / process authority review", "low": 300, "high": 3000 },
+    { "item": "Business registration / LLC and product liability insurance", "low": 600, "high": 2500, "annual": true },
+    { "item": "Bottling/canning line or co-packing for retail", "low": 0, "high": 30000, "optional": true },
+    { "item": "Branding, labels, and farmers market display", "low": 400, "high": 4000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most kombucha brands earn little to nothing in year one and frequently run at a loss while building recipes, permits, accounts, and cold logistics. Market-and-keg sellers realistically clear $0 to $2,500 per month in profit, with many months near break-even as cash recycles into ingredients, kegs, and refrigeration.",
+    "experienced": "Brands two to three years in with steady market sales, several keg accounts (taprooms, cafes, offices), and some retail commonly net $3,000 to $8,000 per month for the owner-operator. Selling on tap by the keg carries much better margins than bottling because it avoids packaging cost and per-unit labeling.",
+    "topEarners": "A small number of kombucha brands scale into regional retail and distribution and gross six or seven figures a year, but reaching that takes a canning/bottling line or co-packer, distributor relationships, retail slotting, food-safety systems, and usually outside capital. Most brands never get there, and the category is crowded and competitive.",
+    "whatAffectsMost": "Channel mix and waste control matter most. Kegs and self-distributed draft are far more profitable than bottles early on, and because the product is perishable, brewing to actual demand instead of guessing protects margin. Recurring keg and retail accounts provide the predictability that markets alone cannot.",
+    "perHour": "Early effective rate is often poor — frequently below minimum wage once you count brewing, deliveries, markets, and sanitation. Established owners with steady keg and retail accounts can reach $25 to $55 per hour of working time."
+  },
+  "howToStart": [
+    "Month 1: Solve the regulatory questions first. Confirm with your state and local health department and your state alcohol authority (and federal TTB) exactly what is required, and decide whether you will run as a non-alcoholic kombucha (kept reliably under 0.5% ABV) or a licensed hard kombucha. This decision shapes everything.",
+    "Months 1-3: Lock in a licensed commercial or commissary brewing space, dial in your recipe and flavors, and build food-safety controls. Establish a reliable way to test alcohol content every batch and document your process; you may need a process authority / scheduled process review for acidified, low-alcohol production.",
+    "Months 2-4: Register your business, get product liability insurance, set up kegging and carbonation, and build cold storage and transport. Price for margin from the start — kegs first, bottles only when the channel justifies the packaging cost.",
+    "Months 3-6: Sell direct at farmers markets and place kegs in taprooms, cafes, gyms, and offices. Use early sales to refine flavors, build an email list and reviews, and prove which accounts reorder.",
+    "Months 6-12: Expand keg accounts and pursue retail only once volume and consistency support it. Add a bottling/canning line or a co-packer for shelf-stable retail, and pursue distribution only after several accounts reliably reorder. Reinvest in the channels that repeat."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid fermentation knowledge and obsessive sanitation discipline",
+      "Willingness to learn and follow food-safety, permit, and the 0.5% ABV alcohol rules",
+      "Reliable batch-by-batch alcohol and pH testing and record-keeping",
+      "Enough capital and patience to fund equipment and survive months near break-even"
+    ],
+    "canLearn": [
+      "Force carbonation, kegging, and draft system management",
+      "Permitting, process-authority requirements, and compliant labeling",
+      "Self-distribution logistics and account management"
+    ],
+    "separators": [
+      "Consistent flavor and quality batch after batch, with the alcohol line reliably controlled",
+      "Winning recurring keg and retail accounts rather than living off market days",
+      "A distinctive brand and flavors that stand out in a crowded, competitive category"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Ignoring the 0.5% ABV line — letting batches over-ferment turns a soft drink into an unlicensed alcoholic beverage, which is a serious legal and tax problem",
+    "Assuming kombucha can be brewed and sold from a home kitchen instead of a licensed commercial space",
+    "Underinvesting in sanitation, leading to contaminated, mold-affected, or inconsistent batches that must be dumped",
+    "Jumping to bottling and retail before proving keg accounts, then drowning in packaging cost and slow inventory",
+    "Skipping batch alcohol and pH testing and the records regulators and accounts expect",
+    "Underestimating the cold chain and how much refrigeration and transport a perishable beverage demands"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Fermentation vessels and brew kettle", "note": "Food-grade fermenters sized to your batch plan, plus a way to brew and cool tea cleanly.", "low": 500, "high": 6000 },
+    { "item": "Kegs, CO2, and carbonation/jockey box", "note": "Draft is your most profitable early channel. Kegs avoid per-bottle packaging and labeling cost.", "low": 800, "high": 6000 },
+    { "item": "Commercial refrigeration and cold transport", "note": "Essential for a perishable beverage from production through delivery.", "low": 800, "high": 6000 },
+    { "item": "Alcohol and pH testing equipment", "note": "Lets you keep batches under 0.5% ABV and document safety. Critical, not optional.", "low": 200, "high": 2000 },
+    { "item": "Sanitation supplies and CIP gear", "note": "Sanitation is most of the work. Contamination is the fastest way to lose a batch.", "low": 100, "high": 1500 },
+    { "item": "Bottling/canning line or co-packer", "note": "Only for shelf retail once kegs are proven. Co-packing avoids a huge equipment outlay.", "low": 0, "high": 30000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Farmers markets and food festivals with a refrigerated display or jockey box for direct sales and sampling",
+      "Keg placements in taprooms, breweries, cafes, gyms, yoga studios, and offices",
+      "Independent grocers, co-ops, and health-food stores for bottled retail",
+      "Office and event draft accounts (recurring keg deliveries)",
+      "An email list and local social presence built from market and sampling customers"
+    ],
+    "whereCustomersAre": "Health-conscious consumers who want a low- or no-alcohol fermented drink — found at markets, gyms, co-ops, and on tap in cafes and offices. Wholesale buyers are taprooms, cafes, grocers, and offices wanting a local draft or shelf option.",
+    "timeToClientBase": "Direct market sales can start within a few months, but a reliable base of repeat keg and retail accounts usually takes one to two years of consistent quality and dependable delivery.",
+    "wasteOfTime": "Pushing into broad retail and distribution with bottles before keg accounts reliably reorder, and over-investing in packaging and ads before unit economics are proven. Sampling and recurring draft accounts convert far better early on."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but slowly and capital-intensively. Full-time owner income usually arrives only after steady market sales plus several recurring keg and retail accounts cover fixed costs and ingredients. Many founders run it as a serious side project for a year or more first.",
+    "hireAndStepBack": "Possible with systems. Brewing and deliveries can be staffed once recipes and food-safety procedures are documented, but consistency and the alcohol-control discipline are hard to delegate early, and the owner's accounts and brand drive the business.",
+    "sellable": "A kombucha brand with a trademark, recurring revenue, documented recipes and food-safety records, and distribution can be sold, sometimes to a larger beverage company. A market-only operation with no recurring accounts is much harder to sell.",
+    "whatScalingRequires": "Larger fermentation capacity, a canning/bottling line or co-packer, ample cold storage and refrigerated logistics, food-safety and process-authority compliance at scale, distributor relationships, and usually outside capital. Moving from self-distributed kegs to packaged retail is where most brands stall."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You understand fermentation and are meticulous about sanitation and food safety",
+      "You are comfortable with regulation, testing, and the alcohol-content rules",
+      "You have capital and patience to fund equipment and survive months near break-even",
+      "You want to build a real beverage brand rather than a fast side income"
+    ],
+    "poorFit": [
+      "You expected to brew at home and sell casually without permits",
+      "You are casual about sanitation, testing, or the 0.5% ABV line",
+      "You are undercapitalized and need income within a month or two",
+      "You dislike the logistics, cold chain, and record-keeping a regulated beverage demands"
+    ],
+    "askYourself": [
+      "Have I confirmed the health-department, process-authority, and alcohol rules, and chosen non-alcoholic or hard kombucha?",
+      "Can I reliably keep batches under 0.5% ABV and document it every time?",
+      "Can I fund the equipment and cold logistics and operate near break-even for a year while I build keg accounts?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is the 0.5% ABV rule and why does it matter so much?",
+      "answer": "Kombucha produces alcohol as it ferments. Under federal rules, a beverage at or above 0.5% alcohol by volume is treated as an alcoholic beverage, requiring alcohol licensing, special labeling, and excise taxes. Many founders are caught off guard when batches keep fermenting and creep over the line during storage. You must either control fermentation and test to stay reliably under 0.5%, or deliberately make 'hard kombucha' and obtain the proper TTB and state alcohol permits."
+    },
+    {
+      "question": "Can I brew and sell kombucha from my home kitchen?",
+      "answer": "Generally no. Kombucha is a fermented, perishable beverage, and most cottage-food laws exclude it because it is not shelf-stable and involves time/temperature and fermentation controls. You will almost always need a licensed commercial or commissary space, the appropriate health permits, and likely a process-authority or scheduled-process review. Confirm requirements with your local health department and state agencies before selling."
+    },
+    {
+      "question": "How much does it cost to start a kombucha business?",
+      "answer": "A keg-and-market focused start commonly runs $7,000 to $25,000 for licensed space, fermenters, kegs and carbonation, refrigeration, testing, permits, and insurance. Adding a bottling or canning line for retail can push startup past $40,000 to $60,000, which is why many brands stay on draft or use a co-packer until volume justifies packaging."
+    },
+    {
+      "question": "Is kombucha profitable, and which channel makes the most money?",
+      "answer": "Margins are best on draft — selling kegs to taprooms, cafes, and offices avoids per-bottle packaging and labeling cost. Bottled retail has thinner margins and slower-moving, perishable inventory. Most brands run near break-even in year one and reach $3,000 to $8,000 a month for the owner only after several recurring keg and retail accounts are in place."
+    },
+    {
+      "question": "How do I keep kombucha from going over the alcohol limit?",
+      "answer": "Control fermentation time and temperature, manage residual sugar and yeast activity, keep finished product cold to slow fermentation, and test alcohol content on every batch. Cold storage is critical because warm kombucha keeps fermenting and can drift over 0.5% after it leaves your facility. Documenting your testing protects you with both regulators and wholesale accounts."
+    },
+    {
+      "question": "Do I need a process authority or scheduled process review?",
+      "answer": "Often yes for an acidified, fermented beverage. Many states and the FDA expect a process authority to review and validate your process to confirm it safely controls pH and pathogens, especially if you bottle. Requirements vary, so ask your state health department and, if you package shelf-stable product, plan for this review as part of your startup."
+    },
+    {
+      "question": "How long until a kombucha business is profitable?",
+      "answer": "Usually well over a year. Year one is mostly about recipes, permits, equipment, and building accounts, often near break-even as cash recycles into ingredients and cold storage. Reliable owner income typically comes from steady markets plus several recurring keg and retail accounts, which can take one to three years to establish in a crowded category."
+    }
+  ],
+  "similarBusinesses": [
+    "coffee-roasting-business",
+    "juice-bar-business",
+    "packaged-food-brand-business",
+    "market-farm-business"
+  ],
+  "dataSources": [
+    "Alcohol and Tobacco Tax and Trade Bureau (TTB) — guidance on kombucha and the 0.5% ABV threshold and alcohol beverage rules",
+    "U.S. FDA and state/local health department guidance on acidified foods, process authorities, and commercial production",
+    "U.S. Small Business Administration and state food/beverage licensing guides",
+    "Kombucha Brewers International and beverage-startup cost guides plus operator interviews for real-world margins and timelines"
+  ],
+  "lastReviewed": "2026-06"
+}

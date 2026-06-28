@@ -1,0 +1,164 @@
+{
+  "title": "Barbershop Business",
+  "slug": "barbershop-business",
+  "category": "health-and-wellness",
+  "metaTitle": "How to Start a Barbershop Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a barbershop business: barber licensing, real startup costs, booth-rental vs employee models, realistic earnings, and what most owners get wrong.",
+  "startupCostLow": 25000,
+  "startupCostHigh": 120000,
+  "monthlyEarningsLow": 3000,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "3 to 6 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Licensed barbers with strong hands-on skill and a loyal local following who want to own a shop instead of renting a chair",
+  "biggestRisk": "Signing a long, expensive lease and building out a shop before you have proven, recurring demand to fill the chairs",
+  "speedToIncome": "months",
+  "minWeeklyHours": 40,
+  "skills": ["hands", "people"],
+  "workLocations": ["space"],
+  "priorities": ["max-income", "helping", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A barbershop is a physical retail business where licensed barbers cut, fade, shave, and style hair — primarily for men and boys — in a fixed location. Owning a shop is fundamentally different from being a barber: you are running a small business with a lease, a buildout, equipment, possibly staff, and recurring overhead, on top of (or instead of) cutting hair yourself. Almost everywhere in the United States, both the people cutting hair and the shop itself are regulated. Each barber needs a state barber license (typically 1,000 to 1,500 hours of barber school plus a written and practical exam), and the shop usually needs a separate barbershop establishment license and to pass periodic state board and health inspections.",
+  "dailyReality": "If you cut hair yourself, a typical day means standing for eight to ten hours doing back-to-back appointments and walk-ins, each cut running roughly 20 to 45 minutes, while sanitizing tools between clients and managing the front desk and booking app. Beyond the chair, you are ordering supplies, handling no-shows, covering for barbers who call out, chasing booth-rent payments, keeping the shop clean for inspections, and managing the schedule. The work is social and repetitive — you build genuine relationships with regulars who come in every two to four weeks — but it is also physically demanding on your back, wrists, and feet, and the busiest hours are evenings and weekends.",
+  "startupCostsItemized": [
+    { "item": "Lease deposit and first/last month rent", "low": 4000, "high": 20000 },
+    { "item": "Buildout, plumbing, electrical, and chairs/stations", "low": 10000, "high": 60000 },
+    { "item": "Barber chairs, mirrors, and back-bar stations (per station)", "low": 1500, "high": 5000 },
+    { "item": "Clippers, trimmers, shears, and starting tool kits", "low": 1000, "high": 4000 },
+    { "item": "Barbershop establishment license and permits", "low": 100, "high": 1000, "annual": true },
+    { "item": "General liability and property insurance", "low": 600, "high": 2500, "annual": true },
+    { "item": "Booking software, POS, and signage", "low": 500, "high": 3000 },
+    { "item": "Initial inventory (capes, towels, blades, products)", "low": 500, "high": 2500 },
+    { "item": "Branding, website, and launch marketing", "low": 500, "high": 3000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "An owner-operator who cuts hair full-time and rents out a couple of chairs typically nets $3,000 to $6,000 per month in year one, after the shop's rent, utilities, and supplies — and often less while the lease is new and the schedule is half-full. Many owners take little or nothing in the first few months while they build a client base.",
+    "experienced": "Established owner-operators with a full book and three to five busy chairs commonly net $6,000 to $12,000 per month. The split depends heavily on the model: a shop full of booth renters earns steadier, lower-variance rent income, while an employee model can earn more per chair but adds payroll, taxes, and management.",
+    "topEarners": "Top single-location owners with eight to twelve chairs, a strong brand, retail product sales, and waitlisted barbers net $12,000 to $30,000+ per month, and a few grow into multi-location groups grossing far more. Reaching that took years of reputation-building, low barber turnover, and treating the shop as a business rather than just a job — most owners never get there and are happy at one profitable location.",
+    "whatAffectsMost": "Chair utilization and barber retention matter more than anything. An empty chair still costs rent; a barber who leaves and takes 200 regulars with them can erase a year of progress. Location foot traffic, average ticket (cuts plus add-ons and retail), and your booth-rent vs employee model are the other big levers.",
+    "perHour": "An owner cutting hair effectively earns $40 to $90 per hour in the chair in a busy shop, before the unpaid hours spent managing the business. Counting all the admin, ordering, and covering shifts, blended owner rates of $25 to $60 per hour are realistic, especially early on."
+  },
+  "howToStart": [
+    "Before anything: Get and keep your state barber license current, and build a loyal personal client book working in someone else's shop first. The barbers who succeed as owners almost always bring an existing following with them.",
+    "Months 1-2: Decide your model — owner-operator who also rents chairs, a booth-rental house where every barber pays weekly rent, or an employee shop where you pay barbers and keep the service revenue. Run conservative numbers on rent, chair count, and realistic utilization before signing anything.",
+    "Months 2-4: Secure a location with real visibility and parking, negotiate the lease carefully (this is your biggest fixed cost), and get the space permitted and built out to pass your state board's barbershop inspection. Apply for the establishment license early — inspections can be slow.",
+    "Month 4-5: Recruit licensed barbers with their own followings (they are your demand), set up online booking and POS, and stock the back bar. Verify every barber's license is active before they touch a client in your shop.",
+    "Launch and ongoing: Open with a local event, lean hard on each barber promoting to their own clients, collect Google reviews from day one, and watch chair utilization weekly. Fill empty chairs or renegotiate space before the rent eats your margin."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "A current state barber license (and the cutting skill that earned it) if you plan to work the chair",
+      "Genuine people skills — regulars come back for the relationship as much as the cut",
+      "Reliability and stamina for long days on your feet with back-to-back clients"
+    ],
+    "canLearn": [
+      "Small-business basics: leases, POS, scheduling software, and tracking chair utilization",
+      "Recruiting and keeping barbers, and managing booth-rent vs employee arrangements",
+      "Retail product selling, which can meaningfully lift average ticket"
+    ],
+    "separators": [
+      "Building and keeping a loyal personal client book that fills your chair through slow weeks",
+      "Retaining good barbers so their clients stay with your shop instead of following them out the door",
+      "Negotiating a location and lease where the rent still works at realistic, not optimistic, occupancy"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Signing a long, expensive lease and building out a beautiful shop before proving there is enough recurring demand to keep the chairs full",
+    "Confusing being a good barber with being a good business owner — managing rent, staff, and inspections is a different skill",
+    "Choosing an employee model without understanding payroll taxes, scheduling, and turnover, when a booth-rental model would have been simpler and lower-risk",
+    "Letting top barbers leave with their entire client list because there was no loyalty, contract, or shop-level brand to hold those clients",
+    "Underestimating slow weekday mornings — utilization, not the busy Saturday, determines whether the shop is profitable",
+    "Cutting corners on sanitation and licensing, which can trigger fines or a failed state board inspection that closes the shop"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Professional clippers, trimmers, and shears", "note": "Your core tools. Buy quality and keep backups — a dead clipper mid-shift costs you clients.", "low": 1000, "high": 4000 },
+    { "item": "Barber chairs and stations", "note": "Price per station; quality hydraulic chairs last years and signal a serious shop.", "low": 1500, "high": 5000 },
+    { "item": "Sanitation supplies and barbicide", "note": "Required for inspections and client trust. Non-negotiable, ongoing cost.", "low": 100, "high": 500 },
+    { "item": "Online booking and POS system", "note": "Square, Booksy, or similar. Cuts no-shows and tracks each chair's revenue.", "low": 0, "high": 1200 },
+    { "item": "Capes, towels, neck strips, and blades", "note": "Recurring consumables; buy in bulk once volume is steady.", "low": 300, "high": 1500 },
+    { "item": "Back-bar and retail product inventory", "note": "Pomades and grooming products add margin and average ticket once clients trust the shop.", "low": 300, "high": 2500, "optional": true }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Each barber's existing personal following — recruiting barbers who bring clients is the fastest way to fill chairs",
+      "A complete Google Business Profile with photos and steady reviews, the top driver of local walk-ins and bookings",
+      "Instagram and TikTok showing real before/after fades and styles, which performs well for barbering specifically",
+      "Booksy or Square online booking so clients can self-schedule and rebook with one tap",
+      "Local partnerships with gyms, schools, and nearby businesses, plus loyalty cards to drive the every-few-weeks return visit"
+    ],
+    "whereCustomersAre": "Men and boys in your immediate neighborhood who need a cut every two to four weeks — barbershop demand is intensely local and walk-in driven, so foot traffic and a tight radius matter far more than broad reach.",
+    "timeToClientBase": "Barbers who bring an existing book can be busy within weeks; building a shop's own steady, repeat clientele from scratch usually takes three to six months, and a fully booked schedule across multiple chairs can take a year or more.",
+    "wasteOfTime": "Broad paid ads aimed outside your neighborhood and expensive branding before you have reviews and a portfolio of real cuts. Early on, barbers' own social proof and a strong Google profile convert far better."
+  },
+  "howItScales": {
+    "toFullTime": "Yes — a single owner-operator who fills their own chair and rents two or three more can reach a solid full-time income. The ceiling on your own cutting is capped by hours and your body, so growth beyond that comes from chairs, not from cutting faster.",
+    "hireAndStepBack": "Possible but it depends on the model. A booth-rental house can run with minimal owner labor once chairs are leased, since renters manage their own books. An employee shop earns more per chair but requires real management of payroll, scheduling, and turnover, and stepping fully out of the chair means relying on a trustworthy lead barber or manager.",
+    "sellable": "Established barbershops with a recognized name, stable barbers, a strong lease, and documented financials do sell, typically for a modest multiple of profit plus equipment value. A shop that is entirely one owner's personal clients is far harder to sell because the value walks out the door with that person.",
+    "whatScalingRequires": "Filling and keeping chairs, retaining barbers with fair splits and a brand worth staying for, standardized systems, and eventually a second location with a manager. The hardest part of scaling is barber retention — labor, not demand, is the constraint."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are a licensed barber with a loyal personal client book you can bring with you",
+      "You genuinely enjoy people and want a social, relationship-driven business",
+      "You can handle long days on your feet and weekend/evening hours when clients come in",
+      "You want a tangible local business you could eventually grow or sell"
+    ],
+    "poorFit": [
+      "You want passive or low-effort income, or to avoid being tied to a physical location",
+      "You are not licensed and are not willing to complete barber school and the state exam first",
+      "You cannot absorb several months of high fixed rent before the shop turns a profit",
+      "You dislike managing people, schedules, and the unglamorous side of running a business"
+    ],
+    "askYourself": [
+      "Do I have enough personal clients, or barbers who will bring theirs, to fill the chairs I am committing to pay rent on?",
+      "Can the rent and overhead be covered at realistic occupancy, not just on a packed Saturday?",
+      "Do I want to keep cutting hair, run the business side, or both — and have I priced my model accordingly?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to open a barbershop?",
+      "answer": "Yes, in nearly every state two things are licensed: each barber needs an individual state barber license (usually 1,000 to 1,500 hours of barber school plus written and practical exams), and the shop itself needs a barbershop establishment license that requires passing state board and health inspections. Requirements vary by state, so check your state's barbering board before signing a lease."
+    },
+    {
+      "question": "What is the difference between booth rental, employees, and owner-operator?",
+      "answer": "In a booth-rental shop, each barber is an independent contractor who pays you weekly or monthly rent and keeps their own service revenue — simpler and lower-risk for you, but lower upside. In an employee model you pay barbers (often a commission or hourly) and keep the service revenue, which can earn more per chair but adds payroll taxes, management, and turnover risk. Owner-operator means you cut hair yourself, often combined with renting out a few chairs. Many shops blend these."
+    },
+    {
+      "question": "How much does it really cost to open a barbershop?",
+      "answer": "A lean shop in an existing salon-ready space with a few chairs can open for roughly $25,000 to $40,000. A full buildout in a raw retail space with plumbing, multiple stations, and branding commonly runs $60,000 to $120,000 or more. The lease deposit and buildout are usually the largest costs, which is why proving demand before committing is so important."
+    },
+    {
+      "question": "Can I open a barbershop if I am not a barber myself?",
+      "answer": "In most states you can own the business without holding a barber license yourself, as long as the shop has an establishment license and every barber working there is individually licensed. That said, non-barber owners are at a real disadvantage: they cannot fill a chair themselves in a pinch and must rely entirely on recruiting and keeping good barbers, which is the single hardest part of the business."
+    },
+    {
+      "question": "How long until a barbershop is profitable?",
+      "answer": "Most shops take three to six months to cover their fixed costs and longer to reach steady profit, because rent and overhead start on day one while the chairs fill gradually. Owners who arrive with their own client book or recruit barbers who bring followings get there faster. Plan for several months of running at a loss or break-even."
+    },
+    {
+      "question": "How do I keep barbers from leaving and taking my clients?",
+      "answer": "There is no perfect protection, but fair splits, a shop brand and online presence that clients associate with the place rather than only the person, a good working environment, and consistent booking through the shop's own system all help. Some owners use non-solicitation agreements, but the most reliable retention is simply making your shop the best place for good barbers to work."
+    },
+    {
+      "question": "Is a barbershop a stable business?",
+      "answer": "Haircuts are recurring and fairly recession-resilient because people keep needing them, which makes a well-run shop relatively stable once it is established. The instability comes from high fixed rent, barber turnover, and slow weekday hours — utilization, not demand for haircuts, is what makes or breaks the numbers."
+    }
+  ],
+  "similarBusinesses": [
+    "esthetician-business",
+    "massage-therapy-business",
+    "nail-salon-business",
+    "tattoo-artist-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Barbers, Hairstylists, and Cosmetologists occupational data",
+    "State barbering and cosmetology boards (licensing hours, establishment licenses, inspection requirements)",
+    "Professional Beauty Association and industry salon/barbershop cost and revenue guides",
+    "Booking platform reports (Booksy, Square) on pricing, no-shows, and rebooking behavior",
+    "Operator interviews and barbering communities for real-world booth-rent and earnings ranges"
+  ],
+  "lastReviewed": "2026-06"
+}
