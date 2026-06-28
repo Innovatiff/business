@@ -1,0 +1,165 @@
+{
+  "title": "Hair Salon Business",
+  "slug": "hair-salon-business",
+  "category": "health-and-wellness",
+  "metaTitle": "How to Start a Hair Salon Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a hair salon business: real startup costs, booth-rent vs commission vs owner models, realistic earnings, and what most people get wrong.",
+  "startupCostLow": 2000,
+  "startupCostHigh": 120000,
+  "monthlyEarningsLow": 2500,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Licensed cosmetologists who are good with people and want to build a loyal, repeat clientele either renting a chair or running their own space",
+  "biggestRisk": "Signing a lease and buildout you cannot fill with enough recurring clients to cover rent, product, and your own pay",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 25,
+  "skills": ["hands", "people"],
+  "workLocations": ["space"],
+  "priorities": ["helping", "sellable", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A hair salon business sells haircuts, color, styling, treatments, and often retail hair products to a repeat client base. Unlike a barbershop, which centers on men's cuts and clipper work at lower ticket prices, a salon leans heavily on color and chemical services, longer appointment times, and higher average tickets — color and highlight clients can spend $100 to $300-plus per visit and rebook every four to eight weeks. The work is built on a state cosmetology license, and the salon space itself usually needs a separate establishment or shop license from the state board.",
+  "dailyReality": "Your week is appointments back to back: consultations, cuts, color application and processing, blowouts, and the cleanup and color-mixing between every client. Around the chair time you confirm bookings, answer DMs, manage your schedule, restock color and foils, sanitize tools and stations, and sell retail at checkout. Color days run long because processing time stacks up, and Saturdays are your busiest day. If you own the space rather than rent a chair, add hours of admin: paying stylists or collecting booth rent, ordering product, covering supplies, marketing, and handling the no-shows and last-minute cancellations that eat into a fully booked day.",
+  "startupCostsItemized": [
+    { "item": "Cosmetology license (school is the real cost; renewal/transfer fees here)", "low": 50, "high": 300 },
+    { "item": "Booth rental deposit + first month (booth-rent model)", "low": 800, "high": 2500 },
+    { "item": "Salon lease deposit, first/last month + buildout (owner model)", "low": 20000, "high": 90000, "optional": true },
+    { "item": "Stations, chairs, shampoo bowls, mirrors (owner model)", "low": 5000, "high": 25000, "optional": true },
+    { "item": "Professional shears, color tools, blow dryers, irons", "low": 500, "high": 2500 },
+    { "item": "Initial color, developer, foils, and back-bar product", "low": 400, "high": 2500 },
+    { "item": "Booking software, payment processing, and a simple website", "low": 0, "high": 600, "annual": true },
+    { "item": "General liability + professional liability insurance", "low": 300, "high": 1200, "annual": true },
+    { "item": "Establishment/shop license and business registration", "low": 100, "high": 1000 }
+  ],
+  "realEarnings": {
+    "yearOne": "A newly licensed stylist on commission (typically 35% to 50% of services) often takes home $2,500 to $4,500 per month in year one while building a book, plus tips. Booth renters who arrive with an existing clientele can clear $3,000 to $6,000 after paying rent; those starting cold may barely cover the chair rent for several months.",
+    "experienced": "An established stylist with a full book and strong color skills commonly nets $4,500 to $9,000 per month as a booth renter or high-commission employee, with tips and retail commission on top. Specializing in color, extensions, or balayage raises average ticket and rebooking and pushes the upper end.",
+    "topEarners": "Top solo stylists in strong markets net $10,000 to $20,000-plus per month through high tickets, a waitlist, and retail. Salon owners with 6 to 12 chairs can profit $10,000 to $40,000-plus per month, but only after years of building a team, controlling rent and labor, and surviving the lean early period — many owners earn less per hour than their best stylists for a long time.",
+    "whatAffectsMost": "Rebooking rate and average ticket drive everything. A stylist who books the client's next color appointment at checkout and sells one retail product per visit earns far more than one with equal skill who lets clients drift. Location, specialty (color/extensions), and chair occupancy matter more than raw cutting talent.",
+    "perHour": "Effective rate for a solo stylist commonly runs $40 to $120 per service hour before product and unpaid admin. Counting cleanup, mixing, booking gaps, and no-shows, realistic blended rates are often $30 to $80 per hour."
+  },
+  "howToStart": [
+    "Before anything: Complete cosmetology school (typically 1,000 to 2,100 hours depending on the state) and pass your state board exam. You cannot legally cut or color hair for pay without an active license — this is the real barrier and timeline.",
+    "Months 1-6 (employee phase): Work commission at an established salon first. Build speed, learn color, and start a client book you actually own. Collect every client's contact info and rebook them before they leave the chair.",
+    "Decide your model: Booth rent (you pay a flat weekly/monthly fee, keep all service revenue, run your own mini-business) suits a stylist with a portable book. Commission employment trades a cut of revenue for walk-in traffic and no overhead. Ownership means a lease, buildout, and managing other stylists.",
+    "Week 1 of going independent: Confirm your establishment/shop license requirements with the state board, get liability insurance, set up online booking and card payments, and tell your existing clients exactly where you're moving and how to rebook.",
+    "Months 1-3 independent: Fill your chair to 60%-plus occupancy before adding any fixed cost. Ask for reviews and referrals at checkout, post real before/after work, and track your rebooking rate weekly.",
+    "Only when consistently full: Consider signing a lease and opening your own space. Model the rent, product, and labor against realistic occupancy before you commit — an empty chair you're paying for is the fastest way to fail."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "An active state cosmetology license (legally required to perform paid hair services)",
+      "Solid cutting, color, and chemical-service technique that produces consistent, repeatable results",
+      "Genuine people skills — clients return for how you make them feel as much as the haircut"
+    ],
+    "canLearn": [
+      "Online booking, retail selling, and pricing your services for profit",
+      "Advanced color, balayage, and extension techniques through continuing-education classes",
+      "The business side: tracking occupancy, product cost, and rebooking rate"
+    ],
+    "separators": [
+      "Consistently rebooking clients at checkout so your calendar fills itself instead of starting empty each week",
+      "Specializing in high-ticket color or extensions that command premium prices and frequent visits",
+      "Building a personal brand and waitlist so you raise prices without losing clients"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Signing a salon lease and paying for buildout before they have enough recurring clients to cover the rent",
+    "Going independent with no portable client book, then sitting in an empty chair they're paying rent on",
+    "Confusing busy with profitable — a packed schedule of cheap cuts can earn less than fewer high-ticket color clients",
+    "Ignoring rebooking, so clients drift to other stylists and the calendar resets to zero every month",
+    "Underpricing color and chemical services that take two to four hours, working long days for a poor effective rate",
+    "Treating retail as pushy instead of as service, and leaving easy product income on the table"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Professional shears and clippers", "note": "Quality shears hold an edge and prevent hand fatigue over a full day of cutting.", "low": 200, "high": 1500 },
+    { "item": "Color bowls, brushes, foils, and a color cart", "note": "The workhorses of any color-focused salon. Buy decent foils — cheap ones tear.", "low": 150, "high": 800 },
+    { "item": "Professional blow dryer, flat iron, curling tools", "note": "Pro-grade dryers cut blowout time and last far longer than consumer models.", "low": 200, "high": 1000 },
+    { "item": "Back-bar product and retail inventory", "note": "Carry a line clients can rebuy. Retail is real profit, not an afterthought.", "low": 400, "high": 3000 },
+    { "item": "Booking + point-of-sale software", "note": "Online booking with deposits cuts no-shows. Vagaro, GlossGenius, and Square are common.", "low": 0, "high": 600 },
+    { "item": "Salon station, chair, and shampoo bowl (owner model)", "note": "Only when you own the space; renters use the salon's fixtures.", "low": 1500, "high": 8000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "An Instagram and TikTok feed of your real before/after color and cut work — the strongest lead source for stylists",
+      "A complete Google Business Profile with steady reviews so local searchers find and trust you",
+      "Rebooking every client at checkout and asking happy clients to refer a friend",
+      "Online booking links shared in your bio and texts so new clients can book without calling",
+      "Local partnerships (boutiques, gyms, bridal shops) and referral incentives for existing clients"
+    ],
+    "whereCustomersAre": "Local clients searching Instagram, Google, and word of mouth within a 15-minute drive, who value a stylist they trust and will rebook every four to eight weeks. Color and special-occasion clients are the highest-value segment.",
+    "timeToClientBase": "A stylist building from scratch usually fills a viable book over six to twelve months. One who brings a portable clientele can be busy within weeks. A fully booked, rebooking-driven calendar typically takes one to two years.",
+    "wasteOfTime": "Discount-deal sites and deep launch discounts attract one-time bargain hunters who never rebook. Expensive branding before you have a portfolio of real work and reviews rarely converts."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A booth renter or commission stylist with a full book and good color skills reaches full-time income within one to two years. The solo ceiling is set by the hours in your day and your average ticket.",
+    "hireAndStepBack": "Opening a salon and hiring stylists (on commission or as booth renters) lets you earn beyond your own chair, but margins per stylist are thin and you trade cutting for managing schedules, retention, and culture. Stepping back fully requires a strong manager and stylists who stay.",
+    "sellable": "An established salon with a lease, equipment, recurring clientele, and a stylist team can sell for a modest multiple of profit. A solo booth-rent book is harder to sell because the clients follow the stylist, not the chair.",
+    "whatScalingRequires": "A real lease and buildout, the ability to recruit and keep good stylists (turnover is the industry's chronic problem), standardized pricing and product systems, and marketing that fills chairs beyond your personal clients."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are a licensed cosmetologist who enjoys the hands-on craft and the people",
+      "You can build relationships and consistently rebook clients",
+      "You want to control your own schedule and prices through booth rent or ownership",
+      "You're willing to specialize in higher-ticket color or chemical services"
+    ],
+    "poorFit": [
+      "You are not licensed and aren't willing to complete cosmetology school first",
+      "You want passive income or to avoid being on your feet for long shifts",
+      "You dislike selling, rebooking, or asking for referrals",
+      "You'd sign a lease before proving you can keep a chair full"
+    ],
+    "askYourself": [
+      "Do I have, or can I realistically build, a portable client book before I take on fixed costs?",
+      "Am I disciplined about rebooking and pricing, or will my calendar reset to empty each month?",
+      "Booth rent, commission, or ownership — which model fits where I actually am right now?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to open a hair salon?",
+      "answer": "Yes. You need an active state cosmetology license to perform hair services for pay, which requires completing 1,000 to 2,100 hours of cosmetology school and passing your state board exam depending on the state. The salon location itself usually also needs a separate establishment or shop license from the state board. There is no legal shortcut around the license."
+    },
+    {
+      "question": "What's the difference between booth rent and commission?",
+      "answer": "On commission you're an employee or contractor who keeps a percentage of each service (commonly 35% to 50%) and the salon provides the chair, walk-ins, and supplies. Booth rent means you pay a flat weekly or monthly fee, keep all your service revenue, and run your own mini-business including booking, products, and marketing. Booth rent rewards a full book; commission is safer when you're still building one."
+    },
+    {
+      "question": "How is a hair salon different from a barbershop?",
+      "answer": "A barbershop centers on men's cuts and clipper work with shorter appointments and lower tickets, often without booking. A salon leans on color, highlights, and chemical services with longer appointments and higher average tickets, and runs almost entirely on rebooked appointments. The licensing, equipment, and economics differ enough that they're distinct businesses."
+    },
+    {
+      "question": "How much does it cost to open my own salon space?",
+      "answer": "Renting a booth can start under $2,000 including deposit and first month. Opening your own salon with a lease, buildout, stations, and equipment commonly runs $50,000 to $120,000-plus depending on size and finish. Most stylists start by renting a chair or working commission and only sign a lease once they can reliably keep it full."
+    },
+    {
+      "question": "How long until I'm making real money?",
+      "answer": "If you bring an existing client book, you can be earning within a few weeks of going independent. Building a book from scratch usually takes six to twelve months to reach a viable income, and one to two years for a consistently full, rebooking-driven calendar. Your rebooking rate matters more than your starting talent."
+    },
+    {
+      "question": "Is retail product worth selling?",
+      "answer": "Yes — retail is one of the most overlooked profit centers in a salon. Clients are going to buy shampoo and styling product somewhere, and selling the line you used on them is a service, not a hard sell. Even one product per visit meaningfully raises your average ticket over a year."
+    },
+    {
+      "question": "What's the biggest reason hair salons fail?",
+      "answer": "Taking on fixed costs — a lease, buildout, or chair rent — faster than they can fill the chairs. An empty chair you're paying for drains cash every month. Owners also underestimate how hard it is to recruit and keep good stylists, which is the industry's chronic problem."
+    }
+  ],
+  "similarBusinesses": [
+    "barbershop-business",
+    "nail-salon-business",
+    "esthetician-business",
+    "makeup-artist-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Barbers, Hairstylists, and Cosmetologists (OEWS wage and employment data)",
+    "Professional Beauty Association — salon industry and compensation reports",
+    "State cosmetology board licensing requirements (hours, exams, establishment licenses)",
+    "Salon software providers (Vagaro, GlossGenius, Square) — booking, no-show, and ticket-size benchmarks",
+    "Operator communities (r/Hairstylist, salon-owner forums) for booth-rent and earnings ranges"
+  ],
+  "lastReviewed": "2026-06"
+}

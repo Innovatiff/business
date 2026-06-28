@@ -1,0 +1,165 @@
+{
+  "title": "Physical Therapy Practice",
+  "slug": "physical-therapy-business",
+  "category": "health-and-wellness",
+  "metaTitle": "How to Start a Physical Therapy Practice — Real Costs, Earnings, Steps",
+  "metaDescription": "Honest breakdown of starting a physical therapy practice: the DPT and licensing barrier, real startup costs, insurance credentialing, earnings, and what people get wrong.",
+  "startupCostLow": 30000,
+  "startupCostHigh": 250000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 30000,
+  "timeToFirstIncome": "4 to 9 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Licensed physical therapists with clinical experience who want to own their practice and are prepared for a long, capital-heavy, credentialing-dependent ramp",
+  "biggestRisk": "Burning through capital during the months of insurance credentialing before you can bill, while rent and payroll run regardless of revenue",
+  "speedToIncome": "long",
+  "minWeeklyHours": 45,
+  "skills": ["health", "people"],
+  "workLocations": ["space"],
+  "priorities": ["max-income", "helping", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A physical therapy practice is an outpatient clinic where licensed physical therapists evaluate and treat patients recovering from injury, surgery, or chronic conditions to restore movement and reduce pain. Be clear-eyed about the barrier: this is not a business you can start without years of preparation. You need a Doctor of Physical Therapy (DPT) degree (a roughly three-year doctoral program after a bachelor's), passage of the National Physical Therapy Examination, an active state license, and — to bill most patients — credentialing with insurance payers and Medicare, which takes months. On top of that comes clinic space, equipment, and working capital. The ceiling is genuinely high, but the entry cost in time, debt, and capital is among the steepest of any business on this site.",
+  "dailyReality": "A clinic day is a packed schedule of evaluations and treatment sessions: assessing range of motion and strength, guiding therapeutic exercise, manual therapy, and modalities, then documenting every visit in detail because insurance reimbursement depends on it. Documentation and billing are relentless — denied claims, prior authorizations, and payer rules consume real hours. As the owner you also manage front-desk scheduling, hiring and supervising therapists and aides, payroll, marketing to referral sources, and cash flow that lags 30 to 90 days behind the work because insurers pay slowly. Early on you'll treat full days yourself and do the business after hours.",
+  "startupCostsItemized": [
+    { "item": "DPT degree and licensing (the dominant real cost — student debt often $100k+)", "low": 0, "high": 0 },
+    { "item": "NPTE exam and state license fees", "low": 500, "high": 1500 },
+    { "item": "Clinic lease deposit + buildout (treatment rooms, gym space, ADA compliance)", "low": 15000, "high": 120000 },
+    { "item": "Equipment (tables, exercise gear, modalities, ultrasound/e-stim)", "low": 10000, "high": 60000 },
+    { "item": "EMR / documentation + billing software (or outsourced billing)", "low": 1500, "high": 8000, "annual": true },
+    { "item": "Professional + general liability and malpractice insurance", "low": 1500, "high": 6000, "annual": true },
+    { "item": "Business formation, legal, and credentialing/contracting setup", "low": 2000, "high": 10000 },
+    { "item": "Working capital to cover 4-9 months before insurance pays (rent, payroll)", "low": 20000, "high": 100000 },
+    { "item": "Initial marketing to physicians and referral sources", "low": 1000, "high": 8000 }
+  ],
+  "realEarnings": {
+    "yearOne": "Expect little to negative owner income in year one. Many new practices run at a loss while credentialing finishes and patient volume builds — owners commonly draw $0 to $4,000 per month early, often subsidized by treating patients elsewhere. As a salaried PT employee instead, the comparison point is roughly $7,000 to $9,000 per month.",
+    "experienced": "An established single-clinic owner with completed payer contracts and steady referrals commonly nets $10,000 to $25,000 per month after paying staff therapists and overhead. Net depends heavily on payer mix, visit volume per therapist, and how much cash-pay (self-pay) work offsets low insurance reimbursement.",
+    "topEarners": "Owners of multi-clinic groups or busy practices with strong cash-pay and wellness lines net $25,000 to $80,000-plus per month, but this requires multiple locations, several employed therapists, tight billing operations, and years to build. Many never exceed a single profitable clinic, which is itself a strong outcome.",
+    "whatAffectsMost": "Payer mix and visit volume dominate. Insurance reimbursement per visit has trended down for years, so practices that add cash-pay services, keep therapists' schedules full, and control documentation/denial rates earn far more than those at the mercy of declining payer rates.",
+    "perHour": "Reimbursement per treatment hour varies widely by payer and region; effective owner earnings per worked hour might be $40 to $150 once you account for unbillable documentation, denied claims, and the months before credentialing pays out. Cash-pay practices can earn more per hour but must attract patients without insurance referrals."
+  },
+  "howToStart": [
+    "Years before, not weeks: Earn your DPT (about three years post-bachelor's), pass the NPTE, and obtain your state license. Then work clinically for several years — lenders, landlords, and payers all expect an experienced, licensed owner, and you need the clinical judgment.",
+    "Months -6 to 0: Write a real business plan and pro forma. Line up financing (SBA loan, line of credit, or savings) sized to cover 6 to 9 months of rent and payroll before revenue, because that gap is where practices die.",
+    "Month 1: Form the entity, secure malpractice and liability insurance, sign a lease, and begin insurance credentialing and Medicare enrollment immediately — credentialing routinely takes 90 to 180 days, so start it before you open.",
+    "Months 1-3: Build out the clinic to code (ADA, treatment rooms, gym), buy equipment, set up your EMR and billing, and hire your first staff. Begin marketing to physicians, surgeons, and other referral sources now, not after you open.",
+    "Months 3-6: Open and treat the patients you can while waiting on contracts, leaning on cash-pay and the payers that credential fastest. Track denials, days-in-AR, and schedule fill rate from day one.",
+    "Months 6-18: Reach break-even by filling therapist schedules and stabilizing referral flow. Only consider a second clinic once the first is reliably profitable and your billing operation is clean."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "A Doctor of Physical Therapy degree and an active state PT license (non-negotiable legal requirement)",
+      "Several years of clinical experience and sound clinical judgment",
+      "Enough capital or financing to survive 6 to 9 months before insurance reimbursement arrives"
+    ],
+    "canLearn": [
+      "Insurance credentialing, billing, coding, and denial management (or outsource it to a billing service)",
+      "Hiring, scheduling, and supervising therapists and front-desk staff",
+      "Marketing to physicians and building referral relationships"
+    ],
+    "separators": [
+      "Building strong physician and surgeon referral relationships that keep schedules full",
+      "Running tight billing with low denial rates and short days-in-AR so cash actually arrives",
+      "Adding cash-pay, sports, or wellness services to offset declining insurance reimbursement"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underestimating credentialing — opening without enough capital to cover the 90-to-180-day wait before insurers will pay them",
+    "Assuming clinical skill equals business skill; documentation, billing, and payroll sink owners who only want to treat patients",
+    "Ignoring days-in-AR and denial rates, so the work is done but the cash never fully comes in",
+    "Building too large or too fancy a clinic before patient volume justifies the rent and payroll",
+    "Depending on a single referral source or a few low-reimbursement payers with no cash-pay cushion",
+    "Skipping a realistic pro forma and running out of working capital right before volume would have turned the corner"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Treatment tables and plinths", "note": "Core clinical furniture; durable adjustable tables hold up to daily use.", "low": 1500, "high": 8000 },
+    { "item": "Therapeutic exercise equipment (weights, bands, bikes, balance gear)", "note": "Build the gym space patients use for active rehab.", "low": 3000, "high": 25000 },
+    { "item": "Modalities (ultrasound, e-stim, traction, hot/cold packs)", "note": "Buy based on the populations you treat; not every clinic needs all of them.", "low": 2000, "high": 20000 },
+    { "item": "EMR / documentation and scheduling software", "note": "PT-specific systems (WebPT, Prompt) handle documentation, scheduling, and billing integration.", "low": 1500, "high": 8000 },
+    { "item": "Billing service or in-house biller", "note": "Clean billing is the difference between getting paid and not; many new clinics outsource it.", "low": 0, "high": 40000 },
+    { "item": "Front-desk and office setup (computers, phones, POS)", "note": "You need real scheduling and intake infrastructure from day one.", "low": 1000, "high": 6000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct referral relationships with physicians, orthopedic surgeons, and primary-care providers — the dominant patient source",
+      "Insurance and Medicare network listings, so credentialed patients find an in-network clinic",
+      "A Google Business Profile and reviews so self-referring patients (in direct-access states) find you",
+      "Community presence: running clinics, sports-team partnerships, and workshops that show expertise",
+      "Cash-pay and wellness offerings marketed directly to patients who want care outside insurance constraints"
+    ],
+    "whereCustomersAre": "Patients are referred by physicians after injury or surgery, or in direct-access states find a clinic themselves. The highest-value, most stable flow comes from trusted relationships with referring providers in your area.",
+    "timeToClientBase": "Building a reliable referral base takes 6 to 18 months because trust with physicians and a reputation are earned slowly. Credentialing delays mean you often can't even bill many patients for the first three to six months.",
+    "wasteOfTime": "Broad consumer advertising rarely fills a PT schedule early on, because most patients arrive by physician referral or insurance directory. Money is better spent on referral relationships and clean in-network status than on mass marketing."
+  },
+  "howItScales": {
+    "toFullTime": "This is a full-time-plus undertaking from the start; there is no realistic part-time path. Reaching a profitable single clinic is itself the primary goal and commonly takes one to two years.",
+    "hireAndStepBack": "Yes, and this is how the model scales. Employing staff therapists lets you bill far beyond your own treatment hours, and owners often shift from treating to managing. Stepping back requires reliable therapists, tight billing operations, and strong referral pipelines that don't depend on you personally.",
+    "sellable": "Established practices with payer contracts, referral relationships, employed staff, and documented financials are genuinely sellable — to other PTs, groups, or private-equity-backed consolidators that actively acquire clinics. A solo, owner-dependent clinic with no staff is much harder to sell.",
+    "whatScalingRequires": "Significant capital, multiple credentialed and employed therapists, professional billing and revenue-cycle management, real estate, and management bandwidth. The constraints are reimbursement rates, therapist hiring, and the credentialing/cash-flow lag at every new location."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are a licensed PT with a DPT and several years of clinical experience",
+      "You have or can finance enough capital to survive months before insurance pays",
+      "You want a high-ceiling, helping-oriented business and accept a long, hard ramp",
+      "You're willing to run billing, hiring, and referral marketing, not just treat patients"
+    ],
+    "poorFit": [
+      "You are not a licensed physical therapist and aren't prepared to complete a DPT first",
+      "You want fast income, low startup cost, or a part-time side business",
+      "You have no appetite for insurance credentialing, billing, and denial management",
+      "You can't cover several months of rent and payroll before revenue arrives"
+    ],
+    "askYourself": [
+      "Do I have enough working capital to survive credentialing and a slow patient ramp without panicking?",
+      "Am I prepared to run a business — billing, payroll, referrals — and not just practice physical therapy?",
+      "Is reimbursement and referral demand in my market strong enough to support another outpatient clinic?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What do I need to open a physical therapy practice?",
+      "answer": "You need a Doctor of Physical Therapy (DPT) degree, passage of the National Physical Therapy Examination, and an active state PT license — these are legal requirements to treat patients. To bill most patients you must also be credentialed and contracted with insurance payers and enrolled with Medicare, which takes months. On top of that you need clinic space, equipment, and enough working capital to cover the gap before revenue arrives."
+    },
+    {
+      "question": "How long does insurance credentialing take?",
+      "answer": "Credentialing and contracting with commercial payers and Medicare commonly takes 90 to 180 days, sometimes longer. You generally cannot bill those payers until it's complete, so you must either start the process months before opening or rely on cash-pay and the fastest-credentialing payers in the meantime. This gap is the single biggest reason new practices run short on cash."
+    },
+    {
+      "question": "Can I open a PT clinic without being a physical therapist?",
+      "answer": "Practically, no. Clinical services must be delivered by licensed PTs and PTAs, and most states regulate clinic ownership and supervision. A non-PT could in theory invest in or co-own a practice where licensed therapists provide care, but state laws on professional ownership vary and this is not a business a layperson starts alone. The owner is almost always a licensed PT."
+    },
+    {
+      "question": "Why are profits squeezed even when the clinic is busy?",
+      "answer": "Insurance reimbursement per visit has trended downward for years while costs rise, so a full schedule doesn't guarantee strong margins. Denied claims, prior authorizations, and slow payments make billing operations critical. Practices that add cash-pay services and keep denial rates low protect their margins far better than those fully dependent on declining payer rates."
+    },
+    {
+      "question": "Is a cash-pay (out-of-network) model viable?",
+      "answer": "Increasingly, yes — many newer practices run partly or fully on cash-pay to escape low insurance reimbursement and heavy documentation. It can earn more per visit, but you must attract patients willing to pay directly, often without physician referrals, which requires strong marketing and a clear value proposition. Most clinics blend cash-pay with some insurance."
+    },
+    {
+      "question": "How much does it cost to start?",
+      "answer": "Beyond the DPT and licensing (often $100,000-plus in student debt), opening a clinic commonly costs $30,000 on the lean end to $250,000-plus for a full buildout with equipment and working capital. The most important number is enough reserve to cover 6 to 9 months of rent and payroll before insurance reimbursement stabilizes."
+    },
+    {
+      "question": "How long until the practice is profitable?",
+      "answer": "Realistically one to two years for a single clinic, assuming credentialing completes on schedule and referral flow builds. Owners frequently take little or no salary in year one. This is a long-game, high-barrier business — the high earning ceiling comes only after surviving a slow, capital-intensive ramp."
+    }
+  ],
+  "similarBusinesses": [
+    "personal-training-business",
+    "massage-therapy-business",
+    "chiropractic-business",
+    "recovery-studio-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Physical Therapists (OEWS wage and employment data)",
+    "American Physical Therapy Association (APTA) — practice and reimbursement reports",
+    "Federation of State Boards of Physical Therapy — NPTE and licensure requirements",
+    "CMS / Medicare provider enrollment and credentialing timelines",
+    "PT practice management resources and owner communities for startup cost and AR benchmarks"
+  ],
+  "lastReviewed": "2026-06"
+}

@@ -1,0 +1,161 @@
+{
+  "title": "Fractional CFO Business",
+  "slug": "fractional-cfo-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start a Fractional CFO Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a fractional CFO business: real retainers, what experience you actually need, how to win clients, and what most people get wrong.",
+  "startupCostLow": 500,
+  "startupCostHigh": 6000,
+  "monthlyEarningsLow": 4000,
+  "monthlyEarningsHigh": 25000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced finance leaders who can own forecasting, fundraising, and cash strategy for several companies at once",
+  "biggestRisk": "Trying to start without a genuine senior finance track record — clients hire judgment, not a title",
+  "speedToIncome": "months",
+  "minWeeklyHours": 10,
+  "skills": ["finance", "sales"],
+  "workLocations": ["online", "home", "flexible"],
+  "priorities": ["max-income", "flexibility", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "whatItIs": "A fractional CFO provides part-time, senior-level financial leadership to small businesses and startups that need CFO-grade thinking but cannot justify a full-time hire that costs $200,000 or more per year. You typically work with three to eight clients at once, spending a fixed number of hours each month on each. The work is forecasting, cash-flow strategy, budgeting, board and investor reporting, fundraising support, unit-economics analysis, and helping owners make decisions about pricing, hiring, and capital. It sits a level above bookkeeping and accounting — you are not closing the books, you are interpreting them and steering the company with that information.",
+  "dailyReality": "A typical week is a series of focused client blocks rather than a single full-time job. You might join one client's leadership call to walk through the monthly forecast, build a 13-week cash-flow model for another that is tight on runway, prep a board deck for a third, and answer ad-hoc questions over Slack or email throughout. Much of the actual work is in spreadsheets and financial models, on video calls, and in written memos that translate numbers into decisions. You are rarely the person reconciling transactions — you usually work on top of a bookkeeper or controller. The job is judgment, communication, and trust, delivered in a few high-value hours per client per month.",
+  "startupCostsItemized": [
+    { "item": "Business registration / LLC", "low": 50, "high": 500 },
+    { "item": "Professional liability (E&O) insurance", "low": 600, "high": 2500, "annual": true },
+    { "item": "Financial modeling and dashboard software (Excel, Causal, Jirav, LivePlan)", "low": 0, "high": 1800, "annual": true, "optional": true },
+    { "item": "Simple website and professional email", "low": 0, "high": 600 },
+    { "item": "Accounting/forecasting tool subscriptions for client work", "low": 0, "high": 1200, "annual": true, "optional": true },
+    { "item": "Engagement letter / contract templates (attorney-reviewed)", "low": 300, "high": 1500 },
+    { "item": "Continuing education, certifications, or refreshers", "low": 0, "high": 1500, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most people start this alongside an existing job or after leaving a finance leadership role, landing one to two clients first. Year-one income is wide: roughly $4,000 to $12,000 per month depending on how many engagements you carry. A single retainer commonly runs $3,000 to $8,000 per month for a few hours a week, so two solid clients already produce meaningful income.",
+    "experienced": "Established fractional CFOs with a referral pipeline and three to six concurrent clients typically earn $12,000 to $30,000 per month. Rates climb with specialization — SaaS metrics, e-commerce, fundraising support, or M&A readiness command premiums because owners pay for outcomes, not hours.",
+    "topEarners": "Top operators build a small firm: they bring on associate CFOs and financial analysts to do modeling and reporting, keep the senior relationship, and run 10-plus client relationships across a team. These firms gross $400,000 to $1,500,000-plus per year, but at that point you are running and selling a practice, hiring senior finance talent, and carrying delivery risk — not just advising clients yourself.",
+    "whatAffectsMost": "Your reputation and network drive earnings more than anything. Almost all work is referral-driven, so a strong track record (recognizable companies, successful raises, clean exits) lets you charge more and stay booked. Niche specialization and the ability to sell on outcomes separate $4,000 retainers from $10,000 ones.",
+    "perHour": "Effective rates commonly run $150 to $400 per hour of client work for solo operators, with experienced specialists at the top of that range and beyond. Counting unbilled sales, admin, and prep, realistic blended rates are often $120 to $300 per hour."
+  },
+  "howToStart": [
+    "Before you start: Be honest about your background. This works if you have genuinely operated at a controller, VP Finance, or CFO level, or have run finance for real companies. If you are early-career, build that experience first — clients can tell the difference fast.",
+    "Month 1: Define your niche and ideal client (e.g. seed-stage SaaS, $2M–$10M e-commerce, professional-services firms). Set up the LLC, E&O insurance, an engagement-letter template, and a simple value-based pricing structure (monthly retainer tied to scope, not hourly).",
+    "Month 1–2: Tell your network directly. Reach out to former colleagues, founders you know, your accountant and attorney contacts, and startup communities. Most first clients come from people who already trust your judgment. Aim for one anchor client to validate your offer and pricing.",
+    "Month 2–3: Build a repeatable onboarding (financial review, forecast model, monthly reporting cadence) so each new client is fast to start. Document your standard deliverables — monthly forecast, cash report, KPI dashboard — so the work is consistent and referable.",
+    "Months 3–12: Layer on clients deliberately, never more than you can serve well. Ask happy clients and their investors for introductions. Decide whether to stay solo and premium or build a team as demand exceeds your capacity."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Senior finance experience — real forecasting, budgeting, cash management, and board/investor reporting under your belt",
+      "Deep fluency with financial statements, unit economics, and modeling in Excel/Sheets",
+      "The ability to explain financial reality to non-financial founders and drive decisions, not just produce reports",
+      "Sales and relationship skills to win and retain retainer clients"
+    ],
+    "canLearn": [
+      "Specific industry metrics for a new niche (e.g. SaaS ARR/churn, e-commerce contribution margin)",
+      "Modern FP&A and dashboard tools (Causal, Jirav, Mosaic, LivePlan)",
+      "Running a solo practice — pricing, contracts, scheduling, and capacity management"
+    ],
+    "separators": [
+      "A credible track record — recognizable companies, successful fundraises, or clean exits that make referrals easy and justify premium retainers",
+      "Specializing deeply in one industry so you bring pattern recognition no generalist can match",
+      "Selling on outcomes (runway extended, raise closed, margins improved) rather than hours, which doubles effective rates"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Starting without enough seniority — positioning as a CFO when your experience is really bookkeeping or staff accounting, which clients quickly sense",
+    "Pricing by the hour, which caps income and punishes you for being efficient instead of valuable",
+    "Acting like a bookkeeper — getting buried in transaction-level work instead of staying at the strategic, decision-driving altitude clients pay for",
+    "Taking on too many clients too fast and delivering shallow work that erodes the referrals the whole business depends on",
+    "Neglecting a clear niche, so you compete as a generic 'finance person' rather than the obvious expert for a specific kind of company",
+    "Skipping E&O insurance and tight engagement letters that define scope, which exposes you when a client's outcome disappoints"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Spreadsheet and modeling software (Excel / Google Sheets)", "note": "The core of the job. Most modeling still lives here regardless of fancier tools." },
+    { "item": "FP&A / forecasting platform (Causal, Jirav, Mosaic, LivePlan)", "note": "Speeds up forecasts and dashboards; useful once you have a few clients. Optional early on.", "low": 0, "high": 1800 },
+    { "item": "Accounting system access (QuickBooks Online, Xero, NetSuite)", "note": "You work on top of the client's books — usually their subscription, not yours." },
+    { "item": "Professional liability (E&O) insurance", "note": "Essential. Financial advice carries real liability.", "low": 600, "high": 2500 },
+    { "item": "Engagement-letter and proposal templates", "note": "Define scope, deliverables, and limits clearly. Worth having an attorney review.", "low": 300, "high": 1500 },
+    { "item": "Video conferencing and document sharing (Zoom, Slack, Notion/Google Drive)", "note": "Most client interaction is remote and asynchronous." }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to your existing network — former colleagues, founders, and executives who already trust your judgment",
+      "Referral relationships with accountants, bookkeepers, attorneys, and bankers who see companies that have outgrown their finance function",
+      "Introductions from VCs, angels, and accelerators whose portfolio companies need part-time finance leadership",
+      "Thoughtful content (LinkedIn posts, a focused newsletter) that demonstrates real financial insight in your niche",
+      "Showing up in founder and operator communities where capital-raising and cash questions are discussed"
+    ],
+    "whereCustomersAre": "Small businesses doing roughly $1M–$30M in revenue and venture-backed startups between bookkeeper and full-time CFO. They cluster around accelerators, VC portfolios, founder Slack groups, and the referral networks of accountants and bankers.",
+    "timeToClientBase": "Landing the first one or two clients usually takes one to three months of direct outreach. A stable, referral-fed roster of three to six clients typically takes nine to eighteen months to build, because trust and reputation compound slowly.",
+    "wasteOfTime": "Cold ads, generic lead-gen lists, and broad 'fractional CFO' marketing rarely work — this is a trust-and-referral business. Polished branding before you have a credible track record and a few reference clients is wasted effort early on."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and it reaches full-time income with relatively few clients because retainers are high. Three to five solid engagements can replace a senior salary while leaving room for flexibility. The ceiling as a pure solo is set by how many relationships you can serve at a high standard.",
+    "hireAndStepBack": "Possible but it changes the business. You can bring on associate CFOs and analysts to handle modeling and reporting while you keep senior relationships and sales. Stepping back fully is hard because clients buy your specific judgment — you have to deliberately build a brand and team that clients trust beyond you.",
+    "sellable": "A firm with multiple CFOs, documented processes, and contracted recurring clients is sellable to a larger advisory or accounting firm. A solo practice that is entirely your relationships is much harder to sell — it is effectively your reputation, which does not transfer cleanly.",
+    "whatScalingRequires": "Hiring genuinely senior finance talent (the hard part), standardizing deliverables and onboarding, a steady referral and sales engine, and a brand strong enough that clients trust the firm rather than only you. Quality control becomes the central challenge as you grow."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have operated at a senior finance level and can own forecasting, cash strategy, and investor reporting confidently",
+      "You enjoy advising and influencing founders rather than doing transactional accounting",
+      "You have or can build a network of founders, investors, and referral partners",
+      "You want high per-hour value and flexible, part-time client work"
+    ],
+    "poorFit": [
+      "You are early in your finance career or your experience is mostly bookkeeping",
+      "You dislike selling, relationship-building, or being accountable for high-stakes decisions",
+      "You want a fast, low-skill path to income with no track record required",
+      "You prefer doing detailed compliance and transaction work over strategy"
+    ],
+    "askYourself": [
+      "Could a skeptical founder check my background and immediately see why they should trust me with their company's finances?",
+      "Do I have enough network and reputation to land referral-driven clients without paid ads?",
+      "Am I comfortable being accountable for advice when a client's outcome — a raise, a runway, a margin — is on the line?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need to be a CPA to be a fractional CFO?",
+      "answer": "No, a CPA is not required, and many fractional CFOs are not CPAs — the role is about financial strategy, not signing audits or filing taxes. What matters is genuine senior finance experience: forecasting, cash management, fundraising, and board reporting. That said, a CPA, MBA, or CFA can add credibility and help win clients."
+    },
+    {
+      "question": "How much do fractional CFOs actually charge?",
+      "answer": "Monthly retainers commonly run $3,000 to $8,000 per client for a few hours a week, with specialists and fundraising-heavy engagements going higher. Some operators bill hourly at $150 to $400, but experienced CFOs usually prefer value-based retainers tied to scope because hourly billing caps income and undervalues judgment."
+    },
+    {
+      "question": "Can I start this as a side business while employed?",
+      "answer": "Often yes, with one or two clients, since each engagement may only need a handful of hours per month. Be careful about non-compete and conflict-of-interest clauses in your current employment, and be realistic about your capacity. Many people use a side engagement or two to validate their offer before going independent."
+    },
+    {
+      "question": "What is the difference between a bookkeeper, a controller, and a fractional CFO?",
+      "answer": "A bookkeeper records transactions, a controller manages the accounting function and produces accurate financials, and a CFO uses those financials to drive strategy — forecasting, capital decisions, fundraising, and steering the business. Fractional CFOs typically sit on top of an existing bookkeeper or controller rather than replacing them."
+    },
+    {
+      "question": "How many clients can one fractional CFO realistically handle?",
+      "answer": "Most solo operators serve three to eight clients depending on engagement depth. High-touch startup or fundraising clients take more time, so you carry fewer; lighter monthly-reporting clients let you carry more. Overloading yourself is a common mistake because shallow work damages the referrals the business runs on."
+    },
+    {
+      "question": "How long until this replaces a full-time income?",
+      "answer": "Because retainers are high, relatively few clients replace a salary — often three to five. But landing them takes time: expect one to three months for your first client and nine to eighteen months to build a stable, referral-fed roster. It is rarely a fast start, which is why many begin while still employed."
+    },
+    {
+      "question": "What is the biggest reason fractional CFO businesses fail?",
+      "answer": "Lacking real seniority. Clients hire a fractional CFO for judgment earned over years of operating finance, and they quickly sense when someone is positioning above their actual experience. The second most common failure is treating it as a transactional, hourly service instead of a high-trust advisory relationship."
+    }
+  ],
+  "similarBusinesses": [
+    "bookkeeping-business",
+    "fractional-cto-business",
+    "business-coaching-business",
+    "data-analytics-consulting-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Financial Managers occupational data (compensation benchmarks)",
+    "Robert Half and similar staffing firm salary guides (full-time CFO and finance leadership pay)",
+    "Fractional executive networks and communities (CFO advisory groups, founder/operator forums) for reported retainer ranges",
+    "Industry pricing surveys for fractional and outsourced finance services"
+  ],
+  "lastReviewed": "2026-06"
+}

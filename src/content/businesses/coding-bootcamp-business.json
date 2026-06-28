@@ -1,0 +1,162 @@
+{
+  "title": "Coding Bootcamp Business",
+  "slug": "coding-bootcamp-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start a Coding Bootcamp Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a coding bootcamp business: real startup costs, realistic earnings, ISA risks, placement pressure, and what most founders get wrong.",
+  "startupCostLow": 15000,
+  "startupCostHigh": 150000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 40000,
+  "timeToFirstIncome": "4 to 9 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced engineers or educators who can teach, sell, and stay accountable for student outcomes over many months",
+  "biggestRisk": "Spending heavily to enroll a cohort that then fails to find jobs, destroying your reputation and any income-share revenue",
+  "speedToIncome": "long",
+  "minWeeklyHours": 40,
+  "skills": ["tech", "teaching", "sales"],
+  "workLocations": ["online", "space", "flexible"],
+  "priorities": ["max-income", "helping", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A coding bootcamp is an intensive, short-form training program — typically 8 to 30 weeks — that takes career changers and beginners and tries to make them job-ready software developers, data analysts, or other tech workers. You build a curriculum, hire or act as instructors, recruit students, and live or die by your graduates' employment outcomes. Programs run in-person, online, or hybrid, and as full-time immersive or part-time cohorts. The model has matured: the easy growth of the 2015-2019 era is gone, hiring for junior developers tightened in 2023-2025, and prospective students are far more skeptical of placement claims than they used to be.",
+  "dailyReality": "Outside of teaching hours, your week is split between recruiting the next cohort (sales calls, info sessions, ads, replying to applicants), supporting current students (grading, code review, office hours, motivating people who are struggling), and chasing outcomes (mock interviews, employer relationships, alumni job tracking). During a live cohort you are effectively on call: students fall behind, melt down, or quit, and your retention and placement numbers depend on catching that early. Between cohorts you are heads-down on marketing and curriculum updates, because frameworks, hiring expectations, and the job market shift constantly.",
+  "startupCostsItemized": [
+    { "item": "Curriculum development (build or license content, projects, assessments)", "low": 3000, "high": 40000 },
+    { "item": "Learning platform / LMS and developer tooling (Canvas, Teachable, GitHub, cloud credits)", "low": 1000, "high": 8000, "annual": true },
+    { "item": "Instructor / TA pay for the first cohort", "low": 5000, "high": 50000 },
+    { "item": "Marketing and student acquisition (ads, content, info sessions)", "low": 3000, "high": 40000 },
+    { "item": "Business registration, contracts, and education-law / ISA legal review", "low": 2000, "high": 15000 },
+    { "item": "Website, application/CRM, payment and financing setup", "low": 500, "high": 6000 },
+    { "item": "State career-school licensing / bonding (varies widely by state)", "low": 0, "high": 15000, "optional": true },
+    { "item": "Physical classroom space and furnishings", "low": 0, "high": 30000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most founders take little to nothing in year one. A small first online cohort of 8 to 15 students at $6,000 to $12,000 tuition can gross $60,000 to $150,000, but instructor pay, refunds for dropouts, and marketing usually consume most of it. Realistically expect $0 to $4,000 per month in owner pay until you have run two or three cohorts and stabilized retention.",
+    "experienced": "Operators with proven outcomes, repeatable marketing, and two to four cohorts a year commonly net $8,000 to $40,000 per month for the owner, depending on cohort size, tuition, and whether instruction is delegated. Net margin matters more than gross: a full classroom that doesn't get jobs is a liability, not income.",
+    "topEarners": "A few well-known bootcamps reach seven to eight figures in annual revenue, but that took years of strong placement data, employer partnerships, paid acquisition machines, and often venture funding or acquisition. Several once-large bootcamps (including some backed by major brands) shut down or were absorbed when junior hiring cooled — scale here is fragile and reputation-dependent.",
+    "whatAffectsMost": "Verified job-placement rate is everything. It drives word of mouth, justifies tuition, and is the one number serious applicants and regulators scrutinize. Niche focus (e.g., a specific stack or a specific employer pipeline) and disciplined student acquisition cost matter far more than fancier content.",
+    "perHour": "Highly variable. In early cohorts, counting all teaching, support, sales, and admin time, effective owner pay can fall below $25 per hour. Established operators who have delegated instruction and systematized marketing can clear $75 to $150+ per effective hour, but the path there is long and many never reach it."
+  },
+  "howToStart": [
+    "Months 1-2: Pick one narrow, in-demand track you can credibly teach (e.g., full-stack JavaScript, data analytics, or a specific cloud certification) and design a tight curriculum with real projects. Talk to local employers about what junior skills they actually hire for, and check your state's career-school licensing rules — many states require approval and a surety bond before you enroll a single paying student.",
+    "Month 3: Run a free or low-cost pilot workshop or short course to test your teaching, gather testimonials, and prove people finish. Set honest, defensible pricing and decide your financing model. Be extremely cautious with Income Share Agreements (ISAs): they are heavily regulated, treated as credit/loans under federal and many state laws, require disclosures, and shift huge risk onto you and your students.",
+    "Months 4-5: Recruit your first paid cohort with transparent marketing — show the real schedule, real time commitment, and any outcomes you can honestly claim. Keep the cohort small enough to support well. Track attendance and progress weekly so you catch strugglers before they drop.",
+    "Months 6-9: Run the cohort, obsess over completion and job outcomes, and document everything. After graduation, track and publish real placement results (even if modest and honestly stated), collect detailed testimonials, and use them to fill the next cohort. Only then decide whether to hire instructors and scale."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Real, current technical depth in what you teach — you cannot fake competence in front of motivated learners",
+      "Genuine teaching ability: explaining hard concepts clearly and keeping adults motivated for months",
+      "Sales and marketing skill, because every cohort must be filled before it can run"
+    ],
+    "canLearn": [
+      "Curriculum and assessment design (instructional-design principles and iteration)",
+      "Running info sessions, application funnels, and a CRM",
+      "Building employer relationships and a basic outcomes-reporting process"
+    ],
+    "separators": [
+      "Producing verifiable job-placement results, which is the entire moat in this business",
+      "Keeping student acquisition cost low through content and referrals instead of pure paid ads",
+      "Honest, compliant outcome reporting that builds trust instead of the inflated claims that have sunk other bootcamps"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Promising or implying job guarantees and inflated placement rates, which invites refunds, lawsuits, and regulatory action and destroys reputation",
+    "Treating ISAs as free marketing when they are regulated credit products with disclosure rules and serious downside if students don't get hired",
+    "Underestimating student acquisition cost — filling cohorts is harder and more expensive than building the course",
+    "Building a sprawling, ambitious curriculum instead of a tight track that reliably gets one type of job",
+    "Ignoring state career-school licensing and bonding requirements, which can shut a program down",
+    "Scaling cohort size or headcount before outcomes are proven, so quality and placement collapse under growth"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Learning management system", "note": "Canvas, Teachable, or similar to host curriculum, assignments, and progress tracking.", "low": 500, "high": 5000 },
+    { "item": "Video conferencing and recording", "note": "Zoom or similar plus reliable recording for live cohorts and async review.", "low": 150, "high": 1000 },
+    { "item": "Developer tooling and cloud credits", "note": "GitHub org, code-review tools, and cloud accounts for student projects.", "low": 500, "high": 4000 },
+    { "item": "Applicant CRM and email automation", "note": "Manages the application funnel and nurtures leads between info session and enrollment.", "low": 0, "high": 2000 },
+    { "item": "Payment and financing integration", "note": "Stripe plus a compliant tuition-financing or installment provider.", "low": 0, "high": 1500 },
+    { "item": "Classroom space and equipment", "note": "Only for in-person cohorts; start online or co-working to avoid a lease.", "low": 0, "high": 30000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Free workshops, intro courses, and webinars that let prospects experience your teaching before paying",
+      "Honest content marketing (YouTube, blog, social) showing real curriculum, student work, and outcomes",
+      "Alumni referrals and testimonials, which become your strongest channel once you have graduates with jobs",
+      "Employer partnerships that create a hiring pipeline and a credible reason to enroll",
+      "Targeted paid ads to career-changers, used carefully because acquisition cost can wreck margins"
+    ],
+    "whereCustomersAre": "Career changers and recent grads researching tech careers on YouTube, Reddit (r/codingbootcamp, r/learnprogramming), Course Report, and review aggregators, plus people in local meetups and adjacent jobs looking to break into tech.",
+    "timeToClientBase": "Filling a first cohort typically takes two to four months of consistent outreach. A reliable, mostly referral-fed enrollment pipeline usually takes a year or more and depends entirely on graduates actually landing jobs.",
+    "wasteOfTime": "Pouring money into broad paid ads before you have any outcome data or testimonials, and chasing flashy branding while skeptical applicants are really asking one question: do your graduates get hired?"
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but slowly. It can become a strong full-time income once you have proven outcomes and a repeatable way to fill cohorts. The constraint is not demand for content but trust and student acquisition cost.",
+    "hireAndStepBack": "Possible by hiring instructors, TAs, and admissions staff, but outcomes depend on teaching quality, so stepping fully back risks the very results that sell the program. Most owners stay involved in curriculum and outcomes long after delegating day-to-day instruction.",
+    "sellable": "Bootcamps with strong, documented placement data, employer relationships, and a recognized brand can be acquired, and several have been. Programs with weak or unverifiable outcomes are nearly unsellable and carry liability.",
+    "whatScalingRequires": "Standardized curriculum and instructor training, a real student-acquisition system, rigorous outcome tracking, and compliance with education and financing regulations in every state you operate. Scaling without protecting placement quality is the classic way bootcamps collapse."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real, current engineering or data skills and can teach them clearly",
+      "You are comfortable owning student outcomes and being judged on placement rates",
+      "You can sell and market consistently to fill cohorts month after month",
+      "You can fund several months of work and an unprofitable first cohort"
+    ],
+    "poorFit": [
+      "You want passive income or a hands-off product business",
+      "You are uncomfortable with sales or with being accountable for whether students get jobs",
+      "You expect to fill cohorts easily or to profit from your first one",
+      "You are unwilling to navigate licensing, contracts, and financing compliance"
+    ],
+    "askYourself": [
+      "Can I honestly claim, and later prove, that my graduates get jobs in today's tighter junior market?",
+      "Do I have the capital and stamina to run cohorts at a loss until outcomes and word of mouth take over?",
+      "Am I prepared to handle the legal and regulatory weight of tuition, financing, and any ISA I offer?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Are coding bootcamps still worth running given the tougher tech job market?",
+      "answer": "It is harder than it was a few years ago. Junior-developer hiring tightened in 2023-2025, several large bootcamps closed, and applicants are more skeptical. Programs that survive are usually niche, have strong verifiable placement data, and keep cohorts small. It is still viable, but it is no longer an easy growth play."
+    },
+    {
+      "question": "Should I use an Income Share Agreement (ISA) instead of charging tuition?",
+      "answer": "Be very cautious. Regulators, including the CFPB, treat ISAs as credit products subject to lending laws and disclosure requirements, and several ISA providers have faced enforcement. ISAs shift the risk of poor outcomes onto you and require strong, honest placement results to work. Get legal advice before offering one, and never market an ISA as risk-free."
+    },
+    {
+      "question": "Do I need a license to run a coding bootcamp?",
+      "answer": "Often yes. Many states regulate private career schools and require approval, a surety bond, and sometimes minimum financial reserves before you can enroll paying students. Requirements vary widely by state and by whether you are online or in-person. Check your state's higher-education or career-school agency before recruiting a cohort."
+    },
+    {
+      "question": "How much can a coding bootcamp realistically make?",
+      "answer": "A small online cohort can gross $60,000 to $150,000, but instructor pay, dropouts, and marketing eat most of it early on. Established operators with proven outcomes often net $8,000 to $40,000 per month. The largest bootcamps reach seven or eight figures, but that requires years of results and reputation, and even big players have failed."
+    },
+    {
+      "question": "Can I run a bootcamp solo, or do I need a team?",
+      "answer": "You can teach and run a small first cohort solo, but it is exhausting because you are simultaneously instructor, salesperson, admin, and counselor. Most operators add TAs and admissions help by their second or third cohort. Trying to scale cohort size while still doing everything yourself usually breaks both teaching quality and outcomes."
+    },
+    {
+      "question": "What makes one coding bootcamp succeed when others fail?",
+      "answer": "Verifiable job placement, kept honest. The bootcamps that last focus on a specific track, support students closely, report outcomes transparently, and control their student-acquisition cost. The ones that fail tend to over-promise jobs, over-spend on ads, scale too fast, or chase too many tracks at once."
+    },
+    {
+      "question": "How long does it take to make money?",
+      "answer": "Plan for four to nine months before meaningful owner income: a month or two to build the curriculum and check licensing, a pilot, then a recruiting cycle and the cohort itself. Most founders earn little until they have run two or three cohorts and stabilized retention and placement."
+    }
+  ],
+  "similarBusinesses": [
+    "online-course-business",
+    "tutoring-business",
+    "web-development-business",
+    "app-development-business"
+  ],
+  "dataSources": [
+    "Course Report — annual coding bootcamp market size, tuition, and outcomes surveys",
+    "Council on Integrity in Results Reporting (CIRR) — standardized bootcamp outcomes reporting",
+    "Consumer Financial Protection Bureau (CFPB) — guidance and enforcement on Income Share Agreements as credit",
+    "U.S. Bureau of Labor Statistics — Software Developers and tech occupation employment and wage data",
+    "State private-career-school / higher-education licensing agencies — approval and bonding requirements"
+  ],
+  "lastReviewed": "2026-06"
+}
