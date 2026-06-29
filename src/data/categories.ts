@@ -1,7 +1,7 @@
 /**
  * Business categories — the top-level taxonomy.
  *
- * `targetPages` documents the planned 500-page distribution so future content
+ * `targetPages` documents the planned 1,000-page distribution so future content
  * can be added by category without re-architecting anything.
  */
 
@@ -28,7 +28,7 @@ export const CATEGORIES: Category[] = [
       'Service businesses sell your time, skill, and reliability rather than a physical product. Think cleaning, lawn care, bookkeeping, or notary work. They tend to have the lowest startup costs and the fastest path to a first paying customer, which is why they are where most self-funded founders begin. The trade-off is that your income is tied to hours worked until you hire help.',
     mostImportant:
       'In a service business your reputation is the entire product. One reliable, well-reviewed operator out-earns a dozen flaky competitors. Show up on time, do what you said, and ask every happy customer for a review — that single habit drives most service-business growth.',
-    targetPages: 80,
+    targetPages: 130,
     related: ['local-and-community', 'trades-and-skilled-work', 'health-and-wellness'],
   },
   {
@@ -39,7 +39,7 @@ export const CATEGORIES: Category[] = [
       'Online businesses are run primarily through a screen — freelancing, e-commerce, content, software, and digital services. They offer location freedom and the potential to scale beyond your own hours, but the competition is global and "free to start" usually means "slow to earn." Realistic timelines here are measured in months, not weeks.',
     mostImportant:
       'Online businesses look cheap to start but expensive in time. The real cost is the months of unpaid work before the first consistent income. Pick a model where you can show proof of skill or product quality early, because trust is harder to build when nobody can meet you in person.',
-    targetPages: 80,
+    targetPages: 140,
     related: ['technology-and-software', 'creative-and-content', 'retail-and-products'],
   },
   {
@@ -50,7 +50,7 @@ export const CATEGORIES: Category[] = [
       'Trades and skilled-work businesses are built on hands-on expertise — HVAC, handyman work, electrical, plumbing-adjacent services, and finish work. Demand is steady, margins are healthy, and skilled operators are genuinely hard to replace. The barrier is real: you need competence (and often licensing) before customers will pay, and many trades require an apprenticeship or certification first.',
     mostImportant:
       'Competence and licensing come before customers. In skilled trades, an undertrained operator does expensive damage and loses the business to a single bad job or insurance claim. Get the certification, get insured, and apprentice if you can — the skill is the moat.',
-    targetPages: 60,
+    targetPages: 100,
     related: ['service-businesses', 'local-and-community', 'real-estate-and-property'],
   },
   {
@@ -61,7 +61,7 @@ export const CATEGORIES: Category[] = [
       'Food and beverage businesses range from food trucks and catering to home-based baking and specialty products. They are emotionally appealing and have built-in demand, but they are also among the most regulated and capital-intensive small businesses, with thin margins and high failure rates. Permits, commercial kitchens, and food-safety rules are not optional.',
     mostImportant:
       'Food margins are thin and regulation is heavy. Before buying any equipment, confirm your local cottage-food laws, permit requirements, and where you are legally allowed to prepare food. Many promising food businesses die on permitting, not on product quality.',
-    targetPages: 40,
+    targetPages: 70,
     related: ['retail-and-products', 'local-and-community', 'service-businesses'],
   },
   {
@@ -72,7 +72,7 @@ export const CATEGORIES: Category[] = [
       'Retail and product businesses buy, make, or source physical goods and sell them at a margin — reselling, private-label products, Amazon FBA, dropshipping, and vending. The model is intuitive, but inventory ties up cash and most of the work is in sourcing, logistics, and marketing rather than the product itself. Cash-flow management makes or breaks these businesses.',
     mostImportant:
       'In products, the money is made in the buy, not the sell. Sourcing well, pricing for real all-in costs (fees, shipping, returns), and not over-ordering inventory matter more than any single sales tactic. Cash stuck in unsold stock is the most common way these businesses stall.',
-    targetPages: 50,
+    targetPages: 80,
     related: ['online-businesses', 'food-and-beverage', 'creative-and-content'],
   },
   {
@@ -83,7 +83,7 @@ export const CATEGORIES: Category[] = [
       'Creative and content businesses sell skill and taste — design, photography, video, writing, and social media. Startup costs can be low if you already own the gear and skill, and a strong portfolio can command premium rates. The hard part is consistent client flow and pricing your work like a business instead of a hobby.',
     mostImportant:
       'Talent gets you noticed; positioning gets you paid. The creatives who earn well are not always the most talented — they are the ones who specialize, show proof, and price confidently. A focused portfolio for one type of client beats a generic "I do everything" pitch.',
-    targetPages: 50,
+    targetPages: 80,
     related: ['online-businesses', 'technology-and-software', 'retail-and-products'],
   },
   {
@@ -94,7 +94,7 @@ export const CATEGORIES: Category[] = [
       'Health and wellness businesses help people feel and function better — personal training, coaching, massage, and related services. Demand is durable and clients can be loyal for years, but trust, results, and often certification or licensing are prerequisites. Liability and scope-of-practice rules deserve careful attention.',
     mostImportant:
       'Credibility and scope-of-practice are everything. Get the right certification, carry liability insurance, and never make health claims you cannot back up. Client results and referrals — not advertising — are what actually fill a wellness practice.',
-    targetPages: 40,
+    targetPages: 60,
     related: ['service-businesses', 'creative-and-content', 'local-and-community'],
   },
   {
@@ -105,7 +105,7 @@ export const CATEGORIES: Category[] = [
       'Real estate and property businesses earn from managing, improving, or arranging the use of property — short-term rental management, arbitrage, property services, and related models. Returns can be substantial, but so is the capital and the legal exposure. Lease terms, local regulations, and landlord permission are make-or-break details that are easy to underestimate.',
     mostImportant:
       'The contract and the local rules decide whether you have a business at all. Short-term rental bans, lease clauses against subletting, and zoning rules have ended many property ventures overnight. Confirm legality in writing before committing any money.',
-    targetPages: 30,
+    targetPages: 45,
     related: ['service-businesses', 'trades-and-skilled-work', 'local-and-community'],
   },
   {
@@ -116,7 +116,7 @@ export const CATEGORIES: Category[] = [
       'Technology and software businesses build or service digital tools — software products, IT services, automation, and tech-enabled freelancing. The upside is high margins and real scalability; the cost is skill. These businesses reward existing technical ability and patience through a long build-and-validate phase.',
     mostImportant:
       'Solve a real, specific problem before writing much code or buying tools. The graveyard of tech businesses is full of well-built products nobody needed. Talk to potential customers first; build only what they will actually pay for.',
-    targetPages: 40,
+    targetPages: 75,
     related: ['online-businesses', 'creative-and-content', 'service-businesses'],
   },
   {
@@ -127,8 +127,52 @@ export const CATEGORIES: Category[] = [
       'Local and community businesses serve a specific geographic area — neighborhood services, local events, and businesses that thrive on word of mouth. They benefit from less online competition and strong referral loops, but your growth is capped by the size and density of your area. Knowing your community is a genuine competitive advantage here.',
     mostImportant:
       'Local trust compounds. In a defined area, a handful of visible, well-reviewed jobs and genuine community relationships will out-market any ad budget. Density matters too — make sure there are enough nearby customers to support the business before you commit.',
-    targetPages: 30,
+    targetPages: 35,
     related: ['service-businesses', 'trades-and-skilled-work', 'food-and-beverage'],
+  },
+  {
+    slug: 'automotive',
+    name: 'Automotive Businesses',
+    shortName: 'Automotive',
+    description:
+      'Automotive businesses service, repair, clean, customize, or maintain vehicles — from mobile mechanics and detailing to body work, tinting, and fleet maintenance. Demand is constant because cars always break, get dirty, and need upkeep, and many of these can start mobile with low overhead. The trade-offs are real skill or equipment requirements, liability around other people’s vehicles, and pricing pressure from chains.',
+    mostImportant:
+      'You are working on something expensive that someone depends on daily, so trust and competence are everything. Carry the right garage-keepers/liability insurance, never take on work beyond your skill or tools, and build a reputation for honest diagnosis — the operators who last are the ones customers believe are not ripping them off.',
+    targetPages: 45,
+    related: ['trades-and-skilled-work', 'service-businesses', 'local-and-community'],
+  },
+  {
+    slug: 'education-and-coaching',
+    name: 'Education and Coaching',
+    shortName: 'Education',
+    description:
+      'Education and coaching businesses help people learn a skill or reach a goal — tutoring, test prep, music and language lessons, coaching, and course-based teaching. Startup costs are low and a single great result spreads by referral, but income is tied to your hours until you productize or hire, and trust in your expertise is the whole sale.',
+    mostImportant:
+      'Results and reputation fill your roster; everything else is secondary. Be honest about what you can and cannot deliver (you cannot guarantee a grade, a job, or an outcome), specialize in a clear niche, and treat each client’s result as marketing — referrals and testimonials are how these businesses actually grow.',
+    targetPages: 50,
+    related: ['online-businesses', 'creative-and-content', 'health-and-wellness'],
+  },
+  {
+    slug: 'events-and-entertainment',
+    name: 'Events and Entertainment',
+    shortName: 'Events',
+    description:
+      'Events and entertainment businesses make gatherings happen and fun possible — planning, DJing, rentals, photo booths, and entertainment venues. Demand clusters on weekends and seasons (weddings, holidays, summer), the work is people-facing and high-energy, and reputation travels fast. The catch is lumpy, seasonal income and, for venues, heavy lease and liability commitments.',
+    mostImportant:
+      'You are trusted with someone’s once-in-a-lifetime day or a packed venue, so reliability and liability cover are non-negotiable. Get clear contracts, deposits, and event insurance, and over-deliver on communication — most bookings in this world come from referrals and reviews of how calmly you handled the last event.',
+    targetPages: 50,
+    related: ['creative-and-content', 'local-and-community', 'food-and-beverage'],
+  },
+  {
+    slug: 'pet-and-animal',
+    name: 'Pet and Animal Services',
+    shortName: 'Pets',
+    description:
+      'Pet and animal businesses care for, train, groom, transport, and supply for people’s animals — an emotionally driven, recession-resilient market where owners spend willingly on trusted providers. Many start with very low overhead and build loyal, recurring clients. The honest catch is that you are responsible for living creatures, so trust, safety, and the right insurance matter more than in almost any other service.',
+    mostImportant:
+      'Owners are handing you a member of their family — one injured, lost, or mishandled animal can end the business. Carry pet-business liability insurance (and bonding where relevant), never overbook beyond what you can safely handle, and let genuine care and reliability earn the reviews and referrals that fill your schedule.',
+    targetPages: 40,
+    related: ['service-businesses', 'retail-and-products', 'local-and-community'],
   },
 ];
 
@@ -142,6 +186,74 @@ export function getCategory(slug: string): Category | undefined {
 
 /** Genuine, category-level questions — drives the FAQ on each category page. */
 export const CATEGORY_FAQS: Record<string, { question: string; answer: string }[]> = {
+  automotive: [
+    {
+      question: 'Do I need to be a certified mechanic to start an automotive business?',
+      answer:
+        'It depends on the service. Repair work that affects safety benefits hugely from ASE certification and is sometimes regulated; detailing, washing, and cosmetic services need skill but no formal license in most areas. Any business touching customers’ vehicles should carry garage-keepers and liability insurance regardless.',
+    },
+    {
+      question: 'Can an automotive business start mobile to keep costs down?',
+      answer:
+        'Yes — mobile mechanics, detailers, windshield repair, and tire services are popular low-overhead starts because you skip a shop lease. The limits are jobs needing a lift, alignment rack, or paint booth, which eventually push successful operators toward a fixed location.',
+    },
+    {
+      question: 'What is the biggest risk in automotive businesses?',
+      answer:
+        'Liability and trust. You are working on expensive equipment people rely on daily, so a misdiagnosis, damage, or a comeback can be costly and reputation-damaging. Honest diagnosis, proper insurance, and not taking work beyond your tools or skill are what separate lasting shops from short-lived ones.',
+    },
+  ],
+  'education-and-coaching': [
+    {
+      question: 'Do I need credentials to teach or coach?',
+      answer:
+        'For academic tutoring and most coaching, expertise and results matter more than a specific license, though certifications build trust. Some areas are regulated (for example, behind-the-wheel driving instruction or licensed therapy), so confirm requirements for your specific niche before advertising.',
+    },
+    {
+      question: 'How do education and coaching businesses get clients?',
+      answer:
+        'Referrals and demonstrated results. A few students or clients who improve and tell others is the primary growth engine; reviews, a clear niche, and free intro content help. Paid ads work for some, but word of mouth dominates because parents and clients trust recommendations.',
+    },
+    {
+      question: 'Can these businesses scale beyond my own hours?',
+      answer:
+        'Yes — by raising rates, teaching groups, building courses, or hiring other instructors under your brand. The shift from solo to a roster or productized offering is how teachers and coaches break past the income ceiling of one-on-one work.',
+    },
+  ],
+  'events-and-entertainment': [
+    {
+      question: 'Is events and entertainment work seasonal?',
+      answer:
+        'Very often, yes. Weddings, holidays, and summer drive demand, with quiet stretches in between. Successful operators plan cash flow around the busy season, take deposits, and add complementary services (corporate events, off-season packages) to smooth income.',
+    },
+    {
+      question: 'What insurance and contracts do I need?',
+      answer:
+        'Event liability insurance and a clear written contract with deposits and cancellation terms are essential — you are often handling someone’s once-in-a-lifetime event or a crowded venue. Venues, vehicles, and equipment each carry their own coverage needs; confirm requirements before booking.',
+    },
+    {
+      question: 'How do event businesses build a client base?',
+      answer:
+        'Referrals, reviews, and relationships with venues and other vendors (planners, photographers, caterers) drive most bookings. Reliability is the product — clients book the vendor they trust to handle problems calmly, and that reputation spreads quickly in tight local event circles.',
+    },
+  ],
+  'pet-and-animal': [
+    {
+      question: 'What insurance does a pet business need?',
+      answer:
+        'Pet-business liability insurance is essential, and many situations also call for bonding (especially when entering homes) and care, custody, and control coverage. You are responsible for living animals, so one injury, escape, or illness without coverage can be financially and reputationally devastating.',
+    },
+    {
+      question: 'Do pet businesses require licenses or certifications?',
+      answer:
+        'It varies. Walking and basic sitting usually need no special license, while grooming, training, boarding facilities, and anything medical may require certification, facility licensing, or veterinary oversight. Certifications are not always mandatory but strongly build the trust these businesses run on.',
+    },
+    {
+      question: 'Why are pet businesses considered resilient?',
+      answer:
+        'Owners treat pets as family and keep spending on them even in downturns, and many services (walking, grooming, daycare) generate loyal, recurring revenue. The flip side is that trust is hard-won and easily lost — your reputation for safe, caring service is the entire business.',
+    },
+  ],
   'service-businesses': [
     {
       question: 'Why are service businesses a common first business?',

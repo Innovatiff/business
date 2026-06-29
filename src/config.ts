@@ -129,6 +129,7 @@ export const FOOTER_NAV: NavItem[] = [
   { label: 'Terms', href: '/terms' },
   { label: 'Disclaimer', href: '/disclaimer' },
   { label: 'How We Research Businesses', href: '/how-we-research-businesses' },
+  { label: 'Editorial Standards', href: '/editorial-standards' },
   { label: 'Data Sources', href: '/data-sources' },
   { label: 'Submit a Business Idea', href: '/submit-a-business-idea' },
 ];

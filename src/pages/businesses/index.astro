@@ -7,20 +7,34 @@ import AdSlot from '../../components/AdSlot.astro';
 import { CATEGORIES } from '../../data/categories';
 import { FILTERS } from '../../data/filters';
 
-const all = (await getCollection('businesses')).sort((a, b) =>
-  a.data.title.localeCompare(b.data.title),
+const all = await getCollection('businesses');
+
+// Live count per category (only show categories that have pages).
+const categoryCounts = CATEGORIES.map((c) => ({
+  ...c,
+  count: all.filter((b) => b.data.category === c.slug).length,
+})).filter((c) => c.count > 0);
+
+const situationFilters = FILTERS.filter((f) =>
+  [
+    'businesses-under-500',
+    'businesses-under-5000',
+    'businesses-from-home',
+    'businesses-no-experience',
+    'businesses-start-this-week',
+    'businesses-part-time',
+    'businesses-high-income',
+    'businesses-for-beginners',
+  ].includes(f.slug),
 );
 
-// Categories that actually have at least one business yet.
-const populated = CATEGORIES.filter((c) => all.some((b) => b.data.category === c.slug));
-const quickFilters = FILTERS.filter((f) =>
-  ['businesses-under-500', 'businesses-from-home', 'businesses-no-experience', 'businesses-start-this-week', 'businesses-high-income', 'businesses-part-time'].includes(f.slug),
-);
+// A featured sample for engagement (not the whole library).
+const featured = all.filter((b) => b.data.featured).slice(0, 12);
 ---
 
 <BaseLayout
   title="Browse All Businesses — Honest Startup Costs and Earnings"
-  description="Browse every business on Honestly Profitable. Each one has real startup costs, realistic earnings, time to first income, and an honest difficulty rating."
+  description="Browse every business on Honestly Profitable by category or situation. Each one has real startup costs, realistic earnings, time to first income, and an honest difficulty rating."
   path="/businesses"
 >
   <div class="container browse-head">
@@ -28,27 +42,58 @@ const quickFilters = FILTERS.filter((f) =>
     <h1>Browse every business</h1>
     <p class="lead">
       {all.length} honest business breakdowns and counting — each with real startup costs, realistic
-      earnings, and a straight assessment of difficulty and risk. Filter by category or your situation.
+      earnings, time to first income, and a straight assessment of difficulty and risk. Start with a
+      category or jump to your situation.
     </p>
-
-    <div class="browse-filters">
-      <span class="browse-filters-label">By category:</span>
-      {populated.map((c) => <a href={`/${c.slug}`} class="tag tag-link">{c.shortName}</a>)}
-    </div>
-    <div class="browse-filters">
-      <span class="browse-filters-label">By situation:</span>
-      {quickFilters.map((f) => <a href={`/${f.slug}`} class="tag tag-link">{f.shortName}</a>)}
-    </div>
   </div>
 
+  <!-- Browse by category -->
   <div class="container section-tight">
-    <div class="grid grid-3">
-      {all.map((b) => <BusinessCard business={b} />)}
+    <h2 class="browse-h2">By category</h2>
+    <div class="grid grid-3 cat-grid">
+      {categoryCounts.map((c) => (
+        <a href={`/${c.slug}`} class="cat-card card">
+          <div class="cat-card-top">
+            <h3>{c.name}</h3>
+            <span class="cat-count">{c.count}</span>
+          </div>
+          <p>{c.description.split('. ')[0]}.</p>
+          <span class="cat-link">Explore {c.shortName} →</span>
+        </a>
+      ))}
     </div>
   </div>
+
+  <div class="container"><AdSlot slot="browse-mid" /></div>
+
+  <!-- Browse by situation -->
+  <div class="container section-tight">
+    <h2 class="browse-h2">By situation</h2>
+    <div class="browse-chips">
+      {situationFilters.map((f) => (
+        <a href={`/${f.slug}`} class="tag tag-link">{f.shortName}</a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Featured sample -->
+  {featured.length > 0 && (
+    <div class="container section-tight">
+      <h2 class="browse-h2">Popular breakdowns</h2>
+      <div class="grid grid-3">
+        {featured.map((b) => <BusinessCard business={b} />)}
+      </div>
+    </div>
+  )}
 
   <div class="container">
-    <AdSlot slot="browse-bottom" />
+    <div class="browse-cta card">
+      <div>
+        <h3>Not sure where to start?</h3>
+        <p class="muted">Answer a few honest questions and we'll match you to businesses that fit your real budget, time, and skills.</p>
+      </div>
+      <a href="/find-my-business" class="btn btn-primary">Find my business →</a>
+    </div>
   </div>
 </BaseLayout>
 
@@ -57,23 +102,59 @@ const quickFilters = FILTERS.filter((f) =>
     padding-top: var(--space-8);
   }
   .browse-head .lead {
-    max-width: 65ch;
+    max-width: 70ch;
   }
-  .browse-filters {
+  .browse-h2 {
+    margin-bottom: 1.25rem;
+  }
+  .cat-card {
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+  }
+  .cat-card:hover {
+    text-decoration: none;
+    border-color: var(--slate);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+  .cat-card-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+  .cat-card-top h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  .cat-count {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--green-dark);
+    background: var(--green-tint);
+    border-radius: 999px;
+    padding: 0.1rem 0.6rem;
+    flex: none;
+  }
+  .cat-card p {
+    color: var(--muted);
+    font-size: 0.92rem;
+    flex: 1 0 auto;
+    margin: 0.6rem 0 0.9rem;
+  }
+  .cat-link {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--green-dark);
+    font-size: 0.9rem;
+  }
+  .browse-chips {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     gap: 0.5rem;
-    margin-top: 1rem;
-  }
-  .browse-filters-label {
-    font-family: var(--font-display);
-    font-size: 0.78rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--muted);
-    font-weight: 700;
-    margin-right: 0.25rem;
   }
   .tag-link {
     transition: border-color 0.12s ease, color 0.12s ease;
@@ -82,5 +163,20 @@ const quickFilters = FILTERS.filter((f) =>
     border-color: var(--green);
     color: var(--green-dark);
     text-decoration: none;
+  }
+  .browse-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.5rem 1.75rem;
+    flex-wrap: wrap;
+  }
+  .browse-cta h3 {
+    margin: 0 0 0.3rem;
+  }
+  .browse-cta p {
+    margin: 0;
+    max-width: 60ch;
   }
 </style>

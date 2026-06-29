@@ -7,8 +7,8 @@ business reference. It is **one website with many pages** — a structured libra
 Business Finder that helps anyone find, evaluate, and start a profitable business that fits their real
 budget, time, skills, and situation. No hype, no courses to sell, no affiliate pressure.
 
-Built with [Astro](https://astro.build) as a fast, SEO-friendly static site designed to scale to 500
-evergreen business pages by adding data files — not by hand-coding pages.
+Built with [Astro](https://astro.build) as a fast, SEO-friendly static site designed to scale to
+1,000+ evergreen business pages by adding data files — not by hand-coding pages.
 
 ## Quick start
 
@@ -74,11 +74,13 @@ Honestly Profitable's value is trust. Every page must:
 
 See `/how-we-research-businesses` for the full process.
 
-## Scaling to 500 pages
+## Scaling to 1,000 pages
 
-`src/data/categories.ts` documents the planned per-category distribution (the `targetPages` field):
-Service 80, Online 80, Trades 60, Food 40, Retail 50, Creative 50, Wellness 40, Real Estate 30,
-Technology 40, Local 30. Growth = adding JSON files; no architectural changes required.
+`src/data/categories.ts` documents the planned per-category distribution (the `targetPages` field)
+across 14 categories: Service 130, Online 140, Trades 100, Retail 80, Creative 80, Technology 75,
+Food 70, Wellness 60, Real Estate 45, Local 35, Automotive 45, Education & Coaching 50,
+Events & Entertainment 50, Pet & Animal 40. Growth = adding JSON files; no architectural changes
+required. Category and filter listing pages paginate automatically (24 per page).
 
 ## AdSense
 
