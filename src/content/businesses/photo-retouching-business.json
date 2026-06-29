@@ -1,0 +1,161 @@
+{
+  "title": "Photo Retouching Business",
+  "slug": "photo-retouching-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a Photo Retouching Business — Real Costs and Earnings",
+  "metaDescription": "Honest breakdown of starting a photo retouching business: real startup costs, realistic per-image and retainer earnings, how to find photographer clients, and what most retouchers get wrong.",
+  "startupCostLow": 300,
+  "startupCostHigh": 3000,
+  "monthlyEarningsLow": 500,
+  "monthlyEarningsHigh": 6000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Detail-obsessed people with strong Photoshop skills who prefer focused screen work over client-facing photography",
+  "biggestRisk": "Commoditization — competing on price with cheap overseas studios and AI tools instead of building a high-end niche",
+  "speedToIncome": "months",
+  "minWeeklyHours": 10,
+  "skills": ["creative", "tech"],
+  "workLocations": ["home", "online"],
+  "priorities": ["flexibility", "alongside-job", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A photo retouching business provides professional post-production for photographers and brands — refining commercial, portrait, beauty, fashion, and product images so they are publication- or campaign-ready. Work includes skin retouching, color grading, compositing, clipping and background work, dodging and burning, and high-end techniques like frequency separation. This is distinct from photo restoration, which repairs damaged or old family photos; here the clients are working photographers and businesses who shoot the images and outsource the polishing so they can spend their time shooting and selling.",
+  "dailyReality": "The day is mostly heads-down work at a calibrated monitor in Photoshop and sometimes Capture One or Lightroom, moving through batches of images to a client's specifications. Around the editing you handle the business side: reviewing reference images and shot lists, clarifying briefs, delivering files through a gallery or shared drive, managing rounds of revisions, and invoicing. Deadlines cluster — a photographer who just shot a campaign or a wedding wants files back fast — so the workload comes in waves rather than a steady trickle. Communication discipline (clear briefs, version control, predictable turnaround) matters as much as the editing itself.",
+  "startupCostsItemized": [
+    { "item": "Adobe Creative Cloud (Photoshop + Lightroom) subscription", "low": 120, "high": 240, "annual": true },
+    { "item": "Capture One subscription/license", "low": 0, "high": 300, "optional": true },
+    { "item": "Color-calibrated monitor", "low": 250, "high": 1500 },
+    { "item": "Monitor calibration tool (e.g. Calibrite/Datacolor)", "low": 100, "high": 300, "optional": true },
+    { "item": "Graphics tablet (Wacom or similar)", "low": 60, "high": 400, "optional": true },
+    { "item": "Capable computer (if upgrading for large files)", "low": 0, "high": 2000, "optional": true },
+    { "item": "Portfolio website / Behance + sample before-afters", "low": 0, "high": 300 },
+    { "item": "Business registration", "low": 50, "high": 300 }
+  ],
+  "realEarnings": {
+    "yearOne": "Beginners often start on per-image work and marketplaces at low rates — $2 to $15 for basic portrait edits and product clean-ups while building speed and a portfolio. With a handful of small clients, realistic first-year income is $500 to $2,500 per month, frequently part-time alongside a job.",
+    "experienced": "Retouchers with proven skill and a niche charge $25 to $150+ per image for high-end beauty, fashion, and editorial work, or set monthly retainers with photographers and brands. Solid solo operators with a steady client base commonly report $3,000 to $6,000 per month.",
+    "topEarners": "Specialist beauty, fashion, and advertising retouchers command $200 to $1,000+ per finished image and work with agencies, brands, and name photographers; some build small studios with a team of retouchers. Reaching this takes years of refined craft, a standout portfolio, and reputation inside specific creative circles.",
+    "whatAffectsMost": "Niche and clientele matter most: high-end beauty and advertising pay many times what bulk e-commerce product retouching does. Speed, consistency, and reliable turnaround let you take on retainers and raise rates without working more hours.",
+    "perHour": "Effective rates vary widely — bulk per-image work can net as little as $10 to $20 per hour early on, while skilled niche retouchers reach $40 to $100+ per hour once they are fast and charging premium rates."
+  },
+  "howToStart": [
+    "Month 1: Master Photoshop fundamentals for retouching — frequency separation, dodge and burn, color grading, masking, and clipping paths. Build a tight portfolio with honest before/after examples in one or two niches you want to work in (e.g. beauty portraits or product).",
+    "Month 2: Calibrate your monitor and set up a clean delivery and file-management workflow. Create a portfolio site and Behance profile, then reach out directly to local and online photographers who shoot in your niche, offering to take editing off their plate.",
+    "Months 2-3: Take on a few real jobs, even at modest rates, to prove reliability and turnaround. Standardize your pricing (per image and retainer options) and your revision policy so projects do not sprawl.",
+    "Months 3-6: Turn happy one-off clients into repeat or retainer relationships, raise rates as your speed and portfolio improve, and specialize further into the highest-paying niche your work supports."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong, current Photoshop skills including masking, color, and high-end retouching techniques",
+      "A trained eye for skin, color, and detail — knowing when an edit looks natural versus overdone",
+      "Reliability with deadlines and clear communication about briefs and revisions"
+    ],
+    "canLearn": [
+      "Efficient batch workflows and actions to speed up repetitive edits",
+      "Color management and monitor calibration for accurate, consistent results",
+      "Client-side file delivery, version control, and revision-round management"
+    ],
+    "separators": [
+      "Developing a signature look and niche expertise (beauty, fashion, advertising) that commands premium rates",
+      "Speed without quality loss, which is what makes retainers and agency work profitable",
+      "Building trusted relationships with photographers and brands who hand you recurring, high-value work"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Competing only on price against cheap overseas studios, locking themselves into low-paying bulk work with no path to better rates",
+    "Editing on an uncalibrated monitor, so colors and skin tones look wrong on the client's screen",
+    "Over-retouching — plastic skin and obvious edits — which signals an amateur to discerning clients",
+    "Accepting vague briefs and no revision limits, leading to endless unpaid rounds of changes",
+    "Ignoring or panicking about AI tools instead of using them to speed grunt work while selling judgment and finish",
+    "Marketing to everyone instead of niching down, which makes the portfolio generic and forgettable"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Adobe Photoshop (+ Lightroom)", "note": "The industry standard and a non-negotiable. Most photographer clients expect layered PSD/TIFF deliverables.", "low": 120, "high": 240 },
+    { "item": "Color-calibrated monitor", "note": "Accurate color is the foundation of retouching credibility. Calibrate regularly with a hardware tool.", "low": 250, "high": 1500 },
+    { "item": "Graphics tablet", "note": "Greatly improves precision and speed for masking and dodge-and-burn versus a mouse.", "low": 60, "high": 400 },
+    { "item": "Capture One", "note": "Common in commercial and tethered studio workflows; worth learning to win product and fashion clients.", "low": 0, "high": 300 },
+    { "item": "Capable computer with ample RAM", "note": "Large layered files and high-res retouching are RAM and CPU hungry; a slow machine kills your effective rate.", "low": 0, "high": 2000 },
+    { "item": "File-delivery and proofing platform", "note": "Galleries or shared drives with versioning keep revision rounds organized and professional.", "low": 0, "high": 300 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to photographers in your niche who would rather shoot than edit",
+      "A focused portfolio site and Behance/Instagram showing before/after work in one or two specialties",
+      "Retoucher and photographer communities, Slack/Discord groups, and referrals between creatives",
+      "Freelance platforms (and niche retouching marketplaces) to land first paid jobs and reviews",
+      "Approaching brands, e-commerce stores, and studios that produce regular image volume for retainers"
+    ],
+    "whereCustomersAre": "Working photographers (portrait, wedding, fashion, product) drowning in post-production, plus e-commerce brands and studios with steady image output. The best long-term clients are photographers and brands who need recurring volume, not one-off edits.",
+    "timeToClientBase": "Plan on one to three months of portfolio-building and outreach before steady paid work, and six months or more to convert one-off clients into the repeat and retainer relationships that make income predictable.",
+    "wasteOfTime": "Bidding low on crowded gig platforms purely on price is a treadmill. Generic 'I edit photos' marketing also flops — clients hire a clear specialist, not a do-everything retoucher."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A single retoucher can reach full-time income with a handful of retainer clients and premium per-image rates in a strong niche, though it is capped by the hours you can edit and the demand in your specialty.",
+    "hireAndStepBack": "Possible by building a small studio of retouchers handling overflow to your quality standard, with you art-directing and handling clients. Quality control and training are the hard parts; high-end clients notice inconsistency immediately.",
+    "sellable": "A pure solo freelance practice is tied to your eye and hard to sell. A studio with a team, documented processes, and recurring brand/agency contracts has modest resale value, but the founder's reputation often carries the relationships.",
+    "whatScalingRequires": "Standardized editing specs and QC, trained retouchers, retainer clients with predictable volume, and a delivery workflow that runs without you touching every image. AI-assisted tooling can extend capacity but does not replace trained judgment."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have or can build genuinely strong Photoshop and color skills",
+      "You enjoy focused, detailed screen work more than being on camera or on set",
+      "You are reliable with deadlines and comfortable taking precise direction",
+      "You are willing to specialize and build a niche rather than do everything"
+    ],
+    "poorFit": [
+      "You dislike repetitive, detail-heavy work and tight deadlines",
+      "You expect to compete on price and still earn well — that race is already lost to cheap and AI options",
+      "You are unwilling to invest in a calibrated monitor and current software",
+      "You want client-facing, in-person creative work rather than behind-the-scenes editing"
+    ],
+    "askYourself": [
+      "Is my retouching good enough that a professional photographer would trust me with their best images?",
+      "Will I niche down into a specialty that pays well, rather than chasing bulk low-rate work?",
+      "Am I prepared to use AI tools as a speed aid while selling the judgment that clients actually pay for?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Will AI tools make photo retouching obsolete?",
+      "answer": "AI has automated parts of the work — background removal, basic skin smoothing, simple object removal — which has compressed prices for low-end bulk editing. High-end retouching that requires taste, brand consistency, and natural results still relies heavily on a trained human eye, and many pros now use AI to speed grunt work while charging for judgment and finish. The retouchers most at risk are those who only do the basic tasks AI now handles cheaply."
+    },
+    {
+      "question": "How is this different from photo restoration?",
+      "answer": "Photo restoration repairs old, damaged, or faded photographs — typically for consumers preserving family memories. Photo retouching is post-production on new professional images for photographers and brands: skin, color, compositing, and product finishing. The skills overlap in Photoshop, but the clients, pricing, and workflows are quite different."
+    },
+    {
+      "question": "Do I need a fancy computer to start?",
+      "answer": "Not to start, but large layered files in beauty and product work are demanding. You can begin on a decent existing machine, but a slow computer drags down your effective hourly rate. The more important early investment is a properly calibrated monitor, since accurate color is the foundation of the whole craft."
+    },
+    {
+      "question": "How should I price my work?",
+      "answer": "Common models are per finished image and monthly retainers for clients with steady volume. Per-image rates range enormously — from a few dollars for basic e-commerce clean-up to hundreds for high-end beauty. Set a clear revision policy too, because unlimited free revisions are the fastest way to make a profitable job unprofitable."
+    },
+    {
+      "question": "Where do I find photographer clients?",
+      "answer": "Direct, targeted outreach to photographers in your niche is the most reliable channel — many would happily offload editing if they trusted someone. Combine that with a focused portfolio, presence in creative communities, and referrals. Generic gig-platform bidding tends to attract only the lowest-paying work."
+    },
+    {
+      "question": "Do I need to be a photographer myself?",
+      "answer": "It helps to understand lighting, exposure, and how images are shot, but you do not need to be a working photographer. Many excellent retouchers are not shooters. What matters is your eye, your Photoshop skill, and your ability to deliver what a photographer or brand envisioned."
+    },
+    {
+      "question": "Can I really do this part-time?",
+      "answer": "Yes — retouching is location-independent and deadline-driven rather than schedule-driven, so many people build it around a job. The main constraint is that client work clusters around shoots and campaigns, so you need to manage waves of deadlines rather than expect steady, predictable hours."
+    }
+  ],
+  "similarBusinesses": [
+    "photo-restoration-business",
+    "photography-business",
+    "product-photography-business",
+    "freelance-graphic-design-business"
+  ],
+  "dataSources": [
+    "Adobe — Photoshop and Creative Cloud pricing and feature documentation",
+    "Retoucher and photographer community pricing discussions (Retouching Academy, r/photography, r/postprocessing)",
+    "Freelance platform and creative marketplace rate data for retouching services",
+    "Commercial photography and post-production industry guides on per-image and retainer pricing"
+  ],
+  "lastReviewed": "2026-06"
+}

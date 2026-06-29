@@ -1,0 +1,160 @@
+{
+  "title": "Food Truck Park Business",
+  "slug": "food-truck-park-business",
+  "category": "local-and-community",
+  "metaTitle": "How to Start a Food Truck Park — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a food truck park business: real land, buildout, and permit costs, how operators earn from rent and a bar, and what most get wrong.",
+  "startupCostLow": 80000,
+  "startupCostHigh": 750000,
+  "monthlyEarningsLow": 3000,
+  "monthlyEarningsHigh": 25000,
+  "timeToFirstIncome": "4 to 10 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Hospitality-minded operators who can curate a tenant mix, run a bar, and build a destination that draws steady foot traffic",
+  "biggestRisk": "Pouring capital into a lot and buildout, then failing to attract the right trucks and the foot traffic that keeps them — leaving you with empty stalls and a bar nobody visits",
+  "speedToIncome": "long",
+  "minWeeklyHours": 45,
+  "skills": ["people", "sales", "finance"],
+  "workLocations": ["space"],
+  "priorities": ["sellable", "max-income"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "whatItIs": "A food truck park is a lot or property where the operator rents stalls or pads to food trucks and builds shared common areas — covered seating, restrooms, lighting, landscaping, and very often a central bar. You are not cooking; you are running a small hospitality destination. The trucks pay rent (flat, percentage of sales, or a mix) and bring the food variety that pulls crowds, while you typically own the highest-margin piece: alcohol and beverage sales at the bar. Revenue also comes from events, live music nights, private bookings, and sometimes ancillary retail. The model lives on a heavy upfront base — land or a ground lease, utility and seating buildout, and a thicket of permits and liquor licensing — against the risk that the right trucks and the crowds never quite show up.",
+  "dailyReality": "On an operating day you are setting up the common area, confirming which trucks are showing and where they park, running utilities and waste, opening and stocking the bar, and managing staff and security. Much of the real work happens before opening: recruiting and scheduling a rotating mix of trucks that complement rather than cannibalize each other, booking live music and events, handling permits and health-department coordination, and marketing the park as a destination. Evenings and weekends are the core trade, so your hours skew late and into weekends. Behind the scenes you are managing tenant relationships, collecting rent, reconciling bar sales, maintaining the grounds, and constantly working to keep foot traffic high enough that trucks want to keep coming back.",
+  "startupCostsItemized": [
+    { "item": "Land purchase or ground-lease deposit and early rent", "low": 20000, "high": 300000 },
+    { "item": "Site buildout — paving, utility hookups (power, water, sewer), grease and waste", "low": 25000, "high": 200000 },
+    { "item": "Covered seating, shade structures, landscaping, lighting, restrooms", "low": 15000, "high": 120000 },
+    { "item": "Bar buildout and equipment (taps, coolers, POS)", "low": 15000, "high": 100000 },
+    { "item": "Liquor license, food/health permits, zoning and use approvals", "low": 5000, "high": 60000 },
+    { "item": "General liability and liquor liability insurance", "low": 5000, "high": 20000, "annual": true },
+    { "item": "Signage, stage/sound for events, security", "low": 5000, "high": 40000 },
+    { "item": "Pre-opening payroll, legal, and marketing", "low": 8000, "high": 40000 }
+  ],
+  "realEarnings": {
+    "yearOne": "Most parks ramp slowly while tenants and crowds build, and many barely break even or run a loss in year one. Once open and drawing traffic, viable first-year owner take-home commonly lands around $0 to $6,000 per month, with the bar carrying a disproportionate share of the profit.",
+    "experienced": "An established park with a full, well-curated tenant roster, a busy bar, and a steady event calendar typically clears $6,000 to $18,000 per month in owner profit after debt service, payroll, and insurance. The bar and events, not truck rent alone, are usually what lift the upper end.",
+    "topEarners": "The best-located, destination-grade parks in dense, walkable areas can net $18,000 to $40,000+ per month, especially when they own the real estate and run a high-volume bar and event program. Reaching that takes a strong location, a reputation that keeps trucks competing for stalls, and disciplined bar and event operations — most owners never get there.",
+    "whatAffectsMost": "Location and foot traffic drive everything, followed by the bar. Truck rent alone is usually thin margin; the high-margin alcohol and beverage sales plus events are what make the model work. Tenant mix matters too — the right variety of trucks pulls bigger, more frequent crowds.",
+    "perHour": "With long evening, weekend, and event hours, first-year owner pay often works out to a modest $15 to $30 per hour. It improves to $40 to $70+ once the park is established, the bar is humming, and managers cover shifts."
+  },
+  "howToStart": [
+    "Months 1–2: Validate the concept and site. Study foot traffic, parking, walkability, and competing venues; confirm zoning allows a food truck park and a bar; and model whether the bar plus realistic truck rent can cover land and buildout costs. Talk to local food truck operators about whether they would come.",
+    "Months 2–4: Lock the land or ground lease (negotiate hard on terms and any personal guarantee), line up financing, and begin the permit and liquor-license process early — it is often the longest pole. Get buildout quotes for utilities, seating, and the bar.",
+    "Months 4–8: Build out utilities, common area, and the bar; secure permits and licenses; recruit and sign an opening roster of complementary trucks; set rent terms (flat, percentage, or hybrid); and hire and train bar and operations staff. Line up opening events and music.",
+    "Months 8–10: Open with events and strong local promotion, then focus relentlessly on foot traffic and tenant mix — rotating trucks to keep variety fresh, programming weekly events, and protecting the bar and event revenue that actually pays the bills."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Hospitality and people skills to manage tenants, staff, and crowds",
+      "Enough capital or financing to fund land, buildout, and a slow ramp",
+      "Sales ability to recruit trucks, book events, and sell private bookings"
+    ],
+    "canLearn": [
+      "Running and stocking a profitable bar and managing liquor compliance",
+      "Structuring truck rent and tenant agreements (flat vs percentage vs hybrid)",
+      "Event programming and live-music booking"
+    ],
+    "separators": [
+      "Curating a tenant mix and rotation that keeps variety fresh and crowds returning",
+      "Maximizing bar and event revenue, which is where the real margin lives",
+      "Building a destination reputation so trucks compete for your stalls instead of you chasing them"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Assuming truck rent will pay the bills — it is usually thin; the bar and events carry the profit",
+    "Underestimating permitting, zoning, and liquor licensing, which can take many months and stall an opening",
+    "Choosing a cheap lot with poor visibility or foot traffic, then never drawing the crowds trucks need to stay",
+    "Letting the tenant mix go stale or oversaturating with similar cuisines that cannibalize each other",
+    "Skimping on shade, seating, restrooms, and ambiance — comfort is what keeps people lingering and spending at the bar",
+    "Carrying inadequate liquor liability insurance, which is a serious exposure when alcohol is your core margin"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Utility infrastructure (power pedestals, water, sewer, grease disposal)", "note": "Trucks need reliable hookups; under-building utilities limits how many trucks you can host.", "low": 25000, "high": 200000 },
+    { "item": "Bar buildout and equipment", "note": "Your highest-margin revenue center; invest in taps, coolers, and a solid POS.", "low": 15000, "high": 100000 },
+    { "item": "Covered seating, shade, and landscaping", "note": "Comfort and ambiance keep crowds lingering and spending; weather protection is essential in most climates.", "low": 15000, "high": 120000 },
+    { "item": "Restrooms (built or quality portable)", "note": "Clean restrooms are non-negotiable for a destination; cheap portables hurt reputation.", "low": 5000, "high": 60000 },
+    { "item": "Stage, sound, and event equipment", "note": "Live music and events drive the foot traffic the whole model depends on.", "low": 5000, "high": 40000, "optional": true },
+    { "item": "Signage, lighting, and security", "note": "Visibility pulls drive-by traffic; lighting and security keep evening crowds safe and comfortable.", "low": 5000, "high": 30000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A strong social media presence posting the weekly truck lineup, events, and music — this is how regulars decide to come",
+      "A Google Business Profile and event listings that make the park a known local destination",
+      "Recruiting and rotating a curated mix of popular local trucks that bring their own followings",
+      "Weekly programming — trivia, live music, markets, family nights — to manufacture repeat visits",
+      "Private event and group bookings that fill slower days and add high-margin revenue"
+    ],
+    "whereCustomersAre": "Local residents, families, after-work crowds, and weekend diners looking for variety and atmosphere, concentrated in walkable or high-visibility areas. Trucks themselves are also customers, recruited through food-truck networks and social media.",
+    "timeToClientBase": "Building both a reliable tenant roster and a crowd that shows up consistently usually takes a full year. Trucks follow foot traffic and foot traffic follows good trucks, so the early months are a chicken-and-egg grind.",
+    "wasteOfTime": "Broad paid advertising before the park has a vibe and a reputation, and signing any truck just to fill stalls regardless of fit. Early on, a curated lineup, events, and organic social buzz pull crowds far better than ads."
+  },
+  "howItScales": {
+    "toFullTime": "It is a full-time business from the start. The question is whether the location can draw enough foot traffic and bar volume to justify the capital and the late, weekend-heavy hours.",
+    "hireAndStepBack": "Possible once you have a reliable manager, documented bar and operations procedures, and a self-sustaining tenant and event calendar. Many owners shift to handling tenant relationships, finances, and programming while managers run nightly operations.",
+    "sellable": "An established park, especially one that owns its real estate with a strong tenant roster, a busy bar, and clean books, can be a genuinely sellable asset — both as a business and for the land value. A leased lot with weak traffic and no bar revenue is much harder to sell.",
+    "whatScalingRequires": "Standardized operations, a management bench, proven bar and event economics, and either additional sites or expanded capacity before growing. Real estate ownership and the permitting burden make each new location a major undertaking."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have significant capital or financing and can absorb a slow, lossy ramp",
+      "You have hospitality instincts and enjoy curating a venue and managing people",
+      "You can sell — recruiting trucks, booking events, and building partnerships",
+      "Your site has real foot traffic or visibility and zoning that allows a park and a bar"
+    ],
+    "poorFit": [
+      "You want low startup cost, passive income, or to avoid late evening and weekend hours",
+      "You are uncomfortable with permitting, liquor licensing, and zoning complexity",
+      "You expect truck rent alone to cover your costs",
+      "Your location lacks foot traffic or sits in a market already saturated with similar venues"
+    ],
+    "askYourself": [
+      "Can the bar and events realistically cover my land and buildout costs, not just truck rent?",
+      "Will good trucks actually want to come here, and is there enough foot traffic to keep them?",
+      "Am I prepared for the long permitting and liquor-licensing process and a year-long ramp?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How does a food truck park make money?",
+      "answer": "Primarily through truck rent (flat, percentage of sales, or a hybrid) plus a central bar and events. In practice the bar and event revenue, not truck rent, usually carry the profit because rent margins are thin. Some parks add private bookings, retail, or ticketed events to layer on income."
+    },
+    {
+      "question": "Do I need to own the land?",
+      "answer": "No, many operators run on a ground lease, but ownership changes the economics significantly. Owning the real estate adds a valuable, sellable asset and protects you from rent hikes, while leasing lowers upfront cost but exposes you to a landlord and lease renewal risk. Either way, the buildout investment is substantial."
+    },
+    {
+      "question": "Why is the bar so important?",
+      "answer": "Alcohol and beverage sales are the highest-margin part of the business by a wide margin. Truck rent tends to be thin, so the bar is often what turns a park from break-even into profitable. That is also why liquor licensing and liquor liability insurance are central concerns, not afterthoughts."
+    },
+    {
+      "question": "What is the hardest part of getting started?",
+      "answer": "Usually permitting, zoning, and liquor licensing, which can take many months and vary widely by city. Beyond that, the chicken-and-egg challenge of attracting good trucks before you have foot traffic, and foot traffic before you have good trucks, is what makes the first year hard."
+    },
+    {
+      "question": "How do I get food trucks to come?",
+      "answer": "You recruit through local food-truck networks and social media, offer reasonable rent terms, and most importantly provide foot traffic. Trucks follow crowds, so the more events, marketing, and a comfortable destination you build, the easier recruiting becomes. Curating a complementary mix that does not oversaturate one cuisine keeps both trucks and customers happy."
+    },
+    {
+      "question": "Is it seasonal?",
+      "answer": "In most climates yes — outdoor parks are busiest in warm months and evenings, and slow sharply in winter or bad weather. Operators offset this with covered and heated seating, indoor bar space, and a strong event calendar, but seasonal cash flow swings are a real planning factor."
+    },
+    {
+      "question": "How long until it is profitable?",
+      "answer": "Plan for a full year or more. The combination of a slow tenant and crowd ramp, heavy upfront buildout, and seasonal swings means most parks do not show real owner profit until the venue is established as a known local destination."
+    }
+  ],
+  "similarBusinesses": [
+    "food-truck-business",
+    "ghost-kitchen-business",
+    "arcade-bar-business",
+    "coworking-space-business"
+  ],
+  "dataSources": [
+    "IBISWorld — Food Trucks and Bars & Nightclubs industry reports",
+    "National Restaurant Association — foodservice and beverage margin data",
+    "Local zoning, health-department, and liquor-licensing guidance for mobile food vendor parks",
+    "Operator interviews and food-truck and hospitality forums for reported rent structures and bar economics"
+  ],
+  "lastReviewed": "2026-06"
+}

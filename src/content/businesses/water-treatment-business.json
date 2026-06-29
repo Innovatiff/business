@@ -1,0 +1,162 @@
+{
+  "title": "Water Treatment and Filtration Business",
+  "slug": "water-treatment-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Water Treatment Business — Real Costs, Earnings, Steps",
+  "metaDescription": "Honest guide to starting a water treatment and filtration business: licensing, real startup costs, realistic install and service earnings, and what most operators get wrong.",
+  "startupCostLow": 4000,
+  "startupCostHigh": 30000,
+  "monthlyEarningsLow": 4000,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Hands-on people with plumbing aptitude who can sell solutions honestly and build recurring service and salt-delivery income",
+  "biggestRisk": "Botching an install that causes a water leak and property damage, or relying on high-pressure sales tactics that wreck reputation and trigger refunds",
+  "speedToIncome": "months",
+  "minWeeklyHours": 25,
+  "skills": ["hands", "sales"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable", "helping"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A water treatment and filtration business installs and services equipment that improves household and commercial water: water softeners (which remove hardness minerals), whole-home filtration and carbon systems, iron and sulfur removal, reverse osmosis drinking-water units, and UV purification. The business has three revenue streams that reinforce each other — system installations, ongoing service and repairs, and recurring consumables like softener salt delivery and replacement filters/membranes. It combines plumbing skill with a consultative sales process: you test the customer's water, explain what is in it, recommend the right equipment, and install it correctly so it works and doesn't leak. Demand is strongest in hard-water regions and areas with well water or known contaminant issues.",
+  "dailyReality": "A typical week mixes installs, service calls, and deliveries. On an install day you shut off the water, cut into the main supply line, plumb in the softener or filtration system with bypass valves and a drain connection, set up the control head and program regeneration cycles, and pressure-test for leaks. Service days are filling salt, swapping filters and RO membranes, troubleshooting a unit that isn't regenerating, and sanitizing systems. A lot of the job is also in-home consultation: running a water test, walking the customer through the results honestly, and quoting the right solution. The work involves lifting heavy tanks and salt bags, working in basements, garages, and utility closets, and keeping accurate records of customers' equipment and service schedules.",
+  "startupCostsItemized": [
+    { "item": "Plumbing/contractor or water-treatment license, exams, and permits (varies by state)", "low": 100, "high": 2000 },
+    { "item": "Plumbing tools, pipe tools, and install equipment", "low": 500, "high": 2500 },
+    { "item": "Water testing kits and a digital test meter (TDS, hardness, iron)", "low": 100, "high": 800 },
+    { "item": "Initial equipment inventory (softeners, RO units, filters, fittings)", "low": 1500, "high": 8000 },
+    { "item": "Work van or truck (used)", "low": 2000, "high": 12000, "optional": true },
+    { "item": "General liability insurance", "low": 600, "high": 2500, "annual": true },
+    { "item": "Business registration / LLC and bonding (where required)", "low": 100, "high": 800 },
+    { "item": "CRM / scheduling software for service and salt-delivery routes", "low": 0, "high": 1200, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most new operators earn $4,000 to $8,000 per month in year one as they learn installs and build a customer base. A whole-home water softener install is commonly priced at $1,500 to $4,000 (equipment cost often $400 to $1,200), an RO system $300 to $800 installed, and a solo operator doing several installs plus service calls a week builds steady revenue, though the schedule is uneven early on.",
+    "experienced": "Operators with two-plus years, a service and salt-delivery route, and a referral base commonly report $8,000 to $15,000 per month solo or with a helper. The recurring revenue — salt delivery, filter and membrane replacements, annual service — is what stabilizes income beyond one-off installs.",
+    "topEarners": "Top operators run multiple trucks, hold dealer relationships with equipment brands, serve commercial and well-water clients, and gross $500k to well over $1M per year. Reaching that means hiring and training installers, building a large recurring service base, and shifting from doing the work to managing a company.",
+    "whatAffectsMost": "Recurring revenue and honest, consultative selling matter most. A growing base of service contracts, salt deliveries, and filter replacements turns lumpy install income into predictable cash flow. Your local water (hardness, well prevalence, contaminant issues) also strongly affects demand.",
+    "perHour": "Effective rate for a solo installer is often $60 to $130 per hour of actual install and service work, before driving, quoting, and inventory time. Counting all unpaid time, blended rates commonly land around $45 to $90 per hour, with consumable deliveries at the lower end and installs at the higher end."
+  },
+  "howToStart": [
+    "Month 1: Check licensing. Many states require a plumbing or contractor license to alter water supply lines, some have a specific water-treatment or water-conditioning installer license/certification (and WQA offers respected voluntary certifications), and permits are often needed for installs. Verify your exact state and local rules before doing paid work.",
+    "Month 1: Learn the core systems — softeners, carbon filtration, iron/sulfur removal, RO, and UV — and how to test water and read results. Apprentice with or shadow an experienced installer if you can, and set up your business, insurance, and a stocked vehicle.",
+    "Months 1-2: Decide on a supply model: become a dealer for an equipment brand, or buy independent-brand systems wholesale. Establish a salt and filter supplier for your recurring deliveries.",
+    "Month 2: Win first customers with free water tests and honest recommendations. Target hard-water and well-water neighborhoods, partner with plumbers and real estate agents, and build a Google Business Profile with reviews.",
+    "Days 90-180: Build a recurring service and salt-delivery route, set up a CRM to track each customer's equipment and service dates, and decide whether to add a helper or second truck as install and service volume grows."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Plumbing aptitude — cutting, joining, and pressure-testing supply lines without leaks",
+      "Ability to test water and interpret hardness, TDS, iron, and contaminant results accurately",
+      "Honest, consultative sales skills to recommend the right system without overselling"
+    ],
+    "canLearn": [
+      "Installing and programming softeners, RO, and filtration control valves and regeneration cycles",
+      "Troubleshooting and servicing common system faults and resins/membranes",
+      "Route and CRM management for recurring service and salt deliveries"
+    ],
+    "separators": [
+      "A reputation for honest recommendations rather than high-pressure selling, which drives referrals and avoids refunds",
+      "Building a large recurring service, salt, and filter base that smooths income between installs",
+      "Leak-free, code-compliant installs that prevent the property-damage claims that wipe out profit"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Doing supply-line work without the required plumbing or contractor license and permits, risking fines and failed inspections",
+    "Sloppy installs that leak and cause water damage, which is the costliest mistake in the trade",
+    "Adopting the high-pressure, fear-based sales tactics the industry is criticized for, which lead to refunds and reputation damage",
+    "Overselling expensive systems customers don't need instead of matching equipment to their actual water test results",
+    "Ignoring the recurring revenue (salt, filters, service) and chasing only one-off installs, leaving income lumpy",
+    "Underestimating the physical load of moving heavy tanks and salt bags and the time spent on inventory and routing"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Plumbing and pipe tools", "note": "Pipe cutters, crimpers/PEX tools, soldering or push-fit gear, and basic hand tools for tying into supply lines.", "low": 500, "high": 2500 },
+    { "item": "Water testing kit and digital meter", "note": "Tests hardness, TDS, iron, pH, and chlorine. The basis for honest, accurate recommendations.", "low": 100, "high": 800 },
+    { "item": "Softener and filtration inventory", "note": "Stock common softeners, carbon/whole-home systems, and RO units so you can install promptly.", "low": 1500, "high": 8000 },
+    { "item": "RO membranes, filters, and resin", "note": "Consumables for installs and the recurring replacement revenue that builds your route.", "low": 200, "high": 1500 },
+    { "item": "Work van or truck", "note": "Carries heavy tanks, salt, and inventory between jobs. A used vehicle is fine to start.", "low": 2000, "high": 12000 },
+    { "item": "Hand truck / appliance dolly", "note": "Softener tanks and salt bags are heavy; a good dolly prevents injury and speeds installs.", "low": 80, "high": 400 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Free in-home or mailer water tests in hard-water and well-water neighborhoods, leading to honest quotes",
+      "A Google Business Profile and website targeting 'water softener install [city]' and 'whole home filtration' with reviews",
+      "Partnering with plumbers, well drillers, and home inspectors who encounter water problems",
+      "Real estate agent referrals for homes with failed water tests or known well issues",
+      "Recurring salt-delivery and filter-replacement programs that turn one-time buyers into repeat customers"
+    ],
+    "whereCustomersAre": "Homeowners in hard-water regions, on private wells, or in areas with known contaminant or taste/odor issues. Demand concentrates geographically by water quality and is often triggered by home purchases, appliance damage from hard water, or health concerns.",
+    "timeToClientBase": "First installs often come within one to three months of testing and marketing. A stabilizing base of recurring service and salt deliveries usually takes six to twelve months to build into reliable monthly income.",
+    "wasteOfTime": "Aggressive, fear-based door-to-door selling damages reputation more than it helps and is exactly what gives the industry a bad name. Generic broad advertising is also weak; targeted water-quality marketing and honest free tests convert far better."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A solo installer in a hard-water or well-water area can build a full-time income from installs plus a growing recurring service and salt-delivery base, capped mainly by how many jobs one person can complete per day.",
+    "hireAndStepBack": "Achievable. Adding installers and a service technician lets you grow installs and recurring routes, but requires training for leak-free work and honest selling. Stepping back depends on systems, a reliable lead installer, and tight quality control.",
+    "sellable": "A company with a large recurring service and salt-delivery base, documented systems, dealer relationships, and a good reputation is genuinely sellable, with the recurring revenue making it more valuable than install-only operations. The recurring book is the asset buyers want.",
+    "whatScalingRequires": "Trained installers and service techs, route and CRM systems for recurring deliveries, dealer or wholesale supply relationships, strong insurance, and a marketing engine. The recurring revenue base is both the growth lever and what makes the business durable."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have plumbing aptitude or are willing to get the required license",
+      "You can sell honestly and consultatively without high-pressure tactics",
+      "You want recurring service and delivery income, not just one-off jobs",
+      "You live in or near a hard-water or well-water region with real demand"
+    ],
+    "poorFit": [
+      "You want a low-skill or fully passive business",
+      "You are uncomfortable with plumbing work or interpreting water tests",
+      "You are unwilling to get licensing/permits or carry insurance",
+      "You are in a soft-water municipal area with little demand for treatment"
+    ],
+    "askYourself": [
+      "Can I do leak-free supply-line installs, or get licensed and trained to do them?",
+      "Will I sell honestly based on water tests rather than pressure, and build a referral reputation?",
+      "Is my area's water quality and well prevalence enough to support steady install and service demand?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a plumbing license to install water softeners and filtration?",
+      "answer": "Often, yes. Because installs alter the home's water supply lines, many states require a plumbing or contractor license to do the work legally, and some have a specific water-treatment or water-conditioning installer license or registration. Permits are also commonly required. The Water Quality Association (WQA) offers respected voluntary certifications that build credibility. Verify your exact state and local licensing and permit rules before doing paid installs."
+    },
+    {
+      "question": "How much does a water softener installation cost?",
+      "answer": "A whole-home water softener is commonly priced at $1,500 to $4,000 installed, with equipment often costing $400 to $1,200 wholesale, so much of the value is in the install and expertise. Reverse osmosis drinking-water systems typically run $300 to $800 installed. More complex jobs — iron/sulfur removal, well systems, or commercial — cost more."
+    },
+    {
+      "question": "What are the recurring revenue streams?",
+      "answer": "The recurring side is what makes the business stable: softener salt delivery, replacement carbon filters and RO membranes, annual system service and sanitizing, and resin replacement over time. Building a route of recurring customers turns lumpy install income into predictable monthly cash flow and is the asset that makes the business sellable."
+    },
+    {
+      "question": "Is this industry known for high-pressure sales?",
+      "answer": "Parts of it, yes, and that reputation is a liability you should avoid. The honest, durable approach is to test the customer's water, show them the actual results, and recommend only the equipment that addresses their real issues. Operators who build trust get referrals and few refunds; those who push fear-based, oversized systems generate complaints and chargebacks."
+    },
+    {
+      "question": "How do I decide what system a customer needs?",
+      "answer": "You run a water test for hardness, TDS, iron, pH, chlorine, and any known local contaminants, then match equipment to the results — a softener for hardness, carbon or whole-home filtration for taste/odor and chlorine, specialized media for iron or sulfur, RO for drinking water, and UV for biological concerns. Recommending based on data rather than upselling is both more ethical and better for repeat business."
+    },
+    {
+      "question": "What's the biggest risk on the job?",
+      "answer": "A leak. Because you are cutting into and re-plumbing the main water supply, a poorly made connection can cause water damage that you are liable for. Leak-free, code-compliant installs and pressure testing before you leave are essential, which is why plumbing skill and proper licensing matter so much in this trade."
+    },
+    {
+      "question": "Can I start this part-time?",
+      "answer": "It is difficult to run truly part-time because installs are scheduled appointments, service calls can be urgent, and salt deliveries run on a route. You can start solo and grow gradually, but the licensing, equipment investment, and customer service expectations make it more of a committed trade than a casual side business."
+    }
+  ],
+  "similarBusinesses": [
+    "plumbing-business",
+    "handyman-business",
+    "hvac-business",
+    "appliance-repair-business"
+  ],
+  "dataSources": [
+    "Water Quality Association (WQA) — certification standards and industry data",
+    "U.S. EPA and state agencies — drinking water quality and treatment guidance",
+    "Angi / HomeAdvisor — water softener and filtration installation cost guides (reported ranges)",
+    "Plumbing and water-treatment trade licensing rules by state, and operator interviews for real-world pricing and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

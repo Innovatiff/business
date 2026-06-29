@@ -1,0 +1,163 @@
+{
+  "title": "Sandwich Shop and Deli Business",
+  "slug": "deli-business",
+  "category": "food-and-beverage",
+  "metaTitle": "How to Start a Sandwich Shop and Deli — Real Costs and Earnings",
+  "metaDescription": "Honest guide to opening a sandwich shop and deli: real startup costs, food and labor cost control, the lunch-rush reality, and what most owners get wrong.",
+  "startupCostLow": 70000,
+  "startupCostHigh": 300000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 16000,
+  "timeToFirstIncome": "4 to 10 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Hands-on operators who like fast-paced food service and can control food and labor cost in a lunch-driven business",
+  "biggestRisk": "Weak lunch-hour traffic combined with poor food and labor cost control, which leaves a high-fixed-cost shop unprofitable",
+  "speedToIncome": "long",
+  "minWeeklyHours": 45,
+  "skills": ["food", "people"],
+  "workLocations": ["space"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A sandwich shop and deli makes made-to-order sandwiches, subs, wraps, and salads, often alongside sliced meats and cheeses, sides, and drinks, served through a counter for dine-in, takeout, and catering. It is a classic food-and-beverage business built around the lunch rush, a fixed location near offices or busy retail, and tight control of food and labor cost. Compared with a full restaurant, a deli has a simpler menu, faster service, and lower equipment needs, but it lives or dies on midday volume and the difference between a profitable and unprofitable shop is usually pennies per sandwich multiplied across hundreds of orders.",
+  "dailyReality": "Mornings start with prep — slicing meats and cheeses, washing and chopping produce, baking or receiving bread, making sauces, and setting up the line so you can move fast. The lunch rush from roughly 11 a.m. to 2 p.m. is the main event: a fast, accurate line where speed and consistency determine how many tickets you turn. Afternoons cover catering orders, cleaning, prep for tomorrow, inventory, and ordering. As owner you're often on the line, running the register, managing staff, and watching food cost and waste in real time. Catering and corporate orders add early mornings and tight deadlines.",
+  "startupCostsItemized": [
+    { "item": "Lease deposit, first/last month, and buildout", "low": 20000, "high": 120000 },
+    { "item": "Refrigeration, prep tables, slicer, sandwich line, ovens", "low": 15000, "high": 70000 },
+    { "item": "POS, seating, signage, and smallwares", "low": 6000, "high": 35000 },
+    { "item": "Health permits, food handler/manager certs, licenses, inspections", "low": 1000, "high": 6000 },
+    { "item": "Initial food inventory and packaging", "low": 2000, "high": 9000 },
+    { "item": "Insurance (general liability, property, workers' comp)", "low": 2000, "high": 8000, "annual": true },
+    { "item": "Working capital for payroll and rent before profitability", "low": 15000, "high": 50000 },
+    { "item": "Branding, menu design, and pre-opening marketing", "low": 1000, "high": 8000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Be realistic: many delis break even or lose money in year one while building a lunch crowd. Owner take-home is often $0 to $3,500 per month early on, and a poorly located shop can stay underwater. A strong location with quick repeat traffic and catering can reach modest owner pay sooner.",
+    "experienced": "An established, well-located deli typically produces owner earnings of $4,000 to $11,000 per month once lunch volume, catering, and cost control are dialed in. Catering and corporate accounts are often what push a deli from break-even to comfortable.",
+    "topEarners": "High-volume shops in prime office or downtown locations, or owners running strong catering operations or multiple units, can clear $14,000 to $35,000+ per month in owner profit. Getting there requires great location, fast service systems, reliable staff, and disciplined food and labor cost — most single shops never reach this.",
+    "whatAffectsMost": "Lunch-hour location and traffic come first, then food and labor cost control and catering revenue. The same menu earns very different profits depending on how fast the line moves at noon and how tightly portions and waste are managed.",
+    "perHour": "Owners who work the line and manage the shop often put in 45 to 65 hours a week, so early effective hourly pay can be modest — sometimes $12 to $20 an hour until the deli is established. Profit per hour improves as volume rises and catering grows."
+  },
+  "howToStart": [
+    "Months 1-2: Scout locations near lunch demand — offices, schools, hospitals, downtown corridors — and study foot traffic, parking, and competitors. Build a conservative sales forecast and a real budget before signing a lease.",
+    "Months 2-3: Secure financing and the lease, design an efficient line layout, and pull health permits, food handler/manager certifications, and business licenses early to avoid delays.",
+    "Months 3-5: Install equipment, finalize a tight, fast menu, line up food suppliers, set up POS and online ordering, and standardize recipes and portions so food cost is predictable.",
+    "Months 4-6: Hire and train, run a soft opening to stress-test the lunch rush for speed and accuracy, and gather feedback. Track food cost and waste from day one.",
+    "Months 6-10: Build midday regulars, launch catering and corporate lunch orders, add loyalty and online ordering, and refine portions and labor scheduling to protect margins."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Speed and consistency building made-to-order sandwiches under rush pressure",
+      "Food and labor cost discipline — portioning, scheduling, and waste control",
+      "People skills to lead a small crew and keep a fast line accurate and friendly"
+    ],
+    "canLearn": [
+      "POS, online ordering, and supplier management",
+      "Health-code compliance and food-safety routines",
+      "Catering logistics and corporate account selling"
+    ],
+    "separators": [
+      "Keeping food cost in line through portion control and smart purchasing without cutting quality",
+      "Scheduling labor to match the lunch curve so you're not overstaffed at 3 p.m.",
+      "Building reliable catering and corporate orders that smooth revenue beyond the noon rush"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Picking a location without proven lunch-hour traffic — the most common reason delis fail",
+    "Losing control of food cost through sloppy portioning, over-ordering, and waste",
+    "Overstaffing outside the lunch rush and letting labor cost eat the margin",
+    "Building a menu that's too big and slow, which kills line speed and increases waste",
+    "Ignoring catering and corporate orders, which often carry the best margins and stability",
+    "Under-capitalizing and running out of cash before the lunch crowd becomes a habit"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Commercial meat/cheese slicer", "note": "Core to a deli; consistent slicing controls yield and food cost.", "low": 1500, "high": 8000 },
+    { "item": "Refrigerated sandwich prep line", "note": "Keeps ingredients cold and within reach so the line moves fast at noon.", "low": 3000, "high": 15000 },
+    { "item": "Walk-in or reach-in refrigeration", "note": "Protects perishable meats, dairy, and produce; a regulated requirement.", "low": 4000, "high": 25000 },
+    { "item": "Oven / panini press / toaster", "note": "For hot subs and melts; expands the menu without slowing the line much.", "low": 1000, "high": 8000 },
+    { "item": "POS with online ordering and catering", "note": "Speeds the line and captures higher-margin catering and pickup orders.", "low": 2000, "high": 12000 },
+    { "item": "Packaging and smallwares", "note": "Recurring cost for takeout, catering, and dine-in service.", "low": 1500, "high": 8000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A location with heavy midday traffic — offices, schools, hospitals, or downtown — is the primary driver",
+      "Catering and corporate lunch orders sold directly to nearby businesses and event planners",
+      "A complete Google Business Profile with photos, menu, and reviews for 'sandwiches near me'",
+      "Online ordering and delivery-app presence to capture takeout, balanced against delivery fees",
+      "Loyalty programs and lunch specials that turn nearby workers into daily regulars"
+    ],
+    "whereCustomersAre": "Office workers, students, hospital staff, and downtown shoppers looking for fast, reliable lunch — concentrated within a short walk or drive of your location during the midday rush. Catering customers are nearby businesses booking meetings and events.",
+    "timeToClientBase": "A well-placed deli can build a lunch following within a few months, but a steady, profitable base with reliable catering usually takes four to ten months of consistent speed, quality, and outreach to nearby offices.",
+    "wasteOfTime": "Broad paid ads or expensive signage far from your trade area. Lunch is hyper-local; winning the offices and workers within walking or short driving distance, plus catering, matters far more than wide marketing."
+  },
+  "howItScales": {
+    "toFullTime": "It's a full-time business from the start, not a part-time model. Reaching solid owner income depends on lunch volume, catering, and tight cost control rather than menu breadth.",
+    "hireAndStepBack": "Possible but demanding. You can train a strong shift lead and crew and step off the line, but thin margins mean labor must be matched to volume, and owners typically stay close to scheduling, cost control, and the lunch rush.",
+    "sellable": "Established delis with steady lunch traffic, catering accounts, and clean books sell as turnkey food businesses. Value rises with documented systems, a transferable lease, recurring catering, and earnings that don't depend solely on the owner being on the line.",
+    "whatScalingRequires": "Standardized recipes and prep, labor scheduling tied to the lunch curve, strong catering and online-ordering channels, and disciplined food-cost systems. Multi-unit growth multiplies the location, staffing, and consistency challenges."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You thrive in fast-paced food service and can run an accurate line at peak rush",
+      "You're disciplined about food cost, portions, and labor scheduling",
+      "You have or can raise real startup and working capital",
+      "You can secure a high-traffic midday location and pursue catering"
+    ],
+    "poorFit": [
+      "You want a low-cost, low-risk, or part-time business",
+      "You dislike managing staff and standing on a line during a chaotic lunch rush",
+      "You're uncomfortable tracking food and labor cost closely",
+      "You're under-capitalized and can't cover months before profitability"
+    ],
+    "askYourself": [
+      "Have I confirmed strong lunch-hour traffic near my location, and forecast sales conservatively?",
+      "Can I keep food and labor cost under control well enough that pennies per sandwich add up to profit?",
+      "Can I survive financially through a year that may break even while the lunch crowd builds?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How much does it cost to open a sandwich shop or deli?",
+      "answer": "A modest deli in an existing food space can start around $70,000, while a full buildout with new equipment and seating commonly runs $120,000 to $300,000 or more. Lease buildout, refrigeration, a slicer, the prep line, permits, and several months of working capital are the big drivers. Taking over a closed restaurant space can cut the upfront cost considerably."
+    },
+    {
+      "question": "Are delis profitable?",
+      "answer": "They can be, but profit comes down to lunch volume and controlling food and labor cost — the difference is often pennies per sandwich across hundreds of orders. Catering and corporate lunches frequently push a deli from break-even to comfortable. Many shops break even or lose money in year one before the midday crowd becomes a habit."
+    },
+    {
+      "question": "How important is location for a deli?",
+      "answer": "It's the single biggest factor. Delis depend on the lunch rush, so proximity to offices, schools, hospitals, or busy downtown foot traffic largely determines success. A great sandwich in a low-traffic spot struggles, while an average one in a high-traffic, well-run location can thrive."
+    },
+    {
+      "question": "What permits and licenses do I need?",
+      "answer": "Expect a business license, a food establishment permit from your local health department, food handler or manager certifications, and passing health inspections before opening. A deli that slices and stores ready-to-eat meats faces specific food-safety rules. Requirements vary by city and state, so confirm locally and start the process early."
+    },
+    {
+      "question": "How do I keep food cost under control?",
+      "answer": "Standardize recipes and portions, weigh proteins, purchase smartly, rotate stock to limit spoilage, and track waste daily. Many operators aim to keep food cost in a target percentage of sales and adjust portioning and pricing when it drifts. Sloppy portioning and over-ordering are among the fastest ways a deli loses money."
+    },
+    {
+      "question": "Should I offer catering?",
+      "answer": "For most delis, yes. Catering and corporate lunch orders often carry better margins than walk-in sales, use prep capacity efficiently, and smooth revenue beyond the noon rush. The tradeoff is early-morning logistics and reliable execution, so many owners add catering once the core lunch operation is stable."
+    },
+    {
+      "question": "Do delivery apps make sense?",
+      "answer": "They can extend your reach for takeout, but commission fees cut into already-thin margins, so they work best as a supplement rather than a foundation. Many operators use them for incremental orders while pushing customers toward direct online ordering and pickup, which keep more of each ticket."
+    }
+  ],
+  "similarBusinesses": [
+    "cafe-business",
+    "catering-business",
+    "ghost-kitchen-business",
+    "food-truck-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Food Service Managers and Food Preparation Workers wage and employment data",
+    "IBISWorld / industry reports on the U.S. sandwich and deli/fast-casual market",
+    "Restaurant cost guides on buildout, equipment, and food/labor cost benchmarks",
+    "Local health department food establishment permitting and inspection requirements",
+    "Operator communities and restaurant forums for real-world margins and catering data"
+  ],
+  "lastReviewed": "2026-06"
+}

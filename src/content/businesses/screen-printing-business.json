@@ -1,0 +1,165 @@
+{
+  "title": "Screen Printing Business",
+  "slug": "screen-printing-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a Screen Printing Business — Real Costs and Earnings",
+  "metaDescription": "Honest breakdown of starting a screen printing business: real startup costs, equipment, realistic earnings, minimums and bulk orders, and what most people get wrong.",
+  "startupCostLow": 3000,
+  "startupCostHigh": 35000,
+  "monthlyEarningsLow": 2000,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Hands-on, design-minded people who want a production print shop serving teams, events, and local businesses on bulk orders",
+  "biggestRisk": "Misprinting or mishandling a large bulk order, which means eating the cost of ruined garments and a lost client",
+  "speedToIncome": "months",
+  "minWeeklyHours": 20,
+  "skills": ["creative", "hands", "sales"],
+  "workLocations": ["space", "home"],
+  "priorities": ["max-income", "sellable", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A screen printing business prints custom designs onto apparel and merchandise — t-shirts, hoodies, tote bags, hats, and promotional items — by pushing ink through a stencil (screen) onto each garment. It is a production print-shop service, not an apparel brand: customers bring you a design and a quantity, and you print their order. The economics reward volume. Setup (creating screens, mixing ink, registering colors) takes the same effort whether you print 12 shirts or 200, so screen printing is most profitable on bulk runs for sports teams, schools, events, businesses, and merch drops, which is why shops set order minimums. It is distinct from embroidery (thread, not ink), print-on-demand (a third party prints and ships for you), and running your own apparel label (where you design and sell your own products).",
+  "dailyReality": "A typical week mixes art prep, setup, and production. You take in orders and artwork, separate colors and create film positives, coat and burn screens with emulsion, then register and print runs on a manual or automatic press, curing each garment through a dryer or flash unit. Around the press you spend real time quoting jobs, ordering blank garments from suppliers, reclaiming and re-coating screens, and handling the unglamorous parts — counting and bagging finished orders, fixing misprints, and chasing artwork approvals from customers who send low-resolution logos. Production runs in batches against deadlines (a tournament, an event, a launch), so the work clusters around due dates.",
+  "startupCostsItemized": [
+    { "item": "Press (manual 4-6 color to start; used presses are common)", "low": 500, "high": 8000 },
+    { "item": "Conveyor dryer or flash cure unit", "low": 800, "high": 8000 },
+    { "item": "Exposure unit and screen-burning setup", "low": 300, "high": 3000 },
+    { "item": "Screens, emulsion, squeegees, inks, and supplies", "low": 500, "high": 3000 },
+    { "item": "Design software (Adobe Illustrator/Photoshop) and a computer", "low": 0, "high": 1500, "optional": true },
+    { "item": "Washout booth, reclaim chemicals, and ventilation", "low": 200, "high": 2500 },
+    { "item": "General liability insurance and business registration", "low": 500, "high": 2500, "annual": true },
+    { "item": "Initial blank garment inventory / working capital", "low": 500, "high": 5000 },
+    { "item": "Website, samples, and Google Business Profile", "low": 100, "high": 1500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most operators starting part-time on a manual press earn $2,000 to $5,000 per month in year one as they build clients and dial in their process. Margins are decent on bulk orders, but volume and speed are limited by a manual press and one person, and the work is deadline-driven.",
+    "experienced": "Established shops with steady team, school, event, and business accounts, an automatic press or fast manual workflow, and a helper commonly report $6,000 to $15,000 per month. Repeat contract work (leagues, schools, recurring corporate merch) is what smooths out the bursty order calendar.",
+    "topEarners": "High-volume shops running automatic presses, embroidery, and contract printing for other brands and promotional-product distributors gross $500,000 to $2 million-plus per year. Reaching that requires automatic equipment, staff, real production capacity, and consistent wholesale or contract relationships — it is a manufacturing operation, not a hobby press.",
+    "whatAffectsMost": "Order volume and minimums (setup cost is fixed, so big runs are where the profit is), production speed (manual vs automatic), blank garment sourcing and pricing, reducing misprints and reprints, and a base of repeat contract accounts versus chasing one-off small orders. Pricing discipline matters more than equipment — underpriced small jobs lose money once setup time is counted.",
+    "perHour": "Effective rate runs roughly $25 to $70 per hour on a manual press once art prep, setup, and reclaim are counted, and meaningfully higher on automatic equipment running large volumes. Small, multi-color, low-quantity jobs can drop the effective rate to near nothing if priced like big runs."
+  },
+  "howToStart": [
+    "Month 1: Learn the craft and get equipment. Practice color separation, screen burning, registration, and curing on a starter manual press (used presses and starter kits keep cost down). Learn proper ink curing — under-cured prints wash out and come back as complaints.",
+    "Month 1-2: Set up the shop and supply chain. Arrange ventilation and a washout area, open accounts with blank garment wholesalers (S&S Activewear, SanMar, Alphabroder) and ink/screen suppliers, and set order minimums and tiered pricing that reflect your setup cost.",
+    "Month 2: Build samples and a quote process. Print sample shirts in several styles, create a simple portfolio, and build a clear quote template by quantity and color count so you price profitably and fast.",
+    "Month 2-3: Land first orders locally. Approach sports teams, schools, clubs, churches, small businesses, and event organizers — the natural bulk buyers. Deliver clean orders on time and ask for repeat and referral business immediately.",
+    "Months 3-9: Build repeat accounts and tighten production. Win recurring league, school, and corporate merch work, track real time and cost per job, reduce misprints, and decide whether to add an automatic press, embroidery, or contract printing to grow."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Willingness to learn the technical craft — color separation, screen burning, registration, and proper ink curing",
+      "Basic design/vector skills to prep customer artwork for print",
+      "Attention to detail and quality control to avoid costly misprints",
+      "Comfort quoting jobs and selling to teams, schools, and businesses"
+    ],
+    "canLearn": [
+      "Multi-color registration and more advanced printing techniques",
+      "Sourcing blank garments and pricing tiered bulk orders",
+      "Production workflow that keeps deadline-driven orders on time"
+    ],
+    "separators": [
+      "Production speed and low misprint rates that protect margin on large runs",
+      "A base of repeat contract accounts (leagues, schools, corporate) rather than constant one-off jobs",
+      "Pricing discipline and supplier relationships that keep bulk orders genuinely profitable"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Pricing small, multi-color orders like big runs and losing money once setup and art time are counted",
+    "Skipping or rushing ink curing, so prints crack or wash out and the whole order comes back as a complaint",
+    "Taking jobs with no minimums, drowning in tiny low-margin orders that consume all their setup time",
+    "Buying a cheap, undersized press or dryer that bottlenecks production and limits the jobs they can take",
+    "Mishandling blank garment ordering — wrong sizes, colors, or counts on a customer's bulk order they have to eat",
+    "Competing with print-on-demand and big online printers on price for tiny orders instead of owning local bulk and rush work"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Screen printing press (manual or automatic)", "note": "Start with a used manual 4-6 color press; automatics are a major scaling investment.", "low": 500, "high": 8000 },
+    { "item": "Conveyor dryer or flash cure unit", "note": "Proper curing is non-negotiable; a flash unit works at low volume, a conveyor dryer scales.", "low": 800, "high": 8000 },
+    { "item": "Exposure unit, screens, and emulsion", "note": "For burning screens; LED exposure units have made this cheaper and faster.", "low": 300, "high": 3000 },
+    { "item": "Inks, squeegees, and tools", "note": "Plastisol inks are the workhorse; keep a working set of common colors.", "low": 300, "high": 2000 },
+    { "item": "Washout booth and reclaim setup", "note": "For cleaning and reusing screens; needs water, drainage, and ventilation.", "low": 200, "high": 2500 },
+    { "item": "Design computer and vector software", "note": "Adobe Illustrator/Photoshop or affordable alternatives to prep and separate artwork.", "low": 0, "high": 1500 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to sports leagues, schools, clubs, churches, and event organizers who order in bulk",
+      "Local small businesses needing uniforms, staff shirts, and promotional merch",
+      "A Google Business Profile and portfolio site showing real printed samples and quick quote turnaround",
+      "Referrals and repeat orders — leagues and businesses reorder every season if you deliver on time",
+      "Local Facebook groups, event sponsorships, and relationships with promotional-product resellers and designers"
+    ],
+    "whereCustomersAre": "Sports teams and leagues, schools and PTAs, clubs, churches, event organizers, and local businesses needing bulk apparel and merch. The best customers are recurring bulk buyers, not individuals wanting a single custom shirt.",
+    "timeToClientBase": "Most operators land first orders within one to three months and build a base of repeat seasonal accounts over six to twelve months. League and school work is seasonal and recurring, so winning a few anchor accounts can stabilize the calendar.",
+    "wasteOfTime": "Competing for one-off single shirts and trying to beat print-on-demand sites on price for tiny online orders. Your advantage is local bulk runs, rush turnaround, and personal service — chasing individual custom shirts burns setup time for almost no margin."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A manual-press operator can reach full-time income with enough repeat bulk accounts, though one person and a manual press cap throughput. Moving to an automatic press, adding embroidery, or taking contract work for other brands raises the ceiling substantially.",
+    "hireAndStepBack": "Yes. With staff on the press, an art person, and standardized workflows, the owner can move toward sales, account management, and production oversight. Stepping back requires documented processes and quality control, since misprints and missed deadlines damage client relationships fast.",
+    "sellable": "Established shops with equipment, recurring contract and account relationships, and a brand do sell for a modest multiple of profit. The recurring league, school, and corporate accounts are the most valuable, transferable asset; a hobby-scale solo operation is harder to sell.",
+    "whatScalingRequires": "Faster equipment (automatic press, larger dryer), staff, reliable garment sourcing, recurring contract accounts, and the working capital to float large blank-garment orders. Production capacity and consistent volume, not demand, are the usual constraints."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You enjoy hands-on production work and learning a technical craft",
+      "You have or can build basic design/vector skills and an eye for clean prints",
+      "You are comfortable selling to teams, schools, and businesses and setting order minimums",
+      "You can dedicate space with water, power, and ventilation for a shop"
+    ],
+    "poorFit": [
+      "You want a hands-off business — print-on-demand suits that far better",
+      "You dislike deadline-driven batch work or detailed quality control",
+      "You hope to print one-off shirts for individuals as your main model",
+      "You cannot fund the press, dryer, and garment inventory or arrange suitable shop space"
+    ],
+    "askYourself": [
+      "Will I price by setup and quantity so bulk orders make money and small orders are not money-losers?",
+      "Can I source recurring team, school, and business accounts, or am I relying on one-off individual orders?",
+      "Do I have the space, ventilation, and patience to learn curing and registration so prints hold up?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is screen printing different from print-on-demand or embroidery?",
+      "answer": "Screen printing is a hands-on production service: you push ink through a stencil onto each garment, which is most profitable in bulk because setup cost is fixed. Print-on-demand has a third party print and ship single items for you with no equipment. Embroidery stitches designs with thread rather than ink. They are different businesses with different economics; this page is about running a screen-printing print shop."
+    },
+    {
+      "question": "Why do screen printers require order minimums?",
+      "answer": "Setup — making screens, mixing and registering colors, and reclaiming afterward — takes roughly the same time whether you print 12 shirts or 200. Minimums (often 12 to 24 pieces) ensure that fixed setup cost is spread across enough garments to make the job worthwhile. Without minimums, small multi-color orders lose money."
+    },
+    {
+      "question": "Can I start with a manual press in my garage?",
+      "answer": "Yes, many shops start exactly that way with a used manual press, a flash or small conveyor dryer, and a washout area. You need water, power, and ventilation for chemicals and curing. A garage start is workable for part-time bulk orders; automatic equipment and a dedicated shop come later as volume grows."
+    },
+    {
+      "question": "Do I need to be a designer?",
+      "answer": "Not a professional one, but you need basic vector/raster skills to prep, clean up, and separate customer artwork for print, since clients often send low-resolution logos. Strong design ability is a differentiator and lets you charge for art services, but you can start by printing customer-supplied artwork and learning prep as you go."
+    },
+    {
+      "question": "What is the most common costly mistake?",
+      "answer": "Improper curing. Plastisol ink must reach the correct temperature all the way through or the print cracks and washes out, and an entire order can come back as a complaint. After that, mispriced small orders and mishandled blank-garment orders (wrong sizes or counts you have to eat) are the most common margin killers."
+    },
+    {
+      "question": "How much can I charge?",
+      "answer": "Pricing is by quantity and number of ink colors, with per-shirt prices dropping as quantity rises. A one-color shirt in a bulk run might be priced at a few dollars over the blank cost, while small or many-color jobs carry setup fees. Always price to cover screen setup and art time, not just ink and blanks."
+    },
+    {
+      "question": "How quickly can I make money?",
+      "answer": "Plan on one to three months to learn the process, set up the shop and suppliers, and land first bulk orders. A steady base of repeat seasonal accounts — leagues, schools, businesses — usually takes six to twelve months to build, after which the order calendar becomes more predictable."
+    }
+  ],
+  "similarBusinesses": [
+    "embroidery-business",
+    "custom-apparel-brand-business",
+    "sign-making-business",
+    "print-on-demand-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Printing Workers wage and employment data",
+    "Printful / printing industry reports on custom apparel and promotional product demand",
+    "Blank garment wholesaler pricing (S&S Activewear, SanMar, Alphabroder)",
+    "Screen printing operator communities (r/screenprinting, T-Shirt Forums) for real-world pricing and workflow",
+    "Promotional Products Association International (PPAI) — promotional apparel market data"
+  ],
+  "lastReviewed": "2026-06"
+}
