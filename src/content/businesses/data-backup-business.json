@@ -1,0 +1,162 @@
+{
+  "title": "Data Backup and Disaster Recovery Business",
+  "slug": "data-backup-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start a Data Backup & Disaster Recovery Business — Real Costs",
+  "metaDescription": "Honest guide to a data backup and disaster recovery (BDR) business: real startup costs, recurring revenue math, beginner-to-expert earnings, and what trips operators up.",
+  "startupCostLow": 2000,
+  "startupCostHigh": 20000,
+  "monthlyEarningsLow": 2000,
+  "monthlyEarningsHigh": 18000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "IT-experienced people who want recurring monthly revenue and can be trusted with the moment a client's data is on the line",
+  "biggestRisk": "A backup that silently fails or a restore that doesn't work when disaster hits — the one failure that destroys trust and invites liability",
+  "speedToIncome": "months",
+  "minWeeklyHours": 20,
+  "skills": ["tech", "sales", "people"],
+  "workLocations": ["online", "mobile", "home"],
+  "priorities": ["max-income", "sellable", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A data backup and disaster recovery (BDR) business protects small and mid-sized companies against losing their data and being unable to operate after a failure, ransomware attack, theft, fire, or accidental deletion. You set up automated, monitored backups (typically following the 3-2-1 rule: multiple copies, different media, one offsite), verify that those backups can actually be restored, and maintain a documented plan to get a client running again fast after an incident. Most of the revenue is recurring monthly fees per protected server, workstation, or seat, often layered on top of cloud backup or BDR platform pricing. Many operators run this as a focused service or as a high-value piece of a broader managed IT business. The appeal is recurring, predictable revenue and high stickiness; the catch is the seriousness of the responsibility — when a client's data is gone, you are the one who has to bring it back.",
+  "dailyReality": "Day to day, you monitor backup dashboards and respond to failed or missed jobs before clients ever notice. You run and document periodic test restores — the part many providers skip and the part that actually proves the service works. You handle onboarding for new clients (sizing storage, setting retention and schedules, configuring offsite replication), patch and update backup agents, and field the occasional 'I deleted a file' or, rarely, a real disaster recovery event where you restore systems under pressure. Much of the work is steady and quiet — which is the point — punctuated by onboarding sprints and the high-stakes moments when something fails. Around the technical work, expect time on proposals, security and compliance questions, and renewals.",
+  "startupCostsItemized": [
+    { "item": "BDR / cloud backup platform (per-seat or per-server, billed monthly)", "low": 100, "high": 2000, "annual": true },
+    { "item": "Offsite/cloud storage capacity", "low": 50, "high": 3000, "annual": true },
+    { "item": "Remote monitoring & management (RMM) and ticketing tools", "low": 50, "high": 1500, "annual": true },
+    { "item": "Cyber/professional liability (E&O) insurance", "low": 1000, "high": 4000, "annual": true },
+    { "item": "Business registration / LLC and contracts/SLAs (legal review)", "low": 300, "high": 2500 },
+    { "item": "Capable laptop and a test environment / lab", "low": 0, "high": 2000, "optional": true },
+    { "item": "Optional on-prem BDR appliances to stock for clients", "low": 0, "high": 5000, "optional": true },
+    { "item": "Website, branding, and initial outreach", "low": 100, "high": 1500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Year one is a building year. With a handful of small-business clients at $200 to $800 per month each, many solo operators reach $2,000 to $6,000 per month in recurring revenue, minus platform and storage costs. Sales cycles are slow because you're asking businesses to trust you with their data, so expect months of outreach before the base compounds.",
+    "experienced": "An established provider with 15 to 40 clients on monthly agreements commonly reports $8,000 to $18,000 per month in recurring revenue, with healthy margins after platform and storage costs. The value is in retention — these contracts rarely churn once a client trusts the service.",
+    "topEarners": "Providers who fold BDR into a full managed-IT practice, or who specialize in compliance-heavy verticals (medical, legal, finance) and serve dozens of clients, gross $300,000 to $1M+ per year. Reaching that requires staff, refined sales, real tooling spend, and often co-managed relationships with larger MSPs. The economics are recurring-revenue economics, so it compounds slowly then strongly.",
+    "whatAffectsMost": "Recurring revenue per client and retention drive everything — a stable base of monthly contracts is worth far more than one-off project work. Niche/compliance focus, the platform margins you negotiate, and your reputation for restores that actually work matter most. Underpricing the responsibility is the fastest way to a thin, fragile business.",
+    "perHour": "Because much of the monitoring is automated and recurring, effective hourly economics improve sharply as the client base grows. Early on, with heavy sales and setup, you may net $30 to $60 per hour; an established base with mature systems can effectively yield $80 to $200+ per hour of active work."
+  },
+  "howToStart": [
+    "Before anything: have genuine IT and systems experience. You must understand servers, networking, cloud, and security well enough to be trusted with a business's data. This is not a beginner business.",
+    "Month 1: Choose a backup/BDR platform and a monitoring stack, register the business, and get cyber/professional liability (E&O) insurance and solid service agreements with clear SLAs and limitation-of-liability terms reviewed by a lawyer.",
+    "Month 1-2: Build a repeatable onboarding process — how you size storage, set retention, configure 3-2-1 backups with offsite replication, and run a test restore. Document it so every client is protected the same way.",
+    "Months 2-4: Land your first clients, ideally one niche or industry where you can speak to specific compliance needs. Start with businesses you can reference and over-deliver on, because referrals and trust are everything here.",
+    "Months 4-12: Standardize monitoring, schedule regular documented test restores, and formalize a disaster recovery runbook per client. Decide whether to stay focused on BDR or expand into broader managed IT services."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid IT fundamentals — servers, storage, networking, cloud platforms, and security",
+      "Understanding of backup architecture (3-2-1, retention, immutability, offsite replication) and how restores actually work",
+      "Discipline to monitor jobs and test restores rather than assuming backups are running"
+    ],
+    "canLearn": [
+      "Specific BDR/cloud platforms and RMM tooling",
+      "Compliance frameworks (HIPAA, PCI, etc.) relevant to client industries",
+      "Pricing, SLAs, and structuring recurring agreements"
+    ],
+    "separators": [
+      "Religiously testing restores so the service works when it's needed, not just on paper",
+      "Communicating risk clearly to non-technical owners and selling on trust rather than price",
+      "Specializing in a compliance-heavy niche where the service is mandatory and stickier"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Setting up backups and never testing restores, then discovering during a real disaster that the backup is corrupt or incomplete",
+    "Underpricing the responsibility — when you guarantee a business can recover, the fee has to reflect that liability and your time",
+    "Skipping cyber/E&O insurance and limitation-of-liability terms, leaving themselves exposed if data is lost on their watch",
+    "Ignoring immutability and offsite copies, so ransomware encrypts the backups along with the live data",
+    "Treating BDR as a one-time setup project instead of an ongoing, monitored service with recurring revenue",
+    "Trying to sell to anyone instead of niching down, which makes the trust-based sales cycle far harder"
+  ],
+  "toolsAndEquipment": [
+    { "item": "BDR / cloud backup platform", "note": "The core of the service. Choose one with immutability, monitoring, and proven restore reliability.", "low": 100, "high": 2000 },
+    { "item": "Offsite / cloud storage", "note": "Where the protected copies live. Costs scale with data volume per client.", "low": 50, "high": 3000 },
+    { "item": "RMM and monitoring tools", "note": "Alerts you to failed jobs before the client notices. Essential for managing many backups.", "low": 50, "high": 1500 },
+    { "item": "Ticketing / documentation system", "note": "Tracks issues, restores, and per-client runbooks. Critical as you scale.", "low": 0, "high": 800 },
+    { "item": "On-prem BDR appliance (per client)", "note": "Local-plus-cloud appliances speed restores for clients with large datasets. Optional and client-funded.", "low": 0, "high": 5000 },
+    { "item": "Test/lab environment", "note": "Where you prove restores work without touching client production.", "low": 0, "high": 2000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Referrals from accountants, lawyers, and other trusted advisors whose clients fear losing data",
+      "Partnering or co-managing with MSPs and IT shops that want a specialist backup partner",
+      "Niche outreach to one industry (medical, legal, dental, finance) where backup is a compliance requirement",
+      "LinkedIn and local business groups, positioning around risk and a recent ransomware headline",
+      "Content that answers real fears — what a ransomware recovery looks like, what happens if backups aren't tested"
+    ],
+    "whereCustomersAre": "Small and mid-sized businesses with critical data and little internal IT — medical and dental practices, law firms, accounting offices, manufacturers, and professional services. Compliance-driven industries are the strongest fit because backup is mandatory, not optional.",
+    "timeToClientBase": "Expect a slow start — trust-based, security-related sales take one to three months per client early on. A stable recurring base typically takes one to two years to build, but once trust is established, clients rarely leave.",
+    "wasteOfTime": "Broad consumer advertising and price-led campaigns. Businesses don't choose a data protector on price, and a discount pitch undermines the trust you're trying to build. Generic SEO with no niche or proof points converts poorly here."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and the recurring model is its main strength — once enough monthly contracts stack up, income becomes predictable and full-time. Getting there is slower than project-based IT work because each client is a trust-based sale.",
+    "hireAndStepBack": "Yes, and BDR scales well with staff because monitoring and onboarding are repeatable and documentable. Stepping back requires runbooks, tested processes, and technicians you trust with the most sensitive part of a client's business.",
+    "sellable": "Highly sellable. Recurring-revenue IT and backup businesses command strong multiples because revenue is predictable and sticky. Clean contracts, documented procedures, low churn, and proven restores all raise the valuation.",
+    "whatScalingRequires": "Repeatable onboarding, standardized monitoring and restore-testing, trustworthy technicians, niche focus, and capital to float platform and storage costs ahead of client billing. The growth constraint is the trust-based sales cycle, not delivery capacity."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real IT/systems experience and understand backup and recovery architecture",
+      "You want recurring, predictable revenue and are patient through a slow, trust-based sales cycle",
+      "You are disciplined about testing and documentation, not just setup",
+      "You can speak credibly to business owners about risk and compliance"
+    ],
+    "poorFit": [
+      "You're new to IT and hoping to learn on clients' production data",
+      "You want fast, transactional income rather than a slow-building recurring base",
+      "You dislike monitoring, documentation, and the on-call reality of disaster recovery",
+      "You're uncomfortable carrying the liability of guaranteeing a business can recover"
+    ],
+    "askYourself": [
+      "Am I genuinely capable of restoring a client's systems under pressure when a disaster actually happens?",
+      "Will I commit to regular, documented test restores instead of assuming backups work?",
+      "Do I have a niche or referral network to overcome the slow, trust-based sales cycle?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What does BDR actually stand for and include?",
+      "answer": "BDR means backup and disaster recovery. It covers automated, monitored backups following the 3-2-1 principle (multiple copies, different media, one offsite), verified restores, and a documented plan to get a business operating again after a failure, ransomware attack, or disaster. It's both the technical setup and the ongoing service of making sure recovery actually works."
+    },
+    {
+      "question": "Do I need IT experience to start this?",
+      "answer": "Yes. This is an advanced business where you're trusted with a company's data and recovery. You need solid grounding in servers, storage, networking, cloud, and security. Operators almost always come from an IT or managed-services background rather than starting cold."
+    },
+    {
+      "question": "How is the recurring revenue structured?",
+      "answer": "Most providers charge monthly fees per protected server, workstation, or seat, often with tiers based on storage and retention. Revenue is recurring and sticky because clients rely on it continuously. Your margin is the difference between what you charge and your platform and storage costs, so negotiating good platform pricing matters."
+    },
+    {
+      "question": "Why is testing restores such a big deal?",
+      "answer": "A backup that's never tested can silently be corrupt, incomplete, or unrestorable — and you'd only find out during a real disaster, which is the worst possible time. Regular, documented test restores are what separate a real BDR service from a false sense of security, and they're the part many providers skip."
+    },
+    {
+      "question": "What about ransomware and immutable backups?",
+      "answer": "Modern ransomware tries to encrypt or delete backups too, so immutable (write-once) backups and isolated offsite copies are essential. If your only backup sits on the same network as the live data with no immutability, an attack can take both. Building ransomware-resilient backups is now a core expectation of the service."
+    },
+    {
+      "question": "Should I niche down or serve any business?",
+      "answer": "Niching down, especially into compliance-heavy industries like medical, legal, or finance, makes the trust-based sale easier and the service stickier because backup is mandatory there. A focused reputation in one vertical compounds through referrals far faster than trying to be everything to everyone."
+    },
+    {
+      "question": "Can I run this part-time or alongside an IT job?",
+      "answer": "It can start part-time because monitoring is largely automated, and many operators build it alongside existing IT work. But disaster recovery events demand prompt attention whenever they happen, and the sales cycle is slow, so plan for after-hours response and patience while the recurring base builds."
+    }
+  ],
+  "similarBusinesses": [
+    "managed-it-services-business",
+    "it-support-business",
+    "cybersecurity-consulting-business",
+    "data-recovery-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Information Security Analysts and Network/Computer Systems Administrators (wage data)",
+    "CISA / NIST guidance on data backup, the 3-2-1 rule, and ransomware resilience",
+    "MSP industry reports (Datto/Kaseya State of the MSP, ConnectWise benchmarks) on BDR pricing and recurring-revenue economics",
+    "MSP operator communities (r/msp, MSP peer groups) for real-world pricing, churn, and margin practices"
+  ],
+  "lastReviewed": "2026-06"
+}

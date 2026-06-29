@@ -1,0 +1,162 @@
+{
+  "title": "Infographic Design Business",
+  "slug": "infographic-design-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start an Infographic Design Business — Real Costs and Earnings",
+  "metaDescription": "Honest guide to starting an infographic design business: turning data into visuals for content and PR, realistic project rates, finding clients, and common mistakes.",
+  "startupCostLow": 300,
+  "startupCostHigh": 4000,
+  "monthlyEarningsLow": 1200,
+  "monthlyEarningsHigh": 9000,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Designers who can read data and turn dry numbers into clear, sharable visuals for marketing and PR teams",
+  "biggestRisk": "Being treated as a cheap commodity decorator, competing against $20 templates and AI tools instead of being valued for clarity and accuracy",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 10,
+  "skills": ["creative", "writing", "tech", "sales"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["flexibility", "alongside-job", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "An infographic design business turns information — survey results, reports, statistics, processes, timelines — into clear visual graphics that organizations use in blog posts, social media, PR campaigns, sales decks, and annual reports. The value is not decoration; it is making complex or boring data instantly understandable and worth sharing. Clients are typically content marketers, PR agencies, SaaS companies, nonprofits, and research firms that produce data but lack the design skill to make it land. A subset of this work, often called 'data storytelling,' overlaps with charts and dashboards, but most paid infographic work is editorial: a single well-designed visual that earns links, shares, and press coverage.",
+  "dailyReality": "Most of the work is solo and screen-based. A project starts by digging into a client's raw data or report, figuring out the one clear story it tells, sketching a structure, then building it in Illustrator, Figma, or a tool like Flourish. You spend real time fact-checking numbers and labeling accurately, because a wrong stat in a published graphic is embarrassing for the client and for you. Around the design, expect back-and-forth revisions, occasional calls to extract the actual point from a rambling brief, and the constant challenge of simplifying without distorting. A typical week is a few active projects at different stages plus pitching the next ones.",
+  "startupCostsItemized": [
+    { "item": "Computer capable of running design software", "low": 0, "high": 1800, "optional": true },
+    { "item": "Design software (Adobe Illustrator/Creative Cloud or Figma)", "low": 0, "high": 700, "annual": true },
+    { "item": "Data visualization tools (Flourish, Datawrapper, RAWGraphs)", "low": 0, "high": 600, "annual": true, "optional": true },
+    { "item": "Portfolio site and domain", "low": 30, "high": 600 },
+    { "item": "Stock icons, fonts, and illustration assets", "low": 0, "high": 400 },
+    { "item": "Business registration / LLC", "low": 50, "high": 300, "optional": true },
+    { "item": "Invoicing and contract tools", "low": 0, "high": 200, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Beginners often charge $150 to $600 per infographic while building a portfolio, and realistically earn $1,200 to $4,000 per month part-time once they have a few repeat clients. Income is project-based and uneven early on, depending heavily on how many clients you can keep busy.",
+    "experienced": "Designers with a strong portfolio and a niche commonly charge $800 to $3,000 per polished infographic, or retainers with content and PR agencies. That typically supports $4,000 to $9,000 per month working solo, with the steadiest earners landing recurring agency work rather than one-off jobs.",
+    "topEarners": "Top specialists and small studios charge $3,000 to $10,000+ for campaign-grade, research-backed infographics designed to earn press and backlinks, and run agency retainers worth tens of thousands a month. Reaching that takes a recognized portfolio, often a content-marketing or PR niche, and the ability to tie visuals to results like links earned. Most freelancers do not reach this tier.",
+    "whatAffectsMost": "Whether you are seen as a decorator or as someone who makes data clear and link-worthy. Designers who connect their work to marketing outcomes (shares, backlinks, press) and who specialize in a sector command far higher rates than generalists fighting templates and AI tools on price.",
+    "perHour": "Effective rates run roughly $30 to $60 per hour for beginners and $60 to $150+ for experienced designers on well-scoped projects. Endless revisions and undefined scope are what quietly drag the real hourly rate down."
+  },
+  "howToStart": [
+    "Weeks 1-2: Sharpen your craft on real data. Rebuild three or four dull reports or datasets into strong infographics as portfolio pieces, focusing on clarity and accurate labeling, not just style.",
+    "Week 3: Build a focused portfolio site that shows the before (messy data) and after (clear visual) and, where possible, the result. Pick a niche — SaaS, finance, health, nonprofits — so your samples speak to one type of buyer.",
+    "Weeks 3-4: Set project-based pricing with clear scope and a defined number of revision rounds. Write a simple contract that specifies who is responsible for data accuracy and source provided.",
+    "Month 1-2: Win first clients through content marketers and PR agencies, design marketplaces used carefully, and direct outreach to companies publishing data-heavy reports without good visuals.",
+    "Days 60+: Pursue retainers with agencies that produce regular content, build a repeatable process and template system, and raise rates as your portfolio and turnaround speed improve."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid visual design fundamentals — layout, hierarchy, type, and color",
+      "Data literacy: reading a dataset and finding the one clear story it tells",
+      "Proficiency in a design tool such as Illustrator or Figma",
+      "Accuracy and attention to detail, since a wrong number in a published graphic damages trust"
+    ],
+    "canLearn": [
+      "Specific data visualization tools like Flourish, Datawrapper, or RAWGraphs",
+      "Charting best practices and how to avoid misleading scales",
+      "Client communication and scoping revision-heavy projects"
+    ],
+    "separators": [
+      "Editorial judgment — knowing what to cut so the visual makes one point clearly",
+      "Tying work to marketing outcomes like shares, backlinks, and press coverage",
+      "A defined niche and a portfolio that proves you understand that industry's data"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Treating infographics as decoration and cramming in every stat, which buries the one point that mattered",
+    "Competing on price against $20 templates and AI generators instead of selling clarity and credibility",
+    "Not defining revision rounds, so projects spiral into unpaid rework and destroy the hourly rate",
+    "Skipping fact-checking and publishing a wrong or misleading number, which embarrasses the client",
+    "Designing pretty but misleading charts — truncated axes, distorted scales — that undermine trust",
+    "Staying a generalist instead of niching, which makes it impossible to charge premium rates or earn referrals"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Vector design software (Illustrator or Figma)", "note": "The core tool for building infographics; Figma is free to start and widely used.", "low": 0, "high": 700 },
+    { "item": "Data visualization tools", "note": "Flourish, Datawrapper, or RAWGraphs generate accurate base charts you refine.", "low": 0, "high": 600 },
+    { "item": "Spreadsheet software", "note": "You will clean and sanity-check client data before you ever design it." },
+    { "item": "Icon, font, and illustration libraries", "note": "Quality assets speed up work; build a reusable kit in your niche.", "low": 0, "high": 400 },
+    { "item": "A reusable template and style system", "note": "Your own component kit cuts project time dramatically once established." },
+    { "item": "Portfolio and case-study site", "note": "Before/after and results-focused samples convert far better than a logo gallery.", "low": 30, "high": 600 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Outreach to content marketing and PR agencies that produce data-heavy campaigns but lack design",
+      "Direct pitching to companies that publish reports, surveys, and 'state of the industry' studies",
+      "Showcasing strong before/after pieces on LinkedIn and design communities where marketers browse",
+      "Listing on design marketplaces and creative job boards as a starting funnel, then converting to direct",
+      "Referrals and retainers from happy content teams, which become the most profitable channel over time"
+    ],
+    "whereCustomersAre": "Content marketers, PR and link-building agencies, SaaS and finance companies, research firms, and nonprofits — anyone who generates data or reports and needs them to be shared and understood. They concentrate around content and PR functions, so target those teams directly.",
+    "timeToClientBase": "First paid projects often come within two to six weeks of having a portfolio and pitching actively. A steady, repeat-client base usually takes three to six months, and recurring agency retainers come once you have proven reliable turnaround.",
+    "wasteOfTime": "Racing to the bottom on freelance bidding sites and posting generic 'I make infographics' ads. Cheap-bid platforms attract buyers who will not value accuracy or clarity, and undifferentiated marketing gets ignored next to templates and AI."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. Solo designers reach full-time income by combining a few retainer clients with project work and raising rates as their portfolio strengthens. The solo ceiling is set by your hours and how high your niche lets you price.",
+    "hireAndStepBack": "Possible by building a small studio with junior designers handling production while you handle data strategy, client relationships, and quality control. Stepping back fully is hard because clients often want your specific editorial judgment, so processes and templates are essential.",
+    "sellable": "A solo freelance practice tied to your name is hard to sell. A small studio with retainer clients, a documented process, and a recognizable brand can sell, though creative service businesses typically fetch modest multiples and are sensitive to client concentration.",
+    "whatScalingRequires": "A repeatable production process, a reusable template and asset system, trained designers who meet your accuracy standard, and a lead pipeline (often agency retainers) that does not depend on your personal outreach."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real design skills and genuinely enjoy making complex information clear",
+      "You are comfortable reading data and spotting the story in it",
+      "You can work solo on a screen for long stretches and handle revisions calmly",
+      "You are willing to niche and market to content and PR teams"
+    ],
+    "poorFit": [
+      "You have no design fundamentals and dislike detailed, precise work",
+      "You want passive income or fully predictable monthly pay",
+      "You find data and numbers tedious rather than interesting",
+      "You are unwilling to fact-check or take responsibility for accuracy"
+    ],
+    "askYourself": [
+      "Can I take a messy dataset and decide what the single clear point should be?",
+      "Will I market to content and PR buyers rather than competing with cheap templates?",
+      "Am I disciplined enough to scope revisions so projects stay profitable?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Will AI tools and templates make infographic design obsolete?",
+      "answer": "AI and templates have wiped out the bottom of the market — the cheap, generic, decorative work. They have not replaced the judgment of choosing what story the data tells, ensuring accuracy, and designing something credible enough for PR and press. Designers who sell clarity and outcomes are doing fine; those who sold cheap decoration are being squeezed. Position yourself accordingly."
+    },
+    {
+      "question": "Do I need to be good at statistics?",
+      "answer": "You do not need to be a statistician, but you must be data-literate: able to read a dataset, understand what the numbers mean, and avoid misleading charts like truncated axes or distorted scales. Getting a stat wrong or representing it dishonestly damages your client's credibility and yours. Strong designers fact-check and ask the client to confirm sources before publishing."
+    },
+    {
+      "question": "How much can I charge per infographic?",
+      "answer": "Rates range widely. Beginners often start at $150 to $600 per piece, experienced designers charge $800 to $3,000, and campaign-grade, research-backed infographics built for press can run $3,000 to $10,000 or more. The biggest factor is whether you are seen as a decorator or as someone who makes data clear and link-worthy."
+    },
+    {
+      "question": "What is the difference between infographic design and data visualization?",
+      "answer": "They overlap. Data visualization usually means accurate charts, dashboards, and interactive graphics driven by datasets. Infographic design is more editorial — combining a few key data points with layout, icons, and narrative into a single sharable visual. Many designers do both, but most paid infographic work is editorial pieces for content and PR rather than live dashboards."
+    },
+    {
+      "question": "Do clients provide the data, or do I find it?",
+      "answer": "Usually the client provides the data from their own report, survey, or research, and you visualize it. Sometimes you help source or clean it. Either way, define in your contract who is responsible for data accuracy and source citation, because you do not want to be blamed for a wrong figure that came from the client's spreadsheet."
+    },
+    {
+      "question": "Can I do this part-time around a job?",
+      "answer": "Yes. Infographic work is project-based and largely asynchronous, so it fits well around a job in five to twenty hours a week, especially if you take fewer, higher-value projects. The main constraint is revision turnaround; set client expectations on timelines so part-time delivery does not frustrate them."
+    },
+    {
+      "question": "How do I build a portfolio with no clients?",
+      "answer": "Take real public data — a government report, an industry survey, a dull annual report — and redesign it into strong infographics, showing the messy before and the clear after. Three or four sharp, niche-relevant pieces are enough to start pitching. This proves your judgment far better than generic template samples and gives prospects something concrete to evaluate."
+    }
+  ],
+  "similarBusinesses": [
+    "freelance-graphic-design-business",
+    "ui-ux-design-business",
+    "presentation-design-business",
+    "freelance-copywriting-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Graphic Designers occupational wage and self-employment data",
+    "Freelance design rate surveys and creative pricing guides",
+    "Content marketing and digital PR industry reports on visual content and link-building",
+    "Practitioner communities and interviews (freelance designers, content agencies) for real project rates"
+  ],
+  "lastReviewed": "2026-06"
+}

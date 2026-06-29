@@ -1,0 +1,160 @@
+{
+  "title": "Corporate Training Business",
+  "slug": "corporate-training-business",
+  "category": "education-and-coaching",
+  "metaTitle": "How to Start a Corporate Training Business — Costs, Earnings, Steps",
+  "metaDescription": "Honest guide to starting a corporate training business: real startup costs, day-rate earnings, how companies actually buy training, and what most facilitators get wrong.",
+  "startupCostLow": 1000,
+  "startupCostHigh": 12000,
+  "monthlyEarningsLow": 2000,
+  "monthlyEarningsHigh": 18000,
+  "timeToFirstIncome": "2 to 5 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Subject-matter experts or seasoned managers who can stand in front of a room, design a workshop, and sell to procurement and HR",
+  "biggestRisk": "Long, relationship-driven sales cycles that leave you with months of unpaid pipeline-building before the first contract closes",
+  "speedToIncome": "months",
+  "minWeeklyHours": 15,
+  "skills": ["teaching", "people", "sales", "writing"],
+  "workLocations": ["online", "mobile", "flexible"],
+  "priorities": ["max-income", "flexibility", "helping"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "whatItIs": "A corporate training business designs and delivers workshops, multi-day programs, and ongoing learning for organizations — typically in areas like leadership and management, communication, compliance (harassment prevention, safety, data privacy), software adoption, sales technique, and team and culture work. You are paid by the company, not by individual learners, usually on a day rate, a per-program fee, or a retainer. The work splits into two distinct halves: instructional design (building the content, exercises, and materials) and facilitation (actually delivering it live, in person or over video). Many trainers start by productizing expertise they already built inside a corporate career, which is why this is one of the higher-credibility, higher-billing corners of coaching and education — but also one with a slow, gatekept sales process.",
+  "dailyReality": "On a delivery day you are 'on' for six to eight hours straight in front of a room or a Zoom grid, managing energy, questions, skeptics, and the occasional executive who walked in late. Those days are exhausting and you usually cannot deliver more than two or three back to back. The rest of a typical week is far less glamorous: refining slide decks and workbooks, customizing a generic program for a specific client's jargon and goals, sending proposals, chasing procurement for a signed statement of work, invoicing, and following up on warm leads from past clients. Travel can eat whole days. Expect long stretches where you deliver nothing and spend the week entirely on business development.",
+  "startupCostsItemized": [
+    { "item": "Business registration / LLC", "low": 50, "high": 500 },
+    { "item": "Professional liability + general liability insurance", "low": 600, "high": 1800, "annual": true },
+    { "item": "Slide, workbook, and authoring tools (Google Workspace, Canva, Articulate or similar)", "low": 0, "high": 1500, "annual": true },
+    { "item": "Video kit for virtual delivery (camera, lighting, mic, fast internet)", "low": 200, "high": 1200 },
+    { "item": "Website, one-page program PDFs, and a professional headshot", "low": 100, "high": 1500, "optional": true },
+    { "item": "Train-the-trainer or facilitation certification (ATD, etc.)", "low": 0, "high": 4000, "optional": true },
+    { "item": "Assessment or content licensing (DiSC, EQ tools, off-the-shelf curriculum)", "low": 0, "high": 3000, "optional": true, "annual": true },
+    { "item": "Initial travel and demo-workshop costs", "low": 0, "high": 1000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most new trainers spend the first six to twelve months landing only a handful of paid engagements while they build relationships and proof. Realistic year-one income is often $20,000 to $60,000 part-time, and it can be lumpy — a strong quarter followed by a quiet one. Day rates for newcomers commonly land at $1,000 to $2,500.",
+    "experienced": "Established trainers with a niche, references, and repeat clients typically charge $2,500 to $6,000 per delivery day and bill for design work on top. Booking eight to fifteen delivery days a month with healthy design and retainer revenue puts experienced solo trainers in the $8,000 to $18,000 per month range, though it rarely arrives evenly.",
+    "topEarners": "Top independents and small training firms command $7,500 to $15,000+ per day, sell licensed programs and train-the-trainer packages, and land enterprise retainers worth six figures a year. Getting there usually takes a recognized specialty, a published framework or book, years of referrals, and either subcontracting other facilitators or productizing content so income is not capped by your own calendar.",
+    "whatAffectsMost": "Your niche and credibility matter more than delivery skill. A trainer known for one specific, valuable outcome (e.g. new-manager transitions, a particular compliance area, a named software rollout) commands far higher rates than a generalist. Repeat clients and referrals dwarf cold outreach for total earnings.",
+    "perHour": "Delivery days look lucrative per hour, but counting design, sales, travel, and dead weeks, realistic blended effective rates for solo trainers run $75 to $250 per hour. Beginners spending most of their time on unpaid business development sit well below the headline day rate."
+  },
+  "howToStart": [
+    "Month 1: Pick one narrow, valuable topic you can credibly own based on real experience, and define the specific business outcome a client buys. Build one tight signature workshop — agenda, slides, a participant workbook, and clear learning objectives — rather than a vague menu of everything.",
+    "Month 1–2: Set up insurance, an LLC, and a simple website with a one-page program description and your bio. Pilot the workshop for free or at a steep discount with a friendly company, a professional association, or a chamber of commerce, and gather written feedback and testimonials.",
+    "Month 2–4: Turn that proof into a sales motion. Reconnect with former colleagues, HR and L&D contacts, and managers in your network; offer to run a lunch-and-learn or a short paid pilot. Learn how the company actually buys — who approves it, what procurement needs, and how POs and statements of work flow.",
+    "Month 3–6: Close your first paid engagements, deliver them flawlessly, and immediately ask for a referral and permission to use the company's name. Track which topics and audiences convert, raise your day rate once you have references, and start packaging design and follow-up coaching as add-ons."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Genuine, demonstrable expertise in the subject you train — companies pay for credibility, not enthusiasm",
+      "Strong live facilitation: reading a room, handling skeptics, and keeping adult learners engaged for hours",
+      "Comfort selling to and navigating HR, L&D, and procurement, including slow approval cycles"
+    ],
+    "canLearn": [
+      "Instructional design — structuring objectives, exercises, and materials so learning actually sticks",
+      "Building polished slides and workbooks with tools like Canva and authoring software",
+      "Pricing and proposal mechanics: day rates, statements of work, and purchase orders"
+    ],
+    "separators": [
+      "Owning a sharp niche with a named framework or measurable outcome instead of being a generalist",
+      "Turning every engagement into referrals and repeat retainers rather than one-off bookings",
+      "Productizing content (licensing, train-the-trainer, cohorts) so income is not capped by your own calendar"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Marketing themselves as able to train 'anything' — generalists are easy to ignore and hard to refer, while specialists get booked",
+    "Underestimating the sales cycle: corporate buying often takes three to six months, and beginners run out of runway before the first contract closes",
+    "Pricing by the hour like a teacher instead of by the day and the outcome, leaving most of the value on the table",
+    "Confusing being a good presenter with being a good trainer — engaging delivery without real behavior change does not earn repeat work",
+    "Ignoring the business plumbing (vendor onboarding, insurance certificates, POs) and stalling deals that were ready to sign",
+    "Building elaborate custom content for free during sales, then never billing for the design time that took the most effort"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Presentation and document tools", "note": "Google Slides or PowerPoint plus Canva for clean decks and workbooks. You likely already own most of this.", "low": 0, "high": 300 },
+    { "item": "Virtual delivery setup", "note": "Reliable camera, key light, a good mic, and fast internet. Half of corporate training now runs over Zoom, Teams, or Webex.", "low": 200, "high": 1200 },
+    { "item": "Authoring software", "note": "Articulate, Rise, or similar — only needed if you sell self-paced e-learning, not for live workshops.", "low": 0, "high": 1500, "optional": true },
+    { "item": "Assessment and framework licenses", "note": "DiSC, EQ-i, Five Behaviors, or off-the-shelf curriculum. Adds credibility and revenue but carries per-use fees.", "low": 0, "high": 3000, "optional": true },
+    { "item": "Proposal and invoicing tools", "note": "Simple CRM, a proposal template, and accounting software. Long pipelines make tracking essential.", "low": 0, "high": 600, "annual": true },
+    { "item": "Printed workbooks and supplies", "note": "For in-person sessions. Often billed back to the client, so keep upfront stock minimal.", "low": 0, "high": 500, "optional": true }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Your own former employers, colleagues, and managers — the warmest, fastest path to a first paid program",
+      "HR and L&D leaders reached through LinkedIn with specific, outcome-focused offers rather than generic pitches",
+      "Speaking at and running sessions for industry associations, conferences, and chambers of commerce",
+      "Partnering with consultants, coaches, and HR firms who need a delivery specialist for their clients",
+      "Referrals and case studies from delivered engagements, which carry far more weight than any ad"
+    ],
+    "whereCustomersAre": "Decision-makers are HR business partners, learning and development managers, department heads, and small-company owners who need a specific capability built fast. Mid-size companies (50–1,000 employees) often buy faster than large enterprises with rigid vendor processes.",
+    "timeToClientBase": "Expect two to five months from first outreach to a first signed engagement, and a year or more to build a referral-fed pipeline that books months ahead. Income stays lumpy until repeat clients and retainers stabilize it.",
+    "wasteOfTime": "Broad paid ads, cold mass emails, and polishing a logo before you have a single delivered program and testimonial. Corporate training is bought on trust and references, not impressions."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but slowly. Full-time income requires enough repeat clients and referrals to keep your calendar booked, which usually takes a year or more. The natural ceiling for a solo trainer is the number of delivery days your energy and travel allow, which is why most cap out around fifteen billable days a month.",
+    "hireAndStepBack": "Possible by subcontracting other facilitators to deliver your programs, but it requires standardized materials, a train-the-trainer process, and quality control so your name stays protected. Many trainers prefer to stay solo and raise rates instead of managing other facilitators.",
+    "sellable": "Harder than a service with recurring contracts. A practice built entirely on your personal reputation is difficult to sell. What sells is licensed intellectual property, documented programs, and enterprise retainer relationships that can transfer to new facilitators.",
+    "whatScalingRequires": "Productized content (licensable curricula, e-learning, cohort programs), a roster of vetted subcontractors, repeatable sales systems, and a brand bigger than you. The shift from billing your own days to licensing your method is where real leverage begins and where most trainers stall."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real, marketable expertise from a corporate or leadership role and people already ask you to teach it",
+      "You are energized rather than drained by a full day in front of a room",
+      "You can tolerate uneven income and long sales cycles while a pipeline builds",
+      "You enjoy both designing material and selling to businesses, not just one or the other"
+    ],
+    "poorFit": [
+      "You want fast, predictable income from week one",
+      "You dislike selling or navigating procurement and approval politics",
+      "You have no specific, credible specialty buyers would pay a premium for",
+      "You expect the work to be mostly delivery rather than mostly business development early on"
+    ],
+    "askYourself": [
+      "What single, valuable outcome can I credibly promise that a company would pay thousands of dollars to get?",
+      "Do I have a network of former colleagues and HR contacts warm enough to land a first paid pilot?",
+      "Can I financially survive three to six months of unpaid pipeline-building before contracts close?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a certification to be a corporate trainer?",
+      "answer": "No certification is legally required, and many successful trainers have none. Credibility comes from real expertise and references. That said, facilitation certifications (ATD) or licensed-tool credentials (DiSC, Five Behaviors) can open doors with HR buyers and let you sell branded assessments, so they are worth considering once you have a niche."
+    },
+    {
+      "question": "How much should I charge per day?",
+      "answer": "New trainers commonly start at $1,000 to $2,500 per delivery day, experienced specialists charge $2,500 to $6,000, and recognized experts command $7,500 and up. Always bill design and customization time separately rather than folding it into the day rate, since it is often the largest part of the work."
+    },
+    {
+      "question": "How do companies actually buy training?",
+      "answer": "Usually through HR, L&D, or a department head who must get budget approved, then route the deal through procurement with a statement of work and a purchase order. Cycles of three to six months are normal. Mid-size companies tend to decide faster than large enterprises with formal vendor onboarding."
+    },
+    {
+      "question": "Is in-person or virtual training more in demand?",
+      "answer": "Both. Virtual delivery over Zoom, Teams, and Webex now makes up a large share of corporate training and removes travel costs, while in-person remains preferred for leadership offsites, team-building, and hands-on work. Most successful trainers offer both and price them differently."
+    },
+    {
+      "question": "Can I do this part-time while employed?",
+      "answer": "Yes, many start this way, since delivery and sales can fit around evenings and occasional days off. The constraint is that delivery often happens during business hours, so you will eventually hit a ceiling on how many engagements you can take while employed. Check your employment contract for non-compete or moonlighting clauses first."
+    },
+    {
+      "question": "What topics are easiest to sell?",
+      "answer": "Topics tied to clear business pain sell fastest: required compliance training, new-manager and leadership development, sales skills, and software or systems adoption during a rollout. Vague 'communication' or 'productivity' workshops are harder to sell unless tied to a specific, measurable problem the buyer already feels."
+    },
+    {
+      "question": "Why do new trainers struggle even when they're great in the room?",
+      "answer": "Because the business is won on sales, niche, and references, not delivery talent. Excellent facilitators routinely fail by being generalists, mispricing, or running out of money during the long pipeline. Treating business development as the main job in year one is what separates those who survive."
+    }
+  ],
+  "similarBusinesses": [
+    "business-coaching-business",
+    "career-coaching-business",
+    "online-course-business",
+    "public-speaking-coaching-business"
+  ],
+  "dataSources": [
+    "Association for Talent Development (ATD) — State of the Industry reports on training spend and delivery",
+    "U.S. Bureau of Labor Statistics — Training and Development Specialists occupational data",
+    "Training Industry and Training Magazine — corporate L&D budget and vendor pricing surveys",
+    "Independent facilitator communities and day-rate discussions (L&D forums, LinkedIn groups)"
+  ],
+  "lastReviewed": "2026-06"
+}

@@ -1,0 +1,163 @@
+{
+  "title": "Commercial Refrigeration Service Business",
+  "slug": "commercial-refrigeration-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Commercial Refrigeration Business — Costs and Earnings",
+  "metaDescription": "Honest guide to starting a commercial refrigeration service business: real startup costs, EPA 608 reality, realistic earnings, finding accounts, and what trips operators up.",
+  "startupCostLow": 8000,
+  "startupCostHigh": 45000,
+  "monthlyEarningsLow": 6000,
+  "monthlyEarningsHigh": 22000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced HVAC/R techs who can diagnose sealed systems and want recurring commercial accounts rather than residential service calls",
+  "biggestRisk": "Taking on work above your skill level on critical equipment, where one bad call spoils a walk-in of inventory and ends a key account",
+  "speedToIncome": "months",
+  "minWeeklyHours": 30,
+  "skills": ["hands", "tech", "people"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A commercial refrigeration service business installs, diagnoses, repairs, and maintains the cooling equipment that restaurants, grocery stores, convenience stores, bars, florists, and food distributors depend on — walk-in coolers and freezers, reach-in units, ice machines, refrigerated display cases, beer and beverage systems, and the compressors and condensers behind them. This is a specialized branch of the HVAC/R trade. Unlike residential air conditioning, the customer's revenue is directly tied to the equipment running, so emergency response and uptime matter more than almost anything else. Because the work involves refrigerants, federal EPA Section 608 certification is legally required to purchase refrigerant and service sealed systems, and most operators also hold a state mechanical or contractor license depending on where they work.",
+  "dailyReality": "Most days are a mix of scheduled preventive maintenance visits and emergency calls. You drive between sites, check refrigerant charge and superheat/subcooling, clean condenser coils, replace failed compressors and contactors, chase electrical faults, and recover and recharge refrigerant by the book. Ice machine work — descaling, sanitizing, water filter changes, replacing water valves and boards — is steady, recurring, and profitable. Emergency calls come at the worst times: a walk-in failing on a Friday night with a freezer full of inventory, a beer system down during a busy weekend. You are expected to answer the phone and show up, which is exactly why these accounts pay well. Expect to be on your feet, in tight mechanical spaces, on rooftops, and in cold rooms, plus an hour or two a day on quotes, invoicing, and parts ordering.",
+  "startupCostsItemized": [
+    { "item": "EPA Section 608 Universal certification (required)", "low": 50, "high": 200 },
+    { "item": "Refrigerant gauges, recovery machine, recovery tanks, vacuum pump", "low": 1200, "high": 4000 },
+    { "item": "Hand and power tools, leak detector, micron gauge, meters", "low": 1500, "high": 5000 },
+    { "item": "Work van or truck (used) and basic shelving", "low": 4000, "high": 25000 },
+    { "item": "General liability + commercial auto insurance", "low": 2500, "high": 6000, "annual": true },
+    { "item": "Business registration / LLC and any state mechanical license fees", "low": 200, "high": 1500 },
+    { "item": "Starting parts and refrigerant inventory", "low": 500, "high": 2500 },
+    { "item": "Field service software, phone, basic website", "low": 0, "high": 1500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "A qualified solo tech going out on their own typically nets $6,000 to $12,000 per month in year one, heavily dependent on how many accounts they can pull in and whether they have emergency callback work. The first months are slow while you build a route; many keep a part-time relationship with a former employer or do subcontract work to bridge the gap.",
+    "experienced": "Established solo operators with a book of grocery, restaurant, and convenience-store accounts commonly report $12,000 to $25,000 per month in revenue, netting a strong six figures annually. Recurring planned-maintenance contracts and after-hours emergency premiums are what lift this above general HVAC work.",
+    "topEarners": "Multi-tech shops with several vans, national grocery or chain-restaurant service agreements, and dispatching staff gross $1M to $5M+ per year. Getting there means hiring and retaining certified techs (who are scarce and expensive), carrying real overhead, and competing for contracts against established regional service companies. It is a management business at that point, not a tools business.",
+    "whatAffectsMost": "Skill and reputation drive everything. Commercial buyers pay for a tech who fixes it right the first time and answers the emergency phone. Refrigerant pricing, the availability of certified labor, and how many recurring maintenance contracts you hold matter far more than your billing rate alone.",
+    "perHour": "Billable rates commonly run $120 to $200+ per hour for commercial refrigeration, with emergency and after-hours rates higher. Net effective rate after windshield time, parts running, and unpaid quoting is realistically $70 to $130 per hour for a busy solo operator."
+  },
+  "howToStart": [
+    "Before anything: get real experience. This is not a trade to self-teach from videos. Spend at least a few years as a commercial refrigeration tech for an established company, and earn your EPA 608 Universal certification plus any state mechanical license your area requires.",
+    "Month 1: Register the business, get general liability and commercial auto insurance, and outfit a van with gauges, a recovery machine, a vacuum pump, a leak detector, and core parts. Open accounts with a refrigeration parts wholesaler and a refrigerant supplier.",
+    "Months 1-3: Land your first recurring accounts. Restaurants, convenience stores, and independent groceries near you are the realistic starting point. Offer planned-maintenance agreements (ice machine cleanings, coil cleanings, system checks) that produce predictable monthly revenue, not just one-off repairs.",
+    "Months 3-6: Build emergency response capacity and a reliable after-hours phone. Your willingness to show up at 9pm on a holiday is what converts a customer into a loyal account. Track every system you service so you know its history.",
+    "Months 6-12: Decide whether to stay solo and premium-priced or begin hiring. Certified techs are hard to find, so plan recruiting long before you need the help. Standardize your maintenance checklists and invoicing so a second tech can follow them."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Genuine commercial refrigeration competence — diagnosing sealed systems, reading superheat/subcooling, brazing, and electrical troubleshooting",
+      "EPA Section 608 certification and proper, legal refrigerant handling",
+      "Reliability under pressure — answering emergency calls and showing up when a customer's inventory is at risk"
+    ],
+    "canLearn": [
+      "Quoting, invoicing, and structuring planned-maintenance agreements",
+      "Newer refrigerants and regulations (A2L low-GWP transition) as they roll out",
+      "Parts sourcing, inventory management, and field service software"
+    ],
+    "separators": [
+      "Diagnosing fast and fixing it right the first time, so you are not eating warranty callbacks",
+      "Building recurring contracts and emergency relationships instead of chasing one-off repairs",
+      "Knowing when a repair is throwing good money after bad and advising replacement honestly"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underestimating the experience required — commercial refrigeration is unforgiving, and a misdiagnosed walk-in costs the customer thousands in spoiled product",
+    "Treating it like residential HVAC and pricing accordingly, leaving emergency and after-hours premiums on the table",
+    "Skimping on a proper recovery machine, micron gauge, and leak detection, which leads to comebacks and refrigerant law violations",
+    "Not staying current on refrigerant regulations and the A2L transition, risking fines and obsolete recommendations",
+    "Chasing every one-off repair instead of locking in recurring maintenance contracts that smooth out income",
+    "Trying to scale by hiring before systems and checklists exist, then losing customers to inconsistent work from new techs"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Refrigerant recovery machine and recovery tanks", "note": "Required for legal, professional service. Do not cut corners here.", "low": 600, "high": 2000 },
+    { "item": "Manifold gauges (or digital), micron/vacuum gauge, vacuum pump", "note": "Core diagnostic and evacuation kit. Digital probes speed up accurate readings.", "low": 500, "high": 2500 },
+    { "item": "Electronic leak detector and nitrogen setup", "note": "Finding and pressure-testing leaks properly prevents repeat failures.", "low": 200, "high": 1000 },
+    { "item": "Brazing/oxy-acetylene torch kit", "note": "For sealing system work. Skill matters more than the kit.", "low": 200, "high": 700 },
+    { "item": "Multimeter, clamp meter, and electrical hand tools", "note": "Most commercial calls are electrical or control faults, not refrigerant.", "low": 150, "high": 600 },
+    { "item": "Service van with shelving and parts stock", "note": "A stocked van means you finish on the first trip and bill more.", "low": 4000, "high": 25000 },
+    { "item": "Field service / dispatch software", "note": "Worth it once you carry recurring accounts and history.", "low": 0, "high": 1500 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to independent restaurants, convenience stores, bars, and small groceries — walk in, leave a card, offer a maintenance agreement",
+      "Relationships with restaurant equipment dealers and kitchen contractors who refer service work",
+      "Subcontracting for larger HVAC/R companies that need overflow or specialized refrigeration help",
+      "A Google Business Profile and being reachable 24/7, since emergencies drive desperate searches",
+      "Property managers and commercial real estate contacts who manage multiple food-service tenants"
+    ],
+    "whereCustomersAre": "Anywhere food is sold or stored — restaurant rows, grocery and convenience chains, bars, breweries, florists, and food distributors. Independent operators are the most accessible starting point because chains often have national service agreements.",
+    "timeToClientBase": "Landing your first accounts takes one to three months of direct outreach. A genuinely stable, recurring book of business usually takes one to two years to build through reliability and word of mouth among local operators.",
+    "wasteOfTime": "Broad consumer advertising and discount coupons. Commercial buyers choose on competence, response time, and referrals — not on being the cheapest. A flashy ad campaign before you can answer the emergency phone is wasted money."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and it can be a strong full-time income quickly for a qualified tech, because billing rates are high and recurring contracts smooth out the calendar. The constraint early on is your own hours and your willingness to take emergency calls.",
+    "hireAndStepBack": "Possible but bottlenecked by labor. Certified commercial refrigeration techs are scarce and command high pay, so growth depends on recruiting and retaining them. Stepping back requires documented procedures, a dispatcher, and trust that your techs protect your reputation on every call.",
+    "sellable": "Yes — service businesses with recurring planned-maintenance contracts, documented account histories, and trained techs sell for solid multiples because the revenue is predictable. A pure solo operation is harder to sell since the customers are loyal to you personally.",
+    "whatScalingRequires": "A pipeline of certified techs, stocked vans, dispatch software, standardized maintenance checklists, and enough working capital to float parts and payroll. The jump from one van to a fleet is mostly a hiring and systems problem, not a demand problem."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You already have real commercial refrigeration experience and your EPA 608 certification",
+      "You are comfortable being on call and responding to emergencies that protect a customer's inventory",
+      "You prefer commercial accounts and recurring contracts over a stream of residential one-offs",
+      "You want a high-skill trade with strong rates and genuine demand"
+    ],
+    "poorFit": [
+      "You are new to the trade and hoping to learn refrigeration on customers' critical equipment",
+      "You want predictable nine-to-five hours and never want to take an after-hours call",
+      "You dislike physical work in tight mechanical spaces, on roofs, and in cold rooms",
+      "You want a low startup cost and fast, easy entry"
+    ],
+    "askYourself": [
+      "Do I have the diagnostic skill to fix a failing walk-in correctly the first time, with a customer's inventory on the line?",
+      "Am I willing to answer the emergency phone nights and weekends, since that is what these accounts actually pay for?",
+      "Is there enough independent food-service and grocery business in my area, and who already services it?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to start a commercial refrigeration business?",
+      "answer": "At minimum you need federal EPA Section 608 certification to purchase refrigerant and service sealed systems — that is non-negotiable and required by law. Most states also require a mechanical or HVAC/R contractor license to do the work and pull permits. Check your state and local requirements before taking any paid work."
+    },
+    {
+      "question": "Can I start this without years of experience?",
+      "answer": "Realistically, no. Commercial refrigeration is an advanced trade where mistakes spoil expensive inventory and can violate refrigerant law. Nearly every successful operator spent years as a tech for an established company first. This is not a business to self-teach into."
+    },
+    {
+      "question": "Is commercial refrigeration more profitable than residential HVAC?",
+      "answer": "Often yes, because the customer's revenue depends on the equipment, emergencies command premiums, and recurring maintenance contracts are common. Billable rates of $120 to $200+ per hour are typical. The trade-off is higher skill requirements, after-hours demands, and the cost of a stocked van and recovery equipment."
+    },
+    {
+      "question": "What is the deal with the refrigerant regulations changing?",
+      "answer": "The industry is transitioning to lower-GWP refrigerants, including mildly flammable A2L blends, under EPA rules. This means new equipment, updated handling practices, and additional training. Staying current is part of the job; operators who ignore it risk fines and giving customers obsolete advice."
+    },
+    {
+      "question": "Where does the most reliable money come from?",
+      "answer": "Recurring planned-maintenance agreements — scheduled ice machine cleanings, coil cleanings, and system inspections — plus the emergency callbacks they generate. These contracts turn an unpredictable repair calendar into steady monthly revenue and make the business far more sellable."
+    },
+    {
+      "question": "How much can a solo operator realistically make?",
+      "answer": "A qualified solo tech with a good book of accounts commonly does $12,000 to $25,000 per month in revenue, netting a strong six-figure income. Year one is slower, often $6,000 to $12,000 monthly, while you build the route. Multi-van shops earn far more but become management businesses."
+    },
+    {
+      "question": "Should I stay solo or hire techs?",
+      "answer": "Many operators do very well staying solo and premium-priced, avoiding the headache of finding scarce certified techs. Hiring raises your ceiling and makes the business sellable, but only if you build checklists and systems first. Inconsistent work from a rushed hire can lose the accounts that took years to win."
+    }
+  ],
+  "similarBusinesses": [
+    "hvac-business",
+    "appliance-repair-business",
+    "electrician-business",
+    "plumbing-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Heating, Air Conditioning, and Refrigeration Mechanics and Installers (OES wage and employment data)",
+    "U.S. EPA — Section 608 Technician Certification and refrigerant management rules (AIM Act / A2L transition)",
+    "ACCA and RSES industry materials on commercial refrigeration service practices",
+    "Field service software benchmarks and operator communities (HVAC-Talk, r/HVAC) for real-world pricing and account practices"
+  ],
+  "lastReviewed": "2026-06"
+}
