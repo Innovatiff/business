@@ -111,9 +111,9 @@ const jsonLd: Record<string, unknown>[] = [
 
       <section id="what-it-is" class="biz-section prose">
         <h2>What this business actually is</h2>
-        <p>{d.whatItIs}</p>
+        {d.whatItIs.split(/\n+/).map((p) => p.trim()).filter(Boolean).map((p) => <p>{p}</p>)}
         <h3>What you actually do — the daily reality</h3>
-        <p>{d.dailyReality}</p>
+        {d.dailyReality.split(/\n+/).map((p) => p.trim()).filter(Boolean).map((p) => <p>{p}</p>)}
       </section>
 
       <AdSlot slot="biz-mid-1" />

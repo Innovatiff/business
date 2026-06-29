@@ -1,0 +1,162 @@
+{
+  "title": "Digital Signage Business",
+  "slug": "digital-signage-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start a Digital Signage Business — Real Costs and Earnings",
+  "metaDescription": "Honest guide to starting a digital signage business: real startup costs, screen and SaaS pricing, recurring revenue, finding clients, and what most operators get wrong.",
+  "startupCostLow": 3000,
+  "startupCostHigh": 25000,
+  "monthlyEarningsLow": 1500,
+  "monthlyEarningsHigh": 14000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Tech-comfortable people who can sell to local businesses and want recurring software revenue layered on top of one-time installs",
+  "biggestRisk": "Selling hardware once with no recurring contract, leaving you with thin margins and no predictable monthly income",
+  "speedToIncome": "months",
+  "minWeeklyHours": 15,
+  "skills": ["tech", "sales"],
+  "workLocations": ["mobile", "home", "online"],
+  "priorities": ["max-income", "sellable", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A digital signage business sells, installs, and manages the screens businesses use to display menus, promotions, wayfinding, and information — restaurant menu boards, retail window displays, lobby screens, gym and salon promo loops, and the like. The model has two halves: a one-time hardware and installation sale (a commercial display, a media player such as a BrightSign or an Android stick, mounting, and cabling), and ongoing content-management software that you charge for monthly per screen. The recurring software piece is what makes this a business rather than a one-time gig — you either resell a white-label content management system (CMS) like Yodeck, OptiSigns, ScreenCloud, or Raydiant, or you build content schedules on top of one and bill a managed-service markup.",
+  "dailyReality": "Most weeks split between sales and fulfillment. You spend time prospecting local businesses, doing site walks to count screens and check power and network access, and writing quotes. On install days you mount displays, plug in players, get them on Wi-Fi or wired networks, and load the CMS. The rest is content work: building and updating menu layouts, swapping seasonal promos, troubleshooting a screen that went dark, and answering 'can you change the price on board three' messages. As your base grows, the content and support work becomes the bulk of the job, which is the recurring revenue you are actually selling.",
+  "startupCostsItemized": [
+    { "item": "Demo kit (one commercial display + media player to show prospects)", "low": 600, "high": 2000 },
+    { "item": "Installation tools (mounts, drills, cable, fish tape, ladder)", "low": 300, "high": 1500 },
+    { "item": "CMS reseller/white-label plan setup", "low": 0, "high": 1500, "annual": true },
+    { "item": "Initial inventory of players/sticks for first jobs", "low": 500, "high": 4000, "optional": true },
+    { "item": "General liability insurance", "low": 500, "high": 1500, "annual": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Website, demo videos, and sample content templates", "low": 200, "high": 2000, "optional": true },
+    { "item": "Vehicle/transport for equipment", "low": 0, "high": 8000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Realistically, most operators in year one earn $1,500 to $4,000 per month while they learn to sell and build a small base of recurring screens. Each managed screen typically brings $15 to $50 per month in recurring revenue on top of the install margin, so early income leans heavily on one-time hardware jobs until the recurring base accumulates.",
+    "experienced": "Operators with two or more years and a few hundred screens under management commonly report $5,000 to $14,000 per month, with a growing share coming from predictable monthly recurring revenue (MRR). Multi-location clients (restaurant groups, franchises, gyms) are the difference-maker at this stage.",
+    "topEarners": "Top operators running 1,000+ managed screens and small install crews gross $25,000 to $80,000+ per month, but getting there requires real outbound sales, reseller agreements with hardware and CMS vendors, and the systems to support a large fleet remotely. Most stall well before this because they keep selling one-off screens instead of landing multi-location accounts.",
+    "whatAffectsMost": "Recurring revenue per screen and the number of multi-location clients matter far more than install volume. The operators who win lock in monthly content-management contracts; the ones who struggle treat every screen as a one-time hardware sale.",
+    "perHour": "Effective rate runs roughly $40 to $120 per hour blended, but the real prize is recurring revenue that keeps paying after the install hour is over. Early on, unpaid sales and learning time drag the blended rate well below the install rate."
+  },
+  "howToStart": [
+    "Month 1: Pick one CMS platform (Yodeck and OptiSigns are common low-cost starting points) and learn it deeply. Build one polished demo kit — a commercial display plus a media player running a realistic menu board you can show prospects in person.",
+    "Month 1-2: Choose a niche where signage clearly pays for itself — quick-service restaurants, gyms, salons, or auto shops — and write a simple offer: install plus a flat monthly per-screen content-management fee. Get general liability insurance before any install.",
+    "Month 2: Do site walks for your first prospects, quote install plus recurring, and complete your first 3 to 5 paying installs. Always structure the deal so the monthly software/content fee is part of the contract, not optional.",
+    "Months 2-4: Get every happy client to refer a similar business, and start targeting multi-location operators where one sale becomes many screens. Document your install and content process so you can repeat it without relearning each time.",
+    "Months 4-6: Decide whether to stock player inventory and hire install help based on the jobs you are actually winning. Track recurring revenue per screen as your core health metric."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Comfort with networking basics — Wi-Fi, IP addresses, getting a device online behind a business firewall",
+      "Ability to sell to local business owners and explain ROI in plain terms",
+      "Basic hands-on install ability (mounting displays, running cable safely)"
+    ],
+    "canLearn": [
+      "Operating a specific CMS platform and building clean content layouts",
+      "Designing legible menu boards and promo loops (or outsourcing the design)",
+      "Structuring install-plus-recurring contracts and pricing per screen"
+    ],
+    "separators": [
+      "Landing multi-location and franchise accounts where one relationship means dozens of recurring screens",
+      "Building remote monitoring and support so a large fleet does not eat your week",
+      "Selling the recurring content-management value, not just the hardware, so MRR compounds"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Selling the screen and player as a one-time job with no recurring contract, ending up with thin hardware margins and no predictable income",
+    "Buying lots of inventory before having clients, tying up cash in hardware that gets cheaper and outdated",
+    "Underestimating the support burden — businesses expect fast fixes when a board goes dark during service",
+    "Ignoring network reality on site, then discovering the player cannot reach the business Wi-Fi after the install",
+    "Competing on price against DIY CMS subscriptions instead of selling done-for-you setup and ongoing content management",
+    "Chasing single-screen mom-and-pop deals instead of multi-location clients that actually scale the recurring base"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Commercial-grade displays", "note": "Use commercial panels rated for long run hours, not consumer TVs that fail under all-day use. Often spec'd into the client quote.", "low": 400, "high": 2500 },
+    { "item": "Media players (BrightSign, Android sticks, mini PCs)", "note": "The brains behind each screen. BrightSign is reliable but pricier; Android players are cheaper but vary in quality.", "low": 60, "high": 500 },
+    { "item": "CMS / content management software", "note": "Recurring per-screen subscription you mark up. Pick one platform and standardize on it.", "low": 8, "high": 30 },
+    { "item": "Mounting hardware and cabling", "note": "Mounts, HDMI, network cable, power management. Buy quality mounts; failed mounts are a liability.", "low": 50, "high": 400 },
+    { "item": "Install tool kit", "note": "Drill, stud finder, fish tape, level, ladder. Standard low-voltage install gear.", "low": 200, "high": 1200 },
+    { "item": "Design software for content templates", "note": "Canva or Adobe to build menu and promo layouts, or outsource design.", "low": 0, "high": 60 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach and in-person visits to local restaurants, gyms, salons, and retailers — bring the demo kit and show, don't tell",
+      "Targeting multi-location operators and franchisees where one sale becomes many recurring screens",
+      "A Google Business Profile and portfolio of real install photos and menu-board examples",
+      "Partnering with POS resellers, AV installers, and marketing agencies who serve the same businesses",
+      "Referrals from existing clients to similar businesses in their network"
+    ],
+    "whereCustomersAre": "Quick-service and full-service restaurants, gyms, salons, auto shops, medical waiting rooms, retail, and any business with foot traffic and changing prices or promotions. Multi-location chains and franchise groups are the most valuable because one decision installs many screens.",
+    "timeToClientBase": "First installs usually come within one to three months of consistent outreach. A meaningful recurring base that produces stable monthly income typically takes six to twelve months because MRR accumulates slowly, screen by screen.",
+    "wasteOfTime": "Broad untargeted online ads and a polished brand before you have a working demo and a few reference installs. Buyers need to see a real menu board running, not a logo."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. The recurring content-management revenue is what carries you to full-time, but it builds gradually. Most operators reach full-time income by combining steady installs with an accumulating base of managed screens over the first year or two.",
+    "hireAndStepBack": "Possible. Installs can be handed to a trained tech or subcontractors, and content/support work can be staffed once it is documented. The recurring model is friendly to stepping back because much of the support is remote, but you need monitoring systems and clear processes.",
+    "sellable": "Yes — and more sellable than most service businesses because recurring MRR with contracts is exactly what buyers want. A book of managed screens with multi-location clients sells for a multiple of recurring revenue; a pure install operation with no recurring contracts is worth much less.",
+    "whatScalingRequires": "Reseller agreements with hardware and CMS vendors, remote fleet monitoring, standardized install and content processes, install labor you can dispatch, and a sales motion focused on multi-location accounts rather than single screens."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are comfortable with networking and basic AV installation",
+      "You can sell to local business owners and explain return on investment plainly",
+      "You want recurring software revenue, not just one-time job income",
+      "You are willing to provide responsive support when a screen goes down"
+    ],
+    "poorFit": [
+      "You dislike sales or cold outreach to business owners",
+      "You want fully passive income with no install or support work",
+      "You are uncomfortable troubleshooting devices and networks on site",
+      "You would rather do many small one-off jobs than build recurring contracts"
+    ],
+    "askYourself": [
+      "Can I structure deals so a monthly content-management fee is part of every contract, not an optional add-on?",
+      "Do I have access to enough local or multi-location businesses that would actually pay for managed signage?",
+      "Am I prepared to support a growing fleet of screens remotely without it consuming my week?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need to build my own software to run a digital signage business?",
+      "answer": "No, and most operators should not. Reselling or white-labeling an established CMS like Yodeck, OptiSigns, ScreenCloud, or Raydiant lets you start fast and focus on sales, installs, and content. Building your own platform is a separate software business with far higher cost and risk, and it rarely makes sense until you have a large fleet."
+    },
+    {
+      "question": "How do I make money beyond the one-time install?",
+      "answer": "The recurring revenue comes from monthly content-management fees, typically $15 to $50 per screen, charged on top of the CMS subscription you resell. You bill for keeping menus and promos updated, monitoring screens, and providing support. Operators who skip this recurring layer end up with a low-margin hardware business and no predictable income."
+    },
+    {
+      "question": "Can I use regular consumer TVs instead of commercial displays?",
+      "answer": "You can for low-stakes, part-time-on displays, but consumer TVs are not rated for the long daily run hours of signage and fail faster, which becomes your warranty problem. Commercial displays cost more but are built for continuous operation. Set client expectations honestly about the trade-off."
+    },
+    {
+      "question": "What is the hardest part of the business?",
+      "answer": "Two things: closing recurring contracts instead of one-time sales, and supporting a growing fleet without it eating your time. Networking issues on site and businesses expecting instant fixes when a board goes dark during service are the most common day-to-day headaches."
+    },
+    {
+      "question": "How is this different from being an AV installer?",
+      "answer": "AV installers are paid once to mount and wire equipment. A digital signage business adds ongoing software and content management as recurring revenue, so you keep earning after the install. The install skill overlaps, but the business model and the value you sell are different."
+    },
+    {
+      "question": "How quickly can I realistically get to stable monthly income?",
+      "answer": "First installs typically come within one to three months. Stable recurring income usually takes six to twelve months because the managed-screen base accumulates gradually. Landing one or two multi-location clients early can compress that timeline significantly."
+    },
+    {
+      "question": "What licenses or insurance do I need?",
+      "answer": "A general business registration and general liability insurance are essential because you are mounting equipment in client spaces. Some installs that involve in-wall cabling or electrical work may require a low-voltage license depending on your state, so check local rules before quoting that scope."
+    }
+  ],
+  "similarBusinesses": [
+    "managed-it-services-business",
+    "it-support-business",
+    "low-voltage-cabling-business",
+    "pos-systems-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — data on audiovisual installers and computer support occupations",
+    "Digital signage CMS vendor pricing and reseller program documentation (Yodeck, OptiSigns, ScreenCloud)",
+    "Industry market reports on digital signage adoption and per-screen software pricing",
+    "Operator communities and AV/signage integrator forums for real-world install and recurring-pricing ranges"
+  ],
+  "lastReviewed": "2026-06"
+}

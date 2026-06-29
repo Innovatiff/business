@@ -1,0 +1,165 @@
+{
+  "title": "3D Scanning and Reality Capture Business",
+  "slug": "3d-scanning-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start a 3D Scanning Business — Real Costs and Earnings",
+  "metaDescription": "Honest breakdown of starting a 3D scanning and reality capture business: scanner and software costs, per-project pricing, realistic earnings, and what most people get wrong.",
+  "startupCostLow": 15000,
+  "startupCostHigh": 120000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 18000,
+  "timeToFirstIncome": "2 to 5 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Detail-oriented people with AEC, surveying, or technical backgrounds who want field work plus computer processing and can invest in capital equipment",
+  "biggestRisk": "Sinking heavy capital into a scanner and software before securing the recurring AEC and industrial clients needed to keep it billing",
+  "speedToIncome": "months",
+  "minWeeklyHours": 20,
+  "skills": ["tech"],
+  "workLocations": ["mobile", "flexible"],
+  "priorities": ["max-income", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A 3D scanning and reality capture business uses LiDAR scanners and photogrammetry to digitally capture real-world spaces and objects with millimeter-level accuracy, then turns the resulting point clouds into deliverables clients can use: as-built documentation, BIM (Building Information Modeling) models, floor plans, inspection reports, deformation analysis, and 'digital twins' of facilities. The customers are mostly in construction and AEC (architecture, engineering, construction), along with industrial plants, facilities management, and historic preservation. You are paid per project to go on-site, capture the space accurately, register and process the scans, and produce a usable model or report. It is distinct from drone services (aerial imagery and mapping) and from CAD design (creating new designs) — your core value is fast, accurate capture of what physically exists and converting it into precise digital data.",
+  "dailyReality": "Project days split between field and desk. On-site you set up a terrestrial LiDAR scanner (or handheld/mobile scanner) at multiple positions, capture overlapping scans of a building, site, or piece of equipment, place targets, and verify coverage — a few hours to a couple of days depending on size. Back at the computer comes the larger time sink: registering the scans into a single aligned point cloud, cleaning noise, and processing the data into the client's required deliverable (a BIM model in Revit, a 2D floor plan, an inspection report, or a textured mesh). Around the production work sits quoting, scoping accuracy requirements, scheduling site access, managing large data files and storage, and following up to win the next project. Travel to sites is a regular part of the job.",
+  "startupCostsItemized": [
+    { "item": "Terrestrial LiDAR scanner (entry-level/used to professional)", "low": 8000, "high": 70000 },
+    { "item": "Handheld/mobile scanner (SLAM) for faster, lower-accuracy capture", "low": 0, "high": 50000, "optional": true },
+    { "item": "Processing/registration software (e.g., point-cloud and Scan-to-BIM tools)", "low": 1500, "high": 15000, "annual": true },
+    { "item": "High-spec workstation laptop/desktop (RAM, GPU, fast storage)", "low": 2500, "high": 8000 },
+    { "item": "Tripod, targets, accessories, and rugged field cases", "low": 500, "high": 3000 },
+    { "item": "Data storage and backup (point clouds are huge)", "low": 300, "high": 3000 },
+    { "item": "Business registration, LLC, and general liability insurance", "low": 600, "high": 2500, "annual": true },
+    { "item": "Website, portfolio, and marketing materials", "low": 200, "high": 3000 },
+    { "item": "Training/certification on scanner and software", "low": 500, "high": 5000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Realistically, year one often breaks even or loses money after the capital outlay on a scanner and software, while you learn the workflow and build a client base. Operators who line up a few AEC or industrial clients before buying gear can gross $40,000 to $90,000 in year one; those who buy first and sell later may struggle to keep the equipment billing.",
+    "experienced": "An established solo operator with steady AEC and industrial clients commonly grosses $90,000 to $200,000 a year, billing per project (often $1,000 to $10,000-plus per job depending on size, accuracy, and deliverable). Net depends heavily on utilization, travel, and how much processing time each project demands.",
+    "topEarners": "Operators who niche into high-value work (digital twins, plant/industrial as-builts, Scan-to-BIM for large projects) or build a small team with multiple scanners can clear $250,000 to $600,000-plus, often through recurring facility and contractor relationships and bundled modeling deliverables. Reaching this takes years, reputation, and moving from one-off captures to ongoing client programs.",
+    "whatAffectsMost": "Utilization (keeping an expensive scanner billing), the niche and deliverable you sell (raw point clouds pay far less than finished BIM models or digital twins), and recurring client relationships matter most. Travel and processing time quietly determine your real margin.",
+    "perHour": "Field scanning can effectively bill $100 to $250 per hour, but counting registration, processing, travel, and selling, realistic blended rates for a solo operator often run $60 to $130 per hour. The deliverable you produce, not the scan itself, drives the higher numbers."
+  },
+  "howToStart": [
+    "Months 1-2: Validate demand before buying gear — talk to local general contractors, architects, engineers, surveyors, and facility managers about their as-built and documentation needs. Decide your niche (construction as-builts, Scan-to-BIM, industrial/plant, inspection, or digital twins) and the accuracy clients actually require.",
+    "Months 1-3: Choose and acquire your scanner and software based on that niche — buying or even renting an appropriate scanner first rather than over-investing. Get trained on the hardware and on registration/processing, and learn the deliverable workflow (point cloud to BIM, floor plan, or report) end to end.",
+    "Months 2-4: Build a portfolio by scanning a few real spaces (your own, a friendly contractor's site) and producing polished sample deliverables. Set up the business, general liability insurance, a website, and clear per-project pricing tied to area, accuracy, and deliverable.",
+    "Months 3-6: Land first projects through AEC relationships and subcontracting to larger reality-capture or surveying firms. Deliver accurately and on time — accuracy and reliability are your entire reputation in this field.",
+    "Months 6-18: Build recurring relationships with contractors and facility owners, productize common deliverables, raise rates as your portfolio grows, and decide whether to add a second scanner, a processing subcontractor, or a higher-value modeling specialty."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong technical and spatial aptitude — comfort with scanners, point clouds, and processing software",
+      "Precision and attention to detail; accuracy is the entire value proposition",
+      "Enough understanding of construction/AEC or industrial workflows to deliver what clients actually need"
+    ],
+    "canLearn": [
+      "Scanner operation, scan registration, and point-cloud processing technique",
+      "Scan-to-BIM modeling in tools like Revit, or CAD deliverable production",
+      "Project scoping, accuracy specification, and per-project pricing"
+    ],
+    "separators": [
+      "Producing finished, high-value deliverables (BIM models, digital twins) rather than just raw point clouds",
+      "Specializing in a niche (industrial, historic, Scan-to-BIM) where accuracy and expertise command premium rates",
+      "Reliability and accuracy that earn recurring contractor and facility relationships"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Buying an expensive scanner before validating demand, then watching costly equipment sit idle",
+    "Selling only raw point clouds, which pay little, instead of the finished BIM models and reports clients actually pay for",
+    "Underestimating processing and registration time, then quoting jobs that lose money on the desk work",
+    "Mismatching accuracy to the job — using overkill (or insufficient) capture and either wasting time or delivering unusable data",
+    "Ignoring the massive data storage, backup, and file-transfer demands of point-cloud work",
+    "Confusing this with drone services or CAD design and pitching the wrong value to the wrong clients"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Terrestrial LiDAR scanner", "note": "The core capital asset; accuracy, range, and speed vary widely by model. Renting first can de-risk the purchase.", "low": 8000, "high": 70000 },
+    { "item": "Handheld/mobile (SLAM) scanner", "note": "Faster capture at lower accuracy; useful for large areas or quick walkthroughs.", "low": 0, "high": 50000 },
+    { "item": "High-spec workstation", "note": "Registration and modeling are RAM- and GPU-heavy; an underpowered machine kills your throughput.", "low": 2500, "high": 8000 },
+    { "item": "Processing and Scan-to-BIM software", "note": "Point-cloud registration plus modeling tools (e.g., Revit) are where deliverables get made.", "low": 1500, "high": 15000 },
+    { "item": "Tripod, targets, and field cases", "note": "Proper targets and stable setup are essential for accurate registration.", "low": 500, "high": 3000 },
+    { "item": "Data storage and backup", "note": "Point clouds are enormous; reliable storage and a backup workflow are not optional.", "low": 300, "high": 3000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct relationships with general contractors, architects, engineers, and surveyors who need as-builts and documentation",
+      "Subcontracting to larger reality-capture, surveying, or BIM firms to stay billing while building your own pipeline",
+      "Facility managers and industrial/plant owners who need ongoing as-built and digital-twin work",
+      "A portfolio website and LinkedIn presence showcasing real deliverables to a technical AEC audience",
+      "AEC industry associations, trade events, and local construction networks",
+      "Referrals from completed projects — accurate, on-time delivery is the strongest marketing in this field"
+    ],
+    "whereCustomersAre": "Construction and AEC firms, industrial and process facilities, property owners, and government/infrastructure projects that need accurate documentation of existing conditions. Decision-makers are project managers, BIM managers, engineers, and facility owners.",
+    "timeToClientBase": "Building a reliable client base typically takes 6 to 18 months. Early work often comes from subcontracting and a few key AEC relationships; recurring clients build as your portfolio and reputation for accuracy grow.",
+    "wasteOfTime": "Broad consumer advertising and chasing one-off residential jobs that do not cover the equipment cost. AEC and industrial buyers respond to referrals, demonstrated accuracy, and direct relationships, not generic ads."
+  },
+  "howItScales": {
+    "toFullTime": "Yes — strong per-project rates mean a fully utilized solo operator can reach a solid full-time income. The constraint is keeping the expensive scanner billing and managing the balance between field capture and desk processing.",
+    "hireAndStepBack": "Possible by adding scanners and hiring or subcontracting field technicians and processors, moving yourself toward sales and quality oversight. Because deliverables are skill-dependent, you must train capable people and maintain accuracy standards.",
+    "sellable": "A solo practice tied to your personal skill is harder to sell, but a firm with multiple scanners, trained staff, recurring AEC/facility contracts, and a portfolio of repeatable deliverables is genuinely sellable to surveying, AEC, or larger reality-capture companies.",
+    "whatScalingRequires": "Additional scanners and workstations, trained field and processing staff, standardized deliverable workflows, recurring client relationships, and the data infrastructure to manage many large projects. Capital and utilization discipline are central to scaling profitably."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are technically minded, precise, and comfortable with hardware and processing software",
+      "You have AEC, surveying, or industrial background or contacts to seed demand",
+      "You can invest in (or rent) capital equipment and tolerate a slow ramp to profitability",
+      "You enjoy a mix of on-site field work and detailed computer processing"
+    ],
+    "poorFit": [
+      "You want a low-capital, fast-cash business",
+      "You dislike detailed, accuracy-critical desk work and large data management",
+      "You have no technical aptitude and expect to learn complex software with no foundation",
+      "You are unwilling to travel to client sites"
+    ],
+    "askYourself": [
+      "Do I have (or can I build) a pipeline of AEC or industrial clients before sinking capital into a scanner?",
+      "Am I prepared for the heavy processing time and data management behind each project, not just the scanning?",
+      "Which deliverable will I sell — and is it high-value enough to justify the equipment cost?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How much does it cost to start a 3D scanning business?",
+      "answer": "The main cost is the scanner: a used or entry-level terrestrial LiDAR unit can start around $8,000, while professional scanners and mobile/handheld systems run $30,000 to $70,000 or more. Add a high-spec workstation, processing and modeling software, storage, and insurance, and a realistic starting budget is roughly $15,000 on the low end to $120,000 for a serious professional setup."
+    },
+    {
+      "question": "Is 3D scanning the same as drone mapping?",
+      "answer": "No. Drone services capture aerial imagery and create maps or models from above, which is great for sites, rooftops, and large outdoor areas. 3D scanning with terrestrial LiDAR captures interiors, equipment, and structures at much higher accuracy from the ground. They are complementary — some operators offer both — but the equipment, accuracy, and use cases are distinct."
+    },
+    {
+      "question": "What's the difference between this and CAD design?",
+      "answer": "CAD design creates new designs and drawings from scratch. 3D scanning captures what physically exists and turns it into accurate data — point clouds, as-built models, or floor plans. Scanning often feeds into CAD or BIM work (you scan an existing building, then someone models it), but your core value is fast, accurate reality capture, not original design."
+    },
+    {
+      "question": "Do I need experience to start?",
+      "answer": "Realistically, yes — clients pay for accuracy, and producing usable deliverables requires real skill with scanners, registration, and modeling software. You can learn the workflow through training and practice, but a background in AEC, surveying, or a technical field, plus deliberate practice before taking paid work, is what makes you credible. This is not a no-experience business."
+    },
+    {
+      "question": "What deliverables do clients actually pay for?",
+      "answer": "Clients rarely want raw point clouds alone; they pay for finished outputs — as-built BIM models (often in Revit), 2D floor plans and sections, inspection and deformation reports, and digital twins of facilities. The more finished and specialized the deliverable, the higher the rate. Selling only raw scans is a common way operators leave money on the table."
+    },
+    {
+      "question": "Can I run this part-time?",
+      "answer": "Yes, it can work part-time, especially around an existing AEC or technical job, since projects are scheduled per engagement. The catch is keeping an expensive scanner utilized enough to justify its cost — many start part-time by subcontracting to larger firms or serving a few steady clients while building toward full-time."
+    },
+    {
+      "question": "How do I keep an expensive scanner from sitting idle?",
+      "answer": "Utilization is the whole game. The best protection is lining up recurring clients and subcontracting relationships before buying, considering renting a scanner for early projects, and choosing a niche with steady demand (like contractor as-builts or facility documentation). Operators who buy first and sell later are the ones who struggle to keep the equipment paying for itself."
+    }
+  ],
+  "similarBusinesses": [
+    "drone-services-business",
+    "cad-design-business",
+    "3d-rendering-business",
+    "real-estate-photography-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Surveying and Mapping Technicians and related occupational data",
+    "Reality capture and Scan-to-BIM industry reports and scanner vendor specifications (Leica, FARO, NavVis, Matterport)",
+    "AEC and construction technology surveys on BIM and as-built documentation adoption",
+    "Reality-capture operator communities and forums for real-world project pricing and equipment costs",
+    "Scan-to-BIM and point-cloud service pricing guides from industry providers"
+  ],
+  "lastReviewed": "2026-06"
+}
