@@ -1,0 +1,162 @@
+{
+  "title": "Diesel Truck Repair Business",
+  "slug": "diesel-repair-business",
+  "category": "automotive",
+  "metaTitle": "How to Start a Diesel Truck Repair Business — Real Costs and Earnings",
+  "metaDescription": "Honest guide to starting a diesel truck repair business: real startup costs, fleet and heavy-duty work, emissions/DPF realities, earnings, and common mistakes.",
+  "startupCostLow": 15000,
+  "startupCostHigh": 120000,
+  "monthlyEarningsLow": 6000,
+  "monthlyEarningsHigh": 30000,
+  "timeToFirstIncome": "2 to 4 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced diesel technicians who want to own their work and serve fleets, owner-operators, and heavy-duty trucks",
+  "biggestRisk": "Underestimating the cost of diagnostics, specialty tools, and a misdiagnosed major repair that wipes out the profit on many jobs",
+  "speedToIncome": "months",
+  "minWeeklyHours": 40,
+  "skills": ["hands", "tech", "people", "finance"],
+  "workLocations": ["space", "mobile"],
+  "priorities": ["max-income", "sellable", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A diesel truck repair business services heavy-duty and medium-duty diesel engines — work trucks, semis, box trucks, RVs, agricultural and construction equipment, and the diesel pickups (Power Stroke, Cummins, Duramax) that owner-operators and fleets depend on. The work spans routine maintenance (oil and fuel filters, DEF, brakes) to high-skill repairs: turbochargers, fuel injection systems, EGR and DPF/aftertreatment emissions components, transmissions, and engine overhauls. It is a higher-stakes, higher-revenue corner of automotive than gas-car repair because downtime costs fleets real money, parts and labor tickets are large, and the diagnostic and tooling demands are serious. Many operators choose between a fixed shop and a mobile rig that goes to stranded trucks and fleet yards.",
+  "dailyReality": "A day is rarely just turning wrenches. You diagnose with manufacturer-level scan tools (a misread code on a $4,000 aftertreatment repair is expensive), order heavy and sometimes back-ordered parts, and work on large components that demand lifts, jacks, and physical strength. Fleet customers want minimal downtime, so you juggle priorities and communicate constantly about ETAs. Mobile operators drive to yards and roadsides, often in bad weather, to get trucks moving again. Around the wrenching you handle estimates, parts sourcing, invoicing (often on net-30 terms with fleets), and the paperwork that comes with emissions and DOT-related work. Long days and physically demanding work are the norm.",
+  "startupCostsItemized": [
+    { "item": "Heavy-duty diagnostic software and adapters (multi-brand or OEM)", "low": 2000, "high": 12000 },
+    { "item": "Hand and air tools, heavy-duty sockets, torque tools", "low": 2000, "high": 8000 },
+    { "item": "Lift, jacks, stands, engine hoist, or mobile service truck", "low": 5000, "high": 60000 },
+    { "item": "Shop space rent and utilities (if fixed location)", "low": 0, "high": 36000, "annual": true, "optional": true },
+    { "item": "Garage liability, garagekeepers, and commercial vehicle insurance", "low": 3000, "high": 8000, "annual": true },
+    { "item": "Initial parts, fluids, and consumables inventory", "low": 1000, "high": 6000 },
+    { "item": "Business registration, EPA/state compliance setup, accounting", "low": 500, "high": 3000 },
+    { "item": "Website, fleet outreach materials, Google Business Profile", "low": 100, "high": 1000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "A skilled diesel tech going solo and finding work typically grosses $6,000 to $14,000 per month in year one before equipment and shop costs, with mobile operators often ramping faster because overhead is lower and roadside fleet calls pay well.",
+    "experienced": "Established solo or two-tech operations with steady fleet accounts commonly report $15,000 to $30,000 per month gross, driven by large repair tickets and recurring maintenance contracts. Net depends heavily on parts margins, comeback rate, and how much shop overhead you carry.",
+    "topEarners": "Multi-bay shops or multi-truck mobile fleets with several techs, fleet maintenance contracts, and strong parts margins gross $60,000 to $200,000+ per month, but that requires hiring scarce qualified diesel techs, real working capital for parts and net-30 receivables, and a manager's skill set. The technician shortage is the main constraint on growth.",
+    "whatAffectsMost": "Diagnostic accuracy, recurring fleet relationships, parts margin, and minimizing comebacks. One major misdiagnosis or a stack of net-30 invoices that pay slowly can swing a month from great to painful.",
+    "perHour": "Posted shop labor rates for diesel commonly run $120 to $180+ per hour, but the operator's effective take after parts, diagnostics, unpaid time, and overhead is more like $60 to $130 per hour solo."
+  },
+  "howToStart": [
+    "Before launch: This is an advanced trade — most successful owners have years of diesel experience and ideally ASE diesel certifications. If you are not already a strong diesel tech, get the experience first; this is not a business to learn on customers' fleets.",
+    "Month 1: Decide mobile versus fixed shop. Mobile rigs reach stranded trucks and fleet yards with lower overhead; a shop handles overhauls and bad-weather work. Buy or lease your core diagnostic platform and tools, and secure garage and commercial insurance.",
+    "Month 2: Sort out emissions compliance. Tampering with or deleting EPA emissions equipment (DPF, EGR, DEF) is illegal and carries heavy fines; build your reputation on legitimate diagnosis and repair, not deletes.",
+    "Months 2-4: Land your first fleet and owner-operator accounts by visiting local fleet yards, trucking companies, farms, and contractors. Reliability and fast turnaround win recurring work more than the lowest price.",
+    "Ongoing: Manage cash flow carefully — fleet net-30 terms mean you front parts and labor before getting paid. Track diagnostic accuracy and comebacks, and keep building specialty tooling as the jobs you win demand it."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong diesel mechanical experience — engines, fuel systems, drivetrains",
+      "Diagnostic skill with heavy-duty scan tools and the ability to read aftertreatment/electronic systems",
+      "Physical capability for heavy, demanding work and cash-flow discipline for parts and receivables"
+    ],
+    "canLearn": [
+      "Specific OEM platform quirks and newer aftertreatment systems",
+      "Fleet account management and invoicing on net terms",
+      "Mobile service logistics and roadside repair efficiency"
+    ],
+    "separators": [
+      "Diagnostic accuracy that avoids costly misdiagnoses on expensive components",
+      "Recurring fleet maintenance contracts that smooth out revenue",
+      "Fast, reliable turnaround that minimizes customer downtime and earns repeat, referral-heavy business"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underestimating the cost of diagnostic software, adapters, and specialty tooling, which is far higher than gas-car repair",
+    "Misdiagnosing electronic or aftertreatment faults and eating the cost of the wrong parts and labor",
+    "Offering illegal EPA emissions deletes for quick money, risking heavy fines and a destroyed reputation",
+    "Ignoring cash flow — fronting expensive parts on fleet net-30 terms can starve a profitable shop of working capital",
+    "Trying to serve every diesel from pickups to Class 8 semis without the tools or expertise for any of them well",
+    "Promising turnaround times they cannot meet when a part back-orders, frustrating fleets that are losing money on downtime"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Heavy-duty diagnostic laptop, software, and adapters", "note": "Core to the business; diesel diagnostics are electronic and a wrong read is costly.", "low": 2000, "high": 12000 },
+    { "item": "Lift or heavy jacks, stands, and engine hoist", "note": "Required for serious work; mobile operators substitute a service truck with a crane.", "low": 3000, "high": 30000 },
+    { "item": "Mobile service truck (if mobile)", "note": "Lets you serve roadside and fleet-yard calls that pay a premium for fast response.", "low": 0, "high": 60000 },
+    { "item": "Heavy-duty hand, air, and torque tools", "note": "Bigger fasteners and components than gas vehicles; quality tools save time and knuckles.", "low": 2000, "high": 8000 },
+    { "item": "Specialty pullers, injector tools, and presses", "note": "Buy as the jobs you win demand them rather than all at once.", "low": 500, "high": 5000 },
+    { "item": "Parts and fluids inventory (filters, DEF, gaskets)", "note": "Stock common maintenance items; source big components per job to protect cash.", "low": 1000, "high": 6000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to local fleets, trucking companies, farms, contractors, and delivery operators",
+      "Relationships with owner-operators and truck stops who refer breakdowns",
+      "A Google Business Profile and listings emphasizing mobile/roadside response and fleet service",
+      "Parts suppliers and dealers who refer overflow or warranty-adjacent work",
+      "Word of mouth among CB/trucking and diesel-pickup communities, where reliability spreads fast"
+    ],
+    "whereCustomersAre": "Customers are fleets and owner-operators who depend on uptime — local trucking and delivery companies, construction and agricultural operators, RV owners, and diesel-pickup owners. They cluster around industrial areas, fleet yards, and rural/agricultural regions.",
+    "timeToClientBase": "Reaching the first paying jobs takes a couple of months of setup and outreach, and a stable base of recurring fleet accounts typically builds over six to twelve months as reliability earns trust.",
+    "wasteOfTime": "Mass consumer advertising and price-shopping against chain quick-lube shops is largely wasted. This is a relationship-and-reliability business; direct fleet outreach and referrals far outperform broad ads."
+  },
+  "howItScales": {
+    "toFullTime": "Yes — a single skilled diesel tech can build a strong full-time income because tickets are large and demand from fleets is steady. The cap is hours, physical limits, and how much capital you can tie up in parts and receivables.",
+    "hireAndStepBack": "Possible but constrained by a genuine shortage of qualified diesel techs. Each hire is expensive and slow to find, and a weak tech generates costly comebacks. Stepping back requires trusted lead techs, documented procedures, and tight QC.",
+    "sellable": "Shops with fleet maintenance contracts, equipment, trained techs, and clean books sell for solid multiples because the recurring B2B revenue is valuable. A pure solo mobile operation built on the owner's hands is much harder to transfer.",
+    "whatScalingRequires": "Working capital for parts and net-30 receivables, additional bays or service trucks, hiring scarce qualified diesel techs, fleet contracts, and systems for diagnostics, parts ordering, and billing that do not depend on the owner."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are already an experienced, capable diesel technician",
+      "You can manage cash flow and receivables, not just turn wrenches",
+      "You want large-ticket work serving fleets and owner-operators",
+      "You can handle physically demanding work and long days"
+    ],
+    "poorFit": [
+      "You have no real diesel experience and hope to learn on the job",
+      "You are undercapitalized for tools, diagnostics, and fronting parts",
+      "You want light, low-risk, part-time work",
+      "You are tempted by illegal emissions deletes for quick cash"
+    ],
+    "askYourself": [
+      "Do I have the diesel diagnostic and repair experience to avoid the misdiagnoses that destroy margins?",
+      "Do I have the working capital to front parts and wait on fleet net-30 payments?",
+      "Is there enough fleet, agricultural, or owner-operator demand in my area to feed a diesel shop?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is diesel repair different from regular auto repair?",
+      "answer": "Diesel work centers on heavier-duty engines and trucks where downtime costs the customer real money, tickets are larger, and diagnostics and tooling are more demanding and expensive. Emissions systems (DPF, EGR, DEF), high-pressure fuel injection, and turbochargers add complexity. It is higher-revenue but also higher-stakes and more capital-intensive than gas-car repair."
+    },
+    {
+      "question": "Do I need certifications to start?",
+      "answer": "Certifications like ASE Medium/Heavy Truck are not always legally required, but they signal competence and many fleet customers prefer or require them. Far more important is genuine diesel experience. This is an advanced trade where customers are trusting you with expensive equipment, so credentials and a track record both help win work."
+    },
+    {
+      "question": "Is offering 'deletes' (removing emissions equipment) a good way to make money?",
+      "answer": "No. Removing or disabling EPA emissions equipment such as DPF, EGR, or DEF systems is illegal and carries substantial federal and state penalties, and it has become a real enforcement target. Build your business on legitimate diagnosis and repair. Short-term delete money is not worth the legal exposure and reputational damage."
+    },
+    {
+      "question": "Should I go mobile or open a shop?",
+      "answer": "Mobile diesel repair has lower overhead and serves roadside breakdowns and fleet yards where fast response commands a premium, which makes it a common starting point. A fixed shop is better for overhauls, bad weather, and larger jobs needing lifts. Many operators start mobile and add a shop as volume and complex work grow."
+    },
+    {
+      "question": "Why is cash flow such a big deal in this business?",
+      "answer": "Diesel parts are expensive and you often front them before a job, while fleet customers commonly pay on net-30 terms. That gap means a busy, profitable shop can still run short of cash to buy the next job's parts. Disciplined invoicing, deposits on big jobs, and a cash buffer are essential to survival."
+    },
+    {
+      "question": "How big is the technician shortage, and why does it matter?",
+      "answer": "Qualified diesel technicians are in genuinely short supply across the U.S., which is good for demand and pricing but makes hiring to scale difficult and expensive. It means a strong solo operator has steady work, but growing into a multi-tech shop hinges on finding and keeping skilled people, which is the main bottleneck."
+    },
+    {
+      "question": "What kind of trucks and equipment should I focus on?",
+      "answer": "Picking a focus matters because tooling and expertise differ across diesel pickups, medium-duty box trucks, Class 8 semis, and agricultural or construction equipment. Many start with what their local market needs most — often fleet light/medium-duty and diesel pickups — and expand deliberately. Trying to serve everything at once usually means doing none of it well."
+    }
+  ],
+  "similarBusinesses": [
+    "mobile-mechanic-business",
+    "roadside-assistance-business",
+    "transmission-repair-business",
+    "fleet-washing-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Diesel Service Technicians and Mechanics occupational data",
+    "EPA guidance on heavy-duty diesel emissions tampering enforcement and compliance",
+    "Heavy-duty repair industry coverage (Fleet Maintenance, Diesel Laptops) on diagnostics and labor rates",
+    "Diesel technician and owner-operator communities for real-world pricing, fleet terms, and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}
