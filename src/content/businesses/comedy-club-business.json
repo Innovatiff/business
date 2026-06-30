@@ -1,0 +1,162 @@
+{
+  "title": "Comedy Club Business",
+  "slug": "comedy-club-business",
+  "category": "events-and-entertainment",
+  "metaTitle": "How to Start a Comedy Club — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a comedy club business: real startup costs, realistic monthly earnings, how the food-and-drink model actually works, and what most owners get wrong.",
+  "startupCostLow": 60000,
+  "startupCostHigh": 350000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 18000,
+  "timeToFirstIncome": "3 to 6 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Hospitality-minded operators who understand that a comedy club is a bar-and-restaurant business with shows attached, not a passion project",
+  "biggestRisk": "Signing a long, expensive lease and burning through cash before midweek nights and bar margins cover fixed costs",
+  "speedToIncome": "long",
+  "minWeeklyHours": 50,
+  "skills": ["people", "sales", "finance", "food"],
+  "workLocations": ["space"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A comedy club is a small live-entertainment venue that sells tickets to stand-up shows and makes most of its real money on food and drink during those shows. The classic model is a 100 to 300 seat room with a stage, a bar, table service, a two-drink (or item) minimum, and several shows a week — typically headliner weekends plus open mics, showcases, and themed nights midweek. You are running three businesses at once: a bar/restaurant, a ticketed events operation, and a talent-booking operation. Revenue comes from ticket sales (often split with touring headliners), bar and kitchen sales, and private events or buyouts.",
+  "dailyReality": "Most of the week is operations, not laughs. You spend days booking comics weeks or months out, negotiating headliner guarantees, managing ticketing and promotions, ordering liquor and food, scheduling servers and bartenders, and chasing the marketing for this weekend's shows. Show nights mean being on the floor: running door, managing the two-item minimum, keeping turn times tight between an early and late show, handling the occasional heckler or refund, settling up with the headliner at the end of the night, and cashing out the bar. Friday and Saturday carry the business; Tuesday through Thursday you are fighting to put butts in seats.",
+  "startupCostsItemized": [
+    { "item": "Lease deposit and first months' rent on a 100-300 seat space", "low": 12000, "high": 60000 },
+    { "item": "Buildout, stage, sound, lighting, and seating", "low": 25000, "high": 150000 },
+    { "item": "Bar and kitchen equipment, POS, and initial inventory", "low": 10000, "high": 80000 },
+    { "item": "Liquor license", "low": 3000, "high": 50000 },
+    { "item": "Permits, business formation, and legal/lease review", "low": 2000, "high": 10000 },
+    { "item": "General liability, liquor liability, and property insurance", "low": 4000, "high": 12000, "annual": true },
+    { "item": "Ticketing platform setup and launch marketing", "low": 1500, "high": 8000 },
+    { "item": "Working capital to cover 3-6 months of losses", "low": 20000, "high": 80000 }
+  ],
+  "realEarnings": {
+    "yearOne": "Realistically, most clubs lose money or barely break even in year one while building a regular audience and a reputation with bookers and comics. Owner take-home is often $0 to $4,000 per month, and many owners pay themselves last. Cash reserves, not first-year profit, are what keep the doors open.",
+    "experienced": "An established single-room club with strong weekends and a working midweek calendar commonly nets the owner $6,000 to $18,000 per month after rent, payroll, talent guarantees, and cost of goods. Bar margin (often 70-80 percent on drinks) is usually where the profit actually lives, not ticket revenue.",
+    "topEarners": "Top operators run multi-room or multi-city clubs, land national touring headliners, sell out two shows a night on weekends, and add a busy private-event and corporate-buyout business. These owners can clear $250,000 to $1,000,000+ per year, but that requires multiple locations or a destination-level brand, a full management team, and years of relationships with agents and comics.",
+    "whatAffectsMost": "Rent as a percentage of revenue, bar and kitchen margins, and midweek attendance matter most. Two strong weekend shows are not enough to cover a big lease; the clubs that survive figure out how to fill Tuesday through Thursday and how to sell drinks and food, not just tickets.",
+    "perHour": "Given 50-70 hour weeks and the early years of low or no pay, blended owner pay frequently works out to $15 to $40 per hour early on, improving to $40 to $80+ per hour only once the club is established and partly run by managers."
+  },
+  "howToStart": [
+    "Months 1-2: Validate demand before signing anything. Run a few independent shows in rented rooms or partner bars, build an email list, and prove you can sell tickets and book comics locally. This tests your audience and your booking instincts for a few thousand dollars instead of a few hundred thousand.",
+    "Months 2-4: Find the right space and negotiate the lease hard — rent and lease length are the decisions most likely to sink you. Confirm zoning, occupancy, and that a liquor license is actually attainable at that address before you commit.",
+    "Months 4-6: Build out the room, set up the bar/kitchen and POS, secure insurance and the liquor license, and lock in a ticketing platform. Start booking an opening month of headliners and showcases 8-12 weeks ahead so the calendar is full on day one.",
+    "Launch month: Open with a strong, well-promoted headliner weekend, then immediately establish recurring midweek nights (open mic, showcase, themed shows) to build habit and a local comic community. Push the two-item minimum and food/drink from night one.",
+    "Months 2-6 after opening: Build relationships with agents and managers to get on touring routes, grow the email list and social following relentlessly, and add private events and corporate buyouts to smooth out slow weeks."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Hospitality and bar/restaurant operations experience — this is fundamentally a food-and-drink business",
+      "Cash-flow discipline and the reserves to survive months of losses",
+      "Comfort negotiating with comics, agents, and a demanding, late-night staff"
+    ],
+    "canLearn": [
+      "Comedy booking and how headliner guarantees and door splits work",
+      "Ticketing, show promotion, and email/social marketing for events",
+      "Reading a room and pacing a calendar across weekends and midweek nights"
+    ],
+    "separators": [
+      "Relationships with agents and managers that put your club on national touring routes",
+      "Filling midweek nights profitably instead of relying only on weekends",
+      "Driving bar and kitchen spend per head, which is where the real margin is"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Treating it as a comedy passion project instead of a bar-and-restaurant business, then being shocked that drinks and food are what pay the rent",
+    "Signing a long lease in a too-large or too-expensive space and never escaping the fixed-cost trap",
+    "Programming only weekends and leaving the room dark and cash-burning Monday through Thursday",
+    "Underestimating headliner guarantees and selling tickets too cheap, so a sold-out show still loses money after the talent is paid",
+    "Skipping or under-buying liquor liability insurance, which is a serious exposure for a late-night drinking venue",
+    "Ignoring the two-item minimum and table-service economics that the entire model depends on"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Stage, professional sound system, and lighting", "note": "Comics need a clean mic and a real spotlight; bad sound kills a room.", "low": 8000, "high": 60000 },
+    { "item": "Bar and kitchen buildout plus equipment", "note": "Your profit center. Spend here before you spend on flashy decor.", "low": 10000, "high": 80000 },
+    { "item": "POS and ticketing platform", "note": "Eventbrite, a dedicated comedy-club system, or a POS with events; integrate door and bar so you can read each show's true P&L.", "low": 1000, "high": 8000 },
+    { "item": "Seating, tables, and green room setup", "note": "Tight, tiered seating maximizes capacity and the two-item minimum; comics expect a basic green room.", "low": 5000, "high": 40000 },
+    { "item": "Liquor license", "note": "Cost and availability vary enormously by state and city; confirm before leasing.", "low": 3000, "high": 50000 },
+    { "item": "Insurance package (general, liquor liability, property)", "note": "Non-negotiable for a late-night drinking venue.", "low": 4000, "high": 12000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "An aggressive email list and SMS list — your cheapest, highest-converting channel for selling out specific show dates",
+      "Social media tied to each headliner's own following, plus the comics cross-promoting their dates to your room",
+      "A strong, reviewed presence on Google and event-discovery sites so people searching 'things to do tonight' find you",
+      "Recurring midweek nights (open mic, college night, themed shows) that build local habit and a comic community",
+      "Corporate, birthday, bachelorette, and private-buyout sales for groups, which fill slow nights at high margin"
+    ],
+    "whereCustomersAre": "Date-night couples, groups celebrating birthdays and bachelorette parties, corporate outings, and fans of specific touring comedians. Weekend and pre-holiday demand is far higher than midweek.",
+    "timeToClientBase": "Building a reliable local audience and a reputation that draws touring headliners usually takes one to two years. Individual show sellouts depend heavily on the headliner's own draw long before your brand alone fills the room.",
+    "wasteOfTime": "Broad untargeted billboard or radio spend before you have an email list, and discounting tickets so deeply that you train your audience to wait for deals and crush the food/drink minimum."
+  },
+  "howItScales": {
+    "toFullTime": "It is full-time and then some from day one; there is no part-time version of running a licensed venue. The question is less whether it becomes full-time and more whether it ever pays you well for the hours.",
+    "hireAndStepBack": "Yes, but only with a strong general manager, a reliable booker, and tight financial systems. Many owners eventually step off the floor to focus on booking, marketing, and expansion, though late-night hospitality is hard to fully walk away from.",
+    "sellable": "Established clubs with a liquor license, a proven calendar, a real brand, and clean books do sell — often as a going concern to hospitality operators. The license and the lease terms are frequently the most valuable transferable assets.",
+    "whatScalingRequires": "Scaling means more rooms, a second location, or a destination brand that anchors touring routes. That requires real capital, a management bench, deep agent relationships, and systems that let each room run without the founder on site every night."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have run a bar or restaurant and understand hospitality margins and late-night staffing",
+      "You have meaningful capital and the stomach for months of losses before profit",
+      "You love live comedy but can run the place like the food-and-drink business it actually is",
+      "You are willing to be on the floor most weekend nights for years"
+    ],
+    "poorFit": [
+      "You want passive income or normal hours",
+      "You are starting with thin reserves and a large fixed lease",
+      "You see it purely as an art project and resist the bar/restaurant economics",
+      "You are uncomfortable negotiating with talent or managing a late-night staff"
+    ],
+    "askYourself": [
+      "Can I survive 6-12 months of losses without the business paying me?",
+      "Do I have a realistic plan to fill Monday through Thursday, not just weekends?",
+      "Do I understand that drinks and food, not ticket revenue, are likely my real profit?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do comedy clubs actually make money on tickets?",
+      "answer": "Less than people think. Touring headliners often take a guarantee or a large share of the door, so ticket revenue can be close to a wash on the talent. The profit usually comes from the bar and kitchen via the two-item minimum, which is exactly why successful clubs obsess over food and drink spend per head."
+    },
+    {
+      "question": "How much does it cost to open a comedy club?",
+      "answer": "Realistically $60,000 to $350,000+ depending on whether you take over an existing licensed venue or build out a raw space. The biggest swings are buildout, the liquor license, and the lease. The single most important line item, though, is enough working capital to survive several months of losses."
+    },
+    {
+      "question": "What is the two-item or two-drink minimum and why does it matter?",
+      "answer": "Most clubs require each guest to buy two items (drinks or food) during the show on top of the ticket. It is not a gimmick — it is the core of the business model. Without it, a sold-out room can still lose money once the headliner is paid, because tickets alone rarely cover fixed costs."
+    },
+    {
+      "question": "How do I book comedians?",
+      "answer": "Local and regional comics you book directly, often building a community through your open mics and showcases. Touring headliners come through their agents and managers, usually negotiated weeks or months ahead with a guarantee, a door split, or both. Strong, reliable rooms earn spots on national touring routes over time."
+    },
+    {
+      "question": "Can I run a comedy night without opening a full club?",
+      "answer": "Yes, and it is the smart way to start. Producing independent shows in rented rooms or partner bars lets you test your booking and your audience for a few thousand dollars instead of a few hundred thousand. Many full clubs grow out of a producer's successful recurring show."
+    },
+    {
+      "question": "Why do so many comedy clubs fail?",
+      "answer": "The most common killers are too much rent for the room, no midweek programming, and underpriced tickets that do not cover headliner guarantees. Owners who treat it as hospitality first and entertainment second — watching margins, filling slow nights, and pushing food and drink — are the ones who survive."
+    },
+    {
+      "question": "Is it seasonal?",
+      "answer": "Demand concentrates heavily on weekends and around holidays, date nights, and big touring acts. Summer and major holidays can be slow for live entertainment in some markets. Private events, corporate buyouts, and a consistent midweek calendar are how clubs smooth out the slow stretches."
+    }
+  ],
+  "similarBusinesses": [
+    "arcade-bar-business",
+    "escape-room-business",
+    "event-planning-business",
+    "cafe-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — data on drinking places, full-service restaurants, and performing-arts venues",
+    "IBISWorld and industry reports on bars, nightclubs, and live-entertainment venues",
+    "National Restaurant Association cost and margin benchmarks for food-and-beverage operations",
+    "Operator and producer interviews plus comedy-industry communities for booking, guarantee, and minimum-spend norms"
+  ],
+  "lastReviewed": "2026-06"
+}
