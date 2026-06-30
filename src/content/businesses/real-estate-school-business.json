@@ -1,0 +1,162 @@
+{
+  "title": "Real Estate License School Business",
+  "slug": "real-estate-school-business",
+  "category": "education-and-coaching",
+  "metaTitle": "How to Start a Real Estate School — State Approval, Costs, Earnings",
+  "metaDescription": "An honest guide to starting a real estate license school: state approval for pre-licensing and CE, real costs, instructor rules, earnings, and common mistakes.",
+  "startupCostLow": 5000,
+  "startupCostHigh": 60000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "4 to 12 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced licensed agents or brokers who understand their state's education rules and enjoy teaching",
+  "biggestRisk": "Failing or losing state course approval, or being undercut by national online schools on price",
+  "speedToIncome": "long",
+  "minWeeklyHours": 15,
+  "skills": ["teaching", "finance", "people"],
+  "workLocations": ["space", "online", "flexible"],
+  "priorities": ["max-income", "sellable", "helping"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A real estate license school sells the education that aspiring and current real estate agents are legally required to complete — pre-licensing courses for people preparing to take the state salesperson or broker exam, and continuing education (CE) that licensed agents must renew on a schedule. This is a regulated education business: in nearly every state, your school and often each specific course and instructor must be approved by the state real estate commission before you can sell a single seat, and course hours, content, and exams must meet the commission's requirements. Your revenue comes from tuition and CE fees, and your moat is state approval, instructor credibility, and a curriculum that actually helps students pass the licensing exam.",
+  "dailyReality": "Most of the work is unglamorous compliance and content. You spend time building or licensing approved curriculum, submitting and renewing course approvals with the state commission, scheduling classes (in person, livestream, or self-paced online), and supporting students who are anxious about the exam. When you teach, you are explaining contracts, agency, finance, fair housing, and state law in a way that sticks — and your reputation rises or falls on your students' pass rates. Between cohorts you market to brokerages and prospective agents, manage your learning platform, track CE credits and certificates, and keep meticulous records the commission can audit.",
+  "startupCostsItemized": [
+    { "item": "State real estate school/provider approval and course filing fees", "low": 200, "high": 3000 },
+    { "item": "Approved curriculum (licensed content or in-house development)", "low": 1000, "high": 20000 },
+    { "item": "Learning management system / online course platform", "low": 500, "high": 6000, "annual": true },
+    { "item": "Classroom space or livestream/recording setup", "low": 0, "high": 12000, "annual": true, "optional": true },
+    { "item": "Instructor approval, fees, and instructor pay", "low": 0, "high": 8000 },
+    { "item": "Surety bond / liability insurance (where required)", "low": 300, "high": 2000, "annual": true },
+    { "item": "Website, enrollment, and certificate/CE-reporting system", "low": 500, "high": 5000 },
+    { "item": "Marketing to prospective agents and brokerages", "low": 500, "high": 6000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Pre-licensing tuition commonly runs $150 to $600+ per student depending on state and format, and CE courses are often $20 to $100 each. A first-year school building approval and reputation might enroll a modest number of students and net anywhere from a loss to roughly $20,000, with little income during the long approval and setup phase.",
+    "experienced": "An established school with state approval, a steady local reputation, and both pre-licensing and CE offerings commonly nets $40,000 to $120,000 a year. Self-paced online courses scale far better than in-person classes because you can sell the same content repeatedly with low marginal cost.",
+    "topEarners": "Multi-state or large online providers gross into the millions by selling at volume nationally, bundling exam prep, and partnering with brokerages, but reaching that requires approval in many states, serious content and platform investment, and real marketing budgets. Most independent schools operate locally and never approach that scale.",
+    "whatAffectsMost": "Exam pass rates and reputation drive enrollment more than anything, followed by format (scalable online versus capped in-person) and brokerage partnerships that funnel new agents to you. State approval is a prerequisite, not a differentiator.",
+    "perHour": "Heavy upfront approval and content work makes early blended hourly pay modest — often $20 to $50 per hour of total effort. Once curriculum and approvals are in place and online courses sell on autopilot, effective hourly earnings improve substantially."
+  },
+  "howToStart": [
+    "Months 1-2: Contact your state real estate commission and get the exact provider-approval rules — how schools, courses, and instructors are approved, required course hours and content, recordkeeping, and any bond or fee requirements. These rules govern everything, so secure them in writing before spending money.",
+    "Months 2-4: Decide your scope (pre-licensing, CE, or both) and format (classroom, livestream, self-paced online). Develop or license approved curriculum, and submit your school, course, and instructor applications to the commission.",
+    "Months 4-6: Build your learning platform, enrollment, payment, and certificate/CE-reporting systems, and put required insurance or bonding in place. Set tuition by studying what local and national competitors charge.",
+    "Months 5-8: Market to prospective agents and partner with local brokerages that need a reliable training pipeline. Offer a strong first cohort and gather honest pass-rate data and testimonials.",
+    "Months 8-12: Use proven pass rates to win more enrollments and brokerage referrals, add CE to create repeat revenue from existing licensees, and consider self-paced online courses to scale beyond classroom capacity."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Deep, current knowledge of real estate practice and your state's license law",
+      "The ability to teach dense legal and financial material so students actually pass the exam",
+      "Diligence with regulatory compliance, recordkeeping, and course approvals"
+    ],
+    "canLearn": [
+      "The mechanics of state provider and course approval and renewal",
+      "Running a learning management system, enrollment, and CE-credit reporting",
+      "Marketing to prospective agents and building brokerage partnerships"
+    ],
+    "separators": [
+      "High, demonstrable exam pass rates that build word-of-mouth reputation",
+      "A scalable self-paced online course that sells repeatedly with low marginal cost",
+      "Brokerage relationships that consistently funnel new agents into your courses"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Building or marketing courses before securing state provider and course approval, which can void everything they sold",
+    "Underestimating the compliance, recordkeeping, and renewal burden that regulators can audit at any time",
+    "Competing on price against large national online schools instead of competing on pass rates, support, and local reputation",
+    "Assuming being a good agent means being a good instructor — teaching dense law and finance is a separate skill",
+    "Ignoring CE, which is reliable repeat revenue from licensees who must renew on a schedule",
+    "Capping themselves at classroom capacity when a self-paced online course would scale far better"
+  ],
+  "toolsAndEquipment": [
+    { "item": "State-approved curriculum", "note": "Either licensed from a content provider or developed in-house. Without approval it cannot legally be sold for credit.", "low": 1000, "high": 20000 },
+    { "item": "Learning management system (LMS)", "note": "Core for self-paced and online delivery, progress tracking, and exams.", "low": 500, "high": 6000 },
+    { "item": "Certificate and CE-reporting system", "note": "Many states require you to issue certificates and report completions; accuracy here is a compliance issue.", "low": 0, "high": 2000 },
+    { "item": "Recording and livestream setup", "note": "For online or hybrid delivery: camera, mic, lighting, and reliable software.", "low": 300, "high": 4000 },
+    { "item": "Exam-prep question bank", "note": "Strong practice testing improves pass rates, which drives your reputation and enrollment.", "low": 0, "high": 3000 },
+    { "item": "Classroom space", "note": "Only if you teach in person. Rent by the session early rather than leasing year-round.", "low": 0, "high": 12000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Partnerships with local brokerages that need a steady, trusted pipeline of new agents",
+      "Search and local SEO targeting people searching how to get a real estate license in your state",
+      "Pass-rate-driven word of mouth and testimonials from successful graduates",
+      "CE offerings marketed to existing licensees who must renew on a deadline",
+      "Presence at career fairs, community colleges, and agent-recruiting events"
+    ],
+    "whereCustomersAre": "Career changers and aspiring agents preparing for the state exam, plus already-licensed agents who need continuing education to renew — reached through brokerages, online search, and local professional networks. Brokerage partnerships and CE renewals are the most reliable repeat channels.",
+    "timeToClientBase": "Because approval and reputation take time, expect several months before steady enrollment, and one to two years to build a reliable local base and brokerage relationships.",
+    "wasteOfTime": "Broad, untargeted advertising rarely works, and trying to outspend national online schools on ads is a losing game early. Pass rates, local trust, and brokerage referrals convert far better than generic marketing."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, especially by adding self-paced online courses and CE that sell repeatedly with low marginal cost, plus brokerage partnerships that supply steady enrollment. In-person-only schools are capped by classroom capacity and instructor time.",
+    "hireAndStepBack": "Possible. With approved curriculum, approved instructors, and an online platform, you can hire instructors and staff and step back from daily teaching, though you remain responsible for compliance and approvals.",
+    "sellable": "Established schools with state approvals, proven curriculum, recurring CE revenue, and brokerage relationships have genuine sale value, and approved course libraries are themselves valuable assets. A school that depends entirely on the founder teaching is harder to sell.",
+    "whatScalingRequires": "Approvals in each state you serve, a robust online platform, a maintained and updated approved curriculum, additional approved instructors, and marketing that competes on outcomes. Expanding to new states multiplies the regulatory work each time."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are an experienced licensed agent or broker who knows your state's law cold",
+      "You genuinely enjoy teaching and can make dense material understandable",
+      "You are comfortable with regulation, compliance, and meticulous recordkeeping",
+      "You can absorb a long approval and setup period before meaningful income"
+    ],
+    "poorFit": [
+      "You have no real estate background or current knowledge of license law",
+      "You dislike paperwork, regulation, and ongoing compliance",
+      "You want fast or low-effort income from day one",
+      "You are unwilling to compete on quality against well-funded national online schools"
+    ],
+    "askYourself": [
+      "Have I confirmed my state's exact provider, course, and instructor approval requirements?",
+      "Can I realistically achieve strong exam pass rates and prove it to prospective students?",
+      "Do I have a plan to compete with national online schools — on pass rates, support, format, or brokerage partnerships?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need state approval to run a real estate school?",
+      "answer": "In nearly every state, yes — your school is regulated by the state real estate commission, and typically the school, each course, and often each instructor must be approved before you can offer credit toward licensing or CE. Requirements, fees, course hours, and recordkeeping rules vary significantly by state, so confirm yours before developing or selling anything."
+    },
+    {
+      "question": "What is the difference between pre-licensing and continuing education?",
+      "answer": "Pre-licensing courses prepare new agents for the state licensing exam and are a one-time purchase per student. Continuing education (CE) is the ongoing coursework licensed agents must complete to renew, which makes it reliable repeat revenue. Many successful schools offer both: pre-licensing to attract new agents and CE to keep earning from them over time."
+    },
+    {
+      "question": "Do I need to be a licensed agent to start one?",
+      "answer": "Many states require school owners or instructors to hold relevant licensure or qualifications, and even where they do not, deep real estate knowledge is essential to teach credibly and meet approval standards. In practice, the strongest schools are run by experienced agents or brokers who know the law and the exam well. Check your state's specific instructor requirements."
+    },
+    {
+      "question": "How much can I charge for courses?",
+      "answer": "Pre-licensing tuition commonly ranges from about $150 to $600 or more depending on state hour requirements and format, and individual CE courses often run $20 to $100. National online schools compete heavily on price, so independent schools usually justify their pricing with higher pass rates, better support, or local reputation rather than being the cheapest."
+    },
+    {
+      "question": "Can I run the school entirely online?",
+      "answer": "Often yes, and self-paced online delivery scales far better than in-person classes because you sell the same content repeatedly. However, many states have specific rules about online course approval, time tracking, and exam proctoring, and you compete directly with established national platforms online. Confirm your state's online-delivery requirements during approval."
+    },
+    {
+      "question": "How long before the school makes money?",
+      "answer": "Realistically four months to a year, because state approval, curriculum development, and reputation-building all take time before enrollment becomes steady. Income is slow at first and accelerates once approvals are in place, pass rates are proven, and online courses or CE start generating repeat revenue."
+    },
+    {
+      "question": "How do I compete with big national online schools?",
+      "answer": "Rarely on price — they have scale you cannot match early. Independent schools win on demonstrable exam pass rates, personal instruction and support, local credibility, and brokerage partnerships that funnel new agents to a trusted local provider. Specializing locally and proving outcomes is more durable than racing to the bottom on tuition."
+    }
+  ],
+  "similarBusinesses": [
+    "real-estate-agent-business",
+    "tutoring-business",
+    "online-course-business",
+    "test-prep-business"
+  ],
+  "dataSources": [
+    "State real estate commission rules for school, course, and instructor approval and CE requirements",
+    "Association of Real Estate License Law Officials (ARELLO) — provider and education standards",
+    "U.S. Bureau of Labor Statistics — Real Estate Brokers and Sales Agents, and adult education data",
+    "Real estate education provider pricing benchmarks and school-operator interviews"
+  ],
+  "lastReviewed": "2026-06"
+}
