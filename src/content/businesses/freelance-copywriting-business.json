@@ -14,22 +14,69 @@
   "biggestRisk": "Running out of money or patience before you build a reliable pipeline of clients who pay professional rates",
   "speedToIncome": "weeks",
   "minWeeklyHours": 10,
-  "skills": ["writing", "sales"],
-  "workLocations": ["home", "online", "flexible"],
-  "priorities": ["flexibility", "alongside-job", "max-income"],
+  "skills": [
+    "writing",
+    "sales"
+  ],
+  "workLocations": [
+    "home",
+    "online",
+    "flexible"
+  ],
+  "priorities": [
+    "flexibility",
+    "alongside-job",
+    "max-income"
+  ],
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": true,
   "whatItIs": "A freelance copywriting business sells writing that is meant to drive an action — website pages, email sequences, sales pages, landing pages, product descriptions, ads, and increasingly content that supports search and conversion. Unlike journalism or blogging for its own sake, copywriting is paid because it helps a business sell something, so clients judge you on results, not prose. It is almost entirely online: you find clients on platforms or through outreach, deliver in Google Docs, and get paid by invoice or platform escrow.",
   "dailyReality": "A working week is rarely all writing. Expect to spend a large share of your time on the business of getting work — sending proposals, replying to leads, doing intake calls, and following up on invoices — and the rest on actual writing, revisions, and research about the client's product and audience. Early on, the ratio is brutal: you might spend ten hours hunting for one $300 project. Established writers flip this, spending most of their time writing for repeat clients and retainers and only a few hours a week on business development.",
   "startupCostsItemized": [
-    { "item": "Laptop and reliable internet", "low": 0, "high": 0, "optional": true },
-    { "item": "Portfolio site (Carrd, Ghost, or simple WordPress)", "low": 0, "high": 200, "annual": true },
-    { "item": "Upwork / Contra / platform fees and Connects", "low": 0, "high": 150 },
-    { "item": "Grammarly or editing tool", "low": 0, "high": 144, "annual": true, "optional": true },
-    { "item": "A copywriting course or book (optional but common)", "low": 0, "high": 500, "optional": true },
-    { "item": "Business registration / LLC", "low": 0, "high": 300, "optional": true },
-    { "item": "Invoicing and accounting tool (Wave is free, others paid)", "low": 0, "high": 200, "annual": true, "optional": true }
+    {
+      "item": "Laptop and reliable internet",
+      "low": 0,
+      "high": 0,
+      "optional": true
+    },
+    {
+      "item": "Portfolio site (Carrd, Ghost, or simple WordPress)",
+      "low": 0,
+      "high": 200,
+      "annual": true
+    },
+    {
+      "item": "Upwork / Contra / platform fees and Connects",
+      "low": 0,
+      "high": 150
+    },
+    {
+      "item": "Grammarly or editing tool",
+      "low": 0,
+      "high": 144,
+      "annual": true,
+      "optional": true
+    },
+    {
+      "item": "A copywriting course or book (optional but common)",
+      "low": 0,
+      "high": 500,
+      "optional": true
+    },
+    {
+      "item": "Business registration / LLC",
+      "low": 0,
+      "high": 300,
+      "optional": true
+    },
+    {
+      "item": "Invoicing and accounting tool (Wave is free, others paid)",
+      "low": 0,
+      "high": 200,
+      "annual": true,
+      "optional": true
+    }
   ],
   "realEarnings": {
     "yearOne": "Income in year one is uneven and often disappointing. Many beginners earn $500 to $2,500 per month part-time, and some months are near zero while they figure out positioning and outreach. Writers who treat it like a job and send consistent outreach can reach $2,000 to $4,000 per month within several months, but it rarely arrives in a smooth line.",
@@ -71,12 +118,40 @@
     "Ignoring how AI has compressed the low end of the market instead of moving toward strategy and high-stakes copy AI cannot reliably do"
   ],
   "toolsAndEquipment": [
-    { "item": "A laptop you already own", "note": "No specialized hardware needed; any reliable computer works." },
-    { "item": "Portfolio site (Carrd, Ghost, WordPress)", "note": "A simple, niche-focused page beats an elaborate one. This is your storefront.", "low": 0, "high": 200 },
-    { "item": "Platform profile (Upwork, Contra)", "note": "Useful to land early clients and reviews, but plan to outgrow the marketplace.", "low": 0, "high": 150 },
-    { "item": "Editing tool (Grammarly, Hemingway)", "note": "Helpful for polish, not a substitute for skill.", "low": 0, "high": 144 },
-    { "item": "Invoicing and accounting (Wave, FreshBooks)", "note": "Track income for taxes from day one; Wave is free.", "low": 0, "high": 200 },
-    { "item": "AI tools (ChatGPT, Claude)", "note": "Use for research, outlines, and speed — but selling raw AI output as your copy is how you lose clients.", "low": 0, "high": 240 }
+    {
+      "item": "A laptop you already own",
+      "note": "No specialized hardware needed; any reliable computer works."
+    },
+    {
+      "item": "Portfolio site (Carrd, Ghost, WordPress)",
+      "note": "A simple, niche-focused page beats an elaborate one. This is your storefront.",
+      "low": 0,
+      "high": 200
+    },
+    {
+      "item": "Platform profile (Upwork, Contra)",
+      "note": "Useful to land early clients and reviews, but plan to outgrow the marketplace.",
+      "low": 0,
+      "high": 150
+    },
+    {
+      "item": "Editing tool (Grammarly, Hemingway)",
+      "note": "Helpful for polish, not a substitute for skill.",
+      "low": 0,
+      "high": 144
+    },
+    {
+      "item": "Invoicing and accounting (Wave, FreshBooks)",
+      "note": "Track income for taxes from day one; Wave is free.",
+      "low": 0,
+      "high": 200
+    },
+    {
+      "item": "AI tools (ChatGPT, Claude)",
+      "note": "Use for research, outlines, and speed — but selling raw AI output as your copy is how you lose clients.",
+      "low": 0,
+      "high": 240
+    }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -157,5 +232,144 @@
     "Industry rate surveys (ProBlogger, Clearvoice, and copywriting community reports)",
     "Freelance writer communities and operator interviews (r/freelanceWriters, copywriting forums) for real-world pricing and earnings"
   ],
-  "lastReviewed": "2026-06"
+  "lastReviewed": "2026-06",
+  "keyMetrics": [
+    {
+      "value": "$0.10–$1.00/word",
+      "label": "Range by niche & skill"
+    },
+    {
+      "value": "$75–$200+/hr",
+      "label": "Effective rate (experienced)"
+    },
+    {
+      "value": "$1,500–$8,000",
+      "label": "Typical project / retainer"
+    },
+    {
+      "value": "90%+",
+      "label": "Margin",
+      "note": "Almost no cost of goods"
+    },
+    {
+      "value": "3–6 mo",
+      "label": "To a steady client base"
+    }
+  ],
+  "revenueModel": {
+    "intro": "Copywriting income is rate × volume, and the jump in earnings comes from moving off per-word pricing to per-project and monthly retainers. Overhead is near zero, so almost everything after taxes is profit.",
+    "pricePoints": [
+      {
+        "service": "Blog post / article (1,000–1,500 wds)",
+        "price": "$150–$800"
+      },
+      {
+        "service": "Landing / sales page",
+        "price": "$800–$4,000",
+        "note": "Conversion copy pays most"
+      },
+      {
+        "service": "Email sequence (5–7 emails)",
+        "price": "$1,000–$3,500"
+      },
+      {
+        "service": "Monthly retainer",
+        "price": "$1,500–$8,000/mo",
+        "note": "The stability goal"
+      }
+    ],
+    "mathExample": "Two retainers at $2,500/month plus a couple of one-off projects can put an experienced writer at $6,000–$8,000/month on ~25–30 focused hours a week. Beginners charging per word on content mills often net under $2,000 for far more hours.",
+    "volumeToTarget": "Reaching a stable $8,000/month usually means 3–4 anchor retainer clients (or the equivalent in recurring project work) — a business-development problem more than a writing one."
+  },
+  "monthlyOperating": [
+    {
+      "item": "Software (docs, Grammarly, SEO tools)",
+      "low": 20,
+      "high": 120
+    },
+    {
+      "item": "Website & hosting",
+      "low": 10,
+      "high": 40
+    },
+    {
+      "item": "Outreach tools (email, LinkedIn)",
+      "low": 0,
+      "high": 150
+    },
+    {
+      "item": "Tax set-aside",
+      "low": 0,
+      "high": 0,
+      "note": "Reserve ~25–30% for self-employment tax"
+    },
+    {
+      "item": "Subcontractors (when scaling)",
+      "low": 0,
+      "high": 2000,
+      "note": "Optional"
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Beginner / side income",
+      "revenue": "$500–$2,000/mo",
+      "profit": "$450–$1,800/mo",
+      "hours": "8–15 hrs/wk",
+      "summary": "A few clients from marketplaces and referrals while learning the craft and a niche. Per-word rates keep it low at first."
+    },
+    {
+      "label": "Full-time freelancer",
+      "revenue": "$5,000–$8,000/mo",
+      "profit": "$4,500–$7,200/mo",
+      "hours": "25–35 hrs/wk",
+      "summary": "A niche, a portfolio, and 2–3 retainers. Effective hourly rate climbs sharply once you stop selling words."
+    },
+    {
+      "label": "Studio of one + subs",
+      "revenue": "$10k–$20k/mo",
+      "profit": "$6,000–$12,000/mo",
+      "hours": "selling + editing",
+      "summary": "You land and manage the work, subcontract overflow, and keep strategy and editing. Now it is an agency."
+    }
+  ],
+  "timeline": [
+    {
+      "period": "Weeks 1–4",
+      "milestone": "Pick a niche, build 3–5 spec samples and a simple site, and set up profiles and outreach.",
+      "income": "$0–$500"
+    },
+    {
+      "period": "Months 2–4",
+      "milestone": "First paid gigs; deliver well, collect testimonials, and raise rates off the floor.",
+      "income": "$500–$2,500/mo"
+    },
+    {
+      "period": "Months 4–9",
+      "milestone": "Convert one-offs into retainers; niche reputation brings inbound referrals.",
+      "income": "$2,500–$6,000/mo"
+    },
+    {
+      "period": "Months 9–18",
+      "milestone": "Hold 3–4 anchor retainers; consider subcontracting overflow.",
+      "income": "$5,000–$8,000/mo"
+    }
+  ],
+  "regionalVariation": {
+    "summary": "Copywriting is location-independent — you can serve clients anywhere — so your rates track your clients' industry and country, not your own city. Living in a low-cost area while serving US/EU clients is a common edge.",
+    "markets": [
+      {
+        "area": "US/UK/EU B2B & SaaS clients",
+        "note": "Highest budgets; conversion and technical copy pay most."
+      },
+      {
+        "area": "Local small business",
+        "note": "Lower budgets but easier to land early; good for a portfolio."
+      },
+      {
+        "area": "Content marketplaces",
+        "note": "Fast to start, race-to-the-bottom rates; use only as a launchpad."
+      }
+    ]
+  }
 }

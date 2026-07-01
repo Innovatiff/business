@@ -14,24 +14,73 @@
   "biggestRisk": "Underestimating the years of training and licensing required, or attempting work without the EPA and state credentials, which is illegal and uninsurable",
   "speedToIncome": "long",
   "minWeeklyHours": 40,
-  "skills": ["hands", "tech"],
-  "workLocations": ["mobile"],
-  "priorities": ["max-income", "sellable", "low-risk"],
+  "skills": [
+    "hands",
+    "tech"
+  ],
+  "workLocations": [
+    "mobile"
+  ],
+  "priorities": [
+    "max-income",
+    "sellable",
+    "low-risk"
+  ],
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": true,
   "whatItIs": "An HVAC (heating, ventilation, and air conditioning) business installs, repairs, and maintains the climate-control systems in homes and commercial buildings: furnaces, air conditioners, heat pumps, ductwork, thermostats, and refrigeration. This is a genuine skilled trade, not a side hustle you start next week. To do the work legally you need an EPA Section 608 certification to handle refrigerants, almost always a state or local HVAC contractor or journeyman/master license, and in practice the real-world skill that only comes from an apprenticeship, trade school, or years on the job. The reason it commands high earnings is precisely that the barrier to entry is high — the credential and competence are the moat. Demand is strong and growing, the work is recession-resistant (broken heat and AC are not optional), and the equipment, refrigerants, and codes are complex enough that customers cannot DIY their way around you.",
   "dailyReality": "A typical day for an established contractor is a mix of service calls and installs: diagnosing why a system is not cooling, recovering and recharging refrigerant, replacing compressors or capacitors, brazing line sets, sizing and installing new systems, and pulling permits. Summer and winter bring brutal peak-season hours and emergency calls — the busiest, most profitable, and most exhausting times of year. You will work in attics, crawlspaces, rooftops, and mechanical rooms in extreme heat and cold. Around the technical work there is significant quoting, permitting, parts ordering, dealing with distributors, and managing warranties and manufacturer rebates. As an owner you also juggle estimating, scheduling, and increasingly, managing techs.",
   "startupCostsItemized": [
-    { "item": "EPA Section 608 certification", "low": 20, "high": 150 },
-    { "item": "Trade school or apprenticeship (tuition; many apprenticeships are paid)", "low": 0, "high": 15000, "optional": true },
-    { "item": "State/local HVAC contractor license, exam, and bonding", "low": 200, "high": 2000 },
-    { "item": "Specialty tools (gauges, recovery machine, vacuum pump, manifold, meters, brazing kit)", "low": 2000, "high": 8000 },
-    { "item": "Service van and basic outfitting", "low": 3000, "high": 25000 },
-    { "item": "General liability + commercial auto insurance, surety bond", "low": 2000, "high": 6000, "annual": true },
-    { "item": "Initial parts/refrigerant inventory float", "low": 1000, "high": 4000 },
-    { "item": "Software (dispatch, invoicing, CRM like ServiceTitan or Housecall Pro)", "low": 600, "high": 4000, "annual": true, "optional": true },
-    { "item": "Business registration / LLC and marketing setup", "low": 200, "high": 1500 }
+    {
+      "item": "EPA Section 608 certification",
+      "low": 20,
+      "high": 150
+    },
+    {
+      "item": "Trade school or apprenticeship (tuition; many apprenticeships are paid)",
+      "low": 0,
+      "high": 15000,
+      "optional": true
+    },
+    {
+      "item": "State/local HVAC contractor license, exam, and bonding",
+      "low": 200,
+      "high": 2000
+    },
+    {
+      "item": "Specialty tools (gauges, recovery machine, vacuum pump, manifold, meters, brazing kit)",
+      "low": 2000,
+      "high": 8000
+    },
+    {
+      "item": "Service van and basic outfitting",
+      "low": 3000,
+      "high": 25000
+    },
+    {
+      "item": "General liability + commercial auto insurance, surety bond",
+      "low": 2000,
+      "high": 6000,
+      "annual": true
+    },
+    {
+      "item": "Initial parts/refrigerant inventory float",
+      "low": 1000,
+      "high": 4000
+    },
+    {
+      "item": "Software (dispatch, invoicing, CRM like ServiceTitan or Housecall Pro)",
+      "low": 600,
+      "high": 4000,
+      "annual": true,
+      "optional": true
+    },
+    {
+      "item": "Business registration / LLC and marketing setup",
+      "low": 200,
+      "high": 1500
+    }
   ],
   "realEarnings": {
     "yearOne": "This is the field where 'year one' is misleading because year one is usually training, not earning as an owner. As a working technician, wages commonly run $40,000 to $65,000 per year ($3,300 to $5,400 per month). A brand-new solo contractor who just got licensed and is building a book often clears $6,000 to $9,000 per month once steady, but the first months can be lean while you find customers.",
@@ -75,13 +124,48 @@
     "Trying to scale too fast before they can reliably hire and retain licensed technicians, which is the binding constraint in this trade"
   ],
   "toolsAndEquipment": [
-    { "item": "Refrigerant gauges / digital manifold and probes", "note": "Core diagnostic gear; digital probes speed up and improve accuracy.", "low": 200, "high": 1200 },
-    { "item": "Refrigerant recovery machine and recovery tanks", "note": "Required to legally and properly handle refrigerant during service.", "low": 300, "high": 1500 },
-    { "item": "Vacuum pump and micron gauge", "note": "Essential for proper evacuation; skipping this causes early system failures.", "low": 200, "high": 800 },
-    { "item": "Brazing/torch kit and nitrogen", "note": "For joining line sets correctly and pressure-testing.", "low": 200, "high": 800 },
-    { "item": "Electrical meters, clamp meter, combustion analyzer", "note": "For diagnostics and gas-furnace safety testing.", "low": 200, "high": 1500 },
-    { "item": "Service van and outfitting", "note": "Your mobile shop. Reliability matters because peak-season downtime is costly.", "low": 3000, "high": 25000 },
-    { "item": "Dispatch/CRM software (ServiceTitan, Housecall Pro)", "note": "Pays off once you have volume or multiple techs; overkill for a brand-new solo.", "low": 600, "high": 4000 }
+    {
+      "item": "Refrigerant gauges / digital manifold and probes",
+      "note": "Core diagnostic gear; digital probes speed up and improve accuracy.",
+      "low": 200,
+      "high": 1200
+    },
+    {
+      "item": "Refrigerant recovery machine and recovery tanks",
+      "note": "Required to legally and properly handle refrigerant during service.",
+      "low": 300,
+      "high": 1500
+    },
+    {
+      "item": "Vacuum pump and micron gauge",
+      "note": "Essential for proper evacuation; skipping this causes early system failures.",
+      "low": 200,
+      "high": 800
+    },
+    {
+      "item": "Brazing/torch kit and nitrogen",
+      "note": "For joining line sets correctly and pressure-testing.",
+      "low": 200,
+      "high": 800
+    },
+    {
+      "item": "Electrical meters, clamp meter, combustion analyzer",
+      "note": "For diagnostics and gas-furnace safety testing.",
+      "low": 200,
+      "high": 1500
+    },
+    {
+      "item": "Service van and outfitting",
+      "note": "Your mobile shop. Reliability matters because peak-season downtime is costly.",
+      "low": 3000,
+      "high": 25000
+    },
+    {
+      "item": "Dispatch/CRM software (ServiceTitan, Housecall Pro)",
+      "note": "Pays off once you have volume or multiple techs; overkill for a brand-new solo.",
+      "low": 600,
+      "high": 4000
+    }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -163,5 +247,143 @@
     "ACCA (Air Conditioning Contractors of America) and industry reports on service pricing and maintenance agreements",
     "Operator and trade communities (r/HVAC, contractor forums) for real-world pricing, earnings, and hiring realities"
   ],
-  "lastReviewed": "2026-06"
+  "lastReviewed": "2026-06",
+  "keyMetrics": [
+    {
+      "value": "$90–$180/hr",
+      "label": "Billed labor rate"
+    },
+    {
+      "value": "$5,000–$12,000+",
+      "label": "System replacement ticket"
+    },
+    {
+      "value": "40–55%",
+      "label": "Gross margin on service"
+    },
+    {
+      "value": "$200–$450",
+      "label": "Avg service-call ticket"
+    },
+    {
+      "value": "EPA 608",
+      "label": "Required refrigerant cert"
+    }
+  ],
+  "revenueModel": {
+    "intro": "HVAC income is a blend of high-volume service calls, seasonal maintenance agreements (recurring), and high-ticket installs. Maintenance contracts smooth the seasonality and feed replacement work.",
+    "pricePoints": [
+      {
+        "service": "Diagnostic / service call",
+        "price": "$90–$200"
+      },
+      {
+        "service": "Repair (parts + labor)",
+        "price": "$200–$1,200"
+      },
+      {
+        "service": "Maintenance agreement",
+        "price": "$150–$400/yr",
+        "note": "Recurring; builds the base"
+      },
+      {
+        "service": "System replacement / install",
+        "price": "$5,000–$12,000+",
+        "note": "The profit driver"
+      }
+    ],
+    "mathExample": "A solo licensed tech billing 6 calls a day at a $350 average, plus a couple of installs a month, can gross $30,000–$45,000/month in peak season. Parts, fuel, insurance, and a helper bring owner take to roughly 25–40%.",
+    "volumeToTarget": "Clearing $25,000/month in owner profit generally means 2–4 trucks running service plus a steady install pipeline and a book of maintenance agreements."
+  },
+  "monthlyOperating": [
+    {
+      "item": "Labor (techs / helpers)",
+      "low": 0,
+      "high": 16000,
+      "note": "$0 if solo"
+    },
+    {
+      "item": "Truck, fuel, tools",
+      "low": 600,
+      "high": 2500
+    },
+    {
+      "item": "Insurance, license, bond",
+      "low": 300,
+      "high": 1200
+    },
+    {
+      "item": "Parts / equipment (COGS)",
+      "low": 2000,
+      "high": 12000,
+      "note": "Scales with jobs"
+    },
+    {
+      "item": "Software, marketing, office",
+      "low": 300,
+      "high": 1500
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Solo licensed tech",
+      "revenue": "$12k–$25k/mo (seasonal)",
+      "profit": "$6,000–$12,000/mo",
+      "hours": "45–60 hrs peak",
+      "summary": "One truck, service and small installs. Strong income but capped by your hours and on-call load."
+    },
+    {
+      "label": "2–3 truck shop",
+      "revenue": "$40k–$90k/mo",
+      "profit": "$10,000–$20,000/mo",
+      "hours": "managing + selling",
+      "summary": "Techs on service, you on installs, sales, and dispatch. Maintenance agreements smooth winter."
+    },
+    {
+      "label": "Established contractor",
+      "revenue": "$100k–$300k/mo",
+      "profit": "$18,000–$25,000+/mo owner",
+      "hours": "running the business",
+      "summary": "Multiple crews, install-heavy, a real office. Genuinely sellable as an asset."
+    }
+  ],
+  "timeline": [
+    {
+      "period": "Before launch",
+      "milestone": "Get licensed (often years of apprenticeship), EPA 608 certified, insured, and bonded. This is the real barrier.",
+      "income": "$0 (prerequisite)"
+    },
+    {
+      "period": "Months 0–6",
+      "milestone": "One truck, register the business, tool up, and win first jobs from your network and emergency calls.",
+      "income": "$6,000–$14,000/mo (seasonal)"
+    },
+    {
+      "period": "Months 6–24",
+      "milestone": "Build maintenance agreements and reviews; add a helper, then a second truck.",
+      "income": "$8,000–$18,000/mo"
+    },
+    {
+      "period": "Year 2+",
+      "milestone": "Multiple crews, an install pipeline, office/dispatch; owner steps out of the field.",
+      "income": "$15,000–$25,000+/mo"
+    }
+  ],
+  "regionalVariation": {
+    "summary": "Climate and housing age drive demand. Hot/humid and cold regions run longer, more intense seasons; older housing stock means more replacements. Licensing rules vary sharply by state.",
+    "markets": [
+      {
+        "area": "Sun Belt",
+        "note": "Long cooling season and heavy AC replacement demand."
+      },
+      {
+        "area": "Cold North",
+        "note": "Heating-driven; furnace/boiler work and emergency winter calls."
+      },
+      {
+        "area": "Older housing markets",
+        "note": "More aging systems means more high-ticket replacements."
+      }
+    ]
+  }
 }

@@ -1,0 +1,83 @@
+---
+/**
+ * A realistic month-by-month (or stage-by-stage) ramp: what happens when, and
+ * the income you can realistically expect at each stage.
+ */
+import type { CollectionEntry } from 'astro:content';
+export interface Props {
+  steps: NonNullable<CollectionEntry<'businesses'>['data']['timeline']>;
+}
+const { steps } = Astro.props;
+---
+
+<ol class="timeline">
+  {steps.map((s) => (
+    <li class="tl-item">
+      <div class="tl-marker" aria-hidden="true"></div>
+      <div class="tl-body">
+        <div class="tl-head">
+          <span class="tl-period">{s.period}</span>
+          {s.income && <span class="tl-income figure">{s.income}</span>}
+        </div>
+        <p class="tl-milestone">{s.milestone}</p>
+      </div>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    bottom: 6px;
+    width: 2px;
+    background: var(--accent-soft, var(--border));
+  }
+  .tl-item {
+    position: relative;
+    padding: 0 0 1.25rem 2rem;
+    margin: 0;
+  }
+  .tl-item:last-child {
+    padding-bottom: 0;
+  }
+  .tl-marker {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    background: #fff;
+    border: 3px solid var(--accent, var(--navy));
+  }
+  .tl-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .tl-period {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--navy);
+  }
+  .tl-income {
+    font-weight: 700;
+    color: var(--accent-dark, var(--green-dark));
+    font-size: 0.92rem;
+  }
+  .tl-milestone {
+    margin: 0.2rem 0 0;
+    color: var(--slate);
+  }
+</style>

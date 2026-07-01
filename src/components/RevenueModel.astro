@@ -1,0 +1,120 @@
+---
+/**
+ * How the money actually adds up: real price points plus the arithmetic that
+ * turns them into a monthly number, and the volume needed to hit a target.
+ */
+import type { CollectionEntry } from 'astro:content';
+export interface Props {
+  model: NonNullable<CollectionEntry<'businesses'>['data']['revenueModel']>;
+}
+const { model } = Astro.props;
+---
+
+<div class="revmodel">
+  {model.intro && <p class="revmodel-intro">{model.intro}</p>}
+
+  {model.pricePoints.length > 0 && (
+    <div class="revmodel-prices">
+      <span class="revmodel-caption">Typical price points</span>
+      <ul class="price-list">
+        {model.pricePoints.map((p) => (
+          <li class="price-row">
+            <span class="price-service">{p.service}</span>
+            <span class="price-dots" aria-hidden="true"></span>
+            <span class="price-amount figure">{p.price}</span>
+            {p.note && <span class="price-note">{p.note}</span>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+
+  {(model.mathExample || model.volumeToTarget) && (
+    <div class="revmodel-math">
+      {model.mathExample && (
+        <div class="math-block">
+          <span class="revmodel-caption">The math</span>
+          <p>{model.mathExample}</p>
+        </div>
+      )}
+      {model.volumeToTarget && (
+        <div class="math-block">
+          <span class="revmodel-caption">Volume to hit the target</span>
+          <p>{model.volumeToTarget}</p>
+        </div>
+      )}
+    </div>
+  )}
+</div>
+
+<style>
+  .revmodel {
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent, var(--navy));
+    border-radius: var(--radius);
+    background: #fff;
+    padding: 1.35rem 1.5rem;
+  }
+  .revmodel-intro {
+    margin: 0 0 1rem;
+    color: var(--slate);
+  }
+  .revmodel-caption {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-weight: 700;
+    margin-bottom: 0.55rem;
+  }
+  .price-list {
+    list-style: none;
+    margin: 0 0 0.5rem;
+    padding: 0;
+  }
+  .price-row {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed var(--border);
+  }
+  .price-service {
+    font-weight: 600;
+    color: var(--navy);
+  }
+  .price-dots {
+    border-bottom: 1px dotted var(--border);
+    transform: translateY(-3px);
+  }
+  .price-amount {
+    font-weight: 800;
+    color: var(--accent-dark, var(--navy));
+    white-space: nowrap;
+  }
+  .price-note {
+    grid-column: 1 / -1;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: -0.15rem;
+  }
+  .revmodel-math {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.1rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid var(--border);
+  }
+  .math-block p {
+    margin: 0;
+    color: var(--slate);
+  }
+  @media (min-width: 640px) {
+    .revmodel-math {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>

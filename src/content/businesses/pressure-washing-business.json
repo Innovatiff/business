@@ -14,23 +14,71 @@
   "biggestRisk": "Underpricing jobs and burning out before building a reliable client base",
   "speedToIncome": "weeks",
   "minWeeklyHours": 8,
-  "skills": ["hands", "people", "sales"],
-  "workLocations": ["mobile", "home"],
-  "priorities": ["low-risk", "flexibility", "alongside-job", "sellable"],
+  "skills": [
+    "hands",
+    "people",
+    "sales"
+  ],
+  "workLocations": [
+    "mobile",
+    "home"
+  ],
+  "priorities": [
+    "low-risk",
+    "flexibility",
+    "alongside-job",
+    "sellable"
+  ],
   "noExperienceRequired": true,
   "partTimeFriendly": true,
   "featured": true,
   "whatItIs": "A pressure washing business cleans exterior surfaces — driveways, decks, siding, roofs, patios, and commercial properties — using high-pressure water equipment and, increasingly, lower-pressure 'soft washing' with cleaning solutions. It is one of the most accessible service businesses because startup costs are low, no specialized license is required in most areas, and demand is consistent for most of the year in much of the country.",
   "dailyReality": "A typical day means loading equipment, driving to one to three job sites, setting up hoses and surface cleaners, and washing for two to six hours per job. You will be on your feet, often in heat or cold, handling a machine and managing water runoff. Around the cleaning itself, expect 30 to 60 minutes most days on quoting, scheduling, messaging customers, and collecting payment. Weekend and early-morning work is common because that is when residential customers are home and want the work done.",
   "startupCostsItemized": [
-    { "item": "Pressure washer — entry level (consumer/prosumer gas)", "low": 300, "high": 800 },
-    { "item": "Pressure washer — professional grade", "low": 1500, "high": 4000, "optional": true },
-    { "item": "Surface cleaner attachment, hoses, nozzles, wand", "low": 100, "high": 400 },
-    { "item": "Cleaning chemicals (sodium hypochlorite, surfactants, degreaser)", "low": 50, "high": 200 },
-    { "item": "General liability insurance", "low": 400, "high": 1200, "annual": true },
-    { "item": "Business registration / LLC", "low": 50, "high": 300 },
-    { "item": "Google Business Profile + simple website", "low": 0, "high": 300, "optional": true },
-    { "item": "Initial flyers, yard signs, magnets", "low": 0, "high": 200, "optional": true }
+    {
+      "item": "Pressure washer — entry level (consumer/prosumer gas)",
+      "low": 300,
+      "high": 800
+    },
+    {
+      "item": "Pressure washer — professional grade",
+      "low": 1500,
+      "high": 4000,
+      "optional": true
+    },
+    {
+      "item": "Surface cleaner attachment, hoses, nozzles, wand",
+      "low": 100,
+      "high": 400
+    },
+    {
+      "item": "Cleaning chemicals (sodium hypochlorite, surfactants, degreaser)",
+      "low": 50,
+      "high": 200
+    },
+    {
+      "item": "General liability insurance",
+      "low": 400,
+      "high": 1200,
+      "annual": true
+    },
+    {
+      "item": "Business registration / LLC",
+      "low": 50,
+      "high": 300
+    },
+    {
+      "item": "Google Business Profile + simple website",
+      "low": 0,
+      "high": 300,
+      "optional": true
+    },
+    {
+      "item": "Initial flyers, yard signs, magnets",
+      "low": 0,
+      "high": 200,
+      "optional": true
+    }
   ],
   "realEarnings": {
     "yearOne": "Most operators in their first year earn $1,500 to $4,000 per month working part-time. Solo operators who go full-time and book consistently typically reach $3,000 to $6,000 per month once they have a steady stream of jobs.",
@@ -71,12 +119,42 @@
     "Relying only on word of mouth and building no online presence or review base"
   ],
   "toolsAndEquipment": [
-    { "item": "Gas pressure washer (3,000–4,000 PSI)", "note": "The core tool. A reliable mid-range unit beats the cheapest option that fails on job two.", "low": 300, "high": 1500 },
-    { "item": "Surface cleaner attachment", "note": "Cuts driveway and flatwork time dramatically — buy this early, it pays for itself fast.", "low": 80, "high": 350 },
-    { "item": "Hoses, reel, nozzles, extension wand", "note": "Buy decent hoses; cheap ones kink and burst.", "low": 100, "high": 400 },
-    { "item": "Soft wash / downstream injector setup", "note": "For siding and roofs. Invest here once you take on house washing.", "low": 50, "high": 300 },
-    { "item": "Chemicals and a sprayer", "note": "Buy as you go; do not overstock chemicals that degrade.", "low": 50, "high": 200 },
-    { "item": "Water tank + trailer setup", "note": "Only when you scale or take jobs without water access. Rent or borrow at first.", "low": 0, "high": 4000 }
+    {
+      "item": "Gas pressure washer (3,000–4,000 PSI)",
+      "note": "The core tool. A reliable mid-range unit beats the cheapest option that fails on job two.",
+      "low": 300,
+      "high": 1500
+    },
+    {
+      "item": "Surface cleaner attachment",
+      "note": "Cuts driveway and flatwork time dramatically — buy this early, it pays for itself fast.",
+      "low": 80,
+      "high": 350
+    },
+    {
+      "item": "Hoses, reel, nozzles, extension wand",
+      "note": "Buy decent hoses; cheap ones kink and burst.",
+      "low": 100,
+      "high": 400
+    },
+    {
+      "item": "Soft wash / downstream injector setup",
+      "note": "For siding and roofs. Invest here once you take on house washing.",
+      "low": 50,
+      "high": 300
+    },
+    {
+      "item": "Chemicals and a sprayer",
+      "note": "Buy as you go; do not overstock chemicals that degrade.",
+      "low": 50,
+      "high": 200
+    },
+    {
+      "item": "Water tank + trailer setup",
+      "note": "Only when you scale or take jobs without water access. Rent or borrow at first.",
+      "low": 0,
+      "high": 4000
+    }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -157,5 +235,150 @@
     "Angi / HomeAdvisor — Pressure Washing Cost Guides (reported job pricing ranges)",
     "Operator interviews and industry forums (PressureWashingResource, r/pressurewashing) for real-world pricing and earnings"
   ],
-  "lastReviewed": "2026-06"
+  "lastReviewed": "2026-06",
+  "keyMetrics": [
+    {
+      "value": "$0.10–$0.30/sq ft",
+      "label": "Typical wash rate",
+      "note": "Soft-wash siding higher"
+    },
+    {
+      "value": "60–75%",
+      "label": "Net margin (solo)",
+      "note": "Low material cost, mostly labor"
+    },
+    {
+      "value": "$250–$450",
+      "label": "Average job ticket"
+    },
+    {
+      "value": "3–5 jobs/wk",
+      "label": "To clear ~$2k/mo part-time"
+    },
+    {
+      "value": "1–3 hrs",
+      "label": "Average job time"
+    }
+  ],
+  "revenueModel": {
+    "intro": "Pressure washing is priced per job (or per square foot). Because material cost is tiny, most of every dollar after fuel is margin — the constraint is how many jobs you can book and finish, not what you spend.",
+    "pricePoints": [
+      {
+        "service": "Driveway / concrete (2-car)",
+        "price": "$120–$250"
+      },
+      {
+        "service": "House soft-wash (1-story)",
+        "price": "$250–$450"
+      },
+      {
+        "service": "Deck or fence",
+        "price": "$200–$500",
+        "note": "Sealing upsell adds margin"
+      },
+      {
+        "service": "Commercial flatwork",
+        "price": "$0.08–$0.20/sq ft",
+        "note": "Recurring contracts"
+      }
+    ],
+    "mathExample": "A solo operator doing 4 residential jobs a week at a $300 average grosses about $4,800/month. Fuel, chemicals, and insurance run roughly $600–$900, leaving $3,900–$4,200 before your own taxes.",
+    "volumeToTarget": "To reach $8,000/month you generally need ~8–10 jobs a week (or a mix of homes plus one or two recurring commercial accounts), which usually means a helper or a second wand."
+  },
+  "monthlyOperating": [
+    {
+      "item": "Fuel & vehicle",
+      "low": 200,
+      "high": 500,
+      "note": "Driving between jobs"
+    },
+    {
+      "item": "Chemicals (SH, surfactants)",
+      "low": 60,
+      "high": 200
+    },
+    {
+      "item": "Insurance (general liability)",
+      "low": 50,
+      "high": 120,
+      "note": "~$600–$1,400/yr"
+    },
+    {
+      "item": "Software, booking, phone",
+      "low": 30,
+      "high": 90
+    },
+    {
+      "item": "Marketing (ads, door hangers)",
+      "low": 100,
+      "high": 400,
+      "note": "Higher early on"
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Weekend side hustle",
+      "revenue": "$1,500–$2,500/mo",
+      "profit": "$1,100–$1,900/mo",
+      "hours": "8–12 hrs/wk",
+      "summary": "A few residential jobs on Saturdays with a ~$2k entry setup. Cash-flow positive fast; capped by weekend hours."
+    },
+    {
+      "label": "Full-time solo",
+      "revenue": "$5,000–$8,000/mo",
+      "profit": "$3,800–$6,000/mo",
+      "hours": "35–45 hrs/wk",
+      "summary": "Booked most weekdays, a mix of homes and a couple recurring commercial accounts. The realistic ceiling for one person."
+    },
+    {
+      "label": "Owner + one crew",
+      "revenue": "$14,000–$22,000/mo",
+      "profit": "$6,000–$9,000/mo",
+      "hours": "40 hrs, more selling",
+      "summary": "A second truck and a helper. Per-job margin drops with payroll, but total profit rises and you can step off the wand."
+    }
+  ],
+  "timeline": [
+    {
+      "period": "Week 1–2",
+      "milestone": "Buy or rent a machine, get insured, register the business, and photograph a few discounted jobs for before-afters.",
+      "income": "$0"
+    },
+    {
+      "period": "Weeks 3–6",
+      "milestone": "First paid jobs from neighbors, Facebook groups, and door hangers. Ask every customer for a review.",
+      "income": "$500–$1,500/mo"
+    },
+    {
+      "period": "Months 2–4",
+      "milestone": "Reviews compound; you raise prices and add deck/fence sealing upsells. Weekends fill first.",
+      "income": "$1,500–$4,000/mo"
+    },
+    {
+      "period": "Months 5–12",
+      "milestone": "Land one or two recurring commercial accounts and decide whether to hire and add a second setup.",
+      "income": "$4,000–$8,000/mo"
+    }
+  ],
+  "regionalVariation": {
+    "summary": "Weather and home density drive the numbers more than anything. Warm, humid regions support near year-round work and heavy mildew demand; northern markets are seasonal and often paused December–February.",
+    "markets": [
+      {
+        "area": "Southeast / Gulf",
+        "note": "Longest season and strong soft-wash demand — also the most competition."
+      },
+      {
+        "area": "Northern / Midwest",
+        "note": "6–9 month season; pair with holiday lights or gutter work in winter."
+      },
+      {
+        "area": "Dense suburbs",
+        "note": "Tight routes cut drive time and raise effective hourly pay."
+      },
+      {
+        "area": "Rural",
+        "note": "Higher tickets per job but more windshield time between them."
+      }
+    ]
+  }
 }

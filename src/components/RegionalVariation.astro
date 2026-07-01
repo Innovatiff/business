@@ -1,0 +1,65 @@
+---
+/**
+ * How the numbers shift by market — because the same business earns very
+ * differently in a big metro vs. a rural area vs. a high-cost coastal city.
+ */
+import type { CollectionEntry } from 'astro:content';
+export interface Props {
+  data: NonNullable<CollectionEntry<'businesses'>['data']['regionalVariation']>;
+}
+const { data } = Astro.props;
+---
+
+<div class="region">
+  <p class="region-summary">{data.summary}</p>
+  {data.markets.length > 0 && (
+    <ul class="region-list">
+      {data.markets.map((m) => (
+        <li class="region-row">
+          <span class="region-area">{m.area}</span>
+          <span class="region-note">{m.note}</span>
+        </li>
+      ))}
+    </ul>
+  )}
+</div>
+
+<style>
+  .region-summary {
+    margin: 0 0 1rem;
+    color: var(--slate);
+    max-width: 65ch;
+  }
+  .region-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.6rem;
+  }
+  .region-row {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 1rem;
+    padding: 0.8rem 1rem;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent, var(--navy));
+    border-radius: var(--radius-sm);
+  }
+  .region-area {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--accent-dark, var(--navy));
+  }
+  .region-note {
+    color: var(--slate);
+    font-size: 0.95rem;
+  }
+  @media (max-width: 560px) {
+    .region-row {
+      grid-template-columns: 1fr;
+      gap: 0.2rem;
+    }
+  }
+</style>

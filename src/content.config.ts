@@ -142,6 +142,88 @@ const businesses = defineCollection({
     similarBusinesses: z.array(z.string()).default([]),
     dataSources: z.array(z.string()),
     lastReviewed: z.string(),
+
+    // --- Optional rich blocks (progressive enhancement) ---
+    // Pages render fully without these; when present they add depth, more
+    // numbers, and worked examples, and they make pages visually distinct.
+
+    /** Optional explicit layout variant. If omitted, one is derived from the slug. */
+    layoutVariant: z.enum(['a', 'b', 'c']).optional(),
+
+    /** Extra numeric callouts shown in a "by the numbers" band (margin, avg job value, etc.). */
+    keyMetrics: z
+      .array(
+        z.object({
+          label: z.string(),
+          value: z.string(),
+          note: z.string().optional(),
+        }),
+      )
+      .optional(),
+
+    /** How the revenue actually adds up — real price points and the math behind them. */
+    revenueModel: z
+      .object({
+        intro: z.string().optional(),
+        pricePoints: z
+          .array(
+            z.object({
+              service: z.string(),
+              price: z.string(),
+              note: z.string().optional(),
+            }),
+          )
+          .default([]),
+        mathExample: z.string().optional(),
+        volumeToTarget: z.string().optional(),
+      })
+      .optional(),
+
+    /** Recurring monthly operating costs — a small P&L below the startup costs. */
+    monthlyOperating: z
+      .array(
+        z.object({
+          item: z.string(),
+          low: z.number(),
+          high: z.number(),
+          note: z.string().optional(),
+        }),
+      )
+      .optional(),
+
+    /** Concrete worked examples: side-hustle vs. full-time vs. small team, with real dollars. */
+    scenarios: z
+      .array(
+        z.object({
+          label: z.string(),
+          revenue: z.string(),
+          profit: z.string().optional(),
+          hours: z.string().optional(),
+          summary: z.string(),
+        }),
+      )
+      .optional(),
+
+    /** A realistic month-by-month (or stage-by-stage) ramp. */
+    timeline: z
+      .array(
+        z.object({
+          period: z.string(),
+          milestone: z.string(),
+          income: z.string().optional(),
+        }),
+      )
+      .optional(),
+
+    /** How the numbers shift by market/region. */
+    regionalVariation: z
+      .object({
+        summary: z.string(),
+        markets: z
+          .array(z.object({ area: z.string(), note: z.string() }))
+          .default([]),
+      })
+      .optional(),
   }),
 });
 

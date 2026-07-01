@@ -14,23 +14,71 @@
   "biggestRisk": "A dog escapes, gets injured, fights, or falls ill on your watch, triggering liability and reputation damage",
   "speedToIncome": "months",
   "minWeeklyHours": 30,
-  "skills": ["health", "hands", "people"],
-  "workLocations": ["home", "space"],
-  "priorities": ["helping", "low-risk", "sellable"],
+  "skills": [
+    "health",
+    "hands",
+    "people"
+  ],
+  "workLocations": [
+    "home",
+    "space"
+  ],
+  "priorities": [
+    "helping",
+    "low-risk",
+    "sellable"
+  ],
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
   "whatItIs": "A dog boarding and kennel business provides overnight lodging for dogs while their owners travel — feeding, exercising, medicating, and supervising them around the clock. It is distinct from doggy daycare (daytime-only care) and pet sitting (care in the client's home): here, dogs stay at your facility overnight, often for multiple nights, which makes you responsible for their safety and wellbeing 24 hours a day. Operations range from a licensed home-based setup boarding a handful of dogs to a purpose-built commercial kennel with dozens of runs, climate control, and staff. Many operators add daycare, grooming, or training as complementary revenue.",
   "dailyReality": "This is a 365-day-a-year commitment that doesn't pause for nights, weekends, or holidays — in fact holidays are your busiest, most profitable times, which means you work when everyone else travels. A typical day starts early with feeding, medications, and letting dogs out, then cycles through play and potty rotations, cleaning runs and sanitizing constantly, monitoring for illness or behavior problems, and handling check-ins and check-outs. You manage boarding requirements (vaccination records, intake forms), watch for fights and escape attempts, and stay reachable overnight in case a dog is sick or distressed. The work is physically demanding, smelly, and emotionally heavy when an animal in your care has a problem.",
   "startupCostsItemized": [
-    { "item": "Facility build-out or kennel runs and fencing", "low": 2000, "high": 150000 },
-    { "item": "State/county kennel license and zoning/permit fees", "low": 100, "high": 3000, "annual": true },
-    { "item": "Kennel/boarding liability insurance (animal-care coverage)", "low": 800, "high": 4000, "annual": true },
-    { "item": "Crates, beds, bowls, secure double-gating, and cleaning equipment", "low": 1000, "high": 15000 },
-    { "item": "Climate control / HVAC and proper drainage (commercial builds)", "low": 0, "high": 50000, "optional": true },
-    { "item": "Booking and pet-management software (Gingr, PetExec)", "low": 0, "high": 1800, "annual": true, "optional": true },
-    { "item": "Business registration / LLC and website", "low": 200, "high": 2000 },
-    { "item": "Initial supplies (food backup, cleaning chemicals, waste disposal)", "low": 300, "high": 2000 }
+    {
+      "item": "Facility build-out or kennel runs and fencing",
+      "low": 2000,
+      "high": 150000
+    },
+    {
+      "item": "State/county kennel license and zoning/permit fees",
+      "low": 100,
+      "high": 3000,
+      "annual": true
+    },
+    {
+      "item": "Kennel/boarding liability insurance (animal-care coverage)",
+      "low": 800,
+      "high": 4000,
+      "annual": true
+    },
+    {
+      "item": "Crates, beds, bowls, secure double-gating, and cleaning equipment",
+      "low": 1000,
+      "high": 15000
+    },
+    {
+      "item": "Climate control / HVAC and proper drainage (commercial builds)",
+      "low": 0,
+      "high": 50000,
+      "optional": true
+    },
+    {
+      "item": "Booking and pet-management software (Gingr, PetExec)",
+      "low": 0,
+      "high": 1800,
+      "annual": true,
+      "optional": true
+    },
+    {
+      "item": "Business registration / LLC and website",
+      "low": 200,
+      "high": 2000
+    },
+    {
+      "item": "Initial supplies (food backup, cleaning chemicals, waste disposal)",
+      "low": 300,
+      "high": 2000
+    }
   ],
   "realEarnings": {
     "yearOne": "A licensed home-based operator boarding a few dogs at $30 to $60 per night part-time typically nets $1,500 to $4,000 per month in year one, heavily weighted toward holidays and summer travel. A new commercial kennel often operates near break-even early while filling occupancy and paying down build-out costs.",
@@ -72,12 +120,42 @@
     "Pricing flat year-round instead of charging peak rates during the holiday and summer demand that drives profit"
   ],
   "toolsAndEquipment": [
-    { "item": "Secure kennel runs, crates, and double-gated entry", "note": "Containment is the core safety system; escapes and fights are the worst outcomes, so build redundancy in.", "low": 1000, "high": 50000 },
-    { "item": "Easy-to-sanitize flooring and drainage", "note": "Sealed, washable surfaces and good drainage make daily cleaning manageable and control odor and disease.", "low": 500, "high": 30000 },
-    { "item": "Climate control / ventilation", "note": "Dogs need safe temperatures and airflow; essential for commercial builds and required by many licenses.", "low": 0, "high": 50000 },
-    { "item": "Booking and pet-management software", "note": "Gingr or PetExec handle reservations, vaccination records, and billing; vital once occupancy grows.", "low": 0, "high": 150 },
-    { "item": "Cleaning and sanitation supplies", "note": "Veterinary-grade disinfectants, waste disposal, and laundry capacity for bedding.", "low": 200, "high": 2000 },
-    { "item": "Cameras and monitoring", "note": "Lets you watch dogs overnight and offer owners peace of mind; increasingly an expected feature.", "low": 100, "high": 2000 }
+    {
+      "item": "Secure kennel runs, crates, and double-gated entry",
+      "note": "Containment is the core safety system; escapes and fights are the worst outcomes, so build redundancy in.",
+      "low": 1000,
+      "high": 50000
+    },
+    {
+      "item": "Easy-to-sanitize flooring and drainage",
+      "note": "Sealed, washable surfaces and good drainage make daily cleaning manageable and control odor and disease.",
+      "low": 500,
+      "high": 30000
+    },
+    {
+      "item": "Climate control / ventilation",
+      "note": "Dogs need safe temperatures and airflow; essential for commercial builds and required by many licenses.",
+      "low": 0,
+      "high": 50000
+    },
+    {
+      "item": "Booking and pet-management software",
+      "note": "Gingr or PetExec handle reservations, vaccination records, and billing; vital once occupancy grows.",
+      "low": 0,
+      "high": 150
+    },
+    {
+      "item": "Cleaning and sanitation supplies",
+      "note": "Veterinary-grade disinfectants, waste disposal, and laundry capacity for bedding.",
+      "low": 200,
+      "high": 2000
+    },
+    {
+      "item": "Cameras and monitoring",
+      "note": "Lets you watch dogs overnight and offer owners peace of mind; increasingly an expected feature.",
+      "low": 100,
+      "high": 2000
+    }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -158,5 +236,143 @@
     "Pet Care Services Association / state kennel-licensing guidelines for facility and licensing standards",
     "Rover and pet-boarding operator communities for real-world nightly rates, occupancy, and seasonality"
   ],
-  "lastReviewed": "2026-06"
+  "lastReviewed": "2026-06",
+  "keyMetrics": [
+    {
+      "value": "$35–$85/night",
+      "label": "Boarding rate per dog"
+    },
+    {
+      "value": "$25–$45/day",
+      "label": "Daycare add-on"
+    },
+    {
+      "value": "55–75%",
+      "label": "Gross margin",
+      "note": "Labor is the main cost"
+    },
+    {
+      "value": "6–12 dogs",
+      "label": "To clear ~$4k/mo home-based"
+    },
+    {
+      "value": "2–3×",
+      "label": "Holiday vs. slow-week occupancy"
+    }
+  ],
+  "revenueModel": {
+    "intro": "Boarding revenue is occupancy × nightly rate. The building and licensing are fixed; profit comes from filling kennels, holiday premiums, and add-ons like daycare, grooming, and training.",
+    "pricePoints": [
+      {
+        "service": "Standard overnight boarding",
+        "price": "$40–$65/night"
+      },
+      {
+        "service": "Luxury suite",
+        "price": "$70–$120/night",
+        "note": "Premium markets"
+      },
+      {
+        "service": "Daycare day rate",
+        "price": "$25–$45/day"
+      },
+      {
+        "service": "Add-ons (baths, walks, meds)",
+        "price": "$8–$30 each"
+      }
+    ],
+    "mathExample": "A facility averaging 15 dogs/night at a $55 rate grosses about $24,750/month. Payroll, food, insurance, and utilities typically run 55–70% of that, leaving roughly $7,000–$11,000 before the owner's pay.",
+    "volumeToTarget": "Clearing $16,000/month usually means a 25–40 dog facility with strong holiday bookings and daycare, or a home-based model with very low overhead running near full."
+  },
+  "monthlyOperating": [
+    {
+      "item": "Payroll / kennel staff",
+      "low": 2000,
+      "high": 14000,
+      "note": "Scales with capacity"
+    },
+    {
+      "item": "Mortgage / rent or facility loan",
+      "low": 0,
+      "high": 6000,
+      "note": "$0 if home-based"
+    },
+    {
+      "item": "Insurance (care, custody & control)",
+      "low": 150,
+      "high": 600
+    },
+    {
+      "item": "Food, bedding, cleaning, utilities",
+      "low": 400,
+      "high": 2500
+    },
+    {
+      "item": "Software, marketing, licensing",
+      "low": 150,
+      "high": 600
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Home-based (2–4 dogs)",
+      "revenue": "$1,500–$3,500/mo",
+      "profit": "$1,200–$3,000/mo",
+      "hours": "20–40 hrs, 7 days",
+      "summary": "Rover/word-of-mouth in your own home. Low cost and high margin, capped by space and zoning."
+    },
+    {
+      "label": "Small licensed facility",
+      "revenue": "$12k–$25k/mo",
+      "profit": "$4,000–$9,000/mo",
+      "hours": "50–60 hrs",
+      "summary": "10–20 runs and a couple of staff. The 24/7 responsibility is real; holidays make the year."
+    },
+    {
+      "label": "Full facility + daycare",
+      "revenue": "$30k–$60k/mo",
+      "profit": "$9,000–$16,000/mo",
+      "hours": "managing a team",
+      "summary": "25–40+ dogs, daycare and grooming add-ons, a manager. Capital-heavy but sellable."
+    }
+  ],
+  "timeline": [
+    {
+      "period": "Months 0–3",
+      "milestone": "Zoning and licensing check, insurance, facility prep (or home setup), and photos/profiles.",
+      "income": "$0–$1,000/mo"
+    },
+    {
+      "period": "Months 3–9",
+      "milestone": "Repeat clients and reviews build; the first holiday season tests capacity and staffing.",
+      "income": "$1,500–$6,000/mo"
+    },
+    {
+      "period": "Months 9–24",
+      "milestone": "Occupancy stabilizes; add daycare and grooming and raise peak-season rates.",
+      "income": "$4,000–$12,000/mo"
+    },
+    {
+      "period": "Year 2+",
+      "milestone": "Hire a manager, expand runs, and step back from overnights.",
+      "income": "$8,000–$16,000/mo"
+    }
+  ],
+  "regionalVariation": {
+    "summary": "Zoning and land decide whether you can even operate, and affluent metros support luxury pricing. Rural land is cheap but has fewer clients; cities have demand but strict zoning.",
+    "markets": [
+      {
+        "area": "Affluent suburb",
+        "note": "Luxury suites and daycare command premium rates."
+      },
+      {
+        "area": "Urban",
+        "note": "High demand but tight zoning; daycare-focused models fit better."
+      },
+      {
+        "area": "Rural / exurban",
+        "note": "Cheap land for big facilities, but you must draw clients from town."
+      }
+    ]
+  }
 }

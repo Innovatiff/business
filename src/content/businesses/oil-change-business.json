@@ -14,23 +14,69 @@
   "biggestRisk": "Thin per-job margins mean low car counts or a bad location quietly bleed the business while fixed costs keep running",
   "speedToIncome": "weeks",
   "minWeeklyHours": 30,
-  "skills": ["hands", "people", "sales"],
-  "workLocations": ["space", "mobile"],
-  "priorities": ["sellable", "alongside-job", "max-income"],
+  "skills": [
+    "hands",
+    "people",
+    "sales"
+  ],
+  "workLocations": [
+    "space",
+    "mobile"
+  ],
+  "priorities": [
+    "sellable",
+    "alongside-job",
+    "max-income"
+  ],
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
   "whatItIs": "An oil change or quick-lube business performs fast, routine vehicle maintenance — engine oil and filter changes, plus simple add-ons like air filters, wiper blades, cabin filters, and fluid top-offs. There are two very different models. A fixed-bay quick-lube rents or buys a small shop (often a former gas station or a two-to-three-bay building) and competes on speed and convenience for drive-up customers. A mobile model brings the service to the customer's home or workplace with a van, used oil tank, and a portable lift or ramps, trading lower overhead for the limits of one tech and a driving route.",
   "dailyReality": "The work itself is fast and repetitive: drain old oil, swap the filter, refill, check fluids, reset the maintenance light, and upsell an air filter or wiper blades. A fixed bay lives and dies by car count — a healthy small shop services 25 to 60 vehicles a day, so the rhythm is steady and you are managing flow, parts inventory, and a tech or two. A mobile operator drives between 4 and 10 appointments, and a large share of the day is travel, scheduling, and handling used oil and filters legally. Both models involve daily cash handling, ordering oil and filters, and managing the unglamorous reality of waste oil disposal and floor messes.",
   "startupCostsItemized": [
-    { "item": "Mobile van or used service vehicle (mobile model)", "low": 6000, "high": 30000, "optional": true },
-    { "item": "Shop lease deposit and first months (fixed-bay model)", "low": 4000, "high": 20000, "optional": true },
-    { "item": "Lift, ramps, drain pans, oil caddy, hand tools", "low": 1500, "high": 25000 },
-    { "item": "Used oil storage tank and recycling/disposal setup", "low": 500, "high": 4000 },
-    { "item": "Opening inventory of oil, filters, and common parts", "low": 1500, "high": 6000 },
-    { "item": "Garage keepers / general liability / commercial auto insurance", "low": 1500, "high": 6000, "annual": true },
-    { "item": "Business license, EPA/waste registration, signage", "low": 300, "high": 3000 },
-    { "item": "POS, scheduling software, and Google Business Profile", "low": 200, "high": 1500 }
+    {
+      "item": "Mobile van or used service vehicle (mobile model)",
+      "low": 6000,
+      "high": 30000,
+      "optional": true
+    },
+    {
+      "item": "Shop lease deposit and first months (fixed-bay model)",
+      "low": 4000,
+      "high": 20000,
+      "optional": true
+    },
+    {
+      "item": "Lift, ramps, drain pans, oil caddy, hand tools",
+      "low": 1500,
+      "high": 25000
+    },
+    {
+      "item": "Used oil storage tank and recycling/disposal setup",
+      "low": 500,
+      "high": 4000
+    },
+    {
+      "item": "Opening inventory of oil, filters, and common parts",
+      "low": 1500,
+      "high": 6000
+    },
+    {
+      "item": "Garage keepers / general liability / commercial auto insurance",
+      "low": 1500,
+      "high": 6000,
+      "annual": true
+    },
+    {
+      "item": "Business license, EPA/waste registration, signage",
+      "low": 300,
+      "high": 3000
+    },
+    {
+      "item": "POS, scheduling software, and Google Business Profile",
+      "low": 200,
+      "high": 1500
+    }
   ],
   "realEarnings": {
     "yearOne": "A mobile solo operator in year one often nets $2,500 to $6,000 per month once a route fills, with each job grossing roughly $80 to $130 and net per job near $40 to $70 after oil, filter, and travel. A new fixed bay frequently loses money or barely breaks even in the first months while car count builds toward a sustainable 25 to 30 vehicles a day.",
@@ -72,12 +118,42 @@
     "Underestimating how much of a mobile day is driving, not wrenching, and overbooking the route"
   ],
   "toolsAndEquipment": [
-    { "item": "Vehicle lift or low-profile ramps and creeper", "note": "A two-post or scissor lift for a bay; quality ramps and a creeper for mobile.", "low": 300, "high": 12000 },
-    { "item": "Oil drain pan, oil caddy, and transfer pump", "note": "Speeds the core task and keeps the worksite clean.", "low": 150, "high": 1500 },
-    { "item": "Used oil and filter storage tank", "note": "Required for legal disposal; size to your volume.", "low": 300, "high": 4000 },
-    { "item": "Hand tools, filter wrenches, torque wrench", "note": "A torque wrench prevents stripped plugs and leaks.", "low": 200, "high": 1200 },
-    { "item": "Opening parts and oil inventory", "note": "Stock common filters and the popular oil grades; do not overstock specialty parts.", "low": 1500, "high": 6000 },
-    { "item": "POS and scheduling software", "note": "Tracks customers and triggers maintenance reminders that drive repeat visits.", "low": 200, "high": 1500 }
+    {
+      "item": "Vehicle lift or low-profile ramps and creeper",
+      "note": "A two-post or scissor lift for a bay; quality ramps and a creeper for mobile.",
+      "low": 300,
+      "high": 12000
+    },
+    {
+      "item": "Oil drain pan, oil caddy, and transfer pump",
+      "note": "Speeds the core task and keeps the worksite clean.",
+      "low": 150,
+      "high": 1500
+    },
+    {
+      "item": "Used oil and filter storage tank",
+      "note": "Required for legal disposal; size to your volume.",
+      "low": 300,
+      "high": 4000
+    },
+    {
+      "item": "Hand tools, filter wrenches, torque wrench",
+      "note": "A torque wrench prevents stripped plugs and leaks.",
+      "low": 200,
+      "high": 1200
+    },
+    {
+      "item": "Opening parts and oil inventory",
+      "note": "Stock common filters and the popular oil grades; do not overstock specialty parts.",
+      "low": 1500,
+      "high": 6000
+    },
+    {
+      "item": "POS and scheduling software",
+      "note": "Tracks customers and triggers maintenance reminders that drive repeat visits.",
+      "low": 200,
+      "high": 1500
+    }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -159,5 +235,145 @@
     "EPA and state environmental agency guidance on used oil and oil filter management",
     "Operator discussions in automotive service forums for real-world pricing and attach-rate data"
   ],
-  "lastReviewed": "2026-06"
+  "lastReviewed": "2026-06",
+  "keyMetrics": [
+    {
+      "value": "$45–$100",
+      "label": "Avg ticket (conv.–synthetic)"
+    },
+    {
+      "value": "$35–$120",
+      "label": "Gross profit per car",
+      "note": "Oil + filter cost is low"
+    },
+    {
+      "value": "25–45 cars/day",
+      "label": "Busy bay throughput"
+    },
+    {
+      "value": "15–35%",
+      "label": "Add-on attach lift",
+      "note": "Wipers, filters, fluids"
+    },
+    {
+      "value": "10–20 min",
+      "label": "Service time per car"
+    }
+  ],
+  "revenueModel": {
+    "intro": "Quick-lube economics are about car count and add-on attach rate, not the oil change itself. The base service is nearly a loss leader; profit comes from volume plus wipers, filters, and fluid services.",
+    "pricePoints": [
+      {
+        "service": "Conventional oil change",
+        "price": "$40–$55"
+      },
+      {
+        "service": "Full synthetic",
+        "price": "$75–$100"
+      },
+      {
+        "service": "Air / cabin filter (each)",
+        "price": "$25–$45",
+        "note": "High-margin add-on"
+      },
+      {
+        "service": "Wiper blades / fluid service",
+        "price": "$15–$60",
+        "note": "Attach at the bay"
+      }
+    ],
+    "mathExample": "A single bay doing 30 cars/day at a $60 average with a 30% add-on lift grosses roughly $2,340/day — about $60,000/month at 26 days. After product, rent, and labor, owner take is typically 15–25% of that.",
+    "volumeToTarget": "Clearing $14,000/month in owner profit generally requires two or more bays running 30+ cars/day each, or a high-attach single bay in a dense commuter corridor."
+  },
+  "monthlyOperating": [
+    {
+      "item": "Rent / lease (bay location)",
+      "low": 2500,
+      "high": 9000,
+      "note": "Location is everything"
+    },
+    {
+      "item": "Labor (technicians)",
+      "low": 4000,
+      "high": 16000
+    },
+    {
+      "item": "Oil, filters, fluids (COGS)",
+      "low": 3000,
+      "high": 14000,
+      "note": "Scales with volume"
+    },
+    {
+      "item": "Utilities & waste-oil disposal",
+      "low": 300,
+      "high": 900
+    },
+    {
+      "item": "Insurance, POS, marketing",
+      "low": 500,
+      "high": 1500
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Single leased bay",
+      "revenue": "$45k–$70k/mo gross",
+      "profit": "$3,000–$8,000/mo owner",
+      "hours": "45–55 hrs/wk",
+      "summary": "Owner-operated, 20–30 cars/day. Tight but workable in a busy corridor."
+    },
+    {
+      "label": "Two-bay shop",
+      "revenue": "$90k–$140k/mo gross",
+      "profit": "$8,000–$16,000/mo owner",
+      "hours": "managing, 40+ hrs",
+      "summary": "Two bays, 3–5 staff. Attach rate and speed decide whether it clears real profit."
+    },
+    {
+      "label": "Mobile / fleet service",
+      "revenue": "$8k–$25k/mo gross",
+      "profit": "$3,000–$10,000/mo",
+      "hours": "flexible",
+      "summary": "Lower overhead, come-to-you fleet accounts. Slower per car but no rent."
+    }
+  ],
+  "timeline": [
+    {
+      "period": "Months 0–3",
+      "milestone": "Secure a high-traffic location or van, permits, waste-oil handling, POS, and supplier accounts.",
+      "income": "$0 (build-out)"
+    },
+    {
+      "period": "Months 3–6",
+      "milestone": "Open; drive car count with signage, coupons, and fleet outreach. Train attach-rate discipline.",
+      "income": "$2,500–$6,000/mo"
+    },
+    {
+      "period": "Months 6–18",
+      "milestone": "Reviews and repeat customers build a base; dial in throughput and add-on process.",
+      "income": "$5,000–$10,000/mo"
+    },
+    {
+      "period": "Year 2+",
+      "milestone": "Stable base; add a second bay or fleet contracts to push past the single-bay ceiling.",
+      "income": "$8,000–$14,000/mo"
+    }
+  ],
+  "regionalVariation": {
+    "summary": "Car count and rent dominate. Suburban commuter corridors with 20,000+ cars/day outperform; rural locations see fewer cars but less competition and cheaper rent.",
+    "markets": [
+      {
+        "area": "Suburban commuter strip",
+        "note": "Best volume; higher rent but worth it."
+      },
+      {
+        "area": "Urban core",
+        "note": "High rent and less parking — fleet/commercial focus works better."
+      },
+      {
+        "area": "Rural / small town",
+        "note": "Lower volume, but a loyal repeat base and cheap space."
+      }
+    ]
+  }
 }

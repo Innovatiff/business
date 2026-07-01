@@ -14,24 +14,71 @@
   "biggestRisk": "Signing a long expensive lease and burning through cash before daily sales cover rent, labor, and ingredient costs",
   "speedToIncome": "long",
   "minWeeklyHours": 60,
-  "skills": ["food", "people", "finance", "hands"],
-  "workLocations": ["space"],
-  "priorities": ["sellable", "helping"],
+  "skills": [
+    "food",
+    "people",
+    "finance",
+    "hands"
+  ],
+  "workLocations": [
+    "space"
+  ],
+  "priorities": [
+    "sellable",
+    "helping"
+  ],
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
   "whatItIs": "A retail bakery is a storefront where you bake and sell breads, pastries, cakes, cookies, and often coffee directly to walk-in customers. Unlike a home bakery operating under cottage-food laws, a retail bakery means a commercial lease, a commercial kitchen with deck or convection ovens and mixers, a health-department-inspected space, payroll, and the unforgiving economics of retail: you pay rent and staff whether 30 people or 300 walk in. It is part craft and part small manufacturing operation, with a daily production cycle that starts before dawn.",
   "dailyReality": "Most bakery owners are in the building by 3 or 4 a.m. to proof, mix, and bake so product is fresh and cased before opening. The morning is production and the counter rush; afternoons are prep for tomorrow, dough mixing, ordering ingredients, cleaning, and managing staff schedules. You are on your feet for ten to fourteen hours, and you do it six or seven days a week early on because you cannot yet afford to hire out the baker's role. Around the baking sit the unglamorous tasks: payroll, vendor invoices, health inspections, equipment that breaks, and throwing away unsold product at close.",
   "startupCostsItemized": [
-    { "item": "Lease deposit, first/last month rent", "low": 6000, "high": 30000 },
-    { "item": "Buildout, plumbing, hood/ventilation, health-code compliance", "low": 20000, "high": 150000 },
-    { "item": "Commercial ovens, mixers, proofers, refrigeration", "low": 20000, "high": 90000 },
-    { "item": "Display cases, counters, seating, signage", "low": 8000, "high": 40000 },
-    { "item": "POS system, hardware, payment setup", "low": 1500, "high": 6000 },
-    { "item": "Permits, business license, food-handler certification, LLC", "low": 1000, "high": 5000 },
-    { "item": "Initial ingredient and packaging inventory", "low": 2000, "high": 8000 },
-    { "item": "Insurance (general liability + property)", "low": 1500, "high": 5000, "annual": true },
-    { "item": "Working capital to cover 3-6 months of losses", "low": 15000, "high": 60000 }
+    {
+      "item": "Lease deposit, first/last month rent",
+      "low": 6000,
+      "high": 30000
+    },
+    {
+      "item": "Buildout, plumbing, hood/ventilation, health-code compliance",
+      "low": 20000,
+      "high": 150000
+    },
+    {
+      "item": "Commercial ovens, mixers, proofers, refrigeration",
+      "low": 20000,
+      "high": 90000
+    },
+    {
+      "item": "Display cases, counters, seating, signage",
+      "low": 8000,
+      "high": 40000
+    },
+    {
+      "item": "POS system, hardware, payment setup",
+      "low": 1500,
+      "high": 6000
+    },
+    {
+      "item": "Permits, business license, food-handler certification, LLC",
+      "low": 1000,
+      "high": 5000
+    },
+    {
+      "item": "Initial ingredient and packaging inventory",
+      "low": 2000,
+      "high": 8000
+    },
+    {
+      "item": "Insurance (general liability + property)",
+      "low": 1500,
+      "high": 5000,
+      "annual": true
+    },
+    {
+      "item": "Working capital to cover 3-6 months of losses",
+      "low": 15000,
+      "high": 60000
+    }
   ],
   "realEarnings": {
     "yearOne": "Most new retail bakeries lose money or barely break even in year one while building traffic and a reputation. Owners commonly pay themselves little or nothing for the first 6 to 12 months and reinvest every dollar into rent and payroll. A bakery that survives the first year typically clears $0 to $4,000 per month in owner income by month twelve.",
@@ -73,13 +120,48 @@
     "Assuming a great product alone draws crowds — without foot traffic and local marketing, even excellent bakeries stay empty"
   ],
   "toolsAndEquipment": [
-    { "item": "Deck or convection oven", "note": "The heart of production. Used commercial units in good condition save tens of thousands over new.", "low": 5000, "high": 40000 },
-    { "item": "Commercial mixer (20-60 qt)", "note": "Sized to your volume. Buy used carefully and check the gearbox.", "low": 2000, "high": 15000 },
-    { "item": "Proofer and refrigeration", "note": "Walk-in or reach-in coolers plus a proofer for yeasted goods.", "low": 5000, "high": 30000 },
-    { "item": "Display cases", "note": "Refrigerated and ambient cases for the front counter; first impression matters.", "low": 3000, "high": 20000 },
-    { "item": "Sheet pans, racks, smallwares, baking tools", "note": "Buy plenty of pans and racks; production stalls without them.", "low": 1500, "high": 6000 },
-    { "item": "POS and kitchen tech", "note": "Square, Toast, or Clover for sales, inventory, and labor tracking.", "low": 1000, "high": 5000 },
-    { "item": "Hood and ventilation system", "note": "Code-required for ovens; a major buildout cost many first-timers overlook.", "low": 8000, "high": 40000 }
+    {
+      "item": "Deck or convection oven",
+      "note": "The heart of production. Used commercial units in good condition save tens of thousands over new.",
+      "low": 5000,
+      "high": 40000
+    },
+    {
+      "item": "Commercial mixer (20-60 qt)",
+      "note": "Sized to your volume. Buy used carefully and check the gearbox.",
+      "low": 2000,
+      "high": 15000
+    },
+    {
+      "item": "Proofer and refrigeration",
+      "note": "Walk-in or reach-in coolers plus a proofer for yeasted goods.",
+      "low": 5000,
+      "high": 30000
+    },
+    {
+      "item": "Display cases",
+      "note": "Refrigerated and ambient cases for the front counter; first impression matters.",
+      "low": 3000,
+      "high": 20000
+    },
+    {
+      "item": "Sheet pans, racks, smallwares, baking tools",
+      "note": "Buy plenty of pans and racks; production stalls without them.",
+      "low": 1500,
+      "high": 6000
+    },
+    {
+      "item": "POS and kitchen tech",
+      "note": "Square, Toast, or Clover for sales, inventory, and labor tracking.",
+      "low": 1000,
+      "high": 5000
+    },
+    {
+      "item": "Hood and ventilation system",
+      "note": "Code-required for ovens; a major buildout cost many first-timers overlook.",
+      "low": 8000,
+      "high": 40000
+    }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -161,5 +243,142 @@
     "Small Business Administration and SCORE — food-business startup cost and financing guidance",
     "Operator communities (r/Baking, r/smallbusiness, baker forums) for real-world buildout and margin reports"
   ],
-  "lastReviewed": "2026-06"
+  "lastReviewed": "2026-06",
+  "keyMetrics": [
+    {
+      "value": "4–9%",
+      "label": "Typical net margin",
+      "note": "Thin — food, labor, rent"
+    },
+    {
+      "value": "60–70%",
+      "label": "Gross margin on baked goods"
+    },
+    {
+      "value": "$6–$12",
+      "label": "Avg pastry + coffee ticket"
+    },
+    {
+      "value": "$60–$300+",
+      "label": "Custom cake order"
+    },
+    {
+      "value": "12–24 mo",
+      "label": "To reach steady profit"
+    }
+  ],
+  "revenueModel": {
+    "intro": "A retail bakery makes money on volume of small-ticket items plus higher-margin custom orders. Ingredient cost is low per item, but labor (early mornings, skilled decorators) and rent eat most of the gross.",
+    "pricePoints": [
+      {
+        "service": "Coffee + single pastry",
+        "price": "$6–$10"
+      },
+      {
+        "service": "Loaf of artisan bread",
+        "price": "$6–$12"
+      },
+      {
+        "service": "Dozen cookies / half-dozen pastries",
+        "price": "$18–$36"
+      },
+      {
+        "service": "Custom celebration cake",
+        "price": "$60–$300+",
+        "note": "Best margin; books ahead"
+      }
+    ],
+    "mathExample": "A shop averaging 120 transactions/day at a $9 ticket does ~$1,080/day — about $32,000/month — plus custom-order revenue. At a 6% net margin that is roughly $1,900/month owner profit until volume grows.",
+    "volumeToTarget": "Reaching $12,000/month owner take usually means ~$180k–$250k annual revenue with strong custom-order and wholesale add-ons, not walk-in traffic alone."
+  },
+  "monthlyOperating": [
+    {
+      "item": "Rent (retail + kitchen)",
+      "low": 2500,
+      "high": 9000
+    },
+    {
+      "item": "Labor (bakers, counter)",
+      "low": 6000,
+      "high": 22000,
+      "note": "Largest cost"
+    },
+    {
+      "item": "Ingredients (COGS)",
+      "low": 4000,
+      "high": 14000
+    },
+    {
+      "item": "Utilities (ovens, refrigeration)",
+      "low": 600,
+      "high": 2000
+    },
+    {
+      "item": "Insurance, POS, packaging, marketing",
+      "low": 500,
+      "high": 1800
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Micro / farmers-market start",
+      "revenue": "$3k–$8k/mo",
+      "profit": "$1,000–$3,000/mo",
+      "hours": "40–55 hrs",
+      "summary": "Cottage or shared kitchen, market stalls and preorders. Proves demand before signing a lease."
+    },
+    {
+      "label": "Storefront bakery",
+      "revenue": "$25k–$45k/mo",
+      "profit": "$1,500–$6,000/mo",
+      "hours": "55–70 hrs",
+      "summary": "Real lease, staff, and early mornings. Thin margins; custom orders carry the profit."
+    },
+    {
+      "label": "Bakery + wholesale",
+      "revenue": "$45k–$90k/mo",
+      "profit": "$6,000–$12,000/mo",
+      "hours": "managing production",
+      "summary": "Supplying cafes and grocers on top of retail. Steadier volume, but capital and consistency intensive."
+    }
+  ],
+  "timeline": [
+    {
+      "period": "Months 0–6",
+      "milestone": "Recipes, permits, build-out (or shared kitchen), and equipment. Heavy upfront spend, no revenue.",
+      "income": "$0 (often negative)"
+    },
+    {
+      "period": "Months 6–12",
+      "milestone": "Open; build morning regulars and a custom-order pipeline. Long hours, tight cash.",
+      "income": "$0–$3,000/mo owner"
+    },
+    {
+      "period": "Year 1–2",
+      "milestone": "Reputation and repeat orders build; add wholesale or catering to smooth revenue.",
+      "income": "$2,000–$7,000/mo"
+    },
+    {
+      "period": "Year 2–3+",
+      "milestone": "Stable base and efficient production; owner steps back from daily baking.",
+      "income": "$6,000–$12,000/mo"
+    }
+  ],
+  "regionalVariation": {
+    "summary": "Rent and foot traffic swing the model hard. High-rent coastal cities need premium pricing and high volume; smaller towns have cheaper rent but a lower ceiling.",
+    "markets": [
+      {
+        "area": "Big-city walkable district",
+        "note": "High rent + high volume; premium pricing required."
+      },
+      {
+        "area": "Suburban strip",
+        "note": "Parking plus custom-order and catering demand drive it."
+      },
+      {
+        "area": "Small town",
+        "note": "Cheap rent and a loyal base, but a lower revenue ceiling."
+      }
+    ]
+  }
 }

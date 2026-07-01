@@ -14,24 +14,76 @@
   "biggestRisk": "Overpaying for a park or overbuilding amenities, then failing to reach the occupancy needed to cover debt and operating costs",
   "speedToIncome": "long",
   "minWeeklyHours": 20,
-  "skills": ["finance", "people", "hands", "sales"],
-  "workLocations": ["space", "flexible"],
-  "priorities": ["max-income", "sellable", "low-risk"],
+  "skills": [
+    "finance",
+    "people",
+    "hands",
+    "sales"
+  ],
+  "workLocations": [
+    "space",
+    "flexible"
+  ],
+  "priorities": [
+    "max-income",
+    "sellable",
+    "low-risk"
+  ],
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
   "whatItIs": "An RV park business rents sites — typically with electric, water, and sewer hookups — to travelers in recreational vehicles, plus often a mix of nightly, weekly, monthly, and seasonal/long-term guests. Some parks lean toward overnight transient travelers near highways and attractions; others lean toward monthly and snowbird tenants for steadier occupancy. You make money on nightly and monthly site fees and ancillary revenue like a camp store, laundry, propane, cabins, storage, and Wi-Fi. It sits between real estate and hospitality: you own appreciating land and infrastructure, but you also run a guest-facing operation with reservations, cleaning, maintenance, and reviews. You can buy an existing park, convert raw land, or take over a tired park and reposition it.",
   "dailyReality": "Day to day blends property management and hospitality. You handle reservations and check-ins, answer guest questions, keep the bathhouse and common areas clean, maintain hookups and the septic or sewer system, mow and manage grounds, and deal with the occasional difficult guest or late payment. Busy season can mean long days and full weekends; off-season is quieter, with maintenance, marketing, and bookings for the next season. Owners who live on-site or hire a camp host carry more daily load; those who buy a larger, staffed park spend more time on pricing, marketing, capital projects, and bookkeeping than on hands-on chores.",
   "startupCostsItemized": [
-    { "item": "Down payment on an existing park (typically 20-30% of price)", "low": 100000, "high": 1000000 },
-    { "item": "Raw land for new development (per usable acre, varies widely)", "low": 50000, "high": 500000, "optional": true },
-    { "item": "Site development — pads, roads, electrical, water, sewer/septic per site", "low": 5000, "high": 35000, "optional": true },
-    { "item": "Bathhouse, office, camp store, and common-area buildout", "low": 20000, "high": 250000, "optional": true },
-    { "item": "Reservation/management software and Wi-Fi infrastructure", "low": 1000, "high": 10000 },
-    { "item": "Initial working capital and reserves", "low": 15000, "high": 100000 },
-    { "item": "Permits, surveys, engineering, and zoning/use approvals", "low": 5000, "high": 75000 },
-    { "item": "Insurance (liability and property)", "low": 3000, "high": 25000, "annual": true },
-    { "item": "Signage, landscaping, and initial marketing", "low": 2000, "high": 30000 }
+    {
+      "item": "Down payment on an existing park (typically 20-30% of price)",
+      "low": 100000,
+      "high": 1000000
+    },
+    {
+      "item": "Raw land for new development (per usable acre, varies widely)",
+      "low": 50000,
+      "high": 500000,
+      "optional": true
+    },
+    {
+      "item": "Site development — pads, roads, electrical, water, sewer/septic per site",
+      "low": 5000,
+      "high": 35000,
+      "optional": true
+    },
+    {
+      "item": "Bathhouse, office, camp store, and common-area buildout",
+      "low": 20000,
+      "high": 250000,
+      "optional": true
+    },
+    {
+      "item": "Reservation/management software and Wi-Fi infrastructure",
+      "low": 1000,
+      "high": 10000
+    },
+    {
+      "item": "Initial working capital and reserves",
+      "low": 15000,
+      "high": 100000
+    },
+    {
+      "item": "Permits, surveys, engineering, and zoning/use approvals",
+      "low": 5000,
+      "high": 75000
+    },
+    {
+      "item": "Insurance (liability and property)",
+      "low": 3000,
+      "high": 25000,
+      "annual": true
+    },
+    {
+      "item": "Signage, landscaping, and initial marketing",
+      "low": 2000,
+      "high": 30000
+    }
   ],
   "realEarnings": {
     "yearOne": "Returns depend almost entirely on whether you bought cash, financed, or developed. A small owner-operated park (roughly 20-40 sites) commonly produces $2,000 to $8,000 per month in owner cash flow after debt service in the early years, and a brand-new development may run at a loss while it fills. First-year owners often reinvest heavily and earn little while building occupancy and reviews.",
@@ -72,12 +124,42 @@
     "Ignoring zoning, permitting, and use restrictions that limit expansion or even current operation"
   ],
   "toolsAndEquipment": [
-    { "item": "Reservation and property management software", "note": "Handles bookings, dynamic pricing, and payments. Core to running occupancy efficiently across nightly and monthly stays.", "low": 1000, "high": 10000 },
-    { "item": "Grounds and maintenance equipment", "note": "Mowers, trimmers, a utility vehicle, and basic repair tools for ongoing upkeep.", "low": 3000, "high": 30000 },
-    { "item": "Utility and septic infrastructure", "note": "Hookups, metering, and a functioning septic or sewer system. The most expensive and risk-laden part of any park.", "low": 5000, "high": 35000 },
-    { "item": "Wi-Fi and connectivity", "note": "Reliable internet is now a top guest priority and a real differentiator, especially for monthly and remote-working guests.", "low": 2000, "high": 15000 },
-    { "item": "Camp store and laundry equipment", "note": "Ancillary revenue with good margins; add once core occupancy supports it.", "low": 3000, "high": 40000 },
-    { "item": "Signage and online listing presence", "note": "Highway and entrance signage plus listings on the booking platforms travelers actually use.", "low": 2000, "high": 30000 }
+    {
+      "item": "Reservation and property management software",
+      "note": "Handles bookings, dynamic pricing, and payments. Core to running occupancy efficiently across nightly and monthly stays.",
+      "low": 1000,
+      "high": 10000
+    },
+    {
+      "item": "Grounds and maintenance equipment",
+      "note": "Mowers, trimmers, a utility vehicle, and basic repair tools for ongoing upkeep.",
+      "low": 3000,
+      "high": 30000
+    },
+    {
+      "item": "Utility and septic infrastructure",
+      "note": "Hookups, metering, and a functioning septic or sewer system. The most expensive and risk-laden part of any park.",
+      "low": 5000,
+      "high": 35000
+    },
+    {
+      "item": "Wi-Fi and connectivity",
+      "note": "Reliable internet is now a top guest priority and a real differentiator, especially for monthly and remote-working guests.",
+      "low": 2000,
+      "high": 15000
+    },
+    {
+      "item": "Camp store and laundry equipment",
+      "note": "Ancillary revenue with good margins; add once core occupancy supports it.",
+      "low": 3000,
+      "high": 40000
+    },
+    {
+      "item": "Signage and online listing presence",
+      "note": "Highway and entrance signage plus listings on the booking platforms travelers actually use.",
+      "low": 2000,
+      "high": 30000
+    }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -158,5 +240,144 @@
     "SBA and commercial lending guidelines for RV park acquisition financing",
     "RV park operator communities and interviews (forums, owner groups, BiggerPockets) for real-world occupancy and cash-flow ranges"
   ],
-  "lastReviewed": "2026-06"
+  "lastReviewed": "2026-06",
+  "keyMetrics": [
+    {
+      "value": "$35–$90/night",
+      "label": "Full-hookup nightly rate"
+    },
+    {
+      "value": "$400–$900/mo",
+      "label": "Monthly / long-term site"
+    },
+    {
+      "value": "50–65%",
+      "label": "Stabilized NOI margin"
+    },
+    {
+      "value": "$15k–$45k/site",
+      "label": "Cost to develop a full-hookup site"
+    },
+    {
+      "value": "8–12%",
+      "label": "Target cap rate on purchase"
+    }
+  ],
+  "revenueModel": {
+    "intro": "An RV park earns on site-nights: occupancy × nightly (or monthly) rate, plus add-ons like cabins, laundry, a store, and propane. The model is real estate — the value is in stabilized net operating income (NOI).",
+    "pricePoints": [
+      {
+        "service": "Nightly full-hookup site",
+        "price": "$35–$70"
+      },
+      {
+        "service": "Premium / pull-through or waterfront",
+        "price": "$60–$110",
+        "note": "Location premium"
+      },
+      {
+        "service": "Monthly long-term site",
+        "price": "$400–$900/mo",
+        "note": "Stable base occupancy"
+      },
+      {
+        "service": "Add-ons (cabins, laundry, store)",
+        "price": "varies",
+        "note": "Higher-margin extras"
+      }
+    ],
+    "mathExample": "A 40-site park at 55% annual occupancy and a $50 average nightly rate grosses roughly $400,000/year; after 40–50% operating expenses, NOI lands around $200,000–$240,000 before debt service.",
+    "volumeToTarget": "Owner cash flow of $18,000/month typically comes from a 40–80 site park at stabilized occupancy with modest debt, or a smaller premium park in a destination market."
+  },
+  "monthlyOperating": [
+    {
+      "item": "Debt service (mortgage)",
+      "low": 0,
+      "high": 12000,
+      "note": "Depends on leverage"
+    },
+    {
+      "item": "Payroll / management",
+      "low": 1500,
+      "high": 8000
+    },
+    {
+      "item": "Utilities (water, sewer, power)",
+      "low": 1500,
+      "high": 9000,
+      "note": "Often partly passed through"
+    },
+    {
+      "item": "Property tax & insurance",
+      "low": 800,
+      "high": 4000
+    },
+    {
+      "item": "Maintenance, reserves, software",
+      "low": 600,
+      "high": 3000
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Small owner-operated park",
+      "revenue": "$120k–$300k/yr gross",
+      "profit": "$2,000–$7,000/mo cash flow",
+      "hours": "30–50 hrs (on-site)",
+      "summary": "10–25 sites, you live on-site and run it. Sweat-equity heavy; the real estate appreciates underneath you."
+    },
+    {
+      "label": "Mid-size park + manager",
+      "revenue": "$300k–$700k/yr gross",
+      "profit": "$7,000–$15,000/mo",
+      "hours": "oversight",
+      "summary": "30–60 sites with an on-site manager. Add cabins and a store for higher-margin revenue."
+    },
+    {
+      "label": "Destination / larger park",
+      "revenue": "$700k–$2M/yr gross",
+      "profit": "$15,000–$18,000+/mo",
+      "hours": "asset management",
+      "summary": "60+ sites, amenities, and staff. Run as an investment; value is in NOI and the eventual sale."
+    }
+  ],
+  "timeline": [
+    {
+      "period": "Year 0 (acquire/develop)",
+      "milestone": "Find and underwrite a park (or land plus entitlements), inspect utilities and septic, and close financing. Slow and capital-heavy.",
+      "income": "$0 (deploying capital)"
+    },
+    {
+      "period": "Year 1",
+      "milestone": "Stabilize operations, fix deferred maintenance, raise under-market rates, and improve reviews and listings.",
+      "income": "$2,000–$7,000/mo"
+    },
+    {
+      "period": "Years 2–3",
+      "milestone": "Add sites, cabins, and amenities; push occupancy and rate; refinance on higher NOI.",
+      "income": "$7,000–$14,000/mo"
+    },
+    {
+      "period": "Year 3+",
+      "milestone": "Stabilized NOI; hire management and run hands-off, or sell at a compressed cap rate.",
+      "income": "$12,000–$18,000+/mo"
+    }
+  ],
+  "regionalVariation": {
+    "summary": "Location and seasonality dominate. Destination and Sun Belt/snowbird markets run near year-round; northern parks are seasonal. Proximity to attractions, highways, or long-term worker demand changes the model entirely.",
+    "markets": [
+      {
+        "area": "Sun Belt / snowbird",
+        "note": "Long season and strong monthly/long-term demand in winter."
+      },
+      {
+        "area": "Destination (parks, coast, lakes)",
+        "note": "Premium nightly rates with sharp seasonal peaks."
+      },
+      {
+        "area": "Workforce markets (oil/ag)",
+        "note": "Long-term monthly sites; demand tied to local industry."
+      }
+    ]
+  }
 }

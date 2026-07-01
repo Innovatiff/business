@@ -1,0 +1,123 @@
+---
+/**
+ * Concrete worked examples — e.g. side-hustle vs. full-time solo vs. small team
+ * — each with real revenue, profit, and hours so the ranges feel tangible.
+ */
+import type { CollectionEntry } from 'astro:content';
+export interface Props {
+  scenarios: NonNullable<CollectionEntry<'businesses'>['data']['scenarios']>;
+}
+const { scenarios } = Astro.props;
+---
+
+<div class="scenarios" data-count={scenarios.length}>
+  {scenarios.map((s, i) => (
+    <div class="scenario-card">
+      <div class="scenario-head">
+        <span class="scenario-num">{i + 1}</span>
+        <h3 class="scenario-label">{s.label}</h3>
+      </div>
+      <dl class="scenario-stats">
+        <div>
+          <dt>Revenue</dt>
+          <dd class="figure">{s.revenue}</dd>
+        </div>
+        {s.profit && (
+          <div>
+            <dt>Take-home</dt>
+            <dd class="figure figure-green">{s.profit}</dd>
+          </div>
+        )}
+        {s.hours && (
+          <div>
+            <dt>Hours</dt>
+            <dd>{s.hours}</dd>
+          </div>
+        )}
+      </dl>
+      <p class="scenario-summary">{s.summary}</p>
+    </div>
+  ))}
+</div>
+
+<style>
+  .scenarios {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 720px) {
+    .scenarios[data-count='2'] {
+      grid-template-columns: 1fr 1fr;
+    }
+    .scenarios[data-count='3'],
+    .scenarios[data-count='4'] {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .scenario-card {
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--accent, var(--navy));
+    border-radius: var(--radius);
+    background: #fff;
+    padding: 1.2rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+  .scenario-head {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .scenario-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    flex: none;
+    border-radius: 999px;
+    background: var(--accent-tint, var(--surface));
+    color: var(--accent-dark, var(--navy));
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+  .scenario-label {
+    margin: 0;
+    font-size: 1.02rem;
+  }
+  .scenario-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.4rem;
+    margin: 0;
+    padding: 0.7rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .scenario-stats div {
+    display: flex;
+    flex-direction: column;
+  }
+  .scenario-stats dt {
+    font-family: var(--font-display);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .scenario-stats dd {
+    margin: 0.1rem 0 0;
+    font-weight: 800;
+    color: var(--navy);
+    font-size: 1.02rem;
+  }
+  .scenario-summary {
+    margin: 0;
+    color: var(--slate);
+    font-size: 0.92rem;
+  }
+</style>

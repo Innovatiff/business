@@ -1,0 +1,93 @@
+---
+/**
+ * Recurring monthly operating costs — a small P&L that sits below the one-time
+ * startup costs so readers see what it costs to KEEP the business running.
+ */
+import { money } from '../lib/format';
+import type { CollectionEntry } from 'astro:content';
+export interface Props {
+  items: NonNullable<CollectionEntry<'businesses'>['data']['monthlyOperating']>;
+}
+const { items } = Astro.props;
+const totalLow = items.reduce((s, i) => s + i.low, 0);
+const totalHigh = items.reduce((s, i) => s + i.high, 0);
+---
+
+<div class="op-table-wrap">
+  <table class="op-table">
+    <thead>
+      <tr>
+        <th scope="col">Recurring monthly cost</th>
+        <th scope="col" class="num">Low</th>
+        <th scope="col" class="num">High</th>
+        <th scope="col">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {items.map((it) => (
+        <tr>
+          <th scope="row">{it.item}</th>
+          <td class="num figure">{it.low === 0 ? '—' : money(it.low)}</td>
+          <td class="num figure">{money(it.high)}</td>
+          <td class="op-note">{it.note}</td>
+        </tr>
+      ))}
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row">Estimated monthly overhead</th>
+        <td class="num figure">{money(totalLow)}</td>
+        <td class="num figure">{money(totalHigh)}</td>
+        <td class="op-note muted">Before your own pay</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+<style>
+  .op-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: #fff;
+  }
+  .op-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    min-width: 480px;
+  }
+  .op-table th,
+  .op-table td {
+    text-align: left;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .op-table thead th {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    background: var(--accent-tint, var(--surface));
+  }
+  .op-table tbody th {
+    font-weight: 600;
+    color: var(--navy);
+  }
+  .op-table .num {
+    text-align: right;
+    white-space: nowrap;
+  }
+  .op-note {
+    color: var(--slate);
+    font-size: 0.88rem;
+  }
+  .op-table tfoot th,
+  .op-table tfoot td {
+    background: var(--accent-tint, var(--surface));
+    font-weight: 800;
+    color: var(--accent-dark, var(--navy));
+    border-bottom: none;
+  }
+</style>

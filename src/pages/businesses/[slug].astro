@@ -12,10 +12,17 @@ import FitChecklist from '../../components/FitChecklist.astro';
 import FAQ from '../../components/FAQ.astro';
 import RelatedBusinesses from '../../components/RelatedBusinesses.astro';
 import DisclaimerBox from '../../components/DisclaimerBox.astro';
+import DifficultyBadge from '../../components/DifficultyBadge.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import KeyMetrics from '../../components/KeyMetrics.astro';
+import RevenueModel from '../../components/RevenueModel.astro';
+import MonthlyOperating from '../../components/MonthlyOperating.astro';
+import Scenarios from '../../components/Scenarios.astro';
+import Timeline from '../../components/Timeline.astro';
+import RegionalVariation from '../../components/RegionalVariation.astro';
 import { CATEGORY_MAP } from '../../data/categories';
-import { money } from '../../lib/format';
-import { reviewedDate } from '../../lib/format';
+import { money, moneyRange, monthlyRange, reviewedDate } from '../../lib/format';
+import { accentFor, variantFor, accentVars } from '../../lib/pageTheme';
 import { SITE } from '../../config';
 
 export async function getStaticPaths() {
@@ -33,24 +40,47 @@ const { business } = Astro.props;
 const d = business.data;
 const category = CATEGORY_MAP[d.category];
 
-// Resolve related businesses (skip any that don't exist).
+const accent = accentFor(d.category);
+const variant = variantFor(d.slug, d.layoutVariant);
+
 const related = (
   await Promise.all(d.similarBusinesses.map((slug) => getEntry('businesses', slug)))
 ).filter(Boolean) as CollectionEntry<'businesses'>[];
 
 const path = `/businesses/${d.slug}`;
 
-// Section list for the on-page table of contents.
-const sections = [
+// Rich optional blocks present on this page.
+const hasMetrics = !!d.keyMetrics && d.keyMetrics.length > 0;
+const hasRevenue = !!d.revenueModel && (d.revenueModel.pricePoints.length > 0 || !!d.revenueModel.mathExample);
+const hasOperating = !!d.monthlyOperating && d.monthlyOperating.length > 0;
+const hasScenarios = !!d.scenarios && d.scenarios.length > 0;
+const hasTimeline = !!d.timeline && d.timeline.length > 0;
+const hasRegional = !!d.regionalVariation;
+
+// Variant C surfaces the "money math" cluster (revenue + scenarios) right after
+// the earnings section; A and B place it after the how-to-start steps.
+const moneyEarly = variant === 'c';
+
+// Metrics band appears near the top for A/C, lower (after "what it is") for B.
+const metricsAtTop = hasMetrics && variant !== 'b';
+
+// Build the table of contents from sections that actually render.
+const sections: { id: string; label: string }[] = [
   { id: 'what-it-is', label: 'What it is' },
-  { id: 'startup-costs', label: 'Real startup costs' },
+  ...(hasMetrics ? [{ id: 'metrics', label: 'By the numbers' }] : []),
+  { id: 'startup-costs', label: 'Startup costs' },
+  ...(hasOperating ? [{ id: 'operating', label: 'Monthly costs' }] : []),
   { id: 'earnings', label: 'Real earnings' },
+  ...(hasRevenue ? [{ id: 'revenue', label: 'How revenue adds up' }] : []),
+  ...(hasScenarios ? [{ id: 'scenarios', label: 'Example operators' }] : []),
   { id: 'how-to-start', label: 'How to start' },
+  ...(hasTimeline ? [{ id: 'timeline', label: 'The ramp' }] : []),
   { id: 'skills', label: 'Skills needed' },
   { id: 'mistakes', label: 'What people get wrong' },
   { id: 'tools', label: 'Tools & equipment' },
   { id: 'customers', label: 'Finding customers' },
   { id: 'scaling', label: 'How it scales' },
+  ...(hasRegional ? [{ id: 'regional', label: 'By region' }] : []),
   { id: 'fit', label: 'Is it right for you?' },
   { id: 'faq', label: 'FAQ' },
 ];
@@ -86,171 +116,301 @@ const jsonLd: Record<string, unknown>[] = [
     ],
   },
 ];
+
+// Per-variant H1 + lead so pages don't all open identically.
+const heading =
+  variant === 'a'
+    ? `How to Start a ${d.title}`
+    : variant === 'b'
+      ? `${d.title}: An Honest Breakdown`
+      : `Starting a ${d.title}`;
+const lead =
+  variant === 'a'
+    ? 'An honest breakdown — what it really costs, what it realistically earns, how long it takes to see income, and exactly what it takes to make it work.'
+    : variant === 'b'
+      ? 'Real startup costs, honest earnings ranges, the biggest risks, and a clear-eyed look at whether this one is actually for you.'
+      : 'The real numbers, the real timeline, and the real work — no hype, no best-case fantasies, just what it takes to make this pay.';
 ---
 
 <BaseLayout title={d.metaTitle} description={d.metaDescription} path={path} jsonLd={jsonLd} ogType="article">
-  <div class="container biz-top">
-    <Breadcrumbs
-      items={[
-        { label: 'Home', href: '/' },
-        { label: 'Businesses', href: '/businesses' },
-        ...(category ? [{ label: category.name, href: `/${category.slug}` }] : []),
-        { label: d.title },
-      ]}
-    />
-    <h1>How to Start a {d.title}</h1>
-    <p class="lead">
-      An honest breakdown — what it really costs, what it realistically earns, how long it takes
-      to see income, and exactly what it takes to make it work.
-    </p>
-  </div>
-
-  <div class="container biz-layout">
-    <article class="biz-article">
-      <QuickNumbers data={d} />
-
-      <section id="what-it-is" class="biz-section prose">
-        <h2>What this business actually is</h2>
-        {d.whatItIs.split(/\n+/).map((p) => p.trim()).filter(Boolean).map((p) => <p>{p}</p>)}
-        <h3>What you actually do — the daily reality</h3>
-        {d.dailyReality.split(/\n+/).map((p) => p.trim()).filter(Boolean).map((p) => <p>{p}</p>)}
-      </section>
-
-      <AdSlot slot="biz-mid-1" />
-
-      <section id="startup-costs" class="biz-section">
-        <h2>Real startup costs — itemized</h2>
-        <p class="section-intro">
-          Every realistic cost, with low and high ranges. You can start near
-          <strong class="figure">{money(d.startupCostLow)}</strong> by skipping what is optional,
-          but a comfortable starting budget is closer to
-          <strong class="figure">{money(d.startupCostHigh)}</strong>.
-        </p>
-        <StartupCostTable
-          items={d.startupCostsItemized}
-          startupCostLow={d.startupCostLow}
-          startupCostHigh={d.startupCostHigh}
+  <div class:list={['biz-page', `v-${variant}`]} style={accentVars(accent)}>
+    {/* ---------- HERO (three variants) ---------- */}
+    {variant === 'c' ? (
+      <div class="container biz-top">
+        <Breadcrumbs
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Businesses', href: '/businesses' },
+            ...(category ? [{ label: category.name, href: `/${category.slug}` }] : []),
+            { label: d.title },
+          ]}
         />
-      </section>
+        <div class="hero-band">
+          {category && <span class="hero-kicker">{category.name}</span>}
+          <h1>{heading}</h1>
+          <p class="lead">{lead}</p>
+          <div class="hero-band-stats">
+            <span><strong class="figure">{moneyRange(d.startupCostLow, d.startupCostHigh)}</strong> to start</span>
+            <span class="dot" aria-hidden="true">•</span>
+            <span><strong class="figure figure-green">{monthlyRange(d.monthlyEarningsLow, d.monthlyEarningsHigh)}</strong> realistic/mo</span>
+            <span class="dot" aria-hidden="true">•</span>
+            <span>First income in {d.timeToFirstIncome}</span>
+          </div>
+        </div>
+      </div>
+    ) : variant === 'b' ? (
+      <div class="container biz-top">
+        <Breadcrumbs
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Businesses', href: '/businesses' },
+            ...(category ? [{ label: category.name, href: `/${category.slug}` }] : []),
+            { label: d.title },
+          ]}
+        />
+        <div class="hero-split">
+          <div>
+            {category && <span class="hero-kicker">{category.name}</span>}
+            <h1>{heading}</h1>
+            <p class="lead">{lead}</p>
+          </div>
+          <aside class="hero-snapshot" aria-label="Snapshot">
+            <div class="snap-row"><span>Startup</span><strong class="figure">{moneyRange(d.startupCostLow, d.startupCostHigh)}</strong></div>
+            <div class="snap-row"><span>Monthly</span><strong class="figure figure-green">{monthlyRange(d.monthlyEarningsLow, d.monthlyEarningsHigh)}</strong></div>
+            <div class="snap-row"><span>First income</span><strong>{d.timeToFirstIncome}</strong></div>
+            <div class="snap-row"><span>Difficulty</span><DifficultyBadge level={d.difficultyLevel} /></div>
+          </aside>
+        </div>
+      </div>
+    ) : (
+      <div class="container biz-top">
+        <Breadcrumbs
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Businesses', href: '/businesses' },
+            ...(category ? [{ label: category.name, href: `/${category.slug}` }] : []),
+            { label: d.title },
+          ]}
+        />
+        {category && <span class="hero-kicker">{category.name}</span>}
+        <h1>{heading}</h1>
+        <p class="lead">{lead}</p>
+      </div>
+    )}
 
-      <section id="earnings" class="biz-section">
-        <h2>Real earnings — an honest breakdown</h2>
-        <p class="section-intro">
-          Not best-case fantasies. Here is what beginners, experienced operators, and the top
-          earners actually report — and what it took to get there.
-        </p>
-        <EarningsBreakdown earnings={d.realEarnings} />
-      </section>
+    <div class="container biz-layout">
+      <article class="biz-article">
+        {/* QuickNumbers is redundant with variant B's snapshot card, so skip it there. */}
+        {variant !== 'b' && <QuickNumbers data={d} />}
 
-      <AdSlot slot="biz-mid-2" />
+        {metricsAtTop && (
+          <section id="metrics" class="biz-section">
+            <h2>By the numbers</h2>
+            <KeyMetrics metrics={d.keyMetrics!} />
+          </section>
+        )}
 
-      <section id="how-to-start" class="biz-section">
-        <h2>How to actually start — step by step</h2>
-        <HowToStart steps={d.howToStart} />
-      </section>
-
-      <section id="skills" class="biz-section prose">
-        <h2>What skills you actually need</h2>
-        <h3>Skills you must have before starting</h3>
-        <ul>{d.skillsRequired.mustHave.map((s) => <li>{s}</li>)}</ul>
-        <h3>Skills you can learn as you go</h3>
-        <ul>{d.skillsRequired.canLearn.map((s) => <li>{s}</li>)}</ul>
-        <h3>What separates average operators from high earners</h3>
-        <ul>{d.skillsRequired.separators.map((s) => <li>{s}</li>)}</ul>
-      </section>
-
-      <section id="mistakes" class="biz-section">
-        <h2>What most people get wrong</h2>
-        <p class="section-intro">The common mistakes, the reasons people quit, and the things nobody warns you about.</p>
-        <WhatPeopleGetWrong items={d.whatPeopleGetWrong} />
-      </section>
-
-      <section id="tools" class="biz-section">
-        <h2>Tools and equipment you need</h2>
-        <p class="section-intro">What to buy cheap, where to invest, and what you can rent or borrow at first.</p>
-        <ul class="tools-list">
-          {d.toolsAndEquipment.map((t) => (
-            <li class="tool">
-              <div class="tool-head">
-                <span class="tool-name">{t.item}</span>
-                {(t.low !== undefined || t.high !== undefined) && (
-                  <span class="tool-cost figure">
-                    {t.low === 0 ? 'Free' : money(t.low ?? 0)}{t.high !== undefined && ` – ${money(t.high)}`}
-                  </span>
-                )}
-              </div>
-              <p class="tool-note">{t.note}</p>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <AdSlot slot="biz-mid-3" />
-
-      <section id="customers" class="biz-section prose">
-        <h2>How to find customers</h2>
-        <p><strong>What actually works:</strong></p>
-        <ul>{d.howToFindCustomers.methods.map((m) => <li>{m}</li>)}</ul>
-        <p><strong>Where your customers are:</strong> {d.howToFindCustomers.whereCustomersAre}</p>
-        <p><strong>How long it takes to build a client base:</strong> {d.howToFindCustomers.timeToClientBase}</p>
-        <p><strong>What is usually a waste of time:</strong> {d.howToFindCustomers.wasteOfTime}</p>
-      </section>
-
-      <section id="scaling" class="biz-section prose">
-        <h2>How this business scales</h2>
-        <p><strong>Can you grow it to full-time?</strong> {d.howItScales.toFullTime}</p>
-        <p><strong>Can you hire people and step back?</strong> {d.howItScales.hireAndStepBack}</p>
-        <p><strong>Can you sell it one day?</strong> {d.howItScales.sellable}</p>
-        <p><strong>What scaling actually requires:</strong> {d.howItScales.whatScalingRequires}</p>
-      </section>
-
-      <section id="fit" class="biz-section">
-        <h2>Is this right for you? An honest checklist</h2>
-        <FitChecklist checklist={d.fitChecklist} />
-      </section>
-
-      <section id="faq" class="biz-section">
-        <h2>Frequently asked questions</h2>
-        <FAQ faqs={d.faqs} />
-      </section>
-
-      <AdSlot slot="biz-after-faq" />
-
-      <section class="biz-section">
-        <DisclaimerBox />
-      </section>
-
-      <section class="biz-section sources">
-        <h2>Data sources and research notes</h2>
-        <p class="muted section-intro">
-          Figures on this page reflect ranges reported across the sources below plus operator
-          accounts. They are honest estimates, not guarantees — your results will vary.
-        </p>
-        <ul>{d.dataSources.map((s) => <li>{s}</li>)}</ul>
-        <p class="reviewed">Last reviewed: <strong>{reviewedDate(d.lastReviewed)}</strong></p>
-      </section>
-
-      {related.length > 0 && (
-        <section class="biz-section">
-          <RelatedBusinesses businesses={related} />
+        <section id="what-it-is" class="biz-section prose">
+          <h2>What this business actually is</h2>
+          {d.whatItIs.split(/\n+/).map((p) => p.trim()).filter(Boolean).map((p) => <p>{p}</p>)}
+          <h3>What you actually do — the daily reality</h3>
+          {d.dailyReality.split(/\n+/).map((p) => p.trim()).filter(Boolean).map((p) => <p>{p}</p>)}
         </section>
-      )}
-    </article>
 
-    <aside class="biz-sidebar" aria-label="On this page">
-      <div class="sidebar-sticky">
-        <nav class="toc card" aria-label="Table of contents">
-          <span class="toc-title">On this page</span>
-          <ul>
-            {sections.map((s) => (
-              <li><a href={`#${s.id}`}>{s.label}</a></li>
+        {hasMetrics && !metricsAtTop && (
+          <section id="metrics" class="biz-section">
+            <h2>By the numbers</h2>
+            <KeyMetrics metrics={d.keyMetrics!} />
+          </section>
+        )}
+
+        <AdSlot slot="biz-mid-1" />
+
+        <section id="startup-costs" class="biz-section">
+          <h2>Real startup costs — itemized</h2>
+          <p class="section-intro">
+            Every realistic cost, with low and high ranges. You can start near
+            <strong class="figure">{money(d.startupCostLow)}</strong> by skipping what is optional,
+            but a comfortable starting budget is closer to
+            <strong class="figure">{money(d.startupCostHigh)}</strong>.
+          </p>
+          <StartupCostTable
+            items={d.startupCostsItemized}
+            startupCostLow={d.startupCostLow}
+            startupCostHigh={d.startupCostHigh}
+          />
+        </section>
+
+        {hasOperating && (
+          <section id="operating" class="biz-section">
+            <h2>What it costs to keep running — monthly</h2>
+            <p class="section-intro">Startup cost is one-time. These are the recurring monthly costs that come out before you pay yourself.</p>
+            <MonthlyOperating items={d.monthlyOperating!} />
+          </section>
+        )}
+
+        <section id="earnings" class="biz-section">
+          <h2>Real earnings — an honest breakdown</h2>
+          <p class="section-intro">
+            Not best-case fantasies. Here is what beginners, experienced operators, and the top
+            earners actually report — and what it took to get there.
+          </p>
+          <EarningsBreakdown earnings={d.realEarnings} />
+        </section>
+
+        {moneyEarly && hasRevenue && (
+          <section id="revenue" class="biz-section">
+            <h2>How the revenue actually adds up</h2>
+            <RevenueModel model={d.revenueModel!} />
+          </section>
+        )}
+        {moneyEarly && hasScenarios && (
+          <section id="scenarios" class="biz-section">
+            <h2>Three realistic operators</h2>
+            <p class="section-intro">The same business at different scales — with real revenue, take-home, and hours.</p>
+            <Scenarios scenarios={d.scenarios!} />
+          </section>
+        )}
+
+        <AdSlot slot="biz-mid-2" />
+
+        <section id="how-to-start" class="biz-section">
+          <h2>How to actually start — step by step</h2>
+          <HowToStart steps={d.howToStart} />
+        </section>
+
+        {hasTimeline && (
+          <section id="timeline" class="biz-section">
+            <h2>The realistic ramp — stage by stage</h2>
+            <p class="section-intro">What actually happens when, and the income you can realistically expect at each stage.</p>
+            <Timeline steps={d.timeline!} />
+          </section>
+        )}
+
+        {!moneyEarly && hasRevenue && (
+          <section id="revenue" class="biz-section">
+            <h2>How the revenue actually adds up</h2>
+            <RevenueModel model={d.revenueModel!} />
+          </section>
+        )}
+        {!moneyEarly && hasScenarios && (
+          <section id="scenarios" class="biz-section">
+            <h2>Three realistic operators</h2>
+            <p class="section-intro">The same business at different scales — with real revenue, take-home, and hours.</p>
+            <Scenarios scenarios={d.scenarios!} />
+          </section>
+        )}
+
+        <section id="skills" class="biz-section prose">
+          <h2>What skills you actually need</h2>
+          <h3>Skills you must have before starting</h3>
+          <ul>{d.skillsRequired.mustHave.map((s) => <li>{s}</li>)}</ul>
+          <h3>Skills you can learn as you go</h3>
+          <ul>{d.skillsRequired.canLearn.map((s) => <li>{s}</li>)}</ul>
+          <h3>What separates average operators from high earners</h3>
+          <ul>{d.skillsRequired.separators.map((s) => <li>{s}</li>)}</ul>
+        </section>
+
+        <section id="mistakes" class="biz-section">
+          <h2>What most people get wrong</h2>
+          <p class="section-intro">The common mistakes, the reasons people quit, and the things nobody warns you about.</p>
+          <WhatPeopleGetWrong items={d.whatPeopleGetWrong} />
+        </section>
+
+        <section id="tools" class="biz-section">
+          <h2>Tools and equipment you need</h2>
+          <p class="section-intro">What to buy cheap, where to invest, and what you can rent or borrow at first.</p>
+          <ul class="tools-list">
+            {d.toolsAndEquipment.map((t) => (
+              <li class="tool">
+                <div class="tool-head">
+                  <span class="tool-name">{t.item}</span>
+                  {(t.low !== undefined || t.high !== undefined) && (
+                    <span class="tool-cost figure">
+                      {t.low === 0 ? 'Free' : money(t.low ?? 0)}{t.high !== undefined && ` – ${money(t.high)}`}
+                    </span>
+                  )}
+                </div>
+                <p class="tool-note">{t.note}</p>
+              </li>
             ))}
           </ul>
-        </nav>
-        <a href="/find-my-business" class="btn btn-secondary sidebar-cta">Not sure this fits? Find your match →</a>
-        <AdSlot slot="biz-sidebar" format="vertical" />
-      </div>
-    </aside>
+        </section>
+
+        <AdSlot slot="biz-mid-3" />
+
+        <section id="customers" class="biz-section prose">
+          <h2>How to find customers</h2>
+          <p><strong>What actually works:</strong></p>
+          <ul>{d.howToFindCustomers.methods.map((m) => <li>{m}</li>)}</ul>
+          <p><strong>Where your customers are:</strong> {d.howToFindCustomers.whereCustomersAre}</p>
+          <p><strong>How long it takes to build a client base:</strong> {d.howToFindCustomers.timeToClientBase}</p>
+          <p><strong>What is usually a waste of time:</strong> {d.howToFindCustomers.wasteOfTime}</p>
+        </section>
+
+        <section id="scaling" class="biz-section prose">
+          <h2>How this business scales</h2>
+          <p><strong>Can you grow it to full-time?</strong> {d.howItScales.toFullTime}</p>
+          <p><strong>Can you hire people and step back?</strong> {d.howItScales.hireAndStepBack}</p>
+          <p><strong>Can you sell it one day?</strong> {d.howItScales.sellable}</p>
+          <p><strong>What scaling actually requires:</strong> {d.howItScales.whatScalingRequires}</p>
+        </section>
+
+        {hasRegional && (
+          <section id="regional" class="biz-section">
+            <h2>How the numbers shift by region</h2>
+            <RegionalVariation data={d.regionalVariation!} />
+          </section>
+        )}
+
+        <section id="fit" class="biz-section">
+          <h2>Is this right for you? An honest checklist</h2>
+          <FitChecklist checklist={d.fitChecklist} />
+        </section>
+
+        <section id="faq" class="biz-section">
+          <h2>Frequently asked questions</h2>
+          <FAQ faqs={d.faqs} />
+        </section>
+
+        <AdSlot slot="biz-after-faq" />
+
+        <section class="biz-section">
+          <DisclaimerBox />
+        </section>
+
+        <section class="biz-section sources">
+          <h2>Data sources and research notes</h2>
+          <p class="muted section-intro">
+            Figures on this page reflect ranges reported across the sources below plus operator
+            accounts. They are honest estimates, not guarantees — your results will vary.
+          </p>
+          <ul>{d.dataSources.map((s) => <li>{s}</li>)}</ul>
+          <p class="reviewed">Last reviewed: <strong>{reviewedDate(d.lastReviewed)}</strong></p>
+        </section>
+
+        {related.length > 0 && (
+          <section class="biz-section">
+            <RelatedBusinesses businesses={related} />
+          </section>
+        )}
+      </article>
+
+      <aside class="biz-sidebar" aria-label="On this page">
+        <div class="sidebar-sticky">
+          <nav class="toc card" aria-label="Table of contents">
+            <span class="toc-title">On this page</span>
+            <ul>
+              {sections.map((s) => (
+                <li><a href={`#${s.id}`}>{s.label}</a></li>
+              ))}
+            </ul>
+          </nav>
+          <a href="/find-my-business" class="btn btn-secondary sidebar-cta">Not sure this fits? Find your match →</a>
+          <AdSlot slot="biz-sidebar" format="vertical" />
+        </div>
+      </aside>
+    </div>
   </div>
 </BaseLayout>
 
@@ -263,8 +423,95 @@ const jsonLd: Record<string, unknown>[] = [
     margin-top: 0.75rem;
   }
   .biz-top .lead {
-    max-width: 60ch;
+    max-width: 62ch;
   }
+  .hero-kicker {
+    display: inline-block;
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 800;
+    color: var(--accent-dark, var(--navy));
+    background: var(--accent-tint, var(--surface));
+    border: 1px solid var(--accent-soft, var(--border));
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+  }
+
+  /* Variant C — accent band hero */
+  .hero-band {
+    margin-top: 0.9rem;
+    background: var(--accent-tint, var(--surface));
+    border: 1px solid var(--accent-soft, var(--border));
+    border-left: 5px solid var(--accent, var(--navy));
+    border-radius: var(--radius-lg);
+    padding: 1.6rem 1.8rem;
+  }
+  .hero-band h1 {
+    margin: 0.6rem 0 0.5rem;
+  }
+  .hero-band .lead {
+    margin: 0;
+  }
+  .hero-band-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 0.75rem;
+    margin-top: 1.1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--accent-soft, var(--border));
+    color: var(--slate);
+    font-size: 0.98rem;
+  }
+  .hero-band-stats .dot {
+    color: var(--muted);
+  }
+
+  /* Variant B — split hero with snapshot card */
+  .hero-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 2rem;
+    align-items: start;
+    margin-top: 0.9rem;
+  }
+  .hero-split h1 {
+    margin-top: 0.6rem;
+  }
+  .hero-snapshot {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent, var(--navy));
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    padding: 1.1rem 1.25rem;
+  }
+  .snap-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .snap-row:last-child {
+    border-bottom: none;
+  }
+  .snap-row span {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .snap-row strong {
+    color: var(--navy);
+    font-weight: 800;
+  }
+
   .biz-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 280px;
@@ -281,6 +528,26 @@ const jsonLd: Record<string, unknown>[] = [
   }
   .biz-section > h2 {
     scroll-margin-top: 84px;
+  }
+  /* Accent-themed section headings — differs slightly per variant. */
+  .biz-article :global(h2) {
+    position: relative;
+  }
+  .v-a .biz-section > h2 {
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--accent-soft, var(--border));
+  }
+  .v-b .biz-section > h2 {
+    padding-left: 0.85rem;
+    border-left: 4px solid var(--accent, var(--navy));
+  }
+  .v-c .biz-section > h2 {
+    display: inline-block;
+    background-image: linear-gradient(var(--accent, var(--navy)), var(--accent, var(--navy)));
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    padding-bottom: 0.35rem;
   }
   .section-intro {
     color: var(--slate);
@@ -342,6 +609,7 @@ const jsonLd: Record<string, unknown>[] = [
   }
   .toc {
     padding: 1.1rem 1.25rem;
+    border-top: 3px solid var(--accent, var(--navy));
   }
   .toc-title {
     display: block;
@@ -371,6 +639,9 @@ const jsonLd: Record<string, unknown>[] = [
   .toc li:last-child a {
     border-bottom: none;
   }
+  .toc a:hover {
+    color: var(--accent-dark, var(--link));
+  }
   .sidebar-cta {
     justify-content: center;
     text-align: center;
@@ -382,6 +653,9 @@ const jsonLd: Record<string, unknown>[] = [
     }
     .biz-sidebar {
       display: none;
+    }
+    .hero-split {
+      grid-template-columns: 1fr;
     }
   }
 </style>
