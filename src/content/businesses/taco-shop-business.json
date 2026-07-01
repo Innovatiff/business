@@ -14,24 +14,70 @@
   "biggestRisk": "Committing to a lease and buildout before proving demand, then losing the margin between food cost, labor, rent, and slow shifts until working capital runs dry",
   "speedToIncome": "long",
   "minWeeklyHours": 55,
-  "skills": ["food", "people", "finance", "sales"],
-  "workLocations": ["space"],
-  "priorities": ["max-income", "sellable"],
+  "skills": [
+    "food",
+    "people",
+    "finance",
+    "sales"
+  ],
+  "workLocations": [
+    "space"
+  ],
+  "priorities": [
+    "max-income",
+    "sellable"
+  ],
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
   "whatItIs": "A taco shop is a focused storefront restaurant — usually fast-casual or quick-service — built around tacos, burritos, and a tight Mexican-inspired menu for dine-in, carryout, and often delivery. Compared with a full-service restaurant, the appeal is operational simplicity: a smaller menu, faster ticket times, lower equipment needs than a pizza oven setup, and ingredients that cross over across many dishes, which helps control waste. The flip side is the same thin-margin reality as all food service: cheap-sounding ingredients get squeezed by rent, labor, and protein cost swings.",
   "dailyReality": "The day runs on prep — marinating and cooking proteins, chopping produce, making salsas and beans, and warming tortillas — followed by a lunch rush, a slower afternoon, and a dinner push. A focused menu means speed: you are assembling orders fast and keeping the line moving. As owner you cook, run the register, manage inventory and a small crew, and handle the equipment breakdowns and no-shows. Lunch and weekend dinner carry most operations, and protein price spikes can quietly erode a good month.",
   "startupCostsItemized": [
-    { "item": "Lease deposit, first/last month rent", "low": 7000, "high": 35000 },
-    { "item": "Kitchen buildout, hood, plumbing, electrical", "low": 20000, "high": 150000 },
-    { "item": "Cooking line: flat-top, range, fryer, steam table", "low": 6000, "high": 40000 },
-    { "item": "Refrigeration, prep tables, and smallwares", "low": 8000, "high": 40000 },
-    { "item": "POS and online ordering setup", "low": 1500, "high": 8000 },
-    { "item": "Initial inventory and ingredients", "low": 2500, "high": 9000 },
-    { "item": "Licenses, permits, health inspection, food handler certs", "low": 1500, "high": 8000 },
-    { "item": "Signage, dine-in furnishings, and branding", "low": 3000, "high": 28000 },
-    { "item": "Working capital for early payroll and slow months", "low": 12000, "high": 45000 }
+    {
+      "item": "Lease deposit, first/last month rent",
+      "low": 7000,
+      "high": 35000
+    },
+    {
+      "item": "Kitchen buildout, hood, plumbing, electrical",
+      "low": 20000,
+      "high": 150000
+    },
+    {
+      "item": "Cooking line: flat-top, range, fryer, steam table",
+      "low": 6000,
+      "high": 40000
+    },
+    {
+      "item": "Refrigeration, prep tables, and smallwares",
+      "low": 8000,
+      "high": 40000
+    },
+    {
+      "item": "POS and online ordering setup",
+      "low": 1500,
+      "high": 8000
+    },
+    {
+      "item": "Initial inventory and ingredients",
+      "low": 2500,
+      "high": 9000
+    },
+    {
+      "item": "Licenses, permits, health inspection, food handler certs",
+      "low": 1500,
+      "high": 8000
+    },
+    {
+      "item": "Signage, dine-in furnishings, and branding",
+      "low": 3000,
+      "high": 28000
+    },
+    {
+      "item": "Working capital for early payroll and slow months",
+      "low": 12000,
+      "high": 45000
+    }
   ],
   "realEarnings": {
     "yearOne": "Most taco shops break even or run a modest loss in year one while the customer base builds and the owner dials in cost. Owner take-home in the first 12 months realistically ranges from near zero (or negative) to roughly $3,000 to $7,000 per month for a hands-on owner-operator working the line.",
@@ -73,12 +119,43 @@
     "Inconsistent product and slow service, which kill the repeat lunch crowd a taco shop depends on"
   ],
   "toolsAndEquipment": [
-    { "item": "Flat-top griddle and range", "note": "Core cooking surface for proteins, fajitas, and tortillas; used commercial units cut cost.", "low": 2000, "high": 15000 },
-    { "item": "Refrigeration and refrigerated prep table", "note": "Reach-ins plus a refrigerated makeline for fast assembly; a walk-in if volume warrants.", "low": 5000, "high": 30000 },
-    { "item": "Steam table / hot wells", "note": "Holds proteins, beans, and rice at temperature for fast service.", "low": 800, "high": 4000 },
-    { "item": "POS and online ordering system", "note": "Toast, Square, or similar; direct online ordering protects margin versus apps.", "low": 1500, "high": 8000 },
-    { "item": "Smallwares, prep tools, and serving supplies", "note": "Easy to underbudget; the many small items add up.", "low": 2000, "high": 7000 },
-    { "item": "Fryer", "note": "For chips, taquitos, or fried items; optional depending on menu.", "low": 700, "high": 5000, "optional": true }
+    {
+      "item": "Flat-top griddle and range",
+      "note": "Core cooking surface for proteins, fajitas, and tortillas; used commercial units cut cost.",
+      "low": 2000,
+      "high": 15000
+    },
+    {
+      "item": "Refrigeration and refrigerated prep table",
+      "note": "Reach-ins plus a refrigerated makeline for fast assembly; a walk-in if volume warrants.",
+      "low": 5000,
+      "high": 30000
+    },
+    {
+      "item": "Steam table / hot wells",
+      "note": "Holds proteins, beans, and rice at temperature for fast service.",
+      "low": 800,
+      "high": 4000
+    },
+    {
+      "item": "POS and online ordering system",
+      "note": "Square, Toast, or Clover; pushing customers to direct online ordering keeps delivery-app commissions from eating your margin.",
+      "low": 1500,
+      "high": 8000
+    },
+    {
+      "item": "Smallwares, prep tools, and serving supplies",
+      "note": "Easy to underbudget; the many small items add up.",
+      "low": 2000,
+      "high": 7000
+    },
+    {
+      "item": "Fryer",
+      "note": "For chips, taquitos, or fried items; optional depending on menu.",
+      "low": 700,
+      "high": 5000,
+      "optional": true
+    }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -101,15 +178,15 @@
   "fitChecklist": {
     "strongFit": [
       "You have restaurant or food operations experience and can run a fast line",
-      "You are comfortable reading a P&L and managing food and labor cost weekly",
-      "You can fund or finance buildout plus months of operating runway",
+      "You will act on food cost near 30% and labor near 28% every week, repricing when beef or chicken jumps",
+      "You can fund or finance the kitchen buildout and hood plus 12-plus months of payroll and slow-season runway",
       "You are willing to work lunches, nights, and weekends on the line for the first year"
     ],
     "poorFit": [
-      "You want low startup cost or fast first income",
-      "You are uncomfortable with thin margins and tight daily cost control",
-      "You cannot personally survive long, physical hours during the ramp",
-      "You expect to be hands-off early or treat it as passive income"
+      "You want a low buildout cost or income before the 5-to-12-month ramp is over",
+      "You dislike defending 6% to 14% net margins by tracking food and labor cost every shift",
+      "You cannot personally work 55-plus-hour weeks on the line through the first year",
+      "You expect to step off the line early or run the shop as passive income"
     ],
     "askYourself": [
       "Does my location have the lunch traffic and density to hit my break-even covers per day?",

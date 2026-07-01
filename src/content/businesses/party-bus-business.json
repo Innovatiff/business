@@ -14,23 +14,68 @@
   "biggestRisk": "Commercial insurance and a loan or lease on a depreciating vehicle that idles most weekdays while payments and premiums never stop",
   "speedToIncome": "months",
   "minWeeklyHours": 20,
-  "skills": ["people", "sales", "hands"],
-  "workLocations": ["mobile"],
-  "priorities": ["max-income", "sellable"],
+  "skills": [
+    "people",
+    "sales",
+    "hands"
+  ],
+  "workLocations": [
+    "mobile"
+  ],
+  "priorities": [
+    "max-income",
+    "sellable"
+  ],
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
   "whatItIs": "A party bus and limo business provides chauffeured group transportation for weddings, proms, bachelor and bachelorette parties, wine tours, corporate events, airport runs, and nights out. The product is the experience and the safe, professional ride, not just the miles. It is heavily regulated: most jurisdictions require commercial vehicle registration, a chauffeur or commercial driver's license depending on seating capacity, DOT registration for interstate operation, and expensive commercial passenger insurance. The vehicle — a stretch limo, a converted party bus with lighting and sound, or an executive sprinter van — is a large, depreciating, financed asset, which makes this far more capital-intensive than most service businesses.",
   "dailyReality": "Demand is concentrated at night and on weekends, so your week revolves around Friday and Saturday events plus prom and wedding seasons. A typical event means cleaning and prepping the vehicle, confirming the itinerary and stops with the client, driving safely while managing a celebrating group, handling alcohol-policy and safety boundaries, and keeping to a schedule. Around the driving you spend significant time quoting bookings, collecting deposits, scheduling, maintaining the vehicle, and keeping licensing, inspections, and insurance current. Vehicle maintenance and breakdown risk are constant background concerns because a dead vehicle on a wedding day is a disaster for both the client and your reputation.",
   "startupCostsItemized": [
-    { "item": "Vehicle — used stretch limo or party bus", "low": 20000, "high": 90000 },
-    { "item": "Vehicle down payment if financing a newer bus", "low": 0, "high": 40000, "optional": true },
-    { "item": "Commercial passenger / livery insurance", "low": 6000, "high": 20000, "annual": true },
-    { "item": "DOT registration, USDOT/MC numbers, and state livery permits", "low": 500, "high": 3000 },
-    { "item": "Commercial vehicle registration and inspections", "low": 500, "high": 3000, "annual": true },
-    { "item": "Chauffeur / CDL with passenger endorsement (training and fees)", "low": 100, "high": 2000 },
-    { "item": "Interior upgrades, lighting, sound, detailing", "low": 1000, "high": 10000, "optional": true },
-    { "item": "Booking software, website, and launch marketing", "low": 500, "high": 4000 }
+    {
+      "item": "Vehicle — used stretch limo or party bus",
+      "low": 20000,
+      "high": 90000
+    },
+    {
+      "item": "Vehicle down payment if financing a newer bus",
+      "low": 0,
+      "high": 40000,
+      "optional": true
+    },
+    {
+      "item": "Commercial passenger / livery insurance",
+      "low": 6000,
+      "high": 20000,
+      "annual": true
+    },
+    {
+      "item": "DOT registration, USDOT/MC numbers, and state livery permits",
+      "low": 500,
+      "high": 3000
+    },
+    {
+      "item": "Commercial vehicle registration and inspections",
+      "low": 500,
+      "high": 3000,
+      "annual": true
+    },
+    {
+      "item": "Chauffeur / CDL with passenger endorsement (training and fees)",
+      "low": 100,
+      "high": 2000
+    },
+    {
+      "item": "Interior upgrades, lighting, sound, detailing",
+      "low": 1000,
+      "high": 10000,
+      "optional": true
+    },
+    {
+      "item": "Booking software, website, and launch marketing",
+      "low": 500,
+      "high": 4000
+    }
   ],
   "realEarnings": {
     "yearOne": "Most single-vehicle operators in year one earn $3,000 to $7,000 per month in revenue during busy seasons, far less in slow winter months, and after a vehicle payment, insurance, fuel, and maintenance, take-home is often modest until bookings are consistent.",
@@ -72,12 +117,42 @@
     "Buying a cheap, high-mileage vehicle whose repair bills and downtime erase the savings"
   ],
   "toolsAndEquipment": [
-    { "item": "Party bus, stretch limo, or executive van", "note": "Your core asset and largest cost; capacity determines licensing requirements, so choose deliberately.", "low": 20000, "high": 130000 },
-    { "item": "Commercial passenger insurance", "note": "Mandatory and expensive; get binding quotes before buying a vehicle.", "low": 6000, "high": 20000 },
-    { "item": "Interior lighting, sound system, partition", "note": "The party-bus experience; can be added gradually rather than all at once.", "low": 1000, "high": 10000 },
-    { "item": "Booking and dispatch software", "note": "Online quotes, deposits, and itineraries reduce no-shows and double-bookings.", "low": 0, "high": 1500 },
-    { "item": "Cleaning, detailing, and maintenance supplies", "note": "Vehicles must be spotless every event; budget for frequent professional detailing.", "low": 300, "high": 2000 },
-    { "item": "Coolers, glassware, and amenities", "note": "Optional extras that justify premium packages.", "low": 100, "high": 1000 }
+    {
+      "item": "Party bus, stretch limo, or executive van",
+      "note": "Your core asset and largest cost; capacity determines licensing requirements, so choose deliberately.",
+      "low": 20000,
+      "high": 130000
+    },
+    {
+      "item": "Commercial passenger insurance",
+      "note": "Mandatory and expensive; get binding quotes before buying a vehicle.",
+      "low": 6000,
+      "high": 20000
+    },
+    {
+      "item": "Interior lighting, sound system, partition",
+      "note": "The party-bus experience; can be added gradually rather than all at once.",
+      "low": 1000,
+      "high": 10000
+    },
+    {
+      "item": "Booking and dispatch software",
+      "note": "Online quotes, deposits, and itineraries reduce no-shows and double-bookings.",
+      "low": 0,
+      "high": 1500
+    },
+    {
+      "item": "Cleaning, detailing, and maintenance supplies",
+      "note": "Vehicles must be spotless every event; budget for frequent professional detailing.",
+      "low": 300,
+      "high": 2000
+    },
+    {
+      "item": "Coolers, glassware, and amenities",
+      "note": "Optional extras that justify premium packages.",
+      "low": 100,
+      "high": 1000
+    }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -89,7 +164,7 @@
     ],
     "whereCustomersAre": "Couples and families planning weddings, parents booking proms, groups planning bachelor and bachelorette parties and wine tours, and companies needing executive or group transport. Most demand clusters around weekends and seasonal peaks.",
     "timeToClientBase": "Building a reliable referral pipeline with planners and venues typically takes one to two event seasons. Individual bookings can start within weeks of listing, but consistency comes from repeat professional relationships.",
-    "wasteOfTime": "Broad untargeted advertising and competing purely on lowest price. The clients who book on price alone are the most likely to cancel or damage the vehicle; referrals and reviews convert far better."
+    "wasteOfTime": "Blasting cheap discount ads to win bookings on price alone. The clients who book on price alone are the most likely to cancel or damage the vehicle; referrals and reviews convert far better."
   },
   "howItScales": {
     "toFullTime": "Yes, but seasonality means one vehicle rarely produces stable year-round full-time income. Reaching full-time usually requires multiple vehicles or strong corporate and year-round event accounts to fill slow months.",

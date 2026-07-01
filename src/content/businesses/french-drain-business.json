@@ -14,23 +14,67 @@
   "biggestRisk": "Installing a drain that does not actually solve the homeowner's water problem, leading to callbacks, refunds, and disputes when the basement floods again",
   "speedToIncome": "weeks",
   "minWeeklyHours": 20,
-  "skills": ["hands", "people", "finance"],
-  "workLocations": ["mobile"],
-  "priorities": ["max-income", "helping", "sellable"],
+  "skills": [
+    "hands",
+    "people",
+    "finance"
+  ],
+  "workLocations": [
+    "mobile"
+  ],
+  "priorities": [
+    "max-income",
+    "helping",
+    "sellable"
+  ],
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
   "whatItIs": "A French drain and yard drainage business solves residential and commercial water problems — soggy yards, water pooling against foundations, wet basements, and erosion. Core work includes French drains (gravel-filled trenches with perforated pipe), surface and channel drains, downspout extensions and pop-up emitters, dry wells, swales and regrading, and sump and curtain drain systems. It is part excavation and part diagnosis: the value is in correctly identifying where water comes from and where it should go, not just digging a trench.",
   "dailyReality": "A typical job runs one to several days. You start by diagnosing the water source on site — tracing grade, downspouts, water table, and runoff patterns, often after rain. Then it is heavy work: trenching with a trencher or excavator, laying gravel and perforated pipe wrapped in filter fabric, connecting downspouts and catch basins, ensuring continuous fall toward a proper outlet, backfilling, and restoring the surface. Between jobs you assess sites, calculate materials and slope, quote, locate utilities before digging, and arrange equipment and material deliveries. Wet seasons drive demand and also dictate when you can dig.",
   "startupCostsItemized": [
-    { "item": "Truck and dump trailer", "low": 2000, "high": 15000 },
-    { "item": "Trencher and/or mini excavator (rent or buy)", "low": 400, "high": 12000 },
-    { "item": "Hand tools, levels, pipe tools, wet vac", "low": 400, "high": 2000 },
-    { "item": "General liability insurance", "low": 1000, "high": 3000, "annual": true },
-    { "item": "Contractor license / bonding (where required)", "low": 150, "high": 1500 },
-    { "item": "Business registration / LLC", "low": 50, "high": 400 },
-    { "item": "First-job material float (pipe, gravel, fabric, fittings)", "low": 800, "high": 3500 },
-    { "item": "Website, photos, and estimating software", "low": 0, "high": 600, "optional": true }
+    {
+      "item": "Truck and dump trailer",
+      "low": 2000,
+      "high": 15000
+    },
+    {
+      "item": "Trencher and/or mini excavator (rent or buy)",
+      "low": 400,
+      "high": 12000
+    },
+    {
+      "item": "Hand tools, levels, pipe tools, wet vac",
+      "low": 400,
+      "high": 2000
+    },
+    {
+      "item": "General liability insurance",
+      "low": 1000,
+      "high": 3000,
+      "annual": true
+    },
+    {
+      "item": "Contractor license / bonding (where required)",
+      "low": 150,
+      "high": 1500
+    },
+    {
+      "item": "Business registration / LLC",
+      "low": 50,
+      "high": 400
+    },
+    {
+      "item": "First-job material float (pipe, gravel, fabric, fittings)",
+      "low": 800,
+      "high": 3500
+    },
+    {
+      "item": "Website, photos, and estimating software",
+      "low": 0,
+      "high": 600,
+      "optional": true
+    }
   ],
   "realEarnings": {
     "yearOne": "A capable installer in year one with steady leads typically nets $3,500 to $7,000 per month in season, with swings driven by weather and equipment costs. Drainage jobs are high-ticket, so a single project can carry a slow week — and a misdiagnosed one can mean an unpaid redo.",
@@ -40,7 +84,7 @@
     "perHour": "Effective rate on a well-run job can be high, but counting diagnosis, quoting, equipment, material handling, and weather downtime, realistic blended rates for a solo-to-small operator run roughly $50 to $110 per hour."
   },
   "howToStart": [
-    "Weeks 1-2: Make sure you can actually diagnose water problems and read grade — work alongside an experienced drainage or excavation contractor first if needed. Learn the core systems (French drains, channel drains, dry wells, downspout management, regrading) and when each applies. Secure general liability insurance and any required license.",
+    "Weeks 1-2: Make sure you can actually diagnose water problems and read grade — work alongside an experienced drainage or excavation contractor first if needed. Learn the core systems (French drains, channel drains, dry wells, downspout management, regrading) and when each applies. Line up general liability insurance and any required excavation or contractor license before you dig for pay.",
     "Weeks 2-4: Set up utility-locate habits (call 811 before every dig) and decide whether to rent or buy a trencher and excavator. Define your offerings and build standard material lists so you can quote slope and footage accurately.",
     "Weeks 4-6: Do a demonstration job or document a thorough fix on your own property. Set pricing per linear foot plus diagnosis and outlet work, with contingencies for hard digging and utilities. Market through a Google Business Profile and referrals from landscapers, plumbers, and foundation companies, and close your first paid job.",
     "Months 2-4: Track material, equipment, and labor against estimates, and follow up after heavy rains to confirm fixes held. Add crew for trenching days and build relationships with material yards.",
@@ -72,12 +116,42 @@
     "Overpromising a dry basement when the real fix needs grading, gutters, or foundation waterproofing too"
   ],
   "toolsAndEquipment": [
-    { "item": "Trencher", "note": "Cuts clean drain trenches far faster than hand digging; rent per job until volume justifies buying.", "low": 400, "high": 8000 },
-    { "item": "Mini excavator or skid steer", "note": "For larger trenches, dry wells, and regrading; rent early in your growth.", "low": 500, "high": 12000 },
-    { "item": "Laser or transit level", "note": "Verifying continuous fall toward the outlet is what makes a drain actually work.", "low": 150, "high": 900 },
-    { "item": "Pipe, fittings, gravel, and filter fabric", "note": "Core consumables per job; buy quality fabric to prevent silting.", "low": 300, "high": 2500 },
-    { "item": "Dump trailer or truck", "note": "For hauling gravel and spoil; cuts costly material delivery and disposal fees.", "low": 2000, "high": 10000 },
-    { "item": "Wet vac, sump tools, and safety gear", "note": "For wet conditions, sump tie-ins, and trench and crew safety.", "low": 200, "high": 1200 }
+    {
+      "item": "Trencher",
+      "note": "Cuts clean drain trenches far faster than hand digging; rent per job until volume justifies buying.",
+      "low": 400,
+      "high": 8000
+    },
+    {
+      "item": "Mini excavator or skid steer",
+      "note": "For larger trenches, dry wells, and regrading; rent early in your growth.",
+      "low": 500,
+      "high": 12000
+    },
+    {
+      "item": "Laser or transit level",
+      "note": "Verifying continuous fall toward the outlet is what makes a drain actually work.",
+      "low": 150,
+      "high": 900
+    },
+    {
+      "item": "Pipe, fittings, gravel, and filter fabric",
+      "note": "Core consumables per job; buy quality fabric to prevent silting.",
+      "low": 300,
+      "high": 2500
+    },
+    {
+      "item": "Dump trailer or truck",
+      "note": "For hauling gravel and spoil; cuts costly material delivery and disposal fees.",
+      "low": 2000,
+      "high": 10000
+    },
+    {
+      "item": "Wet vac, sump tools, and safety gear",
+      "note": "For wet conditions, sump tie-ins, and trench and crew safety.",
+      "low": 200,
+      "high": 1200
+    }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -89,7 +163,7 @@
     ],
     "whereCustomersAre": "Homeowners with soggy yards, water against the foundation, or wet basements; properties on slopes or with poor original grading; and buyers or sellers whose inspections flagged water issues. Demand spikes during and right after wet seasons and storms.",
     "timeToClientBase": "First jobs typically come within three to six weeks of marketing, and demand surges after heavy rain. A steady, referral-fed pipeline usually develops over four to eight months as solved problems get reviewed and recommended.",
-    "wasteOfTime": "Broad untargeted advertising and competing purely on lowest price. Drainage is a problem-solving purchase, and the cheapest-bidder customers are the ones most likely to dispute the cost of a fix that actually works."
+    "wasteOfTime": "Chasing the lowest bid through mass, untargeted advertising. Drainage is a problem-solving purchase, and the cheapest-bidder customers are the ones most likely to dispute the cost of a fix that actually works."
   },
   "howItScales": {
     "toFullTime": "Yes. High per-job revenue and weather-driven demand mean a skilled installer with steady leads reaches full-time income, limited mainly by season, crew, and equipment capacity.",
