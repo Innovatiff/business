@@ -5,48 +5,66 @@ import { SITE } from '../config';
 ---
 <BaseLayout
   title="Contact Honestly Profitable"
-  description="Get in touch with Honestly Profitable — corrections, questions, feedback, or to flag an out-of-date number on a business page."
+  description="Get in touch with Honestly Profitable — corrections, operator data, general questions, press and advertising inquiries, or privacy requests. We read every message."
   path="/contact"
 >
   <div class="container container-narrow page-head">
     <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Contact' }]} />
     <h1>Contact us</h1>
-    <p class="lead">Questions, corrections, and feedback are genuinely welcome.</p>
+    <p class="lead">Questions, corrections, and feedback are genuinely welcome — and they make the site better.</p>
   </div>
 
   <div class="container container-narrow page-body">
     <p>
-      We are a small, independent reference site, and accuracy matters to us. If you spot a number
-      that looks wrong or out of date, run one of these businesses and want to share real figures,
-      or just have a question, we want to hear from you.
+      {SITE.name} is a small, independent reference site, and accuracy matters to us. Whether you have
+      spotted a number that looks off, run one of these businesses and want to share real figures, or
+      simply have a question, we would like to hear from you. Email is the best way to reach us.
     </p>
 
     <div class="contact-card card">
-      <span class="contact-label">Email</span>
+      <span class="contact-label">Email us</span>
       <a class="contact-email" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+      <span class="contact-sub">We read every message and typically reply within 2–5 business days.</span>
     </div>
 
-    <h2>Helpful things to include</h2>
+    <h2>What you can contact us about</h2>
     <ul>
-      <li>If it is a correction: the page, the figure you are flagging, and a source if you have one.</li>
-      <li>If you operate the business: rough real numbers (costs, earnings, time to first income) and your region.</li>
-      <li>If it is a general question: as much detail about your situation as you are comfortable sharing.</li>
+      <li><strong>Corrections &amp; accuracy.</strong> Tell us the page, the specific figure you are flagging, and a source if you have one. Corrections get priority.</li>
+      <li><strong>Operator insight.</strong> If you run one of these businesses, we would love your real numbers — rough startup cost, monthly earnings, time to first income — and your region. Real operator data makes the site more accurate for everyone.</li>
+      <li><strong>General questions.</strong> Ask away, and share as much about your situation as you are comfortable with so we can point you to the right resource.</li>
+      <li><strong>Press &amp; media.</strong> For interviews, citations, or coverage questions, email us and mention "Press" in the subject line.</li>
+      <li><strong>Advertising &amp; partnerships.</strong> For advertising or partnership inquiries, email us with "Advertising" in the subject line. Note that advertising never influences our content — see our <a href="/editorial-standards">editorial standards</a>.</li>
+      <li><strong>Privacy requests.</strong> To ask a privacy question or exercise a data right, email us with "Privacy" in the subject line. See our <a href="/privacy-policy">Privacy Policy</a>.</li>
     </ul>
 
+    <h2>Suggest a new business</h2>
     <p>
-      We read everything, though we cannot always reply individually. We do not provide personalized
-      financial, legal, or investment advice — see our <a href="/disclaimer">disclaimer</a>. To
-      suggest a whole new business for the site, use the
-      <a href="/submit-a-business-idea">submit a business idea</a> page.
+      Want us to add a whole new business to the library? Use the
+      <a href="/submit-a-business-idea">submit a business idea</a> page — it is the fastest way to get
+      a suggestion in front of us.
     </p>
+
+    <h2>What we can and cannot do</h2>
+    <p>
+      We read everything, though we cannot always reply individually, and response times can be longer
+      during busy periods. Please note that we <strong>cannot provide personalized financial, legal,
+      investment, or tax advice</strong>, and we cannot tell you whether a specific business will work
+      for your exact situation — that is what qualified local professionals and your own due diligence
+      are for. See our <a href="/disclaimer">disclaimer</a> for details.
+    </p>
+
+    <p class="page-updated">Last updated: July 2026 · {SITE.domain}</p>
   </div>
 </BaseLayout>
 
 <style>
   .contact-card {
-    padding: 1.5rem;
+    padding: 1.75rem 1.5rem;
     text-align: center;
     margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
   }
   .contact-label {
     display: block;
@@ -56,12 +74,16 @@ import { SITE } from '../config';
     letter-spacing: 0.06em;
     color: var(--muted);
     font-weight: 700;
-    margin-bottom: 0.4rem;
   }
   .contact-email {
     font-family: var(--font-display);
     font-size: 1.3rem;
     font-weight: 800;
     color: var(--green-dark);
+    word-break: break-word;
+  }
+  .contact-sub {
+    font-size: 0.9rem;
+    color: var(--muted);
   }
 </style>
