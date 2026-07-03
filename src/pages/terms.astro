@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../config';
+---
+<BaseLayout
+  title="Terms of Use"
+  description="The terms of use for Honestly Profitable. Educational information only — not financial, legal, or investment advice. Includes intellectual property, acceptable use, disclaimers, and limitation of liability."
+  path="/terms"
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Terms' }]} />
+    <h1>Terms of Use</h1>
+    <p class="lead">The agreement that governs your use of {SITE.name}. Please read it — using the site means you accept these terms.</p>
+  </div>
+
+  <div class="container container-narrow page-body">
+    <h2>1. Acceptance of these terms</h2>
+    <p>
+      These Terms of Use ("Terms") are a legal agreement between you and {SITE.name} ("we," "us," or
+      "our") governing your access to and use of <strong>{SITE.domain}</strong> and its content and
+      tools (the "site"). By accessing or using the site, you confirm that you have read, understood,
+      and agree to be bound by these Terms and by our
+      <a href="/privacy-policy">Privacy Policy</a> and <a href="/disclaimer">Disclaimer</a>. If you
+      do not agree, please do not use the site.
+    </p>
+
+    <h2>2. What the site is</h2>
+    <p>
+      {SITE.name} is an independent reference that publishes researched, educational breakdowns of
+      business models — startup costs, realistic earnings ranges, time to first income, difficulty,
+      risks, and how to start — along with an interactive Business Finder and category and filter
+      pages. It is an information resource, not a broker, lender, franchisor, employer, or advisor.
+    </p>
+
+    <h2>3. Educational information only — no professional advice</h2>
+    <p>
+      All content on the site is provided for general educational and informational purposes only. It
+      is not financial, legal, investment, tax, accounting, or other professional advice, and it is
+      not a recommendation to start any particular business. No professional or fiduciary
+      relationship is created by your use of the site. Starting a business involves real financial
+      risk. You are solely responsible for your own decisions and for doing your own research and
+      seeking qualified professional advice before spending money. See our
+      <a href="/disclaimer">Disclaimer</a> for more.
+    </p>
+
+    <h2>4. No guarantees</h2>
+    <p>
+      Startup costs, earnings ranges, timelines, and difficulty assessments are informed estimates
+      based on publicly reported data and operator accounts. They are not guarantees or predictions
+      of your results. Individual outcomes vary significantly based on location, skill, effort,
+      market conditions, regulation, and factors outside anyone's control. We make no warranty that
+      any business will be profitable or suitable for you.
+    </p>
+
+    <h2>5. Accuracy and changes to content</h2>
+    <p>
+      We work to keep content accurate and current and carry a "last reviewed" date on each business
+      page, but we do not warrant that content is complete, error-free, or up to date. Costs,
+      regulations, and market conditions change. We may update, add, or remove content at any time
+      without notice.
+    </p>
+
+    <h2>6. Intellectual property</h2>
+    <p>
+      The site and its content — text, data, page structure, design, logos, and code — are owned by
+      {SITE.name} or its licensors and are protected by copyright and other laws. We grant you a
+      limited, personal, non-exclusive, non-transferable license to access and read the site for your
+      own personal, non-commercial use. You may not copy, republish, scrape, resell, or create
+      derivative works from substantial portions of the content without our prior written permission.
+      Brief quotations with clear attribution and a link are welcome.
+    </p>
+
+    <h2>7. Acceptable use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Disrupt, overload, or attempt to gain unauthorized access to the site or its systems.</li>
+      <li>Scrape or harvest the site at a scale that burdens our infrastructure, or use automated means in violation of these Terms.</li>
+      <li>Republish substantial portions of our content, or present it as your own, without permission.</li>
+      <li>Use the site for any unlawful purpose or in a way that infringes others' rights.</li>
+    </ul>
+
+    <h2>8. Feedback and submissions</h2>
+    <p>
+      If you send us feedback, corrections, or a business suggestion, you grant us a non-exclusive,
+      royalty-free, worldwide license to use that input to improve the site, without obligation to
+      you. Please do not send confidential information; treat anything you send as non-confidential.
+    </p>
+
+    <h2>9. Third-party links and advertising</h2>
+    <p>
+      The site may contain links to third-party websites and data sources, and may display
+      third-party advertising (including through Google AdSense). We do not control and are not
+      responsible for the content, products, practices, or privacy of any third-party sites or
+      advertisers. Links and ads are provided for reference and are not endorsements. Your dealings
+      with any third party are solely between you and that party.
+    </p>
+
+    <h2>10. Disclaimer of warranties</h2>
+    <p>
+      The site and all content are provided "as is" and "as available," without warranties of any
+      kind, whether express or implied, including implied warranties of merchantability, fitness for
+      a particular purpose, accuracy, and non-infringement. We do not warrant that the site will be
+      uninterrupted, secure, or error-free.
+    </p>
+
+    <h2>11. Limitation of liability</h2>
+    <p>
+      To the fullest extent permitted by law, {SITE.name} and its operators are not liable for any
+      indirect, incidental, consequential, special, or punitive damages, or for any loss of profits,
+      capital, data, or business, arising from your use of, or reliance on, anything on this site,
+      even if advised of the possibility. You use the site and act on its information entirely at
+      your own risk.
+    </p>
+
+    <h2>12. Indemnification</h2>
+    <p>
+      You agree to indemnify and hold harmless {SITE.name} and its operators from any claims,
+      damages, or expenses arising out of your misuse of the site or your violation of these Terms or
+      applicable law.
+    </p>
+
+    <h2>13. Governing law and severability</h2>
+    <p>
+      These Terms are governed by the laws of the United States and the state in which the site's
+      operator is based, without regard to conflict-of-laws rules. If any provision is found
+      unenforceable, the remaining provisions remain in full effect.
+    </p>
+
+    <h2>14. Changes to these terms</h2>
+    <p>We may revise these Terms from time to time. We will update the date below when we do, and continued use of the site after changes means you accept the revised Terms.</p>
+
+    <h2>15. Contact</h2>
+    <p>Questions about these Terms? Reach us at <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or via our <a href="/contact">contact page</a>.</p>
+
+    <p class="page-updated">Last updated: July 2026 · {SITE.domain}</p>
+  </div>
+</BaseLayout>

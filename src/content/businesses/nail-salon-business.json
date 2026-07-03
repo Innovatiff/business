@@ -1,0 +1,164 @@
+{
+  "title": "Nail Salon Business",
+  "slug": "nail-salon-business",
+  "category": "health-and-wellness",
+  "metaTitle": "How to Start a Nail Salon Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a nail salon: nail-tech licensing, ventilation and health codes, real startup costs, booth-rent vs employee models, earnings, and common mistakes.",
+  "startupCostLow": 30000,
+  "startupCostHigh": 150000,
+  "monthlyEarningsLow": 3000,
+  "monthlyEarningsHigh": 14000,
+  "timeToFirstIncome": "3 to 6 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Licensed nail techs or detail-oriented owners who want a fixed-location service business with recurring clients and can manage staff and health-code compliance",
+  "biggestRisk": "Committing to a high-rent location and full buildout, then failing to keep stations busy enough to cover fixed costs and retain techs",
+  "speedToIncome": "months",
+  "minWeeklyHours": 40,
+  "skills": ["hands", "people"],
+  "workLocations": ["space"],
+  "priorities": ["max-income", "helping", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A nail salon is a physical service business where licensed technicians provide manicures, pedicures, gel and acrylic enhancements, dip powder, and nail art in a fixed location. Like a barbershop, owning a salon is a different job from being a nail tech: you take on a lease, a buildout with specialized plumbing and ventilation, multiple stations and pedicure chairs, inventory, and usually staff. Nail work is heavily regulated for health and safety. Each technician needs a state nail-technician (manicurist) or cosmetology license, and the salon must pass health-department and state-board inspections covering sanitation, sterilization of tools, and especially ventilation — the chemicals used in acrylics and gels make airflow and proper exhaust a serious code and health issue.",
+  "dailyReality": "If you work a station yourself, a typical day is detailed, close-up handwork — shaping, filing, applying and curing gel or acrylic, painting, and doing nail art — with services running 30 minutes for a basic manicure to two hours for a full set with art. You sanitize and sterilize tools between every client, keep the ventilation and stations clean for inspections, manage the booking app and walk-ins, restock products, and handle no-shows. Beyond the chair you are ordering supplies, paying or collecting from techs, covering shifts, and keeping the chemical inventory and disposal compliant. The work is social and repetitive, with strong repeat clients who return every two to four weeks, but it is physically taxing on the hands, neck, and back and the busiest hours are evenings and weekends.",
+  "startupCostsItemized": [
+    { "item": "Lease deposit and first/last month rent", "low": 4000, "high": 22000 },
+    { "item": "Buildout, plumbing for pedicure chairs, and ventilation/exhaust", "low": 12000, "high": 70000 },
+    { "item": "Pedicure spa chairs", "low": 1500, "high": 4000 },
+    { "item": "Manicure stations, lamps, and tools (per station)", "low": 600, "high": 2500 },
+    { "item": "Nail-tech/cosmetology licenses and salon establishment license", "low": 100, "high": 1200, "annual": true },
+    { "item": "General liability and property insurance", "low": 600, "high": 2500, "annual": true },
+    { "item": "Initial product inventory (gels, acrylics, polishes, supplies)", "low": 1500, "high": 6000 },
+    { "item": "Booking software, POS, and signage", "low": 500, "high": 3000 },
+    { "item": "Sterilization equipment (autoclave/UV, implements)", "low": 300, "high": 2000 }
+  ],
+  "realEarnings": {
+    "yearOne": "An owner-operator who works a station and rents out or staffs a few others typically nets $3,000 to $6,000 per month in year one, after rent, products, and utilities — and often less while the schedule fills out. Many owners draw little in the first few months while building a regular clientele.",
+    "experienced": "Established salons with a full book and four to eight busy stations commonly net $6,000 to $12,000 per month for the owner. The number swings with the model: booth/station renters provide steadier rent income, while an employee or commission model can earn more per chair but adds payroll and management.",
+    "topEarners": "Top single-location owners with eight to fifteen stations, a strong brand, premium services and add-ons, and waitlisted techs net $12,000 to $25,000+ per month, and some build multi-location groups. Getting there took years of reputation, low tech turnover, premium pricing, and running the salon as a real business — most owners are content with one consistently profitable location.",
+    "whatAffectsMost": "Station utilization and tech retention matter most: an idle chair still pays rent, and a tech who leaves can take dozens of regulars. Service mix (a full acrylic set with art earns far more than a basic polish change), location foot traffic, average ticket with add-ons, and your booth-rent vs employee model are the other big levers.",
+    "perHour": "A tech working a busy station effectively earns $30 to $70 per hour of service before tips, with premium nail art and full sets at the top of that range. For an owner, blended rates after all the unpaid management time are realistically $25 to $55 per hour, especially in the early years."
+  },
+  "howToStart": [
+    "Before anything: Get and keep your state nail-tech or cosmetology license current, and build a loyal personal client base working in an established salon first. Owners who bring their own regulars fill stations far faster.",
+    "Months 1-2: Choose your model — owner-operator who also rents stations, a booth/station-rental salon where each tech pays rent, or an employee/commission salon where you keep service revenue and pay techs. Run conservative numbers on rent, station count, and realistic utilization before signing.",
+    "Months 2-4: Secure a visible location with parking, negotiate the lease carefully, and build out the space to meet plumbing, sanitation, and especially ventilation requirements. Ventilation and exhaust for acrylic and gel fumes is a frequent inspection failure point — design for it from the start.",
+    "Month 4-5: Recruit licensed techs (ideally with their own followings), set up online booking and POS, install sterilization equipment, and stock inventory. Confirm every tech's license is active and your salon establishment license and health-department approval are in hand before opening.",
+    "Launch and ongoing: Open with a local promotion, have each tech promote to their own clients, collect Google and Yelp reviews from day one, and track station utilization weekly. Push add-on services and rebooking to lift average ticket, and fill or sublease idle stations before rent erodes the margin."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "A current state nail-tech or cosmetology license if you plan to work a station",
+      "Detail orientation and steady hands for precise, close-up work, plus genuine people skills",
+      "Reliability and stamina for long days of focused handwork, including evenings and weekends"
+    ],
+    "canLearn": [
+      "Small-business basics: leases, POS, scheduling, and tracking station utilization",
+      "Health-code, sanitation, and ventilation compliance specific to nail chemicals",
+      "Recruiting and managing techs under booth-rent or employee arrangements"
+    ],
+    "separators": [
+      "A loyal personal client base and a service menu weighted toward higher-ticket sets and nail art, not just polish changes",
+      "Retaining skilled techs so their clients stay with the salon instead of following them elsewhere",
+      "Premium positioning and consistent quality that lets you charge above the race-to-the-bottom local pricing"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Committing to a high-rent location and full buildout before proving there is enough recurring demand to keep stations busy",
+    "Underbuilding ventilation and exhaust for acrylic and gel fumes, which fails inspections and harms staff health over time",
+    "Competing only on being the cheapest, which crushes margins in an already price-competitive market instead of building a premium, higher-ticket menu",
+    "Treating it like being a tech rather than a business — neglecting payroll, inventory, scheduling, and compliance",
+    "Letting top techs leave with their entire client list because there was no shop loyalty, brand, or system holding clients to the salon",
+    "Skipping or shortcutting sterilization and sanitation, risking client infections, bad reviews, fines, or closure"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Pedicure spa chairs", "note": "A major fixed cost; quality chairs with proper plumbing last years and define the client experience.", "low": 1500, "high": 4000 },
+    { "item": "Manicure stations, lamps, and e-files", "note": "Price per station. Good LED lamps and tools speed services and improve results.", "low": 600, "high": 2500 },
+    { "item": "Ventilation and source-capture exhaust", "note": "Essential for acrylic/gel fumes, staff health, and passing inspection. Do not cut corners here.", "low": 1000, "high": 8000 },
+    { "item": "Sterilization equipment", "note": "Autoclave or UV plus implements. Required by health code and central to client trust.", "low": 300, "high": 2000 },
+    { "item": "Product inventory (gels, acrylics, polish, supplies)", "note": "Recurring consumable cost; buy reputable brands and manage shelf life and chemical disposal.", "low": 1500, "high": 6000 },
+    { "item": "Online booking and POS system", "note": "Vagaro, Square, or similar. Reduces no-shows and tracks each station's revenue and tips.", "low": 0, "high": 1200 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Each tech's existing personal following — recruiting techs who bring regulars is the fastest way to fill stations",
+      "A complete Google Business Profile plus Yelp, with photos and steady reviews, the top driver of local bookings",
+      "Instagram and TikTok showcasing real nail art and sets, which performs strongly for nail services",
+      "Online booking through Vagaro, Square, or Booksy so clients self-schedule and rebook easily",
+      "Loyalty cards, referral incentives, and add-on offers to drive the every-few-weeks return visit and lift average ticket"
+    ],
+    "whereCustomersAre": "Local clients — heavily women — who book recurring manicures and pedicures every two to four weeks, concentrated near your location and driven by reviews, photos, and walk-in visibility in retail or strip-mall settings.",
+    "timeToClientBase": "Techs who bring an existing book can be busy within weeks; building the salon's own steady, repeat clientele from scratch usually takes three to six months, and filling multiple stations across the week can take a year or more.",
+    "wasteOfTime": "Broad paid ads outside your immediate area and expensive branding before you have a photo portfolio and reviews. Early on, techs' social proof, nail-art photos, and a strong local profile convert far better."
+  },
+  "howItScales": {
+    "toFullTime": "Yes — an owner-operator who works a station and rents or staffs a few others can reach a solid full-time income. Your own handwork is capped by hours, so meaningful growth comes from adding stations and higher-ticket services, not from working faster.",
+    "hireAndStepBack": "Possible, with trade-offs by model. A station-rental salon can run with limited owner labor once stations are leased and techs manage their own books. An employee/commission salon can earn more per chair but requires real management of payroll, scheduling, inventory, and turnover, and stepping out of the chair means relying on a trusted lead tech or manager.",
+    "sellable": "Established salons with a known name, stable techs, a good lease, compliant buildout, and clean financials do sell, typically for a modest multiple of profit plus equipment value. A salon that is purely one owner's personal clients is much harder to sell.",
+    "whatScalingRequires": "Filling and keeping stations, retaining skilled techs with fair splits and a brand worth staying for, standardized sanitation and service systems, premium pricing, and eventually a second location with a manager. As with most service shops, tech retention — not demand — is usually the binding constraint."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are a licensed nail tech with a loyal client base, or a detail-oriented operator willing to manage techs and compliance",
+      "You enjoy precise handwork and building repeat relationships with regular clients",
+      "You can handle long days, evenings, and weekends in a fixed location",
+      "You want a tangible local business you could grow or eventually sell"
+    ],
+    "poorFit": [
+      "You want passive or low-effort income or to avoid a fixed location and physical work",
+      "You are unwilling to complete nail-tech licensing or to manage strict health-code and ventilation requirements",
+      "You cannot absorb several months of high fixed rent before the salon is profitable",
+      "You dislike managing people, inventory, and the unglamorous compliance side of the business"
+    ],
+    "askYourself": [
+      "Do I have enough personal clients, or techs who will bring theirs, to fill the stations I am paying rent on?",
+      "Can the rent, products, and overhead be covered at realistic utilization, not just on a busy weekend?",
+      "Am I prepared to build and maintain proper ventilation, sterilization, and sanitation to pass inspections and protect staff?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to open a nail salon?",
+      "answer": "Yes. In nearly every state each technician needs an individual nail-technician (manicurist) or cosmetology license earned through state-approved training hours and an exam, and the salon needs a separate establishment license. The salon must also pass health-department and state-board inspections covering sanitation, tool sterilization, and ventilation. Requirements vary by state, so check your state's cosmetology board before leasing."
+    },
+    {
+      "question": "Why is ventilation such a big deal in a nail salon?",
+      "answer": "Acrylics, gels, and the solvents used in nail services release fumes and fine dust that are both a health hazard for staff and a common inspection issue. Health codes increasingly require proper general ventilation and often source-capture exhaust at stations. Building adequate ventilation into the buildout from the start is far cheaper than retrofitting it after a failed inspection."
+    },
+    {
+      "question": "What is the difference between booth rental and an employee model?",
+      "answer": "In a booth/station-rental salon, each tech is an independent contractor who pays you rent and keeps their own service revenue — steadier and lower-risk for you, but lower upside. In an employee or commission model you keep the service revenue and pay techs, which can earn more per station but adds payroll taxes, scheduling, and turnover management. Many salons blend both."
+    },
+    {
+      "question": "How much does it cost to open a nail salon?",
+      "answer": "A lean salon in a space already plumbed for spa chairs with a few stations can open for roughly $30,000 to $50,000. A full buildout in raw retail space with multiple pedicure chairs, ventilation, and branding commonly runs $70,000 to $150,000 or more. The buildout and lease are usually the largest costs, which is why proving demand before committing matters."
+    },
+    {
+      "question": "Can I own a nail salon without being a licensed tech?",
+      "answer": "In most states you can own the business without holding a nail-tech license yourself, provided the salon has an establishment license and every technician is individually licensed. The trade-off is that non-tech owners cannot fill a station in a pinch and must rely entirely on recruiting and retaining good techs and managing compliance, which is the hardest part of the business."
+    },
+    {
+      "question": "How long until a nail salon is profitable?",
+      "answer": "Most salons take three to six months to cover their fixed costs and longer to reach steady profit, because rent, utilities, and inventory begin immediately while stations fill gradually. Owners who arrive with a client book or recruit techs with followings get there faster. Plan to run at or below break-even for the first several months."
+    },
+    {
+      "question": "Is the nail salon market too saturated to enter?",
+      "answer": "Nail services are popular and recurring, but many markets are crowded and competitive on price. Succeeding usually means differentiating on quality, cleanliness, higher-ticket services like custom nail art, premium experience, and a strong local reputation rather than racing to the lowest price. In a price-only fight, margins disappear quickly."
+    }
+  ],
+  "similarBusinesses": [
+    "esthetician-business",
+    "massage-therapy-business",
+    "barbershop-business",
+    "lash-extension-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Manicurists and Pedicurists occupational data",
+    "State cosmetology and nail-technology boards (licensing hours, establishment licenses, sanitation and ventilation rules)",
+    "OSHA and EPA guidance on nail-salon chemical exposure and ventilation",
+    "Professional Beauty Association and salon industry cost and revenue reports",
+    "Booking platform data (Vagaro, Square) and operator communities for real-world pricing and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

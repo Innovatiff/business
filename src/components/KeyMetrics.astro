@@ -1,0 +1,57 @@
+---
+/**
+ * A "by the numbers" band of extra metric callouts (profit margin, average job
+ * value, jobs/month to hit a target, break-even, etc.). Uses the page accent.
+ */
+export interface Props {
+  metrics: { label: string; value: string; note?: string }[];
+}
+const { metrics } = Astro.props;
+---
+
+<div class="key-metrics" data-count={metrics.length}>
+  {metrics.map((m) => (
+    <div class="km-cell">
+      <span class="km-value figure">{m.value}</span>
+      <span class="km-label">{m.label}</span>
+      {m.note && <span class="km-note">{m.note}</span>}
+    </div>
+  ))}
+</div>
+
+<style>
+  .key-metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .km-cell {
+    background: #fff;
+    padding: 1.2rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    border-top: 3px solid var(--accent, var(--navy));
+  }
+  .km-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--accent-dark, var(--navy));
+    line-height: 1.1;
+  }
+  .km-label {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--navy);
+  }
+  .km-note {
+    font-size: 0.82rem;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+</style>

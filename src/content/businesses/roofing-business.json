@@ -1,0 +1,163 @@
+{
+  "title": "Roofing Business",
+  "slug": "roofing-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Roofing Business — Real Costs, Earnings, and Risks",
+  "metaDescription": "Honest breakdown of starting a roofing business: real startup costs, licensing and insurance, realistic earnings, storm work, and what most operators get wrong.",
+  "startupCostLow": 15000,
+  "startupCostHigh": 150000,
+  "monthlyEarningsLow": 5000,
+  "monthlyEarningsHigh": 40000,
+  "timeToFirstIncome": "2 to 6 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced roofers or contractors ready to carry heavy licensing, insurance, and crews for high-ticket work",
+  "biggestRisk": "A fall or serious injury, or a botched roof, that triggers liability the business cannot absorb without proper insurance",
+  "speedToIncome": "months",
+  "minWeeklyHours": 40,
+  "skills": ["hands", "sales", "finance"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A roofing business installs, replaces, and repairs residential (and sometimes commercial) roofs — tearing off old shingles, repairing decking, and installing new asphalt shingle, metal, tile, or flat-roof systems. It is one of the highest-ticket trades, with full residential re-roofs commonly running from the high thousands into the tens of thousands of dollars, which means strong revenue potential but also serious capital, labor, licensing, insurance, and liability requirements. This is not a low-cost side hustle; it is a real construction company.\n\nMost successful owners come into it with hands-on roofing or construction experience, because the work is dangerous, weather-driven, and unforgiving of mistakes. Roofing is heavily regulated: most states require a contractor's license to bid and pull permits, and you must carry general liability and, critically, workers' compensation insurance for crews working at height. A large share of the industry's volume is storm- and insurance-driven — hail, wind, and storm damage send homeowners filing claims — so understanding insurance work and adjusters is part of the business. The combination of high tickets and high risk is what defines it.",
+  "dailyReality": "On install days you and the crew arrive early, set up safety and fall protection, tear off the old roof, inspect and repair decking, dry-in with underlayment, and install the new system, racing weather and aiming to button up before rain. A residential re-roof is often one to three days. As the owner, much of your week is not on the roof: you are inspecting roofs and writing estimates, meeting homeowners and sometimes insurance adjusters, ordering material deliveries, scheduling crews, managing permits and inspections, chasing payments, and handling the constant phone traffic of an active contracting business. Weather can wipe out a planned week, and managing crew safety is a daily, non-negotiable responsibility.",
+  "startupCostsItemized": [
+    { "item": "Contractor's license, bonding, and permit/exam fees", "low": 500, "high": 5000 },
+    { "item": "General liability insurance", "low": 2000, "high": 10000, "annual": true },
+    { "item": "Workers' compensation insurance (with crews)", "low": 5000, "high": 40000, "annual": true },
+    { "item": "Commercial truck or van", "low": 5000, "high": 50000 },
+    { "item": "Tools, nail guns, ladders, fall-protection and safety gear", "low": 3000, "high": 15000 },
+    { "item": "Initial material float (you often pay before getting paid)", "low": 5000, "high": 30000 },
+    { "item": "Business registration / LLC and accounting setup", "low": 200, "high": 1500 },
+    { "item": "Website, branding, vehicle wraps, signage", "low": 500, "high": 5000, "optional": true },
+    { "item": "Estimating/CRM software and marketing launch budget", "low": 500, "high": 8000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "A new owner with roofing experience often pays themselves $5,000 to $12,000 per month in year one, but early profit is frequently reinvested into equipment, insurance, and material floats. Many owners earn less than they expect at first because cash is tied up between paying for materials and getting paid.",
+    "experienced": "An established small company with a couple of crews, a steady lead source, and disciplined estimating commonly produces $15,000 to $40,000 per month in owner-level income in season, with revenue several times that. Insurance and storm work, when handled well, smooth and boost volume.",
+    "topEarners": "Larger regional roofers running multiple crews, strong insurance-claim operations, and heavy marketing gross $1M to $10M+ per year, with owner earnings well into six or seven figures. Reaching that takes years, real management infrastructure, sales teams, and substantial marketing spend, and it carries proportionally higher risk and overhead.",
+    "whatAffectsMost": "Accurate estimating, crew productivity, lead cost, and insurance/storm work drive profit most. Margins are thin if you misbid jobs or carry idle crews; the difference between profitable and broke is usually estimating discipline and managing labor and material costs, not how busy you look.",
+    "perHour": "Owner earnings vary enormously with company stage. Field roofers earn roughly $20 to $40 per hour, while a profitable owner's effective rate climbs well above that — but only after the business is systematized; early on, long unpaid management hours can make the real owner rate modest."
+  },
+  "howToStart": [
+    "Months 1-2: Confirm your roofing experience is real and current, then get licensed. Most states require passing a contractor's exam and registering; research your state board's requirements for roofing specifically, including bonding. Do not bid work you cannot legally pull permits for.",
+    "Month 2: Secure insurance before any work — general liability and workers' compensation are non-negotiable with crews working at height. Set up your LLC, accounting, and a relationship with a roofing-material supplier for credit terms.",
+    "Months 2-3: Line up reliable crews or experienced subcontractors and build an estimating process you trust. Practice writing accurate, profitable bids, including tear-off, decking repair, disposal, and overhead.",
+    "Months 3-6: Generate leads through a Google Business Profile, local service ads, referrals, and relationships with realtors and insurance contacts. Take on a manageable number of jobs first, nail safety and quality, and collect reviews before scaling crews or marketing spend."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Genuine roofing or construction experience — this is not a trade to learn on customers' roofs",
+      "The ability to legally obtain a contractor's license and carry proper insurance",
+      "Accurate estimating and basic financial management for thin-margin, high-ticket jobs"
+    ],
+    "canLearn": [
+      "Navigating insurance and storm-damage claims and working with adjusters",
+      "Crew scheduling, supplier relationships, and permit and inspection processes",
+      "Marketing and sales systems to generate a steady flow of qualified leads"
+    ],
+    "separators": [
+      "Disciplined estimating and cost control that protect margin on every job",
+      "A reliable lead engine — referrals, ratings, and insurance/storm work — that keeps crews productive",
+      "Building safety and quality systems strong enough to scale without injuries or callbacks"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Treating fall safety and workers' comp as optional — one serious injury without proper insurance can end the business and lead to personal liability",
+    "Underbidding jobs by forgetting tear-off, decking repair, disposal, overhead, and warranty callbacks, then losing money on volume",
+    "Running out of cash because they paid for materials and labor before customers paid them",
+    "Starting with no real roofing experience and learning the hard way through leaks, callbacks, and lawsuits",
+    "Misunderstanding insurance and storm work, leaving money on the table or running afoul of rules on claims and deductibles",
+    "Scaling crews and marketing before estimating, safety, and quality systems can support them"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Pneumatic nail guns and compressor", "note": "Core install tools. Reliability matters — downtime on a one-day tear-off costs real money.", "low": 800, "high": 3000 },
+    { "item": "Ladders, jacks, and roof staging", "note": "Multiple ladders and roof jacks for safe access and footing. Buy quality; this is safety equipment.", "low": 500, "high": 3000 },
+    { "item": "Fall-protection / safety harness systems", "note": "Required for working at height and central to crew safety and compliance. Never skip or skimp.", "low": 500, "high": 3000 },
+    { "item": "Tear-off tools, magnets, tarps, disposal gear", "note": "Shovels, shingle removers, cleanup magnets, and tarps for fast, clean tear-offs and protecting property.", "low": 300, "high": 1500 },
+    { "item": "Commercial truck and dump trailer", "note": "For hauling materials and disposing of torn-off roofing. Often the largest single capital cost.", "low": 5000, "high": 50000 },
+    { "item": "Estimating and CRM software / drone for inspections", "note": "Aerial measurement and CRM tools speed accurate bids and lead management. Add as you grow.", "low": 0, "high": 3000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A strong Google Business Profile and Local Services Ads with verified reviews — the primary residential lead source",
+      "Referrals from past customers, realtors, and property managers, actively requested",
+      "Insurance and storm work — building relationships and a process for hail and wind-damage claims",
+      "Targeted canvassing and yard signs in neighborhoods after storms or where you are actively working",
+      "Relationships with general contractors, builders, and real-estate professionals who need roofing"
+    ],
+    "whereCustomersAre": "Homeowners with aging or storm-damaged roofs, and property managers, builders, and realtors who need roofs replaced before sales or after damage. Storm-affected regions generate spikes of insurance-claim work that drive much of the industry's volume.",
+    "timeToClientBase": "Because of licensing, insurance, and crew setup, expect two to six months before steady paid work, not days. A reliable lead pipeline and reputation usually take one to two seasons, with storm events able to accelerate volume sharply.",
+    "wasteOfTime": "Cheap, broad advertising with no local trust signals, and chasing the lowest-price shoppers. In a high-ticket, high-trust trade, reviews, licensing, insurance proof, and referrals convert far better than bargain positioning."
+  },
+  "howItScales": {
+    "toFullTime": "It is inherently a full-time business, not a side venture. The path to strong full-time income runs through crews, accurate estimating, and a steady lead source rather than personal labor, since the owner's value is in selling, estimating, and managing.",
+    "hireAndStepBack": "Yes, and most growth requires it — you scale by adding crews, foremen, and salespeople. Stepping back demands rigorous safety, quality, and financial systems, because mistakes at height or in estimating are expensive and dangerous, and reputation is fragile.",
+    "sellable": "Established roofing companies with crews, systems, recurring lead sources, and clean safety and financial records are genuinely sellable, often to regional players or private equity rolling up home-services firms. A one-owner operation dependent on the founder is much harder to sell.",
+    "whatScalingRequires": "Reliable crews and foremen, a sales and estimating team, disciplined job costing, supplier credit, robust insurance and safety programs, and a marketing engine. Cash management is critical because growth ties up money in materials and payroll ahead of collections."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real roofing or construction experience and respect the danger of the work",
+      "You can obtain proper licensing and carry general liability and workers' comp insurance",
+      "You are disciplined with estimating, job costing, and cash flow on thin-margin work",
+      "You want a high-ticket, scalable, sellable trade and are ready to manage crews"
+    ],
+    "poorFit": [
+      "You have no roofing experience and hope to learn it on paying customers' roofs",
+      "You want low startup cost, part-time hours, or to avoid heavy insurance and liability",
+      "You are uncomfortable managing crews, safety, weather, and large amounts of cash",
+      "You are not prepared to float materials and payroll before customers pay you"
+    ],
+    "askYourself": [
+      "Do I have the experience and licensing to safely and legally run roofing crews?",
+      "Can I carry the insurance, safety program, and cash float this business demands?",
+      "Am I prepared for the liability of crews working at height, and for weather-driven, seasonal swings?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to start a roofing business?",
+      "answer": "In most states, yes — roofing contractors typically need a state or local contractor's license to bid jobs and pull permits, often requiring an exam, experience, and bonding. Requirements vary widely, so check your state contractor licensing board specifically for roofing. Operating without a required license risks fines, voided contracts, and inability to legally collect on work."
+    },
+    {
+      "question": "Why is insurance such a big deal in roofing?",
+      "answer": "Roofing is one of the most dangerous trades, with falls being a leading cause of serious injury and death in construction. You need general liability for property damage and workers' compensation for crews working at height. A single uninsured injury or major leak claim can bankrupt the business and expose you personally, which is why insurance is non-negotiable, not optional."
+    },
+    {
+      "question": "How much does it really cost to start?",
+      "answer": "Far more than most service businesses. Between licensing, bonding, general liability and workers' comp insurance, a truck, tools, safety gear, and a material float, realistic startup ranges from roughly $15,000 on the lean end to well over $100,000 for a fully equipped, crewed operation. Underestimating the cash needed to float materials and payroll before getting paid is a common and serious mistake."
+    },
+    {
+      "question": "What is insurance and storm work, and do I need it?",
+      "answer": "A large share of roof replacements are paid through homeowners' insurance after hail or wind damage, so understanding the claims process and working professionally with adjusters is a major part of the business. You do not have to focus on it, but ignoring it leaves significant volume on the table. Follow all rules around claims and deductibles carefully, as this area is heavily scrutinized."
+    },
+    {
+      "question": "Can I start a roofing business with no experience?",
+      "answer": "It is strongly discouraged. The work is dangerous, technical, and unforgiving — mistakes cause leaks, structural damage, injuries, and lawsuits. Most successful owners spent years roofing or in construction first. If you lack experience, the responsible path is to work in the trade or partner with an experienced roofer before owning crews."
+    },
+    {
+      "question": "Is roofing seasonal?",
+      "answer": "Yes, in much of the country. Cold, wet, and snowy months slow or stop installation, while spring through fall is busiest, and storm seasons drive demand spikes. Owners plan cash flow around the slow season and may add repair and commercial flat-roof work to smooth revenue."
+    },
+    {
+      "question": "How fast can a roofing business become profitable?",
+      "answer": "Expect two to six months to set up licensing, insurance, crews, and leads before steady work, and often a season or more to reach reliable profit. Early cash is frequently consumed by equipment, insurance, and material floats, so realistic owners plan for a lean start rather than fast take-home pay."
+    }
+  ],
+  "similarBusinesses": [
+    "exterior-cleaning-business",
+    "painting-business",
+    "gutter-cleaning-business",
+    "handyman-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Roofers occupational and wage data, and construction injury statistics",
+    "OSHA — fall-protection and construction safety standards",
+    "National Roofing Contractors Association (NRCA) — industry and market reports",
+    "Angi / HomeAdvisor — Roof Replacement Cost Guides (reported job pricing ranges)",
+    "Roofing contractor communities and operator interviews for real-world margins and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

@@ -1,0 +1,23 @@
+---
+import BusinessCard from './BusinessCard.astro';
+import type { CollectionEntry } from 'astro:content';
+export interface Props {
+  businesses: CollectionEntry<'businesses'>[];
+  heading?: string;
+}
+const { businesses, heading = 'Similar businesses' } = Astro.props;
+---
+{businesses.length > 0 && (
+  <section class="related">
+    <h2>{heading}</h2>
+    <div class="grid grid-3">
+      {businesses.map((b) => <BusinessCard business={b} />)}
+    </div>
+  </section>
+)}
+
+<style>
+  .related h2 {
+    margin-bottom: 1.25rem;
+  }
+</style>

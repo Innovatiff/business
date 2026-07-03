@@ -1,0 +1,162 @@
+{
+  "title": "Mobile Mechanic Business",
+  "slug": "mobile-mechanic-business",
+  "category": "automotive",
+  "metaTitle": "How to Start a Mobile Mechanic Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a mobile mechanic business: real startup costs, realistic monthly earnings, what jobs to avoid, and what most people get wrong.",
+  "startupCostLow": 3000,
+  "startupCostHigh": 25000,
+  "monthlyEarningsLow": 3000,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "2 to 4 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Experienced mechanics who want to escape shop overhead and work directly with customers at their location",
+  "biggestRisk": "Taking on jobs that genuinely need a lift, press, or heavy equipment and losing money or damaging your reputation",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 15,
+  "skills": ["hands", "tech", "people"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "flexibility", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A mobile mechanic business brings auto repair to the customer instead of making them come to a shop. You drive to driveways, parking lots, workplaces, and roadsides to do the work that does not require a lift or heavy equipment: brakes, batteries, alternators, starters, water pumps, belts, sensors, diagnostics, oil changes, suspension components, and pre-purchase inspections. Because you have no shop building, no lift bay rent, and minimal overhead, you can charge less than a shop while keeping a larger share of each job — or charge a premium for the convenience of repairs done at the customer's home or office.",
+  "dailyReality": "A typical day means confirming appointments the night before, loading your truck or van with tools and any parts you pre-ordered, and driving to two to four jobs spread across town. You work on the ground or on a creeper in driveways and lots, often in heat, cold, or rain, with no shop comforts. Plenty of time goes to diagnostics, running for parts you did not expect to need, and explaining problems to customers who are watching over your shoulder. Around the wrenching, expect an hour or more most days on quoting, scheduling, ordering parts, and collecting payment. The convenience customers love is the same thing that makes your logistics harder than a shop's.",
+  "startupCostsItemized": [
+    { "item": "Reliable work van or pickup (used)", "low": 0, "high": 12000, "optional": true },
+    { "item": "Core hand tools and sockets (if not already owned)", "low": 1000, "high": 5000 },
+    { "item": "Diagnostic scan tool (OBD-II, bidirectional)", "low": 300, "high": 3000 },
+    { "item": "Floor jack, jack stands, creeper, impact wrench, work light", "low": 400, "high": 1500 },
+    { "item": "Garage liability / mechanic's insurance", "low": 1200, "high": 3000, "annual": true },
+    { "item": "Business registration / LLC and local permits", "low": 100, "high": 500 },
+    { "item": "ASE certification exams and study materials", "low": 200, "high": 600, "optional": true },
+    { "item": "Google Business Profile, simple website, magnets", "low": 0, "high": 400, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most operators in their first year earn $3,000 to $6,000 per month part-time or while transitioning out of a shop job. A skilled mechanic who goes full-time and books steadily often reaches $5,000 to $8,000 per month once word spreads, though slow weeks and parts delays drag the early months down.",
+    "experienced": "Operators with two-plus years, strong reviews, and a repeat customer base commonly report $8,000 to $15,000 per month working solo. Fleet accounts (small businesses with several vehicles), dealerships needing overflow work, and pre-purchase inspections add stable, higher-margin volume at this stage.",
+    "topEarners": "The strongest solo operators net $150,000 to $200,000 a year, and a few build into multi-van operations grossing more, but that requires hiring trustworthy mechanics, managing scheduling and parts logistics across a team, and accepting tighter margins per job. Most stay solo because labor is hard to find and quality is hard to control remotely.",
+    "whatAffectsMost": "Diagnostic skill, route efficiency, and parts sourcing matter more than raw wrenching speed. The mechanics who earn the most quote accurately, avoid jobs that turn into all-day disasters in a driveway, and build fleet and repeat customers instead of chasing one-off Craigslist work.",
+    "perHour": "Effective labor rates commonly run $80 to $150 per hour of actual work, often billed as a flat labor rate plus parts markup. Counting driving, parts runs, diagnostics, and quoting, realistic blended rates are often $50 to $100 per hour."
+  },
+  "howToStart": [
+    "Week 1: Confirm you have the diagnostic skill and core tools to work without a shop. Get garage/mechanic's liability insurance before any paid work — this is non-negotiable. Register your business and decide your service radius based on where you can drive profitably.",
+    "Week 2: Set a clear labor rate and a parts markup policy. Build a Google Business Profile and post in local Facebook groups, Nextdoor, and car-enthusiast forums offering mobile diagnostics, brakes, batteries, and bolt-on repairs. Decide firmly which jobs you will not take (transmissions, anything needing a lift).",
+    "Month 1: Complete your first jobs and ask every satisfied customer for a Google review the same day. Track time and parts on every job so you learn your true effective rate and stop underbidding. Build relationships with one or two local parts stores for fast pickup and decent pro pricing.",
+    "Months 2-3: Pursue ASE certifications to build trust and justify higher rates. Start approaching small businesses with vehicle fleets for recurring maintenance contracts. Refine your no-go list as you learn which jobs are profitable in a driveway and which are not."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Real diagnostic and repair experience — this is not a beginner business",
+      "Your own reliable core tools or the budget to buy them up front",
+      "Sound judgment about which jobs are safe and profitable without a lift or shop equipment"
+    ],
+    "canLearn": [
+      "Quoting and pricing jobs profitably with a flat labor rate plus parts markup",
+      "Parts sourcing and building pro accounts with local suppliers for fast pickup",
+      "Customer communication and explaining repairs to non-mechanics without losing trust"
+    ],
+    "separators": [
+      "Accurate diagnostics that avoid throwing parts at a problem and eroding your margin",
+      "Knowing exactly which jobs to decline so you never get stuck mid-repair in a customer's driveway",
+      "Building fleet and repeat accounts so you stop relying on unpredictable one-off jobs"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Accepting jobs that genuinely need a lift, press, or alignment rack, then getting stuck unable to finish in a driveway",
+    "Underpricing against shops without accounting for unpaid driving, parts runs, and diagnostic time",
+    "Skipping proper mechanic's liability insurance, leaving them exposed if a repair fails and causes an accident",
+    "Not pre-diagnosing before quoting, then showing up to find the real problem is far bigger than described",
+    "Carrying too little inventory and losing hours to parts-store runs in the middle of jobs",
+    "Treating it like a hobby instead of tracking time and parts, so they never know which jobs actually make money"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Work van or pickup", "note": "Your mobile shop. Reliability matters more than looks — a breakdown means lost income.", "low": 3000, "high": 15000 },
+    { "item": "Bidirectional diagnostic scan tool", "note": "Pays for itself fast on diagnostics and electrical work. Cheap code readers are not enough for serious jobs.", "low": 300, "high": 3000 },
+    { "item": "Hand tools, sockets, and specialty tools", "note": "Most mechanics already own these. Replace and expand as jobs demand.", "low": 1000, "high": 5000 },
+    { "item": "Floor jack, jack stands, creeper", "note": "You work on the ground without a lift, so safe lifting gear is essential, not optional.", "low": 200, "high": 800 },
+    { "item": "Battery-powered impact wrench and work lights", "note": "No shop air or power means cordless tools are a must.", "low": 200, "high": 700 },
+    { "item": "Portable canopy or pop-up shelter", "note": "Lets you work in rain or sun and looks professional in a customer's driveway.", "low": 80, "high": 300, "optional": true }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A complete Google Business Profile with reviews — most people search 'mobile mechanic near me' when their car will not start",
+      "Local Facebook groups, Nextdoor, and city/community pages where people ask for mechanic recommendations",
+      "Car-enthusiast and make-specific forums and groups, where owners trust a specialist mechanic",
+      "Fleet and small-business accounts (landscapers, delivery, contractors) for recurring maintenance work",
+      "Used-car buyers needing pre-purchase inspections — a high-trust, repeatable service",
+      "Partnerships with used-car dealers and rental hosts needing overflow or on-site repairs"
+    ],
+    "whereCustomersAre": "Vehicle owners who cannot easily get to a shop, distrust dealer pricing, or value the convenience of repairs at home or work. Higher-value customers are small businesses with vehicle fleets and people buying used cars who want an independent inspection.",
+    "timeToClientBase": "Most operators land their first jobs within two to four weeks of marketing. A semi-reliable flow of repeat and referral work usually takes three to six months, and steady fleet accounts can take longer to win but stabilize income.",
+    "wasteOfTime": "Broad paid ads with no local targeting and competing purely on being the cheapest. Early on, reviews, fast response time, and accurate quotes convert far better than discounting yourself into unprofitable jobs."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. Many skilled mechanics reach full-time income within the first year by booking consistently and pricing for convenience. As a solo operator you are capped by daylight, your body, and how many jobs you can reach in a day.",
+    "hireAndStepBack": "Hard. Auto repair quality is difficult to control remotely, and a bad repair on the road carries real liability. Operators who scale add vans and mechanics slowly, with strong vetting, training, and warranty systems, and most margin per job shrinks as you do.",
+    "sellable": "A solo mobile mechanic business is largely you — your skill and reputation — so it is hard to sell. A multi-van operation with fleet contracts, documented processes, and trained staff is more sellable but takes years to build to that point.",
+    "whatScalingRequires": "Trustworthy hired mechanics, standardized pricing and warranty policies, reliable parts logistics, multiple equipped vans, and fleet relationships that generate predictable volume without your personal time."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You already have solid diagnostic and repair experience and your own core tools",
+      "You prefer working independently and dealing directly with customers over shop politics",
+      "You have the judgment to turn down jobs that are not safe or profitable without a lift",
+      "You are comfortable working outdoors on the ground in varying weather"
+    ],
+    "poorFit": [
+      "You are a beginner without real hands-on repair experience",
+      "You want a clean indoor environment and shop conveniences like a lift and air tools",
+      "You dislike quoting, scheduling, and talking to customers about money",
+      "You are not willing to carry proper liability insurance"
+    ],
+    "askYourself": [
+      "Can I accurately diagnose problems before I commit to a price, or will I keep getting surprised mid-job?",
+      "Do I have the discipline to decline jobs that belong in a real shop?",
+      "Is there enough demand and how many established mobile mechanics already serve my area?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need to be a certified mechanic to start a mobile mechanic business?",
+      "answer": "No specific license is required to do mobile repair in most states, but you absolutely need real diagnostic and repair experience — this is not a beginner business. ASE certifications are not legally required, but they build customer trust and let you justify higher rates. You will also need a business registration and mechanic's liability insurance."
+    },
+    {
+      "question": "What jobs should a mobile mechanic avoid?",
+      "answer": "Avoid anything that genuinely needs a lift, a press, an alignment rack, or extended teardown: major transmission work, engine rebuilds, alignments, and tire mounting. The most common way mobile mechanics lose money is taking a job that turns into an all-day disaster in a driveway. Stick to brakes, batteries, alternators, starters, sensors, suspension components, diagnostics, and bolt-on repairs."
+    },
+    {
+      "question": "How do mobile mechanics handle parts?",
+      "answer": "Most pre-order or pick up parts the same day from local stores with a pro account for faster service and better pricing, marking parts up modestly on the invoice. Carrying common wear items (filters, brake hardware, fluids) reduces mid-job parts runs. Poor parts logistics is one of the biggest hidden time-killers in this business."
+    },
+    {
+      "question": "How much can a mobile mechanic realistically charge?",
+      "answer": "Most operators bill a flat labor rate, commonly $80 to $150 per hour, plus a parts markup. You can often charge a convenience premium for coming to the customer, while still beating dealer pricing. The key is to track real time and parts on every job so your effective rate stays profitable after driving and diagnostics."
+    },
+    {
+      "question": "Do I need a van, or can I use my own car?",
+      "answer": "You need a vehicle that can reliably carry your tools and the parts for a day of jobs — a pickup or cargo van is ideal. Many start with a vehicle they already own and upgrade later. Reliability matters most, because a breakdown directly costs you income."
+    },
+    {
+      "question": "Is a mobile mechanic business profitable compared to a shop?",
+      "answer": "It can be more profitable per dollar of overhead because you have no shop rent, lift bays, or utilities. The trade-off is that you cannot do every job, you lose unpaid time to driving and parts runs, and your volume is capped by how many locations you can reach. Many mechanics use it as a lower-risk way to work for themselves without shop costs."
+    },
+    {
+      "question": "How quickly can I start making money as a mobile mechanic?",
+      "answer": "If you already have the skills and tools, most operators complete their first paid jobs within two to four weeks of getting insured and marketing locally. Reaching a steady, reliable income usually takes three to six months of building reviews, referrals, and a few repeat or fleet customers."
+    }
+  ],
+  "similarBusinesses": [
+    "appliance-repair-business",
+    "handyman-business",
+    "mobile-bike-repair-business",
+    "used-car-flipping-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Automotive Service Technicians and Mechanics (wage and employment data)",
+    "National Institute for Automotive Service Excellence (ASE) — certification and industry standards",
+    "Angi / RepairPal — Auto Repair Cost Guides (reported labor and job pricing ranges)",
+    "Operator communities (r/MechanicAdvice, mobile mechanic forums) for real-world pricing and job-selection practices"
+  ],
+  "lastReviewed": "2026-06"
+}

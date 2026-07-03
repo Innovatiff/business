@@ -1,0 +1,163 @@
+{
+  "title": "Summer Day Camp Business",
+  "slug": "summer-camp-business",
+  "category": "education-and-coaching",
+  "metaTitle": "How to Start a Summer Day Camp — Real Costs, Licensing, and Earnings",
+  "metaDescription": "An honest guide to starting a summer day camp business: licensing and ratios, real startup costs, seasonal earnings, staffing, and what most camp operators get wrong.",
+  "startupCostLow": 3000,
+  "startupCostHigh": 40000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 25000,
+  "timeToFirstIncome": "3 to 9 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Organized people with childcare or education experience who can run an intense seasonal operation and manage staff",
+  "biggestRisk": "Failing state licensing or ratio rules, or under-enrolling a fixed-cost season you cannot recover from",
+  "speedToIncome": "long",
+  "minWeeklyHours": 20,
+  "skills": ["people", "teaching", "finance"],
+  "workLocations": ["space", "flexible"],
+  "priorities": ["max-income", "helping", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A summer day camp provides supervised daytime programming for children — typically ages 5 to 12 — during school break, usually in weekly sessions running roughly 9am to 3pm with before- and after-care add-ons. Programming spans general recreation, sports, arts, STEM, or a specialty theme. It is a concentrated seasonal business: you earn almost all of your revenue across 8 to 12 summer weeks, but you carry real regulatory, staffing, and liability obligations because you are responsible for other people's children. Most states regulate day camps through their childcare or health departments, with rules on staff-to-child ratios, background checks, and facility safety.",
+  "dailyReality": "During the season, your day starts before campers arrive with staff briefings, attendance, and setup, then runs through check-in, rotating activities, lunch, snacks, transitions, and a controlled pickup where every child must leave with an authorized adult. You are constantly managing safety, behavior, bathroom and allergy logistics, weather contingencies, and parent communication. The off-season is the opposite: quiet months of licensing renewal, hiring, curriculum planning, marketing, and pre-registration. The business lives or dies on staffing and enrollment, both of which you nail down months before a single camper shows up.",
+  "startupCostsItemized": [
+    { "item": "State childcare/day-camp license, permits, inspections", "low": 100, "high": 1500 },
+    { "item": "Background checks and CPR/First Aid certification for staff", "low": 200, "high": 1500 },
+    { "item": "Liability insurance (and often accident/abuse coverage)", "low": 1000, "high": 4000, "annual": true },
+    { "item": "Facility rent or use agreement (school, gym, park, church hall)", "low": 0, "high": 15000 },
+    { "item": "Activity supplies, sports gear, art materials, first-aid kits", "low": 500, "high": 4000 },
+    { "item": "Registration/payment software and a simple website", "low": 200, "high": 1500, "annual": true },
+    { "item": "Marketing for pre-registration (ads, flyers, school outreach)", "low": 300, "high": 3000, "optional": true },
+    { "item": "Staff training, branded shirts, signage", "low": 200, "high": 2000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "First-year camps often run a single location at modest scale and net little or even break even, because staffing and insurance eat margins while enrollment is still unproven. A small, well-enrolled first camp might net $5,000 to $20,000 across the season after paying staff, with most months of the year earning nothing.",
+    "experienced": "An established single-location day camp with strong enrollment, before/after care, and tight staffing commonly nets $25,000 to $80,000 across a season. Specialty camps (coding, sports academies, arts) often command higher weekly tuition and better margins than general recreation.",
+    "topEarners": "Operators running multiple locations or franchised camps gross several hundred thousand dollars per season and net $100,000+, but that requires layered management, multiple licenses, fleets of staff, and significant marketing. Reaching it takes years of proven enrollment, systems, and the willingness to run a real organization rather than a single camp.",
+    "whatAffectsMost": "Enrollment relative to your fixed costs matters most — an empty week still costs you staff and facility. Staffing efficiency (legal ratios without overstaffing), tuition pricing, and add-on care are the next biggest levers.",
+    "perHour": "Because revenue is compressed into a few months and you work heavily in the off-season too, blended hourly pay for owner-operators is often modest in year one — frequently $15 to $35 per hour of total effort — and improves to $40 to $80+ once enrollment and systems mature."
+  },
+  "howToStart": [
+    "Months 1-2: Call your state's childcare or health department and learn exactly how day camps are licensed in your state, including staff-to-child ratios, background-check rules, square-footage and bathroom requirements, and inspection steps. These rules dictate your entire model, so get them in writing first.",
+    "Month 3: Lock a facility and dates. Schools, churches, gyms, and parks are common low-cost options. Get insurance quotes early, since some venues require specific coverage and abuse/molestation riders before they will sign.",
+    "Month 4: Define your program, weekly schedule, age bands, tuition, and capacity. Build registration and payment software, a simple website, and clear policies on health, allergies, behavior, and pickup authorization.",
+    "Months 4-5: Open pre-registration and market hard to parents through schools, PTAs, local Facebook groups, and other camps that fill up. Early-bird pricing and visible safety credentials drive sign-ups.",
+    "Months 5-6: Hire and train staff, complete background checks and CPR/First Aid, run a parent orientation, and finalize ratios per group. Confirm enrollment against your break-even before you commit to staffing.",
+    "Season: Run the camp safely, collect parent feedback weekly, and use it plus a returning-camper discount to lock in next year before the current season ends."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Comfort being legally and morally responsible for children's safety all day",
+      "Strong organization and logistics — schedules, ratios, attendance, and pickup must be airtight",
+      "The ability to recruit, train, and manage a seasonal staff team"
+    ],
+    "canLearn": [
+      "The specifics of your state's camp licensing and inspection process",
+      "Registration, payment, and parent-communication software",
+      "Curriculum and activity planning for different age bands"
+    ],
+    "separators": [
+      "Hitting strong enrollment relative to fixed costs through reputation and early marketing",
+      "Retaining great seasonal staff and getting families to re-enroll year after year",
+      "Adding profitable specialty programming and before/after care without breaking ratios or budgets"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Treating camp as casual childcare and getting blindsided by state licensing, ratio, and inspection requirements",
+    "Underestimating staffing costs — legal child-to-staff ratios mean payroll is your largest and least flexible expense",
+    "Opening enrollment too late and committing to staff and facility before enough campers have registered",
+    "Carrying inadequate insurance, including missing accident and abuse/molestation coverage that venues and reality demand",
+    "Sloppy pickup and health/allergy procedures, which are exactly where a serious incident and a lawsuit can occur",
+    "Ignoring the long, unpaid off-season of planning and re-enrollment that determines whether the next summer works"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Registration and payment software", "note": "Camp-specific platforms handle waivers, allergies, and rosters; essential once you have more than a handful of families.", "low": 200, "high": 1500 },
+    { "item": "First-aid kits, AED access, and safety supplies", "note": "Non-negotiable. Often required for licensing and insurance.", "low": 200, "high": 1000 },
+    { "item": "Activity and sports equipment", "note": "Scale to your program. Borrow or buy used early to control costs.", "low": 500, "high": 4000 },
+    { "item": "Check-in/attendance system", "note": "Tablet sign-in or paper rosters with authorized-pickup tracking. Accuracy here is a safety issue.", "low": 0, "high": 800 },
+    { "item": "Two-way radios or staff messaging", "note": "Keeps groups coordinated and improves emergency response.", "low": 100, "high": 600 },
+    { "item": "Shade, water, and weather contingency gear", "note": "Heat and storms are real risks for all-day outdoor programs.", "low": 200, "high": 2000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "School and PTA outreach, flyers, and partnerships where parents are already planning summer",
+      "Local parent Facebook groups, Nextdoor, and community camp-fair listings",
+      "Early-bird and sibling discounts that drive registration months ahead",
+      "Referrals and a returning-camper discount that lock families in year over year",
+      "A clear website with safety credentials, schedules, and easy online registration"
+    ],
+    "whereCustomersAre": "Working parents of school-age children who need supervised, enriching daytime care during summer break — concentrated through schools, sports leagues, faith communities, and neighborhood parent networks. Specialty camps also reach families through hobby and activity channels.",
+    "timeToClientBase": "Camps fill on a long lead time — serious parents book winter through spring for summer. A reliable, repeating base usually takes two to three seasons of good word of mouth and re-enrollment.",
+    "wasteOfTime": "Last-minute advertising right before the season rarely fills a camp, because families plan early. Generic broad ads also underperform compared with school partnerships and local parent networks."
+  },
+  "howItScales": {
+    "toFullTime": "It is seasonal by nature, so a single camp is rarely full-time income on its own. Operators reach full-time earnings by adding spring-break and holiday camps, after-school programs, or a second location, turning a summer business into a year-round youth-programming organization.",
+    "hireAndStepBack": "Yes, more than most coaching businesses, because camp runs on staff teams and systems. With a strong director and documented procedures you can step back from daily supervision, though you remain accountable for licensing, safety, and enrollment.",
+    "sellable": "Established camps with consistent enrollment, a recognized name, facility agreements, and documented systems do sell, and franchised models exist. Sale value rises sharply when the camp does not depend on the founder being on site.",
+    "whatScalingRequires": "Repeatable curricula and safety procedures, reliable seasonal hiring pipelines, multiple compliant facilities, and marketing that fills sessions early. The binding constraints are licensing, staffing, and the fixed-cost risk of any under-enrolled week."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have childcare, teaching, or youth-program experience and take child safety seriously",
+      "You are highly organized and comfortable with logistics, ratios, and compliance",
+      "You can hire and lead a seasonal staff team and handle intense, compressed work",
+      "You can absorb an off-season with little income while you plan and pre-enroll"
+    ],
+    "poorFit": [
+      "You want steady year-round monthly income from day one",
+      "You dislike regulation, paperwork, and being responsible for other people's children",
+      "You cannot commit the off-season planning time that the next summer depends on",
+      "You are not comfortable managing staff or carrying the liability"
+    ],
+    "askYourself": [
+      "Have I confirmed exactly how my state licenses day camps, including ratios and inspections?",
+      "What is my break-even enrollment, and can I realistically fill the season before committing to staff and facility?",
+      "Am I prepared for a lopsided year — an intense, profitable summer and a long, mostly unpaid off-season?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to run a summer day camp?",
+      "answer": "In most states, yes — day camps are regulated through the childcare or health department, with rules on staff-to-child ratios, background checks, facility safety, and inspections. Requirements vary widely by state and even by program length and age range, so confirm your specific state's rules before planning anything else. Some short, recreational, or sports-specific camps have exemptions, but you must verify rather than assume."
+    },
+    {
+      "question": "What staff-to-child ratios do I need?",
+      "answer": "Ratios are set by your state and usually depend on camper age, often ranging from roughly 1 staff per 8 children for younger ages to 1 per 12 or more for older ones, with stricter rules for swimming or field trips. Because staff is your biggest cost, your legal ratios essentially determine your pricing and profitability, so build your budget around them."
+    },
+    {
+      "question": "How seasonal is the income?",
+      "answer": "Very. A pure summer day camp earns almost all of its revenue across roughly 8 to 12 weeks and little to nothing the rest of the year. Many operators add spring-break, holiday, or after-school programs to smooth income, but you should plan financially for a lopsided year."
+    },
+    {
+      "question": "How much does it cost to start?",
+      "answer": "A lean camp using a borrowed or low-cost facility, modest supplies, and a small staff can start for a few thousand dollars, mostly insurance, licensing, and supplies. A larger camp with a leased facility, full software, marketing, and a bigger team can run $20,000 to $40,000+ before the first camper arrives."
+    },
+    {
+      "question": "What insurance do I need?",
+      "answer": "At minimum, general liability, and almost always accident coverage and an abuse/molestation rider, which many facilities require before renting to you. Working with children carries serious liability, so adequate, camp-specific coverage is not optional. Get quotes early because it affects both your budget and your venue options."
+    },
+    {
+      "question": "When should I open registration?",
+      "answer": "Earlier than most first-timers expect. Serious parents plan summer in winter and spring, and camps that open early-bird registration months ahead fill far more reliably. Late registration usually means an under-enrolled, money-losing season because your staffing and facility costs are largely fixed."
+    },
+    {
+      "question": "Do I need a permanent facility?",
+      "answer": "No. Many successful day camps rent space seasonally from schools, churches, gyms, community centers, or use parks. A seasonal use agreement keeps fixed costs lower than a year-round lease, but confirm the venue meets your state's facility and bathroom requirements and that they carry or accept the required insurance."
+    }
+  ],
+  "similarBusinesses": [
+    "tutoring-business",
+    "swim-instruction-business",
+    "stem-enrichment-business",
+    "preschool-business"
+  ],
+  "dataSources": [
+    "American Camp Association — camp operations, accreditation, and staffing standards",
+    "State childcare/health department licensing rules for day camps (ratios, inspections, background checks)",
+    "U.S. Bureau of Labor Statistics — Recreation Workers and childcare wage data",
+    "Camp operator communities and registration-platform benchmarks for tuition and enrollment trends"
+  ],
+  "lastReviewed": "2026-06"
+}

@@ -1,0 +1,318 @@
+---
+/**
+ * One dynamic, paginated route that generates every category page
+ * (e.g. /service-businesses, /service-businesses/2) and every situation/filter
+ * page (e.g. /businesses-under-500, /businesses-under-500/2). Explicit page
+ * files like /about and the /businesses/* routes take precedence, so this only
+ * matches these listing slugs. Page 1 carries the full intro + FAQ; later pages
+ * stay lean to avoid duplicate-content issues.
+ */
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import BusinessCard from '../components/BusinessCard.astro';
+import FAQ from '../components/FAQ.astro';
+import AdSlot from '../components/AdSlot.astro';
+import DisclaimerBox from '../components/DisclaimerBox.astro';
+import { CATEGORIES, CATEGORY_MAP, CATEGORY_FAQS } from '../data/categories';
+import { FILTERS } from '../data/filters';
+import { SITE } from '../config';
+
+const PER_PAGE = 24;
+
+export async function getStaticPaths() {
+  const all = await getCollection('businesses');
+  const PER_PAGE = 24;
+
+  function paginate(items: any[], baseSlug: string, base: Record<string, unknown>) {
+    const total = items.length;
+    const totalPages = Math.max(1, Math.ceil(total / PER_PAGE));
+    const out = [];
+    for (let i = 0; i < totalPages; i++) {
+      const page = i + 1;
+      const slice = items.slice(i * PER_PAGE, (i + 1) * PER_PAGE);
+      out.push({
+        params: { listing: page === 1 ? baseSlug : `${baseSlug}/${page}` },
+        props: {
+          ...base,
+          businesses: slice,
+          baseSlug,
+          page,
+          totalPages,
+          total,
+          rangeStart: total === 0 ? 0 : i * PER_PAGE + 1,
+          rangeEnd: i * PER_PAGE + slice.length,
+          isFirst: page === 1,
+        },
+      });
+    }
+    return out;
+  }
+
+  const categoryPaths = CATEGORIES.flatMap((cat) => {
+    const businesses = all
+      .filter((b) => b.data.category === cat.slug)
+      .sort((a, b) => a.data.startupCostLow - b.data.startupCostLow);
+    return paginate(businesses, cat.slug, {
+      kind: 'category' as const,
+      title: cat.name,
+      metaTitle: `${cat.name} — Honest Startup Costs, Earnings & How to Start`,
+      metaDescription: cat.description.slice(0, 155),
+      intro: cat.description,
+      mostImportant: cat.mostImportant,
+      faqs: CATEGORY_FAQS[cat.slug] ?? [],
+      relatedCats: cat.related,
+      relatedFilters: [] as string[],
+    });
+  });
+
+  const filterPaths = FILTERS.flatMap((filter) => {
+    const businesses = all
+      .filter((b) => filter.match(b.data))
+      .sort((a, b) =>
+        filter.sort ? filter.sort(a.data, b.data) : a.data.startupCostLow - b.data.startupCostLow,
+      );
+    return paginate(businesses, filter.slug, {
+      kind: 'filter' as const,
+      title: filter.name,
+      metaTitle: `${filter.name} — Real Costs and Earnings`,
+      metaDescription: filter.description.slice(0, 155),
+      intro: filter.description,
+      mostImportant: filter.mostImportant,
+      faqs: [] as { question: string; answer: string }[],
+      relatedCats: [] as string[],
+      relatedFilters: FILTERS.filter((f) => f.slug !== filter.slug)
+        .slice(0, 5)
+        .map((f) => f.slug),
+    });
+  });
+
+  return [...categoryPaths, ...filterPaths];
+}
+
+const props = Astro.props;
+const { baseSlug, page, totalPages, total, rangeStart, rangeEnd, isFirst } = props;
+const path = page === 1 ? `/${baseSlug}` : `/${baseSlug}/${page}`;
+const metaTitle = isFirst ? props.metaTitle : `${props.title} — Page ${page}`;
+
+const relatedCategories = props.relatedCats.map((s: string) => CATEGORY_MAP[s]).filter(Boolean);
+const relatedFilters = props.relatedFilters
+  .map((s: string) => FILTERS.find((f) => f.slug === s))
+  .filter(Boolean);
+
+// Build a compact pager window.
+const pageNums: number[] = [];
+for (let n = 1; n <= totalPages; n++) {
+  if (n === 1 || n === totalPages || Math.abs(n - page) <= 2) pageNums.push(n);
+}
+const pageHref = (n: number) => (n === 1 ? `/${baseSlug}` : `/${baseSlug}/${n}`);
+
+const jsonLd: Record<string, unknown>[] = [];
+if (isFirst && props.faqs.length) {
+  jsonLd.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: props.faqs.map((f: { question: string; answer: string }) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  });
+}
+jsonLd.push({
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: metaTitle,
+  description: props.metaDescription,
+  url: new URL(path, SITE.url).href,
+});
+---
+
+<BaseLayout title={metaTitle} description={props.metaDescription} path={path} jsonLd={jsonLd}>
+  <div class="container listing-head">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', href: '/' },
+        { label: 'Businesses', href: '/businesses' },
+        ...(isFirst
+          ? [{ label: props.title }]
+          : [{ label: props.title, href: `/${baseSlug}` }, { label: `Page ${page}` }]),
+      ]}
+    />
+    <span class="eyebrow">{props.kind === 'category' ? 'Category' : 'Browse by situation'}</span>
+    <h1>{props.title}{!isFirst && <span class="page-suffix"> — page {page}</span>}</h1>
+    {isFirst && <p class="lead listing-intro">{props.intro}</p>}
+  </div>
+
+  {isFirst && (
+    <div class="container">
+      <div class="most-important">
+        <span class="mi-title">The most important thing to know</span>
+        <p>{props.mostImportant}</p>
+      </div>
+    </div>
+  )}
+
+  <div class="container section-tight">
+    {props.businesses.length > 0 ? (
+      <>
+        <p class="listing-count muted">
+          {totalPages > 1
+            ? `Showing ${rangeStart}–${rangeEnd} of ${total} businesses`
+            : `${total} ${total === 1 ? 'business' : 'businesses'}, ordered to put the most accessible first.`}
+        </p>
+        <div class="grid grid-3">
+          {props.businesses.map((b: any) => <BusinessCard business={b} />)}
+        </div>
+
+        {totalPages > 1 && (
+          <nav class="pager" aria-label="Pagination">
+            {page > 1 && <a class="pager-link" href={pageHref(page - 1)} rel="prev">← Prev</a>}
+            {pageNums.map((n, i) => (
+              <>
+                {i > 0 && n - pageNums[i - 1] > 1 && <span class="pager-gap">…</span>}
+                {n === page ? (
+                  <span class="pager-link current" aria-current="page">{n}</span>
+                ) : (
+                  <a class="pager-link" href={pageHref(n)}>{n}</a>
+                )}
+              </>
+            ))}
+            {page < totalPages && <a class="pager-link" href={pageHref(page + 1)} rel="next">Next →</a>}
+          </nav>
+        )}
+      </>
+    ) : (
+      <div class="empty card">
+        <h3>More businesses coming to this section</h3>
+        <p>
+          We are building toward 1,000 honest business breakdowns. This section does not have
+          published pages yet — in the meantime, try the
+          <a href="/find-my-business">Business Finder</a> or
+          <a href="/businesses">browse everything published so far</a>.
+        </p>
+      </div>
+    )}
+  </div>
+
+  <div class="container">
+    <AdSlot slot="listing-mid" />
+  </div>
+
+  {isFirst && props.faqs.length > 0 && (
+    <div class="container container-narrow section-tight">
+      <h2>Frequently asked questions</h2>
+      <FAQ faqs={props.faqs} />
+    </div>
+  )}
+
+  <div class="container">
+    {(relatedCategories.length > 0 || relatedFilters.length > 0) && (
+      <section class="related-links">
+        <h2>Keep exploring</h2>
+        <div class="related-chips">
+          {relatedCategories.map((c: any) => <a href={`/${c.slug}`} class="tag tag-link">{c.name}</a>)}
+          {relatedFilters.map((f: any) => <a href={`/${f.slug}`} class="tag tag-link">{f.shortName}</a>)}
+        </div>
+      </section>
+    )}
+    <div class="section-tight">
+      <DisclaimerBox />
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .listing-head {
+    padding-top: var(--space-8);
+  }
+  .listing-head .eyebrow {
+    margin-top: 0.75rem;
+  }
+  .listing-intro {
+    max-width: 70ch;
+  }
+  .page-suffix {
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .most-important {
+    background: var(--navy);
+    color: #e2e8f0;
+    border-radius: var(--radius);
+    padding: 1.5rem 1.75rem;
+    margin-top: 0.5rem;
+  }
+  .mi-title {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #4ade80;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .most-important p {
+    margin: 0;
+    font-size: 1.05rem;
+  }
+  .listing-count {
+    margin-bottom: 1.25rem;
+    font-size: 0.9rem;
+  }
+  .empty {
+    padding: 2rem;
+    text-align: center;
+  }
+  .pager {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .pager-link {
+    display: inline-flex;
+    align-items: center;
+    min-width: 40px;
+    height: 40px;
+    padding: 0 0.7rem;
+    justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: var(--slate);
+    background: #fff;
+  }
+  .pager-link:hover {
+    border-color: var(--green);
+    color: var(--green-dark);
+    text-decoration: none;
+  }
+  .pager-link.current {
+    background: var(--navy);
+    color: #fff;
+    border-color: var(--navy);
+  }
+  .pager-gap {
+    color: var(--muted);
+    padding: 0 0.2rem;
+  }
+  .related-links h2 {
+    margin-bottom: 1rem;
+  }
+  .related-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .tag-link:hover {
+    border-color: var(--green);
+    color: var(--green-dark);
+    text-decoration: none;
+  }
+</style>

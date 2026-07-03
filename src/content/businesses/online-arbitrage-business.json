@@ -1,0 +1,164 @@
+{
+  "title": "Online Arbitrage Business",
+  "slug": "online-arbitrage-business",
+  "category": "retail-and-products",
+  "metaTitle": "How to Start an Online Arbitrage Business — Real Costs, Margins, and Risks",
+  "metaDescription": "Honest guide to online arbitrage: buying discounted products online to resell on Amazon and eBay. Real costs, thin margins, account and IP risk, and what trips people up.",
+  "startupCostLow": 1000,
+  "startupCostHigh": 10000,
+  "monthlyEarningsLow": 500,
+  "monthlyEarningsHigh": 6000,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Analytical, process-driven people with working capital who can source patiently for thin margins and tolerate platform and account risk",
+  "biggestRisk": "An Amazon account suspension or IP/authenticity complaint freezing your funds and inventory, wiping out the business overnight",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 15,
+  "skills": ["sales", "finance", "tech"],
+  "workLocations": ["home", "online"],
+  "priorities": ["alongside-job", "flexibility", "max-income"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "An online arbitrage business buys discounted, clearance, or sale-priced products from online retailers and resells them at a higher price on marketplaces like Amazon (usually via FBA) and eBay. It's distinct from private-label FBA, where you create your own branded product, and from thrift flipping, where you source secondhand items in person — here you're buying new, in-demand retail products online and reselling them, using sourcing software to find items whose marketplace price exceeds your cost plus fees. The appeal is a low barrier compared to launching a product; the catch is thin margins, real capital needs, and significant platform risk.",
+  "dailyReality": "Most of the work is sourcing: scanning deal sites and retailer clearance pages, running candidate products through sourcing software and Amazon's data to check sell-through, fees, competition, and whether you're allowed to sell the brand. When you find winners, you buy, then receive, prep, label, and ship inventory into Amazon FBA (or list and fulfill yourself on eBay). The rest is monitoring pricing, repricing against competitors, tracking cash tied up in inventory and the gap until Amazon pays out, and handling returns, account notifications, and the occasional inventory or IP issue.",
+  "startupCostsItemized": [
+    { "item": "Initial inventory / working capital", "low": 500, "high": 6000 },
+    { "item": "Amazon Professional seller account", "low": 480, "high": 480, "annual": true },
+    { "item": "Sourcing/scanning software (Keepa, SellerAmp/Tactical Arbitrage, etc.)", "low": 200, "high": 1200, "annual": true },
+    { "item": "Prep supplies (labels, poly bags, boxes) or prep-center fees", "low": 100, "high": 600 },
+    { "item": "eBay/Amazon selling and FBA fees (ongoing, % of sales)", "low": 0, "high": 0 },
+    { "item": "Business registration and sales tax setup", "low": 50, "high": 400 },
+    { "item": "Repricer software", "low": 0, "high": 600, "annual": true, "optional": true },
+    { "item": "Course or training (optional, and buy skeptically)", "low": 0, "high": 1000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most beginners net $500 to $2,000 per month part-time in year one after fees and cost of goods, and many earn less while learning to source profitably. Profit is a slice of revenue — net margins after Amazon fees and product cost commonly land in the low-to-mid teens as a percentage — so it takes real sales volume to make real money.",
+    "experienced": "Sellers with a refined sourcing process, reliable suppliers/deals, and more capital deployed commonly report $2,000 to $6,000 per month in profit working solo or with light help. Scaling profit means scaling capital and the number of profitable buys, not just hours.",
+    "topEarners": "Larger operations running significant inventory, virtual sourcing assistants, and prep centers gross well into five or six figures monthly, but profit is still a thin percentage of that gross, and the operation requires substantial capital and tight systems. Many top sellers diversify beyond pure arbitrage. Reaching this takes years and tolerance for ongoing platform risk.",
+    "whatAffectsMost": "How much capital you can deploy into profitable buys, your sourcing efficiency and discipline on margin, and avoiding account problems. Cash cycle matters: your money is tied up in inventory and in transit until items sell and Amazon pays out.",
+    "perHour": "Effective rate varies widely with sourcing skill and capital. Beginners often net a poor hourly rate while learning; experienced sellers who source efficiently can do well, but counting sourcing, prep, and admin time, realistic blended rates are frequently modest, and a single account issue can erase a good stretch."
+  },
+  "howToStart": [
+    "Week 1: Set up an Amazon Professional seller account and an eBay account, register your business, and learn the fee structures cold — FBA fees, referral fees, and storage are what determine whether a deal is actually profitable.",
+    "Week 2: Get sourcing tools (at minimum Keepa plus a sourcing/scanning app) and learn to read sales rank, price history, and competition so you can judge sell-through, not just spread. Learn which categories and brands are gated or restricted for your account.",
+    "Weeks 2–4: Make your first small, conservative buys on items with clear demand and healthy margin after all fees. Prep and ship into FBA (or fulfill yourself), and treat early buys as learning your true costs and timelines.",
+    "Weeks 4–8: Track every unit's real profit after fees, returns, and any price drops. Build a repeatable sourcing routine and reinvest profits into more profitable buys rather than chasing thin-margin gambles.",
+    "Ongoing: Diversify suppliers and products, watch your account health and any IP/authenticity notices closely, keep invoices to prove authenticity, and manage cash so you're never over-leveraged on slow-moving inventory."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Comfort with numbers — calculating true margin after all fees, returns, and shipping",
+      "Patience and discipline to source many candidates to find the few genuinely profitable buys",
+      "Basic cash-flow management to handle inventory tied up until payout"
+    ],
+    "canLearn": [
+      "Using sourcing and analysis tools (Keepa, SellerAmp, Tactical Arbitrage) to judge demand and competition",
+      "Amazon FBA prep, labeling, and shipping requirements, or working with a prep center",
+      "Navigating category/brand gating, restrictions, and ungating processes"
+    ],
+    "separators": [
+      "A fast, disciplined sourcing process that consistently finds margin others miss",
+      "Protecting account health and authenticity documentation to avoid suspensions and IP complaints",
+      "Deploying and recycling capital efficiently so cash isn't stuck in slow inventory"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Buying on price spread alone and ignoring sell-through, so cash gets stuck in inventory that won't move",
+    "Miscalculating true margin by forgetting FBA fees, storage, returns, and inbound shipping",
+    "Selling gated brands or risking IP/authenticity complaints, which can trigger suspensions and held funds",
+    "Underestimating how much working capital it takes — thin margins mean you need volume, and volume needs cash",
+    "Treating it as passive — sourcing is constant work, and deals dry up or get competed away quickly",
+    "Over-leveraging on a hot product, then taking a loss when competitors flood it and the price collapses"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Keepa (price/sales history)", "note": "Essential for judging demand and price stability before buying. Don't source without price history.", "low": 20, "high": 40 },
+    { "item": "Sourcing/analysis app (SellerAmp, Tactical Arbitrage)", "note": "Calculates margin after fees and flags restrictions; speeds sourcing dramatically.", "low": 20, "high": 100 },
+    { "item": "Amazon Professional seller account", "note": "Required for FBA and to sell at volume; monthly subscription plus per-sale fees.", "low": 40, "high": 40 },
+    { "item": "Prep supplies or prep-center service", "note": "Labels, poly bags, boxes for FBA prep; outsource to a prep center as you scale.", "low": 100, "high": 600 },
+    { "item": "Repricer software", "note": "Keeps you competitive on price automatically; useful once you carry many listings.", "low": 0, "high": 50 },
+    { "item": "Scale, label printer, and packing station", "note": "Speeds prep if you fulfill or prep in-house.", "low": 50, "high": 400 },
+    { "item": "Accounting/inventory tracking", "note": "Track real per-unit profit and cash tied up; thin margins make bookkeeping essential.", "low": 0, "high": 50 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Selling on Amazon, where buyer demand already exists — your job is sourcing, not driving traffic",
+      "Winning the Buy Box through competitive pricing and good account health on Amazon listings",
+      "Listing on eBay for products or categories where it converts better or you're restricted on Amazon",
+      "Keeping inventory in-stock on fast-selling items so you capture repeat demand",
+      "Maintaining strong seller metrics and reviews so your account stays in good standing",
+      "Diversifying across marketplaces to reduce reliance on any single platform"
+    ],
+    "whereCustomersAre": "Customers are the existing buyers on Amazon and eBay; you don't market to them directly. The real 'finding' work is sourcing profitable products to resell, not generating demand.",
+    "timeToClientBase": "You can make first sales within weeks of listing, since the marketplaces supply the buyers. Building a steady, profitable operation depends on your sourcing consistency and capital more than on time.",
+    "wasteOfTime": "Building your own storefront, ads, or branding for an arbitrage operation — the marketplace owns the customer relationship. Time and money are better spent on sourcing efficiency and protecting account health."
+  },
+  "howItScales": {
+    "toFullTime": "Possible, but scaling profit requires scaling capital and the volume of profitable buys, not just hours. Thin margins mean you need significant, well-managed inventory turnover to reach full-time income.",
+    "hireAndStepBack": "Partially. Many sellers hire virtual assistants for sourcing and use prep centers for fulfillment, which frees time, but you remain exposed to platform decisions and account risk no matter how much you delegate.",
+    "sellable": "Difficult. A pure arbitrage operation has little durable, transferable value — no brand, no exclusive products, and dependence on a marketplace account that may not transfer. Sellers who build private label or brand assets create something far more sellable.",
+    "whatScalingRequires": "More working capital, virtual sourcing assistants, prep-center relationships, tight systems for inventory and cash, and constant vigilance on account health, restrictions, and IP issues."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You're analytical and enjoy the numbers and hunt of sourcing",
+      "You have working capital you can afford to tie up in inventory",
+      "You're disciplined about margin, sell-through, and cash flow",
+      "You can tolerate platform and account risk that's largely outside your control"
+    ],
+    "poorFit": [
+      "You want passive income — sourcing is constant and deals are competed away fast",
+      "You can't comfortably fund inventory or stomach money tied up until payout",
+      "You'd be wiped out financially or emotionally by an account suspension",
+      "You dislike repetitive analysis, prep, and shipping logistics"
+    ],
+    "askYourself": [
+      "Can I afford to have my capital locked in inventory and held by Amazon between payouts?",
+      "Do I understand every fee well enough to know my true margin before I buy?",
+      "Could my business survive an account suspension or a major IP/authenticity complaint?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How much money do I need to start online arbitrage?",
+      "answer": "Because margins are thin, you need enough working capital to buy meaningful inventory plus tool subscriptions and fees. A realistic lean start is around $1,000 to $2,000 including software, with $5,000 to $10,000 giving real room to find profitable volume. Undercapitalizing is a common reason people stall out."
+    },
+    {
+      "question": "Is online arbitrage legal?",
+      "answer": "Reselling legitimately purchased products is generally legal under the first-sale doctrine, but marketplaces add their own rules — brand gating, authenticity requirements, and category restrictions. You can be legal and still get suspended or hit with an IP complaint if a brand objects or you can't prove authenticity. Keeping invoices and avoiding restricted brands matters."
+    },
+    {
+      "question": "What margins can I realistically expect?",
+      "answer": "After Amazon's referral and FBA fees, plus your product cost, inbound shipping, and returns, net margins commonly land in the low-to-mid teens as a percentage of the sale price. That's thin, which is why volume and capital matter so much. Many products you scan won't clear a worthwhile margin at all."
+    },
+    {
+      "question": "What's the biggest risk in this business?",
+      "answer": "Account suspension or an IP/authenticity complaint that freezes your funds and inventory, sometimes with little warning. Because you depend entirely on a marketplace you don't control, a single account action can effectively end the business. Protecting account health and documentation is more important than any single sale."
+    },
+    {
+      "question": "How is this different from FBA private label or thrift flipping?",
+      "answer": "Private label means creating and branding your own product and building a listing from scratch — more upfront work and capital, but a durable asset. Thrift flipping means sourcing secondhand items in person. Online arbitrage is buying new, discounted retail products online to resell, with lower setup but thinner margins and less defensibility."
+    },
+    {
+      "question": "Can I really do this part-time?",
+      "answer": "Yes — many people start part-time because sourcing and prep can fit around a job, especially using FBA so Amazon handles fulfillment. Just be realistic that sourcing is ongoing and deals get competed away, so part-time income tends to be modest unless you deploy more capital and time."
+    },
+    {
+      "question": "Do I need to take a paid course?",
+      "answer": "No. The fundamentals — reading sales rank and price history, calculating fees, and avoiding restricted brands — can be learned from free resources and the tools themselves. Be skeptical of expensive courses promising easy income; many overstate results and understate the capital, work, and platform risk involved."
+    }
+  ],
+  "similarBusinesses": [
+    "amazon-fba-business",
+    "thrift-flipping-business",
+    "sneaker-reselling-business",
+    "ecommerce-store-business"
+  ],
+  "dataSources": [
+    "Amazon Seller Central — FBA fee schedules and seller policy documentation",
+    "Jungle Scout / Marketplace Pulse — annual Amazon seller surveys on margins and profitability",
+    "Keepa and sourcing-tool documentation for pricing and sales-rank data",
+    "Reseller communities (r/FulfillmentByAmazon, r/AmazonSeller) for real-world margins, capital needs, and account-risk reports"
+  ],
+  "lastReviewed": "2026-06"
+}

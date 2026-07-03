@@ -1,0 +1,163 @@
+{
+  "title": "ADU and Garage Conversion Business",
+  "slug": "adu-construction-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start an ADU and Garage Conversion Business — Costs and Earnings",
+  "metaDescription": "Honest guide to starting an ADU and garage conversion business: general contractor licensing, permits and zoning hurdles, real costs, earnings, and what builders get wrong.",
+  "startupCostLow": 25000,
+  "startupCostHigh": 150000,
+  "monthlyEarningsLow": 8000,
+  "monthlyEarningsHigh": 45000,
+  "timeToFirstIncome": "3 to 6 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Licensed general contractors or experienced remodelers in high-cost housing markets who can manage permits, zoning, and full subcontractor crews",
+  "biggestRisk": "A project stalling for months in permitting or zoning while you carry costs, or underbidding a complex utility/foundation scope",
+  "speedToIncome": "months",
+  "minWeeklyHours": 40,
+  "skills": ["hands"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "An ADU and garage conversion business builds accessory dwelling units — small standalone homes, attached additions, or converted garages and basements — that add a legal living space to an existing residential property. ADUs have become a hot market in many states because of housing shortages and laws (especially in California and other West Coast states) that have made them far easier to permit. The work is full general-contracting: you handle design coordination, permitting, foundation or slab work, framing, and all the trades — electrical, plumbing, HVAC, insulation, drywall, and finish — to deliver a code-compliant dwelling. The single hardest part is rarely the building; it is navigating zoning, permits, utility connections, and local ADU rules, which vary enormously by city and county.",
+  "dailyReality": "Much of the early work on each project is administrative: meeting the homeowner, coordinating design and engineering, submitting permit applications, and waiting through plan review and zoning checks that can take weeks or months. Once permitted, your days are spent managing the build — scheduling and supervising subcontractors, ordering materials, walking the site, dealing with inspections at each phase (foundation, framing, rough electrical/plumbing, insulation, final), and solving the surprises that come with tying a new unit into an existing property's utilities and setbacks. You are part builder, part project manager, and part guide through a bureaucratic process the homeowner finds confusing. Cash flow follows a draw schedule, and a permit delay can stall everything.",
+  "startupCostsItemized": [
+    { "item": "Trucks, trailer, and core jobsite tools", "low": 10000, "high": 45000 },
+    { "item": "Power tools, ladders, safety, and layout equipment", "low": 3000, "high": 15000 },
+    { "item": "General contractor license, exam, bond, and registration", "low": 1000, "high": 8000 },
+    { "item": "Commercial general liability + workers' comp setup", "low": 6000, "high": 20000, "annual": true },
+    { "item": "Design/engineering and permit costs (often passed to client, floated initially)", "low": 3000, "high": 20000 },
+    { "item": "Project management / estimating software", "low": 300, "high": 3000, "annual": true },
+    { "item": "Working capital to float labor and materials before draws", "low": 5000, "high": 40000 },
+    { "item": "Marketing — website, portfolio photos, signage", "low": 1000, "high": 6000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most new ADU builders net $6,000 to $15,000 per month in their first year once a project or two is running, but the start is slow because permitting, the first jobs, and reputation take months. A full ADU build commonly contracts at $150,000 to $400,000+ in high-cost markets, with the general contractor's net margin typically a meaningful but not headline share after subs and materials.",
+    "experienced": "Established builders running two to four concurrent projects with reliable subs and a referral pipeline commonly net $20,000 to $40,000 per month. Garage and basement conversions (lower ticket, faster) plus ground-up ADUs together create a steadier mix than relying on one large build at a time.",
+    "topEarners": "Specialized ADU companies that systematize design-permit-build, run many concurrent projects, and sometimes offer standardized or prefab ADU models gross several million per year. Reaching that requires project managers, dependable sub relationships, strong working capital to float multiple draws, and deep mastery of local permitting at scale.",
+    "whatAffectsMost": "Permit and zoning timelines, accurate bidding on the hidden scope (utility connections, foundation, bringing the existing structure to code), and reliable subcontractors affect earnings most. A project that stalls in permitting while you carry overhead, or an underbid utility/foundation scope, erases margin fast.",
+    "perHour": "General contracting on ADUs can be well-paid per project, but counting permitting time, project management, estimating, and stalled-project carrying costs, an owner's true effective rate often lands around $70 to $150 per hour of work."
+  },
+  "howToStart": [
+    "Before you start: Get the license and the experience. ADU work is full general contracting, which in nearly every state requires a general contractor (GC) license earned through exams, documented experience, and a bond. Most successful ADU builders come from years of remodeling or homebuilding.",
+    "Month 1–2: Obtain or confirm your GC license, register the business, and set up commercial general liability and workers' compensation. Build relationships with reliable subcontractors — electrical, plumbing, HVAC, framing, concrete — because your delivery depends on them.",
+    "Month 1–3: Master your local ADU rules. Zoning, setbacks, size limits, parking requirements, owner-occupancy rules, and utility-connection requirements vary dramatically by city and county, and this knowledge is your real competitive edge. Meet your local planning and building departments.",
+    "Month 2–4: Build a clear design-permit-build process and an estimating method that captures the hidden scope — utility ties, foundation, and code upgrades to the existing property. Partner with a designer or engineer you trust for plans.",
+    "Months 4–12: Take on a garage or basement conversion first to build a permitted track record faster than a ground-up ADU, then pursue full ADUs. Track each project's true cost and timeline, and use draw schedules and contracts that protect your cash flow through permit delays."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "A general contractor license and real construction/remodeling experience",
+      "Deep, current knowledge of local zoning, ADU rules, and the permitting process",
+      "Project management — scheduling subs, sequencing trades, and passing phased inspections"
+    ],
+    "canLearn": [
+      "Coordinating design and engineering for ADU plans",
+      "Estimating the hidden scope (utility connections, foundation, code upgrades) accurately",
+      "Construction contracts and draw schedules that protect cash flow"
+    ],
+    "separators": [
+      "Navigating permitting and zoning faster and more reliably than competitors — the true bottleneck and edge",
+      "Reliable, vetted subcontractor relationships that deliver quality on schedule",
+      "Bidding the full real scope so utility ties, foundation work, and code upgrades do not eat the margin"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underestimating permitting and zoning — assuming it is a quick remodel when plan review, setbacks, and utility rules can stall a project for months",
+    "Bidding only the visible build and missing the hidden scope: utility connections, foundation, and bringing the existing structure to code",
+    "Doing unpermitted work to save the client time, which creates illegal units that fail at sale and expose you to liability",
+    "Running out of working capital because draws lag behind the labor and materials you front",
+    "Relying on unvetted subcontractors who blow schedules or do work that fails inspection",
+    "Promising the homeowner an aggressive timeline that the permitting process cannot actually support, then losing trust when it slips"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Trucks and trailer", "note": "To move crew, tools, and materials between jobsites.", "low": 10000, "high": 45000 },
+    { "item": "Core power tools and jobsite equipment", "note": "Saws, drills, levels, and general building tools for self-performed work and oversight.", "low": 3000, "high": 15000 },
+    { "item": "Project management / estimating software", "note": "Essential for tracking multiple trades, budgets, and draw schedules across concurrent projects.", "low": 300, "high": 3000 },
+    { "item": "Layout and inspection tools (laser level, moisture meter)", "note": "For accurate layout and catching issues before inspectors do.", "low": 500, "high": 3000 },
+    { "item": "Safety and fall-protection gear", "note": "Required on framing, roofing, and elevated work.", "low": 1000, "high": 5000 },
+    { "item": "Small equipment rental (excavator, lift) per job", "note": "Rent for foundation digs and material lifts rather than owning early.", "low": 0, "high": 5000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A Google Business Profile and website ranking for local 'ADU builder' and 'garage conversion' searches, with a clear portfolio",
+      "Relationships with real-estate agents and property investors who advise homeowners on adding rentable space",
+      "Referrals from architects, designers, and engineers who do ADU plans",
+      "Educational content and consultations that help homeowners understand local ADU rules (which builds trust and leads)",
+      "Word of mouth from completed, permitted projects in high-demand neighborhoods"
+    ],
+    "whereCustomersAre": "Customers are homeowners in high-cost housing markets — especially California and other West Coast states with ADU-friendly laws — who want rental income, multigenerational housing, or added property value. Investors and homeowners in expensive metros are the core market.",
+    "timeToClientBase": "Expect three to six months to get licensed, build a sub network, and complete a first permitted project, and a year or more to build the referral pipeline that produces steady work. Because each project is long, a few strong referrals carry the business.",
+    "wasteOfTime": "Cheap lead-gen and broad advertising rarely convert for high-ticket, trust-dependent ADU work. Early effort is better spent on a strong portfolio, local-rule expertise, and relationships with agents, designers, and past clients."
+  },
+  "howItScales": {
+    "toFullTime": "Yes — this is generally a full-time business given the license, overhead, and project complexity. A single GC can reach a strong full-time income by running one to a few concurrent projects in a healthy ADU market.",
+    "hireAndStepBack": "Possible but management-heavy. Growth means adding project managers and deepening subcontractor relationships rather than just laborers, since you are coordinating trades rather than self-performing everything. Stepping back requires systemized design-permit-build processes and trusted PMs, plus working capital to float multiple draws.",
+    "sellable": "Established ADU builders with a referral pipeline, systemized processes, a strong portfolio, and ideally standardized ADU models do sell, valued on profit and brand. A solo GC whose business is built entirely on personal reputation is harder to transfer.",
+    "whatScalingRequires": "Reliable subcontractors and project managers, mastery of permitting across jurisdictions, significant working capital to carry multiple projects through draw cycles and permit delays, and strong contracts and processes. Standardized or prefab ADU designs are how some builders scale beyond bespoke one-offs."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You hold or can obtain a general contractor license and have remodeling or homebuilding experience",
+      "You operate in a high-cost, ADU-friendly market with strong homeowner demand",
+      "You are willing to master local zoning and permitting, which is the real differentiator",
+      "You can manage subcontractors, long timelines, and cash-flow draws"
+    ],
+    "poorFit": [
+      "You want low startup cost, fast income, or simple, repetitive work",
+      "You have no construction or GC experience and cannot get licensed first",
+      "You dislike paperwork, permitting, and dealing with planning departments",
+      "You lack the working capital or patience to carry a project through months of permitting"
+    ],
+    "askYourself": [
+      "Do I understand my local ADU and zoning rules well enough to set realistic timelines and prices?",
+      "Can I float labor and materials through permit delays and draw schedules without running out of cash?",
+      "Do I have, or can I build, the subcontractor relationships to deliver a full dwelling on time and to code?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to build ADUs and do garage conversions?",
+      "answer": "Yes, in nearly every state. Building a dwelling unit is full general contracting and requires a general contractor (GC) license, typically earned through exams, documented experience, and a bond, plus business registration, commercial liability, and usually workers' compensation. Trades within the project (electrical, plumbing) must be done by appropriately licensed subs. Confirm your state's GC licensing requirements before contracting any work."
+    },
+    {
+      "question": "Why is zoning and permitting called the biggest hurdle?",
+      "answer": "Because it is. Whether an ADU is even allowed, and at what size, setback, height, and parking requirement, is governed by local zoning and ADU ordinances that vary dramatically by city and county, and plan review can take weeks or months. Many states (notably California) have passed laws easing ADU approval, but local rules and utility-connection requirements still drive timelines and cost. Mastering this process is the real competitive edge, more than building skill."
+    },
+    {
+      "question": "How much does an ADU project cost the homeowner?",
+      "answer": "In high-cost markets a full detached ADU commonly runs $150,000 to $400,000 or more, while garage and basement conversions are typically lower and faster. Costs are driven by size, finish level, foundation and utility work, and local permit fees. Because of the high ticket and the hidden scope, accurate bidding that includes utility ties and code upgrades is essential to protecting margin."
+    },
+    {
+      "question": "Where is ADU demand strongest?",
+      "answer": "In high-cost housing markets, especially California and other West Coast states where laws have made ADUs much easier to permit and homeowners seek rental income or multigenerational space. Expensive metros across the country are increasingly ADU-friendly. Demand is weakest where land is cheap, housing is plentiful, or local rules still make ADUs hard to permit, so the opportunity is very market-dependent."
+    },
+    {
+      "question": "Can I start with garage conversions before full ADUs?",
+      "answer": "Yes, and it is often smart. Garage and basement conversions are typically lower ticket, faster, and somewhat simpler than ground-up ADUs, which lets you build a permitted track record, sub relationships, and cash flow before taking on large detached builds. They still require permits and code compliance, so do not treat them as quick informal jobs."
+    },
+    {
+      "question": "What is the most common way ADU builders lose money?",
+      "answer": "Two ways: a project stalling in permitting or zoning for months while the builder carries overhead, and underbidding the hidden scope — utility connections, foundation work, and bringing the existing property up to code. Both eat margin quickly. Realistic timelines, thorough bidding, and contracts with draw schedules that protect cash flow are how experienced builders avoid it."
+    },
+    {
+      "question": "How long until I make money in this business?",
+      "answer": "Realistically three to six months before a first permitted project is generating income, because licensing, building a sub network, and the permitting process all take time, and ADU projects themselves run for months. A steady pipeline usually takes a year or more of referrals. This is a patient, capital-aware business, not a fast-income one."
+    }
+  ],
+  "similarBusinesses": [
+    "remodeling-business",
+    "framing-carpentry-business",
+    "concrete-business",
+    "foundation-repair-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Construction Managers and Carpenters occupational data",
+    "State general contractor licensing board requirements (e.g., California CSLB and equivalents)",
+    "Local and state ADU ordinances and housing-department guidance (zoning, setbacks, permitting)",
+    "Angi / HomeAdvisor and remodeling industry cost reports — ADU and garage conversion pricing ranges",
+    "ADU builder and general-contractor communities and trade forums for real-world cost and earnings data"
+  ],
+  "lastReviewed": "2026-06"
+}

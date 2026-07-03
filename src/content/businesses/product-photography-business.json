@@ -1,0 +1,164 @@
+{
+  "title": "Product Photography Business",
+  "slug": "product-photography-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a Product Photography Business — Costs & Earnings",
+  "metaDescription": "Honest breakdown of starting a product photography business: real startup costs, realistic earnings, gear and lighting skills, and what most photographers get wrong.",
+  "startupCostLow": 1500,
+  "startupCostHigh": 15000,
+  "monthlyEarningsLow": 1000,
+  "monthlyEarningsHigh": 9000,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Detail-oriented creatives who like controlled studio work and want recurring commercial clients rather than events",
+  "biggestRisk": "Competing on price against cheap overseas and AI-generated images instead of building recurring brand relationships",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 10,
+  "skills": ["creative", "tech", "sales", "people"],
+  "workLocations": ["home", "space", "online"],
+  "priorities": ["flexibility", "alongside-job", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A product photography business shoots clean, commercial images of physical products for brands, e-commerce sellers, and Amazon listings — and, for many photographers, food photography for restaurants, packaged-food brands, and recipe content. Unlike weddings or events, the work is controlled and repeatable: you light a product on a table or set, capture it precisely, and retouch it to spec. The deliverables are practical assets — white-background catalog shots, lifestyle images, infographic-style Amazon images, and styled hero shots — that directly drive a client's sales. Because brands need new images continually as they launch products, the best work is recurring rather than one-off, which makes it one of the more stable niches in commercial photography.",
+  "dailyReality": "A typical week splits between shooting, editing, and finding clients. On shoot days you set up lighting and a background, style and position products (often dozens of SKUs in a session for e-commerce clients), and capture tethered to a computer so you can check focus and exposure live. The rest of the time you're retouching in Lightroom and Photoshop — cleaning up dust, perfecting white backgrounds, color-correcting, compositing — which often takes longer than the shoot itself. Around that sits the business: quoting jobs, communicating with brands about shot lists and usage, invoicing, and prospecting. It's precise, patient, indoor work where consistency and turnaround matter more than artistic flash.",
+  "startupCostsItemized": [
+    { "item": "Camera body and a sharp lens (macro or 50-100mm), used acceptable", "low": 800, "high": 4000 },
+    { "item": "Lighting kit (strobes or quality continuous lights, softboxes, modifiers)", "low": 300, "high": 3000 },
+    { "item": "Tripod, tethering cable, backdrops, sweep, and reflectors", "low": 150, "high": 800 },
+    { "item": "Editing computer and software subscriptions (Lightroom/Photoshop/Capture One)", "low": 0, "high": 3000 },
+    { "item": "Light tent / shooting table and small set props", "low": 100, "high": 800 },
+    { "item": "Business registration / LLC and basic insurance", "low": 100, "high": 600 },
+    { "item": "Portfolio website and sample shoots to build a book", "low": 100, "high": 1500, "optional": true },
+    { "item": "Studio space rental or home-studio setup", "low": 0, "high": 6000, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most photographers earn $1,000 to $3,000 per month part-time in year one, often while building a portfolio and learning to price. Pricing models vary: per-image rates commonly run $15 to $75 for straightforward e-commerce shots and $75 to $300+ for styled or lifestyle images, with day rates of $400 to $1,500. Beginners frequently underprice because they don't account for editing time.",
+    "experienced": "Photographers with a strong portfolio, a few recurring brand clients, and efficient workflows commonly earn $4,000 to $9,000 per month. At this stage, repeat e-commerce and food clients on ongoing or retainer arrangements provide predictable income, and day rates climb to $1,000 to $2,500+.",
+    "topEarners": "Top commercial product and food photographers serving national brands and agencies bill $2,500 to $5,000+ per day plus usage licensing, reaching $150,000 to $300,000+ per year. Getting there takes a standout portfolio, art-direction skill, agency relationships, and often a dedicated studio and assistants. Most never reach this tier, and many plateau at solid mid-five-figure incomes.",
+    "whatAffectsMost": "Portfolio quality, editing efficiency, and recurring relationships matter most. The difference between a struggling and thriving product photographer is rarely gear — it's a focused portfolio in a niche (e.g., cosmetics, food, jewelry), realistic pricing that accounts for retouching, and clients who come back every product cycle.",
+    "perHour": "Counting shooting plus the substantial editing time, realistic blended rates run $25 to $75 per hour early on, rising to $75 to $150+ as you specialize, speed up retouching, and land recurring clients. The hidden time sink is post-production, which beginners consistently underestimate."
+  },
+  "howToStart": [
+    "Week 1-2: Master controlled lighting on a single product. Learn to light for clean white backgrounds and for styled hero shots, and learn tethered shooting. Use products you own or borrow to build a tight portfolio in a niche you'd like to serve (cosmetics, food, supplements, jewelry, apparel flat-lays).",
+    "Week 2-4: Build a focused portfolio website showing one or two niches done well, not a scattershot of everything. Define clear pricing: per-image and day-rate options, with editing and usage spelled out. Register your business and get simple liability coverage.",
+    "Month 1-2: Land your first paying clients. Reach out to local small brands, Etsy and Amazon sellers, restaurants, and product-based businesses with weak existing photos. Offer a small first-project rate or a sample shoot to earn the portfolio piece and the relationship, then deliver fast and flawlessly.",
+    "Month 2-4: Turn one-off jobs into recurring work by proposing ongoing content for each new product launch or seasonal menu. Systematize your editing with presets and templates to cut turnaround time, and ask happy clients for referrals and testimonials.",
+    "Ongoing: Raise prices as your book strengthens, and lean into a niche where you can become the obvious choice rather than a generalist competing on price."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Lighting control — the core skill; product photography is fundamentally about shaping light",
+      "Solid editing/retouching ability in Lightroom, Photoshop, or Capture One",
+      "Attention to detail and consistency across many images and SKUs",
+      "Basic client communication and the ability to interpret a shot list and brand brief"
+    ],
+    "canLearn": [
+      "Tethered shooting and color-managed workflow",
+      "Styling and set design for lifestyle and food images",
+      "Pricing and licensing/usage structures for commercial work"
+    ],
+    "separators": [
+      "A distinctive, niche portfolio that makes you the obvious hire for a specific kind of brand",
+      "Fast, consistent editing and turnaround that recurring e-commerce clients depend on",
+      "Selling ongoing relationships and usage licensing rather than competing on per-image price"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underpricing by ignoring editing time — a $20 image that takes an hour to retouch is a money-loser",
+    "Building a scattershot portfolio of everything instead of going deep in one profitable niche",
+    "Buying expensive cameras while neglecting lighting and modifiers, which matter far more for product work",
+    "Competing on price against cheap overseas shooters and AI-generated images instead of selling quality, consistency, and reliability",
+    "Treating every job as one-off rather than pursuing recurring brand and seasonal content relationships",
+    "Vague deliverables and usage terms, leading to endless free revisions and unpaid commercial use"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Camera and sharp lens", "note": "A used mid-range body with a macro or short telephoto lens is plenty. Sharpness and detail matter more than the newest model.", "low": 800, "high": 4000 },
+    { "item": "Lighting kit", "note": "Strobes or quality continuous lights with softboxes. This is the most important investment for product work.", "low": 300, "high": 3000 },
+    { "item": "Tripod, tethering, and backdrops", "note": "Tethered shooting and a stable tripod are essential for consistent, repeatable results.", "low": 150, "high": 800 },
+    { "item": "Editing software", "note": "Lightroom and Photoshop, or Capture One for tethered work. Retouching skill is where images are won.", "low": 0, "high": 600, "annual": true },
+    { "item": "Shooting table / light tent and props", "note": "A sweep table for white-background work and a few props for styling.", "low": 100, "high": 800 },
+    { "item": "Studio space", "note": "A spare room works to start; rent dedicated space only when volume justifies it.", "low": 0, "high": 1500, "annual": true, "optional": true }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to small brands, Amazon/Etsy sellers, and local businesses with weak product photos",
+      "A niche-focused portfolio website and Instagram showcasing your best, most specialized work",
+      "Relationships with marketing agencies, e-commerce consultants, and brand designers who need photography",
+      "Referrals and testimonials from happy recurring clients",
+      "Local food and product businesses (restaurants, packaged-food brands) for ongoing menu and launch content"
+    ],
+    "whereCustomersAre": "E-commerce and Amazon sellers, direct-to-consumer brands, restaurants and food producers, and any product-based small business that needs continual fresh imagery for listings, ads, and social media.",
+    "timeToClientBase": "First paying jobs often come within two to six weeks of having a portfolio and reaching out. Building a base of recurring clients that provides steady income usually takes three to six months of consistent delivery and relationship-building.",
+    "wasteOfTime": "Bidding on race-to-the-bottom freelance marketplaces against rock-bottom global pricing, and posting beautiful images with no outreach or clear offer. Early on, targeted direct outreach to brands with bad photos converts far better than waiting to be discovered."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. Many photographers reach full-time income with a roster of recurring e-commerce and brand clients. The ceiling as a solo shooter is your shooting and editing capacity, which improves a lot with workflow systems and presets.",
+    "hireAndStepBack": "Partly. You can hire a retoucher or editor to offload post-production (often the biggest time sink) and bring on assistants or second shooters for volume. Fully stepping back is harder because clients often buy your specific eye, but a studio with a consistent style and a small team can run with less of your direct involvement.",
+    "sellable": "A solo product-photography brand built around the owner is hard to sell. A studio with a recognizable style, recurring contracts, a team, and systems has more transferable value. Most photographers monetize through ongoing income rather than an eventual sale.",
+    "whatScalingRequires": "Efficient, templated editing workflows, a retoucher or editing help, recurring/retainer client relationships, and possibly a dedicated studio and assistants. Productizing your offerings (set per-SKU and package pricing) makes scaling and delegation far easier."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You enjoy precise, controlled studio work and have patience for detail",
+      "You're comfortable with lighting and willing to master retouching",
+      "You'd rather build recurring B2B relationships than shoot one-off events",
+      "You can specialize in a niche and market yourself to brands"
+    ],
+    "poorFit": [
+      "You want a creative outlet with no client demands or technical precision",
+      "You dislike editing — post-production is a large part of the job",
+      "You expect to win on the cheapest price rather than quality and reliability",
+      "You're not willing to do sales and outreach to land brand clients"
+    ],
+    "askYourself": [
+      "Am I willing to spend as much time editing as shooting, and to price for it?",
+      "Can I pick a niche and build a focused portfolio rather than shooting a bit of everything?",
+      "Do I have access to enough product-based businesses, locally or online, to build recurring work?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need expensive camera gear to start?",
+      "answer": "No. A used mid-range camera body and one sharp lens (a macro or short telephoto) are more than enough for most product work. Lighting and modifiers matter far more than the camera, and learning to control light is the real skill. Spend on lighting and on developing your retouching before upgrading bodies."
+    },
+    {
+      "question": "How should I price product photography?",
+      "answer": "Common models are per-image (often $15 to $75 for straightforward e-commerce shots, more for styled or lifestyle images), day rates ($400 to $2,500+ depending on experience), and retainers for recurring clients. The key is to account for editing time and usage rights, which beginners routinely forget. Clear, written deliverables and usage terms prevent unpaid revisions and licensing."
+    },
+    {
+      "question": "Is AI-generated imagery going to replace product photography?",
+      "answer": "AI is real competitive pressure, especially for generic and background-replacement tasks, and it's pushing down commodity pricing. But many brands still need accurate, trustworthy images of their actual products — especially for food, texture, fit, and detail — and value a photographer who delivers consistency and reliability. The realistic response is to specialize, build relationships, and offer quality and judgment that generic AI output can't, rather than competing on the cheapest commodity shots."
+    },
+    {
+      "question": "Can I run this part-time around a job?",
+      "answer": "Yes, this is one of the more part-time-friendly photography niches because shoots are scheduled and controlled rather than tied to live events. Many people start it on evenings and weekends, shooting for local brands and editing afterward. The constraint is turnaround time — clients expect reasonably fast delivery, so manage how much you take on."
+    },
+    {
+      "question": "Do I need a dedicated studio?",
+      "answer": "Not to start. A spare room, a sweep table, and a couple of lights are enough for small products and e-commerce work. Rent dedicated studio space only when volume, product size, or client expectations justify the fixed cost. Many successful product photographers work from a home studio for years."
+    },
+    {
+      "question": "How do I get my first clients with no portfolio?",
+      "answer": "Shoot products you own or can borrow to build sample images in your chosen niche, then do a few low-cost or trade first projects for local brands and small sellers in exchange for portfolio pieces and testimonials. Target businesses with visibly weak photos and offer to clearly improve their listings. Deliver fast and flawlessly, and turn those into referrals and recurring work."
+    },
+    {
+      "question": "What's the difference between this and event or wedding photography?",
+      "answer": "Product photography is controlled, repeatable studio work focused on commercial assets that drive sales, with recurring B2B clients. Event and wedding work is live, high-pressure, and one-off, with no second chances on the day. They require overlapping but distinct skills, and product work tends to be more part-time-friendly and predictable, while events can command higher single-day fees."
+    }
+  ],
+  "similarBusinesses": [
+    "photography-business",
+    "real-estate-photography-business",
+    "video-editing-business",
+    "freelance-graphic-design-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Photographers occupational employment and wage data",
+    "Commercial photography pricing guides and licensing references (e.g., industry rate surveys, ASMP usage guidance)",
+    "E-commerce and Amazon seller community discussions on product imagery needs and budgets",
+    "Photographer communities and forums (r/photography, r/AskPhotography) for real-world rates and workflow",
+    "Marketplace and freelancer rate data for product and food photography services"
+  ],
+  "lastReviewed": "2026-06"
+}

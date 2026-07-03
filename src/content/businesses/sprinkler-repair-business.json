@@ -1,0 +1,163 @@
+{
+  "title": "Lawn Irrigation and Sprinkler Repair Business",
+  "slug": "sprinkler-repair-business",
+  "category": "service-businesses",
+  "metaTitle": "How to Start a Sprinkler Repair Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a lawn irrigation and sprinkler repair business: real startup costs, realistic earnings, seasonal recurring revenue, and what most people get wrong.",
+  "startupCostLow": 1500,
+  "startupCostHigh": 15000,
+  "monthlyEarningsLow": 2500,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "3 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Hands-on people who like diagnostic problem-solving and want recurring seasonal service revenue rather than one-off jobs",
+  "biggestRisk": "Doing installs or backflow work without the required state license or permits, or causing a cross-connection/backflow failure that contaminates a customer's water supply",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 15,
+  "skills": ["hands", "people", "sales"],
+  "workLocations": ["mobile"],
+  "priorities": ["low-risk", "sellable", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "whatItIs": "A lawn irrigation and sprinkler repair business installs, maintains, and repairs the underground sprinkler systems that water lawns and landscaping for homeowners, HOAs, and commercial properties. The work splits into two streams: repairs and diagnostics (fixing broken heads, leaks, clogged or misaligned nozzles, faulty valves, controllers, and wiring) and recurring seasonal service — spring start-ups and pressure checks, mid-season adjustments, and fall winterization (blowing out lines so they don't freeze and crack). That seasonal cycle is the real draw: the same customers need you twice a year, every year, which builds a recurring revenue base most service trades don't have. Many operators start with repairs and service, then add full system installation once they have the skills, tooling, and any required license.",
+  "dailyReality": "A typical day is a route of service calls — diagnosing why a zone won't water, replacing cracked heads, locating and fixing a buried leak or a dead valve solenoid, or reprogramming a controller. You're digging, kneeling, and tracing wires and pipe, often with a wire/valve locator and a multimeter, in sun and dirt. In spring you're slammed with start-ups; in fall you're racing the first freeze doing winterizations with an air compressor. Installs are bigger jobs involving trenching, pipe, and valve manifolds across one or more days. Around the field work, expect time quoting, ordering parts, scheduling the seasonal rushes, and (where required) handling permits and backflow-test paperwork.",
+  "startupCostsItemized": [
+    { "item": "Hand tools, shovels, valve box tools, multimeter, wire/valve locator", "low": 300, "high": 1500 },
+    { "item": "Starter parts inventory (heads, nozzles, valves, fittings, wire, controllers)", "low": 300, "high": 1500, "annual": true },
+    { "item": "Air compressor for winterization (towable for larger systems)", "low": 200, "high": 3000 },
+    { "item": "Trenching/boring tools or rental for installs", "low": 0, "high": 2500, "optional": true },
+    { "item": "Backflow test kit and certification (where required)", "low": 0, "high": 1500, "optional": true },
+    { "item": "Irrigator/contractor license, permits, and exam fees (state-dependent)", "low": 0, "high": 1500, "optional": true },
+    { "item": "Work vehicle outfitting, shelving, and signage", "low": 100, "high": 2000 },
+    { "item": "General liability insurance", "low": 600, "high": 2000, "annual": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Google Business Profile, booking, and simple website", "low": 0, "high": 400, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most beginners earn $2,500 to $5,000 per month during the season in year one, often part-time, doing repairs and seasonal start-ups and winterizations. Service calls commonly bill $75 to $250, winterizations $50 to $150 per system, and repairs vary widely with parts. Income is concentrated in spring and fall rushes.",
+    "experienced": "Experienced operators with two or more years, a route of recurring seasonal customers, and install capability commonly report $6,000 to $12,000 per month in season solo or with a helper. The twice-a-year recurring service base is what makes income predictable, and installs add higher-ticket jobs ($2,500 to $6,000+ each for residential).",
+    "topEarners": "Multi-crew companies doing volume installs, commercial and HOA contracts, and large recurring service routes gross $30,000 to $100,000+ per month in season. Reaching that means hiring and training technicians, carrying real parts inventory and equipment, handling licensing and permits at scale, and competing with established landscape-irrigation firms. Most solo operators never scale this far.",
+    "whatAffectsMost": "The recurring seasonal route matters most — a large, dense book of start-up and winterization customers produces reliable, repeatable revenue. After that, install capability and diagnostic speed (finding the fault fast) drive earnings more than any single tool.",
+    "perHour": "Effective rates for solo operators typically run $60 to $150 per hour of actual work, with diagnostics and quick repairs at the high end and digging-heavy jobs lower. Counting driving, parts runs, quoting, and seasonal scheduling, realistic blended rates are often $45 to $90 per hour."
+  },
+  "howToStart": [
+    "Weeks 1-2: Learn the systems cold — how zones, valves, controllers, backflow preventers, and common head types work and fail. Practice diagnosing and repairing on your own and friends' systems. Check your state's licensing rules first, because some states license irrigators and backflow testers and you can't legally do certain work without it.",
+    "Weeks 3-4: Buy core diagnostic tools and a starter parts inventory, register the business, and get general liability insurance. Set up a Google Business Profile and pricing for service calls, repairs, start-ups, and winterizations. Book your first repair and start-up jobs at a fair launch rate.",
+    "Month 1: Complete your first 10 to 15 service/repair jobs and track real time and parts per job so you price for profit. Capture every customer for your recurring start-up and winterization list — that list is the asset.",
+    "Days 30-90: Build the seasonal reminder system (auto-contact customers each spring and fall), pursue HOA and property-management accounts, and decide whether to get any required license or backflow certification to expand the work you can legally do.",
+    "Before fall: Get an air compressor sized for your customers' systems and pre-book winterizations early — fall is a short, intense window and the operators who schedule ahead capture the most revenue."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Diagnostic problem-solving — tracing why a zone fails across pipe, valves, wiring, and controller",
+      "Basic plumbing and low-voltage electrical comfort, plus willingness to dig and work in dirt",
+      "Reliability and the ability to handle the spring and fall scheduling rushes"
+    ],
+    "canLearn": [
+      "Common repairs: replacing heads and nozzles, fixing valves and solenoids, splicing wire, programming controllers",
+      "Winterization technique with an air compressor without damaging the system",
+      "System installation: zoning, valve manifolds, pipe sizing, and trenching"
+    ],
+    "separators": [
+      "Building a large, dense recurring route of start-up and winterization customers that repeats every year",
+      "Fast, accurate diagnostics so you find faults quickly instead of digging up the whole yard",
+      "Holding any required irrigator/backflow license so you can legally do installs and backflow work competitors can't"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Doing installs or backflow work without the state license, permits, or certification that some jurisdictions legally require",
+    "Causing a cross-connection or backflow failure that can contaminate the customer's drinking water — a serious health and liability issue",
+    "Botching winterization (too much pressure or missed zones) and leaving lines to freeze and crack over winter, generating spring callbacks",
+    "Treating it as one-off repair work and failing to capture customers onto a recurring start-up/winterization list",
+    "Underpricing diagnostic time, then spending hours finding a buried leak or dead valve for the price of a quick fix",
+    "Carrying too little or the wrong parts inventory, so jobs stall on parts runs and a day's route falls apart"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Hand tools, valve box keys, and shovels", "note": "The daily basics for accessing and repairing buried components.", "low": 150, "high": 600 },
+    { "item": "Multimeter and wire/valve locator", "note": "Essential for diagnosing electrical faults and finding buried valves without excavating the whole yard.", "low": 150, "high": 1200 },
+    { "item": "Starter parts inventory", "note": "Heads, nozzles, valves, solenoids, fittings, wire, and common controllers. Recurring; right stock keeps your route moving.", "low": 300, "high": 1500 },
+    { "item": "Air compressor for winterization", "note": "Sized to your customers' systems. Larger or towable units for bigger residential and commercial jobs.", "low": 200, "high": 3000 },
+    { "item": "Trenching tools or rental", "note": "For installs. Rent at first; buy a trencher or boring tool only when install volume justifies it.", "low": 0, "high": 2500 },
+    { "item": "Backflow test kit", "note": "Only if you're certified and your state requires backflow testing. Adds a recurring annual revenue line.", "low": 0, "high": 1500 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A complete Google Business Profile with reviews — people search 'sprinkler repair near me' when a zone breaks",
+      "Seasonal reminder outreach to past customers each spring (start-ups) and fall (winterization)",
+      "Local Facebook groups and Nextdoor, where neighbors ask for sprinkler help constantly in season",
+      "Referral relationships with landscapers and lawn-care companies that don't do irrigation",
+      "Approaching HOAs and property managers for recurring service contracts on larger systems"
+    ],
+    "whereCustomersAre": "Suburban homeowners with installed irrigation, plus HOAs and commercial properties — concentrated in regions with hot summers or cold winters (which require winterization). Demand spikes hard in spring and fall.",
+    "timeToClientBase": "First repair jobs can come within a few weeks of marketing in season. The valuable recurring start-up/winterization route builds over one to two seasons as you convert repair customers into twice-a-year regulars.",
+    "wasteOfTime": "Broad untargeted ads and competing as the cheapest option. Early on, local reviews, the seasonal reminder list, and landscaper referrals convert far better than discounting or branding."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A solo operator can reach full-time income in season by combining repairs, installs, and a recurring start-up/winterization route. In four-season climates, plan for the slow winter; in warm climates, year-round demand is more even. The solo ceiling is daylight, driving, and the seasonal rush capacity.",
+    "hireAndStepBack": "Possible. Repairs and seasonal service are teachable, but licensing, backflow, and diagnostic skill mean techs need training and oversight. Stepping back requires documented procedures, a competent lead tech, and systems to handle the spring/fall surges.",
+    "sellable": "Businesses with a large recurring service route, commercial/HOA contracts, a brand, and any required licensing are genuinely sellable for a multiple of profit because the recurring customer list is transferable revenue. A pure solo repair operation is harder to sell.",
+    "whatScalingRequires": "Standardized pricing and procedures, real parts inventory and equipment, hiring and training, licensing/permit compliance, and a scheduling and reminder system that handles seasonal surges without your personal time. The recurring route is the core asset to grow."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You enjoy diagnostic problem-solving and don't mind digging and working in the dirt",
+      "You're comfortable with basic plumbing and low-voltage electrical work",
+      "You want recurring seasonal revenue and will build a start-up/winterization route",
+      "You can handle the intense spring and fall scheduling rushes"
+    ],
+    "poorFit": [
+      "You want passive income or to avoid physical, weather-exposed work",
+      "You're unwilling to check and obtain any required state irrigator or backflow license",
+      "You dislike scheduling pressure and the seasonal feast-or-famine cycle",
+      "You'd rather avoid the diagnostic patience of tracing faults across pipe, wiring, and valves"
+    ],
+    "askYourself": [
+      "Does my state license irrigators or require backflow certification, and am I willing to get it?",
+      "Will I systematically capture customers onto a recurring start-up and winterization list?",
+      "Is there enough installed irrigation in my area, and does my climate require winterization (recurring revenue) or run year-round?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to repair or install sprinkler systems?",
+      "answer": "It depends heavily on whether your state licenses irrigators and how your city treats backflow work. Some states license irrigators and require permits for installation and backflow-prevention work, while others have little regulation for basic repairs. Backflow testing in particular is commonly regulated because it protects the public water supply. Always check your state and city rules before doing installs or backflow work — operating without a required license is a real legal and liability risk."
+    },
+    {
+      "question": "What is backflow and why does it matter?",
+      "answer": "A backflow preventer stops irrigation water — which can contain fertilizer, pesticides, or contaminants — from flowing back into the drinking-water supply. A failed or improperly installed backflow device can cause a cross-connection that contaminates potable water, which is a serious public-health hazard. Many jurisdictions require certified, periodic backflow testing, and doing this work usually requires specific certification."
+    },
+    {
+      "question": "How does the seasonal recurring revenue work?",
+      "answer": "In most climates customers need a spring start-up (turning the system on, checking pressure, adjusting heads) and a fall winterization (blowing out the lines so they don't freeze and crack). The same customers need both every year, so a single satisfied customer can become reliable twice-yearly revenue for years. Building and reminding that list is the most valuable thing you can do in this business."
+    },
+    {
+      "question": "Can I start with just repairs and add installs later?",
+      "answer": "Yes, and many operators do. Repairs and seasonal service have lower startup costs and a shorter learning curve than full installations, which require trenching, system design, and often a license. Start by mastering diagnostics and common repairs, build a customer base, then add installs once you have the skills, tooling, and any required licensing."
+    },
+    {
+      "question": "How much can I charge?",
+      "answer": "Pricing varies by region, but service calls commonly run $75 to $250, winterizations roughly $50 to $150 per system, and residential installs $2,500 to $6,000 or more depending on zones and size. Diagnostic time is the trap — price it properly, because finding a buried leak or dead valve can take real time before any repair starts."
+    },
+    {
+      "question": "Is this business seasonal?",
+      "answer": "In hot-summer and cold-winter regions, yes — spring start-ups and fall winterizations create intense busy windows with slower stretches in between, and a real lull in deep winter in freezing climates. In mild, warm climates demand is steadier year-round. Plan your cash flow and scheduling around your region's pattern, and pre-book the seasonal rushes early."
+    },
+    {
+      "question": "What goes wrong most often for new operators?",
+      "answer": "Two things: underestimating diagnostic time (and underpricing it), and botched winterizations that let lines freeze and crack, producing a wave of spring callbacks. Carrying the wrong parts inventory is a close third, since jobs stall and routes collapse when you have to leave for a parts run. Strong diagnostics, careful winterization, and smart stocking solve most of it."
+    }
+  ],
+  "similarBusinesses": [
+    "lawn-care-and-landscaping-business",
+    "plumbing-business",
+    "handyman-business",
+    "lawn-treatment-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Pipelayers, Plumbers, and Irrigation/grounds maintenance occupational data",
+    "Irrigation Association — installer/auditor certification and backflow guidance",
+    "Angi / HomeAdvisor — Sprinkler Repair and Irrigation Installation Cost Guides (reported pricing ranges)",
+    "State licensing boards and operator/contracting communities for real-world licensing, pricing, and seasonal practices"
+  ],
+  "lastReviewed": "2026-06"
+}

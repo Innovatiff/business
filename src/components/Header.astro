@@ -1,0 +1,361 @@
+---
+import { SITE, PRIMARY_NAV } from '../config';
+const path = Astro.url.pathname.replace(/\/$/, '');
+// Exact match, or a true sub-path (with trailing slash) so /businesses doesn't
+// falsely light up on /businesses-under-500.
+const isActive = (href?: string) =>
+  !!href && (path === href || (href !== '/' && path.startsWith(href + '/')));
+const groupsActive = (groups?: { items: { href: string }[] }[]) =>
+  !!groups && groups.some((g) => g.items.some((c) => isActive(c.href)));
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="brand" aria-label={`${SITE.name} home`}>
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 17l5-5 4 4 8-9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M20 7h-4M20 7v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="brand-text">Honestly <span class="brand-accent">Profitable</span></span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Primary">
+      {PRIMARY_NAV.map((item) =>
+        item.groups ? (
+          <div class="nav-item">
+            <button
+              type="button"
+              class:list={['nav-link', 'nav-trigger', { active: groupsActive(item.groups) }]}
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              {item.label}
+              <span class="caret" aria-hidden="true"></span>
+            </button>
+            <div class="dropdown-menu mega">
+              {item.groups.map((g) => (
+                <div class="mega-col">
+                  <span class="mega-heading">{g.heading}</span>
+                  <ul role="menu">
+                    {g.items.map((c) => (
+                      <li role="none">
+                        <a role="menuitem" href={c.href} class:list={['dropdown-link', { active: isActive(c.href) }]}>
+                          {c.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <a href={item.href} class:list={['nav-link', { active: isActive(item.href) }]}>
+            {item.label}
+          </a>
+        ),
+      )}
+    </nav>
+
+    <div class="header-actions">
+      <a href="/find-my-business" class="btn btn-primary btn-cta">Find My Business</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="nav-mobile" id="mobile-nav" aria-label="Mobile" hidden>
+    {PRIMARY_NAV.map((item) =>
+      item.groups ? (
+        // Mobile: keep the filters as flat, separate buttons (no dropdown).
+        item.groups.map((g) => (
+          <a href={g.href} class:list={['nav-link', { active: groupsActive([g]) }]}>By {g.heading}</a>
+        ))
+      ) : (
+        <a href={item.href} class:list={['nav-link', { active: isActive(item.href) }]}>{item.label}</a>
+      ),
+    )}
+    <a href="/find-my-business" class="btn btn-primary">Find My Business</a>
+  </nav>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(250, 250, 249, 0.92);
+    backdrop-filter: saturate(180%) blur(8px);
+    border-bottom: 1px solid var(--border);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 64px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: -0.03em;
+    color: var(--navy);
+    white-space: nowrap;
+  }
+  .brand:hover {
+    text-decoration: none;
+  }
+  .brand-mark {
+    display: inline-grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    background: var(--navy);
+    color: var(--green);
+  }
+  .brand-accent {
+    color: var(--green-dark);
+  }
+  .nav-desktop {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-left: auto;
+    margin-right: 0.75rem;
+  }
+  .nav-link {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--slate);
+    padding: 0.5rem 0.7rem;
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+  }
+  .nav-link:hover {
+    color: var(--navy);
+    background: var(--surface);
+    text-decoration: none;
+  }
+  .nav-link.active {
+    color: var(--green-dark);
+  }
+
+  /* ---- Desktop dropdown ---- */
+  .nav-item {
+    position: relative;
+    display: inline-flex;
+  }
+  .nav-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .caret {
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg) translateY(-1px);
+    transition: transform 0.18s ease;
+    opacity: 0.65;
+  }
+  .nav-item:hover .caret,
+  .nav-trigger[aria-expanded='true'] .caret {
+    transform: rotate(-135deg) translateY(1px);
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    min-width: 232px;
+    list-style: none;
+    margin: 0;
+    padding: 0.4rem;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-md);
+    z-index: 120;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+  }
+  .nav-item:hover .dropdown-menu,
+  .nav-item:focus-within .dropdown-menu,
+  .nav-trigger[aria-expanded='true'] + .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .dropdown-menu li {
+    margin: 0;
+  }
+  .dropdown-link {
+    display: block;
+    padding: 0.55rem 0.7rem;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--slate);
+    white-space: nowrap;
+  }
+  .dropdown-link:hover {
+    background: var(--surface);
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .dropdown-link.active {
+    color: var(--green-dark);
+    background: var(--green-tint);
+  }
+  /* Grouped (mega) dropdown: one trigger, three columns */
+  .dropdown-menu.mega {
+    left: auto;
+    right: 0;
+    display: flex;
+    gap: 0.4rem;
+    padding: 0.85rem;
+    min-width: 540px;
+  }
+  .mega-col {
+    flex: 1;
+    min-width: 168px;
+  }
+  .mega-col + .mega-col {
+    border-left: 1px solid var(--border);
+    padding-left: 0.4rem;
+  }
+  .mega-col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .mega-col li {
+    margin: 0;
+  }
+  .mega-heading {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-weight: 700;
+    padding: 0.1rem 0.7rem 0.45rem;
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    width: 42px;
+    height: 42px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+  }
+  .nav-toggle span {
+    display: block;
+    height: 2px;
+    width: 18px;
+    margin-inline: auto;
+    background: var(--navy);
+    border-radius: 2px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  .nav-toggle[aria-expanded='true'] span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+  .nav-toggle[aria-expanded='true'] span:nth-child(2) {
+    opacity: 0;
+  }
+  .nav-toggle[aria-expanded='true'] span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  /* ---- Mobile nav ---- */
+  .nav-mobile {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    padding: 0.5rem 1.25rem 1.25rem;
+    border-top: 1px solid var(--border);
+    background: var(--warm-white);
+  }
+  .nav-mobile > .nav-link {
+    padding: 0.8rem 0.5rem;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+  }
+  .nav-mobile .btn {
+    margin-top: 0.9rem;
+    justify-content: center;
+  }
+
+  @media (max-width: 880px) {
+    .nav-desktop,
+    .btn-cta {
+      display: none;
+    }
+    .nav-toggle {
+      display: flex;
+    }
+    .nav-mobile:not([hidden]) {
+      display: flex;
+    }
+  }
+</style>
+
+<script>
+  // Mobile menu toggle
+  const toggle = document.querySelector<HTMLButtonElement>('.nav-toggle');
+  const menu = document.getElementById('mobile-nav');
+  toggle?.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    if (menu) menu.hidden = open;
+  });
+
+  // Desktop dropdown disclosure (click + keyboard; hover handled by CSS)
+  const triggers = Array.from(document.querySelectorAll<HTMLButtonElement>('.nav-trigger'));
+  const closeAll = (except?: HTMLButtonElement) =>
+    triggers.forEach((t) => t !== except && t.setAttribute('aria-expanded', 'false'));
+
+  triggers.forEach((trigger) => {
+    trigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = trigger.getAttribute('aria-expanded') === 'true';
+      closeAll(trigger);
+      trigger.setAttribute('aria-expanded', String(!open));
+    });
+  });
+
+  document.addEventListener('click', () => closeAll());
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeAll();
+      (document.activeElement as HTMLElement | null)?.blur();
+    }
+  });
+</script>

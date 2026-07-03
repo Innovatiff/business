@@ -1,0 +1,162 @@
+{
+  "title": "Coworking Space Business",
+  "slug": "coworking-space-business",
+  "category": "local-and-community",
+  "metaTitle": "How to Start a Coworking Space — Real Costs, Earnings, and Risks",
+  "metaDescription": "Honest guide to starting a coworking space: real lease and buildout costs, membership economics, occupancy risk, community building, and what owners get wrong.",
+  "startupCostLow": 50000,
+  "startupCostHigh": 500000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 18000,
+  "timeToFirstIncome": "4 to 12 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Community-minded operators with capital who can fill desks fast and are comfortable carrying a large lease against uncertain occupancy",
+  "biggestRisk": "A long, expensive lease and buildout that you must pay every month while occupancy ramps slowly or falls short",
+  "speedToIncome": "long",
+  "minWeeklyHours": 40,
+  "skills": ["people", "sales"],
+  "workLocations": ["space"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A coworking space rents flexible workspace — hot desks, dedicated desks, private offices, and meeting rooms — to freelancers, remote workers, startups, and small teams, usually on monthly memberships plus day passes and meeting-room bookings. The business is essentially a spread play: you sign a long-term commercial lease at a wholesale rate, build it out and add amenities and community, and re-rent it in flexible increments at a markup. Revenue is recurring membership income; the core challenge is that your largest cost (the lease) is fixed and long-term while your revenue (members) can come and go monthly. Models range from a single neighborhood space to franchises and large operators, and the economics live or die on occupancy.",
+  "dailyReality": "Day to day you are running a small hospitality operation and a sales funnel at once: greeting and touring prospective members, onboarding new ones, handling member issues and the inevitable broken printer or Wi-Fi complaint, keeping the space clean and stocked, booking meeting rooms, and constantly marketing to keep the pipeline full. A large share of the work is community-building — events, introductions, and the culture that makes members renew. Behind that sits the financial reality: tracking occupancy, chasing the next members to cover rent, and managing vendors, cleaning, and utilities.",
+  "startupCostsItemized": [
+    { "item": "Commercial lease deposit and first months' rent", "low": 15000, "high": 100000 },
+    { "item": "Buildout: offices, meeting rooms, phone booths, finishes", "low": 20000, "high": 250000 },
+    { "item": "Furniture, desks, chairs, and lounge", "low": 8000, "high": 60000 },
+    { "item": "High-speed internet, networking, A/V, and security/access", "low": 3000, "high": 25000 },
+    { "item": "Coworking management software and booking system", "low": 1000, "high": 6000, "annual": true },
+    { "item": "Permits, business registration, insurance, and legal", "low": 2000, "high": 15000 },
+    { "item": "Kitchen, coffee, printing, and supplies setup", "low": 2000, "high": 15000 },
+    { "item": "Pre-opening marketing, branding, and launch events", "low": 3000, "high": 25000 },
+    { "item": "Working capital to cover rent during slow ramp", "low": 0, "high": 0, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most spaces lose money or break even in year one as occupancy ramps from near zero. After rent, staffing, and utilities, owner take-home commonly ranges from $0 to $5,000 per month in the first year, heavily dependent on how fast desks fill. A space that ramps slowly can bleed cash for many months.",
+    "experienced": "A well-located, well-run space at healthy occupancy (often 70%+ of capacity) typically produces $6,000 to $18,000 per month in owner profit once memberships are stable and meeting-room and day-pass revenue add up. Margins are thin until you cross the occupancy break-even point, then improve quickly.",
+    "topEarners": "Top operators run multiple locations or large flagship spaces, where total profit can reach the mid six figures across sites. Reaching that requires proven unit economics, strong management, favorable leases, and significant capital. Even large operators are vulnerable to lease commitments outrunning demand, as several high-profile failures have shown.",
+    "whatAffectsMost": "Occupancy relative to your lease cost is everything. Location, the spread between your lease rate and what you charge members, member retention, and high-margin add-ons (private offices, meeting rooms, events) determine whether the space is profitable or a monthly liability.",
+    "perHour": "Owner effective hourly rate is poor while ramping given the hours and capital at risk. Once a manager runs the floor and occupancy is healthy, the owner's role becomes more managerial and returns improve, but the wealth is tied up in a lease-leveraged operation."
+  },
+  "howToStart": [
+    "Months 1-2: Study local demand and competition hard — how many remote workers, freelancers, and small firms are nearby, and what existing spaces charge and how full they are. Build a financial model centered on the occupancy you need to cover the lease.",
+    "Months 2-4: Negotiate the lease as carefully as possible — length, rate, tenant improvement allowance, and any exit flexibility. This commitment is your single biggest risk, so push for landlord-funded buildout and favorable terms.",
+    "Months 3-6: Build out the space with a mix of hot desks, dedicated desks, private offices, and meeting rooms, install reliable high-speed internet and access control, and set up membership management software and tiered pricing.",
+    "Months 4-7: Pre-sell memberships before opening through a founding-member discount, local outreach, and launch events. Filling desks early is the difference between survival and slow bleed.",
+    "Months 6-12: Focus relentlessly on occupancy and retention — build community, run events, court small teams that take private offices, and add meeting-room and day-pass revenue to push past break-even."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Sales ability to fill desks quickly and keep the pipeline full",
+      "People and community skills that make members want to stay and refer others",
+      "Enough capital and runway to carry a large lease through a slow occupancy ramp"
+    ],
+    "canLearn": [
+      "Coworking management software, access control, and booking systems",
+      "Pricing and membership tier design",
+      "Facilities and vendor management"
+    ],
+    "separators": [
+      "Hitting and holding high occupancy faster than the lease can drain you",
+      "Building a genuine community that drives retention and word-of-mouth referrals",
+      "Negotiating a favorable lease and adding high-margin private offices, meeting rooms, and events"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Signing a long, expensive lease before proving local demand, then being unable to cover rent when occupancy lags",
+    "Underestimating how slowly desks fill and running out of working capital during the ramp",
+    "Competing on price alone instead of building the community and amenities that drive retention",
+    "Neglecting member retention, so churn keeps occupancy stuck below break-even",
+    "Overbuilding with expensive finishes that do not raise what members will actually pay",
+    "Treating it as passive real estate income rather than the hands-on hospitality and sales business it really is"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Commercial space and buildout", "note": "Your largest fixed cost and biggest risk; negotiate a tenant-improvement allowance to offset buildout.", "low": 35000, "high": 350000 },
+    { "item": "Reliable high-speed internet and networking", "note": "Non-negotiable — members leave over bad Wi-Fi faster than almost anything else.", "low": 3000, "high": 25000 },
+    { "item": "Furniture, desks, and meeting rooms", "note": "Comfortable, durable furnishings; private offices and meeting rooms carry the best margins.", "low": 8000, "high": 60000 },
+    { "item": "Coworking management software", "note": "Tools like Nexudus, OfficeRnD, or Optix handle members, billing, and bookings.", "low": 1000, "high": 6000 },
+    { "item": "Access control and security", "note": "Keyless entry and after-hours access are expected by members and reduce staffing.", "low": 2000, "high": 15000 },
+    { "item": "Kitchen, coffee, and printing", "note": "Baseline amenities members expect; coffee and fast printing punch above their cost in goodwill.", "low": 2000, "high": 15000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Founding-member discounts and pre-sales before opening to fill desks early",
+      "Targeting nearby freelancers, remote workers, and small teams needing private offices",
+      "A strong Google Business Profile, local SEO, and listings on coworking directories",
+      "Community events, workshops, and partnerships that draw prospective members in for a tour",
+      "Referral incentives — members who love the community bring others"
+    ],
+    "whereCustomersAre": "Freelancers, remote employees, startups, and small businesses in or near the neighborhood, plus people searching online for flexible office and meeting space. Location and walkability heavily determine who you can attract.",
+    "timeToClientBase": "Filling to break-even occupancy typically takes 4 to 12 months of active selling and community-building. Reaching healthy, stable occupancy with low churn is usually a one-to-two-year effort.",
+    "wasteOfTime": "Broad regional advertising and waiting for inbound interest. Coworking is hyper-local — tours, community events, local partnerships, and referrals fill desks far better than wide-net ads, especially before you have reviews and a reputation."
+  },
+  "howItScales": {
+    "toFullTime": "It is a full-time, capital-heavy operation from the start. Once a single location reaches healthy occupancy it can produce a solid full-time income, but the path runs through a slow, lease-burdened ramp.",
+    "hireAndStepBack": "Yes — a community manager can run day-to-day operations, letting the owner step back into oversight and growth. This requires reliable occupancy, good systems, and a trustworthy on-site team.",
+    "sellable": "An established space with stable occupancy, recurring membership revenue, a transferable lease, and clean books is sellable as a going concern. A space with a heavy lease and weak occupancy is a liability that is hard to offload.",
+    "whatScalingRequires": "Proven unit economics and occupancy at one location, repeatable systems, favorable lease terms, and significant capital for each new site. The cautionary lesson from large operators is that scaling lease commitments ahead of real demand is dangerous."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are good at sales and at building community and relationships",
+      "You have capital and runway to carry a large lease through a slow ramp",
+      "Your area has real demand from remote workers, freelancers, and small teams"
+    ],
+    "poorFit": [
+      "You want passive income or low startup cost",
+      "You cannot stomach paying a large fixed lease while occupancy is uncertain",
+      "You dislike hands-on hospitality, member issues, and constant selling"
+    ],
+    "askYourself": [
+      "Is there enough local demand to fill the desks I need to cover the lease, and who else already serves it?",
+      "Can I carry the lease for many months if occupancy ramps slower than hoped?",
+      "Am I prepared to run a hands-on community and sales business, not a passive property?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How much does it cost to start a coworking space?",
+      "answer": "Realistically $50,000 to $500,000 depending on size, location, and buildout. The lease deposit, buildout, furniture, and pre-opening costs dominate. The biggest hidden cost is working capital to cover rent while occupancy ramps, which can take many months."
+    },
+    {
+      "question": "What is the biggest risk in this business?",
+      "answer": "The mismatch between a long, fixed lease and variable membership revenue. You owe rent every month whether desks are full or empty, and occupancy often ramps slowly. Several large operators have failed precisely because lease commitments outran demand. Negotiating the lease well and pre-selling memberships are the best defenses."
+    },
+    {
+      "question": "How do coworking spaces actually make money?",
+      "answer": "It is a spread between a wholesale long-term lease and flexible memberships sold at a markup, plus higher-margin private offices, meeting-room rentals, and day passes. Profit only appears above a break-even occupancy level, after which margins improve quickly. Private offices and meeting rooms typically earn the most per square foot."
+    },
+    {
+      "question": "What occupancy do I need to break even?",
+      "answer": "It varies by lease cost and pricing, but many spaces need roughly 60% to 70% occupancy to cover costs, with profit above that. Because the lease is fixed, the gap between break-even occupancy and full is where most of the profit lives — and falling short is where most of the losses come from."
+    },
+    {
+      "question": "Is location really that important?",
+      "answer": "Yes — coworking is hyper-local. The right neighborhood with enough remote workers, freelancers, and small firms, good transit, and walkable amenities can make a space; the wrong location is very hard to overcome no matter how nice the buildout. Validate demand before signing anything."
+    },
+    {
+      "question": "Can I run a coworking space passively?",
+      "answer": "Not at first. It is a hands-on hospitality and sales business — touring prospects, onboarding members, solving issues, and building community. Once occupancy is healthy you can hire a community manager and step back, but early on it demands active, full-time involvement."
+    },
+    {
+      "question": "How long until it is profitable?",
+      "answer": "Most spaces lose money or break even in year one while filling desks. A well-located, well-run space can reach solid monthly profit within one to two years once occupancy stabilizes and retention is strong, but a slow ramp can extend that considerably."
+    }
+  ],
+  "similarBusinesses": [
+    "self-storage-business",
+    "rental-property-investing-business",
+    "property-management-business",
+    "event-planning-business"
+  ],
+  "dataSources": [
+    "Coworking industry reports (Coworking Resources, Deskmag Global Coworking Survey)",
+    "Commercial real estate lease and buildout cost guides for office fit-outs",
+    "Coworking management platform resources (Nexudus, OfficeRnD, Optix) on occupancy and pricing economics",
+    "Reporting on large flexible-office operators for lessons on lease-versus-occupancy risk",
+    "Operator interviews and coworking-owner communities for real-world startup costs and ramp times"
+  ],
+  "lastReviewed": "2026-06"
+}

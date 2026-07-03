@@ -1,0 +1,164 @@
+{
+  "title": "Catering Business",
+  "slug": "catering-business",
+  "category": "food-and-beverage",
+  "metaTitle": "How to Start a Catering Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a catering business: real startup costs, commercial kitchen and permit realities, monthly earnings, and what most caterers get wrong.",
+  "startupCostLow": 8000,
+  "startupCostHigh": 50000,
+  "monthlyEarningsLow": 2000,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "2 to 4 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced cooks who can also manage logistics, deposits, and event-day labor under pressure",
+  "biggestRisk": "Underestimating food and labor costs on event days and losing money on jobs that looked profitable on paper",
+  "speedToIncome": "months",
+  "minWeeklyHours": 20,
+  "skills": ["food", "people", "sales", "finance"],
+  "workLocations": ["space", "mobile", "flexible"],
+  "priorities": ["max-income", "sellable", "helping"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A catering business prepares and serves food for events — weddings, corporate lunches, private parties, funerals, and conferences — either dropping off prepared food or providing full-service staffing, setup, and cleanup on site. Unlike a restaurant, you cook to confirmed orders with deposits, so you carry less daily food-cost risk, but you take on heavy logistics: transporting hot and cold food safely, staffing event days, and delivering flawlessly for clients who only do this once and remember everything that went wrong. It is one of the most regulated food businesses to start legally because you generally cannot cook for the public out of a home kitchen — most states require a licensed commercial kitchen or commissary.",
+  "dailyReality": "On non-event days you are sourcing clients, building menus and quotes, tasting and testing recipes, ordering ingredients, hiring and scheduling event staff, and confirming details with venues. Event days are long and physical: prepping in the early morning, loading vehicles with food at safe temperatures, driving to the venue, setting up, cooking or finishing food on site, serving, then breaking down and cleaning — often a 12 to 16 hour day. A working week swings between quiet office-style days and intense, high-stakes service days, frequently on weekends and evenings when events happen.",
+  "startupCostsItemized": [
+    { "item": "Commercial kitchen / commissary rental (monthly, prorated) or shared-kitchen membership", "low": 600, "high": 2500, "annual": true },
+    { "item": "Food handler and food protection manager certification (ServSafe or state equivalent)", "low": 150, "high": 500 },
+    { "item": "Business license, food service permit, and health department permit", "low": 250, "high": 1500 },
+    { "item": "General liability + product liability insurance", "low": 800, "high": 3000, "annual": true },
+    { "item": "Catering equipment (chafing dishes, hot boxes/Cambros, transport racks, serving ware)", "low": 1500, "high": 8000 },
+    { "item": "Vehicle suitable for food transport or van outfitting", "low": 0, "high": 25000, "optional": true },
+    { "item": "Initial ingredient and disposables float for first events", "low": 800, "high": 3000 },
+    { "item": "Website with menus, simple branding, and event photos", "low": 200, "high": 2000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most new caterers book a handful of events while keeping other income, and realistically take home $2,000 to $5,000 per month in busy months with little to nothing in slow ones. Year one is usually about building a portfolio, references, and a referral pipeline rather than steady profit.",
+    "experienced": "Established caterers with a reputation, repeat corporate accounts, and a reliable event-staff roster commonly net $6,000 to $15,000 per month in season, though earnings are lumpy and concentrated around peak months (spring/summer weddings, year-end corporate). Gross revenue is much higher; food, labor, and rental costs typically consume 60 to 75 percent of it.",
+    "topEarners": "Top operators running a branded catering company with a dedicated commissary, an event-sales team, and multiple simultaneous events gross $1 million or more per year, but getting there means becoming a manager and salesperson, carrying payroll and lease obligations year-round, and surviving the seasonality. Most caterers never reach this and instead settle into a profitable owner-operated business.",
+    "whatAffectsMost": "Accurate costing and pricing per head, controlling event-day labor, and winning higher-margin full-service and corporate work rather than cheap drop-off jobs. A single mispriced large event can erase the profit from three good ones.",
+    "perHour": "Counting prep, the event itself, sourcing, and admin, realistic blended owner pay often works out to $25 to $60 per hour early on. Experienced caterers who price and staff well can clear $60 to $120 per hour of their own time, but event days themselves are long and labor-heavy."
+  },
+  "howToStart": [
+    "Month 1: Confirm how your state and county treat catering — most require a licensed commercial kitchen or commissary, a food protection manager certification, and a health permit. Cooking the public's food from a home kitchen is illegal in most places, so secure kitchen access (shared commissary memberships are the cheapest legal route) before anything else.",
+    "Month 1-2: Get your food handler and manager certifications, register the business, buy general and product liability insurance, and build 2 to 3 tight menus with costed per-head pricing that includes food, labor, rentals, and a real profit margin.",
+    "Month 2-3: Cater 2 to 3 events at or near cost for friends, family, or a nonprofit to build a photo portfolio and references. Photograph everything professionally. Set up a simple website and a Google Business Profile with menus and pricing guidance.",
+    "Month 3-4: Take deposits (commonly 25 to 50 percent) on your first paid jobs and require signed contracts with cancellation terms. Track actual food and labor cost on every event against your quote so you learn your true margins.",
+    "Days 90-180: Pursue repeat corporate lunch accounts and venue preferred-vendor lists, which provide steadier, higher-margin work than one-off parties. Build a roster of reliable on-call event staff you can scale up and down."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong cooking skills and the ability to scale recipes to 50, 100, or 300 portions consistently",
+      "Food safety knowledge — safe holding temperatures, transport, and allergen handling",
+      "Calm logistics and time management under pressure on event days",
+      "Basic costing ability so you can price per head profitably"
+    ],
+    "canLearn": [
+      "Menu design for transport (food that holds and travels well)",
+      "Hiring and directing event staff",
+      "Contract, deposit, and cancellation-policy basics"
+    ],
+    "separators": [
+      "Selling full-service and corporate events instead of competing on the cheapest drop-off price",
+      "Tight labor scheduling so event-day staffing does not eat the margin",
+      "A referral and preferred-vendor network with venues and planners that feeds repeat bookings"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Trying to cook for paying clients out of a home kitchen, which is illegal in most states and uninsurable — health departments and venues do check",
+    "Pricing only on food cost and forgetting labor, rentals, transport, insurance, and waste, then losing money on big events",
+    "Underestimating event-day labor needs and ending up short-staffed during service",
+    "Not requiring deposits and signed contracts, then absorbing the cost of last-minute cancellations",
+    "Mishandling food temperatures during transport and holding, risking foodborne illness and reputation-ending complaints",
+    "Chasing every cheap one-off party instead of building repeat corporate and venue relationships that pay better"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Commercial kitchen or commissary access", "note": "The legal foundation of the business. Shared/rental commissary kitchens are the cheapest way to start without a six-figure buildout.", "low": 600, "high": 2500 },
+    { "item": "Insulated hot boxes (Cambros) and chafing dishes with fuel", "note": "Keep food at safe serving temperature in transport and on the line. Buy quality; failures here ruin events.", "low": 600, "high": 3000 },
+    { "item": "Cold transport — coolers, ice packs, refrigerated bins", "note": "Essential for safe transport of cold and perishable items.", "low": 200, "high": 1200 },
+    { "item": "Serving ware, racks, linens, and display pieces", "note": "Buy core pieces; rent specialty items per event rather than owning.", "low": 500, "high": 4000 },
+    { "item": "Reliable transport vehicle", "note": "A van or large SUV; many start with what they own and upgrade later.", "low": 0, "high": 25000 },
+    { "item": "Catering management / quoting software", "note": "Tools like HoneyBook or Total Party Planner help with quotes, contracts, and deposits.", "low": 0, "high": 600 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Getting on venue and event-planner preferred-vendor lists, which is the single biggest source of qualified repeat referrals",
+      "Targeting recurring corporate lunch and meeting accounts for steadier, higher-margin work",
+      "A Google Business Profile and website with strong event photos, sample menus, and clear pricing guidance",
+      "Asking every satisfied client and venue coordinator for referrals and reviews right after the event",
+      "Listings on wedding and event marketplaces (The Knot, WeddingWire) where couples actively shop caterers",
+      "Tasting events and partnerships with rental companies, florists, and DJs who serve the same clients"
+    ],
+    "whereCustomersAre": "Couples planning weddings, companies booking corporate lunches and holiday parties, and individuals hosting milestone events. Much of the work flows through venues, wedding planners, and event coordinators rather than direct search.",
+    "timeToClientBase": "Building a credible portfolio and references usually takes 3 to 6 months, and a steady, referral-fed pipeline often takes a full year or more since event bookings are seasonal and planned months ahead.",
+    "wasteOfTime": "Broad paid social ads and printed flyers convert poorly for catering. Early money is far better spent on great photography and getting onto venue and planner vendor lists where buying decisions actually happen."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but it is seasonal and lumpy. Reaching reliable full-time income usually means combining repeat corporate accounts with peak-season events and managing cash flow through slow months.",
+    "hireAndStepBack": "Catering scales by building an event-staff roster and eventually a kitchen and sales team, which lets you run multiple simultaneous events. Stepping back fully requires a trusted operations lead and standardized menus and processes; many owners stay hands-on because execution quality is the brand.",
+    "sellable": "Catering companies with a commissary lease, recurring corporate contracts, venue relationships, and documented systems do sell. A pure owner-operated business with no team is harder to sell because the reputation is personal to the owner.",
+    "whatScalingRequires": "A dedicated commercial kitchen, a reliable trained staff roster, standardized costed menus, an event-sales process, and the working capital to float ingredients and payroll between deposits and final payments."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You can already cook well at volume and stay calm under event-day pressure",
+      "You are organized about logistics, timelines, and food safety",
+      "You can sell to venues, planners, and corporate clients, not just cook",
+      "You can handle seasonal, weekend-heavy work and uneven cash flow"
+    ],
+    "poorFit": [
+      "You want predictable hours or steady weekly income",
+      "You are not willing to secure a legal commercial kitchen and the required permits",
+      "You dislike the sales and client-management side of the business",
+      "You cannot front ingredient and labor costs between deposits and final payment"
+    ],
+    "askYourself": [
+      "Have I costed a real per-head price that covers food, labor, rentals, insurance, and profit — not just ingredients?",
+      "Do I have legal kitchen access and the certifications my state requires, or a clear plan to get them?",
+      "Can I handle the financial and physical swings of a business concentrated in a few peak months?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can I run a catering business from my home kitchen?",
+      "answer": "In most states, no. Cooking food for paying public clients generally requires a licensed commercial kitchen or commissary and a health department permit; home kitchens are usually limited to narrow cottage-food products and cannot legally produce full catering menus. Renting time in a shared commissary kitchen is the most common and affordable legal way to start."
+    },
+    {
+      "question": "What permits and certifications do I need to cater legally?",
+      "answer": "Requirements vary by state and county but typically include a business license, a food service or catering permit, a health department permit tied to a commercial kitchen, and at least one certified food protection manager (such as ServSafe Manager). You will also need general and product liability insurance, which venues frequently require before they let you work on site."
+    },
+    {
+      "question": "How do I price catering per head?",
+      "answer": "Start from your fully loaded cost per guest — food, disposables, rentals, transport, and event-day labor — then add a margin so the job is genuinely profitable, not just covering costs. Many caterers target food cost around 25 to 35 percent of the per-head price, but labor and rentals matter just as much. The biggest pricing mistake is quoting on ingredient cost alone."
+    },
+    {
+      "question": "Why do you require deposits and contracts?",
+      "answer": "Catering commits you to buying ingredients and booking staff well before the event, so a deposit (commonly 25 to 50 percent) protects you against last-minute cancellations. A signed contract with a clear cancellation and final-headcount policy prevents the most common ways caterers lose money on otherwise good jobs."
+    },
+    {
+      "question": "How seasonal is catering income?",
+      "answer": "Very. Wedding and outdoor-event season (spring and summer) and the year-end corporate holiday stretch drive most bookings, while late winter and parts of fall can be slow. Caterers who survive long-term build recurring corporate lunch accounts and manage cash flow carefully through the quiet months."
+    },
+    {
+      "question": "How is catering different from running a food truck or restaurant?",
+      "answer": "You cook to confirmed orders with deposits rather than guessing daily demand, so you carry less food waste risk, but you take on event logistics, transport, and on-site staffing instead. A food truck serves walk-up customers at fixed or roaming locations, while catering is event-driven, contract-based, and far more dependent on referrals and venue relationships."
+    },
+    {
+      "question": "How long until catering replaces a full-time income?",
+      "answer": "Realistically 12 months or more. The first few months go to certifications, kitchen access, building a portfolio, and references, and bookings are seasonal and planned in advance. Caterers who reach steady full-time income usually combine repeat corporate work with peak-season events."
+    }
+  ],
+  "similarBusinesses": [
+    "food-truck-business",
+    "home-bakery-business",
+    "event-planning-business",
+    "coffee-cart-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Chefs and Head Cooks, and Food Service Managers occupational data",
+    "U.S. Small Business Administration and state health department guidance on commercial kitchen and food service permitting",
+    "National Restaurant Association and IBISWorld catering industry reports (revenue, margin, and seasonality trends)",
+    "ServSafe / food protection manager certification requirements and operator communities (r/Catering, catering forums)"
+  ],
+  "lastReviewed": "2026-06"
+}

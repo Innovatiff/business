@@ -1,0 +1,161 @@
+{
+  "title": "Deck Building Business",
+  "slug": "deck-building-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Deck Building Business — Real Costs, Earnings, Steps",
+  "metaDescription": "Honest guide to starting a deck building business: real startup costs, realistic seasonal earnings, permits and licensing, per-square-foot pricing, and common mistakes.",
+  "startupCostLow": 6000,
+  "startupCostHigh": 40000,
+  "monthlyEarningsLow": 4000,
+  "monthlyEarningsHigh": 22000,
+  "timeToFirstIncome": "1 to 2 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Hands-on builders who can frame, read a permit set, and manage a small crew through a busy outdoor season",
+  "biggestRisk": "Building without proper permits or to the wrong code, leading to failed inspections, costly rework, or liability if a deck fails",
+  "speedToIncome": "months",
+  "minWeeklyHours": 30,
+  "skills": ["hands"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A deck building business designs and constructs outdoor structures — wood and composite decks, pergolas, porches, railings, stairs, and related outdoor living features, often alongside fences and screened areas. It sits in the sweet spot of residential outdoor work: high-ticket projects, strong demand in warm months, and a skill barrier (proper footings, framing, ledger attachment, and code compliance) that keeps out casual competition. Because a deck holds people off the ground, it is a permitted, inspected structure in most areas, so building correctly to code is both a safety obligation and a selling point.",
+  "dailyReality": "Your week is built around outdoor project days: digging and pouring footings, attaching ledgers, framing the structure, laying decking, and building railings and stairs. Projects typically run several days to a couple of weeks depending on size, and you move from one to the next through the season. Around the building, you spend real time measuring and designing decks, pulling permits, scheduling inspections, sourcing lumber and composite material, quoting jobs, and coordinating a helper or small crew. Weather dictates your schedule, and the busy stretch from spring through fall is when most of the year's income is earned. Heat, lifting heavy material, and working at height are part of the daily reality.",
+  "startupCostsItemized": [
+    { "item": "Work truck or trailer for hauling material and tools", "low": 3000, "high": 25000 },
+    { "item": "Framing and finish tools (circular and miter saws, drills, nailers, levels)", "low": 800, "high": 3500 },
+    { "item": "Post hole digger or auger and concrete tools", "low": 200, "high": 1500 },
+    { "item": "Layout, safety, and access gear (ladders, harness, lasers, squares)", "low": 300, "high": 1500 },
+    { "item": "Contractor license, bonding, and exam fees", "low": 200, "high": 2500 },
+    { "item": "General liability insurance", "low": 800, "high": 3000, "annual": true },
+    { "item": "Business registration / LLC", "low": 100, "high": 500 },
+    { "item": "Permit and design software or fees (initial)", "low": 0, "high": 800, "optional": true },
+    { "item": "Mini skid steer or auger attachment", "low": 0, "high": 25000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "First-year builders who can already frame typically earn $4,000 to $9,000 per month in season, though winter months are lean in cold climates and pull the annual average down. Expect uneven early months while you learn to estimate and pass inspections cleanly.",
+    "experienced": "Established builders with a small crew, strong reviews, and good estimating commonly net $8,000 to $18,000 per month during the building season. Composite decks, larger multi-level builds, and add-ons like pergolas and lighting raise ticket sizes.",
+    "topEarners": "Outdoor-living companies running multiple crews and offering full design-build (decks, patios, outdoor kitchens) gross well into six figures per season, but reaching that means hiring, managing crews and subs, and carrying the cash flow of large material-heavy jobs. Most operators stay solo or run one or two crews.",
+    "whatAffectsMost": "Estimating accuracy and season length matter most. Material is a large share of every job, so misjudging lumber and composite costs erodes margin fast, and the climate caps how many months you can build. Clean inspections and reviews drive the referrals that fill the schedule.",
+    "perHour": "Effective rates for a skilled builder run roughly $50 to $110 per hour of billed work, but unpaid estimating, permit handling, material runs, and weather delays pull realistic blended rates to $40 to $80 per hour."
+  },
+  "howToStart": [
+    "Before anything: Make sure you can frame to code. Footings, ledger attachment, joist spans, and railing strength are safety-critical and inspected. If you have not built decks under someone experienced, do that first — a deck that fails is a serious liability.",
+    "Month 1: Check your state and local rules. Most areas require permits and inspections for decks, and many states require a contractor license and bond above a dollar threshold. Register the business, get general liability insurance, and learn your local code requirements and permit process.",
+    "Month 1-2: Buy core framing and finish tools and a way to haul lumber. Set up accounts with a lumberyard and a composite supplier. Build a small starter deck (your own or a friend's) at cost to photograph and learn your true labor time.",
+    "Months 2-3: Build a Google Business Profile and portfolio of finished decks, and connect with landscapers, realtors, and remodelers who refer outdoor work. Quote from real material and labor numbers, including permit and inspection time.",
+    "Season 1: Track cost and hours per job so estimates tighten, pull permits properly on every job, and pass inspections cleanly. Decide whether to add a crew member based on the work you are turning away in peak season."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid framing and carpentry skill — footings, ledgers, joists, decking, railings, and stairs",
+      "Knowledge of local code and how to build to pass inspection",
+      "Physical strength and comfort lifting heavy material and working at height",
+      "Estimating ability so material-heavy jobs stay profitable"
+    ],
+    "canLearn": [
+      "Permit and inspection process for your jurisdiction",
+      "Composite and specialty decking systems and hidden fastener methods",
+      "Basic deck design and rendering to help clients visualize and to upsell features"
+    ],
+    "separators": [
+      "Accurate estimating that protects margin when lumber and composite prices swing",
+      "Clean, code-compliant builds that pass inspection first time and earn referrals",
+      "Design and upselling (lighting, pergolas, multi-level layouts) that raise the average ticket"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Skipping permits or building to the wrong code, then facing failed inspections, tear-outs, and liability",
+    "Underestimating lumber and composite cost, so material price swings eat the entire margin",
+    "Attaching ledgers or sizing footings improperly — the failures most likely to cause a dangerous collapse",
+    "Underpricing because they ignore permit time, material runs, and weather delays in the quote",
+    "Not planning for the off-season in cold climates, leaving income to dry up for months",
+    "Relying on word of mouth alone with no portfolio, reviews, or referral relationships"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Circular saw, miter saw, and track saw", "note": "Your primary cutting tools for framing and decking; accuracy on the miter saw shows in the finish.", "low": 400, "high": 2000 },
+    { "item": "Cordless drills, impact drivers, and deck screw guns", "note": "Decking and railing means thousands of fasteners; a good cordless setup and a stand-up screw gun save your back.", "low": 300, "high": 1500 },
+    { "item": "Post hole digger or powered auger", "note": "For footings. A powered auger or rented attachment speeds the hardest part of the job.", "low": 200, "high": 2000 },
+    { "item": "Levels, lasers, squares, and layout tools", "note": "Decks must be level and square; layout accuracy prevents expensive framing rework.", "low": 200, "high": 1200 },
+    { "item": "Ladders, scaffolding, and fall protection", "note": "Elevated and multi-level decks require safe access and a harness — non-negotiable for safety.", "low": 300, "high": 1500 },
+    { "item": "Work truck and trailer", "note": "You haul long lumber and heavy composite constantly; capacity and reliability matter more than looks.", "low": 3000, "high": 25000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A Google Business Profile with sharp photos of completed decks and outdoor spaces",
+      "Referrals from landscapers, remodelers, and realtors who encounter deck projects",
+      "Yard signs and door hangers in neighborhoods where you just built a visible deck",
+      "Local Facebook groups and Nextdoor where homeowners ask for deck quotes each spring",
+      "Composite manufacturer 'find a builder' programs once you complete training or certification"
+    ],
+    "whereCustomersAre": "Homeowners with yards who want new or replacement decks, porches, and outdoor living space, concentrated in spring and early summer. Landscapers and remodelers are strong referral partners for larger outdoor projects.",
+    "timeToClientBase": "Demand is seasonal and project-based, so expect a month or two to land early jobs and a full season or two to build a referral-fed pipeline. Booking out the next season often starts before the current one ends.",
+    "wasteOfTime": "Broad paid advertising and branding before you have a portfolio and reviews. Homeowners choose deck builders on finished-project photos and trust, especially since a deck is a permitted, safety-critical structure."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, within a season or two for a skilled builder, though seasonality in cold climates means planning income across the year or adding off-season work like interior carpentry or snow removal.",
+    "hireAndStepBack": "Possible but real work. Adding a crew lets you run multiple builds, but decks are material- and labor-heavy and quality-sensitive, so you need trustworthy framers before stepping off the tools. Many owners stay hands-on through several seasons.",
+    "sellable": "Established deck and outdoor-living companies with crews, equipment, a brand, and steady referral sources sell for a multiple of profit plus equipment value. A solo operation tied entirely to the owner is harder to sell.",
+    "whatScalingRequires": "Reliable skilled labor, equipment redundancy, disciplined estimating against volatile material prices, strong referral relationships, and the cash flow to buy material upfront on large jobs before payment."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You can frame and build to code or can apprentice until you can",
+      "You like high-ticket, hands-on outdoor building work",
+      "You can estimate material-heavy jobs and manage permits and inspections",
+      "You can handle a seasonal income and plan around the off-season"
+    ],
+    "poorFit": [
+      "You want steady year-round income with no seasonal dips (in cold climates)",
+      "You have no framing experience and no way to gain it before starting",
+      "You are uncomfortable pulling permits and building to inspected code",
+      "You dislike heavy lifting, heights, and working in summer heat"
+    ],
+    "askYourself": [
+      "Can I build a code-compliant deck that passes inspection the first time?",
+      "Do I understand my local permit process and contractor licensing requirements?",
+      "Can I handle a seasonal cash flow and front material costs on large jobs?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license and permits to build decks?",
+      "answer": "Almost always permits, and often a license. Most jurisdictions require a building permit and inspections for a deck because it is an elevated structure people stand on, and many states require a general or specialty contractor license and bond above a dollar threshold. Check your state contractor board and local building department before bidding, and carry general liability insurance."
+    },
+    {
+      "question": "How much can I charge to build a deck?",
+      "answer": "Decks are commonly priced per square foot, varying widely with material — pressure-treated wood is cheaper, while composite and premium hardwoods cost more, and elevation, railings, and stairs add cost. Always quote from your real material and labor numbers plus permit and inspection time, because material is a large share of the job and price swings can erase a guessed-at margin."
+    },
+    {
+      "question": "Is deck building seasonal?",
+      "answer": "In cold climates, strongly — spring through fall is the building season and winter slows or stops outdoor work. Warm regions run closer to year-round. Many builders fill the off-season with interior carpentry, fencing, or snow removal, and book the next season's deck projects during the slow months."
+    },
+    {
+      "question": "How is this different from a fencing or carpentry business?",
+      "answer": "There is overlap, and many builders do both, but decks are elevated, load-bearing, permitted structures, so code compliance, footings, and ledger attachment carry more safety weight than a fence. Tickets are typically higher than fencing, and the skill barrier is higher. Custom interior carpentry is shop-based finish work, whereas decks are outdoor structural framing."
+    },
+    {
+      "question": "What is the most common way deck builders lose money?",
+      "answer": "Underestimating material costs and ignoring permit and inspection time when quoting. Lumber and composite prices move, and a deck is material-heavy, so a guessed quote can wipe out the margin. The other costly mistake is failing inspection from improper footings or ledger attachment, which forces rework at your own expense."
+    },
+    {
+      "question": "Can a beginner start a deck building business?",
+      "answer": "Not realistically without framing experience. A deck holds people off the ground, so improper footings, ledger attachment, or undersized framing can fail dangerously, and inspectors will catch substandard work. The sensible path is to build decks under an experienced contractor first, learn local code, then start. This is why it is rated intermediate rather than beginner."
+    }
+  ],
+  "similarBusinesses": [
+    "fence-installation-business",
+    "handyman-business",
+    "concrete-business",
+    "painting-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Carpenters and Construction Laborers occupational data",
+    "Angi / HomeAdvisor — Deck Building and Composite Decking Cost Guides (reported pricing ranges)",
+    "International Residential Code deck provisions and the North American Deck and Railing Association (code and safety)",
+    "State contractor licensing boards and local building departments (permit, license, and inspection requirements)",
+    "Operator communities (r/Decks, contractor and builder forums) for real-world pricing and seasonal economics"
+  ],
+  "lastReviewed": "2026-06"
+}

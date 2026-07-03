@@ -1,0 +1,100 @@
+---
+import type { CollectionEntry } from 'astro:content';
+export interface Props {
+  checklist: CollectionEntry<'businesses'>['data']['fitChecklist'];
+}
+const { checklist } = Astro.props;
+---
+<div class="fit-grid">
+  <div class="fit-col fit-good">
+    <h3>A strong fit if…</h3>
+    <ul>
+      {checklist.strongFit.map((i) => (
+        <li><span class="mark" aria-hidden="true">✓</span><span>{i}</span></li>
+      ))}
+    </ul>
+  </div>
+  <div class="fit-col fit-poor">
+    <h3>A poor fit if…</h3>
+    <ul>
+      {checklist.poorFit.map((i) => (
+        <li><span class="mark" aria-hidden="true">✕</span><span>{i}</span></li>
+      ))}
+    </ul>
+  </div>
+</div>
+
+<div class="ask card">
+  <h3>Before you start, ask yourself…</h3>
+  <ul>
+    {checklist.askYourself.map((i) => <li>{i}</li>)}
+  </ul>
+</div>
+
+<style>
+  .fit-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+  .fit-col {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.4rem;
+  }
+  .fit-good {
+    background: var(--green-tint);
+    border-color: #bbf7d0;
+  }
+  .fit-poor {
+    background: var(--red-tint);
+    border-color: #fecaca;
+  }
+  .fit-col h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+  }
+  .fit-col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+  .fit-col li {
+    display: flex;
+    gap: 0.6rem;
+    margin: 0;
+    color: var(--slate);
+    font-size: 0.95rem;
+  }
+  .mark {
+    flex: none;
+    font-weight: 800;
+  }
+  .fit-good .mark {
+    color: var(--green-dark);
+  }
+  .fit-poor .mark {
+    color: var(--red);
+  }
+  .ask {
+    margin-top: 1.25rem;
+    padding: 1.25rem 1.4rem;
+  }
+  .ask h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.6rem;
+  }
+  .ask ul {
+    margin: 0;
+    padding-left: 1.1rem;
+    color: var(--slate);
+  }
+  @media (max-width: 640px) {
+    .fit-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

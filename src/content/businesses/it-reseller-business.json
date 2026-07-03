@@ -1,0 +1,162 @@
+{
+  "title": "IT Hardware Reseller / VAR Business",
+  "slug": "it-reseller-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start an IT Reseller / VAR Business — Real Margins & Costs",
+  "metaDescription": "Honest guide to an IT hardware reseller / VAR business: thin margins, distributor reality, beginner-to-expert earnings, finding clients, and what most people get wrong.",
+  "startupCostLow": 2000,
+  "startupCostHigh": 30000,
+  "monthlyEarningsLow": 2000,
+  "monthlyEarningsHigh": 20000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Relationship-driven salespeople with IT knowledge who can win business accounts and live comfortably on thin per-deal margins and volume",
+  "biggestRisk": "Floating large hardware orders on tight margins and getting burned by a non-paying client, a price drop, or returned/wrong gear",
+  "speedToIncome": "months",
+  "minWeeklyHours": 25,
+  "skills": ["sales", "tech", "finance", "people"],
+  "workLocations": ["home", "online", "mobile"],
+  "priorities": ["max-income", "sellable", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "An IT hardware reseller — often called a VAR, or value-added reseller — sells computers, servers, networking gear, peripherals, software licenses, and cloud subscriptions to businesses, schools, and government buyers. You buy from distributors (such as Ingram Micro, TD SYNNEX, or D&H) or directly through vendor partner programs, and resell to end customers, ideally adding value through configuration, deployment, support, or bundled services so you're not just a box-mover. The core economic reality is that pure hardware margins are thin — often single digits — so the money comes from volume, attaching services and support, earning vendor rebates and incentives, and building recurring software/subscription and renewal revenue. The most successful operators are not really in the hardware business; they're in the relationship-and-services business, with hardware as the entry point. This is a working-capital-intensive, sales-driven business, not a technical hobby.",
+  "dailyReality": "Most of your time is sales and procurement, not hands-on tech. You're talking to business clients about what they need, building quotes, checking distributor pricing and stock across multiple sources, racing to match or beat a competitor's number, and chasing vendor deal registration and rebates to protect your margin. You place orders, track shipments, handle the inevitable backorders and RMAs, and manage invoicing and collections — cash flow is a daily concern because you often pay distributors before clients pay you. The 'value-added' work (configuration, imaging, deployment, license management, support contracts) is where you defend margin and earn loyalty. Expect ongoing vendor certifications and partner-portal administration, plus the relationship maintenance that keeps an account renewing instead of shopping you on price.",
+  "startupCostsItemized": [
+    { "item": "Business registration / LLC, reseller's permit / sales tax license", "low": 200, "high": 1500 },
+    { "item": "Distributor and vendor partner account setup (often credit-dependent)", "low": 0, "high": 1000 },
+    { "item": "Working capital to float initial orders before client payment", "low": 1000, "high": 20000 },
+    { "item": "Quoting / CRM / procurement software", "low": 0, "high": 1500, "annual": true },
+    { "item": "General liability + E&O insurance", "low": 800, "high": 3000, "annual": true },
+    { "item": "Vendor certifications and training (some paid)", "low": 0, "high": 2000, "optional": true },
+    { "item": "Website, branding, and outreach", "low": 100, "high": 1500, "optional": true },
+    { "item": "Basic office, laptop, and test/staging gear", "low": 0, "high": 2500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Year one is about establishing distributor accounts, credit, and first clients. Many solo operators net $2,000 to $6,000 per month early on, but it's lumpy — a few deals can make a month, and dry stretches are common. Cash flow, not profit, is the first-year challenge, since you often pay distributors before clients pay you.",
+    "experienced": "An established solo or small VAR with a handful of loyal business accounts, services attached to hardware, and vendor rebates commonly nets $8,000 to $20,000 per month. The key is moving beyond pure box-selling: configuration, support contracts, and recurring software/license renewals carry far better margins than the hardware itself.",
+    "topEarners": "Larger VARs with sales teams, strong vendor partner tiers (which unlock better pricing and rebates), and big recurring license/cloud revenue gross $1M to $20M+ per year — but on thin hardware margins, so net profit is a small slice of revenue. Reaching that scale requires significant working capital, credit lines, staff, and the ability to win and service large contracts.",
+    "whatAffectsMost": "Margin protection and services attach drive profitability far more than top-line revenue. Vendor rebates and partner-tier pricing, deal registration to avoid price wars, recurring software/license renewals, and disciplined cash-flow and credit management matter most. Competing purely on hardware price is a path to working hard for almost nothing.",
+    "perHour": "Because it's volume-and-margin driven, effective hourly economics are hard to pin down and uneven. A struggling box-mover may effectively earn $20 to $40 per hour after the work of quoting and chasing payment; an operator who attaches services and recurring revenue can effectively earn $75 to $200+ per hour as renewals compound."
+  },
+  "howToStart": [
+    "Before anything: bring real IT knowledge and, ideally, business sales experience. You must be able to spec the right hardware/software for a client and sell to businesses. This is an advanced, relationship-and-sales business, not a beginner reselling side hustle.",
+    "Month 1: Register the business and obtain a reseller's permit / sales tax license. Apply for distributor accounts (Ingram Micro, TD SYNNEX, D&H) and the vendor partner programs you want to represent — these often require credit checks and minimums.",
+    "Months 1-2: Set up quoting/CRM and procurement tools, get general liability and E&O insurance, and arrange working capital or credit lines, because you'll frequently pay distributors before clients pay you. Understand deal registration and rebate programs before you quote anything.",
+    "Months 2-4: Win your first business clients through relationships and a clear value proposition beyond price — configuration, deployment, support, and license management. Quote competitively but protect margin with registered deals and attached services.",
+    "Months 4-12: Build recurring revenue through software/license renewals and support contracts, climb vendor partner tiers for better pricing and rebates, and tighten cash-flow discipline. Decide whether to specialize in a niche (a vendor, an industry, or a service stack) where you can win on expertise instead of price."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Business-to-business sales and relationship-building ability",
+      "Enough IT knowledge to spec the right hardware, software, and licensing for a client's needs",
+      "Cash-flow and basic financial discipline, since you float orders on thin margins"
+    ],
+    "canLearn": [
+      "Distributor and vendor partner-program mechanics (deal registration, rebates, tiers)",
+      "Quoting, procurement, and license/subscription management workflows",
+      "RMA, logistics, and warranty handling"
+    ],
+    "separators": [
+      "Attaching services and recurring revenue so you're not competing as a pure box-mover",
+      "Mastering vendor rebates, deal registration, and partner tiers to protect and grow margin",
+      "Disciplined cash-flow management and credit terms that prevent a single bad deal from sinking you"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Assuming hardware reselling has fat margins — pure hardware margins are often single digits, and box-moving alone barely pays",
+    "Floating large orders without working capital or credit, then getting crushed when a client pays late or not at all",
+    "Competing only on price, igniting margin wars they can't win against larger VARs with better distributor pricing",
+    "Ignoring deal registration and vendor rebates, leaving real margin and protection on the table",
+    "Failing to attach services and recurring license/support revenue, where the actual profit lives",
+    "Underestimating logistics pain — backorders, wrong configs, RMAs, and price changes that erase a deal's profit"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Distributor accounts (Ingram Micro, TD SYNNEX, D&H)", "note": "Your sourcing backbone. Pricing and credit terms depend on volume and standing.", "low": 0, "high": 1000 },
+    { "item": "Quoting / configuration tools", "note": "Fast, accurate quotes across multiple distributors are a competitive necessity.", "low": 0, "high": 1500 },
+    { "item": "CRM and procurement / order management", "note": "Tracks deals, renewals, and orders so nothing slips through the cracks.", "low": 0, "high": 1500 },
+    { "item": "Accounting software with strong cash-flow tracking", "note": "Critical when you float orders on thin margins. Watch receivables closely.", "low": 0, "high": 800 },
+    { "item": "Vendor partner-program memberships", "note": "Unlock deal registration, rebates, and better pricing tiers. The path to real margin.", "low": 0, "high": 2000 },
+    { "item": "Staging / test gear", "note": "For configuring and imaging hardware before deployment — part of the value-add.", "low": 0, "high": 2500 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct relationship selling to local businesses, schools, nonprofits, and government buyers",
+      "Partnering with MSPs and IT firms that need a procurement/hardware partner",
+      "Vendor partner referrals and being listed in manufacturer partner directories",
+      "Specializing in a vendor ecosystem or industry where your expertise wins over price",
+      "Responding to RFPs and bids, especially for education and government contracts"
+    ],
+    "whereCustomersAre": "Businesses, schools, nonprofits, and government agencies that buy IT equipment and software in volume and value a trusted advisor over the cheapest online price. Existing relationships and referrals matter far more than cold marketing.",
+    "timeToClientBase": "Landing first accounts takes one to three months of relationship-building, plus the time to set up distributor accounts and credit. A stable, repeat client base with recurring renewals typically takes one to two years to develop.",
+    "wasteOfTime": "Generic online advertising and trying to win on price against large e-tailers. Businesses with a trusted reseller don't switch over a few dollars; they switch over service, advice, and reliability. Price-led marketing attracts the least loyal, lowest-margin customers."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but it's gated by working capital and sales pipeline rather than time. Income grows with deal volume and especially with attached services and recurring renewals. The thin-margin reality means you need substantial revenue to produce a strong full-time profit.",
+    "hireAndStepBack": "Yes — VARs scale with salespeople and procurement staff, and the model supports delegation. Stepping back requires vendor relationships, credit facilities, documented quoting/procurement processes, and a recurring-revenue base that doesn't depend on you personally closing every deal.",
+    "sellable": "Yes, and recurring software/license and support revenue raises the value considerably. A VAR built on loyal accounts, strong vendor tiers, and recurring renewals sells better than a transactional box-mover, whose value is mostly the owner's relationships.",
+    "whatScalingRequires": "Working capital and credit lines, a sales team, climbing vendor partner tiers for better pricing and rebates, disciplined procurement and cash-flow systems, and a growing base of recurring license/support revenue. Capital and credit are the primary constraints, not demand."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You're a strong B2B relationship-seller with genuine IT knowledge",
+      "You can manage cash flow and credit, and you're comfortable floating orders on thin margins",
+      "You'd rather win on service and advice than on being the cheapest",
+      "You're motivated to build recurring license/support revenue, not just chase one-off deals"
+    ],
+    "poorFit": [
+      "You expect fat margins or a hands-off, passive income from reselling hardware",
+      "You dislike sales, negotiation, and constant relationship maintenance",
+      "You lack the working capital or credit to float orders and weather slow payment",
+      "You want a purely technical role rather than a sales-and-procurement one"
+    ],
+    "askYourself": [
+      "Can I win and keep business accounts on relationships and service rather than competing purely on price?",
+      "Do I have the working capital and credit to float orders when clients pay slowly?",
+      "Will I commit to attaching services and recurring revenue, since pure hardware margins are thin?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What does VAR mean, and how is it different from a plain reseller?",
+      "answer": "VAR stands for value-added reseller. A plain reseller just sells hardware; a VAR adds value through configuration, deployment, support, license management, or bundled services. Because pure hardware margins are thin, the 'value-added' part is where the real profit and customer loyalty come from — VARs that don't add value end up competing on price and earning very little."
+    },
+    {
+      "question": "Are hardware margins really that thin?",
+      "answer": "Yes. Margins on commodity IT hardware are often in the low single digits, sometimes just a few percent. Profitability comes from volume, vendor rebates and deal registration, and attaching higher-margin services and recurring software/license revenue. Anyone expecting to get rich by simply marking up boxes will be disappointed."
+    },
+    {
+      "question": "How do I buy from distributors?",
+      "answer": "You apply for accounts with distributors like Ingram Micro, TD SYNNEX, or D&H, which typically requires a business entity, a reseller's permit, and often a credit check. You also join vendor partner programs (Microsoft, Dell, HP, Cisco, and others) to access better pricing, deal registration, and rebates. Standing and volume improve your terms over time."
+    },
+    {
+      "question": "Why is cash flow such a big deal?",
+      "answer": "You often have to pay the distributor for hardware before your client pays you, sometimes on 30-plus-day terms. On thin margins, a single large order tied up in slow receivables, or a client who pays late, can create a serious cash crunch. Managing working capital, credit lines, and payment terms is one of the hardest parts of the business."
+    },
+    {
+      "question": "What are deal registration and rebates?",
+      "answer": "Deal registration lets you tell a vendor you're working a specific opportunity, which protects your pricing from being undercut by other resellers on the same deal. Rebates and partner-tier incentives reward volume and certifications with better pricing or back-end payments. Mastering these programs is essential to protecting and growing already-thin margins."
+    },
+    {
+      "question": "Do I need to be technical?",
+      "answer": "You need enough IT knowledge to recommend the right hardware, software, and licensing and to deliver the value-added services that defend your margin. But this is primarily a sales, relationship, and procurement business — strong B2B selling and cash-flow management matter as much as technical depth, and many successful VARs pair a salesperson with a technical resource."
+    },
+    {
+      "question": "Where does recurring revenue come from?",
+      "answer": "From software and cloud subscriptions, license renewals, and support/maintenance contracts attached to the hardware you sell. These renew year after year at far better margins than the hardware itself, and they make the business more stable and more valuable. Building this recurring base is the difference between a fragile box-mover and a durable VAR."
+    }
+  ],
+  "similarBusinesses": [
+    "managed-it-services-business",
+    "it-support-business",
+    "custom-pc-building-business",
+    "electronics-reselling-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Wholesale and Manufacturing Sales Representatives (technical products) wage data",
+    "IT channel industry reports (CompTIA, CRN/The Channel Company) on VAR margins and partner-program economics",
+    "Distributor partner materials (Ingram Micro, TD SYNNEX, D&H) on reseller accounts and terms",
+    "IT channel operator communities (r/msp, channel partner forums) for real-world margin, rebate, and cash-flow practices"
+  ],
+  "lastReviewed": "2026-06"
+}

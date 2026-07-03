@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Page Not Found" description="That page could not be found." noindex={true}>
+  <div class="container container-narrow page-head" style="text-align:center; padding-block: 4rem;">
+    <p class="eyebrow">404</p>
+    <h1>We couldn't find that page</h1>
+    <p class="lead">The page may have moved, or the link may be wrong. Let's get you back on track.</p>
+    <div style="display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap; margin-top:1.5rem;">
+      <a href="/" class="btn btn-secondary">Go home</a>
+      <a href="/find-my-business" class="btn btn-primary">Find my business</a>
+      <a href="/businesses" class="btn btn-secondary">Browse all businesses</a>
+    </div>
+  </div>
+</BaseLayout>

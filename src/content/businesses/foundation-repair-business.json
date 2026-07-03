@@ -1,0 +1,164 @@
+{
+  "title": "Foundation Repair Business",
+  "slug": "foundation-repair-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Foundation Repair Business — Costs, Earnings, Steps",
+  "metaDescription": "Honest breakdown of starting a foundation repair business: real startup costs, realistic earnings, licensing and engineering sign-off, and what most operators get wrong.",
+  "startupCostLow": 25000,
+  "startupCostHigh": 150000,
+  "monthlyEarningsLow": 6000,
+  "monthlyEarningsHigh": 35000,
+  "timeToFirstIncome": "3 to 6 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced construction or concrete pros who can handle heavy equipment, engineering coordination, and serious liability",
+  "biggestRisk": "A repair that fails or makes a home's structural problem worse, triggering a catastrophic liability claim that can end the business",
+  "speedToIncome": "long",
+  "minWeeklyHours": 40,
+  "skills": ["hands", "people", "sales", "finance"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A foundation repair business stabilizes and repairs the structures that hold up homes and buildings — installing piers (helical or push/resistance piers) to lift and support settling foundations, injecting epoxy or polyurethane into cracks, sealing and waterproofing basements and crawl spaces, and addressing the soil and drainage issues behind it all. It sits at the intersection of construction, geotechnical engineering, and high-pressure sales: jobs are expensive, emotionally charged (people fear for their homes), and technically unforgiving. Most legitimate operators work closely with structural engineers who diagnose the problem and sign off on the repair plan, because the work carries real structural and legal consequences if done wrong.",
+  "dailyReality": "A typical week mixes inspections, sales, and physically demanding fieldwork. You spend time crawling under houses and into basements assessing cracks, measuring slab elevations with a manometer, and diagnosing whether the issue is settlement, heave, hydrostatic pressure, or just cosmetic. Then comes the estimate and the in-home sales conversation, where you're often delivering bad, costly news. On install days, crews excavate around the foundation, drive or hydraulically push piers to load-bearing strata, inject crack sealants, or install drainage and sump systems — heavy, dirty, weather-exposed work. Around all of it is coordinating engineers for diagnosis and sign-off, scheduling inspections, ordering materials, and managing warranties that may run decades.",
+  "startupCostsItemized": [
+    { "item": "Contractor / specialty license, exams, and bond (state-dependent)", "low": 500, "high": 4000 },
+    { "item": "General liability insurance (high premiums for structural work)", "low": 3000, "high": 10000, "annual": true },
+    { "item": "Workers' compensation insurance", "low": 4000, "high": 15000, "annual": true, "optional": true },
+    { "item": "Pier-driving / hydraulic equipment, excavator or mini-excavator (used)", "low": 10000, "high": 80000 },
+    { "item": "Injection rigs, pumps, manometer/zip level, hand tools", "low": 3000, "high": 15000 },
+    { "item": "Work truck/trailer and initial pier and material inventory", "low": 5000, "high": 30000 },
+    { "item": "Engineering relationships and pre-paid inspection/diagnostic fees", "low": 1000, "high": 5000 },
+    { "item": "Working capital to float equipment, crew, and materials before payment", "low": 10000, "high": 40000 }
+  ],
+  "realEarnings": {
+    "yearOne": "Most owners net $6,000 to $12,000 per month in year one, though it's lumpy — foundation jobs are infrequent, expensive purchases, so a slow stretch hurts. Owners who come from concrete, structural, or established foundation-repair backgrounds with equipment and a network ramp much faster than someone starting cold, who will spend year one building credibility and absorbing the cost of equipment and insurance.",
+    "experienced": "Established operators with a crew, reliable engineering partners, and a steady lead flow commonly net $15,000 to $35,000 per month. Job tickets are large — pier jobs frequently run $10,000 to $40,000+ and waterproofing systems $5,000 to $20,000 — so even a handful of monthly jobs produces strong revenue at healthy margins when bid correctly.",
+    "topEarners": "Multi-crew regional firms gross several million per year, with owners taking $300,000+. Reaching that requires multiple crews and rigs, a real sales team, heavy marketing spend, formalized engineering relationships, and warranty-administration systems. Many of the biggest players are franchises (e.g., national foundation/waterproofing brands) precisely because the marketing and systems cost is so high.",
+    "whatAffectsMost": "Lead quality and accurate diagnosis matter most. A correct diagnosis protects you from callbacks and lawsuits; a strong, ethical sales process on high-ticket jobs drives revenue. Equipment is expensive but secondary — the operators who fail usually do so from bad bids, botched repairs, or selling fixes people didn't need.",
+    "perHour": "On well-run, correctly bid jobs, owner earnings can equate to $150 to $400+ per hour given the ticket size. But counting unpaid inspections, estimates that don't close, engineering coordination, and warranty callbacks, realistic blended owner rates early on are often $60 to $120 per hour."
+  },
+  "howToStart": [
+    "Month 1: Verify licensing. Many states require a general or specialty contractor license, and some specifically regulate structural and foundation work; a few require or strongly expect a licensed professional engineer (PE) to stamp repair designs. Carry robust general liability insurance — structural work commands high premiums for good reason. Register the business and set up job-cost accounting.",
+    "Month 1-2: Build engineering relationships. Partner with one or two structural/geotechnical engineers who can diagnose problems and provide stamped repair plans. This protects you legally, gives customers confidence, and keeps you from selling unnecessary or wrong repairs. Decide which methods you'll offer (helical piers, push piers, crack injection, waterproofing) and get trained or certified by equipment/pier manufacturers.",
+    "Month 2-4: Acquire or finance core equipment and assemble a small crew with excavation and concrete experience. Source piers and materials through a manufacturer or distributor who provides product warranties you can pass to customers. Develop clear written contracts, scope, payment milestones, and a warranty document.",
+    "Month 3-6: Land your first jobs, ideally through realtors, engineers, and home inspectors who encounter failing foundations daily. Document every job with photos, elevation readings, and engineer sign-off. Build reviews and case studies, since foundation buyers research heavily before committing tens of thousands of dollars.",
+    "Ongoing: Track callbacks and warranty claims obsessively. In this trade your reputation and your insurance loss history determine whether you stay in business."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong construction/structural knowledge — you must correctly diagnose settlement, heave, and water intrusion, not guess",
+      "Comfort operating and managing heavy equipment and excavation safely",
+      "The judgment and ethics to recommend the right repair (or none) rather than overselling fear",
+      "Cash-flow and estimating discipline on large, equipment-heavy jobs"
+    ],
+    "canLearn": [
+      "Specific installation methods and manufacturer certification (helical/push piers, injection systems)",
+      "Reading engineering reports and coordinating with PEs for stamped plans",
+      "Permit, inspection, and warranty-administration processes"
+    ],
+    "separators": [
+      "Accurate diagnosis backed by engineering, which prevents the callbacks and lawsuits that destroy operators",
+      "An ethical, confidence-building sales process on high-ticket emotional purchases",
+      "Strong referral relationships with engineers, inspectors, and realtors who feed qualified, motivated leads"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Misdiagnosing the problem — treating cosmetic cracks as structural, or 'fixing' settlement when the real issue is drainage or expansive soil — which leads to failed repairs and liability",
+    "Skipping or skimping on engineering sign-off to save money, then having no defensible basis when a repair is questioned or fails",
+    "Underinsuring; a single structural failure or injury claim in this trade can be catastrophic, and cheap coverage won't survive it",
+    "Overselling out of fear — pressuring scared homeowners into unnecessary piers — which works short-term but destroys reputation and invites complaints and refunds",
+    "Underestimating equipment, crew, and working-capital costs, then running out of cash before the high-ticket jobs pay",
+    "Offering long warranties without the systems or reserves to honor decades of potential callbacks"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Mini-excavator or excavation equipment", "note": "For digging to install piers and access footings. A used machine is common to start; rent before buying if cash is tight.", "low": 10000, "high": 60000 },
+    { "item": "Hydraulic pier-driving / push equipment", "note": "Drives helical or resistance piers to load-bearing soil. Often paired with manufacturer training/certification.", "low": 5000, "high": 30000 },
+    { "item": "Crack injection rig and pumps", "note": "Epoxy and polyurethane injection for poured-wall cracks and waterproofing.", "low": 1500, "high": 8000 },
+    { "item": "Manometer / zip level and laser tools", "note": "Measures floor elevation to diagnose settlement accurately — the core diagnostic tool.", "low": 500, "high": 3000 },
+    { "item": "Work truck and trailer", "note": "Hauls crew, equipment, piers, and materials. A reliable used vehicle is fine to start.", "low": 5000, "high": 30000 },
+    { "item": "Pier and material inventory", "note": "Helical/push piers, sealants, drainage and sump components. Buy per job at first to avoid tying up cash.", "low": 2000, "high": 15000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Referral relationships with structural engineers, home inspectors, and realtors who routinely flag failing foundations",
+      "A trust-and-evidence Google Business Profile and website with case studies, engineer involvement, and warranty details",
+      "Higher-intent paid search and local service ads — people with foundation cracks search urgently",
+      "Partnerships with general contractors and remodelers who need a foundation specialist",
+      "Strong reviews and BBB standing, since buyers research foundation companies heavily before spending five figures"
+    ],
+    "whereCustomersAre": "Homeowners noticing cracks, sticking doors, or sloping floors; buyers and sellers whose inspections flagged foundation issues; and properties in regions with expansive clay soils or high water tables where foundation problems are common.",
+    "timeToClientBase": "Because jobs are large, infrequent, and trust-driven, building a reliable pipeline typically takes six to twelve months of accumulating reviews, case studies, and professional referrals. The first jobs usually come from engineers, inspectors, or your existing construction network.",
+    "wasteOfTime": "Bargain-hunting marketing and competing as the cheapest bid. Foundation buyers are choosing who to trust with their home's structure; reassurance, engineering credibility, and reviews convert far better than a low price, and cut-rate work invites exactly the claims that sink operators."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and high job tickets make a strong full-time income reachable even with a single crew. The constraint is lead volume and your ability to personally diagnose and sell, since each job is large and consultative.",
+    "hireAndStepBack": "It can become a real business with crew leads, salespeople, and an office, letting the owner step out of fieldwork. It demands documented diagnostic and install processes, engineering partnerships, equipment redundancy, and significant working capital. Warranty obligations and liability management make stepping back harder than in lighter trades.",
+    "sellable": "An established foundation-repair firm with a brand, referral pipeline, trained crews, documented systems, and a clean warranty/loss history can sell for a solid multiple of profit. Liability tail and warranty obligations are key diligence items for buyers, so clean records raise the price.",
+    "whatScalingRequires": "Multiple trained crews and rigs, formal engineering relationships, a sales process and team, heavy marketing spend, warranty-administration systems, and the capital to carry equipment and large jobs. The cost and complexity of scaling is why so much of this market consists of franchises and regional consolidators."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real structural, concrete, or heavy-construction experience and sound diagnostic judgment",
+      "You can operate and manage heavy equipment and lead a crew safely",
+      "You can sell expensive, emotionally charged jobs ethically without resorting to fear tactics",
+      "You have or can raise serious capital for equipment, insurance, and working capital"
+    ],
+    "poorFit": [
+      "You want to avoid heavy equipment costs, need fast income, or can only work part-time hours",
+      "You're uncomfortable with heavy liability and decades-long warranty exposure",
+      "You don't have the construction background to diagnose foundation problems correctly",
+      "You'd be tempted to oversell scared homeowners to hit revenue targets"
+    ],
+    "askYourself": [
+      "Can I diagnose a foundation problem correctly, or get an engineer's sign-off, so I'm not gambling with someone's home and my liability?",
+      "Do I have the capital to fund equipment, insurance, and crew before the big jobs pay out?",
+      "Am I prepared for the liability and warranty obligations that come with structural work?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to do foundation repair?",
+      "answer": "In most states, yes — typically a general or specialty contractor license, sometimes with structural endorsements, plus a bond and exams. Requirements vary significantly by state and locality, and some jurisdictions require a licensed professional engineer to design or stamp the repair. Confirm your specific state's rules, including whether engineering sign-off is mandatory, before taking work."
+    },
+    {
+      "question": "Why do I need a structural engineer involved?",
+      "answer": "Engineers diagnose the actual cause of foundation movement and design or approve the repair, which protects you legally and gives customers confidence. Without engineering backing, you're guessing on structural matters where a wrong call can fail the repair, worsen the home's condition, and expose you to serious liability. Many reputable operators partner with one or two engineers as a standard part of their process."
+    },
+    {
+      "question": "How much do foundation repairs cost the homeowner?",
+      "answer": "It varies widely by method and severity. Crack injection might run a few hundred to a few thousand dollars, basement waterproofing systems $5,000 to $20,000, and pier/underpinning jobs commonly $10,000 to $40,000 or more for serious settlement. Large, infrequent tickets are why each job matters so much and why accurate diagnosis and bidding are critical."
+    },
+    {
+      "question": "Is this a good business for a beginner with no construction experience?",
+      "answer": "No. Foundation repair carries high startup costs, heavy equipment, serious liability, and a steep technical learning curve where mistakes damage homes and trigger lawsuits. It suits experienced construction, concrete, or structural professionals. A true beginner would be better served by lighter trades first."
+    },
+    {
+      "question": "What's the single biggest risk in this business?",
+      "answer": "A repair that fails, or a misdiagnosis that 'fixes' the wrong problem, leading to a structural failure and a major liability claim. This is why robust insurance, engineering sign-off, and accurate diagnosis are non-negotiable. A single catastrophic claim or a pattern of callbacks can end a foundation business and make it uninsurable."
+    },
+    {
+      "question": "Can I start part-time while keeping another job?",
+      "answer": "Realistically, no. The work requires heavy equipment, a crew, weekday scheduling around inspections and engineers, and significant capital and attention. It's a full-time, hands-on commitment from the start, unlike lighter service businesses you can run on evenings and weekends."
+    },
+    {
+      "question": "How do I compete with the big national foundation brands?",
+      "answer": "Local operators win on responsiveness, fair pricing, engineering-backed honesty, and strong local reviews and referrals from inspectors and realtors. You won't outspend national franchises on marketing, so compete on trust and craftsmanship rather than ad budget. Ethical diagnosis — telling people when they don't need a $20,000 repair — builds the referral base that sustains a local business."
+    }
+  ],
+  "similarBusinesses": [
+    "concrete-business",
+    "handyman-business",
+    "roofing-business",
+    "remodeling-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Construction Laborers and Cement Masons occupational data",
+    "Foundation repair and pier manufacturer technical guides and certification programs (helical/resistance pier systems)",
+    "Angi / HomeAdvisor and Forbes Home foundation repair cost guides for job pricing ranges",
+    "International Code Council (ICC) and local building-code references for structural repair and permitting",
+    "Contractor and structural trade forums for real-world diagnosis, liability, and warranty practices"
+  ],
+  "lastReviewed": "2026-06"
+}

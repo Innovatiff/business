@@ -1,0 +1,164 @@
+{
+  "title": "Photography Business",
+  "slug": "photography-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a Photography Business — Real Costs & Earnings",
+  "metaDescription": "Honest guide to starting a photography business: real gear costs, realistic earnings by niche, why you must price for editing time, and how to stand out in a saturated market.",
+  "startupCostLow": 1500,
+  "startupCostHigh": 12000,
+  "monthlyEarningsLow": 500,
+  "monthlyEarningsHigh": 7000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Skilled photographers who can also sell and run a business, and who accept that a niche and consistent bookings matter more than gear",
+  "biggestRisk": "Pricing only for shoot time and ignoring editing, gear, and unpaid hours, so the effective rate is far lower than it looks",
+  "speedToIncome": "months",
+  "minWeeklyHours": 10,
+  "skills": ["creative"],
+  "workLocations": ["mobile", "flexible", "space"],
+  "priorities": ["flexibility", "alongside-job", "max-income"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A photography business sells photo services in a chosen niche — portraits and families, weddings and events, real estate, product and commercial, or branding. The market is broad but crowded, because cameras are cheap and many people call themselves photographers, so the businesses that succeed compete on a clear niche, consistent quality, and reliable client experience rather than just owning good gear. Most photographers work mobile (on location) or from a small studio, and a large, often underestimated, share of the work is editing at a computer afterward.",
+  "dailyReality": "The shoot is the visible part; the real time sink is everything around it. A one-hour portrait session can mean two to four hours of culling and editing, plus client communication, scheduling, contracts, and gallery delivery. Weddings can be eight to twelve hours on-site followed by twenty to forty hours of editing. Much of the work is seasonal and weekend-heavy, since that is when families, couples, and events are available. Across a typical week you mix shooting, heavy editing, answering inquiries, and marketing, with editing usually the single biggest block of time.",
+  "startupCostsItemized": [
+    { "item": "Camera body (used/entry mirrorless or DSLR)", "low": 600, "high": 2500 },
+    { "item": "Lens or two (a versatile prime/zoom to start)", "low": 300, "high": 2500 },
+    { "item": "Memory cards, batteries, bag", "low": 100, "high": 400 },
+    { "item": "Lighting (flash, modifiers) — niche dependent", "low": 0, "high": 1500, "optional": true },
+    { "item": "Editing computer and Lightroom/Photoshop subscription", "low": 120, "high": 1500 },
+    { "item": "Backup drives and cloud storage", "low": 50, "high": 400, "annual": true },
+    { "item": "General liability insurance + gear insurance", "low": 200, "high": 600, "annual": true },
+    { "item": "Portfolio site, booking/gallery tool (Pixieset, Honeybook)", "low": 0, "high": 600, "annual": true },
+    { "item": "Business registration / LLC", "low": 0, "high": 300, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Year one is uneven and seasonal. Many part-time photographers earn $500 to $2,500 per month, concentrated in busy seasons, while quiet months bring little. Effective pay is lower than it looks because of unpaid editing and gear costs. Those who pick a clear niche and book consistently can reach $2,500 to $4,000 per month, but it rarely arrives evenly across the year.",
+    "experienced": "Photographers with a few years, a defined niche, strong reviews, and repeat or referral clients commonly report $4,000 to $7,000 per month in busy seasons, with real estate and commercial work offering steadier, less seasonal income than weddings or portraits.",
+    "topEarners": "Top wedding photographers charge $4,000 to $12,000+ per wedding, and established commercial or branding photographers command day rates of $1,500 to $5,000+, with the best clearing $100,000 to $250,000+ a year. Reaching that takes years, a strong portfolio, a distinctive style, a referral network, and often a small team or second shooters and editors. Most photographers never get there, and many stay part-time by choice.",
+    "whatAffectsMost": "Niche and pricing discipline matter most. A real estate or product photographer with steady volume can out-earn a more artistic portrait shooter who underprices, and the photographers who price for total time — shoot plus editing plus business — make far more per hour than those who quote only for the session.",
+    "perHour": "If you count only shoot time, rates look high. Counting editing, communication, gear, and travel, realistic blended rates for solo photographers are often $25 to $75 per hour early on, rising to $75 to $150+ once established and efficient with a profitable niche."
+  },
+  "howToStart": [
+    "Month 1: Choose a niche based on demand and what you can shoot well (portraits, real estate, product, events, or weddings). Buy or rent reliable but not extravagant gear — a used body and one or two good lenses beat a closet of equipment you can't use yet. Get liability and gear insurance before paid work.",
+    "Month 1-2: Build a focused portfolio in your niche, shooting friends, free or low-cost sessions, or model collaborations. Learn your editing workflow well, because consistent editing is what makes work look professional. Set up a simple booking and gallery system.",
+    "Month 2-3: Set pricing that accounts for shoot time, editing time, gear, and unpaid hours — not just the hour you hold the camera. Book your first paid clients, deliver a great experience, and ask for reviews and referrals immediately.",
+    "Months 3-6: Build referral and repeat-client systems, get a Google Business Profile with real reviews, and target the steadier niches (real estate agents, local businesses) if you want less seasonal income.",
+    "Months 6-12: Raise rates as your portfolio and reviews strengthen, and decide whether to add second shooters or an editor to take on more volume or move into higher-paying commercial work."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Genuine photography skill — exposure, composition, and working confidently in real conditions",
+      "Consistent editing ability so your delivered work looks polished and on-brand",
+      "Reliability and people skills to direct subjects and deliver a smooth client experience"
+    ],
+    "canLearn": [
+      "Niche-specific technique (real estate wide-angle work, product lighting, posing families)",
+      "Editing workflow and presets to speed up post-production",
+      "Pricing, contracts, and client management for the business side"
+    ],
+    "separators": [
+      "A clear niche and consistent style that make you memorable and referable in a flooded market",
+      "Pricing for total time and value, not just shoot hours, so the business is actually profitable",
+      "Reliability and client experience that generate reviews and referrals, which drive most steady bookings"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Pricing only for the shoot and ignoring editing, gear, travel, and unpaid hours, so the real hourly rate is poor",
+    "Buying expensive gear before having the skills or clients, instead of starting lean and upgrading from profit",
+    "Staying a 'I shoot anything' generalist in a saturated market instead of owning a niche",
+    "Underestimating how seasonal and weekend-heavy the work is, then being surprised by dead months",
+    "Skipping contracts and insurance, which leaves you exposed on weddings and commercial jobs where mistakes are costly",
+    "Inconsistent editing and slow delivery, which kills reviews and referrals even when the photos are good"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Camera body", "note": "A used or entry mirrorless/DSLR is plenty to start; the photographer matters more than the body.", "low": 600, "high": 2500 },
+    { "item": "Lenses", "note": "One or two quality lenses for your niche beat a bag of cheap ones. Glass outlasts bodies.", "low": 300, "high": 2500 },
+    { "item": "Lighting and modifiers", "note": "Essential for product and many portraits, less so for natural-light or real estate work.", "low": 0, "high": 1500 },
+    { "item": "Editing computer + Lightroom/Photoshop", "note": "Editing is the real time sink; a capable computer and solid workflow save hours.", "low": 120, "high": 1500 },
+    { "item": "Backup storage and cloud", "note": "Losing client files is unforgivable. Back up everything in at least two places.", "low": 50, "high": 400 },
+    { "item": "Booking, contract, and gallery tools (Honeybook, Pixieset)", "note": "Professional delivery and contracts protect you and improve the client experience.", "low": 0, "high": 600 },
+    { "item": "Insurance (liability + gear)", "note": "Required for many venues and protects against costly accidents. Non-negotiable for weddings.", "low": 200, "high": 600 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A strong, niche-focused portfolio and Google Business Profile with reviews — the foundation of local bookings",
+      "Instagram and a portfolio site showing consistent work in your specific niche",
+      "Referrals from happy clients and, for weddings and events, from venues and other vendors",
+      "Partnering with niche channels — real estate agents and brokerages for property work, local businesses for product and branding",
+      "Local networking and vendor relationships, especially for weddings (planners, venues, florists)"
+    ],
+    "whereCustomersAre": "Depends on niche: families and couples find you online and via referral; real estate clients are agents and brokerages; product and commercial clients are local businesses and brands; wedding clients come heavily through venue and vendor referrals.",
+    "timeToClientBase": "First paid work often comes within one to three months of building a portfolio and marketing, but a reliable, repeat client base usually takes a full year or more, partly because much of the work is seasonal and referral-driven.",
+    "wasteOfTime": "Buying more gear in the hope it attracts clients, and posting random unfocused images. Early on, a tight niche portfolio, fast reliable delivery, and reviews convert far better than equipment or a scattered feed."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but it takes work to overcome seasonality. Full-time income usually requires either a high-value niche (weddings, commercial) or steady-volume work (real estate, product) plus disciplined pricing. As a solo, you are capped by shooting and editing hours, so raising prices and choosing efficient niches matters more than simply booking more low-paid sessions.",
+    "hireAndStepBack": "Possible by adding second shooters, an editor, or associate photographers under your brand, which lets you take more bookings and step back from some shoots. This trades shooting for managing and selling, and outsourcing editing eats into margin. Many photographers stay solo because the work is what they enjoy.",
+    "sellable": "A solo photography business built on your personal style is hard to sell because clients book you specifically. A studio with a team, a brand, recurring commercial contracts, and systems not tied to one shooter is more sellable, but that is a larger operation than most photographers run.",
+    "whatScalingRequires": "Standardized editing and delivery workflows, contracts and pricing that protect margin, associate shooters or editors, and a marketing and referral system that books clients without your personal time. Steadier niches like real estate and commercial scale more smoothly than weddings."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real photography and editing skill and can deliver consistently, not just occasionally",
+      "You're willing to run a business — pricing, contracts, marketing — not only shoot",
+      "You can handle seasonal, weekend-heavy, uneven income, especially in the first year",
+      "You can focus on a niche rather than trying to shoot everything"
+    ],
+    "poorFit": [
+      "You want steady, predictable weekday income",
+      "You enjoy shooting but dislike the heavy editing and client-management workload",
+      "You expect gear to make you successful rather than skill, niche, and reliability",
+      "You're unwilling to price for total time and would rather just charge a low session fee"
+    ],
+    "askYourself": [
+      "Am I pricing for editing, gear, and unpaid hours, or only for the time I hold the camera?",
+      "Is there real demand for my chosen niche locally, and how many competitors already serve it?",
+      "Can I handle months of low or no bookings while I build a portfolio and reputation?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How much gear do I really need to start?",
+      "answer": "Less than most people think. A used camera body, one or two good lenses, backup storage, and a capable editing computer are enough to start in most niches. Skill, a clear niche, and reliable delivery matter far more than owning the latest gear. Renting expensive lighting or lenses for specific jobs is smarter than buying everything upfront, and you should upgrade from profit, not debt."
+    },
+    {
+      "question": "Why is my effective hourly rate so low even with good prices?",
+      "answer": "Because most photographers price only for the shoot and forget editing, which often takes two to four times the shooting time, plus gear, travel, and unpaid client communication. A $300 portrait session can become a $40-per-hour job once you count culling and editing. The fix is to price for total time and to build an efficient editing workflow so post-production doesn't quietly destroy your profit."
+    },
+    {
+      "question": "Which photography niche makes the most money?",
+      "answer": "Weddings and commercial/branding work have the highest per-job rates, but weddings are seasonal, high-pressure, and editing-heavy. Real estate and product photography pay less per shoot but offer steadier, repeatable volume and less seasonality. The best niche depends on local demand and what you enjoy and shoot well — steady volume often beats high but rare paydays for reliable income."
+    },
+    {
+      "question": "Is the photography market too saturated to make money?",
+      "answer": "It is genuinely crowded because cameras are cheap and many people offer photography casually. But a large share of those competitors are inconsistent, unreliable, or have no niche. Photographers who specialize, deliver consistent quality fast, and run a professional client experience still stand out and stay booked. Competing on being the cheapest is the losing path; competing on niche and reliability works."
+    },
+    {
+      "question": "Do I need insurance and contracts?",
+      "answer": "For weddings, events, and commercial work, yes — many venues require liability insurance, and contracts protect you when something goes wrong on a job you can't reshoot. Gear insurance is also wise given how much equipment costs. For low-stakes portrait work the requirement is looser, but contracts still prevent disputes over deliverables and usage rights."
+    },
+    {
+      "question": "Can I run a photography business part-time?",
+      "answer": "Yes, and many people do, especially in portraits, real estate, and events that fall on weekends. The constraint is editing time, which can pile up around a full-time job. It works well as an alongside-a-job business, and many photographers stay part-time by choice because the seasonal, weekend nature fits around other work."
+    },
+    {
+      "question": "How long until photography replaces a full-time income?",
+      "answer": "Realistically a year or more for most people, and longer if you only work on it occasionally. The first year is seasonal and lumpy while you build a portfolio, reviews, and referrals. Reaching full-time income usually requires a defined niche, disciplined pricing for total time, and a steady referral pipeline rather than one-off bargain sessions."
+    }
+  ],
+  "similarBusinesses": [
+    "freelance-graphic-design-business",
+    "social-media-management-business",
+    "freelance-copywriting-business",
+    "car-detailing-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Photographers occupational data",
+    "Industry pricing surveys (PPA — Professional Photographers of America, wedding and portrait pricing reports)",
+    "Gear and cost guides from photography retailers and review sites",
+    "Operator interviews and communities (r/photography, r/weddingphotography, photographer forums) for real-world pricing and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

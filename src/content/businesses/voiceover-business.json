@@ -1,0 +1,158 @@
+{
+  "title": "Voiceover Business",
+  "slug": "voiceover-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a Voiceover Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a voiceover business: real home-studio costs, realistic earnings, where work comes from, AI competition, and what people get wrong.",
+  "startupCostLow": 500,
+  "startupCostHigh": 6000,
+  "monthlyEarningsLow": 300,
+  "monthlyEarningsHigh": 6000,
+  "timeToFirstIncome": "1 to 4 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "People with a trainable, marketable voice and the patience to audition relentlessly while building skill and clients",
+  "biggestRisk": "Expecting steady income early when most beginners earn little for months, while AI voices erode the low end of the market",
+  "speedToIncome": "months",
+  "minWeeklyHours": 10,
+  "skills": ["creative"],
+  "workLocations": ["home", "online"],
+  "priorities": ["flexibility", "alongside-job", "max-income"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A voiceover business is voice acting for hire: recording narration and performance for commercials, explainer and corporate videos, e-learning courses, audiobooks, phone systems (IVR), video games, animation, and podcast intros. You work from a treated home recording booth, record and often edit the audio yourself, and deliver finished files to clients. It is a genuine performance skill combined with technical recording ability and a relentless marketing and auditioning habit. The work is flexible and location-independent, but it is competitive and, increasingly, pressured at the budget end by AI-generated voices, so the people who succeed treat it as both a craft and a serious business.",
+  "dailyReality": "A typical week is mostly auditioning and marketing, not recording. You read and submit dozens of auditions on marketplaces and to direct clients, most of which you will not book, while continuing to train your voice and acting. When you do land work, you record in your booth, often performing multiple takes and reading direction carefully, then edit, clean up, and master the audio before delivering it. Around that, expect time on invoicing, follow-up, demo production, and learning your recording software. Booth time is quiet and solitary, and rejection is constant — booking a small fraction of auditions is normal even for working pros.",
+  "startupCostsItemized": [
+    { "item": "Quality USB or XLR microphone", "low": 100, "high": 500 },
+    { "item": "Audio interface (if using an XLR mic)", "low": 100, "high": 300, "optional": true },
+    { "item": "Closed-back headphones and a pop filter", "low": 50, "high": 250 },
+    { "item": "Acoustic treatment / booth (foam, panels, or a portable vocal booth)", "low": 100, "high": 1500 },
+    { "item": "Recording/editing software (Audacity free, or Adobe Audition/Reaper)", "low": 0, "high": 250, "optional": true },
+    { "item": "Professionally produced demo reels (commercial, narration, etc.)", "low": 0, "high": 2000, "optional": true },
+    { "item": "Voice/acting coaching and training", "low": 0, "high": 2000, "optional": true },
+    { "item": "Marketplace memberships, website, business registration", "low": 50, "high": 600 }
+  ],
+  "realEarnings": {
+    "yearOne": "Be realistic: most beginners earn very little in their first year — often $300 to $1,500 per month part-time, and many make almost nothing for months while building skill, a demo, and a client base. A small number with a strong voice, good coaching, and aggressive auditioning reach $2,000 to $4,000 per month within the first year.",
+    "experienced": "Working voice actors with a few years of experience, solid demos, repeat clients, and steady auditioning commonly report $3,000 to $8,000 per month. Audiobook narrators (often paid per finished hour), e-learning, and corporate narration provide more consistent volume than chasing one-off commercial bookings.",
+    "topEarners": "Top earners — those landing national commercials, major brand campaigns, video games, animation, and high-volume audiobook or e-learning contracts — can earn well into six figures, with some union and national broadcast work paying far more per job. Reaching that takes years of training, a strong agent or direct-client relationships, and a recognizable, bookable voice. Most voice actors never reach this tier.",
+    "whatAffectsMost": "Acting and read quality, demo strength, audition volume, and niche choice matter most. Higher-budget, performance-driven work (commercials, character, premium narration) is far less exposed to AI than generic, low-budget reads, so where you focus shapes both income and longevity.",
+    "perHour": "Per-job rates vary enormously — a short explainer might pay $100 to $400, while audiobooks pay roughly $100 to $300-plus per finished hour (which takes longer to produce than to read). Counting all the unpaid auditioning and editing time, realistic blended rates for working voice actors are often $25 to $75 per hour, higher for established pros."
+  },
+  "howToStart": [
+    "Month 1: Be honest about whether your voice and acting are marketable, ideally with feedback from a coach. Invest in voice and performance coaching early — technical gear cannot fix a weak read. Set up a basic treated recording space using a closet, blankets, or foam to get clean, quiet audio.",
+    "Month 1-2: Learn to record and edit cleanly in software like Audacity, Reaper, or Adobe Audition. Produce a focused demo in one niche (commercial, e-learning, or narration) rather than a generic catch-all reel. Register on marketplaces like Voices and Voice123 and set up a simple website.",
+    "Months 2-4: Audition relentlessly — booking a small fraction is normal, so volume matters. Track which auditions and niches get callbacks and refine accordingly. Begin direct outreach to agencies, e-learning companies, and local businesses, which pay better than the crowded low end of marketplaces.",
+    "Months 4-12: Specialize where you book best and where AI competes least, reinvest in better demos and coaching, and build repeat clients. Consider audiobook narration (e.g. via ACX) for steadier volume, and pursue an agent once your demos and bookings justify it."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "A marketable, trainable voice and genuine acting/performance instinct, not just a 'nice voice'",
+      "The discipline to audition consistently and handle constant rejection",
+      "Basic audio recording and editing ability to deliver clean, professional files"
+    ],
+    "canLearn": [
+      "Microphone technique, booth setup, and recording/editing software",
+      "Reading direction and adjusting performance for different scripts and styles",
+      "Marketing yourself, auditioning effectively, and pricing jobs"
+    ],
+    "separators": [
+      "Strong acting and interpretation that wins higher-budget, performance-driven work AI cannot replace",
+      "Professional, niche-specific demos that get you shortlisted",
+      "Direct client and agency relationships plus repeat clients, instead of only competing on crowded marketplaces"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Assuming a 'good voice' is enough — acting, interpretation, and direction-following are what actually book work",
+    "Expecting steady income early, when most beginners earn little for months while building skill and clients",
+    "Spending heavily on premium gear before investing in coaching and a strong demo",
+    "Submitting generic auditions in low volume, then quitting before the numbers can work",
+    "Recording in an untreated, echoey room and delivering audio no professional client will accept",
+    "Chasing the cheapest marketplace jobs that compete directly with AI voices, instead of moving toward premium, performance-driven niches"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Microphone (USB to start, XLR for quality)", "note": "A solid mid-range mic is plenty to begin; you do not need the most expensive option.", "low": 100, "high": 500 },
+    { "item": "Audio interface (for XLR mics)", "note": "Connects a professional mic to your computer; skip if using USB.", "low": 100, "high": 300 },
+    { "item": "Acoustic treatment or portable vocal booth", "note": "The single most important investment for usable audio — a quiet, dead space beats a fancy mic in a bad room.", "low": 100, "high": 1500 },
+    { "item": "Headphones and pop filter", "note": "Closed-back headphones for monitoring; a pop filter to control plosives.", "low": 50, "high": 250 },
+    { "item": "Recording and editing software", "note": "Audacity is free and capable; Reaper and Adobe Audition are common paid choices.", "low": 0, "high": 250 },
+    { "item": "Professional demo reels", "note": "Your calling card. Worth producing well once your read quality justifies it.", "low": 0, "high": 2000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Voiceover marketplaces (Voices, Voice123) for audition volume, accepting that competition and fees are high",
+      "Audiobook platforms like ACX for steadier, per-finished-hour narration work",
+      "Direct outreach to ad agencies, e-learning and video production companies, and corporate clients who pay better than the low end",
+      "A professional website with niche demos so clients can find and book you directly",
+      "An agent, once your demos and booking history justify representation, for higher-budget union and national work",
+      "Networking in voiceover communities and with local businesses needing narration, IVR, and explainer reads"
+    ],
+    "whereCustomersAre": "Businesses and creators needing voice for ads, explainer and corporate videos, e-learning, audiobooks, and phone systems — reachable through marketplaces, agencies, production companies, and direct outreach. The better-paying clients are agencies, publishers, and corporate buyers found off the crowded marketplaces.",
+    "timeToClientBase": "Plan on one to four months before meaningful first income and often six to twelve months or more to build a reliable client base. Booking is a numbers game early on, and most working voice actors book only a small fraction of their auditions.",
+    "wasteOfTime": "Bidding rock-bottom on saturated marketplace jobs that compete directly with AI voices, and buying premium gear before you can deliver a professional read. Generic, low-volume auditioning rarely produces results."
+  },
+  "howItScales": {
+    "toFullTime": "Possible but not fast for most. Full-time income generally takes one to several years of building skill, demos, repeat clients, and ideally an agent. It is genuinely flexible and location-independent, which suits part-time and alongside-job work, but the path to a reliable full-time income is gradual.",
+    "hireAndStepBack": "Limited. The product is your voice and performance, so you cannot easily hand the core work to someone else. Some established voice actors build small production services, coach, or produce others' demos, but the voice work itself does not delegate.",
+    "sellable": "Largely not. A voiceover business is built on your specific voice and reputation, so there is little to sell beyond equipment and possibly a coaching brand or course. Think of it as a personal craft career rather than an asset to sell.",
+    "whatScalingRequires": "Higher-value niches and clients, stronger demos, an agent for premium and union work, and possibly diversifying into coaching, demo production, or audiobook volume — since you cannot scale by hiring others to use your voice."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have a marketable voice plus real acting instinct, and you take coaching well",
+      "You can handle constant rejection and audition consistently without quitting",
+      "You want flexible, location-independent booth work you can build alongside a job",
+      "You are willing to learn the technical side of clean recording and editing"
+    ],
+    "poorFit": [
+      "You expect quick, steady income — most beginners earn little for months",
+      "You think a 'nice voice' alone is enough without acting and direction skills",
+      "You will not market and audition relentlessly or handle rejection",
+      "You only want the cheapest marketplace jobs that compete head-on with AI voices"
+    ],
+    "askYourself": [
+      "Have I gotten honest feedback that my voice and read are genuinely bookable, ideally from a coach or working pro?",
+      "Can I sustain months of auditioning and rejection before income becomes reliable?",
+      "Which niches can I focus on that reward performance and are least exposed to AI voice replacement?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a 'perfect' voice to do voiceover work?",
+      "answer": "No single voice type is required — clients hire all kinds of voices, from warm and conversational to authoritative or quirky. What matters far more is acting ability, the ability to take direction, and a clean, professional recording. A 'nice voice' without performance skill rarely books work, which is why coaching matters more than most beginners expect."
+    },
+    {
+      "question": "How much does a home voiceover studio cost to set up?",
+      "answer": "You can start for roughly $500 with a solid USB mic, headphones, a pop filter, free editing software, and a DIY treated space (a closet with blankets works). A more professional setup with an XLR mic, interface, acoustic panels or a portable booth, and produced demos can run $2,000 to $6,000. The acoustic treatment matters more than an expensive microphone."
+    },
+    {
+      "question": "Is AI voice technology going to replace voiceover artists?",
+      "answer": "AI voices are real competition, especially at the low-budget, generic end (basic narration, simple e-learning, some IVR), and they are pushing down rates there. They are far weaker at performance-driven, emotional, and character work, which is where human voice actors remain in demand. The honest takeaway is to build skill in higher-value, performance-heavy niches rather than competing on the cheapest, most replaceable reads."
+    },
+    {
+      "question": "How long until I make real money in voiceover?",
+      "answer": "Be realistic: most beginners earn little for months and often a year or more before income is reliable. First paid jobs may come within one to four months, but building a steady client base usually takes six to twelve months or more of training, demos, and constant auditioning. Treating it as a slow-build craft business, not a quick income source, sets the right expectations."
+    },
+    {
+      "question": "Where do voiceover jobs actually come from?",
+      "answer": "Common sources include marketplaces like Voices and Voice123, audiobook platforms like ACX, direct outreach to ad agencies and production and e-learning companies, and eventually an agent for premium work. The higher-paying work tends to come from direct clients and agencies rather than the crowded, price-competitive marketplaces."
+    },
+    {
+      "question": "Do I need an agent to get voiceover work?",
+      "answer": "Not to start — most beginners build through marketplaces and direct clients. An agent becomes valuable once you have strong demos and a booking history, since agents can access higher-budget, union, and national work you cannot get on your own. Pursue representation after you have proven you can deliver, not before."
+    }
+  ],
+  "similarBusinesses": [
+    "podcast-production-business",
+    "video-editing-business",
+    "youtube-channel-business",
+    "freelance-copywriting-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Actors and related performing arts wage data",
+    "Voiceover marketplace and industry rate guides (Voices, Voice123, GVAA rate guide) for reported job pricing",
+    "ACX / audiobook industry resources for per-finished-hour narration pay norms",
+    "Working voice actor communities and coaching resources for real-world auditioning and income expectations"
+  ],
+  "lastReviewed": "2026-06"
+}

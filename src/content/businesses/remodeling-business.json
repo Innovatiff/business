@@ -1,0 +1,164 @@
+{
+  "title": "Kitchen and Bath Remodeling Business",
+  "slug": "remodeling-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Remodeling Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a kitchen and bath remodeling business: real startup costs, realistic earnings, licensing and permits, and what most contractors get wrong.",
+  "startupCostLow": 8000,
+  "startupCostHigh": 50000,
+  "monthlyEarningsLow": 4000,
+  "monthlyEarningsHigh": 25000,
+  "timeToFirstIncome": "2 to 4 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced tradespeople or project managers who can coordinate subs, manage cash flow, and sell high-ticket jobs",
+  "biggestRisk": "Running out of cash mid-project from poor draw and deposit management, or eating the cost of scope creep and underbid jobs",
+  "speedToIncome": "months",
+  "minWeeklyHours": 40,
+  "skills": ["hands", "people", "sales", "finance"],
+  "workLocations": ["mobile", "space"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A kitchen and bath remodeling business acts as a general contractor for interior renovations — tearing out and rebuilding kitchens, bathrooms, and related spaces. You sell the job, design or interpret the scope, pull permits, and coordinate the trades (demolition, framing, plumbing, electrical, tile, cabinetry, countertops, painting) to deliver a finished room. Some owners self-perform much of the work; most reach a point where they subcontract specialty trades and focus on selling, estimating, and managing the build. Kitchens and baths are the highest-demand, highest-margin remodels because they involve plumbing, electrical, and finish work that homeowners will not attempt themselves.",
+  "dailyReality": "A typical week is part jobsite, part office, part phone. You are walking active projects to check progress and quality, coordinating which sub shows up which day, ordering and chasing materials (cabinets and countertops have long lead times and arrive damaged more than you'd like), and handling the inevitable surprise behind a wall — rot, old wiring, a leak. Around that you are meeting prospects in their homes, measuring, writing estimates, and managing money: collecting deposits, requesting permit inspections, and timing supplier payments against customer draws. Evenings often mean estimates and emails. The job is less about swinging a hammer than about keeping a dozen moving parts and one anxious homeowner on track.",
+  "startupCostsItemized": [
+    { "item": "General contractor / home improvement license, exam, and application fees", "low": 300, "high": 1500 },
+    { "item": "License bond and/or recovery fund deposit (state-dependent)", "low": 500, "high": 3000 },
+    { "item": "General liability insurance", "low": 1200, "high": 4000, "annual": true },
+    { "item": "Workers' compensation insurance (if you have employees)", "low": 0, "high": 6000, "annual": true, "optional": true },
+    { "item": "Work truck or van (used) and basic tool inventory", "low": 3000, "high": 25000 },
+    { "item": "Business registration / LLC and accounting/estimating software", "low": 300, "high": 1500 },
+    { "item": "Working capital to float materials and labor before draws clear", "low": 5000, "high": 30000 },
+    { "item": "Showroom samples, design tools, website and photos", "low": 500, "high": 5000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most owners take home $4,000 to $8,000 per month in year one, and that number is volatile — a single mispriced job or a slow stretch between projects can wipe out a good month. Owners who came in with an existing trade reputation and a few warm leads ramp faster; those starting cold spend much of year one underpricing to build a portfolio.",
+    "experienced": "Established remodelers running two to four jobs at a time with reliable subs commonly net $10,000 to $25,000 per month. At this stage gross revenue might be $500,000 to $1.5M per year, with net margins typically in the 10% to 20% range after materials, labor, and overhead.",
+    "topEarners": "Design-build firms doing high-end kitchens and whole-home remodels can gross several million per year, with owners taking $300,000+ — but reaching that means a real team (project managers, a designer, in-house estimator, office staff), a showroom, and a brand that commands premium pricing. Getting there takes many years, strong systems, and the willingness to stop being the person on the tools.",
+    "whatAffectsMost": "Accurate estimating and change-order discipline matter more than anything. The gap between a profitable remodeler and a broke one is rarely sales volume — it's bidding jobs correctly, charging for scope changes in writing, and managing cash so you are never funding a customer's project out of your own pocket.",
+    "perHour": "Effective owner pay varies wildly with project profit. On well-run jobs, blended owner earnings can equate to $75 to $200+ per hour; on a job that goes sideways, you can work weeks for nothing. Counting all unpaid estimating and chasing, realistic early blended rates are often $40 to $90 per hour."
+  },
+  "howToStart": [
+    "Month 1: Confirm your state and local licensing. Most states require a general contractor or home improvement contractor license to do jobs above a dollar threshold (often $500 to $1,000 in labor and materials), and many require passing a trade and business/law exam plus a surety bond. Register your business, get general liability insurance, and set up bookkeeping that separates job costs from overhead.",
+    "Month 1-2: Build a realistic estimating system. Price out a sample kitchen and bath line by line — demo, materials, each sub's labor, permits, dumpster, your overhead and profit. Line up two or three reliable subs in each trade (plumber, electrician, tile setter, countertop fabricator) before you sell anything.",
+    "Month 2-3: Land your first one or two jobs, ideally through your existing network or a remodel for someone who will give you a glowing reference and let you photograph it. Use a written contract with a clear scope, payment schedule tied to milestones, and a change-order clause. Take a deposit; never start work you've fully fronted.",
+    "Days 90-180: Document everything with strong before/after photos, collect reviews, and refine your pricing based on what jobs actually cost you. Decide whether to self-perform finish carpentry/tile or subcontract it, and start building a steady pipeline so you're not idle between projects.",
+    "Ongoing: Track every job's actual cost against your estimate. The owners who survive are the ones who learn from each variance and stop repeating the bids that lost money."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid construction knowledge — you must understand sequencing, code basics, and what each trade does, even if you don't self-perform it",
+      "Accurate estimating and the discipline to bid for profit, not just to win the job",
+      "Project management: coordinating subs, materials, and inspections so a job actually finishes on schedule",
+      "Cash-flow management — collecting deposits and draws and timing supplier payments"
+    ],
+    "canLearn": [
+      "Permit and inspection processes for your specific jurisdiction",
+      "Design trends, material selection, and helping clients make finish decisions",
+      "Estimating and project-management software (Buildertrend, JobTread, CoConstruct, QuickBooks)"
+    ],
+    "separators": [
+      "Selling premium jobs on trust and process instead of competing on lowest price",
+      "Ironclad change-order and contract discipline so scope creep gets paid for instead of eaten",
+      "Building a roster of reliable subs who show up and do quality work, which is the real bottleneck in remodeling"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underbidding to win the job, then discovering the materials, subs, and surprises cost more than the price — a single bad kitchen bid can erase a quarter's profit",
+    "Using deposit and draw money from one job to finish another, then running out of cash when the music stops (the classic contractor death spiral)",
+    "Not putting scope changes in writing — homeowners ask for 'just one more thing' constantly, and verbal extras almost never get paid for",
+    "Working without the proper license or with lapsed insurance, which exposes the owner to fines, unenforceable contracts, and ruinous liability",
+    "Promising timelines they can't control because they don't account for material lead times, inspection delays, and sub availability",
+    "Relying on unvetted cheap subs whose mistakes the owner has to fix on their own dime and reputation"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Work truck or van", "note": "Hauls tools, materials, and debris. A reliable used vehicle is fine to start; don't over-finance a new one.", "low": 3000, "high": 25000 },
+    { "item": "Core tool inventory", "note": "Demo tools, power tools, levels, laser measure, tile and finish tools if self-performing. Build it out as jobs require.", "low": 2000, "high": 10000 },
+    { "item": "Estimating and project-management software", "note": "Buildertrend, JobTread, or even disciplined spreadsheets plus QuickBooks. The estimating system is more valuable than any tool.", "low": 0, "high": 4000, "annual": true },
+    { "item": "Contracts, change-order forms, and a payment-schedule template", "note": "Have a contractor-specific attorney or trade association review them once. This is cheap insurance.", "low": 200, "high": 2000 },
+    { "item": "Dumpster/debris removal account", "note": "Roll-off rentals per job; build the cost into every estimate.", "low": 300, "high": 700 },
+    { "item": "Design and sample materials", "note": "Cabinet door samples, tile and countertop samples, a simple design tool to help clients choose.", "low": 200, "high": 3000, "optional": true }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Referrals from past clients and from the subs and suppliers you work with — by far the strongest source for remodelers",
+      "A portfolio-driven Google Business Profile and website with high-quality before/after photos and reviews",
+      "Relationships with realtors, designers, and property managers who need trusted remodelers for clients and listings",
+      "Houzz and Angi profiles for higher-intent remodeling leads (vet the lead quality before spending heavily)",
+      "Yard signs and truck wraps on visible jobs in desirable neighborhoods"
+    ],
+    "whereCustomersAre": "Homeowners in established neighborhoods planning a kitchen or bath upgrade, recent home buyers renovating before moving in, and people preparing a home to sell. Higher-budget work concentrates in older, higher-value housing stock.",
+    "timeToClientBase": "Because remodels are big, infrequent purchases with long sales cycles, building a steady pipeline takes six to twelve months of quality work and accumulating reviews and referrals. The first one or two jobs usually come from your existing network.",
+    "wasteOfTime": "Cheap lead-generation services that sell the same lead to five contractors, and competing as the low bidder. Remodeling is sold on trust and a track record; a homeowner letting you tear apart their kitchen is buying confidence, not the lowest price."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and it is high-ticket by nature — even a solo owner running back-to-back jobs can reach a strong full-time income. The constraint as an owner-operator is how many projects you can personally estimate, sell, and supervise at once.",
+    "hireAndStepBack": "This is where remodeling can become a real business. Adding a project manager, an estimator, and a salesperson lets the owner step out of daily supervision. It requires documented processes, reliable subs or crews, and the cash to carry more simultaneous jobs, but design-build firms run this way successfully.",
+    "sellable": "An established remodeling company with a brand, repeat referral pipeline, documented systems, a backlog of signed work, and a team that runs without the owner can sell for a meaningful multiple of profit. A one-person operation where the owner is the business is much harder to sell.",
+    "whatScalingRequires": "Standardized estimating and contracts, a dependable bench of subs and crews, project-management systems, working capital to float multiple jobs, and a sales/marketing engine that fills the pipeline without the owner's personal time. Cash flow is the constraint that stalls most remodelers trying to grow."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real construction experience and understand how a remodel goes together",
+      "You're organized enough to juggle multiple jobs, subs, and material orders without dropping balls",
+      "You can sell high-ticket work in someone's home and hold firm on price",
+      "You can manage cash carefully and have or can raise working capital to float projects"
+    ],
+    "poorFit": [
+      "You want low startup cost, fast income, or part-time hours rather than long weekday builds run around subs and inspectors",
+      "You're uncomfortable with large sums of other people's money moving through your accounts",
+      "You avoid paperwork — contracts, permits, and change orders are central to surviving",
+      "You can't tolerate the stress of surprises, delays, and anxious homeowners"
+    ],
+    "askYourself": [
+      "Can I estimate a full kitchen or bath accurately enough that I make money even when something goes wrong?",
+      "Do I have enough working capital to float materials and labor without dipping into another job's deposit?",
+      "Do I have reliable subs, or a plan to find them, before I sell my first job?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to start a remodeling business?",
+      "answer": "Almost always, yes. Most states require a general contractor or home improvement contractor license for renovation work above a dollar threshold (often $500 to $1,000 in combined labor and materials), and many require passing a trade exam plus a business and law exam, carrying a surety bond, and registering with the state. Rules vary widely by state and even by city, so confirm your specific jurisdiction before taking any job."
+    },
+    {
+      "question": "Do I have to do the plumbing and electrical work myself?",
+      "answer": "Usually not, and often you legally can't. Most jurisdictions require licensed plumbers and electricians to perform and permit that work. As a general contractor you coordinate and subcontract those trades while you focus on the overall build, finishes, and project management. Lining up reliable licensed subs is one of the first things to do."
+    },
+    {
+      "question": "How do contractors get paid so they don't run out of money?",
+      "answer": "Through a written payment schedule tied to milestones — a deposit at signing (within legal limits), draws as phases complete, and a final payment at completion. The discipline is to never fund a customer's project out of your own pocket and never use one job's deposit to finish another. Cash-flow mismanagement, not lack of work, is what sinks most remodeling businesses."
+    },
+    {
+      "question": "What is scope creep and why is it so dangerous?",
+      "answer": "Scope creep is the steady stream of 'while you're at it, can you also...' requests during a remodel. Each one adds cost and time. If you don't capture them in written, signed change orders with prices, you end up doing extra work for free and blowing your timeline. Documented change orders are one of the biggest dividers between profitable and unprofitable remodelers."
+    },
+    {
+      "question": "How much do kitchen and bath remodels actually cost homeowners?",
+      "answer": "Ranges vary by region and finish level, but a mid-range kitchen remodel commonly runs $25,000 to $75,000 and a bathroom $10,000 to $35,000, with high-end projects going well beyond. As the contractor, your margin comes from accurate estimating and overhead/profit markup — not from inflating material prices, which erodes trust."
+    },
+    {
+      "question": "Can I start part-time while keeping my job?",
+      "answer": "Realistically, no. Remodels run on weekday schedules dictated by subs, inspectors, and material deliveries, and homeowners expect daily progress and responsiveness. It is very difficult to manage active renovations around a full-time job. This is a full-time, hands-on commitment from the start."
+    },
+    {
+      "question": "What's the most common reason remodeling businesses fail?",
+      "answer": "Cash flow. Owners underbid jobs, don't charge for scope changes, and rob one project's deposit to finish another. When the pipeline hiccups or a job goes over budget, there's no cushion and the whole thing collapses. Accurate estimating and disciplined money management matter more than sales skill or craftsmanship."
+    }
+  ],
+  "similarBusinesses": [
+    "handyman-business",
+    "electrician-business",
+    "painting-business",
+    "flooring-installation-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Construction Managers and Construction Laborers occupational data",
+    "Harvard Joint Center for Housing Studies — Improving America's Housing / LIRA remodeling market reports",
+    "National Association of Home Builders (NAHB) and National Association of the Remodeling Industry (NARI) cost and margin benchmarks",
+    "Angi / HomeAdvisor and Remodeling Magazine Cost vs. Value reports for project price ranges",
+    "Contractor communities and trade forums (r/Construction, JLC Online) for real-world estimating and cash-flow practices"
+  ],
+  "lastReviewed": "2026-06"
+}

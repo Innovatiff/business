@@ -1,0 +1,75 @@
+---
+/**
+ * Policy-safe ad slot.
+ *
+ * Behaviour:
+ *  - DISABLED by default. Renders NOTHING until approval, unless placeholders
+ *    are explicitly turned on (PUBLIC_ADSENSE_PLACEHOLDERS=true) for layout
+ *    preview during development.
+ *  - After approval (PUBLIC_ADSENSE_ENABLED=true + a client id), renders a real
+ *    responsive AdSense unit, clearly labelled "Advertisement".
+ *
+ * It NEVER renders a fake ad and never anything that looks like navigation,
+ * a recommendation, or a clickable result. Do not place inside the finder,
+ * its results, or adjacent to the cost/earnings data boxes.
+ */
+import { ADSENSE } from '../config';
+
+export interface Props {
+  slot?: string;
+  /** Layout hint, used as the data-ad-format for real units. */
+  format?: string;
+  label?: string;
+}
+const { slot = '', format = 'auto', label = 'Advertisement' } = Astro.props;
+
+const showReal = ADSENSE.enabled && ADSENSE.client;
+const showPlaceholder = !showReal && ADSENSE.showPlaceholders;
+---
+
+{showReal && (
+  <aside class="ad-slot" aria-label="Advertisement">
+    <span class="ad-label">{label}</span>
+    <ins
+      class="adsbygoogle"
+      style="display:block"
+      data-ad-client={ADSENSE.client}
+      data-ad-slot={slot}
+      data-ad-format={format}
+      data-full-width-responsive="true"
+    />
+    <script is:inline>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </aside>
+)}
+
+{showPlaceholder && (
+  <aside class="ad-slot ad-placeholder" aria-hidden="true">
+    <span class="ad-label">Advertisement</span>
+    <div class="ad-box">Ad space (disabled until approval)</div>
+  </aside>
+)}
+
+<style>
+  .ad-slot {
+    margin-block: var(--space-8);
+    text-align: center;
+  }
+  .ad-label {
+    display: block;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.35rem;
+  }
+  .ad-box {
+    border: 1px dashed var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    color: var(--muted);
+    padding: 2.25rem 1rem;
+    font-size: 0.85rem;
+  }
+</style>

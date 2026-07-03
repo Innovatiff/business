@@ -1,0 +1,162 @@
+{
+  "title": "Notion Consulting Business",
+  "slug": "notion-consulting-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start a Notion Consulting Business — Real Costs and Earnings",
+  "metaDescription": "Honest breakdown of starting a Notion consulting business: real startup costs, project and retainer earnings, finding team clients, selling templates, and what most people get wrong.",
+  "startupCostLow": 200,
+  "startupCostHigh": 1500,
+  "monthlyEarningsLow": 1000,
+  "monthlyEarningsHigh": 9000,
+  "timeToFirstIncome": "3 to 8 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Systems-minded people who love organizing information, can translate messy workflows into clean tools, and can teach a team to actually use them",
+  "biggestRisk": "Building beautiful workspaces that teams abandon, because the value is in adoption and process design, not pretty pages",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 10,
+  "skills": ["tech", "teaching", "people"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["flexibility", "alongside-job", "max-income"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A Notion consulting business builds custom workspaces and systems inside Notion for teams and businesses that are drowning in scattered tools, spreadsheets, and documents. The core service is project-based: you interview a team about their workflows, design a connected system of databases, dashboards, and pages — for things like project management, CRMs, content calendars, wikis, and onboarding — and then train the team to use it so it actually sticks. Many consultants pair this with monthly retainers for ongoing optimization and support, and with a second income stream of selling pre-built Notion templates online. Because the value is in clean process design and adoption rather than the software itself, this is consulting first and software second.",
+  "dailyReality": "A typical week splits between client discovery, building, and teaching. You run calls to map how a team really works, then spend focused blocks designing databases, relations, formulas, and dashboards that mirror that workflow without overcomplicating it. A large and underrated part of the job is the human side: writing documentation, recording walkthrough videos, and running training sessions so the team adopts the system instead of reverting to their old spreadsheets. Around active projects, retainer clients send tweaks and questions, and many consultants set aside time each week to design and refine templates they sell on marketplaces, which compounds into semi-passive income over time.",
+  "startupCostsItemized": [
+    { "item": "Notion paid plan (for advanced features and team workspaces)", "low": 0, "high": 200, "annual": true },
+    { "item": "Screen recording / Loom subscription for walkthroughs", "low": 0, "high": 200, "annual": true },
+    { "item": "Template marketplace / Gumroad fees", "low": 0, "high": 120, "annual": true, "optional": true },
+    { "item": "Simple portfolio site or Notion-built site", "low": 0, "high": 200, "optional": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Notion certification or advanced course", "low": 0, "high": 500, "optional": true },
+    { "item": "Laptop you already own", "low": 0, "high": 0, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most beginners charge $500 to $3,000 per custom workspace project, take on a few projects a quarter while building a portfolio, and may add small template sales of $10 to $50 each. Realistic year-one income is roughly $1,000 to $4,000 per month, often part-time, with early projects priced low to build case studies.",
+    "experienced": "Consultants with proven systems and testimonials charge $3,000 to $10,000+ per substantial workspace build and hold a few monthly retainers ($300 to $1,500 each) for ongoing support, reaching $5,000 to $15,000 per month. A maturing template catalog can add a few hundred to a few thousand dollars monthly on top.",
+    "topEarners": "Top consultants and small agencies reach $20,000 to $40,000+ per month by serving larger teams, charging premium build and retainer fees, and running a popular template business or productized templates that sell consistently. Getting there takes deep Notion expertise (including API and automation work), a real brand or audience, and often a small team of builders.",
+    "whatAffectsMost": "Whether your systems get adopted and deliver measurable time savings, and whether you build an audience or template catalog that generates inbound leads. Adoption and reputation matter more than how visually impressive the workspace looks.",
+    "perHour": "Project work nets roughly $40 to $100 per hour for beginners and $100 to $200+ per hour for experienced consultants who scope tightly. Template income is lumpy but can become semi-passive, lifting the effective rate over time."
+  },
+  "howToStart": [
+    "Weeks 1-2: Go deep on Notion — databases, relations, rollups, formulas, and now API/automation basics. Build two or three polished sample systems (a CRM, a project hub, a content calendar) for yourself or free for friends to create a real portfolio.",
+    "Weeks 2-4: Package your offer: a fixed-scope workspace build with a clear discovery, design, and training process. Set up a simple portfolio and decide on a starter template you can also sell.",
+    "Month 2: Land your first one or two paid projects, ideally at an honest introductory rate, by reaching out to small teams and solopreneurs whose tools are a mess. Make training and documentation part of every project so the system gets adopted.",
+    "Months 2-4: Turn finished builds into case studies and offer retainers for ongoing optimization. Publish your first templates on a marketplace to start a second income stream.",
+    "Months 4-6: Niche into the workflows you build best (agencies, creators, startups), raise project rates, and grow your template catalog and audience so leads start coming to you."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Deep, hands-on Notion skill — databases, relations, formulas, and dashboards (this is why prior experience is required)",
+      "Process and systems thinking to translate messy workflows into a clean tool",
+      "Teaching and documentation skills so teams actually adopt what you build"
+    ],
+    "canLearn": [
+      "Notion API and automation integrations (Zapier/Make) for advanced builds",
+      "Scoping and pricing projects to avoid endless free revisions",
+      "Selling and marketing templates on marketplaces"
+    ],
+    "separators": [
+      "Designing for adoption — simple, trainable systems people keep using, not impressive but abandoned ones",
+      "Building a template business or audience that generates inbound leads",
+      "Niching into specific workflows so your builds and assets compound"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Building over-engineered, beautiful workspaces that teams find too complex and abandon within weeks",
+    "Skipping training and documentation, so the system never gets adopted and the client sees no value",
+    "Pricing by the hour or leaving scope open, leading to endless free tweaks and poor effective rates",
+    "Assuming Notion skill alone is enough — clients pay for process design and adoption, not page aesthetics",
+    "Ignoring the second income stream of templates, leaving easy compounding revenue on the table",
+    "Promising Notion as a fix for problems that are really about a team's broken process or unclear roles"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Notion (paid team plan)", "note": "The core platform. Paid tiers unlock advanced permissions and features clients need.", "low": 0, "high": 200 },
+    { "item": "Loom or screen recorder", "note": "For training videos and async client walkthroughs that drive adoption.", "low": 0, "high": 200 },
+    { "item": "Automation tools (Zapier, Make, Notion API)", "note": "For connecting Notion to other tools on advanced builds.", "low": 0, "high": 600, "optional": true },
+    { "item": "Template marketplace / Gumroad account", "note": "To sell templates as a second income stream.", "low": 0, "high": 0, "optional": true },
+    { "item": "Proposal and discovery templates", "note": "Tight scoping documents prevent runaway revisions.", "low": 0, "high": 0 },
+    { "item": "Laptop and reliable internet", "note": "The work is fully online; no special hardware needed.", "low": 0, "high": 0 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Publishing free templates and Notion content, which doubles as proof and an inbound lead magnet",
+      "Direct outreach to small teams, agencies, and solopreneurs whose tooling is clearly disorganized",
+      "Notion-focused communities, Reddit, X, and the Notion creator ecosystem",
+      "Listing services and templates on marketplaces (Gumroad, Notion's template gallery)",
+      "Referrals from delighted clients, who often refer within their network of founders",
+      "Partnering with operations consultants, agencies, and VAs who need a Notion specialist"
+    ],
+    "whereCustomersAre": "Small teams and startups, agencies, creators, and solopreneurs who already use Notion or want to consolidate scattered tools. They gather in Notion and productivity communities, founder Slack groups, and on X and Reddit.",
+    "timeToClientBase": "Expect three to eight weeks to land a first project and three to six months to build steady project flow plus a few retainers. A template catalog and audience take longer to build but turn into a durable, semi-passive lead source.",
+    "wasteOfTime": "Cold pitching huge enterprises with locked-down IT, and obsessing over a fancy agency website before you have case studies. Early on, free templates and visible builds convert far better than branding."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A mix of project builds, retainers, and template sales reaches full-time income, and the recurring and template components add stability beyond one-off projects.",
+    "hireAndStepBack": "Partially. You can hire builders to execute designs and a VA for support, moving into discovery, strategy, and sales. Full step-back is limited because clients often want the expert in discovery and training, where adoption is won.",
+    "sellable": "Mixed. A template business with consistent sales is genuinely sellable as an asset; a pure consulting practice tied to the founder's relationships is harder to transfer without documented systems and a team.",
+    "whatScalingRequires": "Productized offers and templates, a small team of builders, an audience or catalog that generates inbound leads, and tight scoping so projects stay profitable. The template side is what lets income grow beyond billable hours."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You genuinely enjoy organizing information and designing clean systems",
+      "You already know Notion well or can get deep quickly, including databases and formulas",
+      "You like teaching and can get a team to actually adopt a new tool",
+      "You want a flexible online business with both project income and a template asset"
+    ],
+    "poorFit": [
+      "You have no real Notion experience and do not enjoy learning software deeply",
+      "You dislike client discovery, documentation, or training people",
+      "You expect template sales to be effortless passive income from day one",
+      "You want purely hands-off work with no consulting or scoping"
+    ],
+    "askYourself": [
+      "Can I design systems simple enough that a team actually keeps using them?",
+      "Am I willing to do the training and documentation that drives adoption, not just the building?",
+      "Which workflows or niches can I specialize in so my builds and templates compound?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need to be an expert in Notion to start?",
+      "answer": "Yes, real proficiency is required — databases, relations, rollups, formulas, and increasingly the API and automations. Clients pay for systems that work, and you cannot fake depth. You do not need years, but you should be able to build polished sample systems before charging anyone."
+    },
+    {
+      "question": "How do I price Notion projects?",
+      "answer": "Most consultants charge a fixed price per workspace build, commonly $500 to $3,000 for beginners and $3,000 to $10,000+ for experienced builders, with clear scope and limited revisions. Retainers for ongoing support run $300 to $1,500 a month. Avoid open-ended hourly billing that invites endless tweaks."
+    },
+    {
+      "question": "Can I really make money selling Notion templates?",
+      "answer": "Yes, but it is rarely instant or fully passive. Templates sell for roughly $10 to $50 (some premium ones more), and a catalog plus an audience can generate hundreds to a few thousand dollars monthly. It compounds over time and pairs well with consulting, which builds the credibility and traffic that sell templates."
+    },
+    {
+      "question": "What is the most common reason these projects fail?",
+      "answer": "Lack of adoption. A consultant builds an elegant, complex workspace, the team finds it confusing, and they drift back to spreadsheets. The fix is designing simpler systems and investing in training and documentation, because the client's real measure of value is whether their team uses it daily."
+    },
+    {
+      "question": "Is the Notion market oversaturated?",
+      "answer": "There are many template makers, but far fewer consultants who can run proper discovery, design real systems, and drive adoption for teams. Specialization in specific workflows or industries, plus a track record of measurable time savings, separates a profitable practice from a crowded template hobby."
+    },
+    {
+      "question": "Can I run this part-time around a job?",
+      "answer": "Yes. Project work and template design batch well and can be done asynchronously in roughly 10 to 15 hours a week. The main scheduling constraint is client discovery and training calls, which usually need to happen during business hours."
+    },
+    {
+      "question": "Will AI or new tools make Notion consulting obsolete?",
+      "answer": "AI features inside Notion and competing tools change the landscape, but they also raise demand for experts who can design and integrate sensible systems rather than add more complexity. The durable skill is process design and adoption, which transfers even if specific tools evolve."
+    }
+  ],
+  "similarBusinesses": [
+    "virtual-assistant-business",
+    "automation-agency-business",
+    "digital-products-business",
+    "online-course-business"
+  ],
+  "dataSources": [
+    "Notion — official documentation, certification program, and template gallery guidelines",
+    "Freelancer and agency rate surveys for systems/operations consulting and template sales",
+    "Notion creator and productivity communities for real-world project and retainer pricing",
+    "Operator interviews on template marketplace earnings and adoption practices"
+  ],
+  "lastReviewed": "2026-06"
+}

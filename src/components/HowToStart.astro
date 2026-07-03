@@ -1,0 +1,71 @@
+---
+export interface Props {
+  steps: string[];
+}
+const { steps } = Astro.props;
+---
+<ol class="steps">
+  {steps.map((step, i) => {
+    const [head, ...rest] = step.split(/:\s(.+)/);
+    const body = rest.join('');
+    return (
+      <li class="step">
+        <span class="step-num" aria-hidden="true">{i + 1}</span>
+        <div class="step-body">
+          {body ? (
+            <>
+              <span class="step-head">{head}</span>
+              <p>{body}</p>
+            </>
+          ) : (
+            <p>{step}</p>
+          )}
+        </div>
+      </li>
+    );
+  })}
+</ol>
+
+<style>
+  .steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .step {
+    display: flex;
+    gap: 1rem;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.25rem;
+    margin: 0;
+  }
+  .step-num {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  .step-head {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.2rem;
+  }
+  .step-body p {
+    margin: 0;
+    color: var(--slate);
+  }
+</style>

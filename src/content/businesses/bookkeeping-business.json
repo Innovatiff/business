@@ -1,0 +1,162 @@
+{
+  "title": "Bookkeeping Business",
+  "slug": "bookkeeping-business",
+  "category": "service-businesses",
+  "metaTitle": "How to Start a Bookkeeping Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a bookkeeping business: real startup costs, realistic monthly earnings, how to land recurring clients, and what most people get wrong.",
+  "startupCostLow": 500,
+  "startupCostHigh": 5000,
+  "monthlyEarningsLow": 1000,
+  "monthlyEarningsHigh": 9000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Detail-oriented people who are comfortable with numbers and want a high-margin, recurring-revenue service they can run from home",
+  "biggestRisk": "Taking on clients whose books are a mess at a flat rate, then drowning in unbillable cleanup work for months",
+  "speedToIncome": "months",
+  "minWeeklyHours": 10,
+  "skills": ["finance", "tech", "people"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["low-risk", "flexibility", "alongside-job", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": true,
+  "whatItIs": "A bookkeeping business records and organizes a company's financial transactions — categorizing expenses, reconciling bank and credit card accounts, sending invoices, paying bills, running payroll, and producing monthly financial statements. You are not a CPA and you do not file taxes or give tax advice (that is the line that matters legally), but you are the person who keeps a small business's books accurate and current so the owner and their accountant can make decisions. Most modern bookkeeping is done remotely in cloud software like QuickBooks Online or Xero, with clients giving you read or limited access to their accounts.",
+  "dailyReality": "Day to day this is quiet, focused desk work: logging into client files, importing and categorizing transactions, chasing down receipts or unclear charges, reconciling accounts so they match the bank, and flagging anything that looks off. Most clients are billed monthly, so the rhythm builds toward month-end and quarter-end closes, which are your busiest stretches. A typical week is a mix of routine catch-up on each client, a few emails or short calls answering owner questions, and time spent finding the next client. It is largely solitary work that rewards consistency and accuracy over speed.",
+  "startupCostsItemized": [
+    { "item": "Laptop and reliable internet", "low": 0, "high": 1200, "optional": true },
+    { "item": "QuickBooks Online ProAdvisor (free) + Xero partner program (free)", "low": 0, "high": 0 },
+    { "item": "Bookkeeping certification or course (QBO ProAdvisor, Bookkeeper Launch, Intuit/AIPB)", "low": 0, "high": 2000 },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Professional liability (E&O) insurance", "low": 300, "high": 800, "annual": true },
+    { "item": "Practice management / receipt tools (Dext, Hubdoc, Karbon, Keeper)", "low": 0, "high": 600, "annual": true, "optional": true },
+    { "item": "Website, professional email, and Google Business Profile", "low": 0, "high": 400, "optional": true },
+    { "item": "Secure file sharing and password manager", "low": 0, "high": 200, "annual": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most new bookkeepers earn $1,000 to $3,500 per month in year one, usually part-time around a job. With a handful of monthly clients at $300 to $600 each, beginners commonly reach $2,000 to $4,000 per month once they have three to six recurring clients on the books.",
+    "experienced": "Bookkeepers with two or more years, a clear niche, and 10 to 20 recurring clients typically report $5,000 to $9,000 per month. The shift that drives this is moving from hourly billing to fixed monthly packages and raising rates as their work gets faster.",
+    "topEarners": "Top solo and small-firm operators clear $12,000 to $25,000+ per month, but getting there means specializing (e.g., one industry), offering higher-value advisory or fractional-controller services, charging $800 to $2,500 per client per month, and often hiring junior bookkeepers to do the data entry. That is running a firm, not just keeping books.",
+    "whatAffectsMost": "Pricing model and client quality matter most. Fixed monthly pricing with clean, well-run clients is far more profitable than hourly work for disorganized clients. A tight niche (say, real estate agents or restaurants) lets you systematize and charge more than a generalist.",
+    "perHour": "Effective rates commonly run $40 to $100 per hour once you are efficient in your software. Beginners on hourly billing often earn $25 to $50 per hour; experienced bookkeepers on monthly packages frequently exceed $75 per hour because routine work gets faster over time."
+  },
+  "howToStart": [
+    "Month 1: Learn the software deeply. Complete the free QuickBooks Online ProAdvisor certification and the Xero advisor certification, and practice in a sample company file until reconciliations and categorization feel automatic. Decide whether you have enough underlying accounting understanding (debits/credits, the basic statements) or need a foundational course first.",
+    "Month 1-2: Set up the business properly — register an LLC, get professional liability (E&O) insurance, open a business bank account, and put a simple engagement letter and secure document workflow in place. Choose a niche or two you understand and can speak to.",
+    "Month 2: Land your first one or two clients, even at a discount, to build references and a real workflow. Offer to clean up and take over the books of a small business in your network. Price these as fixed monthly packages, not open-ended hourly.",
+    "Month 2-3: Document your monthly close checklist for each client so the work becomes repeatable. Ask early clients for testimonials and referrals to other owners.",
+    "Days 90+: Raise prices for new clients, tighten your onboarding (including a paid diagnostic before you quote cleanup work), and build a steady referral pipeline through accountants and your niche. Drop or reprice any client who is consistently unprofitable."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid understanding of basic accounting — the statements, debits and credits, accrual vs. cash basis, and what reconciliation actually proves",
+      "Genuine attention to detail and comfort working with numbers for long stretches",
+      "Discretion and reliability — you are handling someone's confidential financials and deadlines"
+    ],
+    "canLearn": [
+      "QuickBooks Online and Xero mechanics (both have free certification paths)",
+      "Receipt-capture and practice-management tools like Dext, Hubdoc, and Keeper",
+      "Setting up clean monthly close checklists and client onboarding workflows"
+    ],
+    "separators": [
+      "Pricing on value with fixed monthly packages instead of trading hours for dollars",
+      "Specializing in a niche so you can systematize, work faster, and charge more",
+      "Setting boundaries — scoping cleanup work separately and firing chronically disorganized or late-paying clients"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Quoting a flat monthly fee before seeing the books, then absorbing months of unbillable cleanup on a client whose records are a disaster",
+    "Drifting into tax advice or filing returns without the credentials, which is a legal and liability problem",
+    "Billing hourly forever, which punishes them for getting faster and caps their income",
+    "Competing on being the cheapest instead of choosing a niche and charging for reliability and accuracy",
+    "Underestimating how much the work concentrates at month-end and overcommitting on client count",
+    "Skipping E&O insurance and a written engagement letter, leaving themselves exposed when a client blames them for an error"
+  ],
+  "toolsAndEquipment": [
+    { "item": "QuickBooks Online (ProAdvisor program)", "note": "The dominant US small-business platform. The ProAdvisor program is free and gives you certification plus discounted client subscriptions.", "low": 0, "high": 0 },
+    { "item": "Xero (partner program)", "note": "The main QBO alternative, strong with some niches. Free partner access and certification.", "low": 0, "high": 0 },
+    { "item": "Receipt and document capture (Dext or Hubdoc)", "note": "Pulls receipts and bills in automatically. Saves hours of chasing paperwork once you have several clients.", "low": 0, "high": 600 },
+    { "item": "Practice management / close tracking (Keeper, Karbon, or even a spreadsheet)", "note": "Tracks where each client's books stand and what is uncategorized. A spreadsheet is fine until you have several clients.", "low": 0, "high": 1200 },
+    { "item": "Secure file sharing and a password manager", "note": "Non-negotiable. You are handling bank logins and sensitive financials.", "low": 0, "high": 200 },
+    { "item": "Engagement letter / proposal template", "note": "Defines scope, price, and what is excluded. Protects you from scope creep and disputes.", "low": 0, "high": 300 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Referrals from CPAs and tax preparers, who often want a reliable bookkeeper to hand cleanup and monthly work to but do not want to do it themselves",
+      "Niching down and showing up where that industry gathers — local trade groups, industry Facebook groups, and niche directories",
+      "A simple, professional website plus a Google Business Profile so you are findable when local owners search",
+      "Word of mouth from existing clients, who talk to other small-business owners constantly",
+      "Local networking and small-business groups (chambers, BNI, meetups) where owners actually are"
+    ],
+    "whereCustomersAre": "Small businesses doing roughly $250k to $5M in revenue that have outgrown doing their own books but are too small for an in-house finance person. They are reachable through their accountants, their industry communities, and local business networks.",
+    "timeToClientBase": "Landing the first one or two clients can take one to three months of outreach. A stable base of recurring clients that replaces a part-time income usually takes six to twelve months, because trust and referrals compound slowly in this field.",
+    "wasteOfTime": "Cold paid ads and trying to be a generalist 'bookkeeper for anyone' rarely work early on. Owners hire bookkeepers on trust, so referrals and niche credibility beat broad advertising almost every time."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and it is one of the more reliable service businesses to take full-time because revenue is recurring. A solo bookkeeper with 10 to 20 well-priced monthly clients can replace a full salary. The cap as a pure solo is your own hours, since each client needs ongoing attention.",
+    "hireAndStepBack": "Yes — this is one of bookkeeping's real strengths. You can hire junior bookkeepers to handle data entry and reconciliations while you keep client relationships, review, and pricing. Stepping back fully requires documented workflows and a quality-review process so errors do not slip through.",
+    "sellable": "Bookkeeping firms with recurring monthly clients and documented processes sell relatively well, often for a meaningful multiple of annual recurring revenue, because that revenue is sticky. A solo book of business tied entirely to your personal relationships is harder to transfer but still has value.",
+    "whatScalingRequires": "Standardized onboarding and monthly-close checklists, a niche so the work is repeatable, value-based pricing, and a hire-and-review structure. The bottleneck is usually finding skilled bookkeepers you trust and building review systems before quality slips."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are genuinely detail-oriented and comfortable with numbers and software",
+      "You want recurring revenue and a high-margin business you can run from home",
+      "You already have some accounting knowledge or are willing to learn it properly first",
+      "You are reliable with deadlines and discreet with confidential information"
+    ],
+    "poorFit": [
+      "You dislike repetitive, precise work and find reconciling accounts tedious to the point of carelessness",
+      "You want fast money — this is a trust-and-referral business that builds over months",
+      "You are not willing to learn the underlying accounting and want to wing it in the software",
+      "You struggle to set boundaries and would let clients walk all over your scope and pricing"
+    ],
+    "askYourself": [
+      "Do I understand accounting well enough to catch when something is wrong, not just enter data?",
+      "Am I willing to spend months building trust and referrals before this feels stable?",
+      "Can I hold the line on pricing and scope, including charging separately for cleanup work?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need to be a CPA or have an accounting degree to start a bookkeeping business?",
+      "answer": "No. You do not need a CPA license or a degree to be a bookkeeper, and no state requires a license to do bookkeeping. What you do need is genuine competence in accounting basics and the software, because clients rely on accuracy. Just be clear that you are a bookkeeper, not a CPA — you do not file taxes or give tax advice, which is where the legal line sits."
+    },
+    {
+      "question": "How is bookkeeping different from accounting and tax preparation?",
+      "answer": "Bookkeeping is the day-to-day recording and reconciling of transactions and producing financial statements. Accountants and CPAs interpret those numbers, handle complex reporting, and file taxes. Many bookkeepers work alongside a client's CPA, doing the monthly work so the CPA has clean books at tax time. Staying on your side of that line keeps you out of legal trouble."
+    },
+    {
+      "question": "Should I use QuickBooks Online or Xero?",
+      "answer": "QuickBooks Online dominates the US small-business market, so most clients will already be on it or expect it — learn it first. Xero is the main alternative and is strong in some niches and with cleaner interfaces. Both have free certification programs for bookkeepers, so it is worth being competent in both, but lead with QuickBooks in the US."
+    },
+    {
+      "question": "How should I price bookkeeping services?",
+      "answer": "The most profitable approach is fixed monthly packages based on the client's volume and complexity, commonly $300 to $1,000+ per month for small businesses. Hourly billing punishes you for getting faster and caps your income. Critically, scope and price cleanup work separately and only after you have seen the books — flat-quoting a messy client is the fastest way to lose money."
+    },
+    {
+      "question": "How many clients can one bookkeeper handle?",
+      "answer": "It depends heavily on each client's size and how clean their books are, but a solo bookkeeper can typically manage somewhere between 10 and 30 monthly clients depending on complexity. Clean, niche clients on good systems take far less time than disorganized ones, which is why client quality matters as much as client count."
+    },
+    {
+      "question": "How long until I can replace a part-time or full-time income?",
+      "answer": "Realistically, three to six months to replace a meaningful part-time income and six to twelve months to approach full-time, assuming you are actively marketing and getting referrals. It is slower to start than hands-on service businesses because clients hire on trust, but the recurring revenue makes it more stable once it is built."
+    },
+    {
+      "question": "What insurance do I need?",
+      "answer": "Professional liability (errors and omissions) insurance is the important one — it covers you if a mistake in the books leads to a client loss. General liability is cheap and sometimes bundled. Combined with a written engagement letter that defines your scope, this protects you from the disputes that occasionally arise in financial work."
+    }
+  ],
+  "similarBusinesses": [
+    "virtual-assistant-business",
+    "freelance-copywriting-business",
+    "social-media-management-business",
+    "tutoring-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Bookkeeping, Accounting, and Auditing Clerks occupational data",
+    "Intuit QuickBooks ProAdvisor program and Xero partner resources (certification and pricing benchmarks)",
+    "American Institute of Professional Bookkeepers (AIPB) and bookkeeping training providers",
+    "Bookkeeper and accounting practice communities (r/Bookkeeping, ProAdvisor forums) for real-world pricing and client-load ranges"
+  ],
+  "lastReviewed": "2026-06"
+}

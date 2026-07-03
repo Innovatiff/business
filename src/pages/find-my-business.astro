@@ -1,0 +1,498 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { QUESTIONS, FINDER_SECTIONS, type MatchRecord } from '../data/finder';
+import { CATEGORY_MAP } from '../data/categories';
+
+const all = await getCollection('businesses');
+
+// Build the compact records the client uses for matching + display.
+const records: MatchRecord[] = all.map((b) => {
+  const d = b.data;
+  return {
+    slug: d.slug,
+    title: d.title,
+    category: d.category,
+    categoryName: CATEGORY_MAP[d.category]?.shortName ?? d.category,
+    startupCostLow: d.startupCostLow,
+    startupCostHigh: d.startupCostHigh,
+    monthlyEarningsLow: d.monthlyEarningsLow,
+    monthlyEarningsHigh: d.monthlyEarningsHigh,
+    timeToFirstIncome: d.timeToFirstIncome,
+    difficultyLevel: d.difficultyLevel,
+    bestFor: d.bestFor,
+    biggestRisk: d.biggestRisk,
+    speedToIncome: d.speedToIncome,
+    minWeeklyHours: d.minWeeklyHours,
+    skills: d.skills,
+    workLocations: d.workLocations,
+    priorities: d.priorities,
+    noExperienceRequired: d.noExperienceRequired,
+    partTimeFriendly: d.partTimeFriendly,
+  };
+});
+
+// Group questions by section for the stepped wizard.
+const steps = FINDER_SECTIONS.map((section) => ({
+  section,
+  questions: QUESTIONS.filter((q) => q.section === section),
+}));
+---
+
+<BaseLayout
+  title="Find My Business — An Honest Business Finder"
+  description="Answer a few honest questions about your budget, time, skills, and situation. We will only show businesses that realistically fit you — no account, no stored answers, no hype."
+  path="/find-my-business"
+>
+  <div class="container finder-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Find My Business' }]} />
+    <h1>Find the right business for your real life</h1>
+    <p class="lead">
+      Answer honestly. The more accurate your answers, the more useful your results. We will only
+      show businesses that genuinely fit your budget, time, and situation — never the ones you
+      can't realistically start.
+    </p>
+    <p class="finder-privacy">
+      No account required. We do not store your answers — everything runs in your browser and
+      disappears when you close the page.
+    </p>
+  </div>
+
+  <div class="container finder-shell">
+    <!-- Embedded match data (no tracking, no network calls) -->
+    <script type="application/json" id="finder-records" is:inline set:html={JSON.stringify(records)}></script>
+
+    <form id="finder" class="finder card" novalidate>
+      <div class="finder-progress" aria-hidden="true">
+        <div class="finder-progress-bar" id="progress-bar"></div>
+      </div>
+      <p class="finder-step-count"><span id="step-now">1</span> of {steps.length + 1}</p>
+
+      {steps.map((step, si) => (
+        <fieldset class="finder-stepview" data-step={si} hidden={si !== 0}>
+          <legend class="finder-section-title">{step.section}</legend>
+          {step.questions.map((q) => (
+            <div class="finder-q" data-qid={q.id} data-type={q.type}>
+              <p class="finder-prompt">{q.prompt}</p>
+              {q.help && <p class="finder-help">{q.help}</p>}
+              <div class="finder-options">
+                {q.options.map((opt) => (
+                  <label class="opt">
+                    <input
+                      type={q.type === 'multi' ? 'checkbox' : 'radio'}
+                      name={q.id}
+                      value={opt.value}
+                    />
+                    <span class="opt-label">{opt.label}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+          ))}
+        </fieldset>
+      ))}
+
+      <!-- Results step -->
+      <div class="finder-stepview" data-step={steps.length} hidden>
+        <h2 class="finder-results-title">Your honest matches</h2>
+        <p class="finder-results-sub" id="results-sub"></p>
+        <div id="results"></div>
+        <div id="no-results" hidden>
+          <div class="noresults card">
+            <h3>No honest match within those exact constraints</h3>
+            <p>
+              That usually means the budget, time, or timeframe is tighter than the businesses
+              currently in our library. Rather than show you something that won't realistically
+              work, we'd rather tell you straight. Try loosening one answer — often a slightly
+              higher budget or a longer timeframe opens up strong options.
+            </p>
+            <button type="button" class="btn btn-secondary" data-action="restart">Adjust my answers</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="finder-nav">
+        <button type="button" class="btn btn-secondary" id="back-btn" hidden>← Back</button>
+        <span class="finder-validation" id="validation" role="alert"></span>
+        <button type="button" class="btn btn-primary" id="next-btn">Next →</button>
+        <button type="button" class="btn btn-primary" id="see-btn" hidden>See my matches</button>
+        <button type="button" class="btn btn-secondary" id="restart-btn" hidden>Start over</button>
+      </div>
+    </form>
+
+    <p class="finder-foot muted">
+      These matches are honest estimates to help you decide, not guarantees. Always read the full
+      business page and do your own research before spending money.
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .finder-head {
+    padding-top: var(--space-8);
+    max-width: var(--container-narrow);
+  }
+  .finder-head h1 {
+    margin-top: 0.75rem;
+  }
+  .finder-privacy {
+    font-size: 0.9rem;
+    color: var(--muted);
+    border-left: 3px solid var(--green);
+    padding-left: 0.85rem;
+  }
+  .finder-shell {
+    max-width: 780px;
+    padding-bottom: var(--space-8);
+  }
+  .finder {
+    padding: 1.75rem;
+  }
+  .finder-progress {
+    height: 6px;
+    background: var(--border);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .finder-progress-bar {
+    height: 100%;
+    width: 20%;
+    background: var(--green);
+    border-radius: 999px;
+    transition: width 0.25s ease;
+  }
+  .finder-step-count {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    color: var(--muted);
+    font-weight: 700;
+    margin: 0.6rem 0 1.25rem;
+  }
+  .finder-stepview {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  .finder-section-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--navy);
+    letter-spacing: -0.02em;
+    padding: 0;
+    margin-bottom: 1.25rem;
+  }
+  .finder-q {
+    margin-bottom: 1.75rem;
+  }
+  .finder-prompt {
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 1.08rem;
+    margin-bottom: 0.3rem;
+  }
+  .finder-help {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.75rem;
+  }
+  .finder-options {
+    display: grid;
+    gap: 0.55rem;
+  }
+  .opt {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: border-color 0.12s ease, background 0.12s ease;
+  }
+  .opt:hover {
+    border-color: var(--slate);
+    background: var(--surface);
+  }
+  .opt input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--green);
+    flex: none;
+  }
+  .opt:has(input:checked) {
+    border-color: var(--green);
+    background: var(--green-tint);
+  }
+  .opt-label {
+    font-size: 0.98rem;
+    color: var(--slate);
+  }
+  .finder-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border);
+  }
+  .finder-nav #next-btn,
+  .finder-nav #see-btn {
+    margin-left: auto;
+  }
+  .finder-validation {
+    color: var(--red);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .finder-foot {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+  }
+  /* Results */
+  .finder-results-title {
+    margin-bottom: 0.4rem;
+  }
+  .finder-results-sub {
+    color: var(--slate);
+    margin-bottom: 1.5rem;
+  }
+  .result {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.4rem;
+    margin-bottom: 1rem;
+    background: #fff;
+  }
+  .result-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .result-rank {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--green-dark);
+    font-size: 0.85rem;
+  }
+  .result h3 {
+    margin: 0.15rem 0 0.5rem;
+    font-size: 1.25rem;
+  }
+  .result-why {
+    background: var(--green-tint);
+    border-radius: var(--radius-sm);
+    padding: 0.75rem 1rem;
+    margin: 0.75rem 0;
+  }
+  .result-why-title {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--green-dark);
+    font-weight: 700;
+  }
+  .result-why ul {
+    margin: 0.35rem 0 0;
+    padding-left: 1.1rem;
+    color: var(--slate);
+    font-size: 0.92rem;
+  }
+  .result-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin: 0.85rem 0;
+    padding: 0.85rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .result-stats dt {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .result-stats dd {
+    margin: 0.15rem 0 0;
+    font-weight: 700;
+    font-size: 0.92rem;
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+  .result-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .result-risk {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .noresults {
+    padding: 1.5rem;
+    border-left: 4px solid var(--amber);
+  }
+  @media (max-width: 560px) {
+    .result-stats {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+    .finder-nav {
+      flex-wrap: wrap;
+    }
+  }
+</style>
+
+<script>
+  import { rankBusinesses, type MatchRecord, type Answers } from '../data/finder';
+
+  // Cast to non-null for typing; the `if (form)` below is the runtime guard.
+  const form = document.getElementById('finder') as HTMLFormElement;
+  if (form) {
+    const recordsEl = document.getElementById('finder-records');
+    const records: MatchRecord[] = recordsEl ? JSON.parse(recordsEl.textContent || '[]') : [];
+
+    const stepviews = Array.from(form.querySelectorAll<HTMLElement>('.finder-stepview'));
+    const totalSteps = stepviews.length; // includes results step
+    const lastQuestionStep = totalSteps - 2;
+    const resultsStep = totalSteps - 1;
+
+    const backBtn = document.getElementById('back-btn') as HTMLButtonElement;
+    const nextBtn = document.getElementById('next-btn') as HTMLButtonElement;
+    const seeBtn = document.getElementById('see-btn') as HTMLButtonElement;
+    const restartBtn = document.getElementById('restart-btn') as HTMLButtonElement;
+    const progressBar = document.getElementById('progress-bar') as HTMLElement;
+    const stepNow = document.getElementById('step-now') as HTMLElement;
+    const validation = document.getElementById('validation') as HTMLElement;
+
+    let current = 0;
+
+    const money = (n: number) => '$' + Math.round(n).toLocaleString('en-US');
+    const escapeHtml = (s: string) =>
+      s.replace(/[&<>"']/g, (c) =>
+        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c] as string,
+      );
+
+    function show(step: number) {
+      current = step;
+      stepviews.forEach((sv, i) => (sv.hidden = i !== step));
+      const pct = ((step + 1) / totalSteps) * 100;
+      progressBar.style.width = pct + '%';
+      stepNow.textContent = String(step + 1);
+      backBtn.hidden = step === 0;
+      nextBtn.hidden = step >= lastQuestionStep;
+      seeBtn.hidden = step !== lastQuestionStep;
+      restartBtn.hidden = step !== resultsStep;
+      validation.textContent = '';
+      window.scrollTo({ top: form.getBoundingClientRect().top + window.scrollY - 90, behavior: 'smooth' });
+    }
+
+    // Require every single-choice question in the current step to be answered.
+    function validateStep(step: number): boolean {
+      const view = stepviews[step];
+      const qs = Array.from(view.querySelectorAll<HTMLElement>('.finder-q'));
+      for (const q of qs) {
+        if (q.dataset.type === 'single') {
+          const answered = view.querySelector(`input[name="${q.dataset.qid}"]:checked`);
+          if (!answered) {
+            validation.textContent = 'Please answer to continue.';
+            q.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            return false;
+          }
+        }
+      }
+      return true;
+    }
+
+    function collectAnswers(): Answers {
+      const fd = new FormData(form);
+      return {
+        budget: (fd.get('budget') as string) || undefined,
+        hours: (fd.get('hours') as string) || undefined,
+        deadline: (fd.get('deadline') as string) || undefined,
+        skills: fd.getAll('skills') as string[],
+        location: (fd.get('location') as string) || undefined,
+        priority: (fd.get('priority') as string) || undefined,
+        concern: (fd.get('concern') as string) || undefined,
+      };
+    }
+
+    function renderResults() {
+      const answers = collectAnswers();
+      const scored = rankBusinesses(answers, records).slice(0, 8);
+      const resultsEl = document.getElementById('results') as HTMLElement;
+      const noResults = document.getElementById('no-results') as HTMLElement;
+      const sub = document.getElementById('results-sub') as HTMLElement;
+
+      if (scored.length === 0) {
+        resultsEl.innerHTML = '';
+        noResults.hidden = false;
+        sub.textContent = '';
+        return;
+      }
+      noResults.hidden = true;
+      sub.textContent = `Based on your answers, here ${scored.length === 1 ? 'is' : 'are'} ${scored.length} ${
+        scored.length === 1 ? 'business' : 'businesses'
+      } that honestly fit — ranked by how well they match. We always show the full realistic range, not the best case.`;
+
+      resultsEl.innerHTML = scored
+        .map((s, i) => {
+          const r = s.record;
+          const reasons = s.reasons.map((x) => `<li>${escapeHtml(x)}</li>`).join('');
+          return `
+          <article class="result">
+            <div class="result-head">
+              <div>
+                <span class="result-rank">Match #${i + 1} · ${escapeHtml(r.categoryName)}</span>
+                <h3>${escapeHtml(r.title)}</h3>
+                <p class="result-best">${escapeHtml(r.bestFor)}</p>
+              </div>
+              <span class="badge badge-${r.difficultyLevel.toLowerCase()}">${escapeHtml(r.difficultyLevel)}</span>
+            </div>
+            <div class="result-why">
+              <span class="result-why-title">Why this fits you</span>
+              <ul>${reasons}</ul>
+            </div>
+            <dl class="result-stats">
+              <div><dt>Startup cost</dt><dd>${r.startupCostLow === 0 ? 'Free' : money(r.startupCostLow)} – ${money(r.startupCostHigh)}</dd></div>
+              <div><dt>Monthly earnings</dt><dd>${money(r.monthlyEarningsLow)} – ${money(r.monthlyEarningsHigh)}</dd></div>
+              <div><dt>First income</dt><dd>${escapeHtml(r.timeToFirstIncome)}</dd></div>
+            </dl>
+            <div class="result-foot">
+              <span class="result-risk"><strong>Biggest risk:</strong> ${escapeHtml(r.biggestRisk)}</span>
+              <a class="btn btn-primary" href="/businesses/${r.slug}">Read the full breakdown →</a>
+            </div>
+          </article>`;
+        })
+        .join('');
+    }
+
+    nextBtn.addEventListener('click', () => {
+      if (!validateStep(current)) return;
+      if (current < lastQuestionStep) show(current + 1);
+    });
+    backBtn.addEventListener('click', () => {
+      show(Math.max(0, current - 1));
+    });
+    seeBtn.addEventListener('click', () => {
+      if (!validateStep(current)) return;
+      renderResults();
+      show(resultsStep);
+    });
+    function restart() {
+      form.reset();
+      show(0);
+    }
+    restartBtn.addEventListener('click', restart);
+    form.querySelectorAll('[data-action="restart"]').forEach((b) => b.addEventListener('click', restart));
+
+    show(0);
+  }
+</script>

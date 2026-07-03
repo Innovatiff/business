@@ -1,0 +1,164 @@
+{
+  "title": "Home Health Care Agency Business",
+  "slug": "home-health-care-business",
+  "category": "health-and-wellness",
+  "metaTitle": "How to Start a Home Health Care Agency — Costs, Licensing & Earnings",
+  "metaDescription": "Honest guide to starting a medical home health care agency: state licensing, Medicare certification, clinical staffing, real startup costs, reimbursement realities, and common mistakes.",
+  "startupCostLow": 75000,
+  "startupCostHigh": 350000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 25000,
+  "timeToFirstIncome": "9 to 18 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Nurses, healthcare administrators, or operators with capital who can navigate heavy licensing, Medicare certification, and clinical staffing to run a reimbursement-driven medical agency",
+  "biggestRisk": "Spending a year and significant capital on licensing and Medicare certification before any reimbursement arrives, then surviving slow Medicare/insurance payment cycles",
+  "speedToIncome": "long",
+  "minWeeklyHours": 45,
+  "skills": ["health", "people", "finance"],
+  "workLocations": ["space", "mobile"],
+  "priorities": ["helping", "max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A medical home health care agency delivers skilled clinical services in patients' homes — skilled nursing, physical, occupational, and speech therapy, wound care, and home health aide support under a physician's plan of care. This is fundamentally different from non-medical senior care (companionship, bathing, meal prep, light housekeeping): medical home health is a licensed, clinical, heavily regulated business, usually paid by Medicare and insurers rather than out of pocket. To bill Medicare — which funds most home health care in the US — the agency must be state-licensed (where required) and pass Medicare certification, then employ qualified clinical staff and operate under strict compliance and documentation rules.",
+  "dailyReality": "Owners spend their days on operations and compliance far more than direct care: scheduling clinical staff to visits, managing referrals from hospitals and physicians, overseeing the OASIS assessments and plans of care that drive Medicare reimbursement, ensuring documentation meets payer and survey standards, handling billing and the slow reimbursement cycle, and recruiting and retaining nurses, therapists, and aides in a tight labor market. There is constant regulatory work — surveys, accreditation, condition-of-participation compliance — and the financial reality of carrying payroll for weeks or months before claims pay.",
+  "startupCostsItemized": [
+    { "item": "State home health agency license + application fees (varies by state; some require a Certificate of Need)", "low": 1000, "high": 40000 },
+    { "item": "Medicare certification + accreditation survey (Joint Commission, ACHC, or CHAP)", "low": 8000, "high": 30000 },
+    { "item": "Office space, setup, and infrastructure", "low": 5000, "high": 40000 },
+    { "item": "Clinical and billing software (EHR with OASIS, scheduling, billing)", "low": 6000, "high": 25000, "annual": true },
+    { "item": "Initial clinical and administrative staffing (before reimbursement begins)", "low": 30000, "high": 150000 },
+    { "item": "Liability, professional, and workers' comp insurance + surety bond", "low": 5000, "high": 20000, "annual": true },
+    { "item": "Policies, procedures, consultant/credentialing setup", "low": 5000, "high": 25000 },
+    { "item": "Working-capital cushion for the certification gap + slow Medicare payment", "low": 40000, "high": 150000 }
+  ],
+  "realEarnings": {
+    "yearOne": "Year one almost always loses money. Between the licensing and Medicare-certification process and the requirement to be operating before you can complete certification, owners typically draw little or nothing and carry payroll and overhead for many months before reimbursement arrives. A monthly earnings low of $0 is realistic and expected during this period.",
+    "experienced": "An established, certified agency with a steady census and good payer mix commonly nets the owner the equivalent of $80,000 to $250,000 per year, depending on patient volume, case mix, staffing efficiency, and reimbursement rates. Home health margins are tied directly to Medicare and insurer payment policy, which can shift with regulation.",
+    "topEarners": "Top operators run larger agencies with high census, multiple service lines, and efficient clinical operations, clearing $300,000 to $1M+ per year — and the agencies themselves can be valuable acquisition targets. Reaching that scale requires significant census growth, strong referral relationships, tight compliance, and sophisticated billing and staffing management.",
+    "whatAffectsMost": "Patient census and referral volume, payer mix and reimbursement rates, clinical-staff productivity and retention, and compliance/survey performance matter most. Because revenue is reimbursement-driven, regulatory and Medicare policy changes can materially move the economics.",
+    "perHour": "This is an operator/management business, not an hourly one — early owners often work 45-plus hours a week for little or no pay during certification and ramp-up. Once the census matures, the return is measured in agency profit, not an hourly rate."
+  },
+  "howToStart": [
+    "Prerequisite: Understand this is a medical, licensed, reimbursement-driven business distinct from non-medical senior care. You will need clinical leadership (typically a qualified administrator and a registered nurse as Director of Nursing) and the capital to operate before payment arrives. Many successful owners are nurses or healthcare administrators.",
+    "Months 1-4: Research your state's requirements — some states require a home health agency license and even a Certificate of Need (CON) that can limit or block new agencies. Form the business, write the required policies and procedures, secure office space, choose an EHR/billing system built for home health and OASIS, and obtain insurance and any required surety bond.",
+    "Months 3-9: Hire clinical leadership and core staff, begin accepting and serving patients (often private-pay or contract first), and prepare for Medicare certification. Medicare requires the agency to be operating and to have served patients before the accreditation survey (through Joint Commission, ACHC, or CHAP) and state survey.",
+    "Months 8-15: Complete the accreditation and state survey and obtain Medicare certification and your billing number. This whole process commonly takes a year or more end to end, during which overhead runs without Medicare revenue.",
+    "Months 12-18+: With certification in place, build referral relationships with hospitals, discharge planners, physicians, and skilled nursing facilities to grow census. Tighten OASIS documentation, billing, and compliance so claims pay correctly and you pass future surveys, then scale staffing to match census."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Clinical and regulatory understanding of home health, or a qualified clinical leader (RN Director of Nursing) on the team",
+      "The capital and financial planning to operate for a year or more before Medicare reimbursement begins",
+      "Healthcare administration and compliance ability — surveys, conditions of participation, and documentation standards",
+      "The patience and diligence to navigate licensing, Certificate of Need (where applicable), and Medicare certification"
+    ],
+    "canLearn": [
+      "OASIS assessment, home-health billing, and reimbursement mechanics (or hiring/outsourcing experts)",
+      "EHR and home-health practice-management software",
+      "Building referral relationships across the medical system"
+    ],
+    "separators": [
+      "Strong, lasting referral relationships with hospitals, discharge planners, and physicians that drive census",
+      "Excellent clinical-staff recruitment and retention in a tight, high-turnover labor market",
+      "Airtight compliance and documentation that protects reimbursement and passes surveys cleanly"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Confusing medical home health with non-medical senior care and underestimating the licensing, Medicare certification, and clinical-staffing barriers",
+    "Running out of capital during the long certification gap, when payroll and overhead run with no Medicare revenue",
+    "Underestimating how slow Medicare and insurer payment cycles are, which strains cash even after certification",
+    "Failing to plan for a Certificate of Need requirement in states that have one, which can block entry entirely",
+    "Weak OASIS documentation and compliance, leading to denied claims, survey deficiencies, or penalties",
+    "Inability to recruit and retain qualified nurses, therapists, and aides, which caps the census the agency can serve"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Home-health EHR with OASIS, scheduling, and billing", "note": "Core to compliance and reimbursement; must support home-health-specific workflows.", "low": 6000, "high": 25000 },
+    { "item": "Policies, procedures, and compliance manuals", "note": "Required for licensure and accreditation; often built with a consultant.", "low": 3000, "high": 20000 },
+    { "item": "Office infrastructure (computers, phones, HIPAA-compliant systems)", "note": "Administrative backbone for scheduling, intake, and billing.", "low": 3000, "high": 25000 },
+    { "item": "Insurance and surety bond", "note": "Professional liability, general liability, workers' comp, and any state-required bond.", "low": 5000, "high": 20000 },
+    { "item": "Clinical supplies and visit equipment", "note": "Basic supplies for skilled nursing and therapy visits in the home.", "low": 2000, "high": 15000 },
+    { "item": "Accreditation survey (Joint Commission, ACHC, or CHAP)", "note": "Required step to obtain Medicare certification.", "low": 5000, "high": 20000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Referral relationships with hospital discharge planners, case managers, and social workers",
+      "Relationships with physicians, specialists, and skilled nursing and rehab facilities that discharge patients needing home care",
+      "Medicare and insurer provider directories once certified",
+      "Community outreach to senior centers, assisted-living communities, and patient/family resources",
+      "A professional reputation for clinical quality and reliability that keeps referral sources sending patients"
+    ],
+    "whereCustomersAre": "Patients are referred almost entirely through the medical system — hospitals, physicians, and facilities discharging patients who need skilled care at home — and are funded mainly by Medicare and insurers, not by direct consumer marketing.",
+    "timeToClientBase": "Building a sustainable census typically takes a year or more after certification, gated by how quickly referral sources learn to trust and consistently send patients to a new agency.",
+    "wasteOfTime": "Direct-to-consumer advertising before certification, when you cannot bill Medicare. Early effort is far better spent on certification, compliance, and building credibility with hospitals, physicians, and discharge planners."
+  },
+  "howItScales": {
+    "toFullTime": "It is a full-time operator business from the start, not a part-time venture. Becoming profitable depends on growing census and managing reimbursement and staffing — not on the owner's hours.",
+    "hireAndStepBack": "Yes, this is fundamentally a staffed clinical operation; with a strong administrator, Director of Nursing, and management team, owners can step back to oversight. Doing so still requires constant attention to compliance, staffing, and reimbursement.",
+    "sellable": "Certified home health agencies are genuinely valuable and actively acquired, often valued on profit and census, with Medicare certification and a clean survey history adding significant value. In CON states, the license itself can be a major transferable asset.",
+    "whatScalingRequires": "Growing census, additional clinical staff, multiple service lines or territories, sophisticated billing and compliance systems, and the capital to carry payroll ahead of reimbursement. Survey performance and payer relationships gate how fast an agency can grow."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are a nurse, healthcare administrator, or operator who understands clinical and regulatory home health",
+      "You have substantial capital and can operate for a year or more before Medicare reimbursement begins",
+      "You can recruit and retain clinical staff and manage compliance and surveys",
+      "You want a scalable, sellable healthcare business and accept a long, regulated path to profit"
+    ],
+    "poorFit": [
+      "You expected non-medical senior care — the medical, certified model is far more complex and capital-intensive",
+      "You need income soon or cannot fund a long certification gap and slow reimbursement",
+      "You dislike heavy regulation, documentation, surveys, and clinical-staff management",
+      "You want a passive or part-time business"
+    ],
+    "askYourself": [
+      "Does my state allow new home health agencies, or does a Certificate of Need restrict entry?",
+      "Can I fund a year or more of payroll and overhead before Medicare certification and reimbursement arrive?",
+      "Do I have, or can I hire, the clinical leadership and staff this licensed business requires?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What's the difference between a medical home health agency and non-medical senior care?",
+      "answer": "Medical home health delivers skilled clinical services — nursing, therapy, wound care — under a physician's plan of care, is heavily licensed and regulated, and is paid mainly by Medicare and insurers. Non-medical senior care provides companionship and help with daily activities (bathing, meals, housekeeping), is usually private-pay, and faces far lighter regulation. This page covers the medical model, which has much higher barriers to entry."
+    },
+    {
+      "question": "Do I need Medicare certification?",
+      "answer": "If you want to serve the patients Medicare funds — which is the majority of home health care in the US — yes. Medicare certification requires the agency to be licensed (where the state requires it), to be operating and to have served patients, and to pass an accreditation survey (Joint Commission, ACHC, or CHAP) and state survey. The process commonly takes a year or more from launch to certification."
+    },
+    {
+      "question": "What is a Certificate of Need (CON) and does it affect me?",
+      "answer": "Some states require a Certificate of Need before a new home health agency can open, intended to limit oversupply. In CON states, obtaining one can be difficult, expensive, or effectively closed, which may block new entrants entirely. Where CON exists, an existing license can be a valuable, transferable asset. Always check your state's CON status first."
+    },
+    {
+      "question": "How much capital do I really need?",
+      "answer": "Realistically $75,000 to $350,000 or more, and a large portion is working capital. Because you must operate and carry clinical payroll before Medicare certification and reimbursement arrive — and Medicare pays on a delayed cycle even after — undercapitalization is the most common way new agencies fail. Plan for a year or more of overhead before steady revenue."
+    },
+    {
+      "question": "How long until the agency makes money?",
+      "answer": "Plan for a long ramp. Year one typically loses money during licensing, certification, and the early census build, and meaningful profit often does not arrive until year two or three. A monthly low of essentially $0 during the certification gap is normal, which is why capital and patience are prerequisites."
+    },
+    {
+      "question": "Can I run this if I'm not a nurse?",
+      "answer": "You can own the agency, but you must have qualified clinical leadership — typically an administrator who meets state requirements and a registered nurse as Director of Nursing. Many successful owners are nurses or healthcare administrators themselves; if you are not, you must hire that expertise and understand enough to oversee compliance and operations."
+    },
+    {
+      "question": "What is the most common reason home health agencies fail?",
+      "answer": "Running out of capital during the long licensing and certification gap, or being unable to recruit and retain clinical staff to grow census. Compliance failures that trigger survey deficiencies or claim denials, and the strain of slow Medicare reimbursement, are also serious. Sufficient capital, strong staffing, and airtight compliance are what separate agencies that survive."
+    }
+  ],
+  "similarBusinesses": [
+    "senior-home-care-business",
+    "physical-therapy-business",
+    "occupational-therapy-business",
+    "dietitian-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Home Health and Personal Care and Healthcare industry data",
+    "Centers for Medicare & Medicaid Services (CMS) — Home Health Conditions of Participation and certification guidance",
+    "State home health agency licensing and Certificate of Need (CON) requirements",
+    "Accrediting organizations (The Joint Commission, ACHC, CHAP) — home health accreditation requirements",
+    "Home health agency operator interviews and industry associations (e.g., NAHC) for real-world certification, reimbursement, and staffing realities"
+  ],
+  "lastReviewed": "2026-06"
+}

@@ -1,0 +1,163 @@
+{
+  "title": "Cooking School Business",
+  "slug": "cooking-school-business",
+  "category": "education-and-coaching",
+  "metaTitle": "How to Start a Cooking School — Real Costs, Earnings, and Steps",
+  "metaDescription": "An honest guide to starting a recreational cooking school: commercial kitchen and permit costs, realistic earnings, class economics, and what most owners get wrong.",
+  "startupCostLow": 30000,
+  "startupCostHigh": 250000,
+  "monthlyEarningsLow": 4000,
+  "monthlyEarningsHigh": 20000,
+  "timeToFirstIncome": "2 to 5 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Skilled cooks who are also strong hosts and operators and can fill a class calendar plus private events week after week",
+  "biggestRisk": "Building out a commercial teaching kitchen, then failing to keep the class calendar and private-event bookings full enough to cover rent and food cost",
+  "speedToIncome": "months",
+  "minWeeklyHours": 30,
+  "skills": ["food", "teaching", "people", "sales"],
+  "workLocations": ["space"],
+  "priorities": ["max-income", "helping", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A cooking school is a facility-based business that runs recreational cooking classes for the public — hands-on group classes, date-night sessions, kids' camps, team-building events, and private parties — out of a dedicated, permitted teaching kitchen. This is distinct from a single instructor teaching a cooking class in clients' homes: it is a venue with multiple cook stations, commercial-grade equipment, and a calendar of paid classes and events that must stay full to cover real fixed costs. Revenue comes from ticketed public classes, higher-margin private and corporate events, kids' and seasonal camps, and sometimes retail (knives, aprons, ingredient kits) and gift cards.\n\nIt is a hospitality and operations business as much as a culinary one. Success depends on filling seats: a class for twelve at a set price either fills and is profitable or runs half-empty and loses money on the same food and labor. The build-out and permitting are serious — a public teaching kitchen typically needs commercial equipment, health-department approval, food-handler certifications, ventilation, and liability and sometimes liquor considerations if wine is served. The schools that thrive treat private and corporate events as the profit engine and public classes as the marketing and community builder.",
+  "dailyReality": "A working day revolves around prepping for classes and running them. Mornings and afternoons are often menu planning, ingredient sourcing and prep, station setup, and dishwashing; evenings and weekends are when most public classes, date nights, and private parties happen. As host-instructor you are teaching, entertaining, managing timing for a room of amateurs, and keeping the experience fun and safe. Around the classes sit the unglamorous essentials: booking and ticketing, marketing the next month's calendar, managing food cost and waste, scheduling assistant staff, cleaning to health-code standards, and chasing corporate and private-event leads. Empty seats and a thin calendar are the constant pressure.",
+  "startupCostsItemized": [
+    { "item": "Kitchen build-out and commercial equipment", "low": 15000, "high": 120000 },
+    { "item": "Facility lease (deposit, first months)", "low": 5000, "high": 60000 },
+    { "item": "Ventilation, plumbing, and health-code compliance work", "low": 3000, "high": 40000 },
+    { "item": "Cook stations, prep tables, smallwares, and seating", "low": 3000, "high": 30000 },
+    { "item": "Permits, licenses, food-safety and (if applicable) liquor", "low": 1000, "high": 8000 },
+    { "item": "Liability insurance (premises + product)", "low": 1500, "high": 6000, "annual": true },
+    { "item": "Booking/ticketing software and POS setup", "low": 300, "high": 3000 },
+    { "item": "Initial ingredient inventory and launch food cost", "low": 1000, "high": 6000 },
+    { "item": "Branding, website, and launch marketing", "low": 1500, "high": 12000 }
+  ],
+  "realEarnings": {
+    "yearOne": "Most cooking schools run thin or near break-even in year one, with owner take-home often $4,000 to $9,000 per month once the calendar fills, and some losing money while building demand. Public class tickets commonly run $50 to $120 per seat, but food cost, labor, and rent mean profit depends on filling seats consistently.",
+    "experienced": "An established school with a known brand, a full public calendar, and a steady stream of private and corporate events commonly produces $9,000 to $20,000 per month in owner profit, depending on rent, staffing, and event mix.",
+    "topEarners": "High-volume schools in strong markets with multiple classes per day, robust corporate team-building business, camps, and retail can clear $30,000 to $80,000+ per month. Reaching that took a great location, a recognized brand, an event sales engine, staff instructors, and high utilization of the kitchen. Most single-location schools do not reach this.",
+    "whatAffectsMost": "Seat fill rate and event mix dominate. A full calendar weighted toward private and corporate events is highly profitable; a half-empty public schedule loses money on the same fixed costs. Food-cost discipline and rent as a share of revenue are the next biggest levers.",
+    "perHour": "Owner-operators teaching and prepping often see a modest effective hourly rate early on given the long prep and cleanup hours behind each class. As private events and staff instructors fill the calendar, the business-margin economics improve well beyond an hourly figure."
+  },
+  "howToStart": [
+    "Months 1-2: Validate demand and concept. Study local competition, decide your niche (date nights, kids' camps, ethnic cuisines, corporate team-building), and run the numbers on seat price, fill rate, food cost, and rent before signing a lease.",
+    "Month 2 (legal): Confirm health-department requirements for a public teaching kitchen, food-handler certifications, permits, and liability and liquor considerations if you serve wine. These shape your build-out and cannot be skipped.",
+    "Months 2-4: Secure a space and complete the kitchen build-out and inspections. Set up ticketing/booking software, design a launch class menu, and price classes to cover food, labor, and overhead with margin.",
+    "Months 3-4: Run soft-launch and discounted classes to gather reviews, photos, and word of mouth, and begin pitching local companies on team-building and private events.",
+    "Days 90-180: Build the recurring calendar, lean into higher-margin private and corporate bookings, add camps and seasonal classes to fill slow periods, and track seat-fill and food-cost numbers weekly."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong, reliable cooking skills across the menus you will teach",
+      "Genuine host and teaching ability — keeping a room of amateurs engaged, on-pace, and safe",
+      "Operational and financial discipline around food cost, scheduling, and fixed overhead"
+    ],
+    "canLearn": [
+      "Booking/ticketing systems and class scheduling",
+      "Health-code compliance, permitting, and kitchen management",
+      "Marketing classes and selling corporate and private events"
+    ],
+    "separators": [
+      "Filling seats consistently and building a steady private/corporate-event pipeline",
+      "Designing a class experience memorable enough to drive referrals and rebookings",
+      "Tight food-cost and labor control that turns a full calendar into real profit"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Building out an expensive kitchen before proving they can consistently fill classes and book events",
+    "Treating it as a chef's passion project rather than a hospitality and operations business that lives on seat-fill rate",
+    "Underpricing classes against real food, labor, and rent costs, so full classes still barely profit",
+    "Ignoring the higher-margin private and corporate events that often make the business work",
+    "Underestimating health-department, permitting, and food-safety requirements for a public teaching kitchen",
+    "Letting food cost and waste creep up with no tracking, quietly erasing the margin on every class"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Commercial kitchen equipment (ranges, ovens, refrigeration, hood)", "note": "The core build-out and the largest cost. Used equipment can cut this substantially.", "low": 10000, "high": 90000 },
+    { "item": "Multiple cook/prep stations and smallwares", "note": "Hands-on classes need enough stations, knives, pans, and tools for every guest.", "low": 3000, "high": 30000 },
+    { "item": "Seating, demo counter, and AV", "note": "Comfortable seating and a clear view of the demo station shape the experience.", "low": 1500, "high": 15000 },
+    { "item": "Booking/ticketing software and POS", "note": "Eventbrite, Tock, or similar plus a POS handle seats, payments, and gift cards.", "low": 300, "high": 3000 },
+    { "item": "Dishwashing and sanitation setup", "note": "Commercial dish capacity and cleaning supplies are health-code essentials.", "low": 1000, "high": 12000 },
+    { "item": "Initial ingredient and consumables inventory", "note": "Recurring food cost; buy to your class schedule to limit waste.", "low": 500, "high": 5000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A Google Business Profile and local search for 'cooking classes near me' and date-night experiences",
+      "Experience and ticketing platforms (Eventbrite, Airbnb Experiences, local event listings) for public-class discovery",
+      "Direct outreach to companies and HR teams for team-building events, the highest-margin business",
+      "Gift cards and date-night marketing around holidays and special occasions",
+      "Reviews and social media showing fun, photogenic classes that drive referrals and rebookings"
+    ],
+    "whereCustomersAre": "Local adults seeking date nights and social experiences, parents looking for kids' camps, gift-givers, and companies booking team-building. They are reached through search, experience platforms, social media, and corporate outreach.",
+    "timeToClientBase": "Public classes can start selling within weeks of opening if marketed well, but a reliably full calendar usually takes three to six months, and a steady corporate-event pipeline can take a season or more to build.",
+    "wasteOfTime": "Broad regional advertising far from your venue and heavy branding before you have classes selling and reviews coming in. Experience platforms, corporate outreach, and word of mouth convert far better early on."
+  },
+  "howItScales": {
+    "toFullTime": "It is inherently a full-time, facility-based business. The path to a strong income is filling the calendar — especially with private and corporate events — until kitchen utilization is high across days, evenings, and weekends.",
+    "hireAndStepBack": "Yes, by training assistant and staff instructors and a manager to run the calendar, prep, and events, the owner can step back from teaching every class. Quality and food-safety oversight must remain tight.",
+    "sellable": "Yes. A school with a recognized brand, a full recurring calendar, corporate relationships, trained staff, and documented systems is a sellable asset valued on profit. An owner-dependent school where the founder is the draw is harder to sell.",
+    "whatScalingRequires": "High kitchen utilization, a private/corporate-event sales engine, staff instructors and a manager, strong food-cost systems, and possibly a larger or second venue. Multi-location growth demands real operational discipline and capital."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You cook skillfully and genuinely enjoy hosting and teaching groups",
+      "You can run an operation — food cost, scheduling, staff, and a full calendar",
+      "You can fund a commercial kitchen build-out and its ramp-up period",
+      "You will actively sell private and corporate events, not just public classes"
+    ],
+    "poorFit": [
+      "You want a low-cost venture you can run part-time, not a permitted teaching kitchen with a calendar that must stay booked",
+      "You love cooking but dislike hosting, sales, and operations",
+      "You cannot tolerate the permitting, health-code, and food-cost realities",
+      "Your local market is too small or already well served"
+    ],
+    "askYourself": [
+      "Can I realistically fill enough class seats and book enough events to cover rent, food, and labor?",
+      "Am I prepared to sell corporate and private events, which often make the business work?",
+      "Is there genuine local demand and gift/experience spending in my market, or is it saturated?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is a cooking school different from teaching cooking classes from home?",
+      "answer": "A cooking school is a dedicated, permitted venue with commercial equipment and multiple cook stations running a full calendar of paid classes and events, with real fixed costs like rent and staff. Teaching classes in clients' homes or as a single instructor has far lower overhead and risk but limited scale. This page is about the facility-based business."
+    },
+    {
+      "question": "How much does it cost to open a cooking school?",
+      "answer": "Realistically $30,000 to $250,000, driven mostly by the commercial kitchen build-out, ventilation and health-code work, and the lease. Using a partly equipped or shared commercial kitchen and buying used equipment can lower the entry point significantly."
+    },
+    {
+      "question": "Do I need a commercial kitchen and permits?",
+      "answer": "Yes. A public teaching kitchen generally requires commercial-grade equipment, health-department approval, food-handler certifications, proper ventilation, and liability insurance, plus liquor considerations if you serve wine. These requirements vary by jurisdiction and shape your build-out, so confirm them before signing a lease."
+    },
+    {
+      "question": "Where does the money actually come from?",
+      "answer": "Public classes build community and marketing, but private and corporate events are usually the profit engine because they book the whole kitchen at a premium. Kids' camps, seasonal classes, gift cards, and light retail add revenue. The business only works when seats and event dates stay consistently full."
+    },
+    {
+      "question": "How long until it is profitable?",
+      "answer": "Many schools run thin or near break-even in year one and become solidly profitable in years two to three as the brand, calendar, and corporate relationships build. The timeline depends almost entirely on how quickly you fill seats and land private events."
+    },
+    {
+      "question": "Do I need to be a professional chef?",
+      "answer": "You need strong, reliable cooking skills and, just as importantly, the ability to host and teach amateurs in an engaging, safe way. Formal chef credentials help with credibility but are not strictly required; many successful owners are skilled cooks who are excellent hosts and operators."
+    },
+    {
+      "question": "What is the single biggest factor in success?",
+      "answer": "Seat-fill rate and event mix. The same class costs roughly the same whether it is full or half-empty, so consistently filling classes and weighting the calendar toward higher-margin private and corporate events is what makes the fixed costs work."
+    }
+  ],
+  "similarBusinesses": [
+    "cooking-class-business",
+    "personal-chef-business",
+    "tutoring-business",
+    "event-planning-business"
+  ],
+  "dataSources": [
+    "U.S. Food and Drug Administration / state and local health-department food-service codes",
+    "U.S. Bureau of Labor Statistics — Chefs and Head Cooks; Adult Education instructor wage data",
+    "Experience-platform and class-marketplace pricing data (Eventbrite, Airbnb Experiences) for real-world ticket prices",
+    "Cooking-school and culinary-business owner communities for real-world cost, fill-rate, and event-mix figures"
+  ],
+  "lastReviewed": "2026-06"
+}

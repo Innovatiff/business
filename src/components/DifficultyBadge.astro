@@ -1,0 +1,8 @@
+---
+import { difficultyClass } from '../lib/format';
+export interface Props {
+  level: 'Beginner' | 'Intermediate' | 'Advanced';
+}
+const { level } = Astro.props;
+---
+<span class:list={['badge', difficultyClass(level)]}>{level}</span>

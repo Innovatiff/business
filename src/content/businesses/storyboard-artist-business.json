@@ -1,0 +1,161 @@
+{
+  "title": "Storyboard Artist Business",
+  "slug": "storyboard-artist-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a Storyboard Artist Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of becoming a freelance storyboard artist for ads, film, and animation: real rates, how to find clients, and what most artists get wrong.",
+  "startupCostLow": 500,
+  "startupCostHigh": 6000,
+  "monthlyEarningsLow": 800,
+  "monthlyEarningsHigh": 9000,
+  "timeToFirstIncome": "1 to 4 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Skilled draftspeople who can draw fast, understand cinematic staging, and want freelance creative work for ad, film, and animation projects",
+  "biggestRisk": "Feast-or-famine project work and slow industry payment leaving income unpredictable between gigs",
+  "speedToIncome": "months",
+  "minWeeklyHours": 15,
+  "skills": ["creative", "tech", "people"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["flexibility", "max-income", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A storyboard artist draws the sequence of shots that visualizes a script before it is filmed or animated — sketching frames that show camera angle, staging, action, and timing so directors, agencies, and producers can plan a commercial, film, music video, or animated scene. It is a freelance creative service business: clients are ad agencies, production companies, animation studios, directors, and increasingly corporate and game-development teams. The job is equal parts drawing skill and visual storytelling — you must draw quickly and clearly under deadline while understanding how shots cut together.",
+  "dailyReality": "Work is project-based and bursty. When booked, you read a script or brief, talk through the director's vision, then draw frames — often dozens to hundreds — under tight deadlines, revising as feedback comes in. Most modern storyboarding is digital, drawn in Photoshop, Storyboard Pro, or Procreate, and delivered as PDFs or animatics. Between projects you are pitching, networking, updating your portfolio, invoicing, and chasing payment, since film and ad clients are notoriously slow to pay. Some weeks are intense crunch; others are quiet hunting for the next gig.",
+  "startupCostsItemized": [
+    { "item": "Drawing tablet (Wacom, iPad Pro, or display tablet)", "low": 300, "high": 2500 },
+    { "item": "Computer capable of running art software", "low": 0, "high": 2500, "optional": true },
+    { "item": "Software (Storyboard Pro, Photoshop, Procreate)", "low": 50, "high": 600, "annual": true },
+    { "item": "Portfolio website / online presence", "low": 0, "high": 400 },
+    { "item": "Business registration and basic accounting tools", "low": 50, "high": 400 },
+    { "item": "Stylus and accessories", "low": 50, "high": 200 },
+    { "item": "Reference materials, courses, or mentorship", "low": 0, "high": 1000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Beginners breaking in commonly earn $800 to $3,000 per month while building a portfolio and reputation, often working part-time and competing for smaller commercial, corporate, or indie projects. Day rates for newer artists frequently land around $200 to $400, but work is intermittent at first, so monthly income swings widely.",
+    "experienced": "Established freelance storyboard artists with a strong reel and steady agency or studio relationships commonly earn $4,000 to $9,000 per month when booked, with day rates often in the $400 to $800 range depending on market and medium. Income still varies with project flow, and many smooth it with retainers or repeat clients.",
+    "topEarners": "Top storyboard artists working on major advertising campaigns, feature films, and high-end animation can command day rates of $800 to $1,500-plus and gross well into six figures in busy years, and union (Animation Guild) film/TV work pays scale wages with benefits. Reaching that level takes years, a standout reel, and trusted relationships with directors and agencies.",
+    "whatAffectsMost": "Drawing speed and clarity under deadline, the strength of your reel, and your network of directors and agencies matter most. Advertising and feature work pay more than corporate or indie work, and reliable repeat clients smooth the feast-or-famine cycle that defines the business.",
+    "perHour": "When actively booked, effective rates often work out to $30 to $80 per hour for experienced artists, but counting unpaid pitching, networking, and gaps between projects, blended annual rates are lower. The headline day rate overstates real earnings because of downtime."
+  },
+  "howToStart": [
+    "Months 1-2: Build a focused portfolio that proves you can tell a story in frames, not just draw nicely. Board out a few real or spec sequences — a commercial, an action beat, a dialogue scene — showing clear staging and camera choices. Pick a niche (advertising, film, animation, or corporate) and tailor the reel to it.",
+    "Month 2: Set up a clean portfolio site and presence on the platforms clients actually browse (LinkedIn, ArtStation, a personal site) and learn the standard tools — Storyboard Pro for film/animation, Photoshop or Procreate for ad boards.",
+    "Months 2-3: Reach out directly to ad agencies' producers, production companies, animation studios, and directors, and register on relevant freelance and industry job boards. Take a few smaller or lower-rate projects to build credits and references.",
+    "Months 3-6: Deliver fast and reliably, turn first clients into repeat clients, and ask for referrals — most steady storyboard work comes through relationships, not cold applications. Track your rates and raise them as your reel and reputation grow.",
+    "Ongoing: Keep the portfolio current with recent work, network within the production community, and build a small base of repeat agencies or studios to reduce the feast-or-famine swings."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong, fast draftsmanship — figures, perspective, and gesture under deadline",
+      "Visual storytelling: understanding camera angles, staging, continuity, and how shots cut together",
+      "Comfort with digital tools like Storyboard Pro, Photoshop, or Procreate"
+    ],
+    "canLearn": [
+      "Industry-standard boarding formats, panel conventions, and animatic delivery",
+      "Client communication and incorporating director feedback efficiently",
+      "Freelance business basics — contracts, invoicing, and quoting"
+    ],
+    "separators": [
+      "Drawing speed without losing clarity, which lets you take more work and hit tight deadlines",
+      "A cinematic eye that elevates the director's vision rather than just illustrating the script",
+      "A network of repeat agency and studio relationships that delivers steady, higher-paying work"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Building a portfolio of pretty single illustrations instead of sequences that demonstrate visual storytelling and staging",
+    "Assuming strong art skill alone is enough, when speed and clarity under deadline matter just as much",
+    "Underpricing day rates and never raising them as the reel and reputation grow",
+    "Not budgeting for slow industry payment and gaps between projects, leading to cash-flow crises",
+    "Ignoring the business side — contracts, kill fees, and clear scope — which leads to unpaid revisions and disputes",
+    "Treating cold applications as the main channel, when most steady work comes through director and producer relationships"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Drawing tablet or iPad", "note": "A pen-display tablet or iPad Pro is the core tool; quality matters for speed and comfort.", "low": 300, "high": 2500 },
+    { "item": "Storyboard Pro", "note": "Industry standard for film and animation boarding and animatics; many studios expect it.", "low": 50, "high": 450, "annual": true },
+    { "item": "Photoshop / Procreate", "note": "Common for advertising boards and quick sketch workflows.", "low": 10, "high": 250, "annual": true },
+    { "item": "Portfolio website / ArtStation", "note": "Where clients judge your reel; keep it focused on sequences, not just art.", "low": 0, "high": 400 },
+    { "item": "Reliable computer", "note": "Needed to run art software smoothly; use what you have before upgrading.", "low": 0, "high": 2500, "optional": true }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to ad-agency producers, production companies, and animation studios",
+      "Referrals from directors, editors, and producers you have worked with — the strongest channel",
+      "A focused portfolio on a personal site, ArtStation, and LinkedIn that shows sequences and staging",
+      "Industry job boards and freelance networks (and Animation Guild listings for film/TV work)",
+      "Networking at film, ad, and animation events and online communities where producers hire"
+    ],
+    "whereCustomersAre": "Advertising agencies, commercial production companies, film and TV productions, animation studios, music-video directors, and increasingly game and corporate teams — clustered in production hubs but reachable remotely thanks to digital workflows.",
+    "timeToClientBase": "Landing first paid projects often takes one to four months of portfolio building and outreach. A reliable base of repeat agency and studio clients usually takes a year or more, built largely through relationships and referrals.",
+    "wasteOfTime": "Mass-applying on generic gig platforms with a non-specialized portfolio, and spending heavily on broad ads. Early on, a sharp sequence-based reel and direct relationships with producers convert far better."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, for skilled artists who build a strong reel and steady relationships, though income is project-driven and uneven. Many reach full-time income within a year or two; the ceiling as a solo artist is capped by how fast you can board and how much work you can win.",
+    "hireAndStepBack": "Limited. The work is your hands and eye, so it does not delegate easily. Some experienced artists grow into supervising roles or run a small studio coordinating other boarders, but most remain individual freelancers or move into directing.",
+    "sellable": "Generally not a sellable asset in the traditional sense — the business is your skill and reputation. The realistic exits are higher-paying staff roles (sometimes union), supervising or directing positions, or a small boutique studio rather than selling a transferable company.",
+    "whatScalingRequires": "Raising rates as your reel strengthens, building repeat clients and retainers to smooth income, possibly subcontracting overflow to other artists, or moving up the ladder into supervising or directing roles. Pure solo scaling is bounded by your time and speed."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You can draw quickly and clearly and genuinely understand cinematic staging and camera work",
+      "You handle deadlines and feedback well and revise without ego",
+      "You can tolerate irregular, project-based income and manage cash flow through gaps",
+      "You enjoy serving a director's vision rather than only your own creative work"
+    ],
+    "poorFit": [
+      "You want steady, predictable monthly income rather than the bursty, gig-to-gig pay of boarding projects and slow-paying film and ad clients",
+      "Your strength is finished illustration but you struggle to draw fast or think in shots",
+      "You dislike client feedback, revisions, and tight production deadlines",
+      "You are not prepared to network and chase work between projects"
+    ],
+    "askYourself": [
+      "Can I draw fast and clearly enough to board a sequence under a real production deadline?",
+      "Does my portfolio prove storytelling and staging, not just nice individual drawings?",
+      "Can I financially handle feast-or-famine project flow and slow industry payment?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a film or art degree to be a storyboard artist?",
+      "answer": "No degree is required — clients hire based on your reel and your ability to deliver, not credentials. That said, you need genuine draftsmanship and a real understanding of cinematic storytelling, which many people develop through art training, film study, or focused self-teaching. A strong, sequence-based portfolio matters far more than a diploma."
+    },
+    {
+      "question": "How much do storyboard artists charge?",
+      "answer": "Rates vary widely by market and medium. Newer artists often work around $200 to $400 per day or per-frame equivalents, while experienced artists commonly charge $400 to $800 per day, and top advertising and feature artists can exceed $1,000 to $1,500. Advertising and film generally pay more than corporate or indie work, and union film/TV work pays scale wages."
+    },
+    {
+      "question": "What software should I learn?",
+      "answer": "Toon Boom Storyboard Pro is the industry standard for film and animation boarding and is often expected by studios. For advertising and quick sketch workflows, Photoshop and Procreate are widely used. Learning Storyboard Pro plus one raster tool covers most professional contexts; the tablet or iPad you draw on matters as much as the software."
+    },
+    {
+      "question": "Is storyboard work steady or feast-or-famine?",
+      "answer": "It is project-based and uneven, especially early on. You may have intense crunch on one job and quiet stretches between gigs, and film and ad clients are often slow to pay. Building repeat agency and studio relationships, retainers, and a financial cushion is how experienced artists smooth the swings."
+    },
+    {
+      "question": "Can I do this remotely?",
+      "answer": "Largely yes. Most storyboarding is now digital and delivered as PDFs or animatics, so many freelancers work remotely for clients in production hubs. Some advertising and film roles still value being on-site or in the local production community for relationships and live feedback, so proximity to a hub can help win work."
+    },
+    {
+      "question": "Will AI replace storyboard artists?",
+      "answer": "AI tools can generate rough visuals quickly, which is changing some low-end and pre-visualization work, but professional storyboarding requires understanding a director's intent, precise staging, continuity, and fast iteration on feedback — areas where skilled artists remain in demand. The realistic stance is to use AI where it speeds your workflow while competing on storytelling judgment that tools do not replicate well."
+    },
+    {
+      "question": "How do I get my first clients with no credits?",
+      "answer": "Build a focused reel with spec sequences, then reach out directly to ad-agency producers, production companies, and animation studios, and take some smaller or indie projects to earn real credits and references. Networking within the production community and asking early clients for referrals tends to open more doors than cold applications on generic platforms."
+    }
+  ],
+  "similarBusinesses": [
+    "illustration-business",
+    "comic-creation-business",
+    "motion-graphics-business",
+    "video-editing-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Special Effects Artists and Animators / Multimedia Artists occupational data",
+    "The Animation Guild (IATSE Local 839) — published wage scales for film and TV storyboarding",
+    "Industry rate guides and freelance creative surveys (ad and production day-rate benchmarks)",
+    "ArtStation and storyboard artist communities for real-world portfolio and rate practices",
+    "Production and animation industry interviews for workflow, tools, and hiring norms"
+  ],
+  "lastReviewed": "2026-06"
+}

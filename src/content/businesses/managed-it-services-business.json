@@ -1,0 +1,168 @@
+{
+  "title": "Managed IT Services (MSP) Business",
+  "slug": "managed-it-services-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start a Managed IT Services (MSP) Business — Costs and Earnings",
+  "metaDescription": "Honest breakdown of starting a managed IT services (MSP) business: real startup costs, recurring per-seat earnings, why it beats break/fix, and what most people get wrong.",
+  "startupCostLow": 3000,
+  "startupCostHigh": 40000,
+  "monthlyEarningsLow": 1500,
+  "monthlyEarningsHigh": 20000,
+  "timeToFirstIncome": "2 to 4 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced IT professionals who can sell, want sticky recurring revenue, and can carry real responsibility for clients' systems",
+  "biggestRisk": "Selling flat-fee contracts that under-price the support load, so a few demanding clients destroy your margin",
+  "speedToIncome": "months",
+  "minWeeklyHours": 30,
+  "skills": ["tech", "sales"],
+  "workLocations": ["home", "online", "mobile"],
+  "priorities": ["max-income", "sellable", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A Managed IT Services Provider (MSP) takes ongoing responsibility for a small business's technology — monitoring and maintaining computers and servers, patching and securing systems, managing backups, running a help desk, and handling cybersecurity — for a predictable recurring fee, usually billed per user (per seat) or per device each month. This is fundamentally different from break/fix IT, where you only get paid when something breaks. The MSP model trades hourly firefighting for proactive management and contracted monthly revenue, which makes income far more stable and the business genuinely sellable. It demands real IT and security competence plus the ability to sell and retain contracts — it is not an entry-level venture.",
+  "dailyReality": "A typical day mixes proactive and reactive work: reviewing monitoring and security alerts, applying patches and updates, checking that backups ran, and working a queue of help-desk tickets — password resets, email problems, slow machines, software issues. Some days mean onsite work setting up hardware, migrating a client to new systems, or responding to an outage. Around the technical work you spend time on documentation, vendor management, quoting new clients, and the relationship management that keeps contracts renewing. When something serious breaks — a ransomware hit, a failed server, a downed internet line — you are the one who must respond, sometimes after hours, because the client's business depends on it.",
+  "startupCostsItemized": [
+    { "item": "Business registration / LLC", "low": 100, "high": 500 },
+    { "item": "Professional, errors & omissions, and cyber liability insurance", "low": 1500, "high": 6000, "annual": true },
+    { "item": "RMM (remote monitoring & management) platform", "low": 600, "high": 6000, "annual": true },
+    { "item": "PSA / ticketing & billing software", "low": 0, "high": 3600, "annual": true },
+    { "item": "Security stack — EDR/antivirus, email security, MFA", "low": 1200, "high": 8000, "annual": true },
+    { "item": "Backup & disaster-recovery tooling", "low": 600, "high": 6000, "annual": true },
+    { "item": "Certifications and vendor partnerships", "low": 300, "high": 4000, "optional": true },
+    { "item": "Laptop, tools, and spare hardware", "low": 1000, "high": 4000 },
+    { "item": "Website, branding, and initial outbound marketing", "low": 300, "high": 3000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most solo MSPs in year one earn $1,500 to $5,000 per month while they sign their first handful of contracts, and net is thin because tool subscriptions are paid before you have enough seats to cover them. Many founders keep a job or do break/fix and project work to bridge the gap while recurring revenue builds.",
+    "experienced": "An established solo or small MSP with 10 to 25 small-business clients and a few hundred managed seats commonly generates $10,000 to $40,000+ per month in revenue, with healthy operators netting 15% to 30% after tools, security stack, and any technician pay. Recurring per-seat contracts make this income notably stable compared with hourly IT work.",
+    "topEarners": "Larger MSPs with multiple technicians, hundreds of seats under contract, and security and compliance services gross $100,000 to $500,000+ per month. Reaching that took years of building recurring revenue, hiring and training a real team, strong sales, and operational maturity. MSPs are among the more sellable small tech businesses, often valued on a multiple of monthly recurring revenue.",
+    "whatAffectsMost": "Recurring revenue per seat, the quality of contracts (a per-seat agreement that actually covers the support load versus an unlimited-support deal that loses money), client retention, and operational efficiency. A few mispriced or demanding clients can erase the margin from many good ones.",
+    "perHour": "Effective hourly rate is poor early on while you build the seat base that covers fixed tool costs. As recurring revenue compounds, healthy MSPs reach strong effective rates because revenue continues whether or not you are actively touching each client — the core advantage over break/fix."
+  },
+  "howToStart": [
+    "Month 1: Get the prerequisites real. You need genuine IT and security competence first — relevant experience and certifications (CompTIA, Microsoft, network/security credentials). Register the business and secure professional, E&O, and cyber liability insurance, which clients and your own risk demand.",
+    "Month 1-2: Choose and learn your core stack — an RMM for monitoring/patching, a PSA for ticketing and billing, and a security stack (EDR, email security, MFA, backups). Standardize on one set of tools so you can deliver consistently rather than improvising per client.",
+    "Month 2-3: Define a clear, profitable per-seat or per-device plan with explicit scope — what is included and what is billed extra. Price to cover the realistic support load, not the best case. Avoid open-ended 'unlimited support' until you know your numbers.",
+    "Month 2-4: Land your first one to three clients, often by converting break/fix relationships or through referrals and local networking. Onboard them thoroughly — document everything, deploy your stack, and fix the backlog of problems that build trust.",
+    "Months 3-6: Systematize onboarding, monitoring, and ticketing so adding a client does not mean reinventing the process. Build a referral and outbound pipeline, and reinvest recurring revenue into the tools and eventually the first technician hire."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong, real-world IT skills — networking, Windows/Microsoft 365, endpoint management, and troubleshooting",
+      "Genuine cybersecurity fundamentals — patching, backups, MFA, EDR, and incident response basics",
+      "Ability to sell and build trust with business owners who are handing you responsibility for their systems",
+      "Discipline to document, standardize, and follow consistent processes"
+    ],
+    "canLearn": [
+      "Specific RMM, PSA, and security platforms and how to configure them well",
+      "Per-seat pricing models and how to scope contracts profitably",
+      "Vendor and licensing management (Microsoft, EDR, backup providers)",
+      "Basic compliance frameworks relevant to clients (HIPAA, PCI, etc.)"
+    ],
+    "separators": [
+      "Pricing and scoping contracts so the support load is actually covered and a few clients cannot sink margins",
+      "Sales and relationship skills that win and retain sticky multi-year contracts",
+      "Standardized, efficient operations that let you add clients without proportionally adding chaos",
+      "Strong security and compliance offerings that command higher fees and differentiate from cheap break/fix shops"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Pricing flat-fee or 'unlimited support' contracts that under-cover the real support load, so a handful of demanding clients destroy the margin from everyone else",
+    "Trying to start without genuine IT and security depth — clients are trusting you with their entire business, and being out of your depth shows fast",
+    "Underestimating the recurring cost of the tool stack (RMM, PSA, EDR, backups), which must be paid before you have enough seats to cover it",
+    "Staying in reactive break/fix mode instead of building proactive systems, so the business never gains the stability the MSP model promises",
+    "Skipping documentation and standardization, making every client a special case that cannot be handed to a technician later",
+    "Neglecting cyber liability insurance and security rigor — a single client breach can mean catastrophic liability and reputation damage"
+  ],
+  "toolsAndEquipment": [
+    { "item": "RMM platform (remote monitoring & management)", "note": "The core tool for monitoring, patching, and managing client machines at scale. Priced per device/agent.", "low": 600, "high": 6000 },
+    { "item": "PSA / ticketing & billing software", "note": "Runs your help desk, contracts, and recurring billing. Start lean; some offer free or low tiers.", "low": 0, "high": 3600 },
+    { "item": "Security stack — EDR, email security, MFA", "note": "Non-negotiable. Protecting clients is the core value and the core liability.", "low": 1200, "high": 8000 },
+    { "item": "Backup & disaster recovery", "note": "Tested backups are what save a client (and your reputation) in a ransomware or hardware failure.", "low": 600, "high": 6000 },
+    { "item": "Documentation platform", "note": "Stores client configs, passwords, and procedures so work is repeatable and transferable.", "low": 0, "high": 2000 },
+    { "item": "Certifications and vendor partnerships", "note": "Build credibility and unlock better licensing; CompTIA, Microsoft, and security credentials help win clients.", "low": 300, "high": 4000 },
+    { "item": "Reliable laptop, network tools, and spare hardware", "note": "For onsite work, diagnostics, and emergency swaps.", "low": 1000, "high": 4000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Converting existing break/fix and project relationships into recurring managed contracts",
+      "Referrals from accountants, attorneys, and other trusted advisors to small businesses",
+      "Local business networking, chambers of commerce, and industry-specific groups (vertical niches like dental or legal)",
+      "Targeted outbound — identifying small businesses with no real IT support and offering a security/IT assessment",
+      "Strategic partnerships with software vendors and a focused, credible website and LinkedIn presence",
+      "Case studies and reviews demonstrating you prevented or solved real problems"
+    ],
+    "whereCustomersAre": "Small and mid-size businesses (often 10 to 100 employees) without an internal IT department — professional services, healthcare practices, law firms, manufacturers, and nonprofits. They are found through referrals, local networking, and industry verticals rather than mass advertising.",
+    "timeToClientBase": "MSP sales cycles are long; signing a business to a multi-year IT contract can take weeks or months of trust-building. Expect several months to land your first few clients and a year or more to build a stable, profitable recurring base.",
+    "wasteOfTime": "Broad paid ads and cold mass email rarely work for handing over a company's entire IT and security. Early on, referrals, trusted-advisor relationships, and demonstrated competence convert far better than any ad spend."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and the recurring per-seat model is built for it. Once enough seats are under contract to cover your fixed tool costs and your time, income becomes stable and compounding, making this one of the more dependable paths to full-time tech income.",
+    "hireAndStepBack": "This is where MSPs shine relative to many service businesses. With standardized tools, documentation, and processes, you can hire technicians and a help desk and step back into sales and oversight. Stepping back fully requires mature operations and trusted staff, but it is a well-trodden path.",
+    "sellable": "MSPs are among the most sellable small tech businesses precisely because of their recurring revenue. Established MSPs are commonly valued on a multiple of monthly recurring revenue, and contracted, documented, low-churn books command the best prices. A pure one-person shop with undocumented clients is worth far less.",
+    "whatScalingRequires": "Standardized tooling and processes, thorough documentation, profitable contract structures, a repeatable sales pipeline, and disciplined hiring and training of technicians. The discipline to scope and price contracts correctly is what determines whether scaling adds profit or just adds support load."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real IT and security experience and can responsibly run other businesses' systems",
+      "You can sell, build trust, and maintain long-term client relationships",
+      "You want stable, compounding recurring revenue and a business that can eventually be sold",
+      "You are disciplined about documentation, process, and pricing"
+    ],
+    "poorFit": [
+      "You lack solid IT and cybersecurity fundamentals and would be learning on clients' production systems",
+      "You dislike sales and long relationship-driven sales cycles",
+      "You want fast, low-effort, or part-time income",
+      "You are not prepared to be on call when a client's business-critical systems go down"
+    ],
+    "askYourself": [
+      "Do I have the technical and security depth to be trusted with a business's entire IT, or am I a generalist still learning?",
+      "Can I price and scope contracts so the support load is genuinely covered, not just to win the deal?",
+      "Am I willing to do the long, relationship-driven sales work and carry the responsibility of being on call?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is the difference between an MSP and break/fix IT?",
+      "answer": "Break/fix means you only get paid when a client calls with a problem, which makes income unpredictable and aligns your incentives poorly. An MSP charges a recurring monthly fee, usually per user or per device, to proactively monitor, maintain, and secure systems so problems are prevented. The MSP model gives you stable recurring revenue and a sellable business, but requires you to standardize and deliver consistently for a fixed price."
+    },
+    {
+      "question": "Do I need certifications to start an MSP?",
+      "answer": "There is no legal certification requirement, but in practice you need genuine IT and security competence, and credentials like CompTIA (A+, Network+, Security+), Microsoft, and vendor certifications help win client trust and better licensing. More important than any single cert is real-world experience running and securing business systems, because clients are handing you responsibility for their operations."
+    },
+    {
+      "question": "How do MSPs price their services?",
+      "answer": "Most charge per user (per seat) or per device per month, often $75 to $200+ per seat depending on what is included. The critical discipline is scoping clearly — defining what is covered versus billed extra — and pricing for the realistic support load, not the best case. Flat 'unlimited support' contracts that under-price the work are a common way MSPs lose money on demanding clients."
+    },
+    {
+      "question": "How much recurring revenue do I need to make it viable?",
+      "answer": "Because the tool stack (RMM, PSA, security, backups) carries real fixed monthly cost, a solo MSP typically needs a few hundred managed seats across roughly 10 to 25 small clients before the model is comfortably profitable. Until you reach that, net margins are thin, which is why many founders bridge with project or break/fix work."
+    },
+    {
+      "question": "Is an MSP a sellable business?",
+      "answer": "Yes — MSPs are among the more sellable small tech businesses because of their recurring revenue. Buyers commonly value them on a multiple of monthly recurring revenue, with well-documented, low-churn, contracted client books fetching the best prices. A one-person operation with undocumented, handshake clients is much harder to sell."
+    },
+    {
+      "question": "What insurance does an MSP need?",
+      "answer": "At minimum, general liability, professional/errors & omissions, and cyber liability insurance. Cyber coverage is especially important because if a client suffers a breach or ransomware event, you can face significant liability. Many clients now require proof of cyber insurance before signing, and the cost is a normal part of operating responsibly."
+    },
+    {
+      "question": "Can I run an MSP part-time?",
+      "answer": "Not really, once you have signed clients. Businesses depend on their systems and expect timely support and emergency response, which is hard to deliver around a full-time job. Many founders start while employed to build the first contracts and stack, but the model demands enough availability that it becomes a full-time commitment quickly."
+    }
+  ],
+  "similarBusinesses": [
+    "it-support-business",
+    "cybersecurity-consulting-business",
+    "web-development-business",
+    "data-recovery-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Computer Support Specialists and Network/Systems Administrators occupational data",
+    "MSP industry benchmark reports (e.g., Kaseya, Datto/ConnectWise State of the MSP surveys) on per-seat pricing and margins",
+    "Channel and MSP community discussions (r/msp and vendor partner programs) for real-world pricing and operations",
+    "Small-business cybersecurity and IT cost guides for tool-stack and contract benchmarks"
+  ],
+  "lastReviewed": "2026-06"
+}

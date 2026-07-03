@@ -1,0 +1,164 @@
+{
+  "title": "Property Management Business",
+  "slug": "property-management-business",
+  "category": "real-estate-and-property",
+  "metaTitle": "How to Start a Property Management Business — Costs, Earnings, Steps",
+  "metaDescription": "Honest guide to starting a property management business: licensing realities, recurring fee economics, realistic earnings, and what most managers get wrong.",
+  "startupCostLow": 3000,
+  "startupCostHigh": 25000,
+  "monthlyEarningsLow": 1500,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "2 to 6 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Detail-oriented people with real estate or operations experience who want recurring revenue and can handle legal compliance, tenants, and maintenance crises",
+  "biggestRisk": "Legal and licensing missteps — mishandling trust accounts, fair-housing rules, or evictions can mean fines, lawsuits, and lost licenses",
+  "speedToIncome": "months",
+  "minWeeklyHours": 20,
+  "skills": ["people", "finance"],
+  "workLocations": ["home", "mobile", "flexible"],
+  "priorities": ["max-income", "sellable", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A property management business handles rental properties on behalf of owners who do not want to deal with day-to-day landlording. You market vacant units, screen and place tenants, collect rent, handle maintenance and repairs, enforce leases, manage owner accounting and reporting, and handle the unpleasant work of late payments and evictions. The standard model is recurring revenue: a management fee of roughly 8 to 12 percent of collected rent per unit, plus leasing fees, renewal fees, and sometimes maintenance markups. That recurring fee structure is the appeal — it compounds as your unit count grows. The catch is that this is a heavily regulated business: most US states require a real estate broker's license (or specific property-management licensing) to manage property for others for a fee, and you handle other people's money and legally fraught processes like fair housing, security deposits, and evictions.",
+  "dailyReality": "A typical week is a mix of tenant communication (maintenance requests, complaints, late rent), coordinating contractors and inspections, processing rent and owner payouts, handling leasing for vacant units, and answering owners who want updates and reassurance. Much of the job is unglamorous problem-solving and conflict: a burst pipe at 11pm, a tenant who stopped paying, a neighbor dispute, an owner unhappy about a repair bill. You spend significant time on documentation and compliance, because in this business sloppy records and missed legal steps turn into lawsuits. Software handles a lot of the accounting and communication, but the responsibility — and the liability — sits with you.",
+  "startupCostsItemized": [
+    { "item": "Real estate broker's license or required property-management license (courses, exam, fees)", "low": 500, "high": 3000 },
+    { "item": "Business registration / LLC and broker affiliation (if applicable)", "low": 100, "high": 1000 },
+    { "item": "Property management software (Buildium, AppFolio, Rentvine)", "low": 600, "high": 3000, "annual": true },
+    { "item": "General liability + errors & omissions (E&O) insurance", "low": 1500, "high": 4000, "annual": true },
+    { "item": "Trust/escrow account setup and accounting software", "low": 100, "high": 800 },
+    { "item": "Attorney for lease, management agreement, and compliance review", "low": 500, "high": 3000 },
+    { "item": "Website, branding, and marketing", "low": 200, "high": 2500, "optional": true },
+    { "item": "Surety bond (required in some states)", "low": 100, "high": 1000, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most new managers earn $1,500 to $4,000 per month in year one, and many earn little at first because the math only works at scale. At an 8 to 12 percent fee, a single unit renting for $1,800 generates roughly $145 to $215 per month — so you need dozens of units before management fees alone are a real income. Leasing fees (often half to a full month's rent per placement) help early cash flow while you build the door count.",
+    "experienced": "Established managers with a stable portfolio of 75 to 200+ units commonly report $5,000 to $12,000+ per month, increasingly leveraged because software and a small team handle the volume. At this stage recurring fees, renewal fees, and ancillary income compound, and the business starts to feel like a real, sellable asset.",
+    "topEarners": "Firms managing 300 to 1,000+ units, or those with strong commercial or HOA portfolios, generate $300,000 to several million in annual revenue, but these are real companies with staff, brokers, maintenance teams, and systems. Reaching that takes years of door growth, hiring, and operational discipline. Most solo operators plateau well before this, and the early years are often the hardest financially.",
+    "whatAffectsMost": "Door count (units under management) is the core driver — recurring revenue scales with it. Tenant quality, owner retention, fee structure, and operational efficiency matter enormously, and a portfolio of good owners and well-screened tenants is worth far more than a larger book full of problem properties.",
+    "perHour": "Early on, effective rates can be poor — single-digit to low-double-digit dollars per hour — because each new account demands heavy upfront work for small recurring fees. Once leveraged with software and staff, established firms achieve strong effective rates, but the path there is front-loaded with low-paid grind."
+  },
+  "howToStart": [
+    "Month 1: Research your state's licensing rules carefully — most states require a real estate broker's license (or specific property-management license) to manage property for others for a fee. Determine exactly what license you need, and complete the required coursework and exam. Do not skip this; managing without the required license is illegal and uninsurable.",
+    "Month 2: Set up the legal and financial backbone: business entity, a compliant trust/escrow account for owner and tenant funds, E&O and liability insurance, and attorney-reviewed management agreements and leases. Choose property management software (Buildium, AppFolio, or similar) before you take your first door.",
+    "Months 2-4: Land your first owners. The fastest paths are your own real estate network, investor groups, agents who don't want to manage, and small landlords burned out on self-managing. Be selective — a few good owners with quality properties beat a pile of problem doors. Use leasing fees for early cash flow while recurring revenue builds.",
+    "Months 4-12: Build systems for screening, maintenance dispatch, rent collection, owner reporting, and compliance so the work is repeatable. Grow door count steadily through referrals and investor relationships, and only hire (a leasing agent, maintenance coordinator, or bookkeeper) once volume justifies it."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong understanding of (or willingness to rigorously learn) landlord-tenant law, fair housing, and trust-account rules in your state",
+      "Excellent organization and documentation habits, because sloppy records create real legal exposure",
+      "Financial literacy to handle other people's money, owner accounting, and reporting accurately",
+      "Steady people skills and a thick skin for tenant conflict, owner demands, and difficult situations like evictions"
+    ],
+    "canLearn": [
+      "Property management software and accounting workflows",
+      "Maintenance coordination and building a reliable contractor network",
+      "Marketing vacancies and screening tenants effectively",
+      "Owner communication and reporting cadence"
+    ],
+    "separators": [
+      "Door growth through investor relationships and agent referrals, which is the real engine of the business",
+      "Tight systems and software leverage so you can manage many units without drowning in busywork",
+      "A reputation for protecting owners' assets and handling compliance flawlessly, which retains owners and earns referrals"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Managing property for others without the required broker's or property-management license, which is illegal in most states and voids insurance",
+    "Mishandling trust/escrow funds — commingling owner, tenant, and operating money is one of the fastest ways to lose a license and face legal action",
+    "Underestimating fair-housing, security-deposit, and eviction rules, where a single misstep can mean costly fines or lawsuits",
+    "Taking on too many low-quality doors and difficult owners, drowning in problems for tiny recurring fees",
+    "Pricing fees too low to be viable at small scale and never reaching the door count where the economics work",
+    "Skimping on documentation and contractor vetting, then getting blamed (and sued) when maintenance or tenant issues go wrong"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Property management software", "note": "Buildium, AppFolio, or Rentvine handle accounting, rent collection, maintenance, owner portals, and reporting. The backbone of the business.", "low": 600, "high": 3000 },
+    { "item": "Trust/escrow account and accounting setup", "note": "Compliant separation of owner and tenant funds is legally required. Set this up correctly from day one.", "low": 100, "high": 800 },
+    { "item": "Attorney-reviewed management agreement and lease", "note": "Your core legal protection. Use state-specific, attorney-reviewed documents, not generic templates.", "low": 500, "high": 3000 },
+    { "item": "E&O and general liability insurance", "note": "Non-negotiable given the legal exposure. Many owners and states require it.", "low": 1500, "high": 4000 },
+    { "item": "Tenant screening service", "note": "Credit, background, eviction, and income verification through a compliant provider. Quality screening prevents most problems.", "low": 0, "high": 600 },
+    { "item": "Reliable contractor and maintenance network", "note": "Vetted, insured contractors for turns and emergencies. Build this before you need it at 11pm.", "low": 0, "high": 0 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Real estate agent referrals — many agents don't manage and gladly refer clients who become landlords",
+      "Local real estate investor groups, REIA meetups, and online investor communities",
+      "Burned-out self-managing landlords found through landlord associations and local Facebook/forum groups",
+      "A Google Business Profile and website targeting 'property management [your city]' with clear fees and service",
+      "Relationships with lenders, contractors, and accountants who serve investors and can refer owners"
+    ],
+    "whereCustomersAre": "Rental property owners: small landlords with one to a few units, out-of-state investors who need local management, and growing investors expanding their portfolios. They cluster in investor groups, real estate networks, and through agents and other service providers who serve them.",
+    "timeToClientBase": "Expect two to six months to land your first owners and one to two years to build a portfolio large enough for management fees alone to be a strong income. Door growth compounds slowly at first, then accelerates as referrals and reputation build.",
+    "wasteOfTime": "Broad consumer advertising and undercutting on fees to win doors fast. Cheap fees attract price-shopping owners and problem properties, and at small scale low fees make the business unviable. Investor relationships and agent referrals convert far better than ads."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and it is genuinely scalable — but slowly at first. Recurring management fees compound with door count, so the business builds toward a strong full-time income and beyond once you cross enough units, typically well past the early grind where small fees barely pay.",
+    "hireAndStepBack": "This is the natural growth path. As doors grow, you hire leasing agents, maintenance coordinators, and bookkeepers, and the owner-operator can step back into oversight. Doing so requires reliable staff, strong systems, and tight compliance, since the liability remains with the firm.",
+    "sellable": "Property management firms are among the more sellable small businesses because of recurring revenue and predictable door-based valuation — they commonly sell for a multiple of monthly or annual management revenue. A firm with a stable door count, good owner contracts, systems, and a license-holding broker is a real asset.",
+    "whatScalingRequires": "Steady door growth through investor and agent relationships, robust software and systems, hiring and training staff, flawless trust-accounting and legal compliance, and the licensing structure (a broker) to operate legally as you grow."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real estate, operations, or finance experience and are comfortable handling other people's money",
+      "You are highly organized, document everything, and take legal compliance seriously",
+      "You want recurring revenue and a sellable asset, and can endure a slow, low-paid early stage",
+      "You can stay calm and professional through tenant conflict, maintenance emergencies, and difficult owners"
+    ],
+    "poorFit": [
+      "You want fast income or to avoid licensing, legal complexity, and regulation",
+      "You are disorganized with money, records, or deadlines",
+      "You can't handle confrontation, evictions, or 24/7 maintenance emergencies",
+      "You expect this to be a part-time side hustle — it is hard to run viably in a few hours a week"
+    ],
+    "askYourself": [
+      "Am I willing and able to get the required license and run trust accounts and compliance flawlessly?",
+      "Can I survive the early stage where each new account is a lot of work for a small recurring fee, until door count makes the math work?",
+      "Do I have access to the investor and agent relationships that actually drive door growth in my market?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a license to start a property management business?",
+      "answer": "In most US states, yes — managing property for others for a fee requires a real estate broker's license, and some states have a specific property-management license. A handful of states are more lenient, and rules differ for managing your own property versus others'. This varies significantly by state, so confirm your exact requirements with your state's real estate commission before taking any client. Operating without the required license is illegal and uninsurable."
+    },
+    {
+      "question": "How do property management fees actually work?",
+      "answer": "The core model is a recurring management fee of roughly 8 to 12 percent of collected rent per unit, plus leasing fees (often half to a full month's rent to place a tenant), renewal fees, and sometimes maintenance coordination markups. Because per-unit fees are modest, the business only becomes a strong income once you manage dozens of units, which is why door count is everything."
+    },
+    {
+      "question": "How many units do I need to make a living?",
+      "answer": "It depends on rents and your fee structure, but management fees alone on a single $1,800 unit might be only $145 to $215 per month. Most managers need many dozens of units before recurring fees replace a salary, which is why leasing fees and a deliberate growth strategy matter in the early years. Plan for a slow financial ramp."
+    },
+    {
+      "question": "What is the biggest legal risk?",
+      "answer": "Mishandling money and legal processes. Commingling owner, tenant, and operating funds in trust accounts, violating fair-housing rules, mishandling security deposits, or botching an eviction can mean fines, lawsuits, and loss of your license. This is why E&O insurance, attorney-reviewed agreements, and meticulous documentation are non-negotiable, not optional extras."
+    },
+    {
+      "question": "Can I run this part-time around a job?",
+      "answer": "Not really, at least not well. Tenants have emergencies at all hours, owners expect responsiveness, and the licensing, accounting, and compliance work is substantial. Some people start while still employed to build a few doors, but managing property reliably is hard to do in a few hours a week, and it is not well suited to a casual side hustle."
+    },
+    {
+      "question": "Is a property management business sellable?",
+      "answer": "Yes — it is one of the more sellable small businesses because of its recurring revenue. Firms commonly sell for a multiple of monthly or annual management revenue, with value driven by door count, owner contract quality, systems, and a license-holding broker. This sellability is a big part of the appeal once you reach scale."
+    },
+    {
+      "question": "What kind of background helps most?",
+      "answer": "Experience in real estate, property operations, accounting, or customer service all transfer well, and existing relationships with investors and agents are a major head start on door growth. You do not need to have managed property before, but you do need the discipline to learn the law, handle money correctly, and stay organized under pressure."
+    }
+  ],
+  "similarBusinesses": [
+    "airbnb-arbitrage-business",
+    "real-estate-wholesaling-business",
+    "bookkeeping-business",
+    "handyman-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Property, Real Estate, and Community Association Managers data",
+    "State real estate commission licensing requirements (broker and property-management licensing rules vary by state)",
+    "National Association of Residential Property Managers (NARPM) industry resources and fee norms",
+    "Property management software providers (Buildium, AppFolio) industry reports on fees and operations",
+    "Operator interviews and property-management communities for real-world door economics and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

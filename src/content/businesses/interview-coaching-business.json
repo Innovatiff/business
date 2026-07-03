@@ -1,0 +1,163 @@
+{
+  "title": "Interview and Job Search Coaching Business",
+  "slug": "interview-coaching-business",
+  "category": "education-and-coaching",
+  "metaTitle": "How to Start an Interview Coaching Business — Real Costs and Earnings",
+  "metaDescription": "Honest guide to starting an interview and job search coaching business: realistic session rates, startup costs, how to find clients, and what actually drives results.",
+  "startupCostLow": 200,
+  "startupCostHigh": 2500,
+  "monthlyEarningsLow": 800,
+  "monthlyEarningsHigh": 6000,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "People with hiring, recruiting, or strong professional experience who can give blunt, useful feedback",
+  "biggestRisk": "Demand swings with the job market, and clients judge you on outcomes you only partly control",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 6,
+  "skills": ["people", "teaching", "sales", "writing"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["flexibility", "alongside-job", "helping"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "An interview and job search coaching business helps people land jobs by improving the parts of the process they handle badly: telling their story, answering behavioral and technical questions, negotiating salary, running mock interviews, and building a focused search strategy. Some coaches specialize narrowly — tech interviews, executive roles, new graduates, career changers, or a single industry — while others cover the full job hunt from positioning to offer. It overlaps with career coaching and resume writing but is distinct: the focus is on performing well in interviews and running an effective search, often sold as one-off sessions, multi-session packages, or outcome-oriented programs.",
+  "dailyReality": "Most of the work is one-on-one video calls: running realistic mock interviews, giving immediate feedback, role-playing salary negotiations, and reviewing a client's pitch and search plan. Between sessions you prepare for each client's target role, write up notes and action items, and answer messages from anxious job seekers, many on tight timelines. You spend meaningful unpaid time on marketing — posting, writing, or networking — because demand is lumpy and most clients only need you for a few weeks. Sessions often happen in evenings and lunch hours since clients are usually employed while searching.",
+  "startupCostsItemized": [
+    { "item": "Reliable webcam, microphone, and good lighting for video calls", "low": 80, "high": 400 },
+    { "item": "Video conferencing (Zoom paid tier for longer calls and recording)", "low": 0, "high": 180, "annual": true },
+    { "item": "Scheduling and payment tools (Calendly, Stripe/PayPal)", "low": 0, "high": 200, "annual": true },
+    { "item": "Simple website or landing page with booking", "low": 0, "high": 500, "optional": true },
+    { "item": "LinkedIn Premium / Sales Navigator for outreach and research", "low": 0, "high": 1000, "annual": true, "optional": true },
+    { "item": "Optional coaching certification or course (not required to practice)", "low": 0, "high": 1500, "optional": true },
+    { "item": "Business registration and basic liability/professional considerations", "low": 50, "high": 300 }
+  ],
+  "realEarnings": {
+    "yearOne": "Most new coaches earn $800 to $2,500 per month part-time in year one. Single sessions commonly run $75 to $200, and early income is inconsistent because clients come in bursts and most need only a handful of sessions. Building a referral base and reviews is the slow part.",
+    "experienced": "Established coaches with a clear niche and steady referrals report $3,000 to $7,000 per month, charging $150 to $350 per session or selling packages of $500 to $2,000. Specialists in high-stakes areas — tech, finance, executive, or salary negotiation — command the higher end because the payoff for clients is large.",
+    "topEarners": "Top coaches earn $10,000+ per month by combining premium 1:1 work with group programs, cohort-based courses, corporate outplacement contracts, and content that feeds a steady client pipeline. Reaching that usually takes years, a strong reputation or audience, and a recognized specialty, not just general advice.",
+    "whatAffectsMost": "A credible background (hiring, recruiting, or senior experience in the field you coach), a sharp niche, and demonstrable client outcomes. The strength of the overall job market also swings demand significantly. Coaches who can point to clients landing real offers can charge far more than generalists.",
+    "perHour": "Live session time often pays $75 to $350 per hour, but counting prep, follow-up notes, and marketing, realistic blended rates are $40 to $150 per hour for most coaches."
+  },
+  "howToStart": [
+    "Week 1: Choose a specific audience you are credible to serve — for example tech engineers, recent grads, career changers, or managers in your industry. Vague 'I coach everyone' positioning is the hardest to sell.",
+    "Week 2: Define your offer (a single mock-interview session, a 4-session interview prep package, a full job-search program) with clear pricing. Set up video calls, scheduling, and payment so booking is frictionless.",
+    "Month 1: Coach 5 to 10 clients, including some at a reduced rate, and collect detailed testimonials and outcomes. Mock interviews with recorded feedback give clients obvious value and generate strong reviews.",
+    "Months 2-3: Publish useful content where your audience is — LinkedIn posts, answers in job-seeker communities, short guides on common interview questions — to build authority and inbound interest.",
+    "Months 3-6: Pursue more stable revenue: group cohorts, partnerships with bootcamps or universities, and corporate outplacement work, so you are not fully dependent on individual searches that end as soon as the client gets hired."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Credible experience hiring, recruiting, or working at a senior level in the field you coach",
+      "The ability to give direct, specific, kind feedback that changes how someone performs",
+      "Strong communication and the patience to coach anxious, sometimes discouraged people"
+    ],
+    "canLearn": [
+      "Structured mock-interview and feedback frameworks (STAR, behavioral, case, technical)",
+      "Salary negotiation tactics and how to coach them",
+      "Marketing yourself and packaging sessions into programs"
+    ],
+    "separators": [
+      "A sharp, credible niche where clients see you as the obvious choice rather than a generalist",
+      "Demonstrable client outcomes (offers landed, salary increases) that justify premium pricing",
+      "Building a content engine or referral network so clients keep coming after each one gets hired and leaves"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Positioning as a generic coach for everyone, which makes it nearly impossible to stand out or charge well",
+    "Promising or implying guaranteed offers — hiring depends on many factors outside your control, and over-promising backfires",
+    "Underpricing relentless one-off sessions instead of selling outcome-focused packages",
+    "Forgetting that clients leave the moment they get hired, so neglecting marketing leaves you constantly restarting",
+    "Giving generic advice clients could find free online rather than tailored feedback on their actual performance",
+    "Ignoring how much demand rises and falls with the job market and not building recurring or B2B revenue to smooth it out"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Webcam, microphone, and lighting", "note": "You are coaching people on presence; your own video setup needs to look credible.", "low": 80, "high": 400 },
+    { "item": "Zoom or Google Meet", "note": "Recording mock interviews so clients can review themselves is a major value-add.", "low": 0, "high": 180 },
+    { "item": "Scheduling tool (Calendly)", "note": "Frictionless booking matters when clients are on urgent timelines.", "low": 0, "high": 150 },
+    { "item": "Payment processor (Stripe, PayPal)", "note": "Take payment upfront, especially for packages.", "low": 0, "high": 0 },
+    { "item": "LinkedIn", "note": "Both a marketing channel and a research tool for your clients' target roles and companies.", "low": 0, "high": 1000 },
+    { "item": "Note and feedback templates", "note": "Reusable rubrics for behavioral, technical, and case interviews speed up prep and feedback.", "low": 0, "high": 0 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Posting genuinely useful content on LinkedIn about interviews, negotiation, and job searching to attract your niche",
+      "Referrals from satisfied clients, which become the main pipeline once you have results to point to",
+      "Partnerships with coding bootcamps, universities, MBA programs, and professional associations",
+      "Answering questions in job-seeker communities (Reddit, Slack/Discord groups, alumni networks)",
+      "Corporate outplacement and HR contacts for laid-off employees who need transition support",
+      "A clear booking page that turns interest into a paid session without back-and-forth"
+    ],
+    "whereCustomersAre": "Active job seekers, especially career changers, recent grads, and people interviewing for higher-stakes roles. They are on LinkedIn, in industry and alumni communities, in bootcamp and degree programs, and among the recently laid off.",
+    "timeToClientBase": "First clients can come within a few weeks through your network and posts, but a steady pipeline usually takes three to six months of consistent content and referrals. Because clients leave when hired, marketing never really stops.",
+    "wasteOfTime": "Broad paid ads and a polished brand before you have testimonials and a clear niche. Early on, client outcomes and a focused message convert far better than spend, and serving everyone makes your marketing forgettable."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but it requires steady demand and good pricing. Because each client only needs you briefly, full-time income depends on a reliable pipeline, premium rates in a niche, or packages and programs rather than scattered single sessions.",
+    "hireAndStepBack": "Possible by building a small coaching practice with associate coaches who deliver under your brand, or by shifting toward courses and group programs you create once and sell repeatedly. Stepping fully back is hard while clients are buying access to you specifically.",
+    "sellable": "Limited as a pure 1:1 practice tied to your reputation. A business with a recognized brand, productized courses, recurring B2B/outplacement contracts, and a team is more sellable, but most interview coaching is sold as a personal service.",
+    "whatScalingRequires": "A defensible niche and reputation, productized offerings (cohorts, courses), B2B relationships for steadier revenue, and systems for marketing and delivery that do not depend entirely on your personal time."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real hiring, recruiting, or senior experience clients will respect",
+      "You can give honest, specific feedback that actually changes how someone interviews",
+      "You enjoy helping people through a stressful, high-stakes moment",
+      "You are willing to market consistently, since clients churn out as soon as they are hired"
+    ],
+    "poorFit": [
+      "Your only qualification is having job-hunted yourself a few times",
+      "You are uncomfortable selling or telling clients hard truths",
+      "You want predictable monthly revenue without ongoing marketing",
+      "You would feel responsible to the point of distress when a client does not get an offer"
+    ],
+    "askYourself": [
+      "What credible background makes someone choose me over free advice online or a cheaper generalist?",
+      "Can I sell packages and build a referral and content engine, not just deliver one-off sessions?",
+      "Am I comfortable that clients judge me partly on outcomes I only partially control?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a certification to be an interview coach?",
+      "answer": "No certification is legally required. Credibility comes mostly from real experience hiring, recruiting, or working at a senior level, plus client results. Coaching certifications can help with structure and marketing, but clients care far more about whether you have actually sat on the other side of the table."
+    },
+    {
+      "question": "How is this different from career coaching or resume writing?",
+      "answer": "Career coaching is broader — direction, transitions, and long-term planning — and resume writing focuses on documents. Interview and job search coaching centers on performing in interviews, running an effective search, and negotiating offers. Many coaches bundle these, but the interview-and-search focus is where the most measurable, urgent value sits."
+    },
+    {
+      "question": "How much can I charge?",
+      "answer": "Single sessions commonly run $75 to $200 for newer coaches and $150 to $350 for established specialists, with packages from $500 to $2,000+. Niches with high payoff for the client — tech, finance, executive roles, salary negotiation — support the higher rates. Selling packages and outcomes beats charging for scattered hours."
+    },
+    {
+      "question": "Can I promise clients they will get the job?",
+      "answer": "No, and you should not. Hiring depends on the market, the competition, and decisions you cannot control. Honest coaches commit to improving the client's performance and strategy, not to guaranteed offers. Over-promising damages your reputation when a well-prepared client still gets turned down."
+    },
+    {
+      "question": "Is demand steady year-round?",
+      "answer": "Not really. Job-search activity rises and falls with the economy, hiring seasons, and layoffs. Coaches smooth this out with B2B outplacement contracts, partnerships with schools and bootcamps, and evergreen products like courses, rather than depending only on individual seekers."
+    },
+    {
+      "question": "Do I need to specialize in one field?",
+      "answer": "Specializing dramatically improves your ability to attract clients and charge well. A coach known for tech interviews, executive roles, or a specific industry is an obvious choice for that audience, while a generalist competes with everyone. You can broaden later once you have a reputation."
+    },
+    {
+      "question": "How do I get clients when each one leaves after getting hired?",
+      "answer": "Treat marketing as permanent, not a launch phase. Build a referral habit by delivering strong results and asking, publish content consistently, and add recurring revenue through group programs and B2B contracts. The coaches who struggle are the ones who stop marketing the moment they get busy."
+    }
+  ],
+  "similarBusinesses": [
+    "career-coaching-business",
+    "resume-writing-business",
+    "business-coaching-business",
+    "tutoring-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Occupational Employment and self-employed coaching/consulting data",
+    "Career coaching and resume-writing professional associations for fee benchmarks",
+    "LinkedIn Workforce and hiring reports for job-market demand context",
+    "Coach communities and freelance marketplaces (Upwork, Fiverr) for reported session pricing",
+    "Outplacement industry overviews for corporate-contract context"
+  ],
+  "lastReviewed": "2026-06"
+}

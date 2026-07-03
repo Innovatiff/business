@@ -1,0 +1,162 @@
+{
+  "title": "Crowdfunding Campaign Agency",
+  "slug": "crowdfunding-agency-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start a Crowdfunding Agency — Costs, Earnings, and Steps",
+  "metaDescription": "Honest guide to running a crowdfunding campaign agency for Kickstarter and Indiegogo: real startup costs, realistic fee-plus-percentage earnings, finding clients, and the risks.",
+  "startupCostLow": 800,
+  "startupCostHigh": 6000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 15000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Marketers who can run paid ads, PR, and launch hype and can stomach income that swings hard with each campaign's results",
+  "biggestRisk": "Feast-or-famine income tied to campaign outcomes you cannot guarantee — a few failed launches can wipe out the year",
+  "speedToIncome": "months",
+  "minWeeklyHours": 20,
+  "skills": ["sales", "creative", "writing"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["max-income", "flexibility", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A crowdfunding campaign agency runs Kickstarter and Indiegogo campaigns on behalf of creators and product founders. Clients have a product — a gadget, game, board game, design object, film — and want to raise money and build an audience, but most have no idea how to launch successfully. You handle the strategy: positioning and pricing the rewards, building a pre-launch email list and 'coming soon' page, producing or directing the campaign video and page copy, running pre-launch and during-campaign ads (typically Meta and sometimes Google), coordinating PR and influencer outreach, and managing the launch-day push that determines whether a campaign hits momentum or stalls. Compensation is usually a setup fee plus a percentage of funds raised, which aligns you with the client but also ties your income directly to outcomes you cannot fully control.",
+  "dailyReality": "Work clusters intensely around launches. In the weeks before a campaign you are building landing pages, writing and editing the campaign page, briefing the video, setting up and optimizing pre-launch ads, and growing the email list that makes or breaks day one. During the live campaign it is daily ad management, backer communication, press and influencer follow-up, and updates to keep momentum. Between campaigns you are pitching new clients, vetting which products are even fundable, and doing post-mortems. It is high-intensity, deadline-driven marketing work with real creative and analytical demands, and the calendar is lumpy — sprints around launches, quieter gaps in between.",
+  "startupCostsItemized": [
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Portfolio site, email, and proposal tools", "low": 0, "high": 500, "annual": true },
+    { "item": "Landing page / pre-launch funnel tools (LaunchBoom-style stack, ad pixels)", "low": 0, "high": 600, "annual": true },
+    { "item": "Ad account setup and initial test budget you may front", "low": 0, "high": 2000, "optional": true },
+    { "item": "Video and design tools or freelance budget for campaign creative", "low": 0, "high": 2500, "optional": true },
+    { "item": "PR / media outreach and influencer tools or lists", "low": 0, "high": 600, "annual": true, "optional": true },
+    { "item": "Contracts and basic legal review for fee-plus-percentage deals", "low": 200, "high": 1200 },
+    { "item": "Professional / general liability insurance", "low": 300, "high": 900, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Income in year one is genuinely lumpy and can be near zero in slow stretches, which is why the monthly low is 0. A typical campaign brings a setup fee of $2,000 to $10,000 plus 5% to 15% of funds raised. Land a couple of modest campaigns ($30,000 to $100,000 raised each) and you might net $1,500 to $5,000 per month averaged over the year — but it arrives in spikes, not a steady paycheck.",
+    "experienced": "Agencies with a real track record and a pipeline of two to four overlapping campaigns commonly report $5,000 to $15,000 per month averaged across the year, driven by higher setup fees ($5,000 to $20,000) and percentages on larger raises. Strong campaigns in the $100,000 to $500,000 range produce substantial percentage fees.",
+    "topEarners": "The well-known crowdfunding agencies that consistently launch six- and seven-figure campaigns gross $50,000 to $300,000+ per month in their best stretches, but they have years of case studies, in-house video and ad teams, and a roster of repeat product clients. Their results are still uneven, and even top agencies have campaigns that underperform — nobody guarantees a raise.",
+    "whatAffectsMost": "The fundability of the product and the size of the raise matter most, followed by how much of your fee is percentage-based. Picking clients with genuine demand and a credible product is the biggest earnings lever; a great campaign for a product nobody wants still fails. Pre-launch email list size is the strongest predictor of launch success.",
+    "perHour": "Effective rate swings wildly with outcomes. A winning campaign can pay $100 to $300+ per hour of work; a campaign that flops can pay almost nothing for weeks of effort. Averaged across wins and losses, realistic blended rates are often $40 to $120 per hour for established operators and far lower while building a track record."
+  },
+  "howToStart": [
+    "Month 1: Learn the mechanics of successful campaigns — pre-launch list building, reward and pricing structure, video, launch-day momentum, and the platforms' algorithms. Study post-mortems of both winning and failed campaigns, not just success stories.",
+    "Month 2: Build or volunteer on a first campaign, even at a discount or for a friend's product, to get a real result and learn the full pre-launch-to-funded arc. Document everything as a case study.",
+    "Month 3: Define your offer and pricing (setup fee plus percentage), write contracts that protect you on fronted ad spend, and create a clear vetting process so you only take fundable products.",
+    "Days 90 to 180: Pitch product founders and makers, run a couple of campaigns, and treat results honestly in your marketing. Build relationships with video and ad freelancers so you can scale per-campaign work.",
+    "Ongoing: Build a pipeline so campaigns overlap and smooth the feast-or-famine cycle, and cultivate repeat clients launching multiple products — your most stable revenue."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Direct-response marketing and paid ads (especially Meta) to build and convert a pre-launch audience",
+      "Persuasive writing and storytelling for campaign pages, emails, and pitches",
+      "Sales ability to win clients and set realistic expectations about results"
+    ],
+    "canLearn": [
+      "Platform mechanics of Kickstarter and Indiegogo and their launch-day dynamics",
+      "Reward structuring, pricing, and funnel/landing-page setup",
+      "PR and influencer outreach workflows"
+    ],
+    "separators": [
+      "Judgment to vet which products are actually fundable and to turn the rest down",
+      "Skill at building a large, engaged pre-launch email list, the single biggest driver of campaign success",
+      "Managing client expectations honestly so a normal underperformance does not become a reputation-killing dispute"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Promising or implying a guaranteed raise — results depend on the product, market, and timing, and no agency can guarantee funding",
+    "Taking any client who pays, including unfundable products, instead of vetting hard and protecting their case-study record",
+    "Underweighting the pre-launch phase, where list building and audience warming actually decide whether launch day succeeds",
+    "Fronting ad spend without contractual protection and getting stuck holding the bill when a campaign stalls",
+    "Pricing as pure percentage with no setup fee, so weeks of work on a flop pay nothing",
+    "Ignoring the feast-or-famine reality and failing to keep a pipeline that overlaps campaigns to smooth income"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Landing page and pre-launch funnel builder", "note": "For the 'coming soon' page and email capture that warms the audience before launch. The pre-launch funnel is the core of a winning campaign.", "low": 0, "high": 600 },
+    { "item": "Paid ads accounts and pixels (Meta, Google)", "note": "Where most pre-launch and live-campaign demand is generated. Budget is usually the client's, but you manage it.", "low": 0, "high": 0 },
+    { "item": "Email marketing tool", "note": "To nurture the pre-launch list and trigger the launch-day push that creates momentum.", "low": 0, "high": 300 },
+    { "item": "Video and design tools or freelancers", "note": "Campaign video and page graphics heavily influence conversion; produce in-house or direct freelancers.", "low": 0, "high": 2500 },
+    { "item": "PR and influencer outreach tools/lists", "note": "For press coverage and creator placements that add credibility and reach during the campaign.", "low": 0, "high": 600 },
+    { "item": "Contracts and analytics dashboards", "note": "Clear fee-plus-percentage contracts and campaign analytics to track ROI and protect you on fronted spend.", "low": 200, "high": 1200 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to product makers and inventors on maker communities, design platforms, and trade shows",
+      "Being visible in crowdfunding and hardware-startup communities where founders plan launches",
+      "Publishing campaign case studies and teardowns to attract founders researching how to launch",
+      "Partnering with product designers, manufacturers, and prototyping shops who meet founders before launch",
+      "Referrals from past clients and repeat business from makers launching multiple products"
+    ],
+    "whereCustomersAre": "Product founders, inventors, board-game and tabletop designers, gadget makers, and filmmakers planning a Kickstarter or Indiegogo — found in maker and hardware communities, on design platforms, at trade shows, and increasingly through inbound from your published results.",
+    "timeToClientBase": "Expect one to three months to land a first paying campaign and six to twelve months to build a pipeline that overlaps campaigns. Trust is slow because founders are betting their launch on you and have read about agencies that overpromised.",
+    "wasteOfTime": "Pitching founders with unfundable products, and broad branding before you have a single campaign result. Demonstrated raises and honest case studies convert founders; generic 'we do crowdfunding' marketing does not."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but the income is lumpy, so it takes a pipeline of overlapping campaigns and a cash buffer to make it genuinely full-time. It is not part-time friendly — launches demand intense, deadline-bound sprints — which is why it is marked accordingly.",
+    "hireAndStepBack": "Possible. Video, design, and ad execution are delegated to specialists or freelancers first, then campaign managers run launches to your playbook. Stepping back requires documented launch processes and senior managers founders trust with their one big launch.",
+    "sellable": "A crowdfunding agency with a strong portfolio, repeat clients, and documented processes can sell, but valuations reflect the lumpy, project-based revenue and dependence on the founder's reputation. Agencies that build recurring relationships and productized offerings are more sellable.",
+    "whatScalingRequires": "A repeatable pre-launch and launch playbook, in-house or reliable freelance video and ad talent, campaign managers, and a steady inbound pipeline so campaigns overlap. The constraint is sourcing enough fundable products and smoothing the feast-or-famine cycle."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are skilled at paid ads, copywriting, and building launch momentum",
+      "You can vet products honestly and say no to unfundable ones",
+      "You can financially and emotionally handle income that swings with each campaign's results",
+      "You thrive in intense, deadline-driven launch sprints"
+    ],
+    "poorFit": [
+      "You need steady, predictable monthly income",
+      "You are uncomfortable with outcomes you cannot guarantee and clients who expect a guarantee",
+      "You dislike high-pressure deadlines and the lumpy work calendar",
+      "You would take any paying client regardless of whether their product can actually fund"
+    ],
+    "askYourself": [
+      "Can I survive financially through slow stretches and failed campaigns while building a track record?",
+      "Am I disciplined enough to turn down unfundable products that would damage my results?",
+      "Can I set honest expectations so a normal underperformance does not become a dispute?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How do crowdfunding agencies charge?",
+      "answer": "The standard structure is a setup or retainer fee plus a percentage of the funds raised — commonly a fee in the low thousands plus roughly 5% to 15% of the raise. The fee covers your pre-launch work regardless of outcome; the percentage aligns you with success. Some agencies also bill ad-management fees separately and have the client fund the ad spend directly."
+    },
+    {
+      "question": "Can you guarantee a campaign will hit its goal?",
+      "answer": "No, and any agency that guarantees a raise is misleading the client. Outcomes depend on the product, market demand, timing, the pre-launch audience, and execution — and even strong agencies have campaigns that underperform. You can credibly commit to running a proven process and being honest about a product's prospects, but guaranteeing funding is not realistic."
+    },
+    {
+      "question": "Why is income so unpredictable in this business?",
+      "answer": "Because revenue is tied to discrete campaigns and a percentage of their results, with intense work clustered around launches and gaps in between. A few campaigns can underperform, and percentage fees evaporate. This feast-or-famine pattern is the defining financial challenge, which is why the realistic monthly low is effectively zero and a pipeline plus a cash buffer matter so much."
+    },
+    {
+      "question": "What is the most important part of a crowdfunding campaign?",
+      "answer": "The pre-launch phase — building and warming an email list and audience before the campaign goes live. Launch-day momentum, which both platforms' algorithms reward, depends heavily on having a primed audience ready to back in the first hours. Agencies that underinvest in pre-launch tend to see campaigns stall, no matter how good the page looks."
+    },
+    {
+      "question": "Do I need experience to start?",
+      "answer": "Yes, meaningful marketing experience is genuinely needed — running paid ads, writing persuasive copy, and managing launches. This is rated intermediate, not beginner. You do not need to have founded a campaign yourself, but you should run at least one real campaign (even discounted or for a friend) before charging clients, so you understand the full pre-launch-to-funded arc."
+    },
+    {
+      "question": "Which platforms do agencies focus on?",
+      "answer": "Kickstarter and Indiegogo are the dominant rewards-based platforms, each with different rules, audiences, and algorithms. Kickstarter is all-or-nothing on most projects; Indiegogo offers flexible funding. Agencies choose per project based on the product category and the client's goals, and knowing the mechanics and culture of each platform is part of the expertise clients pay for."
+    },
+    {
+      "question": "Should I front the ad spend for clients?",
+      "answer": "Be very careful. Fronting ad budget without contractual protection means you can be left holding the bill if a campaign stalls or a client disputes results. Most experienced agencies have the client fund ad spend directly or require it up front, with clear contract terms. Mishandling fronted spend is a common way agencies lose money on otherwise reasonable campaigns."
+    }
+  ],
+  "similarBusinesses": [
+    "ppc-advertising-agency-business",
+    "freelance-copywriting-business",
+    "lead-generation-business",
+    "social-media-management-business"
+  ],
+  "dataSources": [
+    "Kickstarter and Indiegogo published platform statistics on funding rates and category performance",
+    "Crowdfunding industry reports and academic studies on campaign success factors and pre-launch audience effects",
+    "Meta and Google advertising benchmarks for direct-response and launch campaigns",
+    "Crowdfunding agency case studies and maker/founder communities for real-world fee structures and outcomes"
+  ],
+  "lastReviewed": "2026-06"
+}

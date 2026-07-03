@@ -1,0 +1,161 @@
+{
+  "title": "Captioning and Subtitling Business",
+  "slug": "captioning-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start a Captioning and Subtitling Business — Costs and Earnings",
+  "metaDescription": "Honest breakdown of starting a captioning and subtitling business: real startup costs, realistic earnings, finding video clients, and what AI does and doesn't replace.",
+  "startupCostLow": 50,
+  "startupCostHigh": 800,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 4500,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Beginner",
+  "bestFor": "Detail-oriented people with strong language skills who want flexible, fully remote work they can start cheaply and part-time",
+  "biggestRisk": "Competing on price against AI auto-captions and cheap platforms instead of selling accuracy, compliance, and quality where it actually matters",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 5,
+  "skills": ["writing", "tech"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["flexibility", "alongside-job", "low-risk"],
+  "noExperienceRequired": true,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A captioning and subtitling business turns spoken video content into accurate, properly timed on-screen text. That includes closed captions and SDH (subtitles for the deaf and hard of hearing, which note sounds and speakers), standard subtitles, and translated subtitles into other languages. Clients range from individual creators who want clean captions, to media and e-learning companies, to organizations that need captions for legal accessibility compliance (such as ADA and similar requirements). You're typically paid per video minute or per project. AI auto-captioning has made rough captions nearly free, so the paying work concentrates where accuracy, formatting standards, timing, and compliance genuinely matter — which is exactly where AI alone still falls short.",
+  "dailyReality": "The work is focused, screen-based editing: you start from an AI draft or a transcript, then correct errors, fix timing so text matches speech, add speaker labels and sound cues for SDH, and format to the client's or platform's specs (line length, reading speed, file format like SRT or VTT). Translation subtitling adds the layer of rendering meaning naturally in another language within tight character limits. It's quiet, detail-heavy work you can do on your own schedule, often with headphones and a captioning tool. Around the editing, expect time spent finding and quoting clients, clarifying specs, and managing turnaround deadlines, which can be tight for news, events, or release schedules.",
+  "startupCostsItemized": [
+    { "item": "Captioning/subtitling software (Aegisub free, or paid like Subtitle Edit/CaptionMaker)", "low": 0, "high": 300, "annual": true, "optional": true },
+    { "item": "Quality headphones", "low": 20, "high": 150 },
+    { "item": "Computer and reliable internet", "low": 0, "high": 0 },
+    { "item": "Foot pedal for transcription/timing", "low": 0, "high": 150, "optional": true },
+    { "item": "Style guide / training course (captioning standards, SDH)", "low": 0, "high": 300, "optional": true },
+    { "item": "Business registration / freelancer setup", "low": 0, "high": 300, "optional": true },
+    { "item": "AI transcription tool subscription (to draft from)", "low": 0, "high": 200, "annual": true, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Beginners often earn $0 to $1,500 per month, and genuinely $0 in the first weeks while you build speed and find work. Entry-level platform rates are low (sometimes under $1 per video minute), so early income is modest until you get faster and find better-paying clients.",
+    "experienced": "Experienced captioners with direct clients and a specialty report $1,800 to $4,500 per month working solo. Direct rates commonly run $3 to $12+ per video minute for English captions, with SDH and translation subtitling and rush jobs paying more.",
+    "topEarners": "Top earners reach $60,000 to $90,000+ per year by specializing in higher-value work — translation subtitling, compliance-grade captioning for institutions, or media post-production — and by building direct client relationships or a small team. Reaching this takes speed, a reputation for accuracy, and often language or niche expertise.",
+    "whatAffectsMost": "Your effective rate depends far more on client type and specialty than on volume. Compliance, translation, and media work pay multiples of generic creator captions. Speed matters too — experienced captioners produce accurate output much faster, raising hourly earnings even at the same per-minute rate.",
+    "perHour": "Captioning typically takes several minutes of work per minute of video, so even at decent per-minute rates, realistic effective pay is often $15 to $40 per hour for newer captioners, rising to $30 to $60+ for fast specialists doing higher-value work."
+  },
+  "howToStart": [
+    "Weeks 1-2: Learn captioning standards — timing, reading speed, line breaks, speaker labels, and SDH conventions — and get comfortable with a tool (free options like Aegisub or Subtitle Edit are fine to start). Practice by captioning sample videos and checking your accuracy and timing.",
+    "Weeks 2-4: Decide your focus: clean creator captions, SDH/accessibility, or translation subtitling (if you're fluent in another language). Build a few polished samples and a simple profile showing your accuracy and turnaround.",
+    "Weeks 3-6: Start on captioning platforms or freelance marketplaces to gain experience and reviews, while reaching out directly to creators, e-learning companies, and small media shops who value quality over the cheapest option.",
+    "Months 2-3: Track your speed and the rates each client type pays, then steer toward higher-value compliance, media, or translation work and away from rock-bottom platform jobs.",
+    "Ongoing: Build repeat relationships and referrals, learn to use AI drafts to work faster (not to deliver raw output), and decide whether to specialize deeper or take on overflow help as demand grows."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong language skills — spelling, grammar, punctuation, and a good ear for speech",
+      "Patience and meticulous attention to timing and detail",
+      "Basic comfort with software and file formats like SRT and VTT"
+    ],
+    "canLearn": [
+      "Captioning standards and SDH conventions (speaker labels, sound descriptions, reading speed)",
+      "Captioning/subtitling tools and efficient workflows, including editing AI drafts",
+      "Compliance requirements (ADA/accessibility) and broadcast or platform specs"
+    ],
+    "separators": [
+      "Speed plus accuracy — producing compliant, well-timed output fast enough to earn a good hourly rate",
+      "A specialty (translation subtitling, accessibility compliance, or media post) that pays far above generic captions",
+      "Direct client relationships that escape the low rates of crowdsourced platforms"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Competing only on price with AI auto-captions and cheap platforms instead of selling accuracy and compliance",
+    "Underestimating how much editing AI captions actually need to be usable, especially with accents, names, jargon, and overlapping speech",
+    "Ignoring timing and reading-speed standards, producing captions that are technically present but hard to read",
+    "Skipping SDH conventions when accessibility is the whole point — missing speaker labels and sound cues",
+    "Staying on bottom-tier platforms forever instead of moving to direct, higher-paying clients",
+    "Quoting flat without knowing their real speed, then earning a poor hourly rate on tedious work"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Captioning/subtitling software", "note": "Free tools (Aegisub, Subtitle Edit) work to start; paid tools add speed and broadcast features.", "low": 0, "high": 300 },
+    { "item": "Quality headphones", "note": "Essential for catching words accurately, especially with poor source audio.", "low": 20, "high": 150 },
+    { "item": "Computer and reliable internet", "note": "Standard machine is fine; large video files need decent storage and bandwidth.", "low": 0, "high": 0 },
+    { "item": "Foot pedal", "note": "Lets you start/stop audio hands-free, speeding up transcription and timing.", "low": 0, "high": 150 },
+    { "item": "AI transcription tool", "note": "Use to generate a rough draft you then correct — a productivity aid, not a deliverable.", "low": 0, "high": 200 },
+    { "item": "Captioning style guides", "note": "Industry and platform standards (e.g., accessibility and broadcast specs) you format to.", "low": 0, "high": 0 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to content creators, e-learning companies, podcasters, and small media producers who value quality",
+      "Specialized captioning and transcription platforms to build initial experience and reviews",
+      "Targeting organizations with accessibility/compliance needs (schools, agencies, businesses) that require accurate captions",
+      "Freelance marketplaces with a clear niche (SDH, translation subtitling, or a specific industry)",
+      "Referrals and repeat work from satisfied clients, plus partnering with video editors who need captioning"
+    ],
+    "whereCustomersAre": "Anywhere video is published or required to be accessible: YouTube and course creators, media and post-production shops, marketing teams, and institutions subject to accessibility law. Compliance-driven clients are the steadiest, quality-focused buyers.",
+    "timeToClientBase": "First paid jobs often come within two to six weeks via platforms. Building a base of direct, better-paying clients usually takes three to six months as your speed, samples, and reviews accumulate.",
+    "wasteOfTime": "Racing to the bottom on the cheapest gig platforms and broad untargeted advertising. Early on, demonstrating accuracy on relevant samples and reaching out to clients who actually need compliance or translation beats chasing volumes of $0.50-per-minute work."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, though it takes building speed and moving up to higher-value, direct clients. As a solo captioner you're capped by editing hours, so reaching full-time income usually means specializing (translation, compliance, media) rather than grinding cheap volume.",
+    "hireAndStepBack": "Possible. Some captioners grow into small agencies that take on larger media or institutional contracts and subcontract or employ other captioners, handling QC and client relationships. Maintaining accuracy across a team is the main challenge.",
+    "sellable": "A solo practice has limited resale value. A captioning agency with recurring institutional or media contracts, documented quality processes, and a team is more sellable, but most operations are run as steady freelance income rather than built to sell.",
+    "whatScalingRequires": "Standardized quality and turnaround processes, a trained team or vetted subcontractors, recurring contracts (especially compliance-driven ones), and smart use of AI to boost throughput without sacrificing accuracy. Scaling shifts you from captioning to managing captioners."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You're meticulous, patient, and have strong language skills",
+      "You want low-cost, fully remote work you can start part-time",
+      "You can sit and focus on detailed editing for stretches at a time",
+      "You're fluent in a second language (a strong advantage for higher-paying subtitling)"
+    ],
+    "poorFit": [
+      "You dislike repetitive, detail-heavy work and tight formatting rules",
+      "You expect high pay immediately without building speed or a specialty",
+      "You're only willing to compete on price against AI and cheap platforms",
+      "You can't handle deadline pressure on time-sensitive video releases"
+    ],
+    "askYourself": [
+      "Am I patient and accurate enough to do detailed editing for hours, since pay is tied to quality and speed?",
+      "Will I move beyond cheap platforms toward compliance, translation, or media clients who pay well?",
+      "Can I use AI tools to work faster while still delivering the accuracy that justifies being paid?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Won't AI auto-captions put captioners out of business?",
+      "answer": "AI has made rough captions nearly free, which has eliminated the bottom of the market. But auto-captions still struggle with accents, names, jargon, overlapping speech, timing, and SDH conventions — and they don't reliably meet accessibility compliance. Captioners who edit AI drafts and specialize in accuracy, translation, and compliance still get paid; those competing only on price do not."
+    },
+    {
+      "question": "Do I need experience to start?",
+      "answer": "No — this is a genuinely beginner-friendly business you can start with free software and learn the standards as you go. That said, you'll earn little until you build speed and accuracy, so the first weeks are about practice and low-paid jobs while you get good enough to command better rates."
+    },
+    {
+      "question": "How much can I realistically earn per video minute?",
+      "answer": "Entry-level platform rates can be under $1 per video minute, which is why early income is low. Direct clients commonly pay $3 to $12+ per minute for quality English captions, with SDH, translation subtitling, and rush jobs paying more. Your real earnings depend heavily on client type and how fast you work."
+    },
+    {
+      "question": "What's the difference between captions, SDH, and subtitles?",
+      "answer": "Captions (especially closed captions and SDH) are for viewers who can't hear the audio and include speaker labels and sound descriptions, often for accessibility compliance. Subtitles generally assume the viewer can hear and translate or transcribe dialogue. Translation subtitling is its own skill and pays more, since it requires fluency and fitting meaning into tight character limits."
+    },
+    {
+      "question": "Why is the effective hourly rate often lower than the per-minute rate suggests?",
+      "answer": "Captioning a one-minute clip usually takes several minutes of work — correcting, timing, formatting, and quality-checking. So a rate that looks decent per video minute can translate to a modest hourly wage until you build speed. Knowing your true pace before quoting flat projects protects your earnings."
+    },
+    {
+      "question": "Do I need to know accessibility laws like the ADA?",
+      "answer": "Understanding accessibility requirements is a real advantage because compliance-driven clients (schools, government, businesses) are steady, quality-focused buyers. You don't need to be a lawyer, but knowing what compliant captions require — accuracy thresholds, SDH conventions, and proper formatting — lets you serve clients who pay for it being done right."
+    },
+    {
+      "question": "Is this realistic to do part-time around a job?",
+      "answer": "Yes. Captioning is project-based, remote, and schedule-flexible, so many people start it on the side cheaply. The main constraints are deadlines on time-sensitive content and the discipline to keep improving speed and accuracy so your hourly rate climbs over time."
+    }
+  ],
+  "similarBusinesses": [
+    "transcription-business",
+    "translation-business",
+    "video-editing-business",
+    "proofreading-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — data on interpreters, translators, and related media production work",
+    "Accessibility standards and guidance (ADA, FCC closed-captioning rules, WCAG) on caption quality requirements",
+    "Captioning and freelance platform rate data (per-video-minute pricing ranges)",
+    "Captioner, transcriptionist, and subtitling communities for real-world rates, speed, and AI-editing workflows"
+  ],
+  "lastReviewed": "2026-06"
+}

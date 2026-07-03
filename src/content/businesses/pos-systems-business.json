@@ -1,0 +1,158 @@
+{
+  "title": "POS Systems Business",
+  "slug": "pos-systems-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start a POS Systems Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest guide to starting a POS systems business: real startup costs, hardware margins, recurring software and payment residuals, B2B sales, and what most resellers get wrong.",
+  "startupCostLow": 5000,
+  "startupCostHigh": 50000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 20000,
+  "timeToFirstIncome": "2 to 5 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Hands-on B2B salespeople who can install, support, and build a recurring book of merchants over time",
+  "biggestRisk": "Living on one-time hardware sales while neglecting recurring software and payment residuals, so income never compounds",
+  "speedToIncome": "months",
+  "minWeeklyHours": 30,
+  "skills": ["tech", "sales"],
+  "workLocations": ["mobile", "online", "flexible"],
+  "priorities": ["max-income", "sellable", "low-risk"],
+  "noExperienceRequired": true,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A POS systems business sells, installs, and supports point-of-sale systems for restaurants and retail stores — the terminals, tablets, registers, receipt printers, cash drawers, kitchen displays, and the software that runs them. Most operators work as a reseller or value-added reseller (VAR) of an established platform (Toast, Clover, Square, Lightspeed, SpotOn, NCR, and others), earning a mix of hardware margin, recurring software/support revenue, and — the real prize — ongoing residuals on the payment processing that flows through each system. It is a local, relationship-driven B2B business where the money compounds: every merchant you sign and keep pays you a little every month, often for years.",
+  "dailyReality": "Your week is mostly local B2B selling and support: prospecting restaurants and shops, demoing systems, building quotes, and configuring and installing systems on-site (programming menus, items, taxes, and printers). After the sale you are the support line — training staff, fixing printer and network issues, processing menu changes, and handling the occasional 'we're slammed and the system is down' call, sometimes at night or on weekends. Around that you reconcile your residual statements, follow up on leads, and stay current as platforms change pricing and features. Reliability after the sale is what keeps merchants from churning and your residuals intact.",
+  "startupCostsItemized": [
+    { "item": "Business registration / LLC and liability insurance", "low": 600, "high": 2500 },
+    { "item": "Reseller / dealer / ISO agent agreements with POS and payment platforms", "low": 0, "high": 5000 },
+    { "item": "Demo hardware and a sample system to show merchants", "low": 1000, "high": 8000 },
+    { "item": "Initial hardware inventory or float (if you stock rather than drop-ship)", "low": 0, "high": 20000, "optional": true },
+    { "item": "CRM, quoting tools, and website", "low": 200, "high": 3000 },
+    { "item": "Vehicle and install tool kit (cables, mounts, network gear)", "low": 500, "high": 6000 },
+    { "item": "Marketing and local lead generation", "low": 500, "high": 6000 },
+    { "item": "Training / certification on chosen platforms", "low": 0, "high": 2000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most resellers earn modestly at first while building a book. Realistically expect $0 to $4,000 per month in year one. Hardware and install margin on a typical deal might be a few hundred to a couple thousand dollars, while each merchant's recurring software and payment residual often adds $20 to $200+ per month — small at first, but it accumulates with every account you keep.",
+    "experienced": "Operators with two to four years and a retained book of 50 to 200 merchants commonly net $5,000 to $20,000 per month, increasingly weighted toward recurring residuals and support contracts rather than one-time hardware. Retention is the lever: residuals only compound if merchants stay.",
+    "topEarners": "Larger VARs and ISO offices with hundreds to thousands of merchants and a sales/support team earn well into six and sometimes seven figures annually, dominated by payment-processing residuals. Reaching that requires sustained recruiting of merchants, strong support to limit churn, and often hiring reps and technicians.",
+    "whatAffectsMost": "Recurring residual income and retention. The operators who get wealthy treat hardware as a door-opener and build a large, sticky book of payment-processing and software residuals. Merchant churn, processor rate structures, and support quality affect long-term income far more than any single sale.",
+    "perHour": "Uneven by design: low early while you sell and support without a residual base, then strong as residuals compound and require little incremental time. Established operators often realize a blended $60 to $130 per hour, but the first year's selling and install time drags the effective rate down."
+  },
+  "howToStart": [
+    "Month 1: Register and insure the business, then choose one or two POS platforms to represent and sign reseller/dealer and payment-agent agreements. Read the residual and chargeback terms carefully — how you get paid on processing is the heart of the business. Get a demo system you can show and learn it cold.",
+    "Month 2: Pick a niche (full-service restaurants, quick-service, salons, or specialty retail) so your demos, references, and menu/configuration expertise compound. Build simple quotes and an install checklist, and set up a CRM to track a pipeline that will have a multi-week sales cycle.",
+    "Months 2-4: Prospect locally — walk into restaurants and shops, network with bookkeepers and restaurant suppliers, and offer free assessments comparing their current processing fees to what you can offer. Close your first installs and deliver flawless setup and staff training.",
+    "Months 4-6: Turn early merchants into references and referrals, watch your residual statements to confirm you're being paid correctly, and prioritize fast support to keep churn low. Decide whether to add a technician or rep only once recurring revenue is building."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Local B2B sales and comfort walking into businesses and demoing systems",
+      "Enough technical aptitude to configure systems, set up networks, and troubleshoot hardware",
+      "Reliability and responsiveness for after-sale support, which protects your recurring income"
+    ],
+    "canLearn": [
+      "Configuring specific POS platforms (menus, items, taxes, printers, integrations)",
+      "How payment processing, interchange, and residual structures work",
+      "Basic networking and peripheral troubleshooting"
+    ],
+    "separators": [
+      "Building and retaining a large recurring book of residuals rather than chasing one-time sales",
+      "Specializing in a vertical (e.g., restaurants) so your setup expertise and references compound",
+      "Understanding processing economics well enough to offer merchants fair rates and still earn healthy residuals"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Treating it as a hardware-sales business and ignoring the recurring software and payment residuals that actually build wealth",
+    "Signing residual or agent agreements without understanding clawbacks, chargebacks, and how (and whether) residuals survive if you leave the processor",
+    "Providing poor after-sale support, causing churn that quietly erodes the residual base",
+    "Overstocking hardware and tying up cash when drop-shipping is usually available",
+    "Over-promising on integrations or uptime the platform can't reliably deliver",
+    "Spreading across too many platforms and verticals instead of getting genuinely expert in one or two"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Demo POS system", "note": "A working terminal, printer, and cash drawer to show and train on; essential for credible demos.", "low": 1000, "high": 6000 },
+    { "item": "Install tool kit and networking gear", "note": "Cables, mounts, routers/switches, and label maker for clean on-site installs.", "low": 300, "high": 3000 },
+    { "item": "CRM and quoting software", "note": "Tracks a multi-week sales pipeline and recurring-revenue accounts.", "low": 200, "high": 2000 },
+    { "item": "Hardware inventory or drop-ship arrangement", "note": "Start with drop-ship to avoid tying up cash; stock only fast movers later.", "low": 0, "high": 15000 },
+    { "item": "Vehicle for installs and service", "note": "Reliable transport for on-site setup and support calls.", "low": 0, "high": 10000 },
+    { "item": "Remote support and monitoring tools", "note": "To troubleshoot merchant systems without always driving out.", "low": 0, "high": 1500 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct local outreach — walking into restaurants and retailers and offering a fee/system comparison",
+      "Referrals from bookkeepers, restaurant suppliers, and existing merchants",
+      "A niche focus that produces word of mouth within a vertical (e.g., independent restaurants)",
+      "Local networking, chambers, and restaurant/retail associations",
+      "Partnerships with business consultants or POS-adjacent vendors who refer merchants"
+    ],
+    "whereCustomersAre": "Independent restaurants, cafes, salons, and small retailers — usually new openings, businesses frustrated with their current system or processing fees, or those switching as contracts expire. Reached locally, in person, and through referrals far more than online.",
+    "timeToClientBase": "First installs typically come within two to five months of consistent prospecting. A retained book large enough to live on recurring residuals usually takes one to three years of steady selling and excellent support.",
+    "wasteOfTime": "Broad online advertising and generic branding before you have references and a niche. Merchants buy on trust, fair processing rates, and the promise of reliable support — relationships and word of mouth outperform ads here."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. As residuals from retained merchants accumulate, recurring income can grow into a solid full-time living that requires less selling per dollar earned over time. The early ramp is the hard part.",
+    "hireAndStepBack": "Achievable by hiring sales reps (often on residual splits) and support technicians, since recurring revenue runs with limited owner involvement once support is systematized. Stepping back fully requires reliable techs and tight churn control.",
+    "sellable": "A book of recurring software and payment residuals is genuinely sellable and often valued as a multiple of monthly residual income; processors and larger VARs buy portfolios. Read your agreements, though — some contracts restrict or reduce residual value on transfer.",
+    "whatScalingRequires": "A repeatable sales motion, strong support to minimize churn, favorable processor and platform agreements, and capital for demo units and any inventory. Growth is mostly about adding and retaining merchants, often by recruiting reps onto your residual structure."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You enjoy local, in-person B2B selling and demoing systems",
+      "You are reliable and responsive enough to provide the support that prevents churn",
+      "You want recurring, compounding residual income and a sellable book",
+      "You are willing to grind through a slow first year while residuals build"
+    ],
+    "poorFit": [
+      "You want fast, large first income or dislike hands-on selling and support",
+      "You won't read and understand processing and residual agreements",
+      "You have no patience for after-sale troubleshooting and night/weekend calls",
+      "You expect passive income immediately rather than a base you must build"
+    ],
+    "askYourself": [
+      "Am I willing to build slowly toward recurring residuals instead of chasing one-time hardware sales?",
+      "Can I provide the reliable, fast support that keeps merchants — and my residuals — from churning?",
+      "Do I understand how I actually get paid on payment processing, including chargebacks and clawbacks?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How does a POS systems business actually make money?",
+      "answer": "Three ways: margin on hardware (terminals, printers, drawers), recurring software/support fees, and ongoing residuals on the payment processing that runs through each system. Hardware is a one-time bump, but the residuals and software fees recur monthly per merchant. Operators who build wealth treat hardware as a door-opener and focus on the recurring streams."
+    },
+    {
+      "question": "Do I need to build my own POS software?",
+      "answer": "No. Almost all operators resell established platforms like Toast, Clover, Square, Lightspeed, SpotOn, or NCR as a reseller, VAR, or payment agent. You compete on local sales, setup expertise, fair processing rates, and support, not on building software. Building your own platform is a completely different, far larger undertaking."
+    },
+    {
+      "question": "What are payment residuals and why do they matter so much?",
+      "answer": "When a merchant processes card payments through your system, you earn a small ongoing share of the processing revenue — a residual — typically every month the merchant stays active. A single merchant might pay $20 to $200+ monthly. Across a retained book of dozens or hundreds of merchants, residuals become the dominant, compounding source of income."
+    },
+    {
+      "question": "How important is after-sale support?",
+      "answer": "Critical. Merchants depend on the system to take money, so downtime is an emergency, and poor support is the fastest way to lose them. Because your residuals depend on merchants staying active, churn directly cuts your recurring income. Reliable, fast support is both a sales advantage and the thing that protects your long-term earnings."
+    },
+    {
+      "question": "Do I need experience to start?",
+      "answer": "You can start without prior POS experience because platforms provide training and certification, and the technical setup is learnable. What you do need is sales ability and the discipline to support merchants well. Read the residual and chargeback terms carefully before signing — that is where beginners most often get caught."
+    },
+    {
+      "question": "How long until this replaces a full-time income?",
+      "answer": "Plan for two to five months to land first installs and one to three years to build a retained book large enough to live mainly on recurring residuals. The model is slow to start and then compounds, so patience and retention matter more than any single big month."
+    }
+  ],
+  "similarBusinesses": [
+    "it-support-business",
+    "managed-it-services-business",
+    "managed-print-services-business",
+    "web-development-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — retail trade and food-service establishment counts and sales-occupation data",
+    "Nilson Report — payment processing volumes, interchange, and merchant-services economics",
+    "POS platform reseller / partner programs (Toast, Clover, Square, Lightspeed, SpotOn, NCR)",
+    "Electronic Transactions Association (ETA) — merchant-acquiring and ISO/agent industry guidance",
+    "Merchant-services operator communities and industry publications for residual and churn benchmarks"
+  ],
+  "lastReviewed": "2026-06"
+}

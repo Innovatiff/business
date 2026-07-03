@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import DisclaimerBox from '../components/DisclaimerBox.astro';
+import { SITE } from '../config';
+---
+<BaseLayout
+  title="Editorial Standards"
+  description="How Honestly Profitable is written, reviewed, and kept accurate — our editorial principles, independence from advertisers, review cadence, and corrections policy."
+  path="/editorial-standards"
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Editorial Standards' }]} />
+    <h1>Editorial standards</h1>
+    <p class="lead">The principles and process behind every page — and how we keep the site trustworthy as it grows.</p>
+  </div>
+
+  <div class="container container-narrow page-body">
+    <p>
+      {SITE.name} is a reference, not a marketing funnel. These are the standards every page is held
+      to, and how we keep them as the library grows.
+    </p>
+
+    <h2>Who writes this</h2>
+    <p>
+      {SITE.name} is produced by an independent editorial team that researches each business model
+      using the process described in <a href="/how-we-research-businesses">how we research businesses</a>.
+      We are not affiliated with any of the businesses, franchises, courses, or tools mentioned on the
+      site. No business pays to be included, ranked higher, or described more favorably.
+    </p>
+
+    <h2>Our editorial principles</h2>
+    <ul>
+      <li><strong>Honesty over optimism.</strong> We publish realistic ranges, separate beginner from experienced and top-earner outcomes, and state the difficulty and the single biggest risk on every page.</li>
+      <li><strong>No hype.</strong> We do not use language like "guaranteed," "passive income overnight," or "anyone can do this." If a business is hard, capital-intensive, heavily regulated, or fails often, we say so plainly.</li>
+      <li><strong>Failure is part of the story.</strong> Every page includes what most people get wrong and why ventures in that space fail — the parts most "business idea" content leaves out.</li>
+      <li><strong>Sourced, not invented.</strong> Costs and earnings are grounded in public data, industry reports, cost guides, and operator accounts, and presented as ranges rather than false precision.</li>
+    </ul>
+
+    <h2>Independence from advertising</h2>
+    <p>
+      The site is supported by advertising (such as Google AdSense). Advertising is kept separate
+      from our content: ads are clearly labeled, never placed inside the Business Finder or next to
+      the cost and earnings figures, and never disguised as recommendations. Advertisers have no
+      influence over which businesses we cover or what we say about them. Our only obligation is to
+      the reader making a real decision.
+    </p>
+
+    <h2>How we keep pages accurate</h2>
+    <ul>
+      <li>Every business page carries a <strong>last reviewed date</strong> so you can see how current it is.</li>
+      <li>We revisit pages over time to update costs, earnings, regulations, and steps as markets change.</li>
+      <li>Where requirements vary by location (licensing, permits, cottage-food rules), we say so and point you to verify locally rather than asserting a single rule.</li>
+    </ul>
+
+    <h2>Corrections</h2>
+    <p>
+      If you spot a number that looks wrong or out of date — especially if you operate one of these
+      businesses — please tell us via the <a href="/contact">contact page</a>. We take corrections
+      seriously and update pages when a credible issue is raised. Accuracy is the entire point of the
+      site, so flagging an error genuinely helps.
+    </p>
+
+    <h2>The limits of what we publish</h2>
+    <p>
+      Our figures are informed estimates and ranges, not guarantees or personalized advice. We do not
+      know your specific market, skills, or circumstances. Treat every page as a researched starting
+      point for your own due diligence — see our <a href="/disclaimer">disclaimer</a> and
+      <a href="/data-sources">data sources</a>.
+    </p>
+
+    <div style="margin-top: 2rem;">
+      <DisclaimerBox />
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,163 @@
+{
+  "title": "Electronics Repair Business",
+  "slug": "electronics-repair-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start an Electronics Repair Business — Real Costs and Earnings",
+  "metaDescription": "Honest guide to an electronics repair business: laptops, consoles, tablets, and drones. Real startup costs, beginner-to-expert earnings, and what most people get wrong.",
+  "startupCostLow": 1500,
+  "startupCostHigh": 18000,
+  "monthlyEarningsLow": 1500,
+  "monthlyEarningsHigh": 11000,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Patient, detail-oriented tinkerers who enjoy diagnosing and fixing devices and don't mind tedious micro-soldering and trial-and-error",
+  "biggestRisk": "Killing a customer's device mid-repair on a job you priced too low, then eating the replacement cost and the lost trust",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 15,
+  "skills": ["hands", "tech", "people"],
+  "workLocations": ["space", "home", "mobile"],
+  "priorities": ["low-risk", "flexibility", "alongside-job", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "An electronics repair business fixes the devices people don't want to throw away — laptops and MacBooks, game consoles (PlayStation, Xbox, Switch), tablets, drones, monitors, and small consumer electronics. It's broader than a phone-only repair shop: while screen and battery swaps are bread-and-butter, the higher-value work is laptop board-level repair, console power and HDMI port fixes, liquid-damage recovery, data recovery, and drone motor/board repairs. You can run it from a small storefront, a kiosk, your home bench, or a mobile/mail-in model. The economics work because manufacturers make repair hard and replacement expensive, so a good independent repair tech who fixes things others can't — and who is honest about what's worth fixing — earns repeat customers and referrals. Margins are best on labor-heavy, low-parts-cost repairs and weakest on commodity screen swaps where everyone competes on price.",
+  "dailyReality": "A typical day is a queue of intake and diagnosis: figuring out what's actually wrong, quoting realistic costs, and warning customers when a device isn't worth fixing. Then it's bench work — disassembling devices, swapping screens, batteries, and ports, micro-soldering on logic boards, reballing or reflowing components, and reassembling without losing a screw or cracking a frame. You order parts (which can be delayed or counterfeit), test repairs thoroughly, and handle the awkward conversations when a board-level fix uncovers a second fault. Customer communication is constant: status updates, quotes, and managing expectations on data and turnaround. If you run a storefront you also handle walk-ins and foot traffic; a mail-in/mobile model trades that for shipping logistics and scheduling.",
+  "startupCostsItemized": [
+    { "item": "Soldering/rework station, hot air, microscope for board work", "low": 300, "high": 3000 },
+    { "item": "Precision tools, opening kits, programmers, power supply, multimeter", "low": 200, "high": 1500 },
+    { "item": "Test equipment and diagnostic gear (DC supply, USB testers)", "low": 100, "high": 1000 },
+    { "item": "Initial parts inventory (screens, batteries, common components)", "low": 300, "high": 3000 },
+    { "item": "Workbench, ESD mat, organization, storage", "low": 100, "high": 1500 },
+    { "item": "General liability insurance", "low": 400, "high": 1500, "annual": true },
+    { "item": "Storefront/kiosk lease and signage", "low": 0, "high": 6000, "optional": true },
+    { "item": "Business registration, POS/ticketing software, website", "low": 100, "high": 1500 }
+  ],
+  "realEarnings": {
+    "yearOne": "Part-time or home-bench beginners typically make $1,500 to $3,500 per month while building skill and a customer base. The first months are slow as you learn which repairs are profitable and which devices to refuse. Many start from a spare room or kiosk before committing to retail rent.",
+    "experienced": "An established solo operator with a steady flow — through a small shop, strong reviews, and board-level capability — commonly reports $5,000 to $11,000 per month in revenue. The difference from beginners is doing the harder repairs (board-level, data recovery, liquid damage) that competitors send away, where margins are far better than commodity screen swaps.",
+    "topEarners": "Shops with multiple techs, several locations or strong mail-in volume, and B2B contracts (schools, businesses, insurance/warranty work) gross $300,000 to $800,000+ per year. Reaching that means hiring and training skilled techs, managing parts and inventory at scale, and accepting that retail margins are thin and rent is real overhead.",
+    "whatAffectsMost": "Skill level drives margin — board-level and specialty repairs others can't do command premium pricing, while screen-only swaps are a race to the bottom. Parts sourcing (avoiding counterfeits, getting good prices), turnaround time, reviews, and B2B/recurring contracts matter most.",
+    "perHour": "Effective rate ranges widely: commodity screen swaps net maybe $20 to $40 per hour after parts and competition, while skilled board-level repair and data recovery can net $60 to $150+ per hour. Blended, a busy skilled solo tech realistically nets $35 to $75 per hour."
+  },
+  "howToStart": [
+    "First: build real repair skill. Practice on your own and junk/secondhand devices until you can disassemble, swap parts, and do basic soldering without causing damage. Watch teardown guides and start with lower-risk repairs before charging.",
+    "Weeks 1-2: Set up a bench with a soldering/rework station, precision tools, and a small parts inventory of the most common screens and batteries. Register the business and get general liability insurance to cover device damage claims.",
+    "Weeks 2-6: Start taking paid jobs from friends, local Facebook groups, and marketplace listings. Take photos of every device at intake, document its condition, and use a simple ticketing system so nothing gets lost or disputed.",
+    "Months 2-4: Build a Google Business Profile and collect reviews aggressively — repair is a reputation business. Identify which repairs are most profitable in your area and lean into the board-level and specialty work competitors refuse.",
+    "Months 4-12: Decide on a model — home/mail-in for low overhead, or a kiosk/storefront for foot traffic. Pursue B2B repair contracts (schools, small businesses, resellers) for steadier volume, and consider hiring once your queue consistently overflows."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Methodical diagnostic ability — finding the real fault before replacing parts",
+      "Steady hands and patience for delicate disassembly and reassembly",
+      "Honesty to tell customers when a device isn't worth repairing"
+    ],
+    "canLearn": [
+      "Micro-soldering, hot-air rework, and board-level component replacement",
+      "Liquid-damage recovery and basic data recovery techniques",
+      "Parts sourcing, quoting, and ticketing/workflow management"
+    ],
+    "separators": [
+      "Board-level and specialty repairs (console HDMI ports, laptop logic boards, drone boards) that competitors send away",
+      "Reliable parts sourcing that avoids counterfeit components and protects your margin and reputation",
+      "Fast, communicative turnaround and a strong review base that drives steady referrals"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Taking on board-level or liquid-damage jobs before having the skill, then killing the device and eating the replacement cost",
+    "Competing only on commodity screen swaps, where margins are razor-thin and every shop undercuts the next",
+    "Buying cheap counterfeit parts to save money, leading to failed repairs, returns, and damaged reputation",
+    "Not documenting device condition at intake, creating disputes over pre-existing damage or lost data",
+    "Underestimating data-loss liability and failing to set clear expectations about backups before a repair",
+    "Jumping into a retail lease too early, when home-bench or kiosk models would prove demand at far lower risk"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Soldering and hot-air rework station with microscope", "note": "The gateway to profitable board-level work. Quality here pays for itself on hard repairs.", "low": 300, "high": 3000 },
+    { "item": "Precision opening tools, drivers, programmers", "note": "Device-specific kits prevent cracked frames and stripped screws.", "low": 100, "high": 800 },
+    { "item": "Bench DC power supply and multimeter", "note": "Essential for safely diagnosing shorts and board faults before powering a device on.", "low": 100, "high": 600 },
+    { "item": "Parts inventory (screens, batteries, ports, components)", "note": "Stock the highest-demand parts; source from reputable suppliers to avoid counterfeits.", "low": 300, "high": 3000 },
+    { "item": "Ultrasonic cleaner", "note": "For liquid-damage and corrosion recovery — a profitable, lower-competition niche.", "low": 80, "high": 600 },
+    { "item": "ESD-safe workbench, mats, and storage", "note": "Protects sensitive boards and keeps small parts organized.", "low": 100, "high": 1000 },
+    { "item": "POS / ticketing software", "note": "Tracks repairs, intake photos, and customer communication. Prevents lost jobs and disputes.", "low": 0, "high": 600 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A Google Business Profile with strong reviews — the dominant driver for 'repair near me' searches",
+      "Local Facebook groups, Marketplace, and Nextdoor where people ask for repair help",
+      "Specializing in repairs others refuse (consoles, drones, board-level) and ranking for those niche searches",
+      "B2B relationships with schools, small businesses, and device resellers for steady volume",
+      "Referral and warranty arrangements with phone shops or retailers that don't do deeper repairs"
+    ],
+    "whereCustomersAre": "Anyone with a broken device they'd rather fix than replace — gamers with consoles, students and remote workers with laptops, hobbyists with drones, and budget-conscious households. Online searches and local groups are where most active demand surfaces.",
+    "timeToClientBase": "First paid jobs come within two to six weeks of marketing and a working bench. A steady, review-fed flow typically takes three to six months, and B2B contracts that smooth out volume can take six months to a year to land.",
+    "wasteOfTime": "Expensive printed ads and a slick brand before you have any reviews or a proven repair niche. Early on, reviews, before/after proof, and ranking for specific device repairs convert far better than general advertising."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. Many operators reach full-time income within the first year by adding higher-skill repairs and building reviews. The solo ceiling is your bench hours and the queue you can personally clear.",
+    "hireAndStepBack": "Possible but requires training techs to your skill level, which is hard for board-level work. Stepping back means standardized workflows, a ticketing system, and trust that hires won't damage devices or cut corners on parts.",
+    "sellable": "Modestly to moderately. A repair shop with a location, strong reviews, B2B contracts, and documented processes can sell, but much of a solo shop's value lives in the owner's skill and local reputation, which limits the multiple.",
+    "whatScalingRequires": "Trained techs, reliable parts supply chains, a real ticketing/inventory system, and ideally B2B contracts that provide predictable volume. Thin retail margins and counterfeit-parts risk are the main constraints on growth."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You genuinely enjoy diagnosing and fixing devices and have the patience for fiddly work",
+      "You're willing to build real skill, including soldering, rather than only doing easy swaps",
+      "You can be honest with customers about what's worth repairing",
+      "You want a low-to-moderate startup cost with a fast path to first jobs"
+    ],
+    "poorFit": [
+      "You lack patience for tedious, detail-heavy work and trial-and-error diagnosis",
+      "You want a hands-off or purely passive business",
+      "You're unwilling to invest in skill and only want to do commodity screen swaps",
+      "You can't tolerate the liability of occasionally damaging a customer's device"
+    ],
+    "askYourself": [
+      "Am I willing to practice on junk devices and develop soldering skill before charging for hard repairs?",
+      "Will I source genuine parts and document intake carefully to protect my reputation and avoid disputes?",
+      "Can I find a niche (consoles, drones, laptops, data recovery) where I'm not just competing on cheap screen swaps?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is this different from a phone repair business?",
+      "answer": "Phone repair focuses on a narrow set of high-volume, high-competition screen and battery swaps. An electronics repair business is broader — laptops, consoles, tablets, drones, and monitors — with more room for higher-margin board-level and specialty repairs. The wider scope lets you avoid the race-to-the-bottom pricing common in phone-only screen work."
+    },
+    {
+      "question": "Do I need to know how to solder?",
+      "answer": "For basic screen and battery swaps, not much. But the profitable repairs — console HDMI ports, laptop logic boards, drone boards, liquid-damage recovery — require micro-soldering and rework skills. You can start with simpler repairs and build soldering ability over time, which is what separates a low-margin swap shop from a real repair business."
+    },
+    {
+      "question": "Do I need a storefront?",
+      "answer": "No. Many operators start from a home bench or a kiosk to prove demand before taking on retail rent. Mail-in and mobile models keep overhead low while you build skill and reviews. A storefront brings walk-in traffic but adds significant fixed cost, so it's usually a step you grow into."
+    },
+    {
+      "question": "What about parts — where do they come from?",
+      "answer": "Parts come from various suppliers, and quality varies wildly. Cheap counterfeit screens and batteries cause failed repairs, returns, and damaged reputation, so reputable sourcing is worth the higher cost. Build relationships with trusted suppliers and avoid the lowest-bid parts that undercut your work."
+    },
+    {
+      "question": "What's the deal with right-to-repair?",
+      "answer": "Right-to-repair laws and manufacturer programs are gradually improving access to parts, manuals, and tools, which helps independent shops. At the same time, manufacturers still design devices to discourage repair. Staying current on parts availability and repair programs for the devices you service is part of running the business well."
+    },
+    {
+      "question": "How do I handle data and liability?",
+      "answer": "Set clear expectations before any repair: warn customers to back up data, document the device's condition with intake photos, and use a service agreement that limits your liability for pre-existing damage or data loss. General liability insurance and careful documentation protect you when a repair goes wrong, which it occasionally will."
+    },
+    {
+      "question": "Can I do this part-time around a job?",
+      "answer": "Yes — it's one of the more part-time-friendly trades. A home bench lets you take jobs on evenings and weekends, and turnaround can flex around your schedule. The main constraint is communication; customers expect timely status updates and reasonable turnaround even from a part-time operator."
+    }
+  ],
+  "similarBusinesses": [
+    "phone-repair-business",
+    "appliance-repair-business",
+    "it-support-business",
+    "custom-pc-building-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Computer, Automotive, and Electronic Equipment Installers and Repairers (wage data)",
+    "iFixit repairability guides and right-to-repair resources",
+    "Consumer electronics repair cost guides and reseller/parts-supplier pricing references",
+    "Repair operator communities (r/mobilerepair, r/consolerepair, board-repair forums) for real-world pricing and margins"
+  ],
+  "lastReviewed": "2026-06"
+}

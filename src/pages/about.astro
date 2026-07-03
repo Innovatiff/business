@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import DisclaimerBox from '../components/DisclaimerBox.astro';
+import { SITE } from '../config';
+---
+<BaseLayout
+  title="About Honestly Profitable"
+  description="Honestly Profitable is an independent business reference: real startup costs, realistic earnings, and straight talk about difficulty and failure — no courses to sell, no affiliate pressure, and advertising kept fully separate from our content."
+  path="/about"
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
+    <h1>About Honestly Profitable</h1>
+    <p class="lead">A serious, independent reference for anyone genuinely weighing whether — and how — to start a business.</p>
+  </div>
+
+  <div class="container container-narrow page-body">
+    <h2>Why this site exists</h2>
+    <p>
+      Most "business ideas" content online is built to sell you something — a course, a coaching
+      program, an affiliate link, or a dream. The numbers are cherry-picked, the failures are
+      hidden, and the hard parts are glossed over. We built {SITE.name} to be the opposite: a
+      practical, honest reference that respects your intelligence and your real circumstances.
+    </p>
+    <p>
+      Every business we cover gets the same honest treatment — what it actually costs to start,
+      what it realistically earns (broken into beginner, experienced, and top-earner ranges), how
+      long it really takes to see income, what skills it truly requires, and what most people get
+      wrong when they try it. We show the full realistic range, not the best case. If a business is
+      hard, capital-intensive, heavily regulated, or fails often, we say so plainly.
+    </p>
+
+    <h2>What we cover</h2>
+    <p>
+      The site is a growing library of hundreds of in-depth business breakdowns across 14 categories
+      — service businesses, trades, food and beverage, retail, online and technology, health and
+      wellness, real estate, automotive, education and coaching, events, pets, and more. Each
+      breakdown is a full page with itemized startup costs, honest earnings ranges, a step-by-step
+      start plan, the skills required, common mistakes, how to find customers, how the business
+      scales, and a candid "is this right for you?" checklist.
+    </p>
+
+    <h2>What makes us different</h2>
+    <ul>
+      <li><strong>Real startup costs</strong> — itemized and realistic, not estimates pulled from thin air.</li>
+      <li><strong>Realistic earnings</strong> — based on reported data and operator accounts, separated into beginner, experienced, and top-earner outcomes rather than a single best-case number.</li>
+      <li><strong>Honest failure analysis</strong> — what goes wrong, why people quit, and how to avoid it.</li>
+      <li><strong>No courses to sell</strong> — no upsells, no affiliate pressure, no "secret system."</li>
+      <li><strong>Written for real constraints</strong> — real budgets, real time, real skills, real regulations.</li>
+    </ul>
+
+    <h2>Who is behind Honestly Profitable</h2>
+    <p>
+      {SITE.name} is produced by an independent editorial team of writers and researchers who study
+      each business model using public data, industry reports, cost guides, and first-hand operator
+      accounts. We are not affiliated with any of the businesses, franchises, courses, or tools
+      mentioned on the site, and no business pays to be included, ranked higher, or described more
+      favorably. Our detailed process is documented in
+      <a href="/how-we-research-businesses">how we research businesses</a>,
+      <a href="/data-sources">data sources</a>, and our
+      <a href="/editorial-standards">editorial standards</a>.
+    </p>
+
+    <h2>Editorial independence</h2>
+    <p>
+      Our only obligation is to the reader making a real decision. Advertising and any commercial
+      relationship are kept strictly separate from our research: advertisers have no influence over
+      which businesses we cover or what we say about them, ads are clearly labeled, and they are never
+      placed inside the Business Finder or next to the cost and earnings figures where they could
+      confuse a financial decision.
+    </p>
+
+    <h2>How we make money</h2>
+    <p>
+      We believe in being transparent about this. {SITE.name} is supported by advertising. We may
+      display ads from advertising networks (such as Google AdSense) to keep the site free and
+      independent. Ads are clearly labeled, kept away from the data and tools, and never disguised as
+      recommendations. We do not sell courses, and our business breakdowns are not influenced by
+      advertisers. See our <a href="/privacy-policy">Privacy Policy</a> for how advertising cookies
+      work and how to opt out.
+    </p>
+
+    <h2>How to use the site</h2>
+    <ul>
+      <li><strong>Not sure where to start?</strong> The <a href="/find-my-business">Business Finder</a> asks a few honest questions and matches you to businesses that fit your real budget, time, and skills — entirely in your browser, with nothing stored.</li>
+      <li><strong>Have a direction in mind?</strong> Browse <a href="/businesses">all businesses</a> by category, or filter by budget, skill, or time commitment.</li>
+      <li><strong>Comparing options?</strong> Each page's numbers and "is this right for you?" checklist are built to help you rule things in or out honestly.</li>
+    </ul>
+
+    <h2>Our standard</h2>
+    <p>
+      The measure of success for any page on this site is simple: when you finish reading, you
+      should be able to say, "Now I actually know whether this is right for me, and exactly what I
+      need to do to start." Everything we publish is built toward that moment.
+    </p>
+
+    <h2>Corrections and contact</h2>
+    <p>
+      Accuracy is the entire point of the site. If you spot a number that looks wrong or out of date
+      — especially if you operate one of these businesses — please tell us via the
+      <a href="/contact">contact page</a>. We take corrections seriously and update pages when a
+      credible issue is raised.
+    </p>
+
+    <div style="margin-top: 2rem;">
+      <DisclaimerBox />
+    </div>
+
+    <p class="page-updated">Last updated: July 2026 · {SITE.domain}</p>
+  </div>
+</BaseLayout>

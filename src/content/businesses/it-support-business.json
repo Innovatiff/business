@@ -1,0 +1,163 @@
+{
+  "title": "IT Support and Computer Repair Business",
+  "slug": "it-support-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start an IT Support Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting an IT support and computer repair business: real startup costs, realistic earnings, where managed IT money actually comes from, and what most people get wrong.",
+  "startupCostLow": 800,
+  "startupCostHigh": 8000,
+  "monthlyEarningsLow": 1500,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Technically capable people who can also talk to non-technical clients and want a path from break/fix work to recurring contract income",
+  "biggestRisk": "Staying stuck in unpredictable one-off repair work instead of converting clients to recurring managed support contracts",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 10,
+  "skills": ["tech", "people", "sales"],
+  "workLocations": ["mobile", "home", "online"],
+  "priorities": ["max-income", "low-risk", "sellable", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "An IT support and computer repair business fixes the technology problems individuals and small businesses cannot solve themselves: failing hardware, malware, slow PCs, data recovery, network and Wi-Fi setup, email and Microsoft 365 issues, printer and device configuration, and general 'it just stopped working' calls. The work splits into two very different models. Break/fix is reactive: a client calls with a problem, you fix it, you bill for the time or the job. Managed IT services (MSP) is proactive and recurring: you monitor and maintain a small business's computers, servers, backups, and security for a flat monthly fee per device or per user.",
+  "dailyReality": "A typical day mixes scheduled work and interruptions. You might spend the morning on-site at a small office replacing a dead workstation and joining a new laptop to the network, then drive to a home client to remove malware and back up family photos, then handle two or three remote support sessions from your laptop in the afternoon. Around the technical work there is real admin: writing quotes, ordering parts, documenting each client's setup, chasing invoices, and answering 'quick questions' that are rarely quick. Once you have managed clients, a chunk of every week goes to patching, checking backups, and responding to monitoring alerts before the client even notices a problem.",
+  "startupCostsItemized": [
+    { "item": "Reliable laptop and basic diagnostic toolkit (screwdrivers, USB drives, bootable media, anti-static gear)", "low": 400, "high": 1500 },
+    { "item": "Remote support / RMM software (per technician, billed monthly)", "low": 0, "high": 1200, "annual": true },
+    { "item": "Professional services automation / ticketing and invoicing software", "low": 0, "high": 600, "annual": true, "optional": true },
+    { "item": "General liability + errors and omissions insurance", "low": 600, "high": 2000, "annual": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 500 },
+    { "item": "Spare parts, cables, adapters, and initial inventory", "low": 100, "high": 600 },
+    { "item": "Website, Google Business Profile, and basic branding", "low": 0, "high": 800, "optional": true },
+    { "item": "Vendor / certification courses (CompTIA A+, Network+, Microsoft 365)", "low": 0, "high": 1500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most operators in year one earn $1,500 to $4,000 per month, almost entirely from break/fix and hourly residential and small-business work while building trust and a referral base. Part-timers doing this around a job realistically land in the lower half of that range.",
+    "experienced": "Operators with two or more years, a solid reputation, and a handful of recurring contracts commonly report $6,000 to $15,000 per month solo. The shift happens when monthly managed-services revenue starts covering your baseline costs so individual repair calls become upside rather than survival.",
+    "topEarners": "Established MSPs serving 10 to 30 small-business clients, often with one or two technicians, gross $25,000 to $80,000+ per month, with managed contracts and project work (migrations, new networks) layered together. Reaching that takes years of relationship-building, hiring and training staff, and running like a real company rather than a one-person repair shop. Most solo operators never make this jump.",
+    "whatAffectsMost": "The single biggest driver is the ratio of recurring managed revenue to one-off repair work. Per-device or per-user contracts (commonly $50 to $150 per user per month for managed support) create predictable income; break/fix alone keeps you on a treadmill. Niching into a specific industry (dental offices, law firms, accountants) also lets you charge more.",
+    "perHour": "Effective billable rates run $75 to $200 per hour for skilled work, but blended across travel, quoting, documentation, and unbillable admin, realistic all-in rates are often $45 to $110 per hour for solo operators. Managed contracts smooth this out and reward efficiency rather than hours worked."
+  },
+  "howToStart": [
+    "Week 1: Get honest about your skill level. You should already be comfortable with Windows and Mac troubleshooting, basic networking, and common business tools like Microsoft 365 before charging anyone. Set up an LLC, get general liability and errors-and-omissions insurance, and create a simple website and Google Business Profile.",
+    "Weeks 2 to 4: Choose remote support and (eventually) RMM tools, and write clear pricing — an hourly rate, a flat residential diagnostic fee, and a draft managed-services per-user price. Tell everyone you know you are open for business and offer to help a few small businesses or nonprofits at a fair rate to build references and reviews.",
+    "Month 1 to 2: Take on break/fix and residential work to generate cash and reviews while documenting every client's setup carefully. Treat each small-business repair as a chance to point out gaps (no backups, no patching, weak passwords) that a managed plan would solve.",
+    "Months 2 to 6: Convert your best small-business clients to recurring managed contracts. Even two or three contracts that cover your baseline costs change the business entirely. Build relationships with local accountants, real estate offices, and other small firms who refer one another.",
+    "Months 6 to 12: Standardize your onboarding, tools, and documentation so each new managed client is profitable and consistent. Decide whether to niche into an industry and whether you eventually need a second technician."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid hands-on troubleshooting across Windows, Mac, basic networking, and common business software",
+      "The patience and people skills to explain technical problems to non-technical clients without condescension",
+      "Reliability and clear communication — clients judge you on response time and follow-through, not just technical skill"
+    ],
+    "canLearn": [
+      "RMM, ticketing, and remote-support tooling (most have good documentation and short learning curves)",
+      "Pricing and packaging managed-services contracts profitably",
+      "Microsoft 365 / Google Workspace administration and basic cybersecurity hygiene for clients"
+    ],
+    "separators": [
+      "Selling proactive managed contracts instead of waiting for things to break, which is where predictable income lives",
+      "Documentation discipline so any client's environment can be understood quickly — this is what lets you scale or sell",
+      "Niching into an industry and speaking its language, which justifies premium pricing and drives referrals"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Staying purely break/fix forever, so income is unpredictable and every month starts from zero",
+    "Underpricing residential repairs and competing with big-box stores instead of targeting small businesses that value reliability",
+    "Skipping errors-and-omissions insurance, then facing a client who blames you for lost data or downtime",
+    "Failing to document client environments, which turns every return visit into rediscovery and makes hiring or selling impossible",
+    "Saying yes to every odd request (printers, smart TVs, a relative's phone) and never building a focused, profitable service",
+    "Not setting and enforcing a real backup and patching process for managed clients, then carrying the blame when something fails"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Remote monitoring and management (RMM) platform", "note": "The backbone of managed services — lets you patch, monitor, and support clients remotely. Adopt it as you take on contracts, not on day one.", "low": 0, "high": 100 },
+    { "item": "Remote support tool", "note": "For ad-hoc remote sessions. Several reputable options with free or low-cost tiers exist; start cheap.", "low": 0, "high": 50 },
+    { "item": "Ticketing / PSA and invoicing software", "note": "Keeps requests, time, and billing organized once you have more than a few clients.", "low": 0, "high": 60 },
+    { "item": "Hardware toolkit and bootable diagnostic media", "note": "Screwdrivers, anti-static gear, USB drives, spare cables. Cheap and essential for on-site work.", "low": 80, "high": 300 },
+    { "item": "Reliable laptop and a few spare parts", "note": "Your primary tool plus common parts (RAM, SSDs, cables) you can swap on-site.", "low": 400, "high": 1500 },
+    { "item": "Documentation / password management platform", "note": "For securely storing each client's configuration and credentials — what separates a real MSP from a repair guy.", "low": 0, "high": 80 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Referrals from existing happy clients and from other local professionals (accountants, bookkeepers, real estate agents) who serve the same small businesses",
+      "A Google Business Profile with reviews, which captures local 'computer repair near me' and 'IT support' searches",
+      "Networking through local business groups, chambers of commerce, and BNI-style referral organizations",
+      "Partnering with web designers, bookkeepers, and other service providers who regularly meet small businesses needing IT help",
+      "Targeting a specific industry vertical and getting known as the IT person for that niche"
+    ],
+    "whereCustomersAre": "Small businesses with 3 to 30 employees that have no in-house IT person are the ideal managed-services clients, along with home and home-office users for higher-volume break/fix work. The best clients usually come through trusted referrals rather than cold search.",
+    "timeToClientBase": "Break/fix and residential calls can start within a few weeks of marketing. Building a stable base of recurring managed clients realistically takes six months to two years, because businesses switch IT providers slowly and only after they trust you.",
+    "wasteOfTime": "Broad paid advertising and competing on price for cheap residential virus removals burns time for low margins. Early effort is far better spent on relationships, referrals, and converting small-business clients to recurring contracts."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A solo operator can reach full-time income, and the path is clearer than most service businesses because managed contracts create predictable monthly revenue rather than relying on a constant flow of new jobs.",
+    "hireAndStepBack": "Yes, and this business scales better than most trades because work can be delivered remotely and standardized. Hiring a second technician lets you take on more managed clients, but it requires strong documentation, processes, and a willingness to move from doing tickets to managing people and clients.",
+    "sellable": "MSPs with documented recurring contracts are genuinely sellable and often command healthy multiples because buyers value predictable monthly revenue. A pure break/fix shop with no contracts and everything in the owner's head is much harder to sell.",
+    "whatScalingRequires": "Standardized onboarding and tooling, thorough documentation, a profitable per-user pricing model, and eventually staff. The hard part is shifting from being the technician to building repeatable systems and selling contracts rather than fixing each problem yourself."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You already have real troubleshooting skills and enjoy solving messy technical problems",
+      "You can stay calm and clear with frustrated, non-technical people",
+      "You want recurring, predictable income and are willing to sell managed contracts to get it",
+      "You are organized enough to document client environments and follow through reliably"
+    ],
+    "poorFit": [
+      "You have little hands-on IT experience and expect to learn entirely on paying clients",
+      "You dislike sales and refuse to pitch proactive contracts, so you stay stuck in break/fix",
+      "You want fully passive income with no client communication or on-call responsibility",
+      "You will not invest in insurance, documentation, or proper backup and security practices"
+    ],
+    "askYourself": [
+      "Am I genuinely competent enough today that small businesses can rely on me, or do I need to build skills first?",
+      "Am I willing to do the unglamorous work of selling and managing recurring contracts, not just fixing computers?",
+      "Can I tolerate being the person clients call when their business is down, sometimes outside normal hours?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need certifications to start an IT support business?",
+      "answer": "No certification is legally required, but credentials like CompTIA A+, Network+, and Microsoft 365 certifications build credibility and can help you win business clients who want reassurance. More important than any certificate is demonstrable hands-on competence and references. Certifications help most when you are new and have little track record to point to."
+    },
+    {
+      "question": "What is the difference between break/fix and managed services?",
+      "answer": "Break/fix means a client calls when something is broken and you bill for the repair — reactive and unpredictable. Managed services (MSP) means you proactively monitor, patch, and maintain a client's systems for a recurring monthly fee, usually priced per user or per device. Managed services is where stable, scalable income comes from, and converting clients to it is the core growth strategy."
+    },
+    {
+      "question": "How much can I charge for managed IT support?",
+      "answer": "Managed support is commonly priced at roughly $50 to $150 per user per month or a comparable per-device rate, depending on the services included and your market. A small business with 15 employees might pay $1,500 to $3,000+ per month. Pricing per user keeps revenue predictable and scales with the client as they grow."
+    },
+    {
+      "question": "Can I run this part-time around a full-time job?",
+      "answer": "Break/fix and residential repair work fits reasonably well around a job, especially evenings and weekends. Managed contracts are harder part-time because clients expect timely responses during business hours, so the proactive, higher-value side of the business usually requires you to be more available. Many operators start part-time and go full-time once recurring revenue justifies it."
+    },
+    {
+      "question": "Why do so many IT support businesses stay small or struggle?",
+      "answer": "Most get stuck in reactive break/fix work that never produces predictable income, undercharge for their time, and fail to document or systematize anything. Without recurring contracts and good processes, the owner is permanently on a treadmill and cannot hire, step back, or sell. The businesses that thrive deliberately build managed-services revenue and run like real companies."
+    },
+    {
+      "question": "Do I need insurance for an IT business?",
+      "answer": "Yes. General liability and errors-and-omissions (professional liability) insurance are important because you handle clients' data, systems, and uptime. If a backup fails or a configuration mistake causes downtime or data loss, a client may hold you responsible. The annual cost is modest relative to the risk."
+    },
+    {
+      "question": "Is computer repair a dying business with cheap hardware and the cloud?",
+      "answer": "Pure consumer device repair has shrunk as hardware got cheaper and disposable, so competing there is tough. But small businesses still need someone to manage their technology, security, backups, and cloud services, and that demand is steady. The opportunity has shifted from fixing broken laptops toward ongoing managed support and security for small businesses."
+    }
+  ],
+  "similarBusinesses": [
+    "web-development-business",
+    "cybersecurity-consulting-business",
+    "bookkeeping-business",
+    "virtual-assistant-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Computer Support Specialists occupational data and self-employment trends",
+    "CompTIA — IT industry and managed-services market reports",
+    "MSP industry surveys and pricing benchmarks (per-user and per-device managed-services rates)",
+    "Operator communities (r/msp, r/sysadmin, r/computertechs) for real-world pricing, contracts, and earnings",
+    "Small-business IT cost guides for typical break/fix and managed-support price ranges"
+  ],
+  "lastReviewed": "2026-06"
+}

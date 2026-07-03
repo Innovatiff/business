@@ -1,0 +1,162 @@
+{
+  "title": "Domain Investing Business",
+  "slug": "domain-investing-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start Domain Investing — Real Costs, Earnings, and Risks",
+  "metaDescription": "Honest breakdown of domain investing: real capital and renewal costs, realistic earnings, why most domains never sell, and the patience and skill it actually requires.",
+  "startupCostLow": 500,
+  "startupCostHigh": 10000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 4000,
+  "timeToFirstIncome": "4 to 18 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Patient people with spare capital they can afford to tie up, who enjoy market research and can stomach holding costs on assets that may never sell",
+  "biggestRisk": "Buying names nobody wants — the large majority of domains never sell, and renewal fees slowly bleed a portfolio that lacks genuinely valuable names",
+  "speedToIncome": "long",
+  "minWeeklyHours": 5,
+  "skills": ["sales", "finance"],
+  "workLocations": ["home", "online"],
+  "priorities": ["alongside-job", "flexibility", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "Domain investing means buying internet domain names you believe others will want, then selling them at a profit. Names get value from being short, brandable, keyword-rich, a desirable extension (.com still dominates), or matching a real business need. Investors buy through registrars and auctions, hold names by paying annual renewal fees, and try to sell to end users (businesses that want the name) or other investors via marketplaces like Sedo, Afternic, Dan.com/GoDaddy, and auction platforms. It is essentially speculation in digital real estate: most names you buy will not sell, a few may sell modestly, and the occasional name covers many losses. It rewards patience, market knowledge, and capital, not hustle.",
+  "dailyReality": "There is no daily grind of client work. A typical week means researching and hand-registering or bidding on names, monitoring expiring-domain auctions, listing inventory on marketplaces with pricing, and fielding occasional inquiries — most of which are lowball offers or go nowhere. You spend a lot of time saying no to bad buys and waiting. Sales are infrequent and unpredictable; you might hold a name for years before an end user appears, or never. The work is research-heavy and analytical, and the hardest part psychologically is paying renewals every year on names that have not sold and may never.",
+  "startupCostsItemized": [
+    { "item": "Initial domain acquisition budget (your inventory)", "low": 300, "high": 8000 },
+    { "item": "Annual renewal fees (recurring, scales with portfolio size)", "low": 100, "high": 2000, "annual": true },
+    { "item": "Registrar / marketplace accounts (GoDaddy, Namecheap, Sedo, Afternic)", "low": 0, "high": 0 },
+    { "item": "Domain appraisal and research tools (NameBio, Estibot, GoDaddy data)", "low": 0, "high": 300, "annual": true, "optional": true },
+    { "item": "Escrow / transaction fees (per sale, marketplace commission 10-25%)", "low": 0, "high": 0 },
+    { "item": "Business registration / LLC", "low": 0, "high": 300, "optional": true },
+    { "item": "Landing page / for-sale page hosting", "low": 0, "high": 100, "annual": true, "optional": true },
+    { "item": "Auction deposits for premium name bidding", "low": 0, "high": 1000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most beginners earn $0 in their first year — and many lose money once renewal fees are counted, because they buy names that do not sell. A realistic, disciplined first year might produce a handful of small sales ($100 to $1,500 each) that roughly offset or slightly exceed acquisition and renewal costs. Treat year one as tuition: you are learning what sells.",
+    "experienced": "Investors with a few years of experience, a refined portfolio, and good buying discipline commonly net $1,000 to $4,000 per month on average, though it is lumpy — months of nothing punctuated by occasional sales. Net profit depends heavily on keeping renewal costs disciplined and not over-holding dead inventory.",
+    "topEarners": "Top full-time domain investors with large portfolios, capital, and years of market knowledge clear $10,000 to $50,000+ per month, occasionally landing five- or six-figure single sales. Reaching that took substantial capital, deep market expertise, large diversified inventory, and years of compounding. It is a small minority, and even they hold many names that never sell.",
+    "whatAffectsMost": "Buying discipline matters most — paying little for names with genuine end-user demand, and avoiding the emotional over-buying that bleeds a portfolio through renewals. Capital, patience, and the ability to value names realistically separate profitable investors from hobbyists with a folder of worthless domains.",
+    "perHour": "There is no meaningful hourly rate; returns are on capital and judgment, not time. The research is part-time, but money is made (or lost) on which names you buy and how cheaply, not on hours worked. Many investors find their effective return on time is poor unless they hit occasional larger sales."
+  },
+  "howToStart": [
+    "Month 1: Learn the fundamentals before spending real money — study sold-price data on NameBio, understand what gives a name value (length, .com, brandability, keyword demand), and set a strict budget you can afford to tie up for years. Open accounts at a registrar and the main marketplaces (Sedo, Afternic/GoDaddy, Dan).",
+    "Months 1-3: Start small. Hand-register or buy a handful of inexpensive names with clear end-user logic — a real business type would plausibly want them. Avoid trademarked terms and trendy junk. List everything for sale immediately with realistic pricing and a for-sale landing page.",
+    "Months 3-12: Track what gets inquiries and what sits dead. Drop (let expire) names that show no interest rather than renewing losers. Reinvest any proceeds into better-quality names as your eye for value improves.",
+    "Year 1-2: Refine your buying criteria ruthlessly based on actual sales and inquiries. Keep renewal costs disciplined, diversify across name types, and be patient — good names can take years to find their buyer.",
+    "Ongoing: Treat it as a long-term portfolio. Prune dead inventory annually, respond professionally to inquiries without revealing desperation, and only scale spending once you have a proven, repeatable buying edge."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Patience and the temperament to hold illiquid assets for years without panicking",
+      "Capital you can genuinely afford to tie up and potentially lose",
+      "Realistic valuation judgment — distinguishing names with true end-user demand from names only you like"
+    ],
+    "canLearn": [
+      "How to research sold-price comparables (NameBio) and read the domain market",
+      "Marketplace listing, pricing, and escrow/transaction mechanics",
+      "Negotiation with end-user buyers without underselling or scaring them off"
+    ],
+    "separators": [
+      "Buying discipline — acquiring genuinely demanded names cheaply and saying no to the rest",
+      "Deep market knowledge of pricing, extensions, and end-user behavior in specific niches",
+      "Patience and capital to hold quality names until the right buyer appears, rather than dumping at a loss"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Buying names they personally like that have no real end-user demand, then renewing them for years at a loss",
+    "Underestimating cumulative renewal fees, which quietly bleed a portfolio of names that never sell",
+    "Registering trademarked or brand-infringing names, risking disputes (UDRP) and legal trouble",
+    "Expecting quick flips — most names take a long time to sell if they sell at all, and the majority never do",
+    "Overpaying at auctions in bidding wars, destroying the margin a name could ever produce",
+    "Treating it as easy passive income rather than a capital-intensive, research-heavy speculation where most bets fail"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Registrar account (GoDaddy, Namecheap, Porkbun)", "note": "Where you buy and hold names. Compare renewal pricing — it adds up across a portfolio.", "low": 0, "high": 0 },
+    { "item": "Sales marketplaces (Sedo, Afternic, Dan/GoDaddy)", "note": "Where end users and other investors find your listings. Commissions run roughly 10-25% per sale.", "low": 0, "high": 0 },
+    { "item": "NameBio (sold-price research)", "note": "Essential for grounding valuations in what names have actually sold for, not wishful thinking.", "low": 0, "high": 200 },
+    { "item": "Estibot or similar appraisal tool", "note": "A rough screening aid only. Automated appraisals are unreliable; use them as one input, never gospel.", "low": 0, "high": 150 },
+    { "item": "Escrow service (Escrow.com)", "note": "Protects both sides on larger private sales. Standard for transactions outside marketplace systems.", "low": 0, "high": 0 },
+    { "item": "For-sale landing pages", "note": "Lets buyers who type your domain see it is available and inquire. Many marketplaces provide these free.", "low": 0, "high": 100 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Listing names on major marketplaces (Sedo, Afternic, Dan/GoDaddy) so buyers searching for them find your inventory",
+      "For-sale landing pages on each domain so direct-navigation visitors can inquire",
+      "Expiring and auction marketplaces where other investors and end users transact",
+      "Occasional, careful outbound outreach to businesses that would obviously benefit from a name you own",
+      "Building relationships within domain investor communities for wholesale buying and selling"
+    ],
+    "whereCustomersAre": "End-user buyers are businesses, startups, and individuals who want a specific name for branding — they typically find names by searching marketplaces or typing the domain directly. Other buyers are fellow investors trading inventory. You rarely have to hunt; the marketplaces and landing pages surface inbound interest, most of which is low or unserious.",
+    "timeToClientBase": "Sales are infrequent and unpredictable. A first sale can take months to over a year, and many names never sell. There is no steady 'client base' — you build a portfolio and wait for buyers, so cash flow is lumpy and patience is mandatory.",
+    "wasteOfTime": "Aggressive cold-emailing of businesses with inflated prices usually backfires and can look spammy or extortionate. Building a brand or social following to sell domains rarely helps; marketplace presence, sound buying, and patience matter far more than promotion."
+  },
+  "howItScales": {
+    "toFullTime": "Possible but capital-intensive and slow. Reaching full-time income requires significant capital, a large quality portfolio, deep market knowledge, and years of compounding sales. It scales with money and judgment more than effort, and it remains lumpy and unpredictable even for full-timers.",
+    "hireAndStepBack": "Hard to delegate the core skill — buying decisions are where value is made or lost, and that judgment is difficult to hand off. Listing, renewals, and admin can be outsourced, but the business is essentially your eye for value and your capital. It is more of a solo investment activity than a staffed company.",
+    "sellable": "The portfolio itself is a sellable asset — domains can be sold individually or in bulk, and quality names have real resale value. Whole portfolios occasionally change hands. But selling at a good price requires the names to actually be desirable, which loops back to having bought well in the first place.",
+    "whatScalingRequires": "More capital, a proven and repeatable buying edge, disciplined renewal management to avoid bleeding on dead names, and diversified quality inventory. Without a genuine valuation edge, adding more capital just means losing money faster."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have spare capital you can tie up for years and afford to lose part of",
+      "You enjoy market research and analytical, patient decision-making",
+      "You can hold illiquid assets calmly and resist emotional over-buying",
+      "You want a flexible side activity that demands judgment more than ongoing hours"
+    ],
+    "poorFit": [
+      "You need income soon or cannot afford to lose your capital",
+      "You are impatient or expect quick flips and reliable cash flow",
+      "You buy emotionally and would renew names you personally like regardless of demand",
+      "You want active, people-facing work rather than solitary speculation"
+    ],
+    "askYourself": [
+      "Can I afford to tie up this capital for years, knowing most names may never sell?",
+      "Do I have, or can I build, a genuine edge in valuing names better than the crowd?",
+      "Will I stay disciplined about dropping dead inventory instead of renewing losers out of attachment?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What percentage of domains actually sell?",
+      "answer": "A small fraction. Most investors see only a low single-digit percentage of their portfolio sell in any given year, and many individual names never sell at all. This is the central reality of domain investing: profit comes from the few names that do sell covering the renewal costs of the many that do not. If you cannot accept that most of your buys will be duds, this is not for you."
+    },
+    {
+      "question": "How much money do I need to start domain investing?",
+      "answer": "You can technically start with a few hundred dollars hand-registering inexpensive names, but realistically you want capital you can afford to tie up for years — often $500 to several thousand for a meaningful starter portfolio. Just as important is budgeting for ongoing annual renewals, which accumulate as your portfolio grows and can quietly erode returns if you hold too many non-selling names."
+    },
+    {
+      "question": "Is .com still the only extension worth buying?",
+      "answer": "Not the only one, but .com remains by far the most valuable and liquid for end-user sales — businesses overwhelmingly prefer it. Some newer extensions and country codes have niche value, but they are riskier and harder to sell. Beginners are generally safest focusing on quality .com names with clear end-user demand rather than speculating on trendy new extensions."
+    },
+    {
+      "question": "Can I get in legal trouble buying domains?",
+      "answer": "Yes, if you register names containing trademarks or established brand terms. Trademark holders can file UDRP disputes or sue, and you can lose the name and face costs. Avoid registering anything that incorporates an existing brand, product name, or trademark. Stick to generic, descriptive, or brandable names with no infringement risk."
+    },
+    {
+      "question": "How long does it take to sell a domain?",
+      "answer": "It varies enormously and is unpredictable. Some names sell within months; many take years; a large share never sell. Sales are lumpy — you may go months with nothing, then close one. Because of this, domain investing requires patience and capital to hold names while waiting for the right buyer, and it does not produce steady monthly income."
+    },
+    {
+      "question": "Are automated domain appraisals reliable?",
+      "answer": "No, not on their own. Tools like Estibot give rough estimates, but automated appraisals are frequently far off in both directions. The most reliable grounding is actual sold-price data (NameBio) for comparable names, plus your own judgment about real end-user demand. Treat appraisal numbers as one weak signal, never as a price you can count on."
+    },
+    {
+      "question": "Is domain investing passive income?",
+      "answer": "Only loosely. Holding names is passive in the sense that you are mostly waiting, but it is capital-intensive speculation, not a reliable income stream. You pay renewals continuously, most names never sell, and cash flow is lumpy and unpredictable. It is better understood as illiquid investing in digital real estate than as a steady passive-income business."
+    }
+  ],
+  "similarBusinesses": [
+    "website-flipping-business",
+    "niche-website-blog-business",
+    "thrift-flipping-business",
+    "affiliate-marketing-business"
+  ],
+  "dataSources": [
+    "NameBio — historical domain sale price database",
+    "Domain marketplace data and commission structures (Sedo, Afternic/GoDaddy, Dan)",
+    "Domain investor communities (NamePros) for reported buying, holding, and selling outcomes",
+    "ICANN UDRP and trademark dispute documentation for legal-risk context"
+  ],
+  "lastReviewed": "2026-06"
+}

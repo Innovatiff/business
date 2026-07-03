@@ -1,0 +1,162 @@
+{
+  "title": "Shed and Outbuilding Construction Business",
+  "slug": "shed-building-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Shed Building Business — Real Costs and Earnings",
+  "metaDescription": "An honest guide to starting a shed and outbuilding construction business: real startup costs, material risk, realistic earnings, permits, and what builders get wrong.",
+  "startupCostLow": 3000,
+  "startupCostHigh": 25000,
+  "monthlyEarningsLow": 3000,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "3 to 8 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Skilled carpenters who can build square, level, and weather-tight structures and want project-based work with strong per-job revenue",
+  "biggestRisk": "Underbidding a build, then absorbing material price swings, change orders, and weather delays that turn a profitable job into a loss",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 20,
+  "skills": ["hands", "people", "finance"],
+  "workLocations": ["mobile", "space"],
+  "priorities": ["max-income", "sellable", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A shed and outbuilding construction business designs and builds backyard structures — storage sheds, garden buildings, workshops, she-sheds, small barns, and increasingly home-office and studio outbuildings. Work is either built on site or constructed in a shop and delivered. It sits between a handyman service and full general contracting: the structures are simple enough to build solo or with one helper, but they must be square, level, properly anchored, and weather-tight, and many jurisdictions require permits above a certain size.",
+  "dailyReality": "A typical project runs a few days to a couple of weeks. You meet the customer, assess the site and drainage, design or spec the building, order materials, and then frame the floor, walls, and roof, sheath and side it, install roofing, doors, and trim, and finish details. On-site days are full days of cutting, lifting, fastening, and problem-solving around uneven ground and access. Between builds you spend time quoting, sourcing materials, scheduling deliveries, and handling permit paperwork. Weather dictates the calendar more than you would like.",
+  "startupCostsItemized": [
+    { "item": "Truck and trailer for materials and tools", "low": 0, "high": 12000, "optional": true },
+    { "item": "Framing and finish tools (saws, nailers, levels, drills)", "low": 800, "high": 4000 },
+    { "item": "Compressor, generator, and extension equipment", "low": 300, "high": 1500 },
+    { "item": "General liability insurance", "low": 800, "high": 2500, "annual": true },
+    { "item": "Contractor license / bonding (where required)", "low": 100, "high": 1500 },
+    { "item": "Business registration / LLC", "low": 50, "high": 400 },
+    { "item": "First-job material float (before customer deposit covers it)", "low": 1000, "high": 4000 },
+    { "item": "Website, photos, and design/estimating software", "low": 0, "high": 600, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "A skilled solo builder in year one typically nets $3,000 to $6,000 per month once jobs are flowing, with wide swings between a busy build month and a slow or weather-stalled one. Mispriced early jobs commonly eat most of the profit while you learn true costs.",
+    "experienced": "Established builders with a portfolio, good lead flow, and a helper commonly net $6,000 to $12,000 per month in season. Revenue per build ranges widely — a basic storage shed grosses a few thousand dollars while a finished studio outbuilding can gross $15,000 to $40,000+.",
+    "topEarners": "Operators running a small crew or a shop that prefabs and delivers buildings, plus selling higher-end office and ADU-adjacent structures, can gross $40,000 to $120,000+ per month seasonally. Reaching that requires crews, a build space, material handling, and managing cash flow across many simultaneous jobs.",
+    "whatAffectsMost": "Accurate bidding and material cost control dominate profit. Lumber and panel prices move, jobs hit surprises in the ground, and customers add changes — builders who quote tightly without contingency lose money even on good-looking jobs.",
+    "perHour": "Effective rate for a skilled solo builder commonly runs $50 to $120 per hour of build time, but unpaid quoting, sourcing, and weather downtime pull realistic blended rates to roughly $40 to $90 per hour."
+  },
+  "howToStart": [
+    "Weeks 1-2: Confirm you can build square, level, and weather-tight — frame a shed for yourself or a friend first if you are unsure. Research local permit thresholds (many areas exempt small sheds but require permits and setbacks above a size). Get general liability insurance and any required license.",
+    "Weeks 2-4: Define a few standard models and sizes with known material lists so you can quote fast and accurately. Build one or two demonstration sheds and photograph them thoroughly from foundation to finish.",
+    "Weeks 4-8: Set pricing with a real material contingency and a clear deposit-and-progress payment schedule. List on a Google Business Profile, post builds in local groups, and approach landscapers and real estate agents for referrals. Close your first paid build.",
+    "Months 2-4: Track actual material and labor on every job against your estimate to calibrate pricing. Add a helper for framing and roofing days, and decide whether shop-building and delivery suits your market.",
+    "Months 4-12: Build a referral pipeline and review base, standardize contracts and change-order handling, and expand toward higher-value finished outbuildings as your reputation grows."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid carpentry — framing, roofing, siding, and finishing to a weather-tight standard",
+      "Accurate estimating and material takeoffs",
+      "Basic knowledge of foundations, anchoring, and site drainage"
+    ],
+    "canLearn": [
+      "Local permit and setback rules and how to file",
+      "Standardizing models for faster, more predictable builds",
+      "Reading the ground and handling uneven or hard-to-access sites"
+    ],
+    "separators": [
+      "Bidding with realistic contingencies so material swings and surprises do not erase profit",
+      "Clean, well-detailed finish work and design options that justify premium pricing",
+      "Efficient repeatable build systems and reliable subs or a helper for the heavy days"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underbidding with no material contingency, then losing money when lumber prices rise or the job hits surprises",
+    "Skipping permits and setbacks, leading to stop-work orders, fines, or forced teardown",
+    "Building on poor foundations or unaddressed drainage, so the structure settles, racks, or rots",
+    "No written contract or change-order process, so customer additions become free work",
+    "Underestimating weather and access delays when promising timelines",
+    "Competing on price against big-box prefab kits instead of selling custom quality and durability"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Framing nailer and compressor", "note": "Dramatically speeds framing and roofing; the core productivity tool.", "low": 250, "high": 900 },
+    { "item": "Circular saw, miter saw, and table saw", "note": "Accurate cuts make square, tight builds; a miter saw is essential for trim.", "low": 300, "high": 1500 },
+    { "item": "Levels, squares, and laser level", "note": "Foundations and walls must be square and level or everything downstream fails.", "low": 80, "high": 500 },
+    { "item": "Cordless drills/drivers and impact", "note": "Decking, fasteners, and hardware; battery redundancy keeps a build moving.", "low": 150, "high": 600 },
+    { "item": "Truck and utility trailer", "note": "For hauling materials and tools to site; rent at first if you can.", "low": 0, "high": 12000 },
+    { "item": "Generator and ladders", "note": "Power on sites without it, plus safe roof and wall access.", "low": 200, "high": 1200 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A Google Business Profile and portfolio site with detailed before/after build photos",
+      "Referrals from landscapers, fence builders, and real estate agents who hear customers ask",
+      "Local Facebook groups, Nextdoor, and marketplace listings showing finished builds",
+      "Yard signs at completed projects and door hangers in the surrounding neighborhood",
+      "Targeted outreach to homeowners adding home offices, workshops, or storage"
+    ],
+    "whereCustomersAre": "Suburban and rural homeowners needing storage, workshops, or home-office space, plus people on larger lots wanting garden buildings or small barns. Demand rises in spring and summer and around home improvements and remote-work needs.",
+    "timeToClientBase": "First builds typically land within three to eight weeks of marketing with a portfolio. A steady, referral-fed pipeline usually develops over four to eight months as finished buildings become visible and reviewed.",
+    "wasteOfTime": "Competing on price with big-box prefab shed kits and broad untargeted ads. Early on, strong photos of real builds and local referrals convert far better than generic advertising."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, readily, in the right market. Per-build revenue is high enough that a skilled solo builder with steady leads reaches full-time income, limited mainly by how many builds the season and your capacity allow.",
+    "hireAndStepBack": "Achievable with systems. Standard models, a build crew or shop team, and a foreman let you step toward selling and managing. Quality control and accurate bidding must be systematized or margins slip across jobs.",
+    "sellable": "A business with standard models, a portfolio, a shop, equipment, and a referral pipeline has real resale value beyond just tools. The more it runs on documented systems rather than your hands, the more it is worth.",
+    "whatScalingRequires": "A build space for prefab and delivery, material handling and storage, trained crew, disciplined estimating, and working capital to float materials across multiple simultaneous jobs. Cash flow and labor are the usual constraints."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real carpentry skills and can build square, level, and weather-tight",
+      "You can estimate materials and labor accurately and bid with contingency",
+      "You want high per-job revenue and project-based work",
+      "You can manage weather, scheduling, and site surprises calmly"
+    ],
+    "poorFit": [
+      "You want light part-time work around a full-time job",
+      "You are uncomfortable estimating and absorbing material price risk",
+      "You lack the carpentry foundation to deliver durable structures",
+      "You cannot float material costs before customer payments arrive"
+    ],
+    "askYourself": [
+      "Can I bid a build accurately and protect myself against material swings and change orders?",
+      "Do I understand my local permit, setback, and foundation requirements?",
+      "Do I have the cash flow to buy materials before the job pays out?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a contractor license to build sheds?",
+      "answer": "It depends on your state and the job value. Many areas allow small storage sheds under a certain size without a permit or license, but larger outbuildings, anything with electrical or plumbing, or jobs above a dollar threshold often require a contractor license and permits. Always confirm local thresholds and setback rules before building."
+    },
+    {
+      "question": "Should I build on site or prefab in a shop and deliver?",
+      "answer": "Both models work. On-site building handles tight access and custom sites but is weather-dependent and slower. Shop-building lets you work year-round and deliver finished or panelized units, but requires a build space and a way to transport and set buildings. Many solo builders start on site and add shop capacity as they scale."
+    },
+    {
+      "question": "How do I compete with cheap big-box shed kits?",
+      "answer": "Do not compete on price with mass-produced kits. Sell custom sizing, better materials, proper foundations and anchoring, finished interiors, and durability. The homeowners who want a real workshop, studio, or matching outbuilding are buying quality and fit, not the lowest sticker price."
+    },
+    {
+      "question": "What is the biggest financial risk?",
+      "answer": "Underbidding. Lumber and panel prices move, the ground hides surprises, and customers request changes mid-build. Without a material contingency, a deposit-and-progress payment schedule, and a written change-order process, a job that looked profitable on paper can finish at a loss."
+    },
+    {
+      "question": "How much can I make per shed?",
+      "answer": "It varies enormously with size and finish. A basic storage shed might gross a few thousand dollars; a finished she-shed or workshop can gross five figures; a fully finished home-office or studio outbuilding can reach $15,000 to $40,000 or more. Margins depend heavily on accurate bidding and efficient builds."
+    },
+    {
+      "question": "Is this seasonal work?",
+      "answer": "Yes in most climates. Spring through fall is busiest, and rain, cold, and frozen or muddy ground slow on-site work in winter. Shop-building smooths the calendar, and some builders fill slow periods with related carpentry, decks, or fence work."
+    },
+    {
+      "question": "Can I do this solo or do I need a crew?",
+      "answer": "Many builds are doable solo or with one helper, especially with standardized designs and good tools. Roofing days, wall raising, and delivery are far easier with help. A crew becomes necessary mainly when you take on multiple simultaneous builds or larger structures."
+    }
+  ],
+  "similarBusinesses": [
+    "deck-building-business",
+    "fence-installation-business",
+    "custom-carpentry-business",
+    "hardscaping-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Carpenters and Construction Laborers wage and employment data",
+    "Angi / HomeAdvisor — Shed and Outbuilding Cost Guides (reported build and material pricing)",
+    "RSMeans and lumber price indices for material cost trends",
+    "Builder and contractor communities (r/Construction, carpentry forums) for real-world bidding and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

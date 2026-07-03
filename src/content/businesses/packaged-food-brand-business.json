@@ -1,0 +1,165 @@
+{
+  "title": "Packaged Food Brand Business",
+  "slug": "packaged-food-brand-business",
+  "category": "food-and-beverage",
+  "metaTitle": "How to Start a Packaged Food Brand — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of launching a packaged food brand (CPG): real startup costs, FDA labeling and co-packer realities, thin margins and slotting fees, and what most founders get wrong.",
+  "startupCostLow": 5000,
+  "startupCostHigh": 150000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 8000,
+  "timeToFirstIncome": "4 to 12 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Founders with a genuinely differentiated product, patience for slow margins, and the stomach for the retail and distribution grind",
+  "biggestRisk": "Scaling production and inventory faster than real demand, then drowning in unsold stock, slotting fees, and thin margins before the brand catches on",
+  "speedToIncome": "long",
+  "minWeeklyHours": 30,
+  "skills": ["food", "sales", "finance", "creative"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A packaged food brand is a consumer packaged goods (CPG) business that develops a shelf-stable or refrigerated food product — a sauce, snack, spice blend, beverage, granola, and the like — and sells it under your own label through farmers markets, your own online store, and retail stores. Most brands move from making small batches in a licensed commercial or cottage kitchen to working with a co-packer (a contract manufacturer) that produces at scale. It is part product development, part regulatory compliance, and a great deal of sales and distribution.",
+  "dailyReality": "Early on, a typical week is split between making product (or coordinating production), designing and ordering compliant packaging, selling at farmers markets or to local stores, fulfilling online orders, and managing inventory and cash. As you grow, you spend less time cooking and far more on sales calls, retail and broker relationships, demos and sampling, reorder forecasting, and chasing payments from stores that pay on net-30 to net-90 terms. There is constant tension between buying enough inventory to meet co-packer minimums and not over-committing cash to product you cannot yet sell.",
+  "startupCostsItemized": [
+    { "item": "Recipe development, testing, and shelf-life/lab testing", "low": 500, "high": 8000 },
+    { "item": "Cottage-kitchen or commercial-kitchen rental / initial co-packer run", "low": 1000, "high": 40000 },
+    { "item": "FDA-compliant label design + printing and packaging", "low": 1000, "high": 20000 },
+    { "item": "Business registration, food permits, processing/cottage licensing", "low": 200, "high": 3000 },
+    { "item": "Product liability insurance", "low": 500, "high": 3000, "annual": true },
+    { "item": "Initial inventory / co-packer minimum order quantity", "low": 1500, "high": 60000 },
+    { "item": "Online store, branding, photography", "low": 300, "high": 8000 },
+    { "item": "Farmers market fees, booth, and demo/sampling supplies", "low": 200, "high": 4000, "optional": true },
+    { "item": "Retail slotting fees / free-fill / broker costs", "low": 0, "high": 30000, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most brands earn little to no owner profit in year one and many run at a loss while building demand and covering inventory. Founders selling at farmers markets and online might net $0 to $2,000 per month, with most early revenue plowed back into inventory and packaging.",
+    "experienced": "An established brand with steady direct-to-consumer sales and a handful of regional retail accounts can support owner take-home of roughly $2,000 to $8,000 per month, though margins stay thin (food gross margins often 25–45% before distribution and retail costs). Profit depends heavily on whether sales are direct (higher margin) or through retail/distributors (lower margin).",
+    "topEarners": "Brands that achieve real distribution — strong regional or national retail, a hit SKU, or a successful exit — can generate six- and seven-figure revenue and meaningful owner income, but only a small fraction get there. It typically requires outside capital, a broker or distributor, significant marketing, and often years of reinvestment. Many successful 'exits' are modest acquisitions, not windfalls.",
+    "whatAffectsMost": "Gross margin per unit, sales channel mix (direct vs. wholesale vs. distributor), and velocity (how fast product sells off the shelf) matter most. A product that does not sell through quickly gets discontinued by retailers regardless of how good it is.",
+    "perHour": "For a founder doing everything, effective pay is often very low — frequently under $20 per hour in the first year or two — because so much time goes into unpaid sales, compliance, and operations. It improves only as volume and margin scale."
+  },
+  "howToStart": [
+    "Months 1–2: Nail the product and confirm it is genuinely differentiated. Research FDA food labeling requirements (ingredient lists, allergens, Nutrition Facts panel, net weight) and your state's cottage food vs. commercial production rules. Cost the product per unit precisely — many founders discover their margin is too thin to survive retail.",
+    "Months 2–4: Produce a small first batch in a licensed kitchen, get any required lab/shelf-life testing, and design compliant packaging. Test demand cheaply at farmers markets and through a simple online store before committing to a large co-packer run.",
+    "Months 3–6: If demand is real, line up a co-packer and understand their minimum order quantities — these often force a large inventory commitment. Get product liability insurance and your processing licenses in order before selling widely.",
+    "Months 4–9: Build sales channels in order of margin: direct-to-consumer online and markets first, then local/independent retail, then larger accounts. Track sell-through at every store; velocity is what keeps you on the shelf.",
+    "Months 9–18: Decide carefully before pursuing big retail. Slotting fees, free-fill, broker commissions, and net-payment terms can swallow cash. Scale inventory only to match proven, repeatable demand."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "A genuinely differentiated, repeatable product and a clear understanding of its unit economics",
+      "Sales ability — most of the job is selling to consumers, stores, and buyers",
+      "Working knowledge of food-safety and FDA labeling/compliance, or the diligence to learn it"
+    ],
+    "canLearn": [
+      "Working with co-packers, MOQs, and production scheduling",
+      "Retail and distributor terms, broker relationships, and trade promotions",
+      "Branding, packaging design, and direct-to-consumer marketing"
+    ],
+    "separators": [
+      "Driving shelf velocity through demos, sampling, and marketing so retailers keep reordering",
+      "Protecting gross margin while still being priced competitively on the shelf",
+      "Cash-flow discipline around inventory, MOQs, and slow-paying retail accounts"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Scaling production to hit co-packer minimums before they have proven the product actually sells through",
+    "Pricing without truly understanding unit cost, then getting crushed when retail and distributor margins are deducted",
+    "Treating getting onto a shelf as the goal — if it does not sell quickly, the retailer discontinues it",
+    "Underestimating FDA labeling requirements and recall/liability exposure, leading to costly relabeling or compliance problems",
+    "Paying steep slotting fees and free-fill for big retail before the brand has any pull",
+    "Running out of cash because retail pays on net-30 to net-90 while inventory and packaging must be paid up front"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Licensed commercial or cottage kitchen access", "note": "Most states require approved facilities; cottage laws limit what and where you can sell.", "low": 200, "high": 5000 },
+    { "item": "Co-packer / contract manufacturer relationship", "note": "The path to scale, but expect minimum order quantities that lock up cash.", "low": 1500, "high": 60000 },
+    { "item": "FDA-compliant packaging and labels", "note": "Nutrition panel, ingredients, allergens, net weight; get the panel right or face relabeling.", "low": 1000, "high": 20000 },
+    { "item": "Online store + payment processing", "note": "Shopify or similar for higher-margin direct sales and brand building.", "low": 0, "high": 2000 },
+    { "item": "Product liability insurance", "note": "Essential for a consumable; retailers and distributors typically require it.", "low": 500, "high": 3000 },
+    { "item": "Inventory and accounting software", "note": "Track unit costs, margins, and inventory; cash management is make-or-break.", "low": 0, "high": 1500 },
+    { "item": "Demo/sampling and market booth supplies", "note": "Sampling drives trial and shelf velocity; budget for it.", "low": 100, "high": 3000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Farmers markets and local events for direct sales, real customer feedback, and brand building",
+      "Your own online store plus marketplaces, where margins are highest and you own the customer",
+      "Independent and regional grocery, specialty, and gift stores that take on small local brands",
+      "In-store demos and sampling that drive trial and the sell-through retailers care about",
+      "Wholesale platforms like Faire and trade shows to reach buyers at scale",
+      "Social media and email built around the product story, recipes, and behind-the-scenes content"
+    ],
+    "whereCustomersAre": "Start with local, value-aligned consumers at markets and online, then independent retailers whose buyers seek differentiated local products. Larger retail and distributors come later and require proven velocity and the cash to support their terms.",
+    "timeToClientBase": "Building real, repeatable demand usually takes one to three years. Direct sales can start within months, but a stable wholesale and retail base develops slowly as you prove sell-through store by store.",
+    "wasteOfTime": "Chasing big national retail or expensive distributor deals before you have local proof and cash reserves usually backfires through slotting fees and unsold inventory. Heavy paid advertising before product-market fit also burns cash fast."
+  },
+  "howItScales": {
+    "toFullTime": "Possible but slow and capital-hungry. Reaching full-time income usually requires moving from self-production to a co-packer, building multiple sales channels, and reinvesting profits for a year or more before the founder draws a real salary.",
+    "hireAndStepBack": "Yes, once production is outsourced to a co-packer and sales/fulfillment systems exist, the founder can step back from making product, though sales leadership and buyer relationships are hard to delegate early. Many brands stay founder-dependent on the sales side for years.",
+    "sellable": "CPG food brands are genuinely sellable, and acquisition is a common exit, but valuations hinge on revenue, growth, distribution, and brand strength. Most exits are modest; the headline acquisitions are rare outliers. Clean books, owned customer data, and distribution are what make a brand attractive.",
+    "whatScalingRequires": "Capital for inventory and MOQs, reliable co-packing, distribution or broker relationships, consistent shelf velocity, and marketing that builds demand. The transition from local hustle to scaled distribution is where most brands stall on cash and margin."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have a genuinely differentiated product and understand its unit economics",
+      "You are a strong salesperson who can build retail and consumer demand",
+      "You have patience and capital to reinvest for a year or more before real profit",
+      "You are diligent about food-safety, FDA labeling, and compliance"
+    ],
+    "poorFit": [
+      "You want fast or low-risk income — CPG is slow, cash-hungry, and high-failure",
+      "You dislike selling or the unglamorous grind of distribution and demos",
+      "You cannot fund inventory, MOQs, and slow-paying retail terms",
+      "You are not prepared to handle labeling, liability, and recall responsibilities"
+    ],
+    "askYourself": [
+      "Do my unit economics still work after retail and distributor margins, slotting fees, and freight are deducted?",
+      "Can I fund inventory and co-packer minimums while waiting net-30 to net-90 for retail to pay?",
+      "Is my product different enough that consumers will choose it repeatedly off a crowded shelf?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What licenses and labeling rules apply to a packaged food product?",
+      "answer": "You must follow FDA food labeling rules — an accurate ingredient list, allergen declarations, a Nutrition Facts panel, net weight, and your business name and address — and meet your state's food production licensing, which may allow limited cottage-food sales or require a commercial facility. Some products need lab or shelf-life testing, and certain categories (acidified foods, low-acid canned foods) have stricter federal requirements. Confirm rules with the FDA and your state department of agriculture or health before selling."
+    },
+    {
+      "question": "Should I make the product myself or use a co-packer?",
+      "answer": "Most brands start by making small batches in a licensed kitchen to test demand cheaply, then move to a co-packer to scale. Co-packers lower per-unit cost and free your time, but they impose minimum order quantities that can lock up significant cash in inventory. Only commit to those minimums once you have proven the product sells."
+    },
+    {
+      "question": "What are slotting fees and do I have to pay them?",
+      "answer": "Slotting fees are payments some retailers — especially larger chains — charge to stock a new product on their shelves, and they can run from hundreds to many thousands of dollars per item per store. Many independent and regional retailers do not charge them, which is why most brands start there. Treat big-chain slotting fees as a serious cash commitment to weigh against expected sell-through."
+    },
+    {
+      "question": "Why are margins in packaged food so thin?",
+      "answer": "Every layer takes a cut: ingredients and packaging, the co-packer, freight, the distributor, and the retailer's markup. A product that sells for $8 on a shelf might net the brand only a couple of dollars after all of those. That is why understanding unit economics before scaling, and keeping high-margin direct sales in the mix, is essential."
+    },
+    {
+      "question": "How long until I make money?",
+      "answer": "Most founders see little or no profit in the first year and reinvest revenue into inventory and growth. Direct sales at markets and online can start within months, but a sustainable, profitable brand typically takes one to three years and ongoing reinvestment. Be honest with yourself about how long you can fund losses."
+    },
+    {
+      "question": "What is the single biggest reason food brands fail?",
+      "answer": "Cash. Founders often scale inventory and distribution faster than real demand, then run out of money carrying unsold stock, paying slotting fees, and waiting net-60 for retailers to pay. Matching production and inventory to proven, repeatable sell-through is the discipline that keeps a brand alive."
+    },
+    {
+      "question": "Can I run this part-time around a job?",
+      "answer": "It is difficult. Production coordination, compliance, sales, and fulfillment add up to demanding work, and retail relationships expect responsiveness. Some founders begin part-time at farmers markets, but growing into real distribution generally requires full-time focus and is not a passive side income."
+    }
+  ],
+  "similarBusinesses": [
+    "home-bakery-business",
+    "coffee-roasting-business",
+    "etsy-handmade-business",
+    "ecommerce-store-business"
+  ],
+  "dataSources": [
+    "U.S. Food and Drug Administration — Food Labeling Guide and food facility/manufacturing requirements",
+    "USDA and state department of agriculture cottage food and food-processing licensing guidance",
+    "SPINS / Nielsen and specialty-food industry reports on CPG margins, velocity, and retail trends",
+    "Co-packer and CPG founder communities (Faire, specialty food trade resources) for real-world MOQs, slotting fees, and margins"
+  ],
+  "lastReviewed": "2026-06"
+}

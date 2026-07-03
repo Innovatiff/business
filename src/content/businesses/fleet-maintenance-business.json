@@ -1,0 +1,163 @@
+{
+  "title": "Fleet Maintenance Business",
+  "slug": "fleet-maintenance-business",
+  "category": "automotive",
+  "metaTitle": "How to Start a Fleet Maintenance Business — Costs and Earnings",
+  "metaDescription": "Honest guide to starting a fleet maintenance business: real mobile-rig and tool costs, realistic B2B earnings, how to win contracts, and common mistakes.",
+  "startupCostLow": 15000,
+  "startupCostHigh": 90000,
+  "monthlyEarningsLow": 5000,
+  "monthlyEarningsHigh": 20000,
+  "timeToFirstIncome": "1 to 4 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced mechanics who want recurring B2B contracts and can sell to and manage business accounts",
+  "biggestRisk": "Over-relying on one large fleet account that can switch vendors or delay payment and take most of your revenue with it",
+  "speedToIncome": "months",
+  "minWeeklyHours": 40,
+  "skills": ["hands", "sales", "people", "finance"],
+  "workLocations": ["mobile", "space"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A fleet maintenance business services the vehicles of companies that depend on them — delivery vans, service trucks, box trucks, work pickups, shuttle buses, and light commercial fleets. Instead of one-off retail customers, you sign B2B service agreements to keep a company's vehicles running, often performing preventive maintenance (oil, filters, brakes, tires, DOT inspections) on a schedule plus repairs as they come up. Many fleet maintenance operators work mobile, bringing a fully equipped service van to the customer's yard so the fleet stays productive instead of losing a day driving each vehicle to a shop; others run a bay-based shop, and some do both. The value proposition to the customer is uptime, predictable scheduling, compliance, and one accountable vendor — which is why fleet work tends to produce recurring, contracted revenue rather than the feast-or-famine of retail repair. It is a skilled trade combined with a real B2B sales and account-management business.",
+  "dailyReality": "A typical day is scheduled and route-driven. You roll to one or more customer yards, knock out planned preventive-maintenance services on a batch of vehicles, and handle whatever repairs the fleet manager flags. You work around the company's operating hours — often early mornings, evenings, or weekends so vehicles are available when they are not in use. A big part of the job is communication: confirming what's due, getting approvals for repairs, documenting work for the customer's records and DOT compliance, and invoicing on net-30 terms. You manage parts inventory in the van, track each vehicle's service history, and constantly balance keeping current accounts happy with finding the next one.",
+  "startupCostsItemized": [
+    { "item": "Service van or work truck (used)", "low": 8000, "high": 40000 },
+    { "item": "Mobile lift jacks, tools, and air/power equipment", "low": 3000, "high": 15000 },
+    { "item": "Diagnostic scanners (incl. heavy-duty/commercial)", "low": 1000, "high": 8000 },
+    { "item": "Commercial auto + garage-keepers + general liability insurance", "low": 4000, "high": 14000, "annual": true },
+    { "item": "Van shelving, fluid/oil tanks, and waste handling", "low": 1000, "high": 6000 },
+    { "item": "LLC, business license, EPA/used-oil and DOT compliance setup", "low": 300, "high": 2000 },
+    { "item": "Fleet management/work-order software", "low": 0, "high": 3000, "optional": true },
+    { "item": "Initial parts, fluids, and consumables stock", "low": 1000, "high": 5000 }
+  ],
+  "realEarnings": {
+    "yearOne": "A solo mobile operator landing a few small fleet accounts typically nets $5,000 to $10,000 per month in year one once contracts ramp, though the first months can be lean while you prospect and win accounts. Revenue is steadier than retail repair because preventive maintenance recurs on a schedule.",
+    "experienced": "An established operator with several committed accounts, possibly a second van or a helper, commonly nets $10,000 to $20,000 per month. Operators bill labor at roughly $90 to $150 per hour plus parts, and recurring PM contracts smooth out cash flow.",
+    "topEarners": "A multi-van or shop-based fleet operation with technicians, larger commercial and municipal contracts, and 24/7 emergency service can net $250,000 to $700,000+ per year for the owner. Reaching that requires hiring and retaining skilled techs, dispatch systems, strong account management, and the capital to carry net-30 receivables across a bigger payroll.",
+    "whatAffectsMost": "The mix and stickiness of contracts matters most — diversified recurring accounts beat one big fragile one. Technician productivity, parts cost control, and getting paid on time (managing net-30 receivables) are the next biggest levers.",
+    "perHour": "Billed labor is commonly $90 to $150 per hour, but realistic effective earnings for a solo operator land around $50 to $100 per hour after travel between yards, approvals, documentation, and unpaid administrative time."
+  },
+  "howToStart": [
+    "Month 1: Decide mobile-first or shop-based, and define your target fleets — local delivery companies, plumbers and HVAC contractors, landscapers, courier services, or shuttle operators with 5 to 50 light vehicles. Form the LLC and get real commercial and garage-keepers insurance quotes.",
+    "Month 2: Outfit a service van with lifts, tools, diagnostics, and waste handling, and set up EPA-compliant fluid disposal and any DOT inspection authority your state requires. Build a simple service-agreement and work-order template.",
+    "Months 2-3: Prospect fleet managers directly — they care about uptime, response time, compliance documentation, and predictable billing. Offer a preventive-maintenance program rather than just hourly repair, and start with one or two accounts to prove reliability.",
+    "Months 3-6: Deliver flawless scheduling and documentation so your first accounts renew and refer you, and track each vehicle's history to demonstrate the value of your PM program. Tighten parts inventory in the van to cut return trips.",
+    "Months 6-12: Diversify so no single account is more than a portion of revenue, formalize net-30 invoicing and collections, and only add a second van or technician once your existing book is full and paying reliably."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong, broad mechanical and diagnostic skills across light commercial vehicles (gas and diesel)",
+      "B2B selling and the ability to talk credibly with fleet managers about uptime and cost",
+      "Organization to schedule routes, track vehicle histories, and document compliance"
+    ],
+    "canLearn": [
+      "Preventive-maintenance program design and DOT inspection requirements",
+      "Mobile-rig workflow, parts inventory, and EPA waste compliance",
+      "Work-order, invoicing, and net-30 receivables management"
+    ],
+    "separators": [
+      "Account management that makes you indispensable so contracts renew and expand",
+      "A diversified book of accounts that removes single-customer risk",
+      "Tight productivity and parts control so each billed hour and each truck stays profitable"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Letting one big fleet account become most of their revenue, then getting crushed when it switches vendors or pays late",
+    "Pricing like a retail shop and ignoring that B2B accounts expect net-30 terms that strain cash flow",
+    "Underestimating the time spent on approvals, documentation, and compliance paperwork versus actual wrenching",
+    "Stocking the wrong parts, causing return trips that kill the efficiency advantage of mobile service",
+    "Skipping garage-keepers and adequate commercial insurance while taking custody of expensive commercial vehicles",
+    "Winning accounts on price, then discovering the margins do not cover travel, admin, and slow payment"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Equipped service van or work truck", "note": "The mobile shop; reliability is critical since downtime stops your revenue.", "low": 8000, "high": 40000 },
+    { "item": "Mobile lifts, jacks, and air tools", "note": "Lets you service vehicles in a customer's lot quickly and safely.", "low": 3000, "high": 15000 },
+    { "item": "Light- and heavy-duty diagnostic scanners", "note": "Commercial vehicles need broader diagnostics than a single passenger-car tool covers.", "low": 1000, "high": 8000 },
+    { "item": "Van shelving, fluid tanks, and waste containment", "note": "Organized parts and compliant fluid handling are what make mobile work efficient and legal.", "low": 1000, "high": 6000 },
+    { "item": "Fleet/work-order software", "note": "Tracks each vehicle's history and PM schedule and produces the documentation fleets need.", "low": 0, "high": 3000 },
+    { "item": "Tire and brake service equipment", "note": "Tires and brakes are high-frequency fleet items; handling them in-house captures recurring revenue.", "low": 1000, "high": 6000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to fleet managers and owners at local delivery, trades, courier, and shuttle companies",
+      "A professional web presence and LinkedIn that speak to uptime, compliance, and predictable billing rather than retail repair",
+      "Referrals from existing accounts and from parts suppliers who know which companies need a maintenance vendor",
+      "Local business networking, trade associations, and chambers where fleet operators gather",
+      "Offering a structured preventive-maintenance program with documentation that wins multi-vehicle contracts"
+    ],
+    "whereCustomersAre": "Companies that run light commercial fleets — last-mile delivery, plumbing/HVAC/electrical contractors, landscapers, couriers, food distributors, and shuttle services — usually concentrated in commercial and industrial areas of your region.",
+    "timeToClientBase": "B2B sales cycles are slower than retail; expect one to four months to land first contracts, and six to twelve months to build a diversified, recurring book that produces stable monthly revenue.",
+    "wasteOfTime": "Consumer-style advertising and broad social media are largely wasted here. Fleet accounts are won through direct relationships, reliability, and proof of uptime and compliance, not ads."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and the recurring nature of PM contracts makes full-time income more stable than retail repair once a book is built. It is full-time from the start, though, with no realistic part-time path given the route, scheduling, and account demands.",
+    "hireAndStepBack": "This is the main growth lever: add vans and technicians to cover more accounts and geography so you move from wrenching to managing accounts and dispatch. Skilled techs are scarce and net-30 receivables across a bigger payroll require working capital.",
+    "sellable": "A fleet maintenance business with diversified, contracted accounts, documented systems, and trained technicians is genuinely sellable, since the recurring B2B revenue is attractive to buyers. A single-van operation built entirely around the owner's relationships is harder to transfer.",
+    "whatScalingRequires": "More insured vans and technicians, dispatch and work-order systems, working capital to fund receivables, and disciplined account diversification. The constraints are talent, capital, and customer concentration rather than a shortage of fleets to serve."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are a skilled mechanic comfortable across light commercial gas and diesel vehicles",
+      "You can sell to and manage business accounts, not just fix cars",
+      "You are organized enough to run routes, schedules, vehicle histories, and net-30 billing",
+      "You want recurring contract revenue and a sellable, scalable business"
+    ],
+    "poorFit": [
+      "You want a low-capital, part-time, or purely walk-in retail repair business",
+      "You dislike sales, account management, and compliance documentation",
+      "You cannot float net-30 receivables while still paying for parts and payroll",
+      "You are uncomfortable working around a customer's operating hours, including early mornings or weekends"
+    ],
+    "askYourself": [
+      "Can I win and keep B2B accounts, or am I only comfortable turning wrenches?",
+      "Do I have the working capital to wait 30+ days for payment while costs run weekly?",
+      "How will I avoid letting one big account become a single point of failure?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is fleet maintenance different from a regular auto repair shop?",
+      "answer": "A regular shop serves walk-in retail customers one job at a time, while fleet maintenance serves businesses under ongoing service agreements, often on-site and on a preventive schedule. The customer is buying uptime and predictability, the billing is usually net-30, and the revenue is recurring rather than transactional, which makes the business steadier but more sales- and admin-heavy."
+    },
+    {
+      "question": "Do I need to be mobile, or should I run a shop?",
+      "answer": "Many fleet operators go mobile because servicing vehicles at the customer's yard maximizes the fleet's uptime, which is the main selling point. A mobile rig also lowers startup cost by avoiding shop rent. A shop helps with heavy repairs and bad-weather work, so some operators run mobile for routine service and use or partner with a shop for major jobs."
+    },
+    {
+      "question": "What kinds of vehicles does a fleet maintenance business service?",
+      "answer": "Typically light commercial vehicles: delivery and cargo vans, box trucks, work pickups, service trucks, and light shuttle buses, in both gas and diesel. Heavy-duty trucking and semis are a separate, more specialized world requiring bigger equipment and different certifications, though some operators expand toward medium-duty over time."
+    },
+    {
+      "question": "How do I win my first fleet contracts?",
+      "answer": "Approach fleet managers and owners directly with a structured preventive-maintenance program that emphasizes uptime, response time, compliance documentation, and predictable billing. Start with one or two accounts and prove reliability with flawless scheduling and records; renewals and referrals follow once you demonstrate you keep their vehicles running."
+    },
+    {
+      "question": "Why is customer concentration such a big risk?",
+      "answer": "If one large fleet is most of your revenue, losing it to a competitor, a price renegotiation, or a payment dispute can be catastrophic. Fleet managers also change, and procurement decisions can move vendors quickly. Diversifying so no single account dominates your revenue is one of the most important ways to make the business durable."
+    },
+    {
+      "question": "How does getting paid work, and why does it matter?",
+      "answer": "Business accounts typically pay on net-30 (or longer) terms, meaning you complete and front the cost of work, then wait a month or more to be paid. You still pay for parts and labor weekly, so you need working capital to bridge the gap. Disciplined invoicing and collections are as important as the mechanical work."
+    },
+    {
+      "question": "What certifications or compliance do I need?",
+      "answer": "You generally need a business license, commercial auto and garage-keepers insurance, and EPA-compliant fluid and waste handling. Depending on your state and the vehicles, you may need DOT inspection authority and ASE certifications, which also build credibility with fleet managers. Verify your state's specific requirements before signing commercial accounts."
+    }
+  ],
+  "similarBusinesses": [
+    "mobile-mechanic-business",
+    "diesel-repair-business",
+    "courier-and-delivery-business",
+    "fleet-washing-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Automotive Service Technicians and Mechanics wage and employment data",
+    "Automotive Fleet and Work Truck industry publications (fleet maintenance cost and uptime benchmarks)",
+    "ATA Technology & Maintenance Council guidance on preventive maintenance and DOT compliance",
+    "Commercial fleet labor-rate surveys and mobile-mechanic operator benchmarks",
+    "Operator communities and trade forums for real-world contract pricing and receivables practices"
+  ],
+  "lastReviewed": "2026-06"
+}

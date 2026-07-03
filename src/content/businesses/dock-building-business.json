@@ -1,0 +1,164 @@
+{
+  "title": "Dock and Pier Building Business",
+  "slug": "dock-building-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Dock Building Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest guide to starting a dock and pier building business: real startup costs, Army Corps and DNR permits, marine-grade materials, realistic earnings, and the biggest risks.",
+  "startupCostLow": 20000,
+  "startupCostHigh": 120000,
+  "monthlyEarningsLow": 6000,
+  "monthlyEarningsHigh": 30000,
+  "timeToFirstIncome": "2 to 5 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced waterfront-area builders who can handle permits, heavy equipment, and high-ticket marine construction",
+  "biggestRisk": "Permitting delays or a noncompliant build that triggers regulatory fines, forced removal, or in-water liability that wipes out a project's profit",
+  "speedToIncome": "months",
+  "minWeeklyHours": 35,
+  "skills": ["hands"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A dock and pier building business designs, builds, repairs, and removes waterfront structures — residential docks, piers, boat lifts, gangways, seawalls, and small commercial marina work — on lakes, rivers, and coastal shorelines. The work combines carpentry, pile driving or post setting, marine hardware, and a heavy dose of regulatory navigation, because almost anything you build in or over water requires permits from the Army Corps of Engineers, your state DNR or environmental agency, and often local lake associations. It is a regional, seasonal, high-ticket trade with relatively few qualified competitors precisely because of the permitting and equipment barriers to entry.",
+  "dailyReality": "Days are physical and weather-driven: hauling materials to a shoreline, working from a barge or shallow water, driving or augering posts and pilings, framing decking, and installing lifts and hardware. You will be wet, in mud, and managing tides or water levels. Off the water, a surprising share of your time goes to site visits, drawing plans, and the permit paperwork that has to clear before a single post goes in — applications, setbacks, environmental review, and sometimes neighbor sign-offs. The build season is short in northern climates, so you are racing daylight and weather from spring through fall, and often doing removals before ice-up.",
+  "startupCostsItemized": [
+    { "item": "Truck and trailer", "low": 8000, "high": 35000 },
+    { "item": "Work barge or jon boat / pontoon work platform", "low": 3000, "high": 30000, "optional": true },
+    { "item": "Pile driver, post-pounder, or auger setup", "low": 2000, "high": 25000 },
+    { "item": "Power tools, generators, marine hand tools", "low": 2000, "high": 8000 },
+    { "item": "General liability + marine/in-water and commercial auto insurance", "low": 3000, "high": 12000, "annual": true },
+    { "item": "Contractor license, marine contractor registration, bonding", "low": 500, "high": 5000 },
+    { "item": "Initial permit application/engineering fees for first projects", "low": 500, "high": 5000 },
+    { "item": "Starting inventory of marine-grade lumber, decking, and hardware", "low": 1000, "high": 8000 }
+  ],
+  "realEarnings": {
+    "yearOne": "First-year solo or two-person operations with prior building experience typically net $6,000 to $12,000 per month during the build season, but the season is short and permits eat the front end, so year-one totals often land around $50,000 to $90,000. Expect the first few months to be permits and setup with little revenue.",
+    "experienced": "Established marine builders with a crew, a reputation, and a permit-fluent process commonly report $12,000 to $30,000 per month in season, blending to roughly $120,000 to $250,000 a year. A single residential dock-and-lift project frequently runs $15,000 to $60,000+, so a handful of jobs makes a strong year.",
+    "topEarners": "Companies running multiple crews with barges, doing seawalls, commercial marina work, and large coastal projects gross $40,000 to $150,000+ per month at peak. Reaching that requires heavy equipment investment, an engineering relationship, employees, and the ability to manage permits and liability at scale. Most operators stay smaller by choice.",
+    "whatAffectsMost": "Project mix (a seawall or boat-lift package dwarfs a small fixed dock), how efficiently you clear permits, equipment that lets you work faster in water, and your region's waterfront density and wealth. Coastal and lake-resort markets pay far more than inland river work.",
+    "perHour": "On billed build time, skilled crews can effectively earn $100 to $250+ per labor hour on high-ticket jobs, but counting permit time, site visits, mobilization, and the off-season, realistic blended rates land around $60 to $130 per hour."
+  },
+  "howToStart": [
+    "Month 1: Be realistic about prerequisites. You need solid carpentry and ideally heavy-equipment or marine construction experience first. Research your state's marine/waterfront contractor licensing and confirm which permits apply — Army Corps of Engineers (Section 404/Section 10), your state DNR or environmental agency, and any lake or shoreline district.",
+    "Month 1-2: Set up the business properly: LLC, general liability plus in-water/marine coverage, commercial auto, and bonding if required. Build a relationship with a local civil or marine engineer for projects that need stamped drawings.",
+    "Month 2-3: Acquire your core equipment — truck, trailer, a post driver or auger, and a work platform suited to your waters. Buy or borrow before financing heavy gear you cannot yet keep busy.",
+    "Month 3-4: Learn the permit workflow cold by shepherding your first applications through. Price your first jobs to include permit time and mobilization, and document them with photos and as-built drawings.",
+    "Months 4-12: Build referral relationships with realtors, marinas, lakefront HOAs, and dock-hardware suppliers, and book the next season's work before the current one ends. Add dock removal/install and repair as recurring seasonal revenue."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong carpentry and structural building skills that hold up in a marine environment",
+      "Comfort operating in and around water with heavy materials and equipment, and managing crew safety",
+      "Willingness to learn and patiently navigate Army Corps, DNR, and local permitting"
+    ],
+    "canLearn": [
+      "Pile driving / post setting and boat-lift installation technique",
+      "Reading and producing site plans and as-built drawings",
+      "Marine hardware selection and corrosion-resistant fastening"
+    ],
+    "separators": [
+      "Permit fluency so you turn applications around faster than competitors and rarely get rejected",
+      "Equipment (barge, pile driver) that lets you take jobs others physically cannot",
+      "Engineering relationships and a reputation for builds that survive ice, storms, and decades of weather"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underestimating permitting — starting work without Army Corps or DNR approval can mean fines, stop-work orders, and forced removal of a finished dock at your expense",
+    "Using non-marine-grade lumber, fasteners, or hardware that corrode and fail within a few seasons in water",
+    "Bidding jobs without accounting for permit time, mobilization, and weather delays, then losing the margin",
+    "Buying heavy equipment too early and carrying it through a season they cannot keep it busy",
+    "Ignoring water-level, tide, and ice realities that destroy structures built without the right elevations and anchoring",
+    "Carrying only standard general liability and discovering an in-water incident is not covered"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Post driver / pile pounder or hydraulic auger", "note": "Sets the structure into the bed. The right tool for your water type defines what jobs you can take.", "low": 2000, "high": 25000 },
+    { "item": "Work barge or pontoon platform", "note": "Essential for deeper or larger water; you can start with a jon boat in shallow lakes.", "low": 3000, "high": 30000 },
+    { "item": "Cordless and corded power tools, generator", "note": "Off-grid jobsites need their own power. Marine-rated where possible.", "low": 1500, "high": 6000 },
+    { "item": "Marine-grade lumber, composite decking, and hardware", "note": "Hot-dip galvanized or stainless fasteners, treated or composite lumber — cutting corners here causes early failure.", "low": 1000, "high": 8000 },
+    { "item": "Levels, lasers, and layout/measuring tools", "note": "Elevation and alignment over water are unforgiving; precise layout matters.", "low": 300, "high": 1500 },
+    { "item": "Waders, PFDs, and water safety gear", "note": "Crew safety in moving or cold water is a real hazard, not an afterthought.", "low": 300, "high": 1500 },
+    { "item": "Truck and trailer for hauling materials and equipment", "note": "Your mobilization backbone for remote shorelines.", "low": 8000, "high": 35000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Lakefront and coastal real estate agents who refer new waterfront owners needing docks",
+      "Dock-hardware and boat-lift suppliers who pass along installation work",
+      "A Google Business Profile and website with project galleries targeted to your specific lakes and waterways",
+      "Lake associations, marinas, and waterfront HOAs for repeat and removal/install contracts",
+      "Referrals and signage on visible completed docks, which sell themselves to neighbors"
+    ],
+    "whereCustomersAre": "Waterfront homeowners on lakes, rivers, and coastlines — concentrated in resort and second-home markets — plus marinas and commercial waterfront properties. Demand clusters around home purchases, storm damage repair, and the start of boating season.",
+    "timeToClientBase": "Because permits gate the work, expect a full season to establish your process and reputation. A reliable, referral-fed pipeline and repeat removal/install contracts usually take two to three seasons.",
+    "wasteOfTime": "Broad regional advertising and social ads that reach inland customers with no water access. Your market is geographically narrow; targeted local presence and agent/marina referrals convert far better."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and quickly in dollars given the high ticket per job, but seasonality and permit timelines cap how many projects fit in a build window. Strong operators reach full-time income in a season or two.",
+    "hireAndStepBack": "Possible with the right crew, but marine construction is hazardous and quality-sensitive, so you need trained, safety-conscious employees and a foreman you trust before stepping back from job sites.",
+    "sellable": "Established marine contractors with equipment, a permit-fluent process, engineering relationships, and a repeat client base sell for a solid multiple. A solo operation with leased equipment and no systems is harder to sell.",
+    "whatScalingRequires": "Heavy equipment (barges, pile drivers), trained crews, an engineering partner, a documented permitting process, bonding capacity for larger jobs, and the cash to carry projects through long permit timelines."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have strong building/heavy-construction experience and live in a waterfront-dense region",
+      "You are patient enough to navigate Army Corps, DNR, and local permits",
+      "You can manage heavy equipment, crew safety, and physical work in and around water",
+      "You can fund equipment and carry projects through permit and weather delays"
+    ],
+    "poorFit": [
+      "You want a low-capital, fast-start business",
+      "You have no building or heavy-equipment experience",
+      "You are not in or near a waterfront market with steady demand",
+      "You have no patience for regulatory paperwork and inspections"
+    ],
+    "askYourself": [
+      "Do I understand the Army Corps and DNR permit process in my waters, or am I about to learn it the hard way on a customer's project?",
+      "Can I fund the equipment and float months of permit time before the first big check arrives?",
+      "Is there enough waterfront demand near me to keep crews and gear busy through a short season?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What permits do I need to build a dock?",
+      "answer": "Almost any structure in or over navigable water requires federal approval from the U.S. Army Corps of Engineers (often Section 10 and/or Section 404), plus a state permit from your DNR or environmental agency, and frequently local or lake-association approval. Requirements vary widely by waterway. Building without them risks fines and forced removal, so confirm the full stack before bidding."
+    },
+    {
+      "question": "Do I need a special contractor license?",
+      "answer": "Many coastal and lake states require a marine or general contractor license, and bonding for larger jobs. Beyond licensing, the practical gatekeeper is the permit process. Check your state contractor board and the agency that regulates your specific waters before taking work."
+    },
+    {
+      "question": "Why does marine-grade material matter so much?",
+      "answer": "Water, salt, and constant moisture corrode standard fasteners and rot untreated wood fast. Using hot-dip galvanized or stainless hardware, treated or composite decking, and proper pilings is what makes a dock last decades instead of failing in a few seasons. Cutting corners here is the fastest route to callbacks and reputation damage."
+    },
+    {
+      "question": "How seasonal is dock building?",
+      "answer": "In northern climates the build season runs roughly spring through fall, with dock removals before ice-up and installs again in spring. Coastal and southern markets run longer. Operators smooth income with repair work, removal/install contracts, and booking next season's projects in advance."
+    },
+    {
+      "question": "How much does a typical dock project cost the customer?",
+      "answer": "Residential projects vary enormously, but a fixed dock with a boat lift commonly runs $15,000 to $60,000 or more installed, while seawalls and larger or commercial work run higher. The ticket size is why a relatively small number of projects can make a strong year."
+    },
+    {
+      "question": "Can I start without buying a barge and pile driver?",
+      "answer": "On shallow lakes you can start with a truck, trailer, a post driver, and a small work boat, taking smaller fixed-dock jobs. Heavy equipment like a barge or hydraulic pile driver expands what you can build but is a major investment best added once you have steady demand that justifies it."
+    },
+    {
+      "question": "What insurance do I really need?",
+      "answer": "Standard general liability often excludes in-water and marine operations, so you typically need specific marine/in-water coverage plus commercial auto, and workers' comp once you hire. An uncovered in-water incident or property damage can be financially ruinous, so confirm coverage before any job."
+    }
+  ],
+  "similarBusinesses": [
+    "deck-building-business",
+    "custom-carpentry-business",
+    "welding-business",
+    "concrete-business"
+  ],
+  "dataSources": [
+    "U.S. Army Corps of Engineers — regulatory program (Section 10 / Section 404) permitting guidance",
+    "U.S. Bureau of Labor Statistics — Construction Laborers and Carpenters occupational data",
+    "State DNR / environmental agency shoreline and dock permitting resources",
+    "Angi / HomeAdvisor — Dock and Boat Lift Construction Cost Guides (reported project pricing ranges)",
+    "Marine contractor interviews and waterfront-builder forums for real-world seasonality and earnings"
+  ],
+  "lastReviewed": "2026-06"
+}

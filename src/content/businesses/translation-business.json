@@ -1,0 +1,162 @@
+{
+  "title": "Freelance Translation Business",
+  "slug": "translation-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start a Freelance Translation Business — Costs, Earnings, Steps",
+  "metaDescription": "Honest breakdown of starting a freelance translation business: per-word rates, realistic earnings, specialization pay, the AI machine-translation risk, and what to know.",
+  "startupCostLow": 100,
+  "startupCostHigh": 2000,
+  "monthlyEarningsLow": 0,
+  "monthlyEarningsHigh": 7000,
+  "timeToFirstIncome": "2 to 8 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Genuinely bilingual people with strong writing who can specialize and position themselves above commodity machine translation",
+  "biggestRisk": "Competing on price for general content where machine translation has pushed rates down, instead of specializing where human quality is required",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 10,
+  "skills": ["writing"],
+  "workLocations": ["home", "online"],
+  "priorities": ["flexibility", "alongside-job", "max-income"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A freelance translation business converts documents and content from one language into another — accurately, naturally, and in a way that preserves meaning and tone. This requires genuine native-level fluency in both languages, not just classroom study; translation is writing, not word-swapping. Work is usually priced per source word, sometimes per hour or per project. There's a real divide between general content (most exposed to machine translation) and specialized fields like legal, medical, financial, and technical translation, where accuracy is critical and human translators command much higher rates.",
+  "dailyReality": "A typical day means receiving source files, reading for full context, then translating in a CAT (computer-assisted translation) tool that manages terminology and consistency. Increasingly the work includes post-editing machine translation — refining a machine draft into accurate, natural text. You research terminology, maintain glossaries, proofread carefully, and handle formatting. Around the translation itself, you spend time quoting projects, communicating with agencies or direct clients, and managing deadlines. It's focused, solitary, deadline-driven work that rewards precision and subject knowledge.",
+  "startupCostsItemized": [
+    { "item": "CAT tool (Trados, memoQ, or free OmegaT)", "low": 0, "high": 800, "optional": true },
+    { "item": "Laptop and reliable internet you already own", "low": 0, "high": 0 },
+    { "item": "Professional association membership (ATA, etc.)", "low": 0, "high": 250, "annual": true, "optional": true },
+    { "item": "Certification or specialized course", "low": 0, "high": 1500, "optional": true },
+    { "item": "Portfolio site and proz.com / translator directory profile", "low": 0, "high": 200 },
+    { "item": "Business registration", "low": 0, "high": 300, "optional": true },
+    { "item": "Dictionaries, terminology, and reference resources", "low": 0, "high": 200 }
+  ],
+  "realEarnings": {
+    "yearOne": "Beginners building a client base often earn $0 to a few hundred dollars in slow early months, with realistic part-time income around $500 to $2,000 per month once work flows. General-content per-word rates are commonly $0.03 to $0.10, and post-editing machine translation pays less, so volume and speed matter early on.",
+    "experienced": "Experienced translators with steady agency and direct clients commonly earn $2,500 to $7,000 per month. Specialized fields pay far more — legal, medical, financial, and technical translation often run $0.12 to $0.30+ per word, versus a few cents for general content.",
+    "topEarners": "Top translators are specialized experts (legal, medical, patent, financial, certified/sworn translators) or run small agencies. They can clear $7,000 to $12,000+ per month, but that takes years of expertise, certification, direct premium clients, and a reputation that justifies high per-word rates.",
+    "whatAffectsMost": "Genuine fluency plus specialization matter most. The gap between commodity general translation and specialized expert work is enormous, and direct clients pay far better than agencies. Language pair also matters — rarer, in-demand pairs command higher rates than common, oversupplied ones.",
+    "perHour": "Effective rates range from roughly $15 to $30 per hour for general work to $40 to $80+ for specialized translators with direct clients. Output is commonly 2,000 to 3,000 words a day for careful work, more when post-editing machine drafts."
+  },
+  "howToStart": [
+    "Week 1: Be honest about fluency — you need native-level command of both languages and strong writing in your target language. Choose your strongest language pair and direction (most translators work into their native language).",
+    "Week 1–2: Pick a specialization you can credibly serve (legal, medical, technical, marketing, financial) and build a focused portfolio with sample translations. Generalists struggle most against machine translation.",
+    "Week 2–4: Create profiles on translator directories (ProZ, TranslatorsCafe) and freelance platforms, and apply to translation agencies, which provide steady early work even at lower rates while you build experience and reviews.",
+    "Month 2–3: Learn a CAT tool and offer machine-translation post-editing as part of your service rather than pretending AI doesn't exist. Track your real per-word and hourly rates so you stop underpricing.",
+    "Days 90+: Pursue direct clients (law firms, agencies, businesses expanding abroad), pursue certification if your field benefits (e.g. ATA), and steadily raise rates as your specialization and reputation grow."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Genuine native-level fluency in both languages — this is non-negotiable",
+      "Strong, natural writing ability in your target language",
+      "Accuracy, attention to detail, and cultural and contextual understanding",
+      "Reliability with deadlines and confidentiality"
+    ],
+    "canLearn": [
+      "CAT tools (Trados, memoQ) and terminology management",
+      "Machine-translation post-editing workflow",
+      "Quoting, client communication, and project management"
+    ],
+    "separators": [
+      "Specializing in a high-value field like legal, medical, or technical translation",
+      "Landing direct clients who pay far more than agencies",
+      "Subject-matter expertise and certification that justify premium per-word rates"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Assuming classroom fluency is enough — clients need native-level, natural writing, not literal translation",
+    "Competing on price for general content where machine translation has collapsed rates",
+    "Never specializing, missing the much higher rates in legal, medical, and technical fields",
+    "Pretending AI doesn't exist instead of offering post-editing and positioning above commodity work",
+    "Relying only on low-rate agencies and never pursuing better-paying direct clients",
+    "Translating into a non-native language, which usually produces work clients can tell is off"
+  ],
+  "toolsAndEquipment": [
+    { "item": "CAT tool (Trados, memoQ, or free OmegaT)", "note": "Manages terminology and consistency; many agencies require one. Start with free options.", "low": 0, "high": 800 },
+    { "item": "Translator directory profiles (ProZ, TranslatorsCafe)", "note": "Where agencies and clients search for translators by language pair and specialty.", "low": 0, "high": 200 },
+    { "item": "Terminology and reference resources", "note": "Glossaries and field dictionaries are essential for accuracy in specialized work.", "low": 0, "high": 200 },
+    { "item": "Machine-translation / AI tools", "note": "Use for post-editing and drafting, not as a substitute for your judgment.", "low": 0, "high": 30 },
+    { "item": "Reliable laptop and internet", "note": "Standard gear most people already own.", "low": 0, "high": 0 },
+    { "item": "Professional association membership", "note": "ATA or local body for credibility and certification in some fields.", "low": 0, "high": 250 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Translation agencies, which provide steady (if lower-rate) work while you build experience",
+      "Translator directories (ProZ, TranslatorsCafe) where clients search by language and specialty",
+      "Freelance marketplaces (Upwork) for direct projects and reviews early on",
+      "Direct outreach to businesses expanding internationally, law firms, and medical providers",
+      "Referrals and repeat work, which are the backbone of established translators' income"
+    ],
+    "whereCustomersAre": "Businesses entering foreign markets, legal and medical organizations, publishers, and agencies needing language pairs you serve. They're found on translator directories, through agencies, and via direct outreach within your specialization.",
+    "timeToClientBase": "First agency or platform work often comes within two to eight weeks once your profiles and samples are ready. Building toward steady, better-paying direct clients usually takes several months to a year of proven, accurate work and a strong reputation.",
+    "wasteOfTime": "Listing yourself as a low-price generalist for any language and topic. That puts you in direct competition with machine translation and a global low-cost market. Specialization and quality positioning attract the clients worth having."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, especially through specialization and direct clients. General translation has a low and shrinking ceiling against machine translation, but specialized expert translators with direct clients can build a solid full-time income.",
+    "hireAndStepBack": "Possible by becoming a small agency that manages projects and subcontracts to vetted translators while you handle clients and quality control. Quality and confidentiality make delegation demanding, so careful vetting is essential.",
+    "sellable": "Limited as a solo service tied to your own skills. A translation agency with recurring clients, a vetted translator network, and processes has some sale value, but solo freelance translation is essentially unsellable as a standalone asset.",
+    "whatScalingRequires": "Either commanding higher rates through specialization and direct clients, or building an agency with a reliable network and project management. Integrating machine-translation post-editing efficiently is increasingly part of staying competitive."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You're genuinely bilingual at a native level and write beautifully in your target language",
+      "You have or can build subject expertise in a field like law, medicine, or tech",
+      "You enjoy precise, solitary, deadline-driven writing work",
+      "You want flexible work-from-home income and can position above commodity translation"
+    ],
+    "poorFit": [
+      "Your second language is classroom-level rather than truly fluent",
+      "You want to compete on low prices for general content",
+      "You dislike detailed, accuracy-critical solitary work",
+      "You're unwilling to adapt as machine translation reshapes the general market"
+    ],
+    "askYourself": [
+      "Am I genuinely native-level in both languages, not just conversational?",
+      "Can I specialize in a field where human accuracy is required and well paid?",
+      "Will I use AI as a tool and position above it, rather than be undercut by it?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need to be fluent in both languages?",
+      "answer": "Yes — genuine native-level fluency in both languages is a hard requirement, not something you can fake or learn on the job. Translation is writing, and clients can immediately tell when text was produced by someone who isn't truly fluent. Most professional translators also work into their native language because that's where their writing is strongest."
+    },
+    {
+      "question": "How is translation priced?",
+      "answer": "Most translation is priced per source word, sometimes per hour or per project. General-content rates commonly run $0.03 to $0.10 per word, while specialized fields like legal and medical can run $0.12 to $0.30+ per word. Machine-translation post-editing pays less per word but goes faster. Your income depends on your rate, your speed, and whether you specialize."
+    },
+    {
+      "question": "Will AI and machine translation replace translators?",
+      "answer": "Machine translation has genuinely reduced demand and rates for easy, general content — this is an honest risk. But it still produces errors and unnatural output, and it's unreliable for legal, medical, marketing, and technical work where accuracy and nuance are critical. The realistic path is to specialize, offer high-quality post-editing of machine drafts, and position yourself where human judgment is required."
+    },
+    {
+      "question": "Should I specialize?",
+      "answer": "Strongly recommended. Generalists compete most directly with machine translation and low-cost global supply, which keeps rates low. Specialized translators in legal, medical, financial, technical, or certified/sworn translation command much higher rates because accuracy matters and the work is harder to automate. Specialization is the clearest path to a sustainable income."
+    },
+    {
+      "question": "Do I need certification?",
+      "answer": "It depends on your field. For general work, a strong portfolio and reviews matter more than a credential. For legal, medical, and certified/sworn translation, certification (such as ATA in the US) builds trust and can be required, and it justifies higher rates. If you're targeting high-value specialized clients, it's usually worth pursuing."
+    },
+    {
+      "question": "How much can I realistically earn?",
+      "answer": "Beginners often earn $500 to $2,000 a month part-time while building clients, with general work paying modest hourly rates. Experienced translators reach $2,500 to $7,000 monthly, and specialized experts with direct clients can go higher. Earnings hinge on fluency, specialization, language pair, and whether you work for agencies or better-paying direct clients."
+    },
+    {
+      "question": "Can I do this part-time around a job?",
+      "answer": "Yes. Translation is project-based and flexible, so many translators start in evenings and weekends and take as much work as fits their schedule. The main constraint is meeting deadlines reliably, but it adapts well to part-time work, especially while you build a specialization and client base."
+    }
+  ],
+  "similarBusinesses": [
+    "freelance-copywriting-business",
+    "transcription-business",
+    "virtual-assistant-business",
+    "ghostwriting-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Interpreters and Translators occupational data",
+    "American Translators Association (ATA) — compensation and rate surveys",
+    "ProZ.com — community rate data by language pair and specialization",
+    "Translator communities (r/TranslationStudies, ProZ forums) for real-world rates and machine-translation impact"
+  ],
+  "lastReviewed": "2026-06"
+}

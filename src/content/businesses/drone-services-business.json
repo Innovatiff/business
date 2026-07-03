@@ -1,0 +1,161 @@
+{
+  "title": "Drone Services Business",
+  "slug": "drone-services-business",
+  "category": "technology-and-software",
+  "metaTitle": "How to Start a Drone Services Business — Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a drone services business: FAA Part 107 reality, real startup costs, what aerial photo, inspection, and mapping work actually pays.",
+  "startupCostLow": 2500,
+  "startupCostHigh": 15000,
+  "monthlyEarningsLow": 1000,
+  "monthlyEarningsHigh": 9000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Tech-minded, detail-oriented people who enjoy flying, can pass the FAA Part 107 exam, and want to combine creative or technical work with field jobs",
+  "biggestRisk": "Spending heavily on gear before securing repeatable, paying clients in a niche where you can actually compete",
+  "speedToIncome": "months",
+  "minWeeklyHours": 10,
+  "skills": ["tech", "creative", "sales"],
+  "workLocations": ["mobile", "flexible"],
+  "priorities": ["flexibility", "alongside-job", "max-income"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "whatItIs": "A drone services business sells commercial work flown with small unmanned aircraft: aerial photography and video for real estate and marketing, roof and tower inspections, construction progress shots, and mapping or surveying for agriculture, construction, and land development. In the United States, any flight done for compensation requires an FAA Remote Pilot Certificate (Part 107), so this is not a hobby you can simply charge for — it is a licensed, regulated trade with a real exam and ongoing rules.",
+  "dailyReality": "Most of the calendar is not flying. A typical week is a few short shoots or inspections — often 30 to 90 minutes of actual airtime per job — wrapped around scouting locations, checking airspace and weather, planning flights, and then hours of editing photos, stitching video, or processing map data on a computer. You quote jobs, drive to sites, deal with no-fly zones and last-minute weather cancellations, and chase invoices. The work splits roughly between field time and desk time, and the desk time is where the deliverable gets made.",
+  "startupCostsItemized": [
+    { "item": "Capable camera drone (e.g. DJI Mavic 3 / Air 3 class)", "low": 1500, "high": 3000 },
+    { "item": "Enterprise / inspection or mapping drone", "low": 5000, "high": 12000, "optional": true },
+    { "item": "Extra batteries, props, ND filters, cases, charger", "low": 300, "high": 900 },
+    { "item": "FAA Part 107 study course and exam fee", "low": 175, "high": 500 },
+    { "item": "FAA drone registration", "low": 5, "high": 5, "annual": true },
+    { "item": "Drone liability insurance", "low": 500, "high": 1500, "annual": true },
+    { "item": "Editing / mapping software (Adobe, Pix4D, DroneDeploy)", "low": 100, "high": 1200, "annual": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Simple portfolio website and Google Business Profile", "low": 0, "high": 400, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most new operators earn $1,000 to $3,000 per month part-time in year one, and many months are slow while you build a portfolio and reputation. Real estate shoots commonly pay $150 to $400 each; basic marketing video runs higher. Expect inconsistent bookings until you have referrals.",
+    "experienced": "Operators with a clear niche, two-plus years, and repeat clients commonly report $4,000 to $9,000 per month. Inspection and mapping work for construction, insurance, and agriculture pays more per job ($300 to $1,500+) than real estate and is steadier once you are trusted by a few firms.",
+    "topEarners": "Top operators and small firms gross $150,000 to $400,000+ per year, but they got there by specializing in high-value technical work (large-scale mapping, utility/tower inspection, thermal roof scans), hiring pilots and editors, and signing recurring commercial contracts. This requires real expertise, expensive equipment, and a sales pipeline — it is not a step up from shooting houses.",
+    "whatAffectsMost": "Niche and deliverable quality matter far more than the drone. A mapping or inspection specialist who produces clean, useful reports out-earns a generalist with a nicer camera. Region, local competition, and whether you sell a finished product (orthomosaic, inspection report, edited reel) or just raw footage drive the rate.",
+    "perHour": "Counting only airtime, jobs can feel like $200 to $600 per hour. Counting editing, travel, quoting, and dead weather days, realistic blended rates are usually $40 to $120 per hour, especially in the first year."
+  },
+  "howToStart": [
+    "Month 1: Study for and pass the FAA Part 107 Remote Pilot exam — this is legally required before any paid flight. Register your drone with the FAA and get drone liability insurance. Do not accept paid work before all three are done.",
+    "Month 1-2: Pick ONE niche to start (real estate media, roof inspection, or small-area mapping) instead of offering everything. Build a portfolio by shooting free or discounted jobs for a handful of local agents, contractors, or property managers, and learn the editing or processing workflow that niche requires.",
+    "Month 2-3: Set clear, profitable package pricing and put a simple portfolio site and Google Business Profile online. Reach out directly to the specific businesses that buy your niche — real estate teams, roofing companies, surveyors, construction GCs — rather than advertising broadly.",
+    "Months 3-6: Deliver consistently, ask for referrals and testimonials, and track your true time per job. Reinvest in better gear or software only once your booked work justifies it, and consider adding a second niche once the first is reliable."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Ability to pass and operate under FAA Part 107 rules (airspace, weather, regulations)",
+      "Solid hand-eye flying skill and disciplined, safety-first judgment near people and property",
+      "Comfort with software — photo/video editing or mapping/processing depending on niche"
+    ],
+    "canLearn": [
+      "Advanced editing, color grading, and video storytelling for marketing work",
+      "Photogrammetry and mapping workflows (Pix4D, DroneDeploy) for survey and construction clients",
+      "Reading and presenting inspection findings clearly for insurers and contractors"
+    ],
+    "separators": [
+      "Specializing in high-value technical work (mapping, inspection, thermal) rather than competing on cheap real estate shoots",
+      "Producing a polished, decision-ready deliverable instead of handing over raw files",
+      "Building relationships with a few commercial clients who book repeatedly rather than chasing one-off gigs"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Treating it as a hobby and flying paid jobs without the Part 107 certificate, registration, or insurance — which is illegal and uninsured",
+    "Buying an expensive enterprise drone before they have clients who need what it does",
+    "Competing only on price for real estate photos, the most crowded and lowest-paid corner of the market",
+    "Underestimating editing and processing time, so the effective hourly rate is far below the headline shoot price",
+    "Ignoring airspace restrictions and getting jobs cancelled (or risking fines) by not securing LAANC authorization near airports",
+    "Offering every service to everyone instead of becoming genuinely good and known for one niche"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Camera drone (Mavic/Air class)", "note": "Plenty capable for real estate and marketing. Start here unless your niche truly needs more.", "low": 1500, "high": 3000 },
+    { "item": "Enterprise / thermal / RTK drone", "note": "Only for inspection or survey niches that demand it. Buy after the work is booked.", "low": 5000, "high": 12000 },
+    { "item": "Extra batteries and chargers", "note": "Single biggest field bottleneck — carry several so weather windows don't end your day.", "low": 200, "high": 700 },
+    { "item": "ND filters, cases, landing pad", "note": "Cheap items that meaningfully improve footage and protect gear.", "low": 80, "high": 300 },
+    { "item": "Editing computer + software subscription", "note": "Where the deliverable is actually made. Adobe for media, Pix4D/DroneDeploy for mapping.", "low": 100, "high": 1500 },
+    { "item": "Drone liability insurance", "note": "Non-negotiable for commercial work; many clients require proof before letting you fly.", "low": 500, "high": 1500 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Direct outreach to the specific businesses in your niche — real estate teams, roofing and solar companies, surveyors, construction GCs, farms",
+      "A focused portfolio site and Google Business Profile showing your best niche work, not a grab-bag of everything",
+      "Partnering with photographers, marketing agencies, or inspection firms who need aerial work but don't fly",
+      "Local commercial networking and trade groups (builders associations, BNI, real estate offices)",
+      "Posting strong before/after or flythrough samples on LinkedIn and Instagram aimed at the industry, not the general public"
+    ],
+    "whereCustomersAre": "Commercial buyers are concentrated in real estate, construction, insurance, utilities, and agriculture. The best clients are firms that need repeat work — a roofing company doing weekly inspections or a builder documenting monthly progress beats one-off homeowner requests.",
+    "timeToClientBase": "Expect one to three months to land first paying jobs after getting licensed, and six to twelve months to build a repeatable client base. Commercial relationships take longer to earn but are far stickier once established.",
+    "wasteOfTime": "Broad consumer advertising and trying to sell aerial photos to homeowners directly. Early on, flashy gear posts to hobbyist audiences and a generalist 'we do everything' pitch convert poorly compared with targeted outreach to one industry."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but usually only after you specialize. Generalist real estate work has a low solo ceiling because rates are competitive; technical niches like mapping and inspection reach full-time income with fewer, higher-value jobs.",
+    "hireAndStepBack": "Possible by hiring additional Part 107 pilots and editors and standardizing your deliverable, but you take on training, quality control, and the regulatory responsibility for everyone flying under your business. Many operators stay solo by choice.",
+    "sellable": "A drone business with recurring commercial contracts, documented workflows, and a brand can sell for a modest multiple, though much of the value in a solo operation is the owner's skill and relationships, which limits resale.",
+    "whatScalingRequires": "A repeatable, specialized deliverable, recurring commercial clients, additional licensed pilots, redundant equipment, and processing systems so jobs don't depend on you personally. The fast-moving technology and regulations also require ongoing reinvestment."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You enjoy both field work and detailed computer work like editing or data processing",
+      "You can pass a real regulatory exam and follow safety rules carefully",
+      "You have or can pick a specific industry to serve rather than trying to please everyone",
+      "You can absorb a few thousand dollars of upfront cost and a slow ramp"
+    ],
+    "poorFit": [
+      "You want fully passive income or to avoid the editing and processing grind",
+      "You're unwilling to study for the Part 107 exam or carry insurance",
+      "You expect to charge immediately just because you already own a drone",
+      "You dislike pitching roofers, surveyors, and real estate teams through direct outreach"
+    ],
+    "askYourself": [
+      "Which single niche can I realistically compete in, and who in my area actually buys it?",
+      "Am I prepared to spend as much time editing and processing as flying?",
+      "Can I handle slow months and weather cancellations while I build a client base?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I really need an FAA license to make money flying a drone?",
+      "answer": "Yes. In the United States any drone flight for compensation or in furtherance of a business requires an FAA Part 107 Remote Pilot Certificate. You must also register the drone and follow airspace rules. Flying paid jobs without it is illegal and leaves you uninsured if something goes wrong."
+    },
+    {
+      "question": "How hard is the Part 107 exam?",
+      "answer": "It is a multiple-choice knowledge test covering airspace, weather, regulations, and flight operations. Most people pass after one to two weeks of focused study using an online prep course. It is very doable, but it is a real exam, not a formality, and you must retake it periodically to stay current."
+    },
+    {
+      "question": "What is the most profitable type of drone work?",
+      "answer": "Technical work generally pays best: mapping and surveying for construction and agriculture, and inspections for roofing, solar, towers, and utilities. These require more skill and sometimes specialized equipment, but rates and repeat demand are higher than crowded, low-priced real estate photography."
+    },
+    {
+      "question": "Can I start with a consumer drone I already own?",
+      "answer": "For real estate and marketing media, a current Mavic or Air class drone is genuinely capable and a fine starting point. Inspection and mapping clients may eventually need thermal cameras or survey-grade accuracy, but don't buy an enterprise drone until that work is actually booked."
+    },
+    {
+      "question": "How much can I charge per job?",
+      "answer": "Real estate aerial shoots commonly run $150 to $400, marketing video more, and inspection or mapping jobs $300 to $1,500 or higher depending on scope and the deliverable. Price for the finished product and your processing time, not just airtime, or your real hourly rate will disappoint you."
+    },
+    {
+      "question": "Is the drone industry too saturated to enter now?",
+      "answer": "The real estate photo segment is crowded and price-competitive in many markets. Technical niches like inspection, thermal, and mapping are far less saturated because they require expertise most casual pilots don't have. Picking a defensible niche matters more than whether 'drones' overall are saturated."
+    },
+    {
+      "question": "What happens if weather or airspace cancels a job?",
+      "answer": "It happens regularly, and it is part of the business. Wind, rain, and temporary flight restrictions force reschedules, and flying near airports requires LAANC authorization that can be denied. Build buffer into your schedule and set clear cancellation terms with clients."
+    }
+  ],
+  "similarBusinesses": [
+    "real-estate-photography-business",
+    "photography-business",
+    "web-development-business",
+    "video-editing-business"
+  ],
+  "dataSources": [
+    "FAA — Part 107 Small UAS rule, Remote Pilot certification and registration requirements",
+    "U.S. Bureau of Labor Statistics — Photographers and related self-employed services data",
+    "Drone industry reports (DroneDeploy, Skylogic Research / Drone Analyst) on commercial service pricing and demand",
+    "Operator communities (r/drones, commercial UAV pilot forums) for real-world rates and job mix"
+  ],
+  "lastReviewed": "2026-06"
+}

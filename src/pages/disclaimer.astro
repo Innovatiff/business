@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE, DISCLAIMER } from '../config';
+---
+<BaseLayout
+  title="Disclaimer"
+  description="Honestly Profitable provides educational information only. Not financial, legal, or investment advice. Earnings are not guaranteed, individual results vary, and starting a business involves risk."
+  path="/disclaimer"
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Disclaimer' }]} />
+    <h1>Disclaimer</h1>
+    <p class="lead">{DISCLAIMER}</p>
+  </div>
+
+  <div class="container container-narrow page-body">
+    <h2>Not financial, legal, or investment advice</h2>
+    <p>
+      Nothing on {SITE.name} constitutes financial, legal, investment, tax, accounting, or other
+      professional advice. We are a publisher of educational information about business models. We
+      do not know your personal circumstances, and nothing here should be treated as advice tailored
+      to you. Before spending money or making decisions, consult qualified professionals (such as an
+      accountant, attorney, or licensed advisor) where appropriate.
+    </p>
+
+    <h2>Earnings and results are not guaranteed</h2>
+    <p>
+      The startup costs, earnings ranges, timelines, and difficulty levels we publish are informed
+      estimates drawn from publicly available data and reported operator experience. They describe
+      what is <em>typical</em> or <em>possible</em> — not what you will achieve. <strong>Results are
+      not typical and are not guaranteed.</strong> Most people who start a business earn less than the
+      top figures shown, many earn nothing for a period, and some lose money. Business failure is
+      common. Any earnings or income statements are estimates only; we make no representation that you
+      will earn any particular amount, or any money at all. We show honest ranges precisely so you can
+      plan for reality, not a fantasy.
+    </p>
+
+    <h2>No guarantee of accuracy or completeness</h2>
+    <p>
+      We work hard to keep information accurate and current, and each business page carries a "last
+      reviewed" date. Even so, costs, regulations, taxes, and market conditions change constantly, and
+      we do not warrant that any information is complete, current, or error-free. Always verify the
+      specifics for your own market and time before acting.
+    </p>
+
+    <h2>You are responsible for your decisions</h2>
+    <p>
+      Any action you take based on information from this site is at your own risk. Starting a
+      business involves financial and personal risk, including the possible loss of the money you
+      invest. You are solely responsible for evaluating opportunities, complying with all applicable
+      laws, licenses, permits, and tax obligations in your jurisdiction, and for your own outcomes.
+    </p>
+
+    <h2>External links</h2>
+    <p>
+      This site references and links to third-party websites and data sources for your convenience.
+      We do not control those sites and are not responsible for their content, accuracy, or
+      practices. A link is not an endorsement, and you access third-party sites at your own risk.
+    </p>
+
+    <h2>Advertising and affiliate disclosure</h2>
+    <p>
+      {SITE.name} is supported by advertising and may display ads through networks such as Google
+      AdSense. Advertising is kept clearly separate from our editorial content and never influences
+      our research or ratings. If we ever include affiliate links (links that could earn us a
+      commission), we will disclose that clearly; regardless, such links would never change our honest
+      assessment of a business. See our <a href="/privacy-policy">Privacy Policy</a> for how
+      advertising cookies work.
+    </p>
+
+    <h2>Consult a professional</h2>
+    <p>
+      For decisions with financial, legal, or tax consequences, seek advice from a qualified
+      professional who can consider your specific situation. This site is a starting point for your
+      research, not a substitute for personalized professional guidance.
+    </p>
+
+    <h2>Do your own research</h2>
+    <p>
+      Treat every page as a researched starting point — not the final word. Verify costs and
+      regulations locally, talk to people actually running the business, and confirm the numbers for
+      your specific market before committing money or time. Our full process is described in
+      <a href="/how-we-research-businesses">how we research businesses</a>.
+    </p>
+
+    <p class="page-updated">Last updated: July 2026 · {SITE.domain}</p>
+  </div>
+</BaseLayout>

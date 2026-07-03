@@ -1,0 +1,164 @@
+{
+  "title": "Food Truck Business",
+  "slug": "food-truck-business",
+  "category": "food-and-beverage",
+  "metaTitle": "How to Start a Food Truck Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a food truck business: real startup costs, realistic earnings, permits and regulation, thin margins, high failure rate, and what most people get wrong.",
+  "startupCostLow": 40000,
+  "startupCostHigh": 150000,
+  "monthlyEarningsLow": 2000,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "3 to 9 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced food people who love cooking and hospitality, can stomach heavy regulation and long hours, and have capital they can afford to risk",
+  "biggestRisk": "Running out of cash before the truck builds a following — most food trucks operate on thin margins and a large share close within the first few years",
+  "speedToIncome": "months",
+  "minWeeklyHours": 50,
+  "skills": ["food"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A food truck business prepares and sells food from a mobile, fully equipped kitchen — at events, festivals, breweries, office parks, lunch spots, and private catering gigs. It is often pitched as a cheaper, more flexible way into the restaurant world, and it can be: you avoid the rent and buildout of a brick-and-mortar restaurant, and you can chase demand by moving locations. But be very honest with yourself before starting. A food truck is still a restaurant — one of the hardest businesses there is — just on wheels, with the added complications of a vehicle that can break down, heavy and fragmented regulation, and a relentless physical schedule. Margins are thin, the hours are long, the failure rate is high, and success depends as much on location strategy, permits, and event bookings as it does on the food itself.",
+  "dailyReality": "A workday starts long before service: prep at a commissary kitchen, loading and stocking the truck, driving to a permitted location, and setting up. Then comes a few hours of intense, hot, cramped service taking orders, cooking, and handling payment, often in a tiny space with one or two people. After service comes breakdown, cleaning, returning to the commissary for required sanitation and waste disposal, restocking, and bookkeeping. Add the ongoing hunt for the next location or event, applications and renewals for permits, ingredient sourcing, social media to tell customers where you'll be, and vehicle maintenance. Realistically this is 50 to 70+ hours a week, much of it physical, with the best money concentrated on weekends and at events.",
+  "startupCostsItemized": [
+    { "item": "Truck — used and already-equipped, or a used vehicle plus build-out", "low": 30000, "high": 100000 },
+    { "item": "Kitchen equipment, refrigeration, generator, fire suppression (if not included)", "low": 0, "high": 30000, "optional": true },
+    { "item": "Permits, licenses, health department fees, vehicle registration (multi-jurisdiction)", "low": 1000, "high": 8000 },
+    { "item": "Commissary / commercial kitchen rental", "low": 4800, "high": 18000, "annual": true },
+    { "item": "Initial food and packaging inventory", "low": 1500, "high": 5000 },
+    { "item": "Insurance (general liability, commercial auto, product liability)", "low": 2000, "high": 7000, "annual": true },
+    { "item": "POS system, payment processing, and branding/wrap", "low": 1500, "high": 8000 },
+    { "item": "Business registration / LLC and working-capital cushion", "low": 5000, "high": 20000 }
+  ],
+  "realEarnings": {
+    "yearOne": "Wildly variable and often discouraging. Many first-year owners earn little to nothing after paying themselves last — common owner take-home in year one is $0 to $3,000 per month, with plenty of months underwater while building a following and dialing in costs. A few well-located trucks in strong markets do better, but year one is mostly about survival, not profit.",
+    "experienced": "An established truck with a steady event calendar, repeat locations, and tight cost control commonly generates $150,000 to $400,000+ in annual revenue, but margins are thin (often single digits to low teens after food, labor, fuel, commissary, and permits). Realistic owner take-home for a solid, established single truck is often $4,000 to $10,000 per month, and it swings hard with season and weather.",
+    "topEarners": "Top operators run multiple trucks, a heavy catering and private-event book, and sometimes a brick-and-mortar or packaged-product line, grossing $500,000 to $1M+ across the operation. Getting there takes years, a genuinely strong concept and brand, repeatable systems, and the ability to staff and manage crews. The very top sometimes franchise or sell the brand. This is the exception, not the expectation.",
+    "whatAffectsMost": "Location and bookings outweigh almost everything: a great concept at bad locations fails, while a solid concept at high-traffic events and reliable lunch spots succeeds. After that, food cost control, labor efficiency, a tight menu, and weather/seasonality drive the difference between profit and loss.",
+    "perHour": "Because hours are so long and so much time is unpaid prep, driving, cleaning, and admin, effective owner hourly pay in the early years is frequently below minimum wage. Established, well-run trucks can reach a respectable effective rate, but the headline revenue numbers always overstate take-home."
+  },
+  "howToStart": [
+    "Months 1-2: Pressure-test the concept before spending money. Nail down a tight, fast-to-execute menu, estimate food costs honestly, and research your local market and competition. Critically, map your local regulations: every city and county has different food-truck permit rules, and many require a commissary.",
+    "Months 2-4: Secure your commissary kitchen (often legally required and a gatekeeper), then begin the permit and licensing process — business license, food handler/manager certification, health department approval and inspection, fire and vehicle permits. This is slow and varies by jurisdiction; start early.",
+    "Months 3-6: Buy the truck. A used, already-equipped truck is usually the cheaper and faster path than building one out. Get it inspected, wrapped/branded, and outfitted with a POS and payment processing. Line up insurance before you serve anyone.",
+    "Months 4-9: Do soft-launch events and lock in a recurring location strategy — breweries, office parks, farmers markets, and a reliable lunch rotation. Build social media so customers can find where you'll be each day, and start booking catering and private events, which carry better margins.",
+    "Ongoing: Track food cost percentage, labor, and waste obsessively, refine the menu around what sells and travels well, and keep a cash cushion for slow weeks, bad weather, and vehicle repairs."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Real cooking and food-service ability — ideally prior restaurant or kitchen experience",
+      "Physical and mental stamina for long, hot, high-pressure days",
+      "Basic food-cost and cash-flow discipline to survive thin margins",
+      "Willingness to navigate dense, multi-jurisdiction permits and health regulations"
+    ],
+    "canLearn": [
+      "Location and event strategy and how to book recurring spots",
+      "Social media and marketing to tell customers where you'll be",
+      "POS, inventory, and basic bookkeeping systems"
+    ],
+    "separators": [
+      "A genuinely distinctive concept and consistent food quality that builds a following",
+      "Disciplined cost control and a tight, fast menu engineered for low waste and quick service",
+      "Securing high-traffic locations, a strong event calendar, and a catering/private-event book"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Underestimating regulation — every city and county is different, many require a commissary, and permitting alone can take months and thousands of dollars",
+    "Spending too much on the truck and build-out and running out of working capital before building a following",
+    "Treating it as cheaper and easier than a restaurant when it is just a restaurant on wheels with a vehicle that breaks down",
+    "Ignoring food-cost percentage, labor, and waste until thin margins quietly turn into losses",
+    "Choosing low-traffic locations and a slow, sprawling menu that kills throughput during the short service window",
+    "Failing to plan for seasonality, bad weather, and vehicle repairs, which can wipe out a month of profit"
+  ],
+  "toolsAndEquipment": [
+    { "item": "The truck and core cooking line (grill, fryer, refrigeration)", "note": "Buying used and already-equipped is usually far cheaper than a custom build-out.", "low": 30000, "high": 100000 },
+    { "item": "Generator and fire suppression system", "note": "Often legally required; verify your jurisdiction's specs before buying.", "low": 1000, "high": 8000 },
+    { "item": "POS and mobile payment processing", "note": "Square and Toast are common; line speed matters during the short rush.", "low": 300, "high": 2000 },
+    { "item": "Commissary kitchen access", "note": "Frequently mandated for prep, water, and waste disposal; a recurring cost, not a one-time buy.", "low": 400, "high": 1500 },
+    { "item": "Packaging, smallwares, and serving supplies", "note": "Choose packaging that travels and holds quality; recurring cost.", "low": 500, "high": 2000 },
+    { "item": "Branding, truck wrap, and signage", "note": "A memorable wrap is real marketing for a mobile business, but don't overspend before launch.", "low": 1000, "high": 6000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Recurring high-traffic locations: office parks at lunch, breweries (which often lack kitchens), farmers markets, and busy commercial corridors",
+      "Festivals, fairs, and local events with paid vendor spots and concentrated foot traffic",
+      "Social media (Instagram, TikTok, food-truck-finder apps) to post your daily location and build a following",
+      "Catering and private events (weddings, corporate, parties), which carry better margins than street service",
+      "Partnerships with breweries, venues, and event organizers for regular bookings"
+    ],
+    "whereCustomersAre": "Wherever hungry crowds gather without enough food options — lunch crowds in business districts, brewery patrons, event and festival attendees, and private hosts who want something different for an event. Strong markets have active food-truck scenes and event calendars.",
+    "timeToClientBase": "Expect three to nine months to build a recognizable following and a reliable rotation of locations and events. The first season is largely experimentation to learn which spots and days actually make money. Catering relationships take longer but stabilize income.",
+    "wasteOfTime": "Expensive paid advertising before you have a following, and parking at low-traffic locations hoping customers materialize. Early on, showing up consistently at proven high-traffic spots and posting your location daily beats any ad spend."
+  },
+  "howItScales": {
+    "toFullTime": "It is usually full-time from day one — the hours demand it. Reaching a comfortable full-time income, however, often takes a full season or more to dial in locations, menu, and costs. Many owners are surprised how long it takes to pay themselves a real wage.",
+    "hireAndStepBack": "Hard. A single truck is tightly capacity-constrained and depends heavily on the owner's cooking and hustle. Stepping back means hiring and training reliable cooks and trusting them with quality and cash in a cramped, high-pressure environment, which is difficult. Most stepping-back happens only after adding trucks and managers.",
+    "sellable": "Modest and concept-dependent. You can sell the truck and equipment as assets, and a brand with a strong following, recurring catering contracts, and systems can fetch more, but a single owner-operated truck with no brand equity is mostly worth its used-equipment value.",
+    "whatScalingRequires": "A proven, repeatable concept; documented recipes and systems; reliable staff; capital for additional trucks; and a strong catering/event pipeline. Many successful operators scale by adding trucks, opening a brick-and-mortar, packaging a product, or franchising — each a significant new undertaking."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have real food-service or cooking experience and genuinely love the craft and hospitality",
+      "You can handle long, physical, high-pressure days and weekend/event work",
+      "You have capital you can afford to risk and a cash cushion for slow stretches",
+      "You're willing to learn and comply with dense local permitting and health regulation"
+    ],
+    "poorFit": [
+      "You want a low-cost, low-risk, or part-time business instead of a capital-heavy mobile kitchen run on thin margins",
+      "You expect passive income or to step back from the work quickly",
+      "You have no food-service experience and underestimate how hard restaurant work is",
+      "You can't tolerate thin margins, seasonality, and the real possibility of failure"
+    ],
+    "askYourself": [
+      "Can I afford to lose the startup capital if this fails, as a meaningful share of food trucks do within a few years?",
+      "Have I actually researched my city and county permit rules and commissary requirements, not just the truck?",
+      "Am I prepared to work 50 to 70+ hour weeks, much of it physical, for possibly little pay in year one?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How much does it really cost to start a food truck?",
+      "answer": "Realistically $40,000 to $150,000+ to start properly, depending mostly on the truck. A used, already-equipped truck plus permits, commissary, insurance, inventory, and a working-capital cushion lands many owners in the $40,000 to $80,000 range. A custom build-out, new equipment, and a strong cash reserve push it well past $100,000. Underfunding the working-capital cushion is a leading cause of early failure."
+    },
+    {
+      "question": "What permits and licenses do I need?",
+      "answer": "Expect a business license, food handler and food manager certifications, health department permits and inspections, a commissary agreement (often legally required), fire safety inspection, vehicle registration, and parking/vending permits — and these vary by every city and county you operate in. Permitting is one of the most time-consuming and frustrating parts of the process, so research your specific jurisdictions early and budget months for it."
+    },
+    {
+      "question": "Do I need a commissary kitchen?",
+      "answer": "In most jurisdictions, yes. Health codes commonly require a licensed commercial kitchen (commissary) for food prep, water fill, waste disposal, and overnight parking, because a truck alone cannot meet sanitation requirements. It is a recurring monthly cost and often a gatekeeper to getting permitted at all, so confirm availability and pricing before committing."
+    },
+    {
+      "question": "How profitable are food trucks really?",
+      "answer": "Margins are thin — commonly single digits to low teens after food, labor, fuel, commissary, permits, and maintenance. A strong established truck can generate solid revenue, but owner take-home is far lower than the gross suggests, and year one often produces little or no profit. Be honest: this is a tough, low-margin business, not a fast path to wealth."
+    },
+    {
+      "question": "What's the failure rate for food trucks?",
+      "answer": "High. Like restaurants generally, a large share of food trucks close within their first few years. The most common reasons are running out of cash, poor location strategy, weak cost control, and underestimating the regulatory and physical demands. Going in well-capitalized, with food experience and a tested concept, meaningfully improves your odds."
+    },
+    {
+      "question": "Do I need restaurant experience?",
+      "answer": "It's strongly recommended. A food truck is a restaurant on wheels, and people without food-service experience routinely underestimate the speed, cost control, and physical demands of service. You can learn the location and marketing side as you go, but you should bring real cooking and food-handling competence from the start."
+    },
+    {
+      "question": "Is a food truck cheaper than opening a restaurant?",
+      "answer": "Usually cheaper to start and more flexible, since you avoid restaurant rent and a full buildout, and you can move toward demand. But it is not easier — you trade fixed rent for vehicle costs, multi-jurisdiction permits, commissary fees, weather and seasonality risk, and a tiny working space. Think of it as a different set of hard problems, not a shortcut."
+    }
+  ],
+  "similarBusinesses": [
+    "thrift-flipping-business",
+    "junk-removal-business",
+    "vending-machine-business",
+    "car-detailing-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Food Service and Food Preparation industry data",
+    "Local and state health department food-truck and mobile-vendor permitting requirements",
+    "IBISWorld / industry reports on food truck revenue, margins, and growth trends",
+    "Food-truck industry guides and POS provider reports (Square, Toast) on average sales and costs",
+    "Operator communities and forums (r/FoodTrucks, Roaming Hunger resources) for real-world earnings and failure rates"
+  ],
+  "lastReviewed": "2026-06"
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Presentation Design Business",
+  "slug": "presentation-design-business",
+  "category": "creative-and-content",
+  "metaTitle": "How to Start a Presentation Design Business — Real Costs, Earnings, Steps",
+  "metaDescription": "Honest guide to starting a presentation design business: real per-deck pricing, realistic earnings, how to find startup and exec clients, and what most designers get wrong.",
+  "startupCostLow": 200,
+  "startupCostHigh": 2500,
+  "monthlyEarningsLow": 1000,
+  "monthlyEarningsHigh": 12000,
+  "timeToFirstIncome": "2 to 6 weeks",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Designers who can pair clean visual craft with clear storytelling and are comfortable working closely with founders and executives",
+  "biggestRisk": "Competing on price as a generic slide-cleaner instead of charging premium rates for high-stakes decks",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 10,
+  "skills": ["creative", "writing", "people"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["max-income", "flexibility", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A presentation design business creates high-stakes slide decks for clients who can't afford to look amateur — startup pitch decks for investors, sales and proposal decks, executive board presentations, conference keynotes, and investor updates. The value isn't just making slides pretty; it's structuring a narrative, simplifying dense data into clear visuals, and producing a polished, on-brand deck under deadline. It's a premium niche because a single deck can decide a funding round or a major sale, so clients with money on the line pay well for craft and storytelling that a generalist or in-house team can't deliver.",
+  "dailyReality": "A typical project starts with a messy draft deck or a pile of content and a brand guide. You spend time up front understanding the goal and audience, then restructure the story, design a template, and build out slides — wrangling charts, diagrams, icons, and typography until each slide carries one clear idea. Day to day mixes deep focused design work in PowerPoint, Google Slides, or Figma with client calls, revision rounds (often several), and the unglamorous parts: scoping projects, sending proposals and invoices, and managing rush requests that land the day before a board meeting.",
+  "startupCostsItemized": [
+    { "item": "Design software (PowerPoint/Microsoft 365, Figma, Adobe CC as needed)", "low": 100, "high": 700, "annual": true },
+    { "item": "Capable laptop (use one you own to start)", "low": 0, "high": 2000, "optional": true },
+    { "item": "Stock assets, icon and template libraries, premium fonts", "low": 50, "high": 400, "annual": true },
+    { "item": "Portfolio site / Behance or Dribbble presence", "low": 0, "high": 300 },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Contract templates and invoicing tool", "low": 0, "high": 200, "annual": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Beginners building a portfolio and reputation typically earn $1,000 to $3,500 per month part-time, with early decks often priced low ($300 to $1,000 each) while you collect testimonials. Income is lumpy and depends entirely on how many clients you can land before you have referrals.",
+    "experienced": "Established designers with a niche and a strong portfolio commonly earn $5,000 to $12,000 per month, charging $1,500 to $6,000+ per deck or selling monthly retainers to startups and agencies. Specializing (e.g., venture pitch decks) supports the higher end.",
+    "topEarners": "Top specialists and small studios — especially those known for a specific high-value niche like Series A/B fundraising decks — command $8,000 to $25,000+ per project and can clear $200,000+ a year. Getting there took a sharp reputation, a portfolio of decks tied to real outcomes (funding raised, deals closed), and a referral network among founders and VCs.",
+    "whatAffectsMost": "Niche and positioning matter most. A generalist 'I make slides nicer' competes on price; a specialist who designs investor decks tied to funded rounds charges multiples more. Storytelling ability and the perceived stakes of the deck drive pricing far more than raw design polish.",
+    "perHour": "Effective rate ranges widely with positioning — roughly $30 to $60 per hour for beginners taking cheap per-slide work, and $75 to $200+ per hour for specialists who price per project and work efficiently. Endless free revisions are the main thing that drags the real rate down."
+  },
+  "howToStart": [
+    "Weeks 1-2: Pick a niche to anchor your positioning (startup pitch decks, sales decks, or executive/board decks) and build 3 to 5 strong sample decks — redesign real-but-anonymized or public decks to show before/after transformation, not just pretty slides.",
+    "Weeks 2-4: Build a simple portfolio site and a Dribbble/Behance presence centered on your niche. Write clear packages and per-deck pricing rather than vague hourly rates. Draft a contract that caps revision rounds.",
+    "Month 1-2: Land first clients through founder communities, LinkedIn, agencies that subcontract, and freelance platforms. Price early decks to win, but always collect a testimonial and, where possible, the outcome (funding raised, deal closed).",
+    "Months 2-4: Raise prices as your portfolio strengthens, move toward project and retainer pricing, and ask happy founders and execs for referrals into their networks — this is where premium clients come from.",
+    "Months 4-12: Productize your process (questionnaire, story framework, template system) so you deliver faster, and decide whether to stay solo-premium or build toward a small studio with subcontractors."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Strong visual design fundamentals — layout, typography, hierarchy, and restraint",
+      "Storytelling and structure: turning messy content into a clear, persuasive narrative",
+      "Fluency in PowerPoint and Google Slides (where most clients actually live), not just print tools",
+      "Comfort working directly with founders and executives who have strong opinions and tight deadlines"
+    ],
+    "canLearn": [
+      "Data visualization — turning ugly tables into clean, honest charts and diagrams",
+      "Figma and slide-automation tools for faster template building",
+      "Scoping and pricing projects to protect your margin from revision creep"
+    ],
+    "separators": [
+      "Niche specialization (e.g., venture pitch decks) that justifies premium pricing",
+      "Narrative skill that improves the client's actual argument, not just the visuals",
+      "A referral network among founders, agencies, and investors that delivers high-value clients"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Positioning as a generic 'slide cleaner' and competing on price instead of owning a high-stakes niche",
+    "Charging per slide, which punishes you for efficiency and invites scope creep",
+    "Not capping revision rounds, then doing five free rounds that destroy the effective hourly rate",
+    "Focusing only on visual polish while ignoring the story, which is what clients actually pay premium prices for",
+    "Building a portfolio of made-up decks with no connection to real audiences or outcomes",
+    "Ignoring brand guidelines and PowerPoint's real constraints, delivering decks the client can't edit or present"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Microsoft PowerPoint / Microsoft 365", "note": "Non-negotiable — most corporate and investor decks live here, not in design-only tools.", "low": 70, "high": 100 },
+    { "item": "Figma", "note": "Increasingly used for deck design and collaborative templates; free tier works to start.", "low": 0, "high": 180 },
+    { "item": "Adobe Creative Cloud", "note": "Optional but useful for custom illustration, image editing, and icon work.", "low": 0, "high": 660, "optional": true },
+    { "item": "Stock and icon libraries (Iconscout, Noun Project, stock photo sites)", "note": "Worth a subscription once you're working regularly.", "low": 0, "high": 300 },
+    { "item": "Premium fonts / type licenses", "note": "Respect client brand fonts; license anything you reuse commercially.", "low": 0, "high": 300 },
+    { "item": "Contract and invoicing tools", "note": "A revision-capping contract is your single best margin protection.", "low": 0, "high": 200 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "LinkedIn content and outreach showing deck before/afters to founders, sales leaders, and execs",
+      "Startup and founder communities (accelerators, Slack groups, indie hacker forums) where pitch decks are a constant need",
+      "Subcontracting through branding and marketing agencies that don't do decks in-house",
+      "Dribbble, Behance, and a focused portfolio site that ranks for your niche",
+      "Referrals from happy founders and execs into their investor and peer networks",
+      "Freelance platforms (Upwork, Contra) to seed early work and testimonials"
+    ],
+    "whereCustomersAre": "Founders preparing to raise capital, sales and revenue teams building proposals, and executives prepping board or conference talks. Many cluster around accelerators, VC networks, agencies, and LinkedIn.",
+    "timeToClientBase": "Most designers land first paid projects within two to six weeks of having a real portfolio, but a steady, referral-fed flow of premium clients usually takes six to twelve months of consistent visibility and delivered results.",
+    "wasteOfTime": "Cold mass-emailing with no portfolio, racing to the bottom on cheap per-slide gig listings, and chasing every industry instead of owning one niche. Early on, a focused portfolio and a few strong testimonials convert far better than volume outreach."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. Many designers reach full-time income solo by specializing, raising per-deck prices, and adding retainers with startups and agencies. The solo ceiling is set by your hours and how efficiently you can deliver premium work.",
+    "hireAndStepBack": "Possible by building a small studio with subcontracting designers and project managers, but presentation work is taste- and story-driven, so quality control is hard to delegate. Many owners stay deliberately small and premium rather than manage a team.",
+    "sellable": "Harder to sell than asset-heavy businesses because the value is often the owner's reputation and taste. A studio with a brand, repeat clients on retainer, and a team that delivers consistently can sell, but a pure solo practice is essentially you.",
+    "whatScalingRequires": "A repeatable design and story process, a template and asset system for speed, reliable subcontractors, and a steady premium lead pipeline so the team isn't idle between projects."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have solid design skills and genuinely enjoy structuring a story, not just styling slides",
+      "You're comfortable working closely with demanding founders and executives under deadline",
+      "You want flexible, location-independent deck work you can build on evenings and weekends alongside a job",
+      "You're willing to specialize and charge premium prices rather than compete on volume"
+    ],
+    "poorFit": [
+      "You want passive income or to avoid founder calls and multiple deck revision rounds",
+      "You dislike tight deadlines and last-minute rush requests",
+      "You only know print or web design and refuse to master PowerPoint and Google Slides",
+      "You'd rather take any cheap gig than build a focused, premium niche"
+    ],
+    "askYourself": [
+      "Can I improve a client's actual argument and story, not just make their slides look nicer?",
+      "Will I hold a niche and premium pricing, or default to cheap per-slide work?",
+      "Am I comfortable handling executive clients, deadlines, and revision rounds professionally?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How much can I charge for a pitch deck?",
+      "answer": "It varies widely with your reputation and the stakes. Beginners often start at $300 to $1,000 per deck to build a portfolio, established designers charge $1,500 to $6,000, and specialists known for funded venture decks command $8,000 to $25,000+. Price per project, not per slide, so efficiency works for you instead of against you."
+    },
+    {
+      "question": "Do I need to be a great designer or a great writer?",
+      "answer": "Both matter, but storytelling is what justifies premium prices. Plenty of skilled designers make pretty slides; the ones who get paid the most can take a founder's messy argument and restructure it into a clear, persuasive narrative. If you're stronger at one, partner or upskill on the other."
+    },
+    {
+      "question": "Can I do this with just PowerPoint, or do I need Adobe and Figma?",
+      "answer": "PowerPoint and Google Slides are non-negotiable because that's where most corporate and investor decks live and where clients need to edit them afterward. Figma is increasingly common for design and templates, and Adobe tools help for custom illustration, but you can build a real business starting with just PowerPoint and free Figma."
+    },
+    {
+      "question": "How do I avoid endless free revisions?",
+      "answer": "Cap revision rounds in your contract (two or three is common), define what a 'round' means, and charge for extra rounds or scope changes. Unlimited revisions are the single biggest thing that wrecks the effective hourly rate in this business, especially with indecisive clients."
+    },
+    {
+      "question": "Is presentation design being replaced by AI tools?",
+      "answer": "AI tools can generate rough slide drafts and templates quickly, which has put downward pressure on the cheapest, generic 'make it look nicer' work. High-stakes decks where story, judgment, and client collaboration matter are far more defensible. The honest move is to position toward premium, narrative-driven work that AI can't reliably deliver."
+    },
+    {
+      "question": "Can I start this part-time alongside a job?",
+      "answer": "Yes — it's one of the more part-time-friendly creative businesses since projects are discrete and much of the work is asynchronous. The main constraint is client calls and rush deadlines, which sometimes need daytime availability. Many people build a portfolio and first clients on evenings and weekends before going full-time."
+    }
+  ],
+  "similarBusinesses": [
+    "freelance-graphic-design-business",
+    "ui-ux-design-business",
+    "motion-graphics-business",
+    "social-media-management-business"
+  ],
+  "dataSources": [
+    "Freelance and design platform rate data (Upwork, Contra, Dribbble) for per-project and hourly ranges",
+    "Presentation design studio and specialist pricing pages and case studies",
+    "Startup and accelerator community discussions on pitch-deck costs and outcomes",
+    "Designer operator communities and forums for real-world earnings and revision-management practices"
+  ],
+  "lastReviewed": "2026-06"
+}

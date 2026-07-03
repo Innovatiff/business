@@ -1,0 +1,166 @@
+{
+  "title": "Concrete and Masonry Business",
+  "slug": "concrete-business",
+  "category": "trades-and-skilled-work",
+  "metaTitle": "How to Start a Concrete and Masonry Business — Real Costs and Earnings",
+  "metaDescription": "Honest breakdown of starting a concrete and masonry business: real startup costs, realistic earnings, licensing reality, and what most operators get wrong on finishing work.",
+  "startupCostLow": 8000,
+  "startupCostHigh": 60000,
+  "monthlyEarningsLow": 4000,
+  "monthlyEarningsHigh": 25000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Experienced finishers or laborers who can read a pour, manage a crew, and handle heavy, time-sensitive physical work",
+  "biggestRisk": "Botching a pour or finish on a job you cannot redo, leaving you to demo and replace concrete at your own cost",
+  "speedToIncome": "months",
+  "minWeeklyHours": 40,
+  "skills": ["hands"],
+  "workLocations": ["mobile"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A concrete and masonry business pours, forms, and finishes flatwork and structural concrete — driveways, sidewalks, patios, garage and shed slabs, footings, foundations, and decorative or stamped surfaces — and often handles related masonry like block walls, retaining walls, steps, and brick or paver work. Concrete is unforgiving: once it is poured and starts to set, you have a narrow window to finish it correctly, and there is no undo. That is exactly why skilled finishers are paid well and why the trade has a high barrier to entry. Demand is steady from homeowners, general contractors, and builders, but the work is heavy, weather-dependent, and crew-driven.",
+  "dailyReality": "A working day usually starts early. You set forms, prep and compact the subgrade, place rebar or mesh, then either pour from a ready-mix truck or mix on site. Once concrete arrives, the day becomes a race: spreading, screeding, floating, edging, and timing the finish before the slab sets — often the most physically intense few hours in any trade. Afterward you strip forms, clean tools immediately before concrete hardens on them, and manage curing. Between pours you spend time estimating jobs, measuring sites, scheduling ready-mix deliveries, coordinating a crew, and chasing payment. Cold, heat, and rain all dictate whether you can pour at all, so weather constantly reshapes your week.",
+  "startupCostsItemized": [
+    { "item": "Hand tools (floats, trowels, screeds, edgers, groovers, bull float)", "low": 500, "high": 2000 },
+    { "item": "Power tools (mixer, plate compactor, concrete saw, vibrator)", "low": 1500, "high": 8000 },
+    { "item": "Work truck or trailer for hauling forms and tools", "low": 3000, "high": 30000 },
+    { "item": "Forming lumber, stakes, rebar, and consumables (initial stock)", "low": 500, "high": 2500 },
+    { "item": "Contractor license, bonding, and exam fees", "low": 300, "high": 2500 },
+    { "item": "General liability insurance", "low": 1000, "high": 3500, "annual": true },
+    { "item": "Business registration / LLC", "low": 100, "high": 500 },
+    { "item": "Skid steer or mini track loader", "low": 0, "high": 30000, "optional": true },
+    { "item": "Decorative/stamping mats and color tools", "low": 0, "high": 2500, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "First-year operators who already know how to finish typically clear $4,000 to $9,000 per month once jobs are flowing, though early months are uneven because of crew costs, equipment buildout, and weather gaps. Beginners without finishing experience generally should not start solo — they tend to lose money on failed pours.",
+    "experienced": "Established operators with a reliable crew, builder relationships, and good estimating commonly net $8,000 to $20,000 per month in season. Margins on flatwork are tight; decorative, stamped, and structural work pays better per hour.",
+    "topEarners": "Larger concrete and masonry companies running multiple crews and steady commercial or builder contracts gross well into six figures monthly, but getting there means managing labor, equipment fleets, bidding, and cash flow on big jobs — it is a construction company, not a one-person trade. Most operators never scale past two or three crews.",
+    "whatAffectsMost": "Estimating accuracy, finishing skill, and crew reliability matter most. A single underbid or blown pour can erase the profit from several good jobs, and labor availability often caps how much you can take on.",
+    "perHour": "Effective rates for a skilled solo or small-crew finisher run roughly $50 to $120 per hour of billed work, but heavy unpaid time on estimating, weather delays, and equipment upkeep pulls realistic blended rates down to $40 to $80."
+  },
+  "howToStart": [
+    "Before anything: Get real finishing experience first. Work for or alongside an established concrete crew until you can run a pour from forms to finish without supervision. This is the single thing that determines whether you make or lose money.",
+    "Month 1: Check your state and local contractor licensing rules — many states require a license for concrete and masonry work above a dollar threshold, plus bonding and proof of insurance. Register the business, get general liability insurance, and line up a ready-mix supplier and at least one reliable laborer.",
+    "Month 1-2: Buy the core hand and power tools and a way to haul forms. Start with smaller residential flatwork — sidewalks, small slabs, and patios — where mistakes are cheaper to fix than foundations.",
+    "Months 2-4: Build relationships with two or three general contractors and a landscaper; their referrals are steadier than one-off homeowner jobs. Photograph every finished job, especially clean broom and stamped finishes, and collect reviews.",
+    "Season 1: Track material and labor cost per job obsessively so your estimates tighten. Decide whether to add a skid steer or decorative capability based on the work you are actually winning."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Concrete finishing skill — knowing when and how to float, trowel, and time a finish before the slab sets",
+      "Physical strength and stamina for sustained heavy lifting and fast-paced pour days",
+      "Site prep knowledge — subgrade compaction, forming, slope, and reinforcement",
+      "Basic estimating so you can price material and labor without losing money"
+    ],
+    "canLearn": [
+      "Decorative techniques like stamping, staining, and exposed aggregate",
+      "Scheduling ready-mix deliveries and coordinating a small crew",
+      "Reading simple structural plans for footings and foundations"
+    ],
+    "separators": [
+      "Consistently flawless finishes that earn referrals and premium pricing",
+      "Accurate, fast estimating that protects margin on tight flatwork bids",
+      "Reliable builder and contractor relationships that keep crews busy through the season"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Starting before they can actually finish concrete, then losing money demolishing and re-pouring failed slabs",
+    "Underbidding flatwork because they forget how thin margins are after material, ready-mix, and crew costs",
+    "Skipping proper subgrade prep and reinforcement, leading to cracking, settling, and callbacks they have to fix free",
+    "Pouring in bad weather or letting a pour wait too long for finishing, ruining the surface",
+    "Operating without the required contractor license or bond and getting fined or barred from permitted work",
+    "Not cleaning tools and equipment immediately, so hardened concrete destroys gear and slows the next job"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Finishing tools (bull float, hand floats, trowels, edgers, groovers)", "note": "The heart of the trade — quality finishing tools and the skill to use them define your reputation.", "low": 500, "high": 2000 },
+    { "item": "Screeds and straightedges", "note": "For leveling the pour. Magnesium screeds for general work; a power screed speeds large flatwork.", "low": 150, "high": 1500 },
+    { "item": "Plate compactor", "note": "Essential for subgrade prep so slabs do not settle and crack later.", "low": 800, "high": 3000 },
+    { "item": "Concrete mixer or access to ready-mix", "note": "Small jobs can be site-mixed; most flatwork uses a ready-mix truck you schedule.", "low": 0, "high": 2500 },
+    { "item": "Concrete saw and vibrator", "note": "For control joints and consolidating structural pours.", "low": 500, "high": 3000 },
+    { "item": "Work truck and trailer", "note": "You haul forms, tools, and material constantly; reliability matters more than looks.", "low": 3000, "high": 30000 },
+    { "item": "Skid steer or mini loader", "note": "A scaling tool for moving dirt and material fast. Rent before you buy.", "low": 0, "high": 40000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Relationships with general contractors, builders, and landscapers who subcontract concrete repeatedly",
+      "A Google Business Profile with sharp photos of finished flatwork and stamped or decorative jobs",
+      "Yard signs and door hangers in neighborhoods where you just completed a visible driveway or patio",
+      "Local Facebook groups and Nextdoor where homeowners ask for driveway and patio quotes",
+      "Showing up reliably on builder jobs so you become their default concrete sub"
+    ],
+    "whereCustomersAre": "Homeowners needing driveways, patios, and slabs; general contractors and home builders needing footings and foundations; and landscapers needing patios and retaining walls. Builder and contractor referrals are the steadiest source.",
+    "timeToClientBase": "Most operators take a few months to land a first run of jobs and a full season or two to build dependable contractor relationships. Steady builder work, once earned, smooths out the feast-or-famine cycle.",
+    "wasteOfTime": "Broad paid advertising and a polished brand before you have finished-job photos and reviews. In this trade, your finish quality and reliability sell the next job far more than marketing."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, and it is generally a full-time, in-season trade rather than a side hustle — the heavy equipment, crew, and weather windows make part-time impractical. A skilled finisher with steady work reaches full-time income quickly.",
+    "hireAndStepBack": "Possible but demanding. Adding crews lets you take more and bigger jobs, but concrete is labor-intensive and quality-sensitive, so you need trustworthy finishers before you can step off the tools. Many owners stay hands-on for years because finishing skill is hard to hire.",
+    "sellable": "Established companies with crews, equipment, and recurring builder contracts do sell, typically for a multiple of profit plus equipment value. A solo operation whose reputation is entirely the owner is much harder to sell.",
+    "whatScalingRequires": "Reliable skilled labor, equipment redundancy, disciplined estimating, strong builder relationships, and the cash flow to float material and payroll on large jobs before you get paid."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You already know how to finish concrete or can apprentice until you do",
+      "You are physically strong and can handle fast, heavy, time-pressured pour days",
+      "You are detail-oriented and take pride in a clean, flat, crack-free finish",
+      "You can estimate jobs and manage a small crew and ready-mix scheduling"
+    ],
+    "poorFit": [
+      "You want a low-cost, low-skill, or part-time business",
+      "You cannot tolerate heavy physical labor or working in heat and cold",
+      "You are uncomfortable with high-stakes work where mistakes cannot be undone",
+      "You have no finishing experience and no way to gain it before starting"
+    ],
+    "askYourself": [
+      "Can I run a pour from forms to finished surface without supervision, and if not, where will I learn?",
+      "Does my state require a contractor license and bond for this work, and am I prepared to carry it?",
+      "Can I float material and payroll on a large job for weeks before I get paid?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a contractor license to do concrete work?",
+      "answer": "In many states, yes — concrete and masonry are licensed trades once a job exceeds a dollar threshold (often a few hundred to a few thousand dollars), and you may also need a bond and proof of insurance. Rules vary widely by state and city, so check your state contractor board and local permit office before bidding. Foundation and structural work is more heavily regulated than small flatwork."
+    },
+    {
+      "question": "Can a beginner with no experience start a concrete business?",
+      "answer": "Realistically, no — not solo. Concrete sets on its own schedule and cannot be redone once it cures, so a botched pour means demolishing and replacing it at your own cost. Most successful operators worked on crews first and learned finishing before going out on their own. The smart path is to apprentice until you can finish reliably, then start."
+    },
+    {
+      "question": "How much can I charge for a concrete driveway or patio?",
+      "answer": "Residential flatwork is often priced per square foot, commonly in the range of several dollars to over ten dollars per square foot depending on thickness, finish, reinforcement, and region. Stamped and decorative work commands more. Always price from your real material, ready-mix, and labor costs rather than copying a competitor, because flatwork margins are thin."
+    },
+    {
+      "question": "Is concrete work seasonal?",
+      "answer": "In cold climates, yes — you cannot pour in freezing conditions without extra measures, so winter slows or stops residential work. In warm regions it runs closer to year-round. Heat and rain also affect pours, so weather constantly shapes your schedule and your income predictability."
+    },
+    {
+      "question": "Do I need to buy a ready-mix truck?",
+      "answer": "No. Almost no small operator owns a ready-mix truck. You order concrete delivered from a local ready-mix supplier for the volume you need, and site-mix only very small jobs. Your investment is in finishing tools, forming, compaction, and hauling — not the mixing truck."
+    },
+    {
+      "question": "What is the most common way concrete businesses lose money?",
+      "answer": "Two ways: underbidding because flatwork margins are thinner than people expect, and blown pours from poor prep, bad timing, or weather that force a free re-pour. Tight estimating and disciplined site prep protect you from both. A single failed foundation pour can wipe out the profit from a month of good work."
+    },
+    {
+      "question": "How physically demanding is it really?",
+      "answer": "Very. Pour days involve hours of bent-over screeding, floating, and troweling under time pressure, plus hauling forms, rebar, and bagged material. It is one of the most physically taxing trades, and operators commonly cite knees, back, and burnout as long-term concerns. Crew help and good equipment ease it but do not remove it."
+    }
+  ],
+  "similarBusinesses": [
+    "handyman-business",
+    "fence-installation-business",
+    "deck-building-business",
+    "drywall-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Cement Masons, Concrete Finishers, and Brickmasons occupational data",
+    "Angi / HomeAdvisor — Concrete Driveway, Patio, and Foundation Cost Guides (reported pricing ranges)",
+    "Concrete Construction and Concrete Network industry resources (techniques and material trends)",
+    "State contractor licensing boards (licensing, bonding, and insurance requirements)",
+    "Operator communities (r/Concrete, contractor forums) for real-world pricing and crew realities"
+  ],
+  "lastReviewed": "2026-06"
+}

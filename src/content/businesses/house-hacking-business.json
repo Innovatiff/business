@@ -1,0 +1,163 @@
+{
+  "title": "House Hacking Business",
+  "slug": "house-hacking-business",
+  "category": "real-estate-and-property",
+  "metaTitle": "How to Start House Hacking — Real Costs, Earnings, and Honest Trade-offs",
+  "metaDescription": "Honest guide to house hacking: using FHA low-down loans to offset your mortgage by renting rooms, units, or an ADU — real numbers, landlord duties, and the trade-offs.",
+  "startupCostLow": 10000,
+  "startupCostHigh": 60000,
+  "monthlyEarningsLow": 400,
+  "monthlyEarningsHigh": 2500,
+  "timeToFirstIncome": "2 to 6 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "People wanting an accessible, low-down-payment entry into real estate who are willing to live alongside tenants to build long-term wealth",
+  "biggestRisk": "Buying a property whose rents do not actually cover the gap, then carrying a mortgage you cannot afford if a unit sits vacant",
+  "speedToIncome": "months",
+  "minWeeklyHours": 5,
+  "skills": ["finance"],
+  "workLocations": ["space", "home"],
+  "priorities": ["low-risk", "sellable", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "House hacking means buying a home you live in and renting out part of it to offset — or in good cases eliminate — your housing payment. The classic version is buying a two-to-four-unit property with a low-down-payment, owner-occupied loan (such as an FHA loan, sometimes as little as 3.5% down), living in one unit, and renting the others. Other versions include renting spare bedrooms, finishing a basement, or adding an accessory dwelling unit (ADU). It is one of the most accessible on-ramps to real estate because owner-occupant financing requires far less down than an investment loan, and your tenants help carry the mortgage while you build equity.",
+  "dailyReality": "Day to day, house hacking is quieter than people imagine — but you live inside the business. Most weeks involve little active work: collecting rent, handling the occasional maintenance request, and managing the realities of sharing walls or a building with tenants. The trade-off is constant: you sacrifice some privacy and convenience, you are the landlord your tenants call when the heat fails at 11 p.m., and screening roommates or tenants well matters enormously because you live with the consequences. Periodically you handle turnover — cleaning, re-listing, and screening new tenants — which is the busiest part of the cycle.",
+  "startupCostsItemized": [
+    { "item": "Down payment (e.g., 3.5% FHA on a small multifamily)", "low": 8000, "high": 40000 },
+    { "item": "Closing costs (often 2-5% of purchase price)", "low": 4000, "high": 18000 },
+    { "item": "Home inspection and appraisal", "low": 500, "high": 1500 },
+    { "item": "Initial repairs or light renovation to make units rentable", "low": 1000, "high": 20000, "optional": true },
+    { "item": "Cash reserves for vacancy and emergency repairs", "low": 3000, "high": 15000 },
+    { "item": "Landlord insurance / appropriate coverage", "low": 800, "high": 3000, "annual": true },
+    { "item": "Basic furnishings or appliances for rentals", "low": 0, "high": 5000, "optional": true },
+    { "item": "Tenant screening, lease templates, and rental listing fees", "low": 50, "high": 500 }
+  ],
+  "realEarnings": {
+    "yearOne": "House hacking is usually measured in housing savings, not paycheck income. In year one, most beginners reduce their housing cost by $400 to $1,200 per month rather than profit outright — meaning rent from the other units or rooms covers part or most of the mortgage while they live nearly free. In favorable markets a well-bought duplex or triplex can cover the entire payment.",
+    "experienced": "Experienced house hackers who optimize rents, add an ADU or extra rooms, or buy in strong rent-to-price markets often live for free and net $500 to $2,500 per month above their housing costs. The real return, though, is the equity and appreciation building on a property they live in cheaply.",
+    "topEarners": "Some house hackers repeat the move every year or two — buying a new owner-occupied property, moving in, then renting out the prior one — and over several years assemble a small rental portfolio. The wealth here builds over 5 to 10+ years through equity, appreciation, and rental cash flow, not from quick monthly income.",
+    "whatAffectsMost": "The purchase itself matters most: buying in a market where rents genuinely cover the payment, at a price that leaves a margin, with a financing structure (like FHA) that minimizes the down payment. Tenant selection and keeping vacancy low come next. A bad purchase cannot be fixed by good management.",
+    "perHour": "On a per-hour basis the effective return can be very high because active time is low — often just a few hours a month — but that ignores the lifestyle cost of living with tenants and the periodic intensity of turnover and repairs. Think of it as wealth-building leverage rather than an hourly job."
+  },
+  "howToStart": [
+    "Before you start: Get honest about your finances and credit. Owner-occupant loans like FHA require you to actually live in the property (typically for at least a year) and you will need stable income, a qualifying credit score, and reserves. Run conservative numbers assuming one unit sits vacant — if you cannot carry the payment then, the deal is too risky.",
+    "Month 1: Talk to a lender about owner-occupied options (FHA, conventional low-down, VA if eligible) and get pre-approved so you know your real budget. Learn your local landlord-tenant laws, because as an owner-occupant you are still a landlord with legal obligations.",
+    "Month 1-3: Shop for a property where rents on the non-owner units realistically cover most or all of the mortgage. Analyze each deal conservatively — include vacancy, maintenance, and capital reserves, not just the rosy rent figure.",
+    "Month 3-5: Make offers, get the property inspected, and close. Budget for closing costs and reserves on top of the down payment. Do any light work needed to make the rental units safe and appealing.",
+    "Months 5-6: Screen and place tenants or roommates carefully — you will live with them, so this matters more than in normal landlording. Set up a simple system for rent collection, maintenance requests, and recordkeeping, and start building toward your reserves and the next move."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Personal financial readiness: qualifying credit, stable income, and cash for down payment, closing, and reserves",
+      "The ability to analyze a deal honestly, including vacancy, maintenance, and capital expenses — not just gross rent",
+      "Comfort living in close proximity to tenants and managing those relationships"
+    ],
+    "canLearn": [
+      "Tenant screening, lease basics, and local landlord-tenant law",
+      "Basic property maintenance and managing repairs or contractors",
+      "Rent pricing and how to make units more appealing to reduce vacancy"
+    ],
+    "separators": [
+      "Buying right — finding properties in markets where the numbers genuinely work, which is harder than it looks",
+      "Tenant selection and clear boundaries that keep living alongside renters drama-free",
+      "Discipline to maintain reserves and reinvest, enabling a repeatable strategy that builds a portfolio over time"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Buying a property where the rents do not actually cover the gap, leaving them stuck with a mortgage they struggle to afford",
+    "Ignoring vacancy, maintenance, and capital expenses in their math, so the 'cash flow' disappears the first time something breaks",
+    "Underestimating the lifestyle cost — sharing a building or home with tenants is a real trade-off, not a footnote",
+    "Skipping proper tenant screening because they are eager to fill a unit, then living next to a problem tenant",
+    "Not keeping cash reserves, so a single major repair or a vacant unit becomes a financial crisis",
+    "Treating the rent income as guaranteed and over-stretching on the purchase price"
+  ],
+  "toolsAndEquipment": [
+    { "item": "A lender and pre-approval for owner-occupied financing", "note": "FHA, conventional low-down, or VA. The financing is the whole advantage of house hacking.", "low": 0, "high": 0 },
+    { "item": "Deal-analysis spreadsheet or app", "note": "To model rent, vacancy, maintenance, and reserves honestly before you buy.", "low": 0, "high": 300 },
+    { "item": "Property management / rent collection software", "note": "Tools like landlord apps simplify rent, leases, and maintenance requests for a small portfolio.", "low": 0, "high": 600 },
+    { "item": "Tenant screening service", "note": "Credit and background checks protect you, especially when you live with the tenant.", "low": 30, "high": 200 },
+    { "item": "Basic tools and a reliable handyman contact", "note": "You will handle small fixes and need someone for bigger ones.", "low": 100, "high": 1000 },
+    { "item": "Lease templates compliant with your state", "note": "A solid, legal lease prevents most disputes. Have a local one ready before placing tenants.", "low": 0, "high": 300 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Listing rental units or rooms on major rental platforms (Zillow Rental Manager, Apartments.com, Facebook Marketplace)",
+      "Roommate and room-rental sites for the rent-by-the-room version",
+      "Local university or employer housing boards if near a campus or major employer",
+      "Word of mouth among coworkers, classmates, and your community for trustworthy tenants",
+      "Clear, well-photographed listings with honest descriptions to attract responsible renters quickly"
+    ],
+    "whereCustomersAre": "Renters seeking units, rooms, or ADUs in your specific neighborhood — found on the same rental platforms regular landlords use. For room rentals, students, young professionals, and people new to the area are common.",
+    "timeToClientBase": "Filling units usually takes a few weeks of listing once the property is ready. The 'client base' is just keeping your units occupied with good tenants, which becomes routine after the first cycle.",
+    "wasteOfTime": "Overspending on marketing — rental demand is mostly about price, location, and a clean honest listing. Rushing to fill a unit with a poorly screened tenant is the costliest 'shortcut,' especially when you live there."
+  },
+  "howItScales": {
+    "toFullTime": "Not really as direct income — house hacking is a wealth-building strategy more than a full-time business. It scales into wealth by repeating the move and accumulating rentals over years, eventually producing meaningful cash flow, rather than by replacing your job quickly.",
+    "hireAndStepBack": "At small scale you manage it yourself with minimal time. As you add properties, you can hire a property manager and step back, trading roughly 8-10% of rent for someone else handling tenants and maintenance.",
+    "sellable": "The underlying real estate is an appreciating, sellable asset, and an accumulated rental portfolio has clear resale value. The 'house hack' itself is a strategy, but the properties it produces are genuine assets you can sell or refinance.",
+    "whatScalingRequires": "Repeating owner-occupied purchases (within loan occupancy rules), maintaining reserves and credit, learning standard landlording, and eventually using property management or partnering as the portfolio grows beyond what you want to self-manage."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You want an accessible, low-down-payment way into real estate and long-term wealth",
+      "You are comfortable living near or with tenants for at least a year or two",
+      "You can qualify for owner-occupied financing and keep cash reserves",
+      "You can analyze a deal honestly and are patient about returns building over years"
+    ],
+    "poorFit": [
+      "You want passive income now and do not want to deal with tenants at all",
+      "You value full privacy and would not tolerate sharing a building or home",
+      "Your finances cannot absorb a vacant unit or a major repair",
+      "You expect quick monthly profit rather than long-term equity growth"
+    ],
+    "askYourself": [
+      "Could I comfortably carry the mortgage for several months if a unit sat empty?",
+      "Am I genuinely okay living alongside tenants and being the person they call when something breaks?",
+      "Have I run the numbers conservatively, including vacancy, maintenance, and reserves?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What exactly is house hacking?",
+      "answer": "House hacking is buying a home you live in and renting out part of it — other units in a small multifamily, spare bedrooms, or an ADU — so the rent offsets or covers your mortgage. Because you live there, you can use owner-occupied financing like an FHA loan with a low down payment, which is the main reason it is such an accessible entry into real estate."
+    },
+    {
+      "question": "How much money do I need to start?",
+      "answer": "The headline appeal is the low down payment: FHA loans can require as little as 3.5% down on an owner-occupied one-to-four-unit property. Realistically, though, you also need closing costs (often 2-5%), money for any repairs, and cash reserves for vacancy and emergencies. A lean start is commonly $10,000 to $30,000 all-in on a modest property, more in expensive markets."
+    },
+    {
+      "question": "Do I really live with my tenants?",
+      "answer": "In the most common versions, yes — you live in one unit of a small multifamily or share a single-family home and rent the other rooms. That proximity is the central trade-off: it is what makes the low-down financing and the rent offset possible, but it costs you privacy and means tenant selection matters more than for a typical landlord."
+    },
+    {
+      "question": "Will the rent really cover my whole mortgage?",
+      "answer": "Sometimes, but not always — it depends heavily on the market and the price you pay. In strong rent-to-price markets a duplex or triplex can cover the entire payment so you live for free; in expensive markets the rent may only offset part of it. Run the numbers conservatively, including vacancy and maintenance, before assuming the mortgage is fully covered."
+    },
+    {
+      "question": "What are the rules with an FHA loan for house hacking?",
+      "answer": "FHA owner-occupied loans require you to actually live in the property, typically for at least one year, and the property can be one to four units. You will need a qualifying credit score, stable income, and the loan comes with mortgage insurance premiums. After the occupancy period, many house hackers move out, keep the property as a rental, and repeat the process."
+    },
+    {
+      "question": "Is house hacking a quick way to make money?",
+      "answer": "No. It is a long-term wealth strategy, not a quick-income business. The benefit shows up as reduced or eliminated housing costs and equity that builds over years through paydown and appreciation. Most house hackers see modest monthly cash flow at best early on, with the real payoff arriving over five to ten years or more."
+    },
+    {
+      "question": "What is the biggest risk?",
+      "answer": "Buying a property whose rents do not actually cover the gap, then being stuck with a mortgage you struggle to afford — especially if a unit sits vacant or needs a costly repair. The defenses are conservative underwriting, adequate cash reserves, and careful tenant screening since you live with the consequences of a bad tenant."
+    }
+  ],
+  "similarBusinesses": [
+    "rental-property-investing-business",
+    "airbnb-arbitrage-business",
+    "property-management-business",
+    "real-estate-wholesaling-business"
+  ],
+  "dataSources": [
+    "U.S. Department of Housing and Urban Development (HUD) / FHA loan program guidelines",
+    "Consumer Financial Protection Bureau — guidance on mortgages and owner-occupied financing",
+    "Industry rent-to-price and rental market data (Zillow, regional housing reports)",
+    "BiggerPockets and real estate investor communities for real-world house-hacking practices",
+    "State and local landlord-tenant law resources"
+  ],
+  "lastReviewed": "2026-06"
+}

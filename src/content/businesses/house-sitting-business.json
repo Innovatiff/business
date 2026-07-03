@@ -1,0 +1,159 @@
+{
+  "title": "House Sitting Business",
+  "slug": "house-sitting-business",
+  "category": "service-businesses",
+  "metaTitle": "How to Start a House Sitting Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a house sitting business: real startup costs, realistic earnings, how to build trust and get clients, and what most people get wrong.",
+  "startupCostLow": 100,
+  "startupCostHigh": 1500,
+  "monthlyEarningsLow": 400,
+  "monthlyEarningsHigh": 3500,
+  "timeToFirstIncome": "1 to 3 weeks",
+  "difficultyLevel": "Beginner",
+  "bestFor": "Trustworthy, detail-oriented people who want flexible, low-cost work watching homes while owners travel",
+  "biggestRisk": "A lapse in trust or a missed problem (a leak, a break-in, a sick pet) that damages your reputation and ends repeat referrals",
+  "speedToIncome": "weeks",
+  "minWeeklyHours": 5,
+  "skills": ["people"],
+  "workLocations": ["mobile", "flexible"],
+  "priorities": ["low-risk", "flexibility", "alongside-job"],
+  "noExperienceRequired": true,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A house sitting business looks after people's homes while they are away — checking that the property is secure, bringing in mail and packages, watering plants, adjusting lights and thermostats, taking out and returning trash bins, and giving the home a lived-in look that deters break-ins. Light pet care (feeding, fresh water, a quick check on a cat or fish) is often part of the job, but house sitting is distinct from full pet sitting: the home, not the animal, is the focus. Some clients want daily drop-in visits; others want an overnight presence. It is one of the lowest-cost service businesses to start because the work is built almost entirely on trust, reliability, and attention to detail rather than equipment.",
+  "dailyReality": "On a typical assignment you make scheduled visits — often once or twice a day — to one or several clients' homes while they travel. Each visit takes 15 to 45 minutes: a walk-through to confirm nothing is wrong, collecting mail and packages, watering plants, rotating lights, and sending the owner a short photo update for peace of mind. Overnight sits mean you actually stay in the home, which pays more but ties up your evenings. The work is light physically but demands genuine conscientiousness: noticing the dripping pipe, the door someone left unlocked, or the pet that is off its food. Most of your scheduling clusters around holidays, summer, and school breaks when people travel.",
+  "startupCostsItemized": [
+    { "item": "Background check (so clients can verify you)", "low": 25, "high": 60 },
+    { "item": "Bonding and liability insurance", "low": 200, "high": 600, "annual": true, "optional": true },
+    { "item": "Business registration / LLC", "low": 50, "high": 300, "optional": true },
+    { "item": "Smartphone for photo updates and scheduling (most already own)", "low": 0, "high": 0 },
+    { "item": "Profile on sitting platforms (TrustedHousesitters, Rover, Care.com) — membership/fees", "low": 0, "high": 130, "annual": true, "optional": true },
+    { "item": "Simple website, business cards, Google Business Profile", "low": 0, "high": 250, "optional": true },
+    { "item": "Reliable transportation costs (fuel for drop-in visits)", "low": 0, "high": 100, "annual": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most beginners earn $400 to $1,500 per month part-time, heavily concentrated around holidays and summer travel. Drop-in visits commonly run $20 to $50 each and overnight stays $50 to $100+ per night, so income depends on how many concurrent clients and overnights you can take.",
+    "experienced": "Sitters with a couple of years, strong reviews, and a base of repeat travelers report $1,500 to $3,500 per month in busy stretches, especially if they combine drop-in visits, overnight sits, and light pet care for the same clients. Income is lumpy — strong around travel seasons, thin in between.",
+    "topEarners": "Top solo sitters who serve affluent neighborhoods, take premium overnight and house-manager-style assignments, and stay booked through peak seasons can clear $4,000 to $7,000+ per month at peak. Some build small networks of vetted sitters they coordinate, but trust is hard to delegate, which caps how far this scales.",
+    "whatAffectsMost": "Trust, reviews, and repeat clients matter most. Affluent areas, longer overnight assignments, and bundling light pet care lift earnings far more than volume of cheap one-off visits. A single bad incident can wipe out the referral pipeline that drives the whole business.",
+    "perHour": "Effective rates run roughly $20 to $60 per hour for drop-in visits, before driving between homes. Overnight assignments pay well per night but for hours you are largely just present, so the per-hour figure understates them."
+  },
+  "howToStart": [
+    "Week 1: Get a background check done so you can show clients you are verified. Decide your services (drop-in visits, overnights, light pet care, plant care) and set clear per-visit and per-night pricing. Write a short, trust-focused profile.",
+    "Week 2: Create a Google Business Profile and, optionally, list on TrustedHousesitters, Rover, or Care.com. Tell your own network — neighbors, coworkers, local Facebook groups, Nextdoor — that you are available, since your first clients almost always come from people who already know you.",
+    "Weeks 2-3: Take your first assignments at a fair introductory rate. Treat every detail seriously: a written visit checklist, daily photo updates, and clear notes on the home. Ask happy clients for a review and permission to use them as a reference.",
+    "Month 1: Build a simple system — intake form (keys, alarm codes, emergency contacts, vet info), a visit log, and a routine. Ask for referrals to neighbors who travel, since dense repeat clients in one area cut your driving and grow income."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Genuine trustworthiness and discretion — clients are handing you keys and access to their home",
+      "Reliability and follow-through on a precise schedule, even on holidays",
+      "Attention to detail to spot problems (leaks, security issues, a struggling pet) early"
+    ],
+    "canLearn": [
+      "Basic home systems — thermostats, alarms, water shutoffs, light timers",
+      "Light pet care routines and feeding instructions",
+      "Clear client communication and photo updates that build confidence"
+    ],
+    "separators": [
+      "Building a reputation so solid that clients refer you to their friends and rebook every trip",
+      "Calm, competent handling of the unexpected — a burst pipe, a power outage, a sick pet",
+      "Professional systems (intake forms, references, insurance) that let you serve higher-trust, higher-paying clients"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Treating it casually instead of as a trust business — sloppy communication or one missed visit ends referrals fast",
+    "Confusing it with full pet sitting and taking on animal care they are not equipped to handle",
+    "Not setting boundaries or clear scope, then being blamed for problems outside their control",
+    "Skipping a background check, bonding, or references that would let them charge more and win cautious clients",
+    "Underpricing overnight stays, which tie up evenings, or failing to charge a premium for holiday assignments",
+    "Spreading clients across a wide area so driving between drop-in visits eats the day"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Smartphone with camera", "note": "For photo and video updates and for logging visits. Most people already own one." },
+    { "item": "Key management system", "note": "A labeled, secure way to store and track client keys and codes — losing or mixing these up is a serious problem.", "low": 0, "high": 80 },
+    { "item": "Written intake forms and visit checklists", "note": "Capture alarm codes, water shutoffs, vet info, and emergency contacts; prevents costly mistakes." },
+    { "item": "Reliable transportation", "note": "You will drive between client homes for drop-in visits; routing affects your real hourly rate." },
+    { "item": "Background check and references", "note": "The credibility that lets cautious clients trust you with their home.", "low": 25, "high": 60 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Your own network first — neighbors, coworkers, friends, and local Facebook/Nextdoor groups, since trust transfers through people who know you",
+      "A Google Business Profile and a few strong references so people searching locally can vet you",
+      "Sitting platforms (TrustedHousesitters, Rover, Care.com) to reach travelers and build initial reviews",
+      "Referrals from existing clients to their traveling neighbors, which builds dense, low-drive routes",
+      "Relationships with realtors, property managers, and concierge/errand services who meet people who travel"
+    ],
+    "whereCustomersAre": "Frequent travelers and second-home owners, concentrated in established and affluent neighborhoods, with demand spiking around holidays, summer, and school breaks. Many are repeat clients who travel several times a year.",
+    "timeToClientBase": "First assignments often come within one to three weeks through your own network. A dependable base of repeat clients usually takes one to two travel seasons, because trust and reviews accumulate slowly.",
+    "wasteOfTime": "Broad paid advertising and a polished brand before you have references and reviews. Early on, personal referrals and a verified background check convert far better than any ad."
+  },
+  "howItScales": {
+    "toFullTime": "Possible but with a ceiling. Stacking concurrent drop-in clients in a tight area and taking overnight and holiday assignments can build toward full-time income, but demand is seasonal and a solo sitter can only be in so many places at once.",
+    "hireAndStepBack": "Hard. The entire value is personal trust, which is difficult to delegate. Some sitters build a small vetted team and coordinate assignments, but each new sitter is a new trust risk and stepping back fully is rare in this trade.",
+    "sellable": "Limited. A solo house sitting business is essentially the owner's reputation and relationships, which do not transfer well. A networked agency with contracts and systems is more sellable, but few reach that scale.",
+    "whatScalingRequires": "Vetted, insured sitters, standardized intake and visit procedures, real client agreements, and a referral engine that does not depend on you personally — plus accepting that trust does not delegate easily."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are genuinely trustworthy, discreet, and detail-oriented",
+      "You want flexible, low-cost work you can do around another job",
+      "You can reliably show up on schedule, including holidays and weekends",
+      "You stay calm and act sensibly when something goes wrong in a home"
+    ],
+    "poorFit": [
+      "You want steady, predictable, year-round income (this is seasonal and lumpy)",
+      "You are careless about details, schedules, or other people's property",
+      "You want to avoid the responsibility that comes with home access and keys",
+      "You cannot travel between homes or be available during peak travel periods"
+    ],
+    "askYourself": [
+      "Would clients comfortably hand me their keys, codes, and trust — and would my references confirm it?",
+      "Am I disciplined enough to never miss a scheduled visit, even on a holiday?",
+      "Can I handle the seasonal, uneven income and still treat every assignment seriously?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is house sitting different from pet sitting?",
+      "answer": "House sitting focuses on the home — security checks, mail and packages, plants, lights, and giving the property a lived-in look — while owners are away. Pet sitting focuses on the animal's care. The two overlap, and many house sitters do light pet care, but if a client needs serious animal care you should be clear about your limits or refer it out."
+    },
+    {
+      "question": "Do I need a license or insurance to start?",
+      "answer": "Most areas do not require a specific license for house sitting, though you should register a business and may want an LLC. Bonding and liability insurance are optional but strongly recommended — they let cautious clients trust you with their home and let you charge more. A background check is inexpensive and often the single best credibility investment."
+    },
+    {
+      "question": "How much can I charge for house sitting?",
+      "answer": "Drop-in visits commonly run $20 to $50 each depending on the area and tasks, while overnight stays often range from $50 to $100+ per night. Affluent neighborhoods, holiday assignments, and bundled light pet care command higher rates. Set clear per-visit and per-night pricing rather than guessing each time."
+    },
+    {
+      "question": "How do I get clients to trust me with their home?",
+      "answer": "Start with a background check, gather references early, and consider bonding and liability insurance. Communicate constantly during assignments — daily photo updates and clear notes build confidence quickly. Most lasting clients come through referrals from people who already trust you, so your own network is the best starting point."
+    },
+    {
+      "question": "Is house sitting seasonal?",
+      "answer": "Yes. Demand spikes around holidays, summer vacations, and school breaks when people travel, and is much thinner in between. Income is lumpy, so plan for busy and slow stretches. Some sitters smooth it out by adding light pet care, errands, or concierge services for the same clients."
+    },
+    {
+      "question": "Can I do this around a full-time job?",
+      "answer": "Yes, this is one of the more part-time-friendly service businesses, especially drop-in visits that take 15 to 45 minutes. Overnight assignments are harder to fit around a job because they occupy your evenings. Many people start it part-time and grow it as their reputation and repeat clients build."
+    },
+    {
+      "question": "What happens if something goes wrong while I am responsible for a home?",
+      "answer": "Be prepared: collect emergency contacts, the location of the water shutoff, alarm codes, and a plan before the owner leaves. If a pipe bursts or there is a security issue, your job is to act sensibly, contact the owner, and call the right help. Liability insurance and a clear written scope protect both you and the client."
+    }
+  ],
+  "similarBusinesses": [
+    "dog-walking-and-pet-sitting-business",
+    "errand-and-concierge-business",
+    "mobile-notary-business",
+    "pet-waste-removal-business"
+  ],
+  "dataSources": [
+    "House and pet sitting platform data (TrustedHousesitters, Rover, Care.com) on visit and overnight pricing",
+    "Angi / consumer cost guides for home-watch and drop-in visit rate ranges",
+    "U.S. Bureau of Labor Statistics — personal care and home services occupation data",
+    "Operator communities and sitter forums for real-world earnings, seasonality, and trust-building practices"
+  ],
+  "lastReviewed": "2026-06"
+}

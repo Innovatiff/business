@@ -1,0 +1,163 @@
+{
+  "title": "Land Surveying Business",
+  "slug": "land-surveying-business",
+  "category": "real-estate-and-property",
+  "metaTitle": "How to Start a Land Surveying Business — Costs, Licensing, Earnings",
+  "metaDescription": "Honest guide to starting a land surveying business: the multi-year PLS licensing path, real equipment costs, per-survey pricing, and what it takes to earn well.",
+  "startupCostLow": 25000,
+  "startupCostHigh": 120000,
+  "monthlyEarningsLow": 4000,
+  "monthlyEarningsHigh": 18000,
+  "timeToFirstIncome": "1 to 3 months after licensing",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Licensed or near-licensed surveyors with field and technical skill who want to own the practice rather than work for a firm",
+  "biggestRisk": "A boundary or elevation error that triggers a costly liability claim, or starting before you hold the Professional Land Surveyor license required to sign and seal work",
+  "speedToIncome": "long",
+  "minWeeklyHours": 30,
+  "skills": ["tech", "finance"],
+  "workLocations": ["mobile", "flexible"],
+  "priorities": ["max-income", "sellable"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A land surveying business provides professional surveys — boundary surveys that establish where a property's legal lines are, topographic surveys that map elevations and features for design, and ALTA/NSPS surveys used in commercial real estate transactions — for homebuyers, builders, developers, attorneys, and lenders. Land surveying is a licensed profession: the work must be performed under, and sealed by, a Professional Land Surveyor (PLS), and only a licensed PLS can legally certify a survey. That license is the entire barrier to entry. Becoming a PLS typically requires a surveying or related degree, passing the Fundamentals of Surveying exam, several years (often four or more) of supervised experience, and passing the Principles and Practice of Surveying exam plus a state-specific exam — a path that usually takes the better part of a decade.",
+  "dailyReality": "A typical week splits between the field and the office. In the field you and a crew locate property corners and monuments, set up GPS/GNSS receivers and a robotic total station, walk and measure the site (sometimes in heat, brush, or cold), and research deeds and plats. In the office you process the field data in CAD software, reconcile it against legal descriptions and county records, resolve boundary discrepancies, draft the survey drawing, and apply your professional seal — the step that carries your legal liability. Around the technical work you are quoting jobs, scheduling crews around weather, coordinating with title companies and clients, and chasing payment. The judgment calls on ambiguous old deeds are where the real professional skill, and risk, live.",
+  "startupCostsItemized": [
+    { "item": "GNSS/GPS receiver(s) — survey-grade rover and base", "low": 12000, "high": 45000 },
+    { "item": "Robotic total station", "low": 8000, "high": 35000, "optional": true },
+    { "item": "Data collector, tripods, prisms, and field accessories", "low": 3000, "high": 12000 },
+    { "item": "CAD / surveying software (license or subscription)", "low": 1500, "high": 8000, "annual": true },
+    { "item": "Work vehicle / truck (used reliable to new)", "low": 5000, "high": 50000, "optional": true },
+    { "item": "Professional liability (errors & omissions) and general liability insurance", "low": 3000, "high": 12000, "annual": true },
+    { "item": "Business registration, professional firm licensing, and surety/bond if required", "low": 500, "high": 4000 },
+    { "item": "PLS license, exam, and continuing-education fees", "low": 500, "high": 2500, "annual": true }
+  ],
+  "realEarnings": {
+    "yearOne": "A newly licensed PLS who opens a solo practice typically earns $4,000 to $9,000 per month in year one, limited by how fast they can build a client base and how many jobs they can complete alone or with one crew member. Many people in 'year one of business' have already worked years as a survey technician, so the field skill is not new — the business-building is.",
+    "experienced": "Established solo and small surveying firms commonly net $8,000 to $18,000 per month for the owner, depending on region, mix of residential versus commercial work, and crew size. ALTA surveys and development work pay materially better than basic residential boundary surveys.",
+    "topEarners": "Owners of multi-crew firms with several licensed surveyors and steady commercial and municipal contracts can earn well into six figures annually, with the firm itself becoming a valuable, sellable asset. Reaching that took years of licensing, reputation, repeat developer relationships, and building a team that can produce sealed work under the owner's oversight.",
+    "whatAffectsMost": "Your license and reputation come first — without the PLS you cannot earn at all. After that, job mix (commercial and development pays more than residential), local demand and competition, and crew efficiency drive earnings far more than equipment brand.",
+    "perHour": "Effective rates for a licensed solo surveyor commonly run $75 to $200 per hour of billable work, though field-plus-office time on each job and unbilled quoting and research pull the blended rate lower. Residential boundary surveys often price $400 to $1,200 each; ALTA and topographic surveys range from a couple thousand to well over $10,000."
+  },
+  "howToStart": [
+    "Years 1-6 (the real prerequisite): Earn the experience and credentials to become a licensed Professional Land Surveyor — typically a surveying or related degree, the Fundamentals of Surveying exam, several years working under a licensed PLS, then the Principles and Practice exam and your state exam. You cannot legally run this business without that license.",
+    "Month 1 (after licensing): Register your firm, obtain professional/firm licensure where your state requires it, and secure errors-and-omissions plus general liability insurance before signing any work. This insurance is non-negotiable given the liability you carry.",
+    "Months 1-2: Acquire or finance your core equipment — a survey-grade GNSS receiver, ideally a total station, a data collector, and CAD software. Buying quality used gear is a reasonable way to control startup cost early on.",
+    "Months 1-3: Build referral relationships with the people who order surveys — title companies, real estate attorneys, civil engineers, builders, and lenders — and complete your first paid jobs, tracking your real time and cost per survey.",
+    "Months 3-12: Decide your niche (residential boundary, construction staking, ALTA/commercial, or development), hire a field technician as volume grows, and standardize your process so each survey is consistent, accurate, and defensible."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "A Professional Land Surveyor (PLS) license in your state — the legal requirement to sign and seal surveys",
+      "Strong field and technical competence with GNSS, total stations, and surveying CAD software",
+      "The judgment to interpret deeds, plats, and old monuments and resolve boundary conflicts correctly"
+    ],
+    "canLearn": [
+      "Running and pricing a business — quoting, scheduling, invoicing, and managing cash flow",
+      "Marketing and building referral relationships with title, legal, and engineering clients",
+      "Managing and training field crews as you grow beyond solo work"
+    ],
+    "separators": [
+      "Specializing in higher-value work like ALTA surveys, construction staking, and land development",
+      "A reputation for accurate, defensible work that wins repeat developer and attorney referrals",
+      "Efficient field-to-finish processes and a reliable crew that let you complete more jobs without errors"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Trying to start before holding a PLS license — surveys signed without proper licensure are illegal and uninsurable",
+    "Underestimating professional liability — a single boundary or elevation error can trigger a claim larger than a year's profit, which is why E&O insurance is essential",
+    "Pricing residential boundary surveys too low to win work, then losing money once research, field, and drafting time are counted",
+    "Buying the newest equipment on credit before they have the client base to keep it busy",
+    "Skipping thorough deed and record research, which is where most defensible boundary determinations are won or lost",
+    "Treating it as purely a field job and neglecting the business side — quoting, follow-up, and referral relationships that actually generate work"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Survey-grade GNSS receiver (rover and base or RTK network)", "note": "The core positioning tool. Quality used units can cut the cost meaningfully early on.", "low": 12000, "high": 45000 },
+    { "item": "Robotic total station", "note": "Needed for boundary and construction work where GNSS coverage is poor; lets one person run the field.", "low": 8000, "high": 35000 },
+    { "item": "Data collector and field software", "note": "Captures and codes field measurements for office processing.", "low": 3000, "high": 10000 },
+    { "item": "Surveying CAD software", "note": "Civil 3D, Carlson, or similar for processing data and producing the sealed drawing.", "low": 1500, "high": 8000 },
+    { "item": "Reliable field vehicle", "note": "Often a truck or SUV that can reach rural sites; a vehicle you already own works to start.", "low": 0, "high": 50000 },
+    { "item": "Field accessories (tripods, prisms, range poles, safety gear)", "note": "The everyday consumables and supports for accurate setups.", "low": 1500, "high": 6000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Build referral relationships with title companies, real estate attorneys, and lenders who order surveys for closings",
+      "Connect with civil engineers, architects, and developers who need topographic and design surveys",
+      "Register with local builders and contractors who need construction staking and lot surveys",
+      "Maintain a clear Google Business Profile and website so homeowners searching for a boundary survey can find you",
+      "Network through local and state surveying and real estate associations for overflow work and referrals"
+    ],
+    "whereCustomersAre": "Survey orders flow mostly through professional intermediaries — title companies, attorneys, engineers, lenders, and builders — rather than directly from the public, though homeowners do search online for boundary surveys before fences, sales, or disputes.",
+    "timeToClientBase": "A newly licensed firm usually lands first jobs within one to three months of marketing to title and engineering contacts, and builds a steady referral pipeline over one to two years of reliable, accurate work.",
+    "wasteOfTime": "Broad consumer advertising and discounting residential surveys to compete on price. The durable work comes from professional referral relationships and a reputation for accuracy, not cheap leads."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A licensed solo surveyor can reach a strong full-time income, capped mainly by how many jobs one person and a small crew can complete and by local demand. The limiting factor is your billable hours and field-to-office throughput.",
+    "hireAndStepBack": "Possible but bounded by licensing — every sealed survey must go out under a licensed PLS. You can hire field technicians and CAD drafters to scale production, but to fully step back you generally need to employ additional licensed surveyors who can sign work.",
+    "sellable": "Established surveying firms are genuinely sellable, especially those with recurring commercial, municipal, or developer contracts and licensed staff who stay on. Value rests on the client base, backlog, equipment, and the surveyors who remain after a sale.",
+    "whatScalingRequires": "Additional licensed surveyors and trained crews, standardized field-to-finish processes, multiple equipment sets, and steady commercial or institutional contracts. Growth is gated by your ability to hire competent, licensable people."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are a licensed PLS, or close to it, with solid field and CAD experience",
+      "You enjoy both technical fieldwork and the precise, defensible judgment surveying demands",
+      "You want to own a profession-based practice that can grow into a sellable firm",
+      "You are comfortable carrying professional liability and the responsibility of sealing work"
+    ],
+    "poorFit": [
+      "You are not licensed and unwilling to commit years to the education and experience path",
+      "You want a fast, low-cost business with quick first income",
+      "You dislike detailed record research, precise measurement, or the office side of producing drawings",
+      "You are uncomfortable with the legal exposure that comes with certifying boundaries"
+    ],
+    "askYourself": [
+      "Do I hold (or have a realistic path to) the PLS license this business legally requires?",
+      "Am I prepared for the liability of sealing surveys, and can I afford and maintain E&O insurance?",
+      "Is there enough surveying demand and not too many established firms in my area to support a new practice?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I really need a license to start a land surveying business?",
+      "answer": "Yes. Land surveying is a licensed profession, and only a Professional Land Surveyor (PLS) can legally sign and seal surveys in their state. Most states also license the surveying firm itself. Performing or certifying surveys without the proper license is illegal, uninsurable, and exposes you to serious penalties — this license is the entire barrier to entry."
+    },
+    {
+      "question": "How long does it take to become a licensed surveyor?",
+      "answer": "Typically the better part of a decade. The common path is a surveying or related degree, passing the Fundamentals of Surveying exam, several years (often four or more) of experience under a licensed PLS, then passing the Principles and Practice of Surveying exam and a state-specific exam. Requirements vary by state, so check your board's exact rules."
+    },
+    {
+      "question": "Can I start solo, or do I need a crew?",
+      "answer": "Many newly licensed surveyors start solo, especially with modern GNSS and robotic total stations that let one person run the field. As volume grows, most add a field technician to increase throughput. The constraint is that sealed work must go out under a licensed PLS, so you can grow field staff faster than you can grow signing authority."
+    },
+    {
+      "question": "How much do surveys actually pay?",
+      "answer": "It varies widely by type and region. Residential boundary surveys often run $400 to $1,200, while topographic surveys, construction staking, and ALTA/NSPS commercial surveys commonly range from a couple thousand dollars to well over $10,000. Commercial and development work pays substantially better than basic residential surveys, which is why job mix drives earnings."
+    },
+    {
+      "question": "What is the biggest liability risk?",
+      "answer": "An error in a boundary determination or elevation can lead to a fence, building, or improvement placed in the wrong location, and the resulting claim can far exceed a job's fee. That is why errors-and-omissions (professional liability) insurance is essential, and why careful deed research and field verification are not optional. Your seal is your legal responsibility."
+    },
+    {
+      "question": "Can I buy used equipment to lower startup costs?",
+      "answer": "Yes, and many new firms do. Survey-grade GNSS receivers and total stations hold value, and quality used units from reputable dealers can cut equipment costs significantly while still producing accurate, defensible work. Just verify calibration and support availability before buying."
+    },
+    {
+      "question": "Is land surveying in demand?",
+      "answer": "Demand is generally steady and tied to real estate transactions, construction, and development, and the profession faces a shortage of licensed surveyors as many approach retirement. That shortage can be an opportunity, but local demand and competition vary, so assess your specific market before committing."
+    }
+  ],
+  "similarBusinesses": [
+    "home-inspection-business",
+    "real-estate-appraisal-business",
+    "drone-services-business",
+    "real-estate-photography-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Surveyors occupational data (wages and employment)",
+    "National Council of Examiners for Engineering and Surveying (NCEES) — FS and PS licensure exam requirements",
+    "National Society of Professional Surveyors (NSPS) — practice standards and ALTA/NSPS survey guidelines",
+    "Surveying equipment dealer pricing for GNSS and total station systems",
+    "Surveying professional forums and state licensing board requirements for real-world practice and pricing"
+  ],
+  "lastReviewed": "2026-06"
+}

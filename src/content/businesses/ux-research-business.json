@@ -1,0 +1,160 @@
+{
+  "title": "UX Research Business",
+  "slug": "ux-research-business",
+  "category": "online-businesses",
+  "metaTitle": "How to Start a UX Research Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest guide to a UX research business: run user research and usability testing for product teams. Real costs, earnings, how to find clients, and what it takes.",
+  "startupCostLow": 500,
+  "startupCostHigh": 5000,
+  "monthlyEarningsLow": 4000,
+  "monthlyEarningsHigh": 16000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Advanced",
+  "bestFor": "Researchers who can design rigorous studies, interview users skillfully, and translate findings into decisions product teams actually act on",
+  "biggestRisk": "Research is the first budget cut when companies tighten, and proving ROI is hard, so demand is lumpy and clients deprioritize it",
+  "speedToIncome": "months",
+  "minWeeklyHours": 20,
+  "skills": ["tech", "people"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["max-income", "flexibility"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A UX research business runs user research and usability testing for product teams so they build the right thing for real users. This is research only — distinct from UI/UX design. You do not mock up screens or ship visuals; you uncover what users need, where they struggle, and whether a design works, then hand product and design teams evidence to decide with. The work spans generative research (interviews, diary studies, surveys to understand needs), evaluative research (usability tests, A/B-style comparisons on prototypes), and synthesis (turning messy sessions into clear, actionable findings). Clients are software companies, startups, and agencies that have designers but lack a dedicated researcher or the bandwidth for rigorous studies.",
+  "dailyReality": "A typical engagement cycles through planning, fieldwork, and synthesis. You scope the research question with stakeholders, write a study plan and discussion guide, recruit and screen participants, then run sessions — usually moderated interviews or usability tests over video while you take notes and watch behavior. Afterward comes the demanding part: analyzing recordings and notes, finding patterns, and producing a report or readout that gives the team clear, prioritized recommendations. You also spend time defending methodology, managing stakeholders who want their assumptions confirmed, and recruiting the right participants, which is often the most painful logistics of the job. Expect to run one to three studies in parallel, each at a different stage.",
+  "startupCostsItemized": [
+    { "item": "Laptop and quiet recording setup (often already owned)", "low": 0, "high": 1500, "optional": true },
+    { "item": "Research and testing platform (UserTesting, Maze, Lookback, or Dscout)", "low": 0, "high": 4000, "annual": true, "optional": true },
+    { "item": "Video, scheduling, and note tools (Zoom, Calendly, Dovetail)", "low": 0, "high": 1500, "annual": true },
+    { "item": "Participant recruitment and incentive budget (per study, billed to client or fronted)", "low": 200, "high": 2000, "optional": true },
+    { "item": "Portfolio site and anonymized case studies", "low": 100, "high": 1500 },
+    { "item": "Business registration / LLC", "low": 50, "high": 300 },
+    { "item": "Professional liability insurance and NDA/contract templates", "low": 300, "high": 1200, "annual": true }
+  ],
+  "realEarnings": {
+    "yearOne": "In year one, freelance UX researchers commonly bill $75 to $150 per hour or $5,000 to $15,000 per study, but utilization is the catch — landing enough work to fill the calendar is the hard part. Realistic monthly income while building a pipeline is often $4,000 to $9,000, with gaps between projects.",
+    "experienced": "Established researchers with a niche and referrals bill $125 to $250 per hour, charge $8,000 to $25,000+ per study, or hold retainers as an embedded researcher for product teams, landing in the $10,000 to $16,000 monthly range when well booked. Specialization (e.g., fintech, accessibility, B2B SaaS) commands premiums.",
+    "topEarners": "Top operators run a small studio with several researchers, hold multiple retainers, or sell research operations and training, grossing $25,000 to $70,000+ per month. Reaching that requires a strong reputation, a repeatable recruiting pipeline, and clients who treat research as continuous rather than occasional.",
+    "whatAffectsMost": "Utilization and positioning matter most — your day rate is meaningless if half your calendar is empty. A clear niche, retainer relationships, and the ability to prove research changed a product decision are what stabilize and raise income.",
+    "perHour": "Billable rates run $75 to $250 per hour, but counting unbilled recruiting, business development, and the famously time-consuming synthesis, blended effective rates are typically $60 to $150 per hour, especially while demand is lumpy."
+  },
+  "howToStart": [
+    "Month 1: Solidify your methodology foundation and pick a niche or research type you're strong in (usability testing, generative interviews, a specific industry). Build or refresh a portfolio of anonymized case studies that show the question, method, and the decision your research drove.",
+    "Month 1-2: Set up your toolkit — a testing platform, recruiting source, note and synthesis tools — and define clear service packages (a single usability study, a discovery sprint, an embedded retainer) with transparent pricing and scope.",
+    "Months 2-3: Win first engagements through your network, former colleagues, and agencies that need overflow research. Offer a tightly scoped pilot study so a team can experience your rigor before committing to more.",
+    "Months 3-6: Deliver readouts so clear that teams act on them, then ask for referrals and case-study permission. Build a reliable participant recruiting process, the operational bottleneck that quietly determines whether projects run on time.",
+    "Months 6-12: Convert one-off studies into retainers or embedded arrangements for predictable income, and decide whether to specialize deeper or subcontract to handle more concurrent studies."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Solid research methodology — knowing which method answers which question and how to avoid biasing results",
+      "Strong interviewing and moderation skills to get honest, useful signal from participants",
+      "Synthesis and communication to turn messy sessions into clear, prioritized, actionable findings"
+    ],
+    "canLearn": [
+      "Specific research and testing platforms (UserTesting, Maze, Dovetail, Lookback)",
+      "Participant recruiting logistics and screening",
+      "Stakeholder reporting formats and readout presentation"
+    ],
+    "separators": [
+      "Translating findings into decisions teams actually make, not reports that gather dust",
+      "Choosing rigorous-but-pragmatic methods that fit real budgets and timelines",
+      "Managing stakeholders who want their assumptions confirmed and defending the research honestly"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Drifting into UI/UX design work instead of staying a research specialist, which dilutes positioning and rate",
+    "Underestimating how hard participant recruiting is, then blowing timelines because the right users aren't found",
+    "Producing thorough reports nobody reads instead of clear, prioritized recommendations teams can act on",
+    "Using the wrong method for the question — running a usability test when the team actually needs generative discovery",
+    "Letting stakeholders steer toward research that confirms their assumptions instead of tests them",
+    "Assuming steady demand, when research is often the first line cut and the work comes in lumps"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Usability / research platform (UserTesting, Maze, Lookback)", "note": "Run and record moderated and unmoderated studies. Choose based on study type.", "low": 0, "high": 4000 },
+    { "item": "Synthesis and analysis tool (Dovetail, Notion, spreadsheets)", "note": "Where you tag, cluster, and turn sessions into findings.", "low": 0, "high": 1500 },
+    { "item": "Video and scheduling (Zoom, Calendly)", "note": "Run sessions and coordinate participants across time zones.", "low": 0, "high": 360 },
+    { "item": "Participant recruiting source (panel or own network)", "note": "The operational bottleneck. Budget incentives per study, often billed to the client.", "low": 200, "high": 2000 },
+    { "item": "Portfolio site with anonymized case studies", "note": "Proof of method and impact is how product teams vet researchers.", "low": 100, "high": 1500 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Referrals from former colleagues, design leaders, and product managers who know your work",
+      "Partnering with UX/UI design agencies that need research overflow but don't staff it",
+      "A portfolio and content (case studies, method write-ups, talks) that demonstrate rigor to product teams",
+      "Targeted outreach to startups and scale-ups with designers but no dedicated researcher",
+      "UX and product communities, conferences, and platforms where research talent is sourced"
+    ],
+    "whereCustomersAre": "Software companies, startups, and design agencies with product and design teams but limited research capacity — found in product and UX communities, on LinkedIn, through design agency partnerships, and via former-employer networks.",
+    "timeToClientBase": "With a portfolio and warm network, expect a first engagement in roughly one to three months. Predictable, retainer-level work usually takes six to twelve months because research budgets are intermittent and trust-based.",
+    "wasteOfTime": "Cold mass outreach and bidding on the cheapest gig platforms, where buyers don't value methodology. Early on, a strong case study and a warm referral convert far better than volume outreach or ads."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but utilization gates it. Billable rates support full-time income, yet the challenge is keeping the calendar full given lumpy demand. Retainers and embedded arrangements smooth the income and make full-time realistic.",
+    "hireAndStepBack": "Possible. You can build a small studio of researchers and move into project leadership, recruiting oversight, and sales. Stepping back fully requires standardized methods and reporting so quality holds across researchers, plus enough steady demand to keep a team busy.",
+    "sellable": "Modestly. A research studio with retainers, documented processes, and a recruiting pipeline can sell, but a solo practice tied to your personal reputation is hard to transfer. Recurring contracts and a team make it more sellable.",
+    "whatScalingRequires": "A repeatable recruiting pipeline, standardized study and reporting templates, a researcher bench, and relationships that convert into ongoing work. The defining challenge is turning intermittent project demand into continuous, retainer-based engagements."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have genuine research methodology skill and can defend your approach",
+      "You're a skilled, neutral interviewer who gets honest signal from users",
+      "You can turn messy data into clear recommendations teams act on",
+      "You're comfortable selling and managing the intermittent nature of research demand"
+    ],
+    "poorFit": [
+      "You actually want to design interfaces, not study users",
+      "You have no research background and would be learning methodology on client time",
+      "You need steady, predictable monthly income with no gaps",
+      "You dislike stakeholder management and recruiting logistics"
+    ],
+    "askYourself": [
+      "Can I match the right method to a research question and avoid biasing the results?",
+      "Do I have case studies showing my research changed a real product decision?",
+      "Am I prepared for lumpy demand and the constant work of keeping my calendar full?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is a UX research business different from UI/UX design?",
+      "answer": "UX research is about understanding users and evaluating designs through evidence — interviews, usability tests, surveys — and handing teams findings to decide with. UI/UX design is about creating the interface and visuals. A research specialist does not mock up screens; they uncover needs and problems and stay deliberately separate from design so their findings are credible and unbiased."
+    },
+    {
+      "question": "Do I need prior experience to start?",
+      "answer": "Realistically yes. Clients hire researchers for methodological rigor, neutral interviewing, and credible synthesis — skills that are hard to fake. Most successful freelance researchers come from in-house UX research, product, or social-science backgrounds. A complete beginner with no research foundation will struggle to win or deliver work that teams trust."
+    },
+    {
+      "question": "What do clients actually pay for?",
+      "answer": "Confidence in product decisions. Teams pay to reduce the risk of building the wrong thing, to validate or kill ideas before expensive development, and to fix usability problems early. That's why clear, actionable findings matter far more than thorough reports — you're selling better decisions, not documents."
+    },
+    {
+      "question": "Why is demand for UX research considered lumpy?",
+      "answer": "Research is often treated as discretionary, so it's among the first things cut when budgets tighten, and its ROI is harder to prove than design or engineering output. Demand comes in waves around product cycles and funding. The honest way to stabilize income is to build retainers or embedded arrangements rather than relying on one-off studies."
+    },
+    {
+      "question": "What's the hardest operational part of the work?",
+      "answer": "Participant recruiting. Finding, screening, and scheduling the right users — especially niche B2B audiences — is the bottleneck that most often blows timelines. Building a reliable recruiting source or panel relationship early is one of the highest-leverage things you can do to run studies on schedule."
+    },
+    {
+      "question": "What should I charge?",
+      "answer": "Freelance researchers commonly bill $75 to $250 per hour, or $5,000 to $25,000+ per study depending on scope and seniority. Retainers for embedded research are increasingly common and smooth income. Price by the value of the decision the research informs and your specialization, not just hours, since synthesis time is easy to underestimate."
+    },
+    {
+      "question": "Can I do this part-time alongside a job?",
+      "answer": "Yes, particularly unmoderated studies and evening interview sessions, and many researchers start with one client around employment. The constraints are that moderated sessions happen during participants' available hours and synthesis takes focused time. Lumpy demand actually suits part-time work well in the early stages."
+    }
+  ],
+  "similarBusinesses": [
+    "ui-ux-design-business",
+    "web-development-business",
+    "data-analytics-consulting-business",
+    "cro-consulting-business"
+  ],
+  "dataSources": [
+    "Nielsen Norman Group research on UX methods and usability testing practice",
+    "UX research salary and freelance rate surveys (e.g., User Interviews 'State of User Research', Glassdoor)",
+    "U.S. Bureau of Labor Statistics data on research analysts and self-employed consultants",
+    "UX research operator communities and discussions (ResearchOps, UX research forums) for real-world pricing and recruiting norms"
+  ],
+  "lastReviewed": "2026-06"
+}

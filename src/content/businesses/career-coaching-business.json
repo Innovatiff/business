@@ -1,0 +1,162 @@
+{
+  "title": "Career Coaching Business",
+  "slug": "career-coaching-business",
+  "category": "education-and-coaching",
+  "metaTitle": "How to Start a Career Coaching Business — Real Costs, Earnings, and Steps",
+  "metaDescription": "Honest breakdown of starting a career coaching business: real startup costs, realistic monthly earnings, how to find clients, and what most people get wrong.",
+  "startupCostLow": 300,
+  "startupCostHigh": 3000,
+  "monthlyEarningsLow": 800,
+  "monthlyEarningsHigh": 9000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "People with real hiring, recruiting, HR, or management experience who like guiding others and can market themselves",
+  "biggestRisk": "Spending money on certifications and a website while never building the steady lead flow that actually pays the bills",
+  "speedToIncome": "months",
+  "minWeeklyHours": 8,
+  "skills": ["people", "teaching", "writing", "sales"],
+  "workLocations": ["home", "online", "flexible"],
+  "priorities": ["flexibility", "helping", "alongside-job"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": true,
+  "featured": false,
+  "whatItIs": "A career coaching business helps individuals navigate job searches, career transitions, promotions, and pivots. You work one-on-one (and sometimes in groups) on things like clarifying career direction, rewriting resumes and LinkedIn profiles, building interview skills, salary negotiation, and managing the emotional grind of a long job hunt. Most coaches sell either per-session work or multi-session packages, delivered over video calls and email. It is an online, low-overhead business, but it is built almost entirely on your credibility — clients pay for your judgment and experience, not for access to a tool or a template.",
+  "dailyReality": "On a working day you might run two or three coaching calls (typically 45 to 60 minutes each), review a client's resume or interview recording between sessions, and send follow-up notes and homework. Around the coaching itself, expect meaningful unpaid time on marketing: posting on LinkedIn, replying to DMs, recording short videos, writing a newsletter, or doing free intro calls that may or may not convert. Many coaches keep a day job at first and stack sessions into evenings and weekends, which is when working clients are free. The hardest part of the week is rarely the coaching — it is consistently generating new conversations with people who might hire you.",
+  "startupCostsItemized": [
+    { "item": "Business registration / LLC", "low": 0, "high": 300 },
+    { "item": "Video calls + scheduling tools (Zoom paid, Calendly)", "low": 0, "high": 250, "annual": true },
+    { "item": "Simple website or landing page", "low": 0, "high": 500, "optional": true },
+    { "item": "Payment + invoicing tool (Stripe, PayPal, or a coaching platform)", "low": 0, "high": 200, "annual": true },
+    { "item": "LinkedIn Premium for outreach and research", "low": 0, "high": 400, "annual": true, "optional": true },
+    { "item": "Coaching certification (ICF or niche program)", "low": 600, "high": 3000, "optional": true },
+    { "item": "Professional liability / general business insurance", "low": 300, "high": 700, "annual": true, "optional": true },
+    { "item": "Resume and assessment tools or templates", "low": 0, "high": 200, "optional": true }
+  ],
+  "realEarnings": {
+    "yearOne": "Most new coaches earn $800 to $3,000 per month in year one, and many months are uneven — a few packages sold one month, near nothing the next. Coaches who already have a network from a recruiting, HR, or management background tend to fill their calendar faster than those starting cold.",
+    "experienced": "Established coaches with a clear niche, testimonials, and a reliable referral and content engine commonly report $4,000 to $9,000 per month working largely solo, charging $150 to $300+ per session or $1,000 to $4,000 per multi-week package.",
+    "topEarners": "Top earners gross $150,000 to $300,000+ per year by combining premium 1:1 packages, group cohorts, corporate outplacement contracts, and digital products or courses. Reaching that level usually takes several years, a strong personal brand or large audience, and a real specialty (e.g., tech executives, new-grad engineers, federal-to-private transitions) — not generic 'career help.'",
+    "whatAffectsMost": "Niche clarity, proof (testimonials and measurable client outcomes), and a steady source of leads matter far more than credentials. A coach with a narrow specialty and 20 strong reviews will out-earn a broadly certified generalist with no audience almost every time.",
+    "perHour": "Coaching calls themselves can effectively pay $150 to $300+ per hour, but once you count marketing, free intro calls, admin, and prep, realistic blended rates in the early years are often $40 to $90 per hour."
+  },
+  "howToStart": [
+    "Month 1: Pick a specific niche you can credibly serve based on your own background (e.g., mid-career tech workers, recent grads, people leaving the military, return-to-work parents). Define one clear offer and an honest price. Set up scheduling, video calls, and payments.",
+    "Month 1-2: Coach 3 to 5 people free or at a low rate in exchange for honest feedback and, if they're happy, a testimonial and referral. Use these to refine your process and prove you can deliver results.",
+    "Month 2-3: Publish consistently where your clients are (LinkedIn is the highest-leverage channel for most career coaches). Share specific, useful advice, not motivational quotes, and make a simple way to book an intro call.",
+    "Months 3-6: Raise prices as demand grows, build a lightweight package and follow-up system, and ask every satisfied client for a referral and a review. Track where each paying client actually came from so you double down on what works.",
+    "Ongoing: Decide whether to add group programs, corporate outplacement work, or digital products once your 1:1 calendar is reliably full and you understand exactly what your clients need."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Real, relevant experience — hiring, recruiting, HR, management, or successfully navigating the kind of transition you'll coach",
+      "Strong listening and the ability to ask questions that help people think, not just give orders",
+      "Comfort marketing yourself publicly and selling without overpromising"
+    ],
+    "canLearn": [
+      "Formal coaching frameworks and structured session design",
+      "Resume, LinkedIn, and ATS (applicant tracking system) optimization specifics",
+      "Running scheduling, payments, and a simple client workflow"
+    ],
+    "separators": [
+      "A sharp niche and a reputation for getting a specific type of client a specific result",
+      "Consistent content or a network that produces inbound leads without cold outreach every week",
+      "Honest expectation-setting that builds trust and referrals instead of one-off transactions"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Treating it as a credential business — collecting certifications instead of building proof, clients, and lead flow",
+    "Coaching 'everyone,' which makes marketing vague and makes it hard for anyone to refer you",
+    "Implying or guaranteeing job offers; outcomes depend on the market and the client, and overpromising destroys trust fast",
+    "Underpricing single sessions instead of selling outcome-focused packages, then burning out on low-paying one-offs",
+    "Spending months on a logo and website before ever talking to a potential client or doing a paid session",
+    "Ignoring marketing entirely and assuming good coaching will sell itself — it almost never does"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Reliable laptop, webcam, and headset", "note": "Clean audio and video matter; clients judge professionalism on calls.", "low": 0, "high": 400 },
+    { "item": "Video conferencing (Zoom or Google Meet)", "note": "Paid tier removes time limits on longer sessions.", "low": 0, "high": 160 },
+    { "item": "Scheduling tool (Calendly, Acuity)", "note": "Removes the back-and-forth of booking and reduces no-shows.", "low": 0, "high": 200 },
+    { "item": "Payments + invoicing (Stripe, PayPal, or a coaching platform)", "note": "Get paid up front for packages to avoid chasing invoices.", "low": 0, "high": 200 },
+    { "item": "LinkedIn (free, optionally Premium)", "note": "The primary discovery and credibility channel for most career coaches.", "low": 0, "high": 400 },
+    { "item": "Note and CRM system (even a spreadsheet)", "note": "Track clients, leads, and where they came from.", "low": 0, "high": 300 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "Consistent, specific LinkedIn content aimed at your niche, with a clear way to book an intro call",
+      "Referrals from past clients and from your existing professional network — the highest-converting channel",
+      "Free or low-cost intro calls that diagnose a problem and present a package, without hard-selling",
+      "Partnerships with bootcamps, alumni groups, universities, and professional associations whose members need coaching",
+      "A simple newsletter or guest posts/podcasts in your niche that establish authority over time"
+    ],
+    "whereCustomersAre": "Working professionals in active transition — job seekers, people eyeing a promotion or pivot, and the recently laid off. They cluster on LinkedIn, in industry Slack/Discord communities, alumni networks, and bootcamp cohorts.",
+    "timeToClientBase": "Expect a few unpaid or low-paid clients in the first month or two, then a slow build. A reliable, referral-fed pipeline usually takes six to twelve months of consistent marketing, longer if you start with no network.",
+    "wasteOfTime": "Broad paid ads, generic 'career tips' content with no point of view, and buying expensive certifications before you have any paying clients. Early on, specific results and visible testimonials convert far better than credentials or branding."
+  },
+  "howItScales": {
+    "toFullTime": "Yes, but it takes time. A solo coach can reach full-time income on 1:1 work alone, though you're capped by billable hours. Most coaches who go full-time do so after a year or more of part-time building and a clear niche.",
+    "hireAndStepBack": "Limited. The value is largely you, so stepping back fully is hard. Some coaches bring on associate coaches under their brand or hand off resume editing and admin, but quality control and your personal reputation make true detachment difficult.",
+    "sellable": "Generally hard to sell. A business built on one person's name has little transferable value. Coaches with productized programs, courses, an email list, or recurring corporate contracts have more sellable assets, but the practice itself rarely commands a meaningful multiple.",
+    "whatScalingRequires": "Moving beyond hourly 1:1 work — group cohorts, courses, corporate outplacement contracts, or a small team — plus a marketing system that generates leads without your constant personal effort. This shift from coach to business owner is where most people choose to stay solo instead."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You have credible hiring, recruiting, HR, or career-transition experience to draw on",
+      "You genuinely enjoy guiding people and can be honest with them, not just encouraging",
+      "You're willing to market yourself publicly and consistently",
+      "You want flexible, location-independent coaching you can run over video calls alongside a job"
+    ],
+    "poorFit": [
+      "You have no relevant background and expect to learn coaching from scratch and charge immediately",
+      "You dislike selling or putting yourself out there publicly",
+      "You want passive income or to avoid the constant work of finding new clients",
+      "You'd be tempted to promise job offers or results you can't control"
+    ],
+    "askYourself": [
+      "Do I have a specific group I can credibly help, and can I name the result I get them?",
+      "Am I prepared to spend as much time marketing and selling as I spend coaching?",
+      "Can I set honest expectations when clients want guarantees the job market can't provide?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a certification to be a career coach?",
+      "answer": "No certification is legally required to coach. Credentials like the ICF can add credibility in some markets, but clients overwhelmingly hire based on relevant experience, a clear niche, and testimonials. If you're starting out, prove you can get results and collect reviews before spending thousands on certification."
+    },
+    {
+      "question": "How much can I charge for career coaching?",
+      "answer": "Single sessions commonly run $100 to $300+, and multi-week packages range from roughly $1,000 to $4,000 depending on niche and outcomes. Specialists serving senior or technical professionals charge more. Packaging your work around an outcome (e.g., landing a role, negotiating an offer) usually beats selling isolated hourly sessions."
+    },
+    {
+      "question": "Can I do this part-time around a full-time job?",
+      "answer": "Yes — it's one of the more part-time-friendly online businesses because clients often want evening and weekend sessions anyway. Many coaches build for a year or more on the side before going full-time. The constraint is your energy for both the coaching and the marketing it requires."
+    },
+    {
+      "question": "Can I guarantee my clients will get a job?",
+      "answer": "No, and you shouldn't try. Hiring outcomes depend on the market, the role, and the client's own actions. Ethical coaches sell improved skills, materials, and strategy — not guaranteed offers. Overpromising leads to refunds, bad reviews, and lost referrals."
+    },
+    {
+      "question": "What's the difference between career coaching and resume writing?",
+      "answer": "Resume writing is a defined deliverable — a polished document. Career coaching is broader and ongoing: direction, interview prep, negotiation, and decision-making. Many coaches include resume help, but selling pure coaching requires you to articulate a less tangible value, which is harder and depends more on your credibility."
+    },
+    {
+      "question": "How do I get my first clients with no track record?",
+      "answer": "Coach a handful of people for free or at a low rate in exchange for honest feedback and testimonials. Use those results to build proof, then share specific, useful advice publicly (LinkedIn works well) so prospects can see your thinking. Referrals from your existing network are often the fastest first source."
+    },
+    {
+      "question": "Is the career coaching market too crowded?",
+      "answer": "There are many generalists, which is exactly why a narrow niche matters. The market is crowded with people offering vague 'career help' and relatively thin for coaches who own a specific audience and result. Competing on specificity and proof, not on being a coach in general, is what works."
+    }
+  ],
+  "similarBusinesses": [
+    "resume-writing-business",
+    "life-coaching-business",
+    "tutoring-business",
+    "virtual-assistant-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — data on coaches, counselors, and self-employed professional services",
+    "International Coaching Federation (ICF) — Global Coaching Study (rates, hours, and earnings ranges)",
+    "Coaching industry surveys and platform reports (e.g., coaching marketplace pricing data)",
+    "Coach and freelancer communities (LinkedIn creator discussions, coaching forums) for real-world pricing and lead-flow experiences"
+  ],
+  "lastReviewed": "2026-06"
+}

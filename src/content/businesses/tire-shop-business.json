@@ -1,0 +1,163 @@
+{
+  "title": "Tire Shop",
+  "slug": "tire-shop-business",
+  "category": "automotive",
+  "metaTitle": "How to Start a Tire Shop — Real Costs, Earnings, and What to Expect",
+  "metaDescription": "Honest guide to starting a tire shop: real startup costs, realistic monthly earnings, how thin tire margins really are, and what most owners get wrong.",
+  "startupCostLow": 30000,
+  "startupCostHigh": 200000,
+  "monthlyEarningsLow": 5000,
+  "monthlyEarningsHigh": 22000,
+  "timeToFirstIncome": "1 to 3 months",
+  "difficultyLevel": "Intermediate",
+  "bestFor": "Hands-on operators who want a steady, repeat-demand automotive shop and understand that the profit is in service, not the tire price",
+  "biggestRisk": "Thin tire margins and online price competition mean a poorly located or service-light shop cannot cover its rent and equipment",
+  "speedToIncome": "months",
+  "minWeeklyHours": 45,
+  "skills": ["hands", "people", "sales", "finance"],
+  "workLocations": ["space"],
+  "priorities": ["max-income", "sellable", "low-risk"],
+  "noExperienceRequired": false,
+  "partTimeFriendly": false,
+  "featured": false,
+  "whatItIs": "A tire shop sells new (and sometimes used) tires and provides the services around them — mounting, balancing, rotation, flat repair, TPMS sensor service, and usually alignments. The business model is two-sided: tire sales themselves carry famously thin margins because customers can price-check every brand online, so the real money is in labor and service (mounting, balancing, alignments, road-hazard warranties) and in the repeat traffic tires bring through the door, which often turns into other repair and maintenance work. Models range from a small two-bay independent to a high-volume shop with multiple lifts and alignment racks.",
+  "dailyReality": "The work is physical and steady: breaking down and mounting tires on a machine, balancing wheels, performing rotations and flat repairs, and running alignments. Between vehicles you are quoting tires over the phone and counter, ordering stock from distributors, managing inventory, and handling the constant 'can you match this online price?' conversation. A busy shop has a queue of waiting customers and walk-ins with sudden flats, so flow management and turnaround time matter. Heavy lifting, road tests, and being on a hard floor all day are part of the reality.",
+  "startupCostsItemized": [
+    { "item": "Shop lease deposit and first months (two-plus bays)", "low": 6000, "high": 30000 },
+    { "item": "Tire mounting machine and wheel balancer", "low": 5000, "high": 25000 },
+    { "item": "Vehicle lifts and alignment rack", "low": 7000, "high": 45000 },
+    { "item": "Air compressor, hand tools, TPMS tool, road-force balancer", "low": 2000, "high": 15000 },
+    { "item": "Opening tire inventory and distributor account setup", "low": 6000, "high": 40000 },
+    { "item": "Garage keepers, general liability, and workers' comp insurance", "low": 3000, "high": 12000, "annual": true },
+    { "item": "POS / shop management software and signage", "low": 1000, "high": 8000 },
+    { "item": "Used-tire recycling and disposal account", "low": 300, "high": 2000, "annual": true }
+  ],
+  "realEarnings": {
+    "yearOne": "A new owner-run two-bay shop typically nets $5,000 to $10,000 per month in year one once local traffic builds. Tire margins commonly run only 10 to 20 percent, so most of that comes from mounting, balancing, rotations, alignments, and add-on repairs — not the tires themselves.",
+    "experienced": "An established shop with steady repeat traffic, alignments, and some general service work commonly produces $10,000 to $22,000 per month in owner earnings, driven by bay count, service mix, and whether the owner also turns wrenches.",
+    "topEarners": "High-volume shops or small multi-location operators with several bays, alignment business, and fleet accounts can gross $60,000 to $150,000-plus per month. Getting there required a strong location, real service revenue beyond tires, and managing techs and inventory tightly, since tire margin alone never carries the overhead.",
+    "whatAffectsMost": "Location and traffic, then service mix. Shops that lean on labor (mounting, balancing, alignments) and convert tire customers into broader repair work far outperform shops that try to compete on tire price against online sellers and big chains.",
+    "perHour": "Posted labor rates run roughly $30 to $50 per tire for mount-and-balance and $80 to $130 per hour for alignments and repair. After thin tire margins and unbillable counter and ordering time, an owner's effective rate is often $40 to $90 per hour of actual work."
+  },
+  "howToStart": [
+    "Months 1-2: Secure a visible, easy-access location with at least two bays and good street traffic — for a tire shop, location is the single biggest profitability factor. Set up garage keepers, liability, and workers' comp insurance.",
+    "Month 1: Open accounts with tire distributors (most stock is ordered same- or next-day, not held), and buy a reliable mounting machine, balancer, and lift. Decide early whether to invest in an alignment rack, which is a major service revenue source.",
+    "Month 1-2: Set transparent pricing for mount-and-balance, rotation, flat repair, TPMS service, and alignments, and build a Google Business Profile. Arrange a used-tire recycling account, since scrap-tire disposal is regulated.",
+    "Months 2-4: Win repeat traffic by being fast and honest on flats and rotations — these low-margin services build the trust that brings customers back for tires and bigger jobs. Pursue small fleet accounts for steady volume.",
+    "Months 4-12: Track your service-versus-tire revenue split. Grow the higher-margin service side (alignments, general repair) and add a second tech only when your bays are consistently full."
+  ],
+  "skillsRequired": {
+    "mustHave": [
+      "Competence mounting, balancing, and repairing tires and servicing TPMS without damaging wheels",
+      "Basic shop and inventory management plus the cash discipline to live with thin tire margins",
+      "Comfort quoting and handling the constant online-price-match conversation"
+    ],
+    "canLearn": [
+      "Alignment service and reading alignment results",
+      "Distributor ordering and just-in-time inventory to avoid tying up cash in stock",
+      "Upselling related service (alignments, rotations, brakes) honestly"
+    ],
+    "separators": [
+      "Building a service mix so the shop is not dependent on low-margin tire sales",
+      "Fast, honest turnaround that earns the repeat traffic and reviews tire shops live on",
+      "Inventory discipline that avoids dead stock while still serving walk-in flats quickly"
+    ]
+  },
+  "whatPeopleGetWrong": [
+    "Assuming tires are where the money is — margins are thin and the profit is in service and repeat traffic, not the tire price",
+    "Trying to beat online sellers and warehouse clubs on tire price instead of competing on convenience, speed, and service",
+    "Choosing a cheap, low-visibility location that never generates the walk-in and drive-by traffic a tire shop needs",
+    "Tying up cash in slow-moving tire inventory instead of ordering most stock just-in-time from distributors",
+    "Skipping the alignment rack and other service revenue, leaving the shop dependent on low-margin sales",
+    "Ignoring scrap-tire disposal rules, which are regulated and can bring fines if handled carelessly"
+  ],
+  "toolsAndEquipment": [
+    { "item": "Tire mounting machine", "note": "A quality machine that handles modern low-profile and run-flat tires without damaging wheels.", "low": 2500, "high": 12000 },
+    { "item": "Wheel balancer (road-force capable preferred)", "note": "Road-force balancing solves vibration complaints cheaper machines cannot.", "low": 2500, "high": 15000 },
+    { "item": "Vehicle lift", "note": "Needed for rotations, alignments, and broader service; multiple bays raise throughput.", "low": 3500, "high": 12000 },
+    { "item": "Alignment rack and aligner", "note": "A major service-revenue source with much better margin than tire sales.", "low": 8000, "high": 35000 },
+    { "item": "TPMS programming tool", "note": "Essential, since modern vehicles need sensors serviced or relearned during tire work.", "low": 300, "high": 1500 },
+    { "item": "Air compressor and hand tools", "note": "Reliable air supply is the backbone of a tire shop.", "low": 1000, "high": 6000 }
+  ],
+  "howToFindCustomers": {
+    "methods": [
+      "A strong Google Business Profile with reviews — drivers searching 'tires near me' or 'flat repair' pick from the map",
+      "Visible signage and a high-traffic location that captures walk-ins and sudden flats",
+      "Fast, honest flat repair and rotations that convert into repeat tire and service customers",
+      "Fleet accounts with local contractors, delivery operators, and small businesses for steady volume",
+      "Online tire-quote and appointment tools, plus partnerships with used-car lots and repair shops"
+    ],
+    "whereCustomersAre": "Everyday drivers who need tires, repairs, or alignments and value speed and convenience, plus small fleets that need vehicles kept on the road. Many arrive urgently with a flat, so location and turnaround matter enormously.",
+    "timeToClientBase": "A well-located shop builds steady traffic in 3 to 6 months; a strong repeat-and-fleet base typically takes 1 to 2 years and depends heavily on reviews and turnaround reputation.",
+    "wasteOfTime": "Competing on advertised tire prices against online sellers and warehouse clubs, and broad discount coupons that attract one-time price-shoppers who never return for service."
+  },
+  "howItScales": {
+    "toFullTime": "Yes. A well-located owner-run shop with a healthy service mix supports a full-time income, and steady tire demand makes revenue more predictable than many auto businesses.",
+    "hireAndStepBack": "Achievable with hired techs and a service manager, though thin tire margins mean labor revenue and inventory discipline must carry payroll. Stepping back requires reliable techs and tight ordering systems.",
+    "sellable": "Established tire shops with equipment, a good lease, fleet accounts, and consistent traffic sell readily, often to other operators or small chains. Equipment and location carry real transferable value.",
+    "whatScalingRequires": "More bays and lifts, alignment capacity, skilled techs, distributor relationships for fast stock, and a service mix strong enough that growth does not depend on low-margin tire sales."
+  },
+  "fitChecklist": {
+    "strongFit": [
+      "You are hands-on, comfortable with tire and basic service work, and want steady repeat demand",
+      "You can secure a visible, high-traffic location",
+      "You understand the profit is in service and repeat traffic, not tire price",
+      "You can manage inventory and live with thin margins on the product side"
+    ],
+    "poorFit": [
+      "You want to compete primarily on tire price against online and warehouse sellers",
+      "You expect high margins on the tires themselves",
+      "You cannot secure decent location and traffic",
+      "You want a low-capital or part-time business"
+    ],
+    "askYourself": [
+      "Is there enough traffic and weak enough local competition for another tire shop?",
+      "Will I invest in service capacity (alignments, repair) rather than relying on tire sales alone?",
+      "Can I manage inventory and cash flow through thin margins while traffic builds?"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do tire shops actually make money on tires?",
+      "answer": "Not much. Tire margins commonly run only 10 to 20 percent because customers can price-check every brand online and against warehouse clubs. The real profit is in service — mounting, balancing, rotations, alignments, flat repair, and the broader repair work that tire customers bring through the door."
+    },
+    {
+      "question": "How much does it cost to open a tire shop?",
+      "answer": "A small owner-run two-bay shop can start around $30,000 to $60,000 if you keep inventory lean and order from distributors, while a well-equipped shop with an alignment rack and fuller inventory can exceed $150,000 to $200,000. Equipment and the right location are the biggest costs."
+    },
+    {
+      "question": "Do I have to hold a lot of tire inventory?",
+      "answer": "No, and you should not. Most tires are ordered same- or next-day from distributors, so the smart approach is to stock only fast-moving common sizes and order the rest just-in-time. Tying up cash in slow-moving inventory is a common and avoidable mistake."
+    },
+    {
+      "question": "How important is location?",
+      "answer": "It is arguably the single biggest factor. Tire shops depend on drive-by traffic, walk-in flats, and easy access. A cheap but low-visibility location rarely generates enough volume to cover rent and equipment, no matter how good the service is."
+    },
+    {
+      "question": "Should I offer alignments?",
+      "answer": "If the budget allows, usually yes. An alignment rack is a significant investment but carries much better margins than tire sales and gives customers a reason to choose a full-service shop over a quick mount-and-balance. It is one of the clearest ways to lift profitability."
+    },
+    {
+      "question": "What do I do with old tires?",
+      "answer": "Scrap tires are regulated waste in most states. You set up an account with a licensed tire recycler who collects them, and you typically charge a small disposal fee per tire. Handle this from day one, because improper disposal can bring fines."
+    },
+    {
+      "question": "Can I run a tire shop part-time?",
+      "answer": "Realistically no. Walk-in flats and steady traffic require consistent daytime hours, and the equipment and lease costs demand volume to cover them. It works as an owner-operated full-time business, not a few-hours-a-week side venture."
+    }
+  ],
+  "similarBusinesses": [
+    "mobile-mechanic-business",
+    "brake-shop-business",
+    "oil-change-business",
+    "auto-body-repair-business"
+  ],
+  "dataSources": [
+    "U.S. Bureau of Labor Statistics — Tire Repairers and Changers and Automotive Service occupational data",
+    "Modern Tire Dealer and tire-industry reports on dealer margins and service revenue mix",
+    "IBISWorld — Tire Dealers industry report (U.S.)",
+    "Tire distributor pricing references and shop-equipment cost guides",
+    "Independent tire-dealer and shop-owner forums for real-world pricing and margin discussions"
+  ],
+  "lastReviewed": "2026-06"
+}
