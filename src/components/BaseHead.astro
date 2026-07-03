@@ -21,7 +21,13 @@ export interface Props {
 
 const { title, description, path = '', jsonLd = [], noindex = false, ogType = 'website' } = Astro.props;
 
-const canonical = new URL(path || Astro.url.pathname, SITE.url).href.replace(/\/$/, '') || SITE.url;
+// Canonical URLs carry a trailing slash (except the root) so they match the
+// directory-format page Netlify serves with a 200 — sitemap, canonical tag,
+// and served URL all agree, leaving no redirect for Google (or browsers) to hit.
+const rawPath = path || Astro.url.pathname || '/';
+const trimmed = rawPath.replace(/^\/+|\/+$/g, '');
+const canonicalPath = trimmed ? `/${trimmed}/` : '/';
+const canonical = new URL(canonicalPath, SITE.url).href;
 const ogImage = new URL('/og-default.svg', SITE.url).href;
 const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
 ---

@@ -41,7 +41,13 @@ const siteLastmod = latest || new Date().toISOString().slice(0, 10);
 
 export default defineConfig({
   site: SITE,
-  trailingSlash: 'never',
+  // Trailing-slash URLs (directory output, /foo/) are what Netlify serves with
+  // a 200 for this site, and what visitors' browsers have cached for its whole
+  // life. Canonical tags + the sitemap point at this same /foo/ form, so there
+  // is exactly one 200 URL and no redirect loop. (An earlier switch to no-slash
+  // file output flipped this and collided with cached /foo -> /foo/ redirects,
+  // causing "This page isn't working" until the browser gave up.)
+  trailingSlash: 'always',
   integrations: [
     sitemap({
       changefreq: 'monthly',
@@ -57,12 +63,6 @@ export default defineConfig({
   ],
   build: {
     inlineStylesheets: 'auto',
-    // Emit flat files (about.html, businesses/foo.html) instead of
-    // about/index.html. Combined with trailingSlash: 'never', the no-slash URL
-    // that the sitemap and canonical tags advertise is the one served with a
-    // 200 — so Netlify no longer 301-redirects /foo to /foo/, which is what
-    // Search Console was flagging as "Page with redirect".
-    format: 'file',
   },
   compressHTML: true,
 });
