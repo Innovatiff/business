@@ -115,8 +115,8 @@ const steps = FINDER_SECTIONS.map((section) => ({
       <div class="finder-nav">
         <button type="button" class="btn btn-secondary" id="back-btn" hidden>← Back</button>
         <span class="finder-validation" id="validation" role="alert"></span>
-        <button type="button" class="btn btn-primary" id="next-btn">Next →</button>
-        <button type="button" class="btn btn-primary" id="see-btn" hidden>See my matches</button>
+        <span class="finder-autohint" id="auto-hint">Choose an answer and we'll move you along automatically.</span>
+        <button type="button" class="btn btn-primary" id="next-btn" hidden>Continue →</button>
         <button type="button" class="btn btn-secondary" id="restart-btn" hidden>Start over</button>
       </div>
     </form>
@@ -238,13 +238,18 @@ const steps = FINDER_SECTIONS.map((section) => ({
     border-top: 1px solid var(--border);
   }
   .finder-nav #next-btn,
-  .finder-nav #see-btn {
+  .finder-nav #auto-hint {
     margin-left: auto;
   }
   .finder-validation {
     color: var(--red);
     font-size: 0.9rem;
     font-weight: 600;
+  }
+  .finder-autohint {
+    color: var(--muted);
+    font-size: 0.85rem;
+    text-align: right;
   }
   .finder-foot {
     margin-top: 1rem;
@@ -258,36 +263,62 @@ const steps = FINDER_SECTIONS.map((section) => ({
     color: var(--slate);
     margin-bottom: 1.5rem;
   }
-  .result {
+  .noresults {
+    padding: 1.5rem;
+    border-left: 4px solid var(--amber);
+  }
+  @media (max-width: 560px) {
+    .finder-nav {
+      flex-wrap: wrap;
+    }
+  }
+</style>
+
+<!--
+  Result cards are injected via innerHTML at runtime. Astro's scoped styles only
+  attach to elements that exist at build time, so these card styles must be
+  GLOBAL or the matches render unstyled. They are scoped under #results so they
+  cannot leak anywhere else on the site.
+-->
+<style is:global>
+  #results .result {
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1.25rem 1.4rem;
+    padding: 1.4rem 1.5rem;
     margin-bottom: 1rem;
     background: #fff;
+    box-shadow: var(--shadow-sm);
   }
-  .result-head {
+  #results .result-head {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 1rem;
   }
-  .result-rank {
+  #results .result-rank {
     font-family: var(--font-display);
     font-weight: 800;
     color: var(--green-dark);
-    font-size: 0.85rem;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
   }
-  .result h3 {
-    margin: 0.15rem 0 0.5rem;
-    font-size: 1.25rem;
+  #results .result h3 {
+    margin: 0.15rem 0 0.4rem;
+    font-size: 1.3rem;
   }
-  .result-why {
+  #results .result-best {
+    margin: 0;
+    color: var(--slate);
+    font-size: 0.95rem;
+  }
+  #results .result-why {
     background: var(--green-tint);
     border-radius: var(--radius-sm);
-    padding: 0.75rem 1rem;
-    margin: 0.75rem 0;
+    padding: 0.8rem 1rem;
+    margin: 0.9rem 0;
   }
-  .result-why-title {
+  #results .result-why-title {
     font-family: var(--font-display);
     font-size: 0.72rem;
     text-transform: uppercase;
@@ -295,57 +326,60 @@ const steps = FINDER_SECTIONS.map((section) => ({
     color: var(--green-dark);
     font-weight: 700;
   }
-  .result-why ul {
-    margin: 0.35rem 0 0;
+  #results .result-why ul {
+    margin: 0.4rem 0 0;
     padding-left: 1.1rem;
     color: var(--slate);
     font-size: 0.92rem;
   }
-  .result-stats {
+  #results .result-why li {
+    margin: 0.15rem 0;
+  }
+  #results .result-stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.75rem;
-    margin: 0.85rem 0;
-    padding: 0.85rem 0;
+    margin: 0.9rem 0;
+    padding: 0.9rem 0;
     border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
   }
-  .result-stats dt {
+  #results .result-stats dt {
     font-size: 0.68rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     color: var(--muted);
     font-weight: 700;
   }
-  .result-stats dd {
-    margin: 0.15rem 0 0;
+  #results .result-stats dd {
+    margin: 0.2rem 0 0;
     font-weight: 700;
-    font-size: 0.92rem;
+    font-size: 0.95rem;
+    color: var(--navy);
     font-family: var(--font-mono);
     font-variant-numeric: tabular-nums;
   }
-  .result-foot {
+  #results .result-foot {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
   }
-  .result-risk {
+  #results .result-risk {
     font-size: 0.85rem;
     color: var(--muted);
-  }
-  .noresults {
-    padding: 1.5rem;
-    border-left: 4px solid var(--amber);
+    max-width: 48ch;
   }
   @media (max-width: 560px) {
-    .result-stats {
+    #results .result-stats {
       grid-template-columns: 1fr;
       gap: 0.5rem;
     }
-    .finder-nav {
-      flex-wrap: wrap;
+    #results .result-foot .btn {
+      width: 100%;
+      justify-content: center;
+      text-align: center;
     }
   }
 </style>
@@ -366,13 +400,14 @@ const steps = FINDER_SECTIONS.map((section) => ({
 
     const backBtn = document.getElementById('back-btn') as HTMLButtonElement;
     const nextBtn = document.getElementById('next-btn') as HTMLButtonElement;
-    const seeBtn = document.getElementById('see-btn') as HTMLButtonElement;
     const restartBtn = document.getElementById('restart-btn') as HTMLButtonElement;
+    const autoHint = document.getElementById('auto-hint') as HTMLElement;
     const progressBar = document.getElementById('progress-bar') as HTMLElement;
     const stepNow = document.getElementById('step-now') as HTMLElement;
     const validation = document.getElementById('validation') as HTMLElement;
 
     let current = 0;
+    let advanceTimer: number | undefined;
 
     const money = (n: number) => '$' + Math.round(n).toLocaleString('en-US');
     const escapeHtml = (s: string) =>
@@ -380,35 +415,45 @@ const steps = FINDER_SECTIONS.map((section) => ({
         ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c] as string,
       );
 
+    // A step needs a manual "Continue" button only when it has a multi-select
+    // question (we can't tell when the user is finished ticking boxes). Every
+    // single-choice step advances on its own the instant it's answered.
+    const stepIsManual = (step: number) => !!stepviews[step].querySelector('[data-type="multi"]');
+
+    function stepComplete(step: number): boolean {
+      const view = stepviews[step];
+      for (const q of Array.from(view.querySelectorAll<HTMLElement>('.finder-q'))) {
+        if (q.dataset.type === 'single' && !view.querySelector(`input[name="${q.dataset.qid}"]:checked`)) {
+          return false;
+        }
+      }
+      return true;
+    }
+
     function show(step: number) {
+      if (advanceTimer) { clearTimeout(advanceTimer); advanceTimer = undefined; }
       current = step;
       stepviews.forEach((sv, i) => (sv.hidden = i !== step));
       const pct = ((step + 1) / totalSteps) * 100;
       progressBar.style.width = pct + '%';
       stepNow.textContent = String(step + 1);
-      backBtn.hidden = step === 0;
-      nextBtn.hidden = step >= lastQuestionStep;
-      seeBtn.hidden = step !== lastQuestionStep;
-      restartBtn.hidden = step !== resultsStep;
+      const onResults = step === resultsStep;
+      backBtn.hidden = step === 0 || onResults;
+      nextBtn.hidden = onResults || !stepIsManual(step);
+      restartBtn.hidden = !onResults;
+      autoHint.hidden = onResults || stepIsManual(step);
       validation.textContent = '';
       window.scrollTo({ top: form.getBoundingClientRect().top + window.scrollY - 90, behavior: 'smooth' });
     }
 
-    // Require every single-choice question in the current step to be answered.
-    function validateStep(step: number): boolean {
-      const view = stepviews[step];
-      const qs = Array.from(view.querySelectorAll<HTMLElement>('.finder-q'));
-      for (const q of qs) {
-        if (q.dataset.type === 'single') {
-          const answered = view.querySelector(`input[name="${q.dataset.qid}"]:checked`);
-          if (!answered) {
-            validation.textContent = 'Please answer to continue.';
-            q.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            return false;
-          }
-        }
+    // Move to the next question step, or straight to the matches after the last.
+    function advanceFrom(step: number) {
+      if (step >= lastQuestionStep) {
+        renderResults();
+        show(resultsStep);
+      } else {
+        show(step + 1);
       }
-      return true;
     }
 
     function collectAnswers(): Answers {
@@ -467,25 +512,34 @@ const steps = FINDER_SECTIONS.map((section) => ({
             </dl>
             <div class="result-foot">
               <span class="result-risk"><strong>Biggest risk:</strong> ${escapeHtml(r.biggestRisk)}</span>
-              <a class="btn btn-primary" href="/businesses/${r.slug}">Read the full breakdown →</a>
+              <a class="btn btn-primary" href="/businesses/${r.slug}/">Read the full breakdown →</a>
             </div>
           </article>`;
         })
         .join('');
     }
 
-    nextBtn.addEventListener('click', () => {
-      if (!validateStep(current)) return;
-      if (current < lastQuestionStep) show(current + 1);
+    // Auto-advance single-choice steps the moment they are fully answered.
+    // A short debounce lets keyboard users arrow through radios without jumping,
+    // and gives a beat of visual feedback on the chosen option before moving on.
+    form.addEventListener('change', (e) => {
+      const view = stepviews[current];
+      if (!view || !view.contains(e.target as Node)) return;
+      validation.textContent = '';
+      if (stepIsManual(current)) return; // multi-select steps use the Continue button
+      if (advanceTimer) clearTimeout(advanceTimer);
+      const scheduledStep = current;
+      if (stepComplete(scheduledStep)) {
+        advanceTimer = window.setTimeout(() => {
+          if (current === scheduledStep && stepComplete(scheduledStep)) advanceFrom(scheduledStep);
+        }, 420);
+      }
     });
-    backBtn.addEventListener('click', () => {
-      show(Math.max(0, current - 1));
-    });
-    seeBtn.addEventListener('click', () => {
-      if (!validateStep(current)) return;
-      renderResults();
-      show(resultsStep);
-    });
+
+    // Continue button only appears on the multi-select step.
+    nextBtn.addEventListener('click', () => advanceFrom(current));
+    backBtn.addEventListener('click', () => show(Math.max(0, current - 1)));
+
     function restart() {
       form.reset();
       show(0);
