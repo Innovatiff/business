@@ -76,15 +76,21 @@ const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
 }
 
 <!--
-  Google AdSense. DISABLED by default and only injected after approval.
-  Controlled entirely by environment config in src/config.ts.
+  Google AdSense SITE CONNECTION. This must be present site-wide for Google to
+  verify and review the site for approval; it displays no visible ads on its own
+  (actual ad units are gated separately in AdSlot.astro until approval). Both the
+  verification meta tag and the loader script are Google's recommended ways to
+  connect a site.
 -->
 {
-  ADSENSE.enabled && ADSENSE.client && (
-    <script
-      async
-      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE.client}`}
-      crossorigin="anonymous"
-    />
+  ADSENSE.client && (
+    <>
+      <meta name="google-adsense-account" content={ADSENSE.client} />
+      <script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE.client}`}
+        crossorigin="anonymous"
+      />
+    </>
   )
 }

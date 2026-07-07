@@ -22,21 +22,31 @@ export const SITE = {
 /**
  * AdSense / Google Publisher configuration.
  *
- * Ads are DISABLED by default and stay disabled until approval. To turn ads
- * on after approval:
- *   1. Set PUBLIC_ADSENSE_ENABLED=true in the environment (or flip `enabled`).
- *   2. Set PUBLIC_ADSENSE_CLIENT to your real ca-pub-XXXXXXXXXXXXXXXX id.
- *   3. Update /public/ads.txt with the same publisher id.
+ * Two separate things:
+ *   1. SITE CONNECTION — the AdSense loader script + `google-adsense-account`
+ *      verification meta in <head>. This is what lets Google connect the site
+ *      to your account and REVIEW it for approval. It must be present for the
+ *      application to be approved, and it shows no visible ads on its own. It is
+ *      always emitted (see BaseHead) because `client` has a real default below.
+ *   2. AD UNITS — actual <ins class="adsbygoogle"> slots (AdSlot.astro). These
+ *      stay OFF (`enabled`) until after approval, so nothing ad-like appears on
+ *      the site while it is being reviewed.
  *
- * Until then, ad slots render as quiet, clearly-labelled reserved placeholders
- * (never fake ads, never anything that looks clickable).
+ * The publisher ID is PUBLIC information (it appears in ads.txt and page source
+ * on every AdSense site), so it is safe to hardcode here as the default.
  */
 export const ADSENSE = {
-  /** Master switch. Reads PUBLIC_ADSENSE_ENABLED, defaults to false. */
+  /**
+   * ca-pub-XXXXXXXXXXXXXXXX publisher ID. Hardcoded so the site is always
+   * connected to AdSense for review; override with PUBLIC_ADSENSE_CLIENT.
+   */
+  client: import.meta.env.PUBLIC_ADSENSE_CLIENT || 'ca-pub-7759354256906782',
+  /**
+   * Whether to render actual ad UNITS. Off until approval. The site connection
+   * (loader + verification meta) is emitted regardless, so review is unaffected.
+   */
   enabled: import.meta.env.PUBLIC_ADSENSE_ENABLED === 'true',
-  /** ca-pub-XXXXXXXXXXXXXXXX — set via PUBLIC_ADSENSE_CLIENT after approval. */
-  client: import.meta.env.PUBLIC_ADSENSE_CLIENT ?? '',
-  /** Show quiet labelled placeholders before approval so layout is reserved. */
+  /** Show quiet labelled placeholders during dev so layout is reserved. */
   showPlaceholders: import.meta.env.PUBLIC_ADSENSE_PLACEHOLDERS === 'true',
 } as const;
 
