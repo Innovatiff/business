@@ -1,0 +1,88 @@
+---
+/**
+ * A "save to compare" toggle. State lives in localStorage (no account); a
+ * global controller in the layout hydrates aria-pressed and keeps every button
+ * for the same business in sync. `compact` renders an icon-only pill for cards.
+ */
+export interface Props {
+  slug: string;
+  title: string;
+  compact?: boolean;
+}
+const { slug, title, compact = false } = Astro.props;
+---
+
+<button
+  class:list={['save-btn', { compact }]}
+  type="button"
+  data-save
+  data-slug={slug}
+  data-title={title}
+  aria-pressed="false"
+  aria-label={`Save ${title} to compare`}
+  title="Save to compare"
+>
+  <svg class="save-ico" width="17" height="17" viewBox="0 0 24 24" aria-hidden="true">
+    <path
+      d="M12 20.3l-1.4-1.3C5.4 14.3 2 11.2 2 7.6 2 4.9 4.1 3 6.7 3c1.6 0 3.1.8 4 2 .9-1.2 2.4-2 4-2C21.3 3 23.4 4.9 23.4 7.6c0 .1 0 .1-.1.2"
+      transform="translate(-0.65 0)"
+    ></path>
+  </svg>
+  <span class="save-txt">Save</span>
+  <span class="save-txt-alt">Saved</span>
+</button>
+
+<style>
+  .save-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 0.45rem 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--card);
+    color: var(--slate);
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+  }
+  .save-ico {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linejoin: round;
+  }
+  .save-btn:hover {
+    border-color: var(--red);
+    color: var(--red);
+  }
+  .save-btn[aria-pressed='true'] {
+    border-color: var(--red);
+    background: var(--red);
+    color: #fff;
+  }
+  .save-btn[aria-pressed='true'] .save-ico {
+    fill: currentColor;
+  }
+  .save-btn .save-txt-alt {
+    display: none;
+  }
+  .save-btn[aria-pressed='true'] .save-txt {
+    display: none;
+  }
+  .save-btn[aria-pressed='true'] .save-txt-alt {
+    display: inline;
+  }
+  .save-btn.compact {
+    padding: 0.4rem;
+    gap: 0;
+    box-shadow: var(--shadow-sm);
+  }
+  .save-btn.compact .save-txt,
+  .save-btn.compact .save-txt-alt {
+    display: none;
+  }
+</style>

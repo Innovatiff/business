@@ -40,5 +40,59 @@ const { title, description, path, jsonLd, noindex, ogType } = Astro.props;
       <slot />
     </main>
     <Footer />
+
+    <script>
+      // Save-to-compare: a browser-only shortlist (no account, nothing sent to
+      // us). Delegated so it covers save buttons anywhere, including the compare
+      // page which re-renders its own list.
+      const KEY = 'hp:saved';
+      const read = (): Set<string> => {
+        try {
+          return new Set(JSON.parse(localStorage.getItem(KEY) || '[]'));
+        } catch {
+          return new Set();
+        }
+      };
+      const write = (set: Set<string>) => {
+        try {
+          localStorage.setItem(KEY, JSON.stringify([...set]));
+        } catch {
+          /* ignore */
+        }
+      };
+      const syncButtons = (set: Set<string>) => {
+        document.querySelectorAll<HTMLElement>('[data-save]').forEach((btn) => {
+          const s = btn.getAttribute('data-slug') || '';
+          btn.setAttribute('aria-pressed', set.has(s) ? 'true' : 'false');
+        });
+      };
+      const syncCount = (set: Set<string>) => {
+        document.querySelectorAll<HTMLElement>('[data-saved-count]').forEach((el) => {
+          el.textContent = String(set.size);
+          el.hidden = set.size === 0;
+        });
+      };
+      const refresh = () => {
+        const set = read();
+        syncButtons(set);
+        syncCount(set);
+        document.dispatchEvent(new CustomEvent('hp:saved-changed', { detail: [...set] }));
+      };
+      document.addEventListener('click', (e) => {
+        const btn = (e.target as HTMLElement).closest<HTMLElement>('[data-save]');
+        if (!btn) return;
+        const s = btn.getAttribute('data-slug');
+        if (!s) return;
+        const set = read();
+        set.has(s) ? set.delete(s) : set.add(s);
+        write(set);
+        refresh();
+      });
+      // Keep in sync across tabs.
+      window.addEventListener('storage', (e) => {
+        if (e.key === KEY) refresh();
+      });
+      refresh();
+    </script>
   </body>
 </html>

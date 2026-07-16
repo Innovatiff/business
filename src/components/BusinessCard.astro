@@ -2,6 +2,7 @@
 import { moneyRange, monthlyRange } from '../lib/format';
 import { CATEGORY_MAP } from '../data/categories';
 import DifficultyBadge from './DifficultyBadge.astro';
+import SaveButton from './SaveButton.astro';
 import type { CollectionEntry } from 'astro:content';
 
 export interface Props {
@@ -13,6 +14,9 @@ const category = CATEGORY_MAP[d.category];
 ---
 
 <article class="biz-card card">
+  <div class="biz-card-save">
+    <SaveButton slug={d.slug} title={d.title} compact />
+  </div>
   <a href={`/businesses/${d.slug}`} class="biz-card-link">
     <div class="biz-card-head">
       <h3 class="biz-card-title">{d.title}</h3>
@@ -40,8 +44,15 @@ const category = CATEGORY_MAP[d.category];
 
 <style>
   .biz-card {
+    position: relative;
     transition: box-shadow 0.15s ease, transform 0.1s ease, border-color 0.15s ease;
     height: 100%;
+  }
+  .biz-card-save {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+    z-index: 2;
   }
   .biz-card:hover {
     box-shadow: var(--shadow-md);
@@ -63,6 +74,7 @@ const category = CATEGORY_MAP[d.category];
     align-items: flex-start;
     justify-content: space-between;
     gap: 0.75rem;
+    padding-right: 2.4rem;
   }
   .biz-card-title {
     font-size: 1.15rem;

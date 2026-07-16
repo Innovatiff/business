@@ -1,0 +1,246 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { CATEGORY_MAP } from '../data/categories';
+import { moneyRange, monthlyRange } from '../lib/format';
+
+const all = await getCollection('businesses');
+const records = all.map((b) => {
+  const d = b.data;
+  return {
+    slug: d.slug,
+    title: d.title,
+    category: CATEGORY_MAP[d.category]?.shortName ?? d.category,
+    startup: moneyRange(d.startupCostLow, d.startupCostHigh),
+    monthly: monthlyRange(d.monthlyEarningsLow, d.monthlyEarningsHigh),
+    firstIncome: d.timeToFirstIncome,
+    difficulty: d.difficultyLevel,
+    bestFor: d.bestFor,
+    biggestRisk: d.biggestRisk,
+  };
+});
+---
+
+<BaseLayout
+  title="Compare Saved Businesses"
+  description="Compare the businesses you saved side by side — startup cost, realistic earnings, time to first income, difficulty, and biggest risk. No account; your shortlist stays in your browser."
+  path="/compare"
+  noindex={true}
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Compare' }]} />
+    <h1>Compare your saved businesses</h1>
+    <p class="lead">
+      The businesses you saved, side by side — costs, earnings, time to income, difficulty, and the
+      biggest risk. Your shortlist lives only in this browser; there's no account and nothing is sent
+      to us.
+    </p>
+  </div>
+
+  <div class="container page-body" style="max-width: var(--container);">
+    <script type="application/json" id="compare-records" is:inline set:html={JSON.stringify(records)}></script>
+
+    <div id="compare-empty" class="compare-empty card">
+      <h2>Nothing saved yet</h2>
+      <p class="muted">
+        Tap <strong>Save</strong> on any business (on its page or a card) and it will appear here so
+        you can weigh your options side by side.
+      </p>
+      <div class="compare-empty-cta">
+        <a href="/businesses" class="btn btn-primary">Browse businesses →</a>
+        <a href="/find-my-business" class="btn btn-secondary">Find my match →</a>
+      </div>
+    </div>
+
+    <div id="compare-live" hidden>
+      <div class="compare-bar">
+        <span id="compare-count" class="muted"></span>
+        <button type="button" id="compare-clear" class="btn btn-secondary btn-sm">Clear all</button>
+      </div>
+      <div class="compare-wrap">
+        <table class="compare-table" id="compare-table"></table>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .compare-empty {
+    padding: 2.5rem 2rem;
+    text-align: center;
+  }
+  .compare-empty h2 {
+    margin-bottom: 0.5rem;
+  }
+  .compare-empty p {
+    max-width: 46ch;
+    margin-inline: auto;
+  }
+  .compare-empty-cta {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+  }
+  .compare-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .btn-sm {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.9rem;
+  }
+  .compare-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--card);
+  }
+  .compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 520px;
+  }
+  .compare-table th,
+  .compare-table td {
+    text-align: left;
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  .compare-table tr:last-child th,
+  .compare-table tr:last-child td {
+    border-bottom: none;
+  }
+  .compare-attr {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    font-weight: 700;
+    white-space: nowrap;
+    width: 150px;
+    background: var(--surface);
+    position: sticky;
+    left: 0;
+  }
+  .compare-col-head {
+    min-width: 190px;
+  }
+  .compare-col-title {
+    font-size: 1.05rem;
+    margin: 0 0 0.5rem;
+  }
+  .compare-col-title a {
+    color: var(--navy);
+  }
+  .compare-remove {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 0.25rem 0.6rem;
+    cursor: pointer;
+  }
+  .compare-remove:hover {
+    border-color: var(--red);
+    color: var(--red);
+  }
+  .compare-val {
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 0.95rem;
+  }
+  .compare-val.figure-green {
+    color: var(--green-dark);
+    font-family: var(--font-mono);
+  }
+  .compare-text {
+    color: var(--slate);
+    font-size: 0.9rem;
+  }
+</style>
+
+<script>
+  const el = document.getElementById('compare-records');
+  type Rec = {
+    slug: string; title: string; category: string; startup: string; monthly: string;
+    firstIncome: string; difficulty: string; bestFor: string; biggestRisk: string;
+  };
+  const records: Rec[] = el ? JSON.parse(el.textContent || '[]') : [];
+  const bySlug = new Map(records.map((r) => [r.slug, r]));
+  const KEY = 'hp:saved';
+  const read = (): string[] => {
+    try {
+      return JSON.parse(localStorage.getItem(KEY) || '[]');
+    } catch {
+      return [];
+    }
+  };
+  const esc = (s: string) =>
+    s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c] as string);
+
+  const empty = document.getElementById('compare-empty') as HTMLElement;
+  const live = document.getElementById('compare-live') as HTMLElement;
+  const table = document.getElementById('compare-table') as HTMLElement;
+  const count = document.getElementById('compare-count') as HTMLElement;
+
+  function render() {
+    const saved = read().map((s) => bySlug.get(s)).filter(Boolean) as Rec[];
+    if (saved.length === 0) {
+      empty.hidden = false;
+      live.hidden = true;
+      return;
+    }
+    empty.hidden = true;
+    live.hidden = false;
+    count.textContent = `${saved.length} saved business${saved.length === 1 ? '' : 'es'}`;
+
+    const col = (fn: (r: Rec) => string) => saved.map((r) => `<td>${fn(r)}</td>`).join('');
+    const heads = saved
+      .map(
+        (r) => `<th class="compare-col-head">
+          <h3 class="compare-col-title"><a href="/businesses/${r.slug}/">${esc(r.title)}</a></h3>
+          <button type="button" class="compare-remove" data-save data-slug="${r.slug}" data-title="${esc(r.title)}">Remove</button>
+        </th>`,
+      )
+      .join('');
+    const badge = (d: string) => `<span class="badge badge-${d.toLowerCase()}">${esc(d)}</span>`;
+
+    table.innerHTML = `
+      <thead><tr><th class="compare-attr"></th>${heads}</tr></thead>
+      <tbody>
+        <tr><th class="compare-attr">Category</th>${col((r) => `<span class="compare-text">${esc(r.category)}</span>`)}</tr>
+        <tr><th class="compare-attr">Startup cost</th>${col((r) => `<span class="compare-val">${esc(r.startup)}</span>`)}</tr>
+        <tr><th class="compare-attr">Monthly earnings</th>${col((r) => `<span class="compare-val figure-green">${esc(r.monthly)}</span>`)}</tr>
+        <tr><th class="compare-attr">First income</th>${col((r) => `<span class="compare-text">${esc(r.firstIncome)}</span>`)}</tr>
+        <tr><th class="compare-attr">Difficulty</th>${col((r) => badge(r.difficulty))}</tr>
+        <tr><th class="compare-attr">Best for</th>${col((r) => `<span class="compare-text">${esc(r.bestFor)}</span>`)}</tr>
+        <tr><th class="compare-attr">Biggest risk</th>${col((r) => `<span class="compare-text">${esc(r.biggestRisk)}</span>`)}</tr>
+        <tr><th class="compare-attr"></th>${col((r) => `<a class="btn btn-secondary btn-sm" href="/businesses/${r.slug}/">Read breakdown →</a>`)}</tr>
+      </tbody>`;
+  }
+
+  document.getElementById('compare-clear')?.addEventListener('click', () => {
+    try {
+      localStorage.setItem(KEY, '[]');
+    } catch {
+      /* ignore */
+    }
+    document.dispatchEvent(new CustomEvent('hp:saved-changed'));
+    render();
+  });
+
+  // Re-render whenever the shared controller reports a change (remove buttons
+  // carry data-save, so the layout controller handles the toggle for us).
+  document.addEventListener('hp:saved-changed', render);
+  render();
+</script>

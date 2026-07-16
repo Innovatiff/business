@@ -97,6 +97,10 @@ const steps = FINDER_SECTIONS.map((section) => ({
       <div class="finder-stepview" data-step={steps.length} hidden>
         <h2 class="finder-results-title">Your honest matches</h2>
         <p class="finder-results-sub" id="results-sub"></p>
+        <div class="finder-share" id="share-row" hidden>
+          <button type="button" class="btn btn-secondary btn-sm" id="share-btn">🔗 Copy shareable link</button>
+          <span class="finder-share-status" id="share-status" role="status"></span>
+        </div>
         <div id="results"></div>
         <div id="no-results" hidden>
           <div class="noresults card">
@@ -261,7 +265,19 @@ const steps = FINDER_SECTIONS.map((section) => ({
   }
   .finder-results-sub {
     color: var(--slate);
+    margin-bottom: 1rem;
+  }
+  .finder-share {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    flex-wrap: wrap;
     margin-bottom: 1.5rem;
+  }
+  .finder-share-status {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--green-dark);
   }
   .noresults {
     padding: 1.5rem;
@@ -476,13 +492,16 @@ const steps = FINDER_SECTIONS.map((section) => ({
       const noResults = document.getElementById('no-results') as HTMLElement;
       const sub = document.getElementById('results-sub') as HTMLElement;
 
+      const shareRow = document.getElementById('share-row') as HTMLElement;
       if (scored.length === 0) {
         resultsEl.innerHTML = '';
         noResults.hidden = false;
         sub.textContent = '';
+        if (shareRow) shareRow.hidden = true;
         return;
       }
       noResults.hidden = true;
+      if (shareRow) shareRow.hidden = false;
       sub.textContent = `Based on your answers, here ${scored.length === 1 ? 'is' : 'are'} ${scored.length} ${
         scored.length === 1 ? 'business' : 'businesses'
       } that honestly fit — ranked by how well they match. We always show the full realistic range, not the best case.`;
@@ -547,6 +566,62 @@ const steps = FINDER_SECTIONS.map((section) => ({
     restartBtn.addEventListener('click', restart);
     form.querySelectorAll('[data-action="restart"]').forEach((b) => b.addEventListener('click', restart));
 
-    show(0);
+    // Shareable results: encode the answers as short query params.
+    const shareBtn = document.getElementById('share-btn');
+    const shareStatus = document.getElementById('share-status');
+    function buildShareUrl(): string {
+      const a = collectAnswers();
+      const params = new URLSearchParams();
+      if (a.budget) params.set('b', a.budget);
+      if (a.hours) params.set('h', a.hours);
+      if (a.deadline) params.set('d', a.deadline);
+      if (a.skills && a.skills.length) params.set('s', a.skills.join(','));
+      if (a.location) params.set('l', a.location);
+      if (a.priority) params.set('p', a.priority);
+      if (a.concern) params.set('c', a.concern);
+      return location.origin + location.pathname + '?' + params.toString();
+    }
+    shareBtn?.addEventListener('click', async () => {
+      const url = buildShareUrl();
+      try {
+        await navigator.clipboard.writeText(url);
+        if (shareStatus) shareStatus.textContent = 'Link copied!';
+      } catch {
+        history.replaceState(null, '', url);
+        if (shareStatus) shareStatus.textContent = 'Link ready in your address bar';
+      }
+      window.setTimeout(() => {
+        if (shareStatus) shareStatus.textContent = '';
+      }, 2600);
+    });
+
+    // Deep-link: if the URL carries answers, prefill the form and jump to matches.
+    function applyFromUrl(): boolean {
+      const q = new URLSearchParams(location.search);
+      if (![...q.keys()].length) return false;
+      const setRadio = (name: string, val: string | null) => {
+        if (!val) return;
+        const el = form.querySelector<HTMLInputElement>(`input[name="${name}"][value="${CSS.escape(val)}"]`);
+        if (el) el.checked = true;
+      };
+      setRadio('budget', q.get('b'));
+      setRadio('hours', q.get('h'));
+      setRadio('deadline', q.get('d'));
+      setRadio('location', q.get('l'));
+      setRadio('priority', q.get('p'));
+      setRadio('concern', q.get('c'));
+      (q.get('s') || '').split(',').filter(Boolean).forEach((v) => {
+        const el = form.querySelector<HTMLInputElement>(`input[name="skills"][value="${CSS.escape(v)}"]`);
+        if (el) el.checked = true;
+      });
+      return true;
+    }
+
+    if (applyFromUrl()) {
+      renderResults();
+      show(resultsStep);
+    } else {
+      show(0);
+    }
   }
 </script>

@@ -6,6 +6,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import QuickNumbers from '../../components/QuickNumbers.astro';
 import StartupCostTable from '../../components/StartupCostTable.astro';
 import CostBars from '../../components/CostBars.astro';
+import SaveButton from '../../components/SaveButton.astro';
 import EarningsBreakdown from '../../components/EarningsBreakdown.astro';
 import HowToStart from '../../components/HowToStart.astro';
 import WhatPeopleGetWrong from '../../components/WhatPeopleGetWrong.astro';
@@ -234,6 +235,11 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
           <span class="qa-label">The short answer</span>
           <p>{quickAnswer}</p>
         </section>
+
+        <div class="biz-save-row">
+          <SaveButton slug={d.slug} title={d.title} />
+          <span class="biz-save-hint">Save this to compare it side by side with others — no account, stays in your browser.</span>
+        </div>
 
         {metricsAtTop && (
           <section id="metrics" class="biz-section">
@@ -623,6 +629,18 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
     color: var(--muted);
     font-weight: 700;
     margin: 1.4rem 0 0.6rem;
+  }
+  .biz-save-row {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  .biz-save-hint {
+    font-size: 0.85rem;
+    color: var(--muted);
+    max-width: 44ch;
   }
   .tools-list {
     list-style: none;
