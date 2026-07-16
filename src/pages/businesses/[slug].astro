@@ -5,6 +5,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import QuickNumbers from '../../components/QuickNumbers.astro';
 import StartupCostTable from '../../components/StartupCostTable.astro';
+import CostBars from '../../components/CostBars.astro';
 import EarningsBreakdown from '../../components/EarningsBreakdown.astro';
 import HowToStart from '../../components/HowToStart.astro';
 import WhatPeopleGetWrong from '../../components/WhatPeopleGetWrong.astro';
@@ -270,6 +271,8 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
             startupCostLow={d.startupCostLow}
             startupCostHigh={d.startupCostHigh}
           />
+          <p class="costbars-caption">Where the money goes — biggest costs first</p>
+          <CostBars items={d.startupCostsItemized} />
         </section>
 
         {hasOperating && (
@@ -611,6 +614,15 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
     color: var(--slate);
     font-size: 1.02rem;
     line-height: 1.6;
+  }
+  .costbars-caption {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-weight: 700;
+    margin: 1.4rem 0 0.6rem;
   }
   .tools-list {
     list-style: none;

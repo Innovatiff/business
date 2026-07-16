@@ -1,0 +1,83 @@
+---
+/**
+ * A compact horizontal bar chart of the itemized startup costs, so readers can
+ * see at a glance where the money goes. Pure CSS, theme-aware, uses the page
+ * accent. Bars are scaled to the largest item's high estimate.
+ */
+import { money } from '../lib/format';
+import type { CollectionEntry } from 'astro:content';
+export interface Props {
+  items: CollectionEntry<'businesses'>['data']['startupCostsItemized'];
+}
+const { items } = Astro.props;
+const sorted = [...items].filter((i) => i.high > 0).sort((a, b) => b.high - a.high).slice(0, 8);
+const max = Math.max(...sorted.map((i) => i.high), 1);
+---
+
+{sorted.length > 0 && (
+  <div class="costbars">
+    {sorted.map((i) => (
+      <div class="cb-row">
+        <span class="cb-label">{i.item}</span>
+        <div class="cb-track" aria-hidden="true">
+          <div class="cb-fill" style={`width:${Math.max((i.high / max) * 100, 3)}%`}></div>
+        </div>
+        <span class="cb-val">{i.low === 0 ? 'Free' : money(i.low)} – {money(i.high)}</span>
+      </div>
+    ))}
+  </div>
+)}
+
+<style>
+  .costbars {
+    display: grid;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+  }
+  .cb-row {
+    display: grid;
+    grid-template-columns: 168px 1fr 120px;
+    align-items: center;
+    gap: 0.85rem;
+  }
+  .cb-label {
+    font-size: 0.9rem;
+    color: var(--fg-soft);
+    font-weight: 600;
+    line-height: 1.25;
+  }
+  .cb-track {
+    height: 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .cb-fill {
+    height: 100%;
+    min-width: 3px;
+    background: var(--accent, var(--green));
+    border-radius: 999px;
+  }
+  .cb-val {
+    font-size: 0.82rem;
+    color: var(--muted);
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+  }
+  @media (max-width: 560px) {
+    .cb-row {
+      grid-template-columns: 1fr auto;
+      gap: 0.3rem 0.75rem;
+    }
+    .cb-track {
+      grid-column: 1 / -1;
+      order: 3;
+    }
+    .cb-val {
+      text-align: left;
+    }
+  }
+</style>
