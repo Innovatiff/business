@@ -1,0 +1,138 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { GUIDES } from '../../data/guides';
+import { SITE } from '../../config';
+
+const all = await getCollection('businesses');
+
+const cards = GUIDES.map((g) => ({
+  slug: g.slug,
+  title: g.title,
+  lead: g.lead,
+  count: g.pick(all).length,
+}));
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Business Guides',
+    description:
+      'Honest, data-driven "best of" business guides — each pick is a real business with sourced startup costs and realistic earnings.',
+    hasPart: GUIDES.map((g) => ({
+      '@type': 'Article',
+      name: g.title,
+      url: `${SITE.url}/guides/${g.slug}/`,
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE.url}/` },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: `${SITE.url}/guides/` },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Business Guides — Honest, Data-Driven Best-Of Lists"
+  description="Honest 'best business to start' guides — for little money, from home, with no experience, part-time, or for the highest income. Every pick is a real business with sourced costs and realistic earnings."
+  path="/guides"
+  jsonLd={jsonLd}
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Guides' }]} />
+    <h1>Honest business guides</h1>
+    <p class="lead">
+      Most "best business to start" lists are thin and built to sell you a course. Ours are built
+      from our real business library — every pick links to a full breakdown with sourced startup
+      costs, realistic earnings, and the honest risks. Pick the guide that fits where you are today.
+    </p>
+  </div>
+
+  <div class="container page-body" style="max-width: var(--container);">
+    <div class="guide-hub">
+      {cards.map((c) => (
+        <a href={`/guides/${c.slug}/`} class="guide-hub-card">
+          <span class="guide-hub-count">{c.count} businesses</span>
+          <h2>{c.title}</h2>
+          <p>{c.lead}</p>
+          <span class="guide-hub-cta">Read the guide →</span>
+        </a>
+      ))}
+    </div>
+
+    <div class="card browse-cta" style="display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;padding:1.5rem 1.75rem;margin-top:2rem;">
+      <div>
+        <h3 style="margin:0 0 0.3rem;">Want a pick made for your exact situation?</h3>
+        <p class="muted" style="margin:0;max-width:60ch;">Answer a few honest questions about your budget, time, and skills and we'll match you to the businesses that actually fit — no account, nothing stored.</p>
+      </div>
+      <a href="/find-my-business" class="btn btn-primary">Find my business →</a>
+    </div>
+
+    <p class="muted" style="margin-top:1.5rem;font-size:0.88rem;max-width:70ch;">
+      These guides are honest editorial picks from publicly reported data, not guarantees or financial
+      advice. Individual results vary. See our <a href="/disclaimer">disclaimer</a> and
+      <a href="/how-we-research-businesses">how we research businesses</a>.
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .guide-hub {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.1rem;
+  }
+  .guide-hub-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--green);
+    border-radius: var(--radius);
+    background: var(--card);
+    transition: transform 0.1s ease, box-shadow 0.15s ease;
+  }
+  .guide-hub-card:hover {
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+  .guide-hub-count {
+    align-self: flex-start;
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--green-dark);
+    background: var(--green-tint);
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    margin-bottom: 0.75rem;
+  }
+  .guide-hub-card h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    color: var(--navy);
+  }
+  .guide-hub-card p {
+    margin: 0 0 1rem;
+    color: var(--muted);
+    font-size: 0.94rem;
+    line-height: 1.55;
+    flex: 1;
+  }
+  .guide-hub-cta {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--green-dark);
+    font-size: 0.9rem;
+  }
+</style>

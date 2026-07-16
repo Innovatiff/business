@@ -1,0 +1,421 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { GUIDES, GUIDE_MAP } from '../../data/guides';
+import { CATEGORY_MAP, CATEGORY_ICONS } from '../../data/categories';
+import { accentFor } from '../../lib/pageTheme';
+import { moneyRange, monthlyRange, difficultyClass } from '../../lib/format';
+import { SITE } from '../../config';
+
+export async function getStaticPaths() {
+  const all = await getCollection('businesses');
+  return GUIDES.map((guide) => {
+    const picks = guide.pick(all).map((b, i) => {
+      const d = b.data;
+      const cat = CATEGORY_MAP[d.category];
+      const accent = accentFor(d.category);
+      return {
+        rank: i + 1,
+        slug: d.slug,
+        title: d.title,
+        categoryName: cat?.shortName ?? d.category,
+        categoryIcon: CATEGORY_ICONS[d.category] ?? '•',
+        accent: accent.accent,
+        startup: moneyRange(d.startupCostLow, d.startupCostHigh),
+        monthly: monthlyRange(d.monthlyEarningsLow, d.monthlyEarningsHigh),
+        firstIncome: d.timeToFirstIncome,
+        difficulty: d.difficultyLevel,
+        difficultyClass: difficultyClass(d.difficultyLevel),
+        note: guide.pickNote(b),
+        bestFor: d.bestFor,
+      };
+    });
+    return { params: { slug: guide.slug }, props: { guide, picks } };
+  });
+}
+
+const { guide, picks } = Astro.props;
+const related = guide.related.map((s) => GUIDE_MAP[s]).filter(Boolean);
+const reviewed = 'July 2026';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: guide.title,
+    description: guide.metaDescription,
+    author: { '@type': 'Organization', name: SITE.name },
+    publisher: { '@type': 'Organization', name: SITE.name },
+    mainEntityOfPage: `${SITE.url}/guides/${guide.slug}/`,
+    dateModified: '2026-07-01',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: guide.title,
+    numberOfItems: picks.length,
+    itemListElement: picks.map((p) => ({
+      '@type': 'ListItem',
+      position: p.rank,
+      name: p.title,
+      url: `${SITE.url}/businesses/${p.slug}/`,
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: guide.faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE.url}/` },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: `${SITE.url}/guides/` },
+      { '@type': 'ListItem', position: 3, name: guide.title, item: `${SITE.url}/guides/${guide.slug}/` },
+    ],
+  },
+];
+---
+
+<BaseLayout title={guide.metaTitle} description={guide.metaDescription} path={`/guides/${guide.slug}`} jsonLd={jsonLd} ogType="article">
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Guides', href: '/guides' }, { label: guide.title }]} />
+    <h1>{guide.title}</h1>
+    <p class="lead">{guide.lead}</p>
+    <p class="guide-meta muted">
+      {picks.length} honest picks · Reviewed {reviewed} · Every pick links to a full breakdown
+    </p>
+  </div>
+
+  <div class="container container-narrow guide-body">
+    {guide.intro.map((p) => <p class="guide-intro-p">{p}</p>)}
+
+    <ol class="guide-picks">
+      {picks.map((p) => (
+        <li class="guide-pick" style={`--pick-accent:${p.accent};`}>
+          <div class="guide-pick-rank" aria-hidden="true">{p.rank}</div>
+          <div class="guide-pick-main">
+            <div class="guide-pick-head">
+              <h2 class="guide-pick-title">
+                <a href={`/businesses/${p.slug}/`}>{p.title}</a>
+              </h2>
+              <span class="guide-pick-cat">
+                <span aria-hidden="true">{p.categoryIcon}</span> {p.categoryName}
+              </span>
+            </div>
+
+            <div class="guide-pick-stats">
+              <div class="gp-stat">
+                <span class="gp-stat-label">Startup cost</span>
+                <span class="gp-stat-val">{p.startup}</span>
+              </div>
+              <div class="gp-stat">
+                <span class="gp-stat-label">Realistic earnings</span>
+                <span class="gp-stat-val gp-green">{p.monthly}</span>
+              </div>
+              <div class="gp-stat">
+                <span class="gp-stat-label">First income</span>
+                <span class="gp-stat-val">{p.firstIncome}</span>
+              </div>
+              <div class="gp-stat">
+                <span class="gp-stat-label">Difficulty</span>
+                <span class={`badge ${p.difficultyClass}`}>{p.difficulty}</span>
+              </div>
+            </div>
+
+            <p class="guide-pick-note"><strong>Why it made the list:</strong> {p.note}</p>
+            <a class="guide-pick-link" href={`/businesses/${p.slug}/`}>Read the full breakdown →</a>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    {picks.length === 0 && (
+      <p class="muted">We're still adding businesses that fit this guide — check back soon, or <a href="/businesses">browse the full library</a>.</p>
+    )}
+
+    <div class="guide-outro">
+      {guide.outro.map((p) => <p>{p}</p>)}
+    </div>
+
+    <section class="guide-faq" aria-labelledby="guide-faq-h">
+      <h2 id="guide-faq-h">Common questions</h2>
+      {guide.faqs.map((f) => (
+        <details class="guide-faq-item">
+          <summary>{f.question}</summary>
+          <p>{f.answer}</p>
+        </details>
+      ))}
+    </section>
+
+    <div class="card guide-cta" style="display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;padding:1.5rem 1.75rem;">
+      <div>
+        <h3 style="margin:0 0 0.3rem;">Not sure which of these fits you?</h3>
+        <p class="muted" style="margin:0;max-width:56ch;">Answer a few honest questions and we'll match you to the businesses that fit your real budget, time, and skills.</p>
+      </div>
+      <a href="/find-my-business" class="btn btn-primary">Find my business →</a>
+    </div>
+
+    {related.length > 0 && (
+      <section class="guide-related" aria-labelledby="guide-related-h">
+        <h2 id="guide-related-h">More honest guides</h2>
+        <div class="guide-related-grid">
+          {related.map((r) => (
+            <a href={`/guides/${r.slug}/`} class="guide-related-card">
+              <span>{r.title}</span>
+              <span class="guide-related-cta">Read →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <p class="muted guide-disclaimer">
+      These are honest editorial picks based on publicly reported data — not guarantees or financial
+      advice, and not ranked by any paid placement. Individual results vary. See our
+      <a href="/disclaimer">disclaimer</a> and <a href="/how-we-research-businesses">how we research businesses</a>.
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .guide-meta {
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+  }
+  .guide-body {
+    padding-bottom: var(--space-16);
+  }
+  .guide-intro-p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--slate);
+    margin-bottom: 1rem;
+  }
+  .guide-picks {
+    list-style: none;
+    counter-reset: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+  .guide-pick {
+    display: flex;
+    gap: 1.1rem;
+    padding: 1.5rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--pick-accent, var(--green));
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+  }
+  .guide-pick-rank {
+    flex: none;
+    width: 2.4rem;
+    height: 2.4rem;
+    display: grid;
+    place-items: center;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #fff;
+    background: var(--pick-accent, var(--green));
+    border-radius: 50%;
+  }
+  .guide-pick-main {
+    flex: 1;
+    min-width: 0;
+  }
+  .guide-pick-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.9rem;
+  }
+  .guide-pick-title {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.25;
+  }
+  .guide-pick-title a {
+    color: var(--navy);
+  }
+  .guide-pick-title a:hover {
+    color: var(--pick-accent);
+  }
+  .guide-pick-cat {
+    flex: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .guide-pick-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem 1rem;
+    padding: 0.9rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0.9rem;
+  }
+  .gp-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 0;
+  }
+  .gp-stat-label {
+    font-family: var(--font-display);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .gp-stat-val {
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 0.95rem;
+  }
+  .gp-stat-val.gp-green {
+    color: var(--green-dark);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+  }
+  .guide-pick-note {
+    font-size: 0.94rem;
+    line-height: 1.6;
+    color: var(--slate);
+    margin: 0 0 0.7rem;
+  }
+  .guide-pick-note strong {
+    color: var(--navy);
+  }
+  .guide-pick-link {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--pick-accent, var(--green-dark));
+  }
+  .guide-outro {
+    margin: 2rem 0;
+    padding: 1.5rem 1.75rem;
+    background: var(--surface);
+    border-radius: var(--radius);
+  }
+  .guide-outro p {
+    line-height: 1.7;
+    color: var(--slate);
+    margin-bottom: 0.9rem;
+  }
+  .guide-outro p:last-child {
+    margin-bottom: 0;
+  }
+  .guide-faq {
+    margin: 2.5rem 0;
+  }
+  .guide-faq h2 {
+    margin-bottom: 1rem;
+  }
+  .guide-faq-item {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--card);
+    margin-bottom: 0.75rem;
+    padding: 0 1.1rem;
+  }
+  .guide-faq-item summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--navy);
+    padding: 1rem 0;
+    list-style: none;
+  }
+  .guide-faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  .guide-faq-item summary::after {
+    content: '+';
+    float: right;
+    color: var(--muted);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+  .guide-faq-item[open] summary::after {
+    content: '–';
+  }
+  .guide-faq-item p {
+    margin: 0 0 1rem;
+    color: var(--slate);
+    line-height: 1.65;
+  }
+  .guide-cta {
+    margin: 2rem 0;
+  }
+  .guide-related {
+    margin: 2.5rem 0 1.5rem;
+  }
+  .guide-related h2 {
+    margin-bottom: 1rem;
+  }
+  .guide-related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 0.9rem;
+  }
+  .guide-related-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--card);
+    font-weight: 600;
+    color: var(--navy);
+    transition: border-color 0.15s ease, transform 0.1s ease;
+  }
+  .guide-related-card:hover {
+    text-decoration: none;
+    border-color: var(--green);
+    transform: translateY(-1px);
+  }
+  .guide-related-cta {
+    flex: none;
+    color: var(--green-dark);
+    font-size: 0.9rem;
+  }
+  .guide-disclaimer {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    max-width: 70ch;
+    margin-top: 2rem;
+  }
+  @media (max-width: 640px) {
+    .guide-pick {
+      padding: 1.2rem;
+      gap: 0.85rem;
+    }
+    .guide-pick-rank {
+      width: 2rem;
+      height: 2rem;
+      font-size: 0.95rem;
+    }
+    .guide-pick-stats {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>

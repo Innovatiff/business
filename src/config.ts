@@ -129,6 +129,7 @@ export const PRIMARY_NAV: NavItem[] = [
       },
     ],
   },
+  { label: 'Guides', href: '/guides' },
   { label: 'Calculators', href: '/calculators' },
   { label: 'About', href: '/about' },
 ];
