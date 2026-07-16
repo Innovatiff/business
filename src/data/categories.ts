@@ -184,6 +184,24 @@ export function getCategory(slug: string): Category | undefined {
   return CATEGORY_MAP[slug];
 }
 
+/** A simple emoji icon per category, for visual identity across the site. */
+export const CATEGORY_ICONS: Record<string, string> = {
+  'service-businesses': '🧰',
+  'online-businesses': '💻',
+  'trades-and-skilled-work': '🔧',
+  'food-and-beverage': '🍽️',
+  'retail-and-products': '🛍️',
+  'creative-and-content': '🎨',
+  'health-and-wellness': '🧘',
+  'real-estate-and-property': '🏠',
+  'technology-and-software': '🖥️',
+  'local-and-community': '📍',
+  automotive: '🚗',
+  'education-and-coaching': '🎓',
+  'events-and-entertainment': '🎉',
+  'pet-and-animal': '🐾',
+};
+
 /** Genuine, category-level questions — drives the FAQ on each category page. */
 export const CATEGORY_FAQS: Record<string, { question: string; answer: string }[]> = {
   automotive: [
