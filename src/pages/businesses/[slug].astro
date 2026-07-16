@@ -465,6 +465,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
     font-weight: 800;
     color: var(--accent-dark, var(--navy));
     background: var(--accent-tint, var(--surface));
+    background: color-mix(in srgb, var(--accent, var(--slate)) 13%, var(--card));
     border: 1px solid var(--accent-soft, var(--border));
     padding: 0.2rem 0.6rem;
     border-radius: 999px;
@@ -474,6 +475,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
   .hero-band {
     margin-top: 0.9rem;
     background: var(--accent-tint, var(--surface));
+    background: color-mix(in srgb, var(--accent, var(--slate)) 13%, var(--card));
     border: 1px solid var(--accent-soft, var(--border));
     border-left: 5px solid var(--accent, var(--navy));
     border-radius: var(--radius-lg);
@@ -512,7 +514,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
     margin-top: 0.6rem;
   }
   .hero-snapshot {
-    background: #fff;
+    background: var(--card);
     border: 1px solid var(--border);
     border-left: 4px solid var(--accent, var(--navy));
     border-radius: var(--radius);
@@ -588,6 +590,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
   .quick-answer {
     margin-top: var(--space-6);
     background: var(--accent-tint, var(--surface));
+    background: color-mix(in srgb, var(--accent, var(--slate)) 13%, var(--card));
     border: 1px solid var(--accent-soft, var(--border));
     border-left: 4px solid var(--accent, var(--navy));
     border-radius: var(--radius);
@@ -620,7 +623,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 1rem 1.2rem;
-    background: #fff;
+    background: var(--card);
     margin: 0;
   }
   .tool-head {
