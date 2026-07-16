@@ -7,6 +7,9 @@ const isActive = (href?: string) =>
   !!href && (path === href || (href !== '/' && path.startsWith(href + '/')));
 const groupsActive = (groups?: { items: { href: string }[] }[]) =>
   !!groups && groups.some((g) => g.items.some((c) => isActive(c.href)));
+// "Browse" is active on the all-businesses page and any budget/skill/time filter.
+const browseActive = (item: { href?: string; groups?: { items: { href: string }[] }[] }) =>
+  groupsActive(item.groups) || isActive('/businesses');
 ---
 
 <header class="site-header">
@@ -27,28 +30,38 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
           <div class="nav-item">
             <button
               type="button"
-              class:list={['nav-link', 'nav-trigger', { active: groupsActive(item.groups) }]}
+              class:list={['nav-link', 'nav-trigger', { active: browseActive(item) }]}
               aria-haspopup="true"
               aria-expanded="false"
             >
               {item.label}
-              <span class="caret" aria-hidden="true"></span>
+              <ion-icon name="chevron-down-outline" class="nav-caret" aria-hidden="true"></ion-icon>
             </button>
             <div class="dropdown-menu mega">
-              {item.groups.map((g) => (
-                <div class="mega-col">
-                  <span class="mega-heading">{g.heading}</span>
-                  <ul role="menu">
-                    {g.items.map((c) => (
-                      <li role="none">
-                        <a role="menuitem" href={c.href} class:list={['dropdown-link', { active: isActive(c.href) }]}>
-                          {c.label}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+              <div class="mega-cols">
+                {item.groups.map((g) => (
+                  <div class="mega-col">
+                    <a href={g.href} class="mega-heading">
+                      {g.icon && <ion-icon name={g.icon} aria-hidden="true"></ion-icon>}
+                      {g.heading}
+                    </a>
+                    <ul role="menu">
+                      {g.items.map((c) => (
+                        <li role="none">
+                          <a role="menuitem" href={c.href} class:list={['dropdown-link', { active: isActive(c.href) }]}>
+                            {c.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+              <a href="/businesses" class="mega-all">
+                <ion-icon name="grid-outline" aria-hidden="true"></ion-icon>
+                <span>Browse all businesses</span>
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </a>
             </div>
           </div>
         ) : (
@@ -60,33 +73,50 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
     </nav>
 
     <div class="header-actions">
-      <a href="/compare" class="saved-link" data-saved-link aria-label="Saved businesses to compare" title="Saved / compare">
-        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.3l-1.4-1.3C5.4 14.3 2 11.2 2 7.6 2 4.9 4.1 3 6.7 3c1.6 0 3.1.8 4 2 .9-1.2 2.4-2 4-2C21.9 3 24 4.9 24 7.6c0 3.6-3.4 6.7-8.6 11.4L12 20.3z"/></svg>
+      <a href="/compare" class="icon-btn saved-link" data-saved-link aria-label="Saved businesses to compare" title="Saved / compare">
+        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
         <span class="saved-count" data-saved-count hidden>0</span>
       </a>
-      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle light / dark">
-        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <button class="icon-btn theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle light / dark">
+        <ion-icon name="moon-outline" class="icon-moon" aria-hidden="true"></ion-icon>
+        <ion-icon name="sunny-outline" class="icon-sun" aria-hidden="true"></ion-icon>
       </button>
-      <a href="/find-my-business" class="btn btn-primary btn-cta">Find My Business</a>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
-        <span></span><span></span><span></span>
+      <a href="/find-my-business" class="btn btn-primary btn-cta">
+        <ion-icon name="compass-outline" aria-hidden="true"></ion-icon>
+        Find My Business
+      </a>
+      <button class="icon-btn nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+        <ion-icon name="menu-outline" class="icon-open" aria-hidden="true"></ion-icon>
+        <ion-icon name="close-outline" class="icon-close" aria-hidden="true"></ion-icon>
       </button>
     </div>
   </div>
 
   <nav class="nav-mobile" id="mobile-nav" aria-label="Mobile" hidden>
+    <a href="/businesses" class:list={['m-link', { active: isActive('/businesses') }]}>
+      <ion-icon name="grid-outline" aria-hidden="true"></ion-icon><span>All businesses</span>
+    </a>
     {PRIMARY_NAV.map((item) =>
       item.groups ? (
         // Mobile: keep the filters as flat, separate buttons (no dropdown).
         item.groups.map((g) => (
-          <a href={g.href} class:list={['nav-link', { active: groupsActive([g]) }]}>By {g.heading}</a>
+          <a href={g.href} class:list={['m-link', { active: groupsActive([g]) }]}>
+            <ion-icon name={g.icon} aria-hidden="true"></ion-icon><span>By {g.heading}</span>
+          </a>
         ))
       ) : (
-        <a href={item.href} class:list={['nav-link', { active: isActive(item.href) }]}>{item.label}</a>
+        <a href={item.href} class:list={['m-link', { active: isActive(item.href) }]}>
+          <ion-icon name={item.icon} aria-hidden="true"></ion-icon><span>{item.label}</span>
+        </a>
       ),
     )}
-    <a href="/find-my-business" class="btn btn-primary">Find My Business</a>
+    <a href="/compare" class="m-link" data-saved-link>
+      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon><span>Saved / compare</span>
+    </a>
+    <a href="/find-my-business" class="btn btn-primary m-cta">
+      <ion-icon name="compass-outline" aria-hidden="true"></ion-icon>
+      Find My Business
+    </a>
   </nav>
 </header>
 
@@ -105,7 +135,6 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
   .header-inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 1rem;
     height: 64px;
   }
@@ -119,6 +148,7 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
     letter-spacing: -0.03em;
     color: var(--navy);
     white-space: nowrap;
+    margin-right: auto;
   }
   .brand:hover {
     text-decoration: none;
@@ -132,8 +162,12 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
     background: #0f172a;
     color: var(--green);
   }
-  .saved-link {
-    position: relative;
+  .brand-accent {
+    color: var(--green-dark);
+  }
+
+  /* ---- Shared square icon buttons (saved / theme / hamburger) ---- */
+  .icon-btn {
     display: grid;
     place-items: center;
     width: 42px;
@@ -142,18 +176,21 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
     color: var(--slate);
+    cursor: pointer;
     flex: none;
+    font-size: 20px;
+  }
+  .icon-btn:hover {
+    color: var(--navy);
+    border-color: var(--slate);
+    text-decoration: none;
+  }
+  .saved-link {
+    position: relative;
   }
   .saved-link:hover {
     color: var(--red);
     border-color: var(--red);
-    text-decoration: none;
-  }
-  .saved-link svg {
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 2;
-    stroke-linejoin: round;
   }
   .saved-count {
     position: absolute;
@@ -172,22 +209,6 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
     place-items: center;
     line-height: 1;
   }
-  .theme-toggle {
-    display: grid;
-    place-items: center;
-    width: 42px;
-    height: 42px;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    color: var(--slate);
-    cursor: pointer;
-    flex: none;
-  }
-  .theme-toggle:hover {
-    color: var(--navy);
-    border-color: var(--slate);
-  }
   .theme-toggle .icon-sun {
     display: none;
   }
@@ -197,22 +218,20 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
   :global(:root[data-theme='dark']) .theme-toggle .icon-moon {
     display: none;
   }
-  .brand-accent {
-    color: var(--green-dark);
-  }
+
+  /* ---- Desktop nav ---- */
   .nav-desktop {
     display: flex;
     align-items: center;
-    gap: 0.25rem;
-    margin-left: auto;
-    margin-right: 0.75rem;
+    gap: 0.15rem;
+    margin-right: 0.5rem;
   }
   .nav-link {
     font-family: var(--font-display);
     font-weight: 600;
     font-size: 0.95rem;
     color: var(--slate);
-    padding: 0.5rem 0.7rem;
+    padding: 0.5rem 0.8rem;
     border-radius: var(--radius-sm);
     white-space: nowrap;
   }
@@ -233,32 +252,26 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
   .nav-trigger {
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
+    gap: 0.3rem;
     background: transparent;
     border: none;
     cursor: pointer;
   }
-  .caret {
-    width: 7px;
-    height: 7px;
-    border-right: 2px solid currentColor;
-    border-bottom: 2px solid currentColor;
-    transform: rotate(45deg) translateY(-1px);
+  .nav-caret {
+    font-size: 0.85rem;
+    opacity: 0.7;
     transition: transform 0.18s ease;
-    opacity: 0.65;
   }
-  .nav-item:hover .caret,
-  .nav-trigger[aria-expanded='true'] .caret {
-    transform: rotate(-135deg) translateY(1px);
+  .nav-item:hover .nav-caret,
+  .nav-trigger[aria-expanded='true'] .nav-caret {
+    transform: rotate(180deg);
   }
   .dropdown-menu {
     position: absolute;
-    top: calc(100% + 6px);
+    top: calc(100% + 8px);
     left: 0;
-    min-width: 232px;
-    list-style: none;
     margin: 0;
-    padding: 0.4rem;
+    padding: 0.85rem;
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
@@ -276,12 +289,56 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
     visibility: visible;
     transform: translateY(0);
   }
-  .dropdown-menu li {
+  /* Grouped (mega) dropdown: three columns + a full-width "browse all" footer */
+  .dropdown-menu.mega {
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    min-width: 560px;
+  }
+  .mega-cols {
+    display: flex;
+    gap: 0.4rem;
+  }
+  .mega-col {
+    flex: 1;
+    min-width: 168px;
+  }
+  .mega-col + .mega-col {
+    border-left: 1px solid var(--border);
+    padding-left: 0.5rem;
+  }
+  .mega-col ul {
+    list-style: none;
     margin: 0;
+    padding: 0;
+  }
+  .mega-col li {
+    margin: 0;
+  }
+  .mega-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-weight: 700;
+    padding: 0.1rem 0.7rem 0.5rem;
+  }
+  .mega-heading:hover {
+    color: var(--green-dark);
+    text-decoration: none;
+  }
+  .mega-heading ion-icon {
+    font-size: 0.95rem;
   }
   .dropdown-link {
     display: block;
-    padding: 0.55rem 0.7rem;
+    padding: 0.5rem 0.7rem;
     border-radius: var(--radius-sm);
     font-family: var(--font-display);
     font-weight: 600;
@@ -298,95 +355,110 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
     color: var(--green-dark);
     background: var(--green-tint);
   }
-  /* Grouped (mega) dropdown: one trigger, three columns */
-  .dropdown-menu.mega {
-    left: auto;
-    right: 0;
+  .mega-all {
     display: flex;
-    gap: 0.4rem;
-    padding: 0.85rem;
-    min-width: 540px;
-  }
-  .mega-col {
-    flex: 1;
-    min-width: 168px;
-  }
-  .mega-col + .mega-col {
-    border-left: 1px solid var(--border);
-    padding-left: 0.4rem;
-  }
-  .mega-col ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .mega-col li {
-    margin: 0;
-  }
-  .mega-heading {
-    display: block;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 0.85rem;
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    border: 1px solid var(--border);
     font-family: var(--font-display);
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--muted);
     font-weight: 700;
-    padding: 0.1rem 0.7rem 0.45rem;
+    font-size: 0.9rem;
+    color: var(--navy);
+  }
+  .mega-all ion-icon:first-child {
+    color: var(--green-dark);
+    font-size: 1.05rem;
+  }
+  .mega-all span {
+    flex: 1;
+  }
+  .mega-all ion-icon:last-child {
+    font-size: 0.9rem;
+    transition: transform 0.15s ease;
+  }
+  .mega-all:hover {
+    border-color: var(--green);
+    text-decoration: none;
+  }
+  .mega-all:hover ion-icon:last-child {
+    transform: translateX(3px);
   }
 
+  /* ---- Actions cluster ---- */
   .header-actions {
     display: flex;
     align-items: center;
-    gap: 0.6rem;
+    gap: 0.5rem;
+  }
+  .btn-cta {
+    gap: 0.4rem;
+  }
+  .btn-cta ion-icon {
+    font-size: 1.05rem;
   }
   .nav-toggle {
     display: none;
-    flex-direction: column;
-    justify-content: center;
-    gap: 4px;
-    width: 42px;
-    height: 42px;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    cursor: pointer;
   }
-  .nav-toggle span {
+  .nav-toggle .icon-close {
+    display: none;
+  }
+  .nav-toggle[aria-expanded='true'] .icon-open {
+    display: none;
+  }
+  .nav-toggle[aria-expanded='true'] .icon-close {
     display: block;
-    height: 2px;
-    width: 18px;
-    margin-inline: auto;
-    background: var(--navy);
-    border-radius: 2px;
-    transition: transform 0.2s ease, opacity 0.2s ease;
-  }
-  .nav-toggle[aria-expanded='true'] span:nth-child(1) {
-    transform: translateY(6px) rotate(45deg);
-  }
-  .nav-toggle[aria-expanded='true'] span:nth-child(2) {
-    opacity: 0;
-  }
-  .nav-toggle[aria-expanded='true'] span:nth-child(3) {
-    transform: translateY(-6px) rotate(-45deg);
   }
 
   /* ---- Mobile nav ---- */
   .nav-mobile {
     display: none;
     flex-direction: column;
-    gap: 0;
-    padding: 0.5rem 1.25rem 1.25rem;
+    gap: 0.15rem;
+    padding: 0.75rem 1.25rem 1.5rem;
     border-top: 1px solid var(--border);
     background: var(--card);
   }
-  .nav-mobile > .nav-link {
-    padding: 0.8rem 0.5rem;
-    border-bottom: 1px solid var(--border);
-    border-radius: 0;
+  .m-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 0.6rem;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--slate);
   }
-  .nav-mobile .btn {
+  .m-link ion-icon {
+    font-size: 1.3rem;
+    color: var(--muted);
+    flex: none;
+  }
+  .m-link:hover,
+  .m-link:active {
+    background: var(--surface);
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .m-link.active {
+    color: var(--green-dark);
+    background: var(--green-tint);
+  }
+  .m-link.active ion-icon {
+    color: var(--green-dark);
+  }
+  .m-cta {
     margin-top: 0.9rem;
     justify-content: center;
+    gap: 0.45rem;
+    font-size: 1rem;
+    padding-block: 0.85rem;
+  }
+  .m-cta ion-icon {
+    font-size: 1.15rem;
   }
 
   @media (max-width: 880px) {
@@ -395,10 +467,18 @@ const groupsActive = (groups?: { items: { href: string }[] }[]) =>
       display: none;
     }
     .nav-toggle {
-      display: flex;
+      display: grid;
     }
     .nav-mobile:not([hidden]) {
       display: flex;
+    }
+  }
+  @media (max-width: 400px) {
+    .brand-text {
+      font-size: 1.1rem;
+    }
+    .header-actions {
+      gap: 0.4rem;
     }
   }
 </style>

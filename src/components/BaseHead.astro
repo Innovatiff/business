@@ -78,6 +78,12 @@ const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <meta name="theme-color" content="#0f172a" />
 
+<!-- Ionicons web-component library, self-hosted under /vendor/ionicons (loader
+     + only the SVGs the site uses). Vendored locally so the site stays fully
+     self-contained — no external CDN request. The module script is deferred by
+     default, so it never blocks first paint. -->
+<script type="module" src="/vendor/ionicons/ionicons.esm.js"></script>
+
 <!-- Performance hints -->
 <link rel="sitemap" href="/sitemap-index.xml" />
 

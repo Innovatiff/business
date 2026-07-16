@@ -237,11 +237,20 @@ jsonLd.push({
     font-weight: 600;
   }
   .most-important {
-    background: var(--navy);
+    /* Explicit dark panel (not var(--navy), which flips to a light color in
+       dark mode and made this box unreadable). */
+    background: #0f172a;
     color: #e2e8f0;
+    border: 1px solid transparent;
     border-radius: var(--radius);
     padding: 1.5rem 1.75rem;
     margin-top: 0.5rem;
+  }
+  :global(:root[data-theme='dark']) .most-important {
+    background: var(--card);
+    color: var(--fg-soft);
+    border-color: var(--border);
+    border-left: 4px solid var(--green);
   }
   .mi-title {
     display: block;

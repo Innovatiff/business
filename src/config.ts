@@ -86,21 +86,28 @@ export const SEO = {
 } as const;
 
 export type NavChild = { label: string; href: string };
-/** `href` is the landing page used for the flat mobile button for this group. */
-export type NavGroup = { heading: string; href: string; items: NavChild[] };
-export type NavItem = { label: string; href?: string; groups?: NavGroup[] };
+/**
+ * A column inside the "Browse" mega-dropdown. `href` is the landing page used
+ * for the flat mobile button; `icon` is an Ionicons name shown on mobile.
+ */
+export type NavGroup = { heading: string; href: string; icon?: string; items: NavChild[] };
+/** `icon` is an Ionicons name (e.g. "book-outline") used in the nav. */
+export type NavItem = { label: string; href?: string; icon?: string; groups?: NavGroup[] };
 
+/**
+ * Primary navigation. Deliberately short — "Find My Business" is the CTA button
+ * (so it is not repeated here), and all browsing collapses into one "Browse"
+ * dropdown so the bar stays uncluttered on desktop and mobile.
+ */
 export const PRIMARY_NAV: NavItem[] = [
-  { label: 'Find My Business', href: '/find-my-business' },
-  { label: 'Browse Businesses', href: '/businesses' },
   {
-    // Single dropdown that holds the budget / skill / time filters so the
-    // header stays uncluttered.
-    label: 'Browse by',
+    label: 'Browse',
+    icon: 'grid-outline',
     groups: [
       {
         heading: 'Budget',
         href: '/businesses-under-5000',
+        icon: 'wallet-outline',
         items: [
           { label: 'Under $500', href: '/businesses-under-500' },
           { label: '$500 to $5,000', href: '/businesses-under-5000' },
@@ -112,6 +119,7 @@ export const PRIMARY_NAV: NavItem[] = [
       {
         heading: 'Skill',
         href: '/businesses-no-experience',
+        icon: 'ribbon-outline',
         items: [
           { label: 'No experience needed', href: '/businesses-no-experience' },
           { label: 'Best for beginners', href: '/businesses-for-beginners' },
@@ -121,6 +129,7 @@ export const PRIMARY_NAV: NavItem[] = [
       {
         heading: 'Time',
         href: '/businesses-part-time',
+        icon: 'time-outline',
         items: [
           { label: 'Start this week', href: '/businesses-start-this-week' },
           { label: 'Part-time', href: '/businesses-part-time' },
@@ -129,9 +138,9 @@ export const PRIMARY_NAV: NavItem[] = [
       },
     ],
   },
-  { label: 'Guides', href: '/guides' },
-  { label: 'Calculators', href: '/calculators' },
-  { label: 'About', href: '/about' },
+  { label: 'Guides', href: '/guides', icon: 'book-outline' },
+  { label: 'Calculators', href: '/calculators', icon: 'calculator-outline' },
+  { label: 'About', href: '/about', icon: 'information-circle-outline' },
 ];
 
 export const FOOTER_NAV: NavItem[] = [
