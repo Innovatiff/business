@@ -1,0 +1,195 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const faqs = [
+  {
+    question: 'What is the difference between revenue and profit?',
+    answer:
+      'Revenue is all the money coming in before any costs. Profit is what is left after you pay for materials, running costs, and taxes. It is completely normal for a business with high revenue to have modest take-home profit — especially in thin-margin fields like food or retail. Always plan around profit, not revenue.',
+  },
+  {
+    question: 'What is a good profit margin for a small business?',
+    answer:
+      'It varies enormously by industry. Service businesses can net 40–70% because their main cost is time; food and retail often net single digits to the low teens after all costs. There is no universal "good" number — what matters is that your net margin leaves you a take-home you can actually live on for the hours you put in.',
+  },
+  {
+    question: 'Why should I set money aside for taxes?',
+    answer:
+      'As a business owner, taxes are not withheld for you — you owe income and self-employment tax on your profit, usually paid quarterly. Setting aside a percentage of profit as you go (commonly 25–30%, but confirm with a tax professional for your situation) keeps a tax bill from wiping out your cash.',
+  },
+  {
+    question: 'What does effective hourly rate tell me?',
+    answer:
+      'It divides your real take-home by the hours you actually work — including the unpaid admin, marketing, and travel. It is often far lower than the rate you charge, and it is the honest number for comparing a business against a job or another opportunity.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  },
+];
+---
+
+<BaseLayout
+  title="Profit & Take-Home Calculator — Real Profit After Costs & Taxes"
+  description="Free profit calculator: turn monthly revenue into a realistic take-home number after direct costs, fixed costs, and taxes — plus your true profit margin and effective hourly rate."
+  path="/calculators/profit-margin-calculator"
+  jsonLd={jsonLd}
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Calculators', href: '/calculators' }, { label: 'Profit & Take-Home' }]} />
+    <h1>Profit & take-home calculator</h1>
+    <p class="lead">
+      Revenue is not what you keep. Enter your numbers to see your real take-home profit after
+      costs and taxes — plus your true margin and effective hourly rate.
+    </p>
+  </div>
+
+  <div class="container page-body" style="max-width: var(--container);">
+    <form class="calc-layout" id="calc" autocomplete="off" novalidate>
+      <div class="calc-card">
+        <p class="calc-group-title">Your monthly numbers</p>
+        <div class="calc-field">
+          <label for="revenue">Monthly revenue</label>
+          <p class="calc-hint">All the money coming in, before costs.</p>
+          <div class="calc-input-wrap">
+            <span class="calc-affix">$</span>
+            <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id="revenue" placeholder="0" />
+          </div>
+        </div>
+        <div class="calc-field">
+          <label for="cogs">Direct costs (COGS)</label>
+          <p class="calc-hint">Materials, product, or supplies as a percentage of revenue.</p>
+          <div class="calc-input-wrap">
+            <input class="calc-input" type="number" inputmode="numeric" min="0" max="100" step="1" id="cogs" placeholder="0" />
+            <span class="calc-affix suffix">% of revenue</span>
+          </div>
+        </div>
+        <div class="calc-field">
+          <label for="fixed">Fixed monthly costs</label>
+          <p class="calc-hint">Rent, software, insurance, marketing — everything that isn't materials.</p>
+          <div class="calc-input-wrap">
+            <span class="calc-affix">$</span>
+            <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id="fixed" placeholder="0" />
+          </div>
+        </div>
+        <div class="calc-field">
+          <label for="tax">Tax set-aside</label>
+          <p class="calc-hint">A percentage of profit reserved for taxes. 25–30% is a common starting point — confirm with a tax pro.</p>
+          <div class="calc-input-wrap">
+            <input class="calc-input" type="number" inputmode="numeric" min="0" max="60" step="1" id="tax" value="25" />
+            <span class="calc-affix suffix">% of profit</span>
+          </div>
+        </div>
+        <div class="calc-field">
+          <label for="hours">Hours you work per month <span style="font-weight:400;color:var(--muted);">(optional)</span></label>
+          <p class="calc-hint">Include admin, marketing, and travel for an honest hourly rate.</p>
+          <div class="calc-input-wrap">
+            <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id="hours" placeholder="0" />
+            <span class="calc-affix suffix">hrs / mo</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="calc-results" aria-live="polite">
+        <span class="calc-results-label">Your monthly take-home</span>
+        <div class="calc-headline" id="r-takehome">$0</div>
+        <p class="calc-headline-sub">After direct costs, fixed costs, and taxes</p>
+        <ul class="calc-breakdown">
+          <li class="calc-row"><span>Gross profit</span><span class="calc-val" id="r-gross">$0</span></li>
+          <li class="calc-row"><span>Operating profit</span><span class="calc-val" id="r-operating">$0</span></li>
+          <li class="calc-row"><span>Tax set-aside</span><span class="calc-val" id="r-tax">$0</span></li>
+          <li class="calc-row"><span>Net profit margin</span><span class="calc-val" id="r-netmargin">0%</span></li>
+          <li class="calc-row calc-row-total"><span>Effective hourly rate</span><span class="calc-val" id="r-hourly">—</span></li>
+        </ul>
+        <div class="calc-note ok" id="r-note">Enter your revenue and costs to see your real take-home.</div>
+      </aside>
+    </form>
+
+    <div class="container-narrow" style="padding:0;margin-top:2.5rem;">
+      <h2>How to read this</h2>
+      <p>
+        Money flows down: revenue minus direct costs is your <strong>gross profit</strong>; minus
+        fixed costs is your <strong>operating profit</strong>; minus a tax set-aside is your real
+        <strong>take-home</strong>. The effective hourly rate divides that take-home by the hours you
+        actually work — usually the most sobering and useful number on the page.
+      </p>
+      <p>
+        This is exactly why we publish honest earnings ranges, not headline revenue, on every
+        <a href="/businesses">business breakdown</a>. A big top-line number can hide a thin
+        take-home once real costs and taxes come out.
+      </p>
+
+      <h2>Frequently asked questions</h2>
+      <FAQ faqs={faqs} />
+
+      <p class="muted" style="margin-top:1.5rem;font-size:0.88rem;">
+        Honest estimates to help you plan, not tax or financial advice. Confirm your specific
+        situation with a qualified professional. See our <a href="/disclaimer">disclaimer</a>.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  const form = document.getElementById('calc');
+  if (form) {
+    const val = (id: string) => {
+      const el = document.getElementById(id) as HTMLInputElement | null;
+      const n = el ? parseFloat(el.value) : 0;
+      return Number.isFinite(n) && n > 0 ? n : 0;
+    };
+    const fmt = (n: number) => (n < 0 ? '-$' : '$') + Math.abs(Math.round(n)).toLocaleString('en-US');
+    const set = (id: string, text: string) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = text;
+    };
+
+    function recompute() {
+      const revenue = val('revenue');
+      const cogsPct = Math.min(val('cogs'), 100);
+      const fixed = val('fixed');
+      const taxPct = Math.min(val('tax'), 100);
+      const hours = val('hours');
+
+      const cogs = revenue * (cogsPct / 100);
+      const gross = revenue - cogs;
+      const operating = gross - fixed;
+      const tax = operating > 0 ? operating * (taxPct / 100) : 0;
+      const takeHome = operating - tax;
+      const netMargin = revenue > 0 ? (takeHome / revenue) * 100 : 0;
+
+      set('r-gross', fmt(gross));
+      set('r-operating', fmt(operating));
+      set('r-tax', fmt(tax));
+      set('r-netmargin', revenue > 0 ? Math.round(netMargin) + '%' : '0%');
+      set('r-takehome', fmt(takeHome));
+      set('r-hourly', hours > 0 ? fmt(takeHome / hours) + ' / hr' : '—');
+
+      const note = document.getElementById('r-note') as HTMLElement;
+      if (revenue <= 0) {
+        note.className = 'calc-note ok';
+        note.textContent = 'Enter your revenue and costs to see your real take-home.';
+      } else if (takeHome <= 0) {
+        note.className = 'calc-note warn';
+        note.textContent = 'At these numbers the business does not yet clear a profit — costs are eating everything. Try lowering costs, raising prices, or increasing revenue.';
+      } else {
+        const hourlyTxt = hours > 0 ? ` — about ${fmt(takeHome / hours)} for every hour you actually work` : '';
+        note.className = 'calc-note ok';
+        note.textContent = `You keep about ${fmt(takeHome)} a month after costs and taxes${hourlyTxt}.`;
+      }
+    }
+
+    form.addEventListener('input', recompute);
+    recompute();
+  }
+</script>

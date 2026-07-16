@@ -1,0 +1,178 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const faqs = [
+  {
+    question: 'What is a break-even point?',
+    answer:
+      'Your break-even point is the number of sales (or jobs) per month where your revenue exactly covers your costs — the point where you stop losing money and start making a profit. Every sale beyond it adds profit; every sale below it means you are running at a loss.',
+  },
+  {
+    question: 'How do I calculate break-even?',
+    answer:
+      'Break-even units = fixed monthly costs ÷ (price per sale − variable cost per sale). The bottom part is your contribution margin: what each sale contributes toward covering fixed costs. Divide your fixed costs by that margin and you get how many sales you need each month.',
+  },
+  {
+    question: 'What is the difference between fixed and variable costs?',
+    answer:
+      'Fixed costs stay roughly the same no matter how much you sell — rent, insurance, software, your base pay. Variable costs rise with each sale — materials, supplies, payment fees, fuel for a job. Getting this split right is the key to a useful break-even number.',
+  },
+  {
+    question: 'My price is lower than my variable cost — what does that mean?',
+    answer:
+      'It means you lose money on every single sale, so there is no break-even point — selling more only loses more. That is a pricing or cost problem to fix before anything else: raise your price, cut the per-sale cost, or both.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  },
+];
+---
+
+<BaseLayout
+  title="Break-Even Calculator — Sales Needed to Cover Costs"
+  description="Free break-even calculator: enter your fixed costs, price, and cost per sale to find exactly how many sales or jobs a month it takes to cover costs and start making a profit."
+  path="/calculators/break-even-calculator"
+  jsonLd={jsonLd}
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Calculators', href: '/calculators' }, { label: 'Break-Even' }]} />
+    <h1>Break-even calculator</h1>
+    <p class="lead">
+      How many sales or jobs a month does it take just to cover your costs? Enter three numbers and
+      find your break-even point — the line between losing money and making it.
+    </p>
+  </div>
+
+  <div class="container page-body" style="max-width: var(--container);">
+    <form class="calc-layout" id="calc" autocomplete="off" novalidate>
+      <div class="calc-card">
+        <p class="calc-group-title">Your numbers</p>
+        <div class="calc-field">
+          <label for="fixed">Fixed costs per month</label>
+          <p class="calc-hint">Rent, insurance, software, your base pay — costs that don't change with sales.</p>
+          <div class="calc-input-wrap">
+            <span class="calc-affix">$</span>
+            <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id="fixed" placeholder="0" />
+          </div>
+        </div>
+        <div class="calc-field">
+          <label for="price">Average price per sale or job</label>
+          <p class="calc-hint">What a typical customer pays you.</p>
+          <div class="calc-input-wrap">
+            <span class="calc-affix">$</span>
+            <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id="price" placeholder="0" />
+          </div>
+        </div>
+        <div class="calc-field">
+          <label for="variable">Variable cost per sale or job</label>
+          <p class="calc-hint">Materials, supplies, fees, fuel — costs you only pay when you make a sale.</p>
+          <div class="calc-input-wrap">
+            <span class="calc-affix">$</span>
+            <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id="variable" placeholder="0" />
+          </div>
+        </div>
+      </div>
+
+      <aside class="calc-results" aria-live="polite">
+        <span class="calc-results-label">You break even at</span>
+        <div class="calc-headline" id="r-units">—</div>
+        <p class="calc-headline-sub">sales or jobs per month</p>
+        <ul class="calc-breakdown">
+          <li class="calc-row"><span>Profit per sale</span><span class="calc-val" id="r-margin">$0</span></li>
+          <li class="calc-row"><span>Contribution margin</span><span class="calc-val" id="r-marginpct">0%</span></li>
+          <li class="calc-row calc-row-total"><span>Break-even revenue / mo</span><span class="calc-val" id="r-revenue">$0</span></li>
+        </ul>
+        <div class="calc-note ok" id="r-note">Enter your numbers to see your break-even point.</div>
+      </aside>
+    </form>
+
+    <div class="container-narrow" style="padding:0;margin-top:2.5rem;">
+      <h2>How to read this</h2>
+      <p>
+        Each sale contributes its <strong>profit per sale</strong> (price minus variable cost) toward
+        covering your fixed monthly costs. Divide fixed costs by that contribution and you get how
+        many sales you need each month just to break even. Everything above that line is profit;
+        everything below it is a loss you are funding out of pocket.
+      </p>
+      <p>
+        The honest takeaway most people miss: a low price with thin margins can mean needing a
+        punishing number of sales every month. Sometimes raising the price a little moves break-even
+        dramatically in your favor. Try it above.
+      </p>
+      <p>
+        For realistic prices and costs by business, browse the <a href="/businesses">full
+        breakdowns</a> — each one lists typical pricing and monthly costs.
+      </p>
+
+      <h2>Frequently asked questions</h2>
+      <FAQ faqs={faqs} />
+
+      <p class="muted" style="margin-top:1.5rem;font-size:0.88rem;">
+        Honest estimates to help you plan, not financial advice. See our
+        <a href="/disclaimer">disclaimer</a>.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  const form = document.getElementById('calc');
+  if (form) {
+    const val = (id: string) => {
+      const el = document.getElementById(id) as HTMLInputElement | null;
+      const n = el ? parseFloat(el.value) : 0;
+      return Number.isFinite(n) && n > 0 ? n : 0;
+    };
+    const fmt = (n: number) => '$' + Math.round(n).toLocaleString('en-US');
+    const set = (id: string, text: string) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = text;
+    };
+
+    function recompute() {
+      const fixed = val('fixed');
+      const price = val('price');
+      const variable = val('variable');
+      const margin = price - variable;
+      const note = document.getElementById('r-note') as HTMLElement;
+
+      set('r-margin', fmt(Math.max(margin, price - variable)));
+      set('r-marginpct', price > 0 ? Math.round((margin / price) * 100) + '%' : '0%');
+
+      if (price <= 0 || fixed <= 0) {
+        set('r-units', '—');
+        set('r-revenue', '$0');
+        note.className = 'calc-note ok';
+        note.textContent = 'Enter your fixed costs and price to see your break-even point.';
+        return;
+      }
+      if (margin <= 0) {
+        set('r-units', '∞');
+        set('r-revenue', '—');
+        note.className = 'calc-note warn';
+        note.textContent = 'Your price is at or below your cost per sale, so you lose money on every sale — there is no break-even. Raise the price or cut the per-sale cost first.';
+        return;
+      }
+      const units = Math.ceil(fixed / margin);
+      const revenue = units * price;
+      set('r-units', units.toLocaleString('en-US'));
+      set('r-revenue', fmt(revenue));
+      note.className = 'calc-note ok';
+      note.textContent = `You need about ${units.toLocaleString('en-US')} sale${units === 1 ? '' : 's'} a month (${fmt(revenue)} in revenue) to cover costs. Every sale after that adds ${fmt(margin)} in profit.`;
+    }
+
+    form.addEventListener('input', recompute);
+    recompute();
+  }
+</script>

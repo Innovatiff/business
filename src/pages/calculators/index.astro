@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+const tools = [
+  {
+    href: '/calculators/startup-cost-calculator',
+    title: 'Startup Cost Calculator',
+    desc: 'Add up the real one-time and monthly costs of starting your business — and the cash cushion you actually need before day one.',
+  },
+  {
+    href: '/calculators/break-even-calculator',
+    title: 'Break-Even Calculator',
+    desc: 'Find out exactly how many sales or jobs a month it takes to cover your costs and start making a profit.',
+  },
+  {
+    href: '/calculators/profit-margin-calculator',
+    title: 'Profit & Take-Home Calculator',
+    desc: 'Turn revenue into a realistic take-home number after costs and taxes — plus your true profit margin and effective hourly rate.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Free Business Calculators',
+    description:
+      'Free, honest calculators for anyone starting a business: startup cost, break-even, and profit/take-home.',
+    hasPart: tools.map((t) => ({ '@type': 'WebApplication', name: t.title, applicationCategory: 'BusinessApplication' })),
+  },
+];
+---
+
+<BaseLayout
+  title="Free Business Calculators — Startup Cost, Break-Even & Profit"
+  description="Free, honest business calculators: work out your real startup costs, your break-even point, and your take-home profit after costs and taxes. No sign-up, runs in your browser."
+  path="/calculators"
+  jsonLd={jsonLd}
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Calculators' }]} />
+    <h1>Free business calculators</h1>
+    <p class="lead">
+      Simple, honest tools to pressure-test the numbers before you spend a dollar. No sign-up, no
+      stored data — everything runs in your browser.
+    </p>
+  </div>
+
+  <div class="container page-body" style="max-width: var(--container);">
+    <div class="calc-hub">
+      {tools.map((t) => (
+        <a href={t.href} class="calc-hub-card">
+          <h3>{t.title}</h3>
+          <p>{t.desc}</p>
+          <span class="calc-hub-cta">Open calculator →</span>
+        </a>
+      ))}
+    </div>
+
+    <div class="card browse-cta" style="display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;padding:1.5rem 1.75rem;margin-top:2rem;">
+      <div>
+        <h3 style="margin:0 0 0.3rem;">Not sure which business the numbers are for?</h3>
+        <p class="muted" style="margin:0;max-width:60ch;">Answer a few honest questions and we'll match you to businesses that fit your real budget, time, and skills — then bring the numbers back here.</p>
+      </div>
+      <a href="/find-my-business" class="btn btn-primary">Find my business →</a>
+    </div>
+
+    <p class="muted" style="margin-top:1.5rem;font-size:0.88rem;max-width:70ch;">
+      These calculators give honest estimates to help you plan — not guarantees or financial advice.
+      Always confirm the specifics for your business and market. See our
+      <a href="/disclaimer">disclaimer</a>.
+    </p>
+  </div>
+</BaseLayout>

@@ -129,11 +129,13 @@ export const PRIMARY_NAV: NavItem[] = [
       },
     ],
   },
+  { label: 'Calculators', href: '/calculators' },
   { label: 'About', href: '/about' },
 ];
 
 export const FOOTER_NAV: NavItem[] = [
   { label: 'About', href: '/about' },
+  { label: 'Free Calculators', href: '/calculators' },
   { label: 'Contact', href: '/contact' },
   { label: 'Privacy Policy', href: '/privacy-policy' },
   { label: 'Terms', href: '/terms' },

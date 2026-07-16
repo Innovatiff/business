@@ -1,0 +1,201 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const oneTime = [
+  { id: 'equipment', label: 'Equipment & tools', hint: 'Machines, vehicles, computers, gear' },
+  { id: 'inventory', label: 'Inventory / initial stock', hint: 'Products or materials to start' },
+  { id: 'licenses', label: 'Licenses & permits', hint: 'Business license, trade permits' },
+  { id: 'legal', label: 'Legal & registration', hint: 'LLC filing, contracts, insurance setup' },
+  { id: 'branding', label: 'Website & branding', hint: 'Domain, site, logo, cards' },
+  { id: 'deposits', label: 'Deposits & setup', hint: 'Rent/utility deposits, buildout' },
+  { id: 'marketingOnce', label: 'Initial marketing', hint: 'Launch ads, signage, samples' },
+  { id: 'otherOnce', label: 'Other one-time costs', hint: '' },
+];
+const monthly = [
+  { id: 'rent', label: 'Rent / space', hint: '' },
+  { id: 'supplies', label: 'Supplies & materials', hint: 'Ongoing consumables' },
+  { id: 'software', label: 'Software & subscriptions', hint: '' },
+  { id: 'insurance', label: 'Insurance', hint: '' },
+  { id: 'draw', label: 'Your monthly pay / draw', hint: 'What you need to live on' },
+  { id: 'otherMonthly', label: 'Other monthly costs', hint: '' },
+];
+
+const faqs = [
+  {
+    question: 'How much money do I really need to start a business?',
+    answer:
+      'Enough to cover your one-time startup costs PLUS several months of operating costs before the business supports itself. Most new businesses take months to become profitable, so a cash cushion (runway) of 3–6 months of expenses is a realistic safety margin. This calculator adds both together so you see the true number, not just the sticker price of equipment.',
+  },
+  {
+    question: 'What is a startup runway and why does it matter?',
+    answer:
+      'Runway is how long your cash lasts while the business ramps up. If your monthly costs are $2,000 and you have $12,000 set aside, you have roughly six months of runway. Underestimating runway is one of the most common reasons new businesses fail — they run out of cash before revenue catches up.',
+  },
+  {
+    question: 'Should I include my own salary in the costs?',
+    answer:
+      'If you are relying on the business for income, yes — include a realistic monthly draw so the plan reflects what you actually need to live on. If you have other income and can reinvest everything at first, you can lower or zero it out to see the leaner number.',
+  },
+  {
+    question: 'Are these numbers exact?',
+    answer:
+      'No — they are honest estimates based on what you enter. Real costs vary by location, business type, and choices you make. Use this to plan and stress-test your budget, then confirm the specifics before you commit money. Nothing here is financial advice.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  },
+];
+---
+
+<BaseLayout
+  title="Startup Cost Calculator — How Much to Start a Business"
+  description="Free startup cost calculator: add up your real one-time and monthly costs plus the cash runway you need, to see how much money it truly takes to start your business."
+  path="/calculators/startup-cost-calculator"
+  jsonLd={jsonLd}
+>
+  <div class="container container-narrow page-head">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Calculators', href: '/calculators' }, { label: 'Startup Cost' }]} />
+    <h1>Startup cost calculator</h1>
+    <p class="lead">
+      The sticker price of equipment is only half the story. Add your one-time costs, your monthly
+      costs, and a realistic runway to see how much cash you truly need before day one.
+    </p>
+  </div>
+
+  <div class="container page-body" style="max-width: var(--container);">
+    <form class="calc-layout" id="calc" autocomplete="off" novalidate>
+      <div class="calc-card">
+        <p class="calc-group-title">One-time startup costs</p>
+        {oneTime.map((f) => (
+          <div class="calc-field">
+            <label for={f.id}>{f.label}</label>
+            {f.hint && <p class="calc-hint">{f.hint}</p>}
+            <div class="calc-input-wrap">
+              <span class="calc-affix">$</span>
+              <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id={f.id} placeholder="0" />
+            </div>
+          </div>
+        ))}
+
+        <p class="calc-group-title">Monthly running costs</p>
+        {monthly.map((f) => (
+          <div class="calc-field">
+            <label for={f.id}>{f.label}</label>
+            {f.hint && <p class="calc-hint">{f.hint}</p>}
+            <div class="calc-input-wrap">
+              <span class="calc-affix">$</span>
+              <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id={f.id} placeholder="0" />
+            </div>
+          </div>
+        ))}
+
+        <p class="calc-group-title">Cash runway</p>
+        <div class="calc-field">
+          <label for="months">Months of runway before the business pays for itself</label>
+          <p class="calc-hint">A 3–6 month cushion is a realistic safety margin for most new businesses.</p>
+          <div class="calc-input-wrap">
+            <input class="calc-input" type="number" inputmode="numeric" min="0" max="36" step="1" id="months" value="6" />
+            <span class="calc-affix suffix">months</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="calc-results" aria-live="polite">
+        <span class="calc-results-label">Total cash to start</span>
+        <div class="calc-headline" id="r-total">$0</div>
+        <p class="calc-headline-sub">One-time costs + your runway cushion</p>
+        <ul class="calc-breakdown">
+          <li class="calc-row"><span>One-time costs</span><span class="calc-val" id="r-onetime">$0</span></li>
+          <li class="calc-row"><span>Monthly running costs</span><span class="calc-val" id="r-monthly">$0</span></li>
+          <li class="calc-row"><span>Runway (<span id="r-months">6</span> mo cushion)</span><span class="calc-val" id="r-runway">$0</span></li>
+          <li class="calc-row calc-row-total"><span>Total cash needed</span><span class="calc-val" id="r-total2">$0</span></li>
+        </ul>
+        <div class="calc-note ok" id="r-note">Fill in your costs above and this updates instantly.</div>
+      </aside>
+    </form>
+
+    <div class="container-narrow" style="padding:0;margin-top:2.5rem;">
+      <h2>How to read this</h2>
+      <p>
+        The number that matters is <strong>total cash to start</strong> — your one-time costs plus a
+        cushion of several months' running costs. That cushion (your runway) is what keeps the
+        business alive while it ramps up to profitability. Most honest failures are not about a bad
+        idea; they are about running out of cash before revenue catches up.
+      </p>
+      <p>
+        Want realistic cost ranges for a specific business instead of guessing? Every
+        <a href="/businesses">business breakdown</a> on the site includes itemized startup costs and
+        monthly operating costs you can plug straight into this calculator.
+      </p>
+
+      <h2>Frequently asked questions</h2>
+      <FAQ faqs={faqs} />
+
+      <p class="muted" style="margin-top:1.5rem;font-size:0.88rem;">
+        This calculator provides honest estimates to help you plan, not financial advice or a
+        guarantee. See our <a href="/disclaimer">disclaimer</a>.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  const form = document.getElementById('calc');
+  if (form) {
+    const oneTimeIds = ['equipment', 'inventory', 'licenses', 'legal', 'branding', 'deposits', 'marketingOnce', 'otherOnce'];
+    const monthlyIds = ['rent', 'supplies', 'software', 'insurance', 'draw', 'otherMonthly'];
+    const val = (id: string) => {
+      const el = document.getElementById(id) as HTMLInputElement | null;
+      const n = el ? parseFloat(el.value) : 0;
+      return Number.isFinite(n) && n > 0 ? n : 0;
+    };
+    const fmt = (n: number) => '$' + Math.round(n).toLocaleString('en-US');
+    const set = (id: string, text: string) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = text;
+    };
+
+    function recompute() {
+      const oneTime = oneTimeIds.reduce((s, id) => s + val(id), 0);
+      const monthly = monthlyIds.reduce((s, id) => s + val(id), 0);
+      const monthsEl = document.getElementById('months') as HTMLInputElement;
+      let months = parseInt(monthsEl.value, 10);
+      if (!Number.isFinite(months) || months < 0) months = 0;
+      const runway = monthly * months;
+      const total = oneTime + runway;
+
+      set('r-onetime', fmt(oneTime));
+      set('r-monthly', fmt(monthly) + ' / mo');
+      set('r-months', String(months));
+      set('r-runway', fmt(runway));
+      set('r-total', fmt(total));
+      set('r-total2', fmt(total));
+
+      const note = document.getElementById('r-note') as HTMLElement;
+      if (total === 0) {
+        note.className = 'calc-note ok';
+        note.textContent = 'Fill in your costs above and this updates instantly.';
+      } else if (monthly > 0 && months < 3) {
+        note.className = 'calc-note warn';
+        note.textContent = 'Heads up: fewer than 3 months of runway is thin. Many new businesses take longer than that to cover their own costs.';
+      } else {
+        note.className = 'calc-note ok';
+        note.textContent = `Plan to have about ${fmt(total)} available before you start, so you can cover ${months} month${months === 1 ? '' : 's'} while the business ramps up.`;
+      }
+    }
+
+    form.addEventListener('input', recompute);
+    recompute();
+  }
+</script>
