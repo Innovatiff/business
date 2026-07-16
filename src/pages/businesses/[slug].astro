@@ -115,6 +115,23 @@ const jsonLd: Record<string, unknown>[] = [
       { '@type': 'ListItem', position: 3, name: d.title, item: new URL(path, SITE.url).href },
     ],
   },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: `How to start a ${d.title}`,
+    description: `A step-by-step, honest guide to starting a ${d.title.toLowerCase()} — the real costs, realistic earnings, and exactly what to do first.`,
+    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: d.startupCostLow },
+    step: d.howToStart.map((s, i) => {
+      const colon = s.indexOf(':');
+      const hasLabel = colon > 0 && colon < 42;
+      return {
+        '@type': 'HowToStep',
+        position: i + 1,
+        name: hasLabel ? s.slice(0, colon).trim() : `Step ${i + 1}`,
+        text: hasLabel ? s.slice(colon + 1).trim() : s,
+      };
+    }),
+  },
 ];
 
 // Per-variant H1 + lead so pages don't all open identically.
@@ -130,6 +147,15 @@ const lead =
     : variant === 'b'
       ? 'Real startup costs, honest earnings ranges, the biggest risks, and a clear-eyed look at whether this one is actually for you.'
       : 'The real numbers, the real timeline, and the real work — no hype, no best-case fantasies, just what it takes to make this pay.';
+
+// A concise, direct "short answer" summarizing cost / earnings / time /
+// difficulty. Placed high on the page as a featured-snippet target and a fast
+// takeaway. Numbers differ per business, so this is not duplicate content.
+const monthlyEarn = `${money(d.monthlyEarningsLow)} – ${money(d.monthlyEarningsHigh)}`;
+const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRange(
+  d.startupCostLow,
+  d.startupCostHigh,
+)}. A realistic monthly income for a solo operator is ${monthlyEarn} — beginners earn less and experienced operators more — with first income typically in ${d.timeToFirstIncome.toLowerCase()}. It is rated ${d.difficultyLevel.toLowerCase()} to start.`;
 ---
 
 <BaseLayout title={d.metaTitle} description={d.metaDescription} path={path} jsonLd={jsonLd} ogType="article">
@@ -202,6 +228,11 @@ const lead =
       <article class="biz-article">
         {/* QuickNumbers is redundant with variant B's snapshot card, so skip it there. */}
         {variant !== 'b' && <QuickNumbers data={d} />}
+
+        <section class="quick-answer" aria-label="The short answer">
+          <span class="qa-label">The short answer</span>
+          <p>{quickAnswer}</p>
+        </section>
 
         {metricsAtTop && (
           <section id="metrics" class="biz-section">
@@ -553,6 +584,30 @@ const lead =
     color: var(--slate);
     max-width: 65ch;
     margin-bottom: 1.25rem;
+  }
+  .quick-answer {
+    margin-top: var(--space-6);
+    background: var(--accent-tint, var(--surface));
+    border: 1px solid var(--accent-soft, var(--border));
+    border-left: 4px solid var(--accent, var(--navy));
+    border-radius: var(--radius);
+    padding: 1.1rem 1.35rem;
+  }
+  .qa-label {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 800;
+    color: var(--accent-dark, var(--navy));
+    margin-bottom: 0.4rem;
+  }
+  .quick-answer p {
+    margin: 0;
+    color: var(--slate);
+    font-size: 1.02rem;
+    line-height: 1.6;
   }
   .tools-list {
     list-style: none;

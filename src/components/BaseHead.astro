@@ -68,6 +68,29 @@ const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
 <!-- Performance hints -->
 <link rel="sitemap" href="/sitemap-index.xml" />
 
+<!-- Site-wide entity structured data (Organization + WebSite) -->
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    url: SITE.url,
+    logo: new URL('/favicon.svg', SITE.url).href,
+    description: SITE.description,
+  })}
+/>
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: SITE.url,
+    publisher: { '@type': 'Organization', name: SITE.name },
+  })}
+/>
+
 <!-- Structured data -->
 {
   jsonLd.map((obj) => (
