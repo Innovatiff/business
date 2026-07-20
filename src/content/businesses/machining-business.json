@@ -2,7 +2,7 @@
   "title": "CNC Machine Shop Business",
   "slug": "machining-business",
   "category": "trades-and-skilled-work",
-  "metaTitle": "How to Start a CNC Machine Shop — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a CNC Machine Shop: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest guide to starting a CNC machine shop business: real startup costs, CAD/CAM skill, machine capital, realistic earnings, B2B contracts, and what gets shops in trouble.",
   "startupCostLow": 40000,
   "startupCostHigh": 350000,
@@ -20,11 +20,11 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "A CNC machine shop makes precision metal and plastic parts for other businesses using computer-controlled mills, lathes, and routers. Work ranges from low-volume prototypes and one-off repair parts to repeating production runs for manufacturers, and customers come from aerospace, medical, automotive, defense, industrial equipment, and small hardware startups. It is fundamentally a B2B manufacturing business: you turn a CAD drawing into a programmed toolpath (CAM), set up the machine and fixturing, cut the part to tight tolerances, and inspect it before shipping. The barriers to entry are real — serious machine capital, deep CAD/CAM and machining knowledge, and the discipline to quote, schedule, and hold tolerances profitably — which is also what protects margins for shops that run well.",
-  "dailyReality": "A typical day blends programming, setup, and machine tending. You read prints and model parts in CAD/CAM, generate and simulate toolpaths, set up workholding and tools, run first articles, then inspect with calipers, micrometers, gauges, or a CMM before producing the run. Around the spindle time you are quoting jobs (a major skill in itself), ordering material and tooling, deburring and finishing parts, and managing delivery deadlines. Especially when starting solo, you wear every hat — salesperson, programmer, operator, and quality inspector — and a single mis-set offset or wrong tolerance can scrap expensive material and blow a deadline.",
+  "whatItIs": "A CNC machine shop makes precision metal and plastic parts for other businesses using computer-controlled mills, lathes, and routers. Work ranges from low-volume prototypes and one-off repair parts to repeating production runs for manufacturers, and customers come from aerospace, medical, automotive, defense, industrial equipment, and small hardware startups. It is fundamentally a B2B manufacturing business: you turn a CAD drawing into a programmed toolpath (CAM), set up the machine and fixturing, cut the part to tight tolerances, and inspect it before shipping. The barriers to entry are real, serious machine capital, deep CAD/CAM and machining knowledge, and the discipline to quote, schedule, and hold tolerances profitably, which is also what protects margins for shops that run well.",
+  "dailyReality": "A typical day blends programming, setup, and machine tending. You read prints and model parts in CAD/CAM, generate and simulate toolpaths, set up workholding and tools, run first articles, then inspect with calipers, micrometers, gauges, or a CMM before producing the run. Around the spindle time you are quoting jobs (a major skill in itself), ordering material and tooling, deburring and finishing parts, and managing delivery deadlines. Especially when starting solo, you wear every hat, salesperson, programmer, operator, and quality inspector, and a single mis-set offset or wrong tolerance can scrap expensive material and blow a deadline.",
   "startupCostsItemized": [
     { "item": "CNC mill and/or lathe (used entry-level to production-grade)", "low": 20000, "high": 200000 },
-    { "item": "CAD/CAM software (Fusion 360, Mastercam, SolidWorks) — license/subscription", "low": 500, "high": 15000, "annual": true },
+    { "item": "CAD/CAM software (Fusion 360, Mastercam, SolidWorks), license/subscription", "low": 500, "high": 15000, "annual": true },
     { "item": "Tooling, workholding, fixturing, and toolholders", "low": 5000, "high": 40000 },
     { "item": "Measuring and inspection equipment (calipers, micrometers, gauges, optional CMM)", "low": 1000, "high": 30000 },
     { "item": "Shop space lease, three-phase power, and buildout/deposits", "low": 3000, "high": 30000 },
@@ -41,14 +41,14 @@
   },
   "howToStart": [
     "Months 1-3 (before buying anything): Validate demand. The most common shop failure is buying machines with no work to fill them. Line up at least one anchor customer or a contract, ideally from your existing network in a manufacturing-heavy region, before committing capital.",
-    "Month 1: Get honest about skills. You need real machining experience plus CAD/CAM proficiency (Fusion 360 is the affordable entry point; Mastercam/SolidWorks are industry standards). If you lack hands-on machining time, get it first — this is not a learn-as-you-go business with expensive machines.",
+    "Month 1: Get honest about skills. You need real machining experience plus CAD/CAM proficiency (Fusion 360 is the affordable entry point; Mastercam/SolidWorks are industry standards). If you lack hands-on machining time, get it first, this is not a learn-as-you-go business with expensive machines.",
     "Months 2-4: Acquire equipment deliberately. Many shops start with one good used VMC (vertical machining center) or lathe rather than overbuying. Secure shop space with adequate power (often three-phase), set up the LLC, and get general liability and property insurance.",
-    "Months 3-6: Take your first jobs, quoting carefully and tracking real cost per part. Build a quality process — first-article inspection, measurement, and documentation — because reliability is what earns repeat B2B work.",
+    "Months 3-6: Take your first jobs, quoting carefully and tracking real cost per part. Build a quality process, first-article inspection, measurement, and documentation, because reliability is what earns repeat B2B work.",
     "Months 6-18: Pursue repeatable production work and, if targeting aerospace or medical, begin the path to ISO 9001 / AS9100 / ISO 13485 certification, which unlocks higher-margin regulated contracts. Reinvest profit into utilization (a second machine, automation) only as steady demand justifies it."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Real machining experience — speeds and feeds, tolerances, workholding, and how parts actually cut",
+      "Real machining experience, speeds and feeds, tolerances, workholding, and how parts actually cut",
       "CAD/CAM proficiency to model parts and generate reliable, efficient toolpaths",
       "Print reading and GD&T (geometric dimensioning and tolerancing) literacy",
       "Quoting and basic shop math to price jobs profitably, not just competitively"
@@ -59,14 +59,14 @@
       "Quality-system documentation toward ISO/AS certifications"
     ],
     "separators": [
-      "Accurate quoting and high machine utilization — the difference between a profitable and a struggling shop",
+      "Accurate quoting and high machine utilization, the difference between a profitable and a struggling shop",
       "Landing repeatable production contracts instead of living on low-margin one-offs",
       "Industry certifications (AS9100, ISO 13485) and a reputation for on-time, in-tolerance delivery"
     ]
   },
   "whatPeopleGetWrong": [
     "Buying machines before securing work, then bleeding cash on payments while the spindles sit idle",
-    "Underquoting jobs — forgetting to account for programming, setup, fixturing, material, tooling wear, and scrap",
+    "Underquoting jobs, forgetting to account for programming, setup, fixturing, material, tooling wear, and scrap",
     "Underestimating how much capital tooling, fixturing, and material tie up beyond the machine itself",
     "Taking only one-off prototype work, which is hard to schedule and rarely as profitable as repeat production",
     "Neglecting a real quality/inspection process, so out-of-tolerance parts cause rejects, returns, and lost customers",
@@ -89,12 +89,12 @@
       "A professional website showcasing capabilities, tolerances, certifications, and lead times",
       "Industry certifications (ISO 9001, AS9100, ISO 13485) that get you onto approved-vendor lists for regulated buyers"
     ],
-    "whereCustomersAre": "Other businesses — manufacturers, equipment makers, aerospace and medical companies, defense suppliers, and hardware startups — concentrated in manufacturing regions. The best early customers are companies already in your professional network who trust your work.",
+    "whereCustomersAre": "Other businesses, manufacturers, equipment makers, aerospace and medical companies, defense suppliers, and hardware startups, concentrated in manufacturing regions. The best early customers are companies already in your professional network who trust your work.",
     "timeToClientBase": "Building a reliable repeat customer base typically takes one to two years. B2B buyers are cautious and reward proven reliability, so the first jobs are auditions; consistent on-time, in-tolerance delivery is what converts them into steady accounts.",
     "wasteOfTime": "Consumer-style advertising and broad social media. This is a relationship- and reliability-driven B2B business; direct outreach, marketplaces, referrals, and certifications matter far more than ads."
   },
   "howItScales": {
-    "toFullTime": "Yes, but it is capital- and time-intensive to get there. Reaching a strong full-time income usually requires high machine utilization, repeat production work, and often a second machine or shift — it is rarely a quick or part-time path.",
+    "toFullTime": "Yes, but it is capital- and time-intensive to get there. Reaching a strong full-time income usually requires high machine utilization, repeat production work, and often a second machine or shift, it is rarely a quick or part-time path.",
     "hireAndStepBack": "Yes, and this is how shops grow. Hiring skilled machinists and programmers, then implementing standardized processes and quality systems, lets the owner move from running machines to running the business. Lights-out or multi-shift production is a common scaling lever.",
     "sellable": "Highly. Established shops with machines, repeat contracts, certifications, trained staff, and documented quality systems are attractive acquisitions and sell for solid multiples. Tangible equipment plus contracted recurring work make them more sellable than most service businesses.",
     "whatScalingRequires": "Capital for additional machines and automation, skilled programmers and machinists, robust quality systems and certifications, accurate quoting at volume, and a sales effort to keep growing capacity utilized."
@@ -121,7 +121,7 @@
   "faqs": [
     {
       "question": "How much does it really cost to start a CNC machine shop?",
-      "answer": "Realistically $40,000 on the very low end with a single good used machine, modest tooling, and a small space, up to $350,000 or more for a production-grade setup. Remember the machine is only part of it — tooling, workholding, inspection gear, software, material, power, and space all add up, and machines tie up capital long before they produce profit."
+      "answer": "Realistically $40,000 on the very low end with a single good used machine, modest tooling, and a small space, up to $350,000 or more for a production-grade setup. Remember the machine is only part of it, tooling, workholding, inspection gear, software, material, power, and space all add up, and machines tie up capital long before they produce profit."
     },
     {
       "question": "What skills do I need before starting?",
@@ -133,7 +133,7 @@
     },
     {
       "question": "Why do so many machine shops struggle financially?",
-      "answer": "The most common reason is buying machines before having steady work, so expensive equipment sits idle while payments come due. Underquoting is the second — forgetting to price programming, setup, tooling, and scrap. Shops that validate demand first and quote disciplined, profitable jobs are the ones that survive."
+      "answer": "The most common reason is buying machines before having steady work, so expensive equipment sits idle while payments come due. Underquoting is the second, forgetting to price programming, setup, tooling, and scrap. Shops that validate demand first and quote disciplined, profitable jobs are the ones that survive."
     },
     {
       "question": "Should I take one-off prototypes or production runs?",
@@ -155,7 +155,7 @@
     "cad-design-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Machinists and Tool and Die Makers occupational employment and wage data",
+    "U.S. Bureau of Labor Statistics, Machinists and Tool and Die Makers occupational employment and wage data",
     "Modern Machine Shop and industry trade publications (shop economics, machine utilization, billing rates)",
     "CNC machine and software vendor pricing (Haas, Tormach, Autodesk Fusion 360, Mastercam) for capital and software costs",
     "Manufacturing marketplaces (Xometry, Fictiv) and approved-vendor/certification requirements (ISO 9001, AS9100, ISO 13485)",

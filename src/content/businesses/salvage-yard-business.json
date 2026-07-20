@@ -2,7 +2,7 @@
   "title": "Auto Salvage Yard and Used Parts Business",
   "slug": "salvage-yard-business",
   "category": "automotive",
-  "metaTitle": "How to Start an Auto Salvage Yard — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start an Auto Salvage Yard: Real Costs, Earnings, and Steps",
   "metaDescription": "An honest guide to starting an auto salvage yard and used parts business: real startup costs, what yards earn, licensing and environmental rules, and what most people get wrong.",
   "startupCostLow": 50000,
   "startupCostHigh": 500000,
@@ -30,7 +30,7 @@
     { "item": "Forklift, vehicle crusher access, dismantling and lifting equipment", "low": 10000, "high": 120000 },
     { "item": "Inventory management software and online listing tools (Hollander, eBay, Car-Part.com)", "low": 1000, "high": 6000, "annual": true },
     { "item": "General liability and pollution/environmental insurance", "low": 4000, "high": 20000, "annual": true },
-    { "item": "Site improvements — fencing, security, signage, office", "low": 8000, "high": 80000 }
+    { "item": "Site improvements, fencing, security, signage, office", "low": 8000, "high": 80000 }
   ],
   "realEarnings": {
     "yearOne": "Most new yards take three to six months just to become operational, and first-year owner take-home commonly runs $6,000 to $12,000 per month once inventory turns, often less after reinvesting heavily in vehicles and site setup. Cash is tied up in inventory long before it converts to sales.",
@@ -66,7 +66,7 @@
   },
   "whatPeopleGetWrong": [
     "Buying land and inventory before confirming the site is zoned and permitted for a salvage operation",
-    "Underestimating environmental compliance — fluid containment, refrigerant handling, and stormwater rules are strictly enforced and expensive to ignore",
+    "Underestimating environmental compliance, fluid containment, refrigerant handling, and stormwater rules are strictly enforced and expensive to ignore",
     "Overpaying at auction because they did not estimate the parted-out value before bidding",
     "Sitting on slow-moving parts and vehicles, tying up cash and yard space that should turn over",
     "Neglecting online listings and relying on walk-in traffic, when most parts demand now comes through Car-Part.com, eBay, and search",
@@ -77,7 +77,7 @@
     { "item": "Vehicle dismantling and lifting tools", "note": "Engine hoists, cutting tools, and air tools to strip cars efficiently.", "low": 3000, "high": 20000 },
     { "item": "Fluid recovery and refrigerant recovery equipment", "note": "Required to legally drain and capture oil, fuel, coolant, and AC refrigerant before dismantling.", "low": 2000, "high": 15000 },
     { "item": "Inventory management and listing software", "note": "Hollander interchange data plus listings on Car-Part.com and eBay Motors are how modern yards sell parts.", "low": 1000, "high": 6000 },
-    { "item": "Site security — fencing, cameras, gates", "note": "Yards are theft targets; fencing is also often a zoning screening requirement.", "low": 5000, "high": 50000 },
+    { "item": "Site security, fencing, cameras, gates", "note": "Yards are theft targets; fencing is also often a zoning screening requirement.", "low": 5000, "high": 50000 },
     { "item": "Car crusher or baler access", "note": "Most small yards contract crushing rather than owning a machine; large yards may invest.", "low": 0, "high": 100000 }
   ],
   "howToFindCustomers": {
@@ -154,7 +154,7 @@
     "scrap-metal-business"
   ],
   "dataSources": [
-    "U.S. Environmental Protection Agency — vehicle dismantling and automotive recycling guidance",
+    "U.S. Environmental Protection Agency, vehicle dismantling and automotive recycling guidance",
     "Automotive Recyclers Association (ARA) industry reports",
     "Copart and IAA salvage auction market data",
     "Car-Part.com and salvage yard operator communities for real-world parts pricing and demand"

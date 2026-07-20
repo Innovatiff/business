@@ -6,7 +6,7 @@ import { glob } from 'astro/loaders';
  *
  * Each business lives in one JSON file under src/content/businesses/.
  * Adding a new business page is as simple as dropping in a new JSON file that
- * matches this schema — no code changes required. This is how the site scales
+ * matches this schema, no code changes required. This is how the site scales
  * to 500 pages.
  *
  * The schema is intentionally strict so every page carries real, structured
@@ -161,7 +161,7 @@ const businesses = defineCollection({
       )
       .optional(),
 
-    /** How the revenue actually adds up — real price points and the math behind them. */
+    /** How the revenue actually adds up, real price points and the math behind them. */
     revenueModel: z
       .object({
         intro: z.string().optional(),
@@ -179,7 +179,7 @@ const businesses = defineCollection({
       })
       .optional(),
 
-    /** Recurring monthly operating costs — a small P&L below the startup costs. */
+    /** Recurring monthly operating costs, a small P&L below the startup costs. */
     monthlyOperating: z
       .array(
         z.object({

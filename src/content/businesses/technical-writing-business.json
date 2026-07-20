@@ -2,7 +2,7 @@
   "title": "Technical Writing Business",
   "slug": "technical-writing-business",
   "category": "online-businesses",
-  "metaTitle": "How to Start a Technical Writing Business — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a Technical Writing Business: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting a technical writing business: API docs, user guides, realistic earnings, finding software clients, and what most people get wrong.",
   "startupCostLow": 300,
   "startupCostHigh": 2500,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A technical writing business produces the documentation that software and engineering companies need but rarely have time to write well: API references and developer guides, end-user help docs and knowledge bases, installation and configuration manuals, release notes, SDK tutorials, internal runbooks, and standard operating procedures. This is distinct from copywriting or content marketing — the goal is not to persuade or rank in search, it is to make a complex product accurately and efficiently usable. The value comes from your ability to understand a technical subject deeply enough to explain it clearly, structure information so people can find what they need, and work alongside engineers without slowing them down.",
-  "dailyReality": "A typical week is a mix of interviewing subject-matter experts (usually engineers or product managers), reading source code, specs, and existing docs, actually using the product so you understand it firsthand, and then writing and structuring content in a documentation tool. You spend real time on information architecture — deciding how docs are organized — and on review cycles where engineers correct technical inaccuracies. Increasingly the work involves docs-as-code: writing in Markdown, working in Git, and publishing through static-site generators or platforms like Read the Docs. The job is quieter and more solitary than most creative work, with stretches of deep focus punctuated by clarifying questions to busy experts.",
+  "whatItIs": "A technical writing business produces the documentation that software and engineering companies need but rarely have time to write well: API references and developer guides, end-user help docs and knowledge bases, installation and configuration manuals, release notes, SDK tutorials, internal runbooks, and standard operating procedures. This is distinct from copywriting or content marketing, the goal is not to persuade or rank in search, it is to make a complex product accurately and efficiently usable. The value comes from your ability to understand a technical subject deeply enough to explain it clearly, structure information so people can find what they need, and work alongside engineers without slowing them down.",
+  "dailyReality": "A typical week is a mix of interviewing subject-matter experts (usually engineers or product managers), reading source code, specs, and existing docs, actually using the product so you understand it firsthand, and then writing and structuring content in a documentation tool. You spend real time on information architecture, deciding how docs are organized, and on review cycles where engineers correct technical inaccuracies. Increasingly the work involves docs-as-code: writing in Markdown, working in Git, and publishing through static-site generators or platforms like Read the Docs. The job is quieter and more solitary than most creative work, with stretches of deep focus punctuated by clarifying questions to busy experts.",
   "startupCostsItemized": [
     { "item": "Laptop you likely already own", "low": 0, "high": 1500, "optional": true },
     { "item": "Documentation tools (Markdown editor, Git; many are free)", "low": 0, "high": 300, "annual": true, "optional": true },
@@ -34,12 +34,12 @@
   "realEarnings": {
     "yearOne": "Beginners building a portfolio often start at $40 to $75 per hour or $0.20 to $0.50 per word, landing roughly $2,500 to $5,000 per month part-time in year one. Those who go full-time with a clear niche and a few referrals typically reach $5,000 to $8,000 per month once the pipeline fills.",
     "experienced": "Experienced technical writers with domain expertise (developer docs, fintech, healthcare, hardware) command $75 to $150 per hour, project fees of $3,000 to $15,000+ for a documentation set, or long-term contracts of $7,000 to $13,000 per month. Specialized API and developer documentation pays at the top of these ranges.",
-    "topEarners": "Top independent technical writers and small documentation studios gross $150,000 to $300,000+ per year through premium developer-experience work, multiple concurrent contracts, or a small team of writers. Reaching that takes deep specialization, a reputation in a specific stack or industry, and often subcontracting other writers — at which point you are running a documentation agency.",
+    "topEarners": "Top independent technical writers and small documentation studios gross $150,000 to $300,000+ per year through premium developer-experience work, multiple concurrent contracts, or a small team of writers. Reaching that takes deep specialization, a reputation in a specific stack or industry, and often subcontracting other writers, at which point you are running a documentation agency.",
     "whatAffectsMost": "Domain depth (the more technical and regulated the field, the higher the rate), whether you can work in docs-as-code workflows, and positioning as a specialist rather than a general writer who competes on price.",
     "perHour": "Effective rate runs $50 to $150 per hour for experienced writers. Counting research, SME interviews, and revisions, realistic blended rates are often $45 to $110 per hour, higher with reusable templates and deep domain knowledge."
   },
   "howToStart": [
-    "Month 1: Pick a niche where your existing knowledge gives you an edge — developer/API docs, a specific industry like healthcare or fintech, or hardware. Build 2 to 3 strong portfolio samples by documenting a real open-source project or rewriting weak public docs.",
+    "Month 1: Pick a niche where your existing knowledge gives you an edge, developer/API docs, a specific industry like healthcare or fintech, or hardware. Build 2 to 3 strong portfolio samples by documenting a real open-source project or rewriting weak public docs.",
     "Month 2: Learn the modern toolchain. Get comfortable with Markdown, Git, a static-site generator or docs platform, and the basics of reading code and API specs (OpenAPI/Swagger). Docs-as-code fluency separates you from generic writers.",
     "Months 1-3: Start landing work. Apply to technical writing roles on specialized job boards, pitch software companies with thin or messy docs, and contribute to open-source documentation to build visible proof.",
     "Months 3-6: Convert one-off projects into retainers and ongoing contracts. Recurring documentation work (release notes, continuous API updates, knowledge-base maintenance) smooths the lumpy project-by-project income.",
@@ -47,7 +47,7 @@
   ],
   "skillsRequired": {
     "mustHave": [
-      "Genuinely clear, structured writing — the ability to make complex things simple without making them wrong",
+      "Genuinely clear, structured writing, the ability to make complex things simple without making them wrong",
       "Enough technical aptitude to read code, specs, or systems and understand them faster than you can be taught every detail",
       "Strong information architecture instincts: organizing content so users can actually find and follow it"
     ],
@@ -58,7 +58,7 @@
     ],
     "separators": [
       "Deep domain expertise in a high-value field (developer platforms, fintech, medical, hardware) that few writers can match",
-      "The ability to work like an engineer — in Git, alongside the codebase — rather than emailing Word documents",
+      "The ability to work like an engineer, in Git, alongside the codebase, rather than emailing Word documents",
       "Owning information architecture and developer experience, not just writing words someone else outlines"
     ]
   },
@@ -80,7 +80,7 @@
   ],
   "howToFindCustomers": {
     "methods": [
-      "Pitching software and SaaS companies with thin, outdated, or confusing documentation — easy to spot and easy to justify the ROI",
+      "Pitching software and SaaS companies with thin, outdated, or confusing documentation, easy to spot and easy to justify the ROI",
       "Specialized job boards and freelance platforms that list technical writing contracts (Write the Docs job board, contract roles on LinkedIn)",
       "Contributing to open-source project documentation to build visible, verifiable proof of skill",
       "Partnering with development agencies and product studios that build software but neglect docs",
@@ -123,7 +123,7 @@
     },
     {
       "question": "Do I need to know how to code?",
-      "answer": "For developer and API documentation, yes — at least enough to read code, understand specs, and use the product. For end-user software docs you need strong technical aptitude but not necessarily programming. The more technical your work, the higher your rates, so coding ability raises your ceiling significantly."
+      "answer": "For developer and API documentation, yes, at least enough to read code, understand specs, and use the product. For end-user software docs you need strong technical aptitude but not necessarily programming. The more technical your work, the higher your rates, so coding ability raises your ceiling significantly."
     },
     {
       "question": "How much can a technical writer charge?",
@@ -153,7 +153,7 @@
     "grant-writing-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Technical Writers occupational data (median pay and outlook)",
+    "U.S. Bureau of Labor Statistics, Technical Writers occupational data (median pay and outlook)",
     "Write the Docs community resources, surveys, and job board (industry practices and roles)",
     "Society for Technical Communication (STC) salary and practice surveys",
     "Freelance rate discussions in technical writing communities and developer-experience forums",

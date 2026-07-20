@@ -2,7 +2,7 @@
   "title": "Auto Air Conditioning Repair Business",
   "slug": "auto-ac-repair-business",
   "category": "automotive",
-  "metaTitle": "How to Start an Auto AC Repair Business — Real Costs, Earnings, Steps",
+  "metaTitle": "How to Start an Auto AC Repair Business: Real Costs, Earnings, Steps",
   "metaDescription": "Honest guide to starting an auto air conditioning repair business: EPA 609 rules, real equipment costs, realistic earnings, and the mistakes that kill margins.",
   "startupCostLow": 6000,
   "startupCostHigh": 40000,
@@ -49,7 +49,7 @@
   ],
   "skillsRequired": {
     "mustHave": [
-      "Solid automotive diagnostic ability — reading system pressures and isolating faults, not just swapping parts",
+      "Solid automotive diagnostic ability, reading system pressures and isolating faults, not just swapping parts",
       "EPA Section 609 certification before handling any refrigerant",
       "Mechanical aptitude for compressor, condenser, and evaporator replacement"
     ],
@@ -73,8 +73,8 @@
     "Pricing recharges like a quick add-on while ignoring the diagnostic time and machine cost behind them"
   ],
   "toolsAndEquipment": [
-    { "item": "Recovery, recycle, recharge (RRR) machine — R-134a", "note": "The core machine. Recovers and recharges accurately while keeping you compliant. Used units are common to start.", "low": 1500, "high": 4500 },
-    { "item": "RRR machine — R-1234yf", "note": "Separate, pricier machine for newer vehicles. Add when those jobs justify it; it expands your serviceable market.", "low": 3000, "high": 7000 },
+    { "item": "Recovery, recycle, recharge (RRR) machine, R-134a", "note": "The core machine. Recovers and recharges accurately while keeping you compliant. Used units are common to start.", "low": 1500, "high": 4500 },
+    { "item": "RRR machine, R-1234yf", "note": "Separate, pricier machine for newer vehicles. Add when those jobs justify it; it expands your serviceable market.", "low": 3000, "high": 7000 },
     { "item": "Manifold gauge set and vacuum pump", "note": "For pressure reading and evacuating the system. Foundational diagnostic tools.", "low": 150, "high": 600 },
     { "item": "Electronic leak detector and UV dye kit", "note": "Finding the leak correctly is the whole game; cheap detectors miss small leaks.", "low": 150, "high": 700 },
     { "item": "Scan tool with HVAC and climate data", "note": "Modern systems are computer-controlled; you need live data for accurate diagnosis.", "low": 300, "high": 3000 },
@@ -137,7 +137,7 @@
     },
     {
       "question": "Why is accurate diagnosis such a big deal?",
-      "answer": "Because the wrong call is expensive. Replacing a compressor when the real problem was an expansion valve or an electrical fault means redoing the job, buying parts twice, and losing refrigerant — often more than the job was worth. Operators who diagnose right the first time keep their margins; guessers lose them to comebacks."
+      "answer": "Because the wrong call is expensive. Replacing a compressor when the real problem was an expansion valve or an electrical fault means redoing the job, buying parts twice, and losing refrigerant, often more than the job was worth. Operators who diagnose right the first time keep their margins; guessers lose them to comebacks."
     },
     {
       "question": "Can a general mechanic just add AC work, or is it a real specialty?",
@@ -155,8 +155,8 @@
     "transmission-repair-business"
   ],
   "dataSources": [
-    "U.S. EPA — Section 609 Motor Vehicle Air Conditioning regulations and technician certification requirements",
-    "U.S. Bureau of Labor Statistics — Automotive Service Technicians and Mechanics (wage and employment data)",
+    "U.S. EPA, Section 609 Motor Vehicle Air Conditioning regulations and technician certification requirements",
+    "U.S. Bureau of Labor Statistics, Automotive Service Technicians and Mechanics (wage and employment data)",
     "Auto repair industry cost guides (RepairPal, AAA) for AC service and component pricing ranges",
     "Mobile mechanic and HVAC technician communities and forums for real-world AC job pricing and seasonality"
   ],

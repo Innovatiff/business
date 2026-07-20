@@ -56,7 +56,7 @@ export async function getStaticPaths() {
     return paginate(businesses, cat.slug, {
       kind: 'category' as const,
       title: cat.name,
-      metaTitle: `${cat.name} — Honest Startup Costs, Earnings & How to Start`,
+      metaTitle: `${cat.name}: Honest Startup Costs, Earnings & How to Start`,
       metaDescription: cat.description.slice(0, 155),
       intro: cat.description,
       mostImportant: cat.mostImportant,
@@ -75,7 +75,7 @@ export async function getStaticPaths() {
     return paginate(businesses, filter.slug, {
       kind: 'filter' as const,
       title: filter.name,
-      metaTitle: `${filter.name} — Real Costs and Earnings`,
+      metaTitle: `${filter.name}: Real Costs and Earnings`,
       metaDescription: filter.description.slice(0, 155),
       intro: filter.description,
       mostImportant: filter.mostImportant,
@@ -93,7 +93,7 @@ export async function getStaticPaths() {
 const props = Astro.props;
 const { baseSlug, page, totalPages, total, rangeStart, rangeEnd, isFirst } = props;
 const path = page === 1 ? `/${baseSlug}` : `/${baseSlug}/${page}`;
-const metaTitle = isFirst ? props.metaTitle : `${props.title} — Page ${page}`;
+const metaTitle = isFirst ? props.metaTitle : `${props.title}, Page ${page}`;
 
 const relatedCategories = props.relatedCats.map((s: string) => CATEGORY_MAP[s]).filter(Boolean);
 const relatedFilters = props.relatedFilters
@@ -140,7 +140,7 @@ jsonLd.push({
       ]}
     />
     <span class="eyebrow">{props.kind === 'category' ? 'Category' : 'Browse by situation'}</span>
-    <h1>{props.title}{!isFirst && <span class="page-suffix"> — page {page}</span>}</h1>
+    <h1>{props.title}{!isFirst && <span class="page-suffix">, page {page}</span>}</h1>
     {isFirst && <p class="lead listing-intro">{props.intro}</p>}
   </div>
 
@@ -187,7 +187,7 @@ jsonLd.push({
         <h3>More businesses coming to this section</h3>
         <p>
           We are building toward 1,000 honest business breakdowns. This section does not have
-          published pages yet — in the meantime, try the
+          published pages yet, in the meantime, try the
           <a href="/find-my-business">Business Finder</a> or
           <a href="/businesses">browse everything published so far</a>.
         </p>

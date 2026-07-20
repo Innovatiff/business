@@ -2,7 +2,7 @@
   "title": "Web Accessibility Consulting Business",
   "slug": "web-accessibility-business",
   "category": "online-businesses",
-  "metaTitle": "How to Start a Web Accessibility Consulting Business — Real Costs and Earnings",
+  "metaTitle": "How to Start a Web Accessibility Consulting Business: Real Costs and Earnings",
   "metaDescription": "Honest breakdown of starting a web accessibility consulting business: WCAG audits, ADA remediation, realistic earnings, finding clients, and what most people get wrong.",
   "startupCostLow": 500,
   "startupCostHigh": 4000,
@@ -20,7 +20,7 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A web accessibility consulting business helps organizations make their websites and apps usable by people with disabilities and compliant with standards like the Web Content Accessibility Guidelines (WCAG 2.1/2.2 AA) and the Americans with Disabilities Act (ADA). The work falls into three buckets: auditing a site for accessibility barriers, remediating the code and content to fix those barriers, and ongoing retainers to keep sites compliant as they change. Demand is largely driven by legal risk — thousands of ADA web-accessibility lawsuits and demand letters are filed in the US each year — plus procurement requirements (Section 508 for government vendors) and a genuine ethical push from larger brands.",
+  "whatItIs": "A web accessibility consulting business helps organizations make their websites and apps usable by people with disabilities and compliant with standards like the Web Content Accessibility Guidelines (WCAG 2.1/2.2 AA) and the Americans with Disabilities Act (ADA). The work falls into three buckets: auditing a site for accessibility barriers, remediating the code and content to fix those barriers, and ongoing retainers to keep sites compliant as they change. Demand is largely driven by legal risk, thousands of ADA web-accessibility lawsuits and demand letters are filed in the US each year, plus procurement requirements (Section 508 for government vendors) and a genuine ethical push from larger brands.",
   "dailyReality": "A typical week mixes deep, focused testing with client communication. Auditing means running automated scanners (axe, WAVE, Lighthouse) to catch the easy issues, then doing the manual work that actually matters: navigating the entire site with only a keyboard, running it through screen readers like NVDA, JAWS, and VoiceOver, checking color contrast, inspecting ARIA and semantic HTML, and testing forms and dynamic components. You document each issue with the WCAG success criterion it violates, severity, and a concrete code-level fix, usually in a spreadsheet or a tool like a structured report. Remediation work is straight front-end development. The rest of the time is writing reports, walking developers through fixes, and explaining to non-technical clients why an overlay widget is not a real solution.",
   "startupCostsItemized": [
     { "item": "Laptop capable of running screen readers and multiple browsers", "low": 0, "high": 1500, "optional": true },
@@ -35,22 +35,22 @@
   "realEarnings": {
     "yearOne": "Most people start while still employed and take on one or two clients. A focused audit of a small-to-medium marketing site commonly bills $1,500 to $6,000. In year one, part-timers realistically report $2,000 to $5,000 per month; those who go full-time and can sell typically reach $4,000 to $9,000 per month once a pipeline forms.",
     "experienced": "Consultants with a few years, a certification, and case studies commonly bill $100 to $200 per hour or fixed project fees, landing $8,000 to $18,000 per month solo. Remediation contracts and recurring monitoring retainers ($500 to $3,000 per month per client) add the stability that one-off audits lack.",
-    "topEarners": "Top independent consultants and small accessibility studios bill enterprise audits at $15,000 to $60,000+ each and gross $250,000 to $700,000+ per year, but reaching that means a team of testers and developers, deep VPAT/Section 508 expertise, and enterprise relationships — it is a different business from solo consulting, and most people stay solo by choice.",
+    "topEarners": "Top independent consultants and small accessibility studios bill enterprise audits at $15,000 to $60,000+ each and gross $250,000 to $700,000+ per year, but reaching that means a team of testers and developers, deep VPAT/Section 508 expertise, and enterprise relationships, it is a different business from solo consulting, and most people stay solo by choice.",
     "whatAffectsMost": "Whether you can actually do manual testing and remediation (not just run a scanner), having a recognized certification or named clients to build trust, and whether you sell recurring retainers instead of living job-to-job on one-off audits.",
     "perHour": "Effective billable rate runs $75 to $200 per hour for experienced consultants. Counting unbilled selling, report writing, and admin, realistic blended rates are often $60 to $130 per hour, higher once you have repeatable templates."
   },
   "howToStart": [
-    "Month 1: Get genuinely competent at manual testing — keyboard-only navigation, NVDA/VoiceOver, and reading WCAG 2.2 success criteria. Audit 3 to 5 real websites for free or for friends and write full reports. You cannot fake this; the skill is the product.",
+    "Month 1: Get genuinely competent at manual testing, keyboard-only navigation, NVDA/VoiceOver, and reading WCAG 2.2 success criteria. Audit 3 to 5 real websites for free or for friends and write full reports. You cannot fake this; the skill is the product.",
     "Month 2: Build credibility. Study for and ideally sit the IAAP CPACC (foundational) or WAS (technical) exam, publish 1 to 2 detailed before/after case studies, and create reusable report and VPAT templates so each audit is faster than the last.",
     "Months 2-3: Land first paid work by targeting agencies that build sites but lack accessibility expertise, plus small businesses that received an ADA demand letter. Price your first audits at the low end of the range to build references, but never so low that you teach yourself the work is worthless.",
     "Days 90+: Convert audits into remediation projects and monthly monitoring retainers. Recurring revenue is what turns this from feast-or-famine project work into a stable consulting business.",
-    "Ongoing: Stay current. WCAG versions, ARIA patterns, and case law evolve, and the European Accessibility Act and updated ADA Title II rules keep expanding demand — staying credible requires real continuing education."
+    "Ongoing: Stay current. WCAG versions, ARIA patterns, and case law evolve, and the European Accessibility Act and updated ADA Title II rules keep expanding demand, staying credible requires real continuing education."
   ],
   "skillsRequired": {
     "mustHave": [
       "Solid HTML, CSS, and the ability to read and reason about JavaScript and ARIA",
       "Real working knowledge of WCAG success criteria, not just awareness that they exist",
-      "Competence with screen readers and keyboard-only testing — the manual skills automated tools cannot replace"
+      "Competence with screen readers and keyboard-only testing, the manual skills automated tools cannot replace"
     ],
     "canLearn": [
       "Writing clear, prioritized audit reports that developers can actually act on",
@@ -58,17 +58,17 @@
       "Scoping and pricing projects so you do not undercount the manual testing hours"
     ],
     "separators": [
-      "Being able to remediate, not just identify — clients pay far more for someone who fixes the code than someone who only hands over a list",
+      "Being able to remediate, not just identify, clients pay far more for someone who fixes the code than someone who only hands over a list",
       "Translating technical findings into legal and business risk that non-technical decision-makers understand",
       "Building retainer relationships and a referral network with agencies and law firms rather than chasing one-off audits"
     ]
   },
   "whatPeopleGetWrong": [
-    "Relying only on automated scanners, which catch roughly a third of issues — selling a 'scan' as a real audit destroys your credibility the first time a client gets sued anyway",
+    "Relying only on automated scanners, which catch roughly a third of issues, selling a 'scan' as a real audit destroys your credibility the first time a client gets sued anyway",
     "Recommending accessibility overlay widgets as a fix; the disability community and many courts view them as ineffective, and serious clients will not trust you if you push them",
-    "Guaranteeing 'ADA compliance' or 'lawsuit-proof' results — accessibility is ongoing conformance to WCAG, and overpromising legal outcomes invites liability you are not qualified to carry",
+    "Guaranteeing 'ADA compliance' or 'lawsuit-proof' results, accessibility is ongoing conformance to WCAG, and overpromising legal outcomes invites liability you are not qualified to carry",
     "Underestimating how long thorough manual testing of a real site takes, then losing money on fixed-fee audits",
-    "Writing reports developers cannot use — vague findings with no code examples or WCAG references get ignored",
+    "Writing reports developers cannot use, vague findings with no code examples or WCAG references get ignored",
     "Never moving past one-off audits into remediation and retainers, leaving income lumpy and stressful"
   ],
   "toolsAndEquipment": [
@@ -81,7 +81,7 @@
   ],
   "howToFindCustomers": {
     "methods": [
-      "Partnering with web design and development agencies that build sites but have no in-house accessibility expertise — they refer clients or white-label your audits",
+      "Partnering with web design and development agencies that build sites but have no in-house accessibility expertise, they refer clients or white-label your audits",
       "Reaching out to organizations that just received an ADA demand letter or lawsuit, where the need is urgent and budget appears fast",
       "Targeting sectors with mandates: government vendors (Section 508), higher education, healthcare, and finance",
       "Publishing detailed accessibility content and case studies that rank and demonstrate genuine expertise",
@@ -94,7 +94,7 @@
   },
   "howItScales": {
     "toFullTime": "Yes. The combination of legal-risk-driven demand, high billable rates, and retainer revenue means a competent solo consultant can reach a strong full-time income, often within the first year if they can sell.",
-    "hireAndStepBack": "Possible. You can hire testers and remediation developers and move into scoping, sales, and QA, but accessibility quality is hard to delegate — a bad audit damages your reputation — so hiring requires careful training and review.",
+    "hireAndStepBack": "Possible. You can hire testers and remediation developers and move into scoping, sales, and QA, but accessibility quality is hard to delegate, a bad audit damages your reputation, so hiring requires careful training and review.",
     "sellable": "Boutique accessibility firms with enterprise contracts, recurring retainers, and a brand do get acquired, often by larger digital agencies or compliance companies. A pure solo practice is harder to sell because the expertise is you.",
     "whatScalingRequires": "Standardized testing processes, trained staff who maintain quality, recurring monitoring contracts, and enterprise relationships. The hard part is keeping audit quality consistent as you add people."
   },
@@ -131,7 +131,7 @@
       "answer": "No, not honestly. Automated tools catch roughly 30 to 40 percent of accessibility issues and miss most of what causes real barriers and lawsuits. Selling a scan as a full audit is both misleading and risky for the client. Manual testing with screen readers and keyboards is the core of legitimate work."
     },
     {
-      "question": "What about accessibility overlay widgets — should I recommend them?",
+      "question": "What about accessibility overlay widgets, should I recommend them?",
       "answer": "Most accessibility professionals and the disability community strongly oppose overlays, and they have been named in lawsuits rather than preventing them. Recommending them will damage your credibility with serious clients. The honest path is fixing the underlying code and content."
     },
     {

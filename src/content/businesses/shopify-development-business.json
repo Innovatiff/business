@@ -2,7 +2,7 @@
   "title": "Shopify Development Business",
   "slug": "shopify-development-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start a Shopify Development Business — Costs and Earnings",
+  "metaTitle": "How to Start a Shopify Development Business: Costs and Earnings",
   "metaDescription": "An honest guide to a Shopify development business: real startup costs, realistic project and retainer earnings, how to find merchants, and common mistakes.",
   "startupCostLow": 300,
   "startupCostHigh": 3000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A Shopify development business builds and customizes online stores for merchants — setting up and theming stores, customizing Liquid templates, building custom sections and features, integrating apps and payment/shipping flows, migrating from other platforms, and sometimes building private or public Shopify apps. Work comes as fixed-scope projects (a store build or redesign) and, ideally, ongoing retainers or 'care plans' for maintenance, optimization, and support. Shopify's large merchant base and Partner ecosystem mean steady demand, and the business rewards developers who not only code cleanly but understand conversion, merchandising, and what actually helps a store sell.",
-  "dailyReality": "Your week is a mix of building and client management. Building means working in a theme's Liquid templates and CSS/JS, configuring apps, setting up products and collections, fixing checkout and shipping issues, and testing across devices. Client work means scoping projects, writing proposals, answering merchant questions, demoing progress, and managing expectations — especially around scope. You will also spend time keeping up with Shopify platform changes, theme updates, and app deprecations. Much of it is remote and flexible, but deadlines, launch crunches, and urgent merchant issues (a broken checkout costs them sales) punctuate the calm.",
+  "whatItIs": "A Shopify development business builds and customizes online stores for merchants, setting up and theming stores, customizing Liquid templates, building custom sections and features, integrating apps and payment/shipping flows, migrating from other platforms, and sometimes building private or public Shopify apps. Work comes as fixed-scope projects (a store build or redesign) and, ideally, ongoing retainers or 'care plans' for maintenance, optimization, and support. Shopify's large merchant base and Partner ecosystem mean steady demand, and the business rewards developers who not only code cleanly but understand conversion, merchandising, and what actually helps a store sell.",
+  "dailyReality": "Your week is a mix of building and client management. Building means working in a theme's Liquid templates and CSS/JS, configuring apps, setting up products and collections, fixing checkout and shipping issues, and testing across devices. Client work means scoping projects, writing proposals, answering merchant questions, demoing progress, and managing expectations, especially around scope. You will also spend time keeping up with Shopify platform changes, theme updates, and app deprecations. Much of it is remote and flexible, but deadlines, launch crunches, and urgent merchant issues (a broken checkout costs them sales) punctuate the calm.",
   "startupCostsItemized": [
     { "item": "Laptop capable of development work", "low": 0, "high": 1500, "optional": true },
     { "item": "Shopify Partner account (free) + development stores", "low": 0, "high": 0 },
@@ -35,12 +35,12 @@
   "realEarnings": {
     "yearOne": "Most developers earn $1,500 to $5,000 per month in year one, with wide swings depending on whether they have a steady pipeline yet. Early store-setup and small customization projects commonly run $500 to $3,000 each; income is lumpy until referrals and retainers stabilize it.",
     "experienced": "Experienced Shopify developers with a portfolio, referrals, and a few retainer clients commonly report $6,000 to $12,000 per month. Larger custom builds, theme development, and app work push project values into the $5,000 to $20,000 range, and care-plan retainers add predictable monthly recurring revenue.",
-    "topEarners": "Top solo developers and small studios clear $15,000 to $40,000+ per month, but that usually means premium clients, Shopify Plus work, app products, a team, and a real brand and referral engine. Reaching it means moving from doing the work to selling, scoping, and managing — and most who try stay solo at a comfortable income.",
+    "topEarners": "Top solo developers and small studios clear $15,000 to $40,000+ per month, but that usually means premium clients, Shopify Plus work, app products, a team, and a real brand and referral engine. Reaching it means moving from doing the work to selling, scoping, and managing, and most who try stay solo at a comfortable income.",
     "whatAffectsMost": "Positioning and the ability to scope and sell matter as much as coding skill. Developers who specialize (a niche, a service, or Shopify Plus), avoid scope creep, and build retainer relationships out-earn equally skilled generalists living job to job.",
     "perHour": "Effective rates commonly run $40 to $80 per hour for newer developers and $80 to $150+ for established specialists. Fixed-price projects that suffer scope creep can drop the real hourly rate well below those figures, which is why scoping discipline matters so much."
   },
   "howToStart": [
-    "Month 1: Learn Shopify deeply — set up a development store, master theme architecture and Liquid, and rebuild or customize a few stores as portfolio pieces. Create a free Shopify Partner account, which gives you unlimited development stores. You should be genuinely competent before charging.",
+    "Month 1: Learn Shopify deeply, set up a development store, master theme architecture and Liquid, and rebuild or customize a few stores as portfolio pieces. Create a free Shopify Partner account, which gives you unlimited development stores. You should be genuinely competent before charging.",
     "Month 2: Define a clear service (store setup, theme customization, redesign, or app work) and build a simple portfolio site with 2 to 3 strong examples. Write a tight scope template and a contract so projects do not balloon.",
     "Month 3: Land your first paid clients through the Shopify Partner Directory, freelance platforms, agency subcontracting, and outreach to merchants with weak or broken stores. Deliver carefully and ask for reviews and referrals.",
     "Months 3-9: Turn one-off projects into recurring care plans, niche down where you win most, and raise rates as your portfolio and referrals grow. Decide whether to deepen into Shopify Plus, app development, or a productized service."
@@ -72,7 +72,7 @@
   ],
   "toolsAndEquipment": [
     { "item": "Development laptop", "note": "Any capable modern machine works; this is a low-overhead business.", "low": 0, "high": 1500 },
-    { "item": "Shopify Partner account and development stores", "note": "Free, and essential — unlimited test stores for building and demos.", "low": 0, "high": 0 },
+    { "item": "Shopify Partner account and development stores", "note": "Free, and essential, unlimited test stores for building and demos.", "low": 0, "high": 0 },
     { "item": "Code editor, Git, and browser dev tools", "note": "Mostly free. The Shopify CLI streamlines theme and app work.", "low": 0, "high": 100 },
     { "item": "Portfolio site and domain", "note": "Your strongest sales asset; show real, polished builds.", "low": 30, "high": 300 },
     { "item": "Contract, proposal, and invoicing tools", "note": "Tight scopes and contracts protect your margins. Worth setting up early.", "low": 0, "high": 400 },

@@ -2,7 +2,7 @@
   "title": "Catering Business",
   "slug": "catering-business",
   "category": "food-and-beverage",
-  "metaTitle": "How to Start a Catering Business — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a Catering Business: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting a catering business: real startup costs, commercial kitchen and permit realities, monthly earnings, and what most caterers get wrong.",
   "startupCostLow": 8000,
   "startupCostHigh": 50000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "A catering business prepares and serves food for events — weddings, corporate lunches, private parties, funerals, and conferences — either dropping off prepared food or providing full-service staffing, setup, and cleanup on site. Unlike a restaurant, you cook to confirmed orders with deposits, so you carry less daily food-cost risk, but you take on heavy logistics: transporting hot and cold food safely, staffing event days, and delivering flawlessly for clients who only do this once and remember everything that went wrong. It is one of the most regulated food businesses to start legally because you generally cannot cook for the public out of a home kitchen — most states require a licensed commercial kitchen or commissary.",
-  "dailyReality": "On non-event days you are sourcing clients, building menus and quotes, tasting and testing recipes, ordering ingredients, hiring and scheduling event staff, and confirming details with venues. Event days are long and physical: prepping in the early morning, loading vehicles with food at safe temperatures, driving to the venue, setting up, cooking or finishing food on site, serving, then breaking down and cleaning — often a 12 to 16 hour day. A working week swings between quiet office-style days and intense, high-stakes service days, frequently on weekends and evenings when events happen.",
+  "whatItIs": "A catering business prepares and serves food for events, weddings, corporate lunches, private parties, funerals, and conferences, either dropping off prepared food or providing full-service staffing, setup, and cleanup on site. Unlike a restaurant, you cook to confirmed orders with deposits, so you carry less daily food-cost risk, but you take on heavy logistics: transporting hot and cold food safely, staffing event days, and delivering flawlessly for clients who only do this once and remember everything that went wrong. It is one of the most regulated food businesses to start legally because you generally cannot cook for the public out of a home kitchen, most states require a licensed commercial kitchen or commissary.",
+  "dailyReality": "On non-event days you are sourcing clients, building menus and quotes, tasting and testing recipes, ordering ingredients, hiring and scheduling event staff, and confirming details with venues. Event days are long and physical: prepping in the early morning, loading vehicles with food at safe temperatures, driving to the venue, setting up, cooking or finishing food on site, serving, then breaking down and cleaning, often a 12 to 16 hour day. A working week swings between quiet office-style days and intense, high-stakes service days, frequently on weekends and evenings when events happen.",
   "startupCostsItemized": [
     { "item": "Commercial kitchen / commissary rental (monthly, prorated) or shared-kitchen membership", "low": 600, "high": 2500, "annual": true },
     { "item": "Food handler and food protection manager certification (ServSafe or state equivalent)", "low": 150, "high": 500 },
@@ -40,7 +40,7 @@
     "perHour": "Counting prep, the event itself, sourcing, and admin, realistic blended owner pay often works out to $25 to $60 per hour early on. Experienced caterers who price and staff well can clear $60 to $120 per hour of their own time, but event days themselves are long and labor-heavy."
   },
   "howToStart": [
-    "Month 1: Confirm how your state and county treat catering — most require a licensed commercial kitchen or commissary, a food protection manager certification, and a health permit. Cooking the public's food from a home kitchen is illegal in most places, so secure kitchen access (shared commissary memberships are the cheapest legal route) before anything else.",
+    "Month 1: Confirm how your state and county treat catering, most require a licensed commercial kitchen or commissary, a food protection manager certification, and a health permit. Cooking the public's food from a home kitchen is illegal in most places, so secure kitchen access (shared commissary memberships are the cheapest legal route) before anything else.",
     "Month 1-2: Get your food handler and manager certifications, register the business, buy general and product liability insurance, and build 2 to 3 tight menus with costed per-head pricing that includes food, labor, rentals, and a real profit margin.",
     "Month 2-3: Cater 2 to 3 events at or near cost for friends, family, or a nonprofit to build a photo portfolio and references. Photograph everything professionally. Set up a simple website and a Google Business Profile with menus and pricing guidance.",
     "Month 3-4: Take deposits (commonly 25 to 50 percent) on your first paid jobs and require signed contracts with cancellation terms. Track actual food and labor cost on every event against your quote so you learn your true margins.",
@@ -49,7 +49,7 @@
   "skillsRequired": {
     "mustHave": [
       "Strong cooking skills and the ability to scale recipes to 50, 100, or 300 portions consistently",
-      "Food safety knowledge — safe holding temperatures, transport, and allergen handling",
+      "Food safety knowledge, safe holding temperatures, transport, and allergen handling",
       "Calm logistics and time management under pressure on event days",
       "Basic costing ability so you can price per head profitably"
     ],
@@ -65,7 +65,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Trying to cook for paying clients out of a home kitchen, which is illegal in most states and uninsurable — health departments and venues do check",
+    "Trying to cook for paying clients out of a home kitchen, which is illegal in most states and uninsurable, health departments and venues do check",
     "Pricing only on food cost and forgetting labor, rentals, transport, insurance, and waste, then losing money on big events",
     "Underestimating event-day labor needs and ending up short-staffed during service",
     "Not requiring deposits and signed contracts, then absorbing the cost of last-minute cancellations",
@@ -75,7 +75,7 @@
   "toolsAndEquipment": [
     { "item": "Commercial kitchen or commissary access", "note": "The legal foundation of the business. Shared/rental commissary kitchens are the cheapest way to start without a six-figure buildout.", "low": 600, "high": 2500 },
     { "item": "Insulated hot boxes (Cambros) and chafing dishes with fuel", "note": "Keep food at safe serving temperature in transport and on the line. Buy quality; failures here ruin events.", "low": 600, "high": 3000 },
-    { "item": "Cold transport — coolers, ice packs, refrigerated bins", "note": "Essential for safe transport of cold and perishable items.", "low": 200, "high": 1200 },
+    { "item": "Cold transport, coolers, ice packs, refrigerated bins", "note": "Essential for safe transport of cold and perishable items.", "low": 200, "high": 1200 },
     { "item": "Serving ware, racks, linens, and display pieces", "note": "Buy core pieces; rent specialty items per event rather than owning.", "low": 500, "high": 4000 },
     { "item": "Reliable transport vehicle", "note": "A van or large SUV; many start with what they own and upgrade later.", "low": 0, "high": 25000 },
     { "item": "Catering management / quoting software", "note": "Tools like HoneyBook or Total Party Planner help with quotes, contracts, and deposits.", "low": 0, "high": 600 }
@@ -113,7 +113,7 @@
       "You cannot front ingredient and labor costs between deposits and final payment"
     ],
     "askYourself": [
-      "Have I costed a real per-head price that covers food, labor, rentals, insurance, and profit — not just ingredients?",
+      "Have I costed a real per-head price that covers food, labor, rentals, insurance, and profit, not just ingredients?",
       "Do I have legal kitchen access and the certifications my state requires, or a clear plan to get them?",
       "Can I handle the financial and physical swings of a business concentrated in a few peak months?"
     ]
@@ -129,7 +129,7 @@
     },
     {
       "question": "How do I price catering per head?",
-      "answer": "Start from your fully loaded cost per guest — food, disposables, rentals, transport, and event-day labor — then add a margin so the job is genuinely profitable, not just covering costs. Many caterers target food cost around 25 to 35 percent of the per-head price, but labor and rentals matter just as much. The biggest pricing mistake is quoting on ingredient cost alone."
+      "answer": "Start from your fully loaded cost per guest, food, disposables, rentals, transport, and event-day labor, then add a margin so the job is genuinely profitable, not just covering costs. Many caterers target food cost around 25 to 35 percent of the per-head price, but labor and rentals matter just as much. The biggest pricing mistake is quoting on ingredient cost alone."
     },
     {
       "question": "Why do you require deposits and contracts?",
@@ -155,7 +155,7 @@
     "coffee-cart-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Chefs and Head Cooks, and Food Service Managers occupational data",
+    "U.S. Bureau of Labor Statistics, Chefs and Head Cooks, and Food Service Managers occupational data",
     "U.S. Small Business Administration and state health department guidance on commercial kitchen and food service permitting",
     "National Restaurant Association and IBISWorld catering industry reports (revenue, margin, and seasonality trends)",
     "ServSafe / food protection manager certification requirements and operator communities (r/Catering, catering forums)"

@@ -2,7 +2,7 @@
   "title": "Tenant Screening Service Business",
   "slug": "tenant-screening-business",
   "category": "real-estate-and-property",
-  "metaTitle": "How to Start a Tenant Screening Business — Real Costs, Earnings, FCRA",
+  "metaTitle": "How to Start a Tenant Screening Business: Real Costs, Earnings, FCRA",
   "metaDescription": "Honest guide to starting a tenant screening service for landlords: real startup costs, FCRA compliance reality, realistic earnings, and what most operators get wrong.",
   "startupCostLow": 1500,
   "startupCostHigh": 12000,
@@ -19,8 +19,8 @@
   "priorities": ["low-risk", "flexibility", "alongside-job", "sellable"],
   "noExperienceRequired": false,
   "partTimeFriendly": true,
-  "whatItIs": "A tenant screening service helps landlords and property managers decide whom to rent to by compiling background information on rental applicants — credit reports, criminal history where legally permitted, eviction records, income and employment verification, and prior-landlord references. In practice you are reselling or facilitating access to consumer reports, which immediately puts you under the federal Fair Credit Reporting Act (FCRA) and, in many cases, state and local screening laws. Some operators run as a true consumer reporting agency (CRA) with their own data agreements; far more commonly, small operators partner with an established screening platform (such as TransUnion SmartMove, RentPrep, or a reseller agreement) and add value through packaging, applicant communication, and advising the landlord.",
-  "dailyReality": "Most of the week is administrative and communication work done at a computer: receiving applicant authorizations, ordering reports through your provider, reviewing results for accuracy, and delivering clear summaries to landlords. You spend real time chasing missing documents (pay stubs, prior-landlord contacts), calling references and employers, and answering landlord questions about how to read a report. A recurring and unavoidable task is staying inside the rules — making sure you have signed authorization, a permissible purpose, and that you never tell a landlord 'don't rent to this person' (which can make you liable). Volume is lumpy; leasing seasons (late spring and summer) are busy, winter is slow.",
+  "whatItIs": "A tenant screening service helps landlords and property managers decide whom to rent to by compiling background information on rental applicants, credit reports, criminal history where legally permitted, eviction records, income and employment verification, and prior-landlord references. In practice you are reselling or facilitating access to consumer reports, which immediately puts you under the federal Fair Credit Reporting Act (FCRA) and, in many cases, state and local screening laws. Some operators run as a true consumer reporting agency (CRA) with their own data agreements; far more commonly, small operators partner with an established screening platform (such as TransUnion SmartMove, RentPrep, or a reseller agreement) and add value through packaging, applicant communication, and advising the landlord.",
+  "dailyReality": "Most of the week is administrative and communication work done at a computer: receiving applicant authorizations, ordering reports through your provider, reviewing results for accuracy, and delivering clear summaries to landlords. You spend real time chasing missing documents (pay stubs, prior-landlord contacts), calling references and employers, and answering landlord questions about how to read a report. A recurring and unavoidable task is staying inside the rules, making sure you have signed authorization, a permissible purpose, and that you never tell a landlord 'don't rent to this person' (which can make you liable). Volume is lumpy; leasing seasons (late spring and summer) are busy, winter is slow.",
   "startupCostsItemized": [
     { "item": "Business registration / LLC", "low": 100, "high": 500 },
     { "item": "Screening platform or reseller account setup / onsite inspection (CRA reseller credentialing)", "low": 0, "high": 1500, "optional": true },
@@ -34,21 +34,21 @@
   "realEarnings": {
     "yearOne": "Most beginners working part-time and reselling through a platform earn $800 to $2,500 per month. Margins per screen are thin if you simply mark up a provider's report, so first-year income depends on landlord volume more than per-report price.",
     "experienced": "Operators with a steady book of small landlords and property managers, charging $35 to $75 per applicant plus optional add-ons (income verification, reference checks, advisory packages), commonly report $3,000 to $7,000 per month. Recurring relationships with property-management firms that send dozens of applications a month are the stabilizing factor.",
-    "topEarners": "The strongest operators become a regional go-to for property managers or build software-assisted volume, reaching $10,000 to $25,000+ per month — but that almost always means real compliance infrastructure, staff, and often becoming a licensed CRA with direct data agreements, which raises both cost and liability substantially. Most small operators never reach this and shouldn't try without legal counsel.",
-    "whatAffectsMost": "Volume and recurring property-manager accounts matter far more than per-report markup. The other lever is the value you add around the raw report — verification, packaging, and fast turnaround — since the report data itself is a commodity anyone can buy.",
+    "topEarners": "The strongest operators become a regional go-to for property managers or build software-assisted volume, reaching $10,000 to $25,000+ per month, but that almost always means real compliance infrastructure, staff, and often becoming a licensed CRA with direct data agreements, which raises both cost and liability substantially. Most small operators never reach this and shouldn't try without legal counsel.",
+    "whatAffectsMost": "Volume and recurring property-manager accounts matter far more than per-report markup. The other lever is the value you add around the raw report, verification, packaging, and fast turnaround, since the report data itself is a commodity anyone can buy.",
     "perHour": "Effective rates range widely. Pure report reselling can net as little as $20 to $40 per hour once you account for chasing documents; operators who add verification and advisory services and run volume often reach $50 to $90 per hour."
   },
   "howToStart": [
-    "Month 1: Talk to a lawyer who knows the FCRA before you take a single dollar. Decide your model — reseller through an established platform (lower risk, lower margin) or a full CRA (higher bar). Register the business and get E&O plus liability insurance.",
+    "Month 1: Talk to a lawyer who knows the FCRA before you take a single dollar. Decide your model, reseller through an established platform (lower risk, lower margin) or a full CRA (higher bar). Register the business and get E&O plus liability insurance.",
     "Month 1-2: Set up your provider account, build a secure online intake for applicant authorizations, and draft compliant disclosures and an adverse-action workflow. Practice ordering and reading reports until your summaries are accurate and clear.",
     "Month 2: Land your first landlords. Independent landlords with 1 to 10 units and small property managers are the realistic starting market. Offer a fast, fixed-price package and explain plainly what you do and do not decide.",
-    "Days 60-120: Build recurring relationships. One property-management firm sending you 20+ applications a month is worth more than dozens of one-off DIY landlords. Track turnaround time and dispute rate — accuracy is your reputation.",
+    "Days 60-120: Build recurring relationships. One property-management firm sending you 20+ applications a month is worth more than dozens of one-off DIY landlords. Track turnaround time and dispute rate, accuracy is your reputation.",
     "Ongoing: Stay current on state and local screening laws (ban-the-box, source-of-income rules, criminal-record limits, fee caps). These change often and vary by city; getting them wrong is how operators get sued."
   ],
   "skillsRequired": {
     "mustHave": [
       "Comfort reading credit reports, eviction records, and verification documents accurately",
-      "Genuine attention to compliance detail — authorization, permissible purpose, adverse-action handling",
+      "Genuine attention to compliance detail, authorization, permissible purpose, adverse-action handling",
       "Discretion and security habits around sensitive personal and financial data"
     ],
     "canLearn": [
@@ -65,7 +65,7 @@
   "whatPeopleGetWrong": [
     "Treating it like a simple data-lookup side hustle and ignoring that the FCRA makes them legally responsible for accuracy, authorization, and adverse-action procedures",
     "Advising landlords on rent/deny decisions instead of only providing information, which can create liability and fair-housing exposure",
-    "Not knowing local laws — source-of-income protections, criminal-history limits, application-fee caps — and exposing clients to fines",
+    "Not knowing local laws, source-of-income protections, criminal-history limits, application-fee caps, and exposing clients to fines",
     "Underpricing against free or near-free DIY screening tools instead of competing on verification, speed, and advisory value",
     "Storing applicant Social Security numbers and reports insecurely, risking a data breach that ends the business",
     "Assuming demand is steady year-round when it is heavily concentrated in leasing season"
@@ -94,7 +94,7 @@
     "toFullTime": "Yes, but volume-dependent. Because per-report margins are modest as a reseller, full-time income usually requires recurring property-manager accounts or adding higher-value verification and advisory services rather than relying on occasional DIY landlords.",
     "hireAndStepBack": "Possible. The work is process-driven and trainable, so you can hire screeners to handle intake and verification. The hard part to delegate is compliance judgment and the relationships, so stepping back fully requires documented procedures and a trusted lead.",
     "sellable": "Modestly. A book of recurring property-manager contracts, clean compliance records, and documented processes has real value to a larger screening firm. A pure reseller dependent on one founder's relationships is harder to sell.",
-    "whatScalingRequires": "Recurring institutional accounts, airtight compliance and security infrastructure, and often the decision to become a licensed CRA with direct data agreements — which raises liability and is the point where many operators bring in legal and operational specialists."
+    "whatScalingRequires": "Recurring institutional accounts, airtight compliance and security infrastructure, and often the decision to become a licensed CRA with direct data agreements, which raises liability and is the point where many operators bring in legal and operational specialists."
   },
   "fitChecklist": {
     "strongFit": [
@@ -134,7 +134,7 @@
     },
     {
       "question": "Why can't landlords just use a free DIY screening tool instead of me?",
-      "answer": "Many will, and that is fine — those customers were never yours. You compete by adding verification, fast and accurate turnaround, advisory support on compliant criteria, and by serving property managers who don't want to handle screening themselves at volume. If you only offer a raw report, you have no edge over a self-serve site."
+      "answer": "Many will, and that is fine, those customers were never yours. You compete by adding verification, fast and accurate turnaround, advisory support on compliant criteria, and by serving property managers who don't want to handle screening themselves at volume. If you only offer a raw report, you have no edge over a self-serve site."
     },
     {
       "question": "Is this business seasonal?",
@@ -152,9 +152,9 @@
     "mobile-notary-business"
   ],
   "dataSources": [
-    "Consumer Financial Protection Bureau and Federal Trade Commission — FCRA guidance for users and resellers of consumer reports",
-    "U.S. Bureau of Labor Statistics — Property, Real Estate, and Community Association Managers occupational data",
-    "TransUnion SmartMove and RentPrep — published tenant screening pricing and process documentation",
+    "Consumer Financial Protection Bureau and Federal Trade Commission, FCRA guidance for users and resellers of consumer reports",
+    "U.S. Bureau of Labor Statistics, Property, Real Estate, and Community Association Managers occupational data",
+    "TransUnion SmartMove and RentPrep, published tenant screening pricing and process documentation",
     "State and local landlord-tenant law summaries (Nolo, local housing authorities) for screening-fee caps and source-of-income rules",
     "Landlord and property-manager operator communities (BiggerPockets, r/Landlord) for real-world pricing and workflow"
   ],

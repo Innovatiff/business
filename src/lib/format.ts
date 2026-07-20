@@ -1,6 +1,6 @@
 /** Small formatting helpers shared across components. */
 
-/** "$1,500" — whole-dollar, no cents. */
+/** "$1,500", whole-dollar, no cents. */
 export function money(n: number): string {
   return '$' + Math.round(n).toLocaleString('en-US');
 }

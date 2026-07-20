@@ -2,7 +2,7 @@
   "title": "WordPress Maintenance Business",
   "slug": "wordpress-maintenance-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start a WordPress Maintenance Business — Recurring Revenue",
+  "metaTitle": "How to Start a WordPress Maintenance Business: Recurring Revenue",
   "metaDescription": "An honest guide to a WordPress maintenance business: real startup costs, realistic recurring care-plan earnings, finding clients, and what most people get wrong.",
   "startupCostLow": 200,
   "startupCostHigh": 2000,
@@ -11,7 +11,7 @@
   "timeToFirstIncome": "1 to 2 months",
   "difficultyLevel": "Intermediate",
   "bestFor": "Technically comfortable, reliable people who want predictable monthly recurring revenue from ongoing client relationships rather than one-off projects",
-  "biggestRisk": "A site you maintain gets hacked or breaks badly, destroying trust — and without enough clients, the per-site recurring fees take a long time to add up to real income",
+  "biggestRisk": "A site you maintain gets hacked or breaks badly, destroying trust, and without enough clients, the per-site recurring fees take a long time to add up to real income",
   "speedToIncome": "weeks",
   "minWeeklyHours": 8,
   "skills": ["tech"],
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A WordPress maintenance business sells recurring 'care plans' to WordPress site owners — handling plugin and theme updates, security hardening and monitoring, regular backups, uptime monitoring, performance tuning, and small content and support requests. Instead of charging once to build a site, you charge a monthly fee (commonly $50 to $300+ per site) to keep it secure, updated, and running, which creates predictable monthly recurring revenue. It is deliberately distinct from one-off web builds: the value is reliability and peace of mind over time, and a well-run plan with low churn compounds into a stable income as you add clients.",
-  "dailyReality": "Most of the routine work is light and batchable: running and testing updates across your client sites, checking backups ran, reviewing security and uptime alerts, and clearing a small queue of support requests (a broken form, a content edit, a plugin conflict). Good operators use tools that manage many sites from one dashboard, so a portfolio of sites takes far less time than it sounds — until something breaks. The real demands are the occasional emergencies: a site goes down, an update breaks a layout, or a site gets hacked, and you need to respond fast because the client's business depends on it. Around the technical work, you spend time onboarding new clients, communicating, and selling plans.",
+  "whatItIs": "A WordPress maintenance business sells recurring 'care plans' to WordPress site owners, handling plugin and theme updates, security hardening and monitoring, regular backups, uptime monitoring, performance tuning, and small content and support requests. Instead of charging once to build a site, you charge a monthly fee (commonly $50 to $300+ per site) to keep it secure, updated, and running, which creates predictable monthly recurring revenue. It is deliberately distinct from one-off web builds: the value is reliability and peace of mind over time, and a well-run plan with low churn compounds into a stable income as you add clients.",
+  "dailyReality": "Most of the routine work is light and batchable: running and testing updates across your client sites, checking backups ran, reviewing security and uptime alerts, and clearing a small queue of support requests (a broken form, a content edit, a plugin conflict). Good operators use tools that manage many sites from one dashboard, so a portfolio of sites takes far less time than it sounds, until something breaks. The real demands are the occasional emergencies: a site goes down, an update breaks a layout, or a site gets hacked, and you need to respond fast because the client's business depends on it. Around the technical work, you spend time onboarding new clients, communicating, and selling plans.",
   "startupCostsItemized": [
     { "item": "Laptop you likely already own", "low": 0, "high": 1000, "optional": true },
     { "item": "Multi-site management tool (ManageWP, MainWP, or similar)", "low": 0, "high": 600, "annual": true, "optional": true },
@@ -32,21 +32,21 @@
     { "item": "Professional liability insurance", "low": 300, "high": 700, "annual": true, "optional": true }
   ],
   "realEarnings": {
-    "yearOne": "Most operators earn $500 to $2,500 per month in year one as they build a client base. Care plans commonly run $50 to $300+ per site monthly, so early income is modest and grows as you add clients — 10 sites at $100 each is $1,000 in recurring revenue, and the math improves from there.",
+    "yearOne": "Most operators earn $500 to $2,500 per month in year one as they build a client base. Care plans commonly run $50 to $300+ per site monthly, so early income is modest and grows as you add clients, 10 sites at $100 each is $1,000 in recurring revenue, and the math improves from there.",
     "experienced": "Operators with two-plus years, 30 to 80+ sites under management, and tiered plans commonly report $4,000 to $8,000 per month. Because the revenue recurs, income is far steadier than project work, and efficient operators handle many sites in limited hours using management tools.",
-    "topEarners": "Top operators and small agencies clear $10,000 to $30,000+ per month by managing hundreds of sites, offering premium tiers, adding services (hosting resale, SEO, optimization), and hiring support staff. Reaching it requires real systems, low churn, and a steady client-acquisition engine — the model scales well precisely because the revenue is recurring.",
+    "topEarners": "Top operators and small agencies clear $10,000 to $30,000+ per month by managing hundreds of sites, offering premium tiers, adding services (hosting resale, SEO, optimization), and hiring support staff. Reaching it requires real systems, low churn, and a steady client-acquisition engine, the model scales well precisely because the revenue is recurring.",
     "whatAffectsMost": "Number of sites under management and churn rate matter most. Reliability that keeps clients for years, efficient tooling, and tiered pricing beat raw technical skill; a few angry clients who leave after a site breaks can stall growth.",
     "perHour": "Effective rates depend heavily on tooling and how many sites you batch. Newer operators often see $25 to $50 per hour; efficient operators managing many sites with good tools can effectively earn $60 to $120+ per hour of routine work, though emergencies temporarily crush the rate."
   },
   "howToStart": [
-    "Month 1: Get genuinely comfortable with WordPress administration — updates, backups, security plugins, common plugin conflicts, and basic troubleshooting and recovery. Set up a multi-site management tool and backup/security/uptime stack so you can handle many sites efficiently.",
+    "Month 1: Get genuinely comfortable with WordPress administration, updates, backups, security plugins, common plugin conflicts, and basic troubleshooting and recovery. Set up a multi-site management tool and backup/security/uptime stack so you can handle many sites efficiently.",
     "Month 1-2: Define 2 to 3 clear care-plan tiers with explicit scope (what is included, response times, what costs extra) and a simple services site. A defined scope is what keeps small requests from eating your margins.",
     "Month 2: Land your first clients by approaching local small businesses, web designers who build but do not maintain sites, and your own network. Offer to take maintenance off the plates of people who already have WordPress sites they neglect.",
     "Months 2-9: Onboard clients carefully, prove reliability, and ask for referrals. Partner with web designers and agencies for a steady referral stream, and raise prices or add tiers as your client base and reputation grow."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Solid WordPress administration — updates, backups, security plugins, and basic troubleshooting",
+      "Solid WordPress administration, updates, backups, security plugins, and basic troubleshooting",
       "Calm, fast problem-solving when a site breaks or goes down",
       "Reliability and clear communication, since clients are paying for peace of mind"
     ],
@@ -117,15 +117,15 @@
   "faqs": [
     {
       "question": "How is this different from building WordPress sites?",
-      "answer": "Web building is one-off project work — you get paid once to create a site. WordPress maintenance is recurring: you charge a monthly fee to keep existing sites updated, secure, backed up, and running. The maintenance model trades large lump sums for predictable monthly recurring revenue, and it pairs naturally with web designers who build sites but do not want to maintain them."
+      "answer": "Web building is one-off project work, you get paid once to create a site. WordPress maintenance is recurring: you charge a monthly fee to keep existing sites updated, secure, backed up, and running. The maintenance model trades large lump sums for predictable monthly recurring revenue, and it pairs naturally with web designers who build sites but do not want to maintain them."
     },
     {
       "question": "How much can I charge for a care plan?",
-      "answer": "Care plans commonly run $50 to $300+ per site per month depending on what is included — updates and backups at the low end, up to security, performance, content edits, and priority support at the high end. Tiered plans with clear scope let you serve different clients and protect your margins. The key is enough clients: 20 sites at $100 each is $2,000 in monthly recurring revenue."
+      "answer": "Care plans commonly run $50 to $300+ per site per month depending on what is included, updates and backups at the low end, up to security, performance, content edits, and priority support at the high end. Tiered plans with clear scope let you serve different clients and protect your margins. The key is enough clients: 20 sites at $100 each is $2,000 in monthly recurring revenue."
     },
     {
       "question": "Do I need to be a developer?",
-      "answer": "You need solid WordPress administration skills and the ability to troubleshoot and recover sites, but you do not need to be a full software developer. This is not a no-experience business, though — clients pay for reliability, and a botched update or unrecoverable hack destroys trust. Build genuine competence with updates, backups, security, and common plugin conflicts before charging."
+      "answer": "You need solid WordPress administration skills and the ability to troubleshoot and recover sites, but you do not need to be a full software developer. This is not a no-experience business, though, clients pay for reliability, and a botched update or unrecoverable hack destroys trust. Build genuine competence with updates, backups, security, and common plugin conflicts before charging."
     },
     {
       "question": "What happens if a site I maintain gets hacked?",
@@ -137,7 +137,7 @@
     },
     {
       "question": "Is this realistic as a part-time business?",
-      "answer": "Yes. The routine work batches well, so it is genuinely workable in limited hours around a job, and recurring revenue grows steadily as you add clients. The main constraint is responsiveness — you need to handle the occasional emergency promptly, so it suits people who can react when a site goes down even outside scheduled work time."
+      "answer": "Yes. The routine work batches well, so it is genuinely workable in limited hours around a job, and recurring revenue grows steadily as you add clients. The main constraint is responsiveness, you need to handle the occasional emergency promptly, so it suits people who can react when a site goes down even outside scheduled work time."
     }
   ],
   "similarBusinesses": [

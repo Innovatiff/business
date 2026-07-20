@@ -7,22 +7,22 @@ const faqs = [
   {
     question: 'What is the difference between revenue and profit?',
     answer:
-      'Revenue is all the money coming in before any costs. Profit is what is left after you pay for materials, running costs, and taxes. It is completely normal for a business with high revenue to have modest take-home profit — especially in thin-margin fields like food or retail. Always plan around profit, not revenue.',
+      'Revenue is all the money coming in before any costs. Profit is what is left after you pay for materials, running costs, and taxes. It is completely normal for a business with high revenue to have modest take-home profit, especially in thin-margin fields like food or retail. Always plan around profit, not revenue.',
   },
   {
     question: 'What is a good profit margin for a small business?',
     answer:
-      'It varies enormously by industry. Service businesses can net 40–70% because their main cost is time; food and retail often net single digits to the low teens after all costs. There is no universal "good" number — what matters is that your net margin leaves you a take-home you can actually live on for the hours you put in.',
+      'It varies enormously by industry. Service businesses can net 40–70% because their main cost is time; food and retail often net single digits to the low teens after all costs. There is no universal "good" number, what matters is that your net margin leaves you a take-home you can actually live on for the hours you put in.',
   },
   {
     question: 'Why should I set money aside for taxes?',
     answer:
-      'As a business owner, taxes are not withheld for you — you owe income and self-employment tax on your profit, usually paid quarterly. Setting aside a percentage of profit as you go (commonly 25–30%, but confirm with a tax professional for your situation) keeps a tax bill from wiping out your cash.',
+      'As a business owner, taxes are not withheld for you, you owe income and self-employment tax on your profit, usually paid quarterly. Setting aside a percentage of profit as you go (commonly 25–30%, but confirm with a tax professional for your situation) keeps a tax bill from wiping out your cash.',
   },
   {
     question: 'What does effective hourly rate tell me?',
     answer:
-      'It divides your real take-home by the hours you actually work — including the unpaid admin, marketing, and travel. It is often far lower than the rate you charge, and it is the honest number for comparing a business against a job or another opportunity.',
+      'It divides your real take-home by the hours you actually work, including the unpaid admin, marketing, and travel. It is often far lower than the rate you charge, and it is the honest number for comparing a business against a job or another opportunity.',
   },
 ];
 
@@ -40,8 +40,8 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title="Profit & Take-Home Calculator — Real Profit After Costs & Taxes"
-  description="Free profit calculator: turn monthly revenue into a realistic take-home number after direct costs, fixed costs, and taxes — plus your true profit margin and effective hourly rate."
+  title="Profit & Take-Home Calculator: Real Profit After Costs & Taxes"
+  description="Free profit calculator: turn monthly revenue into a realistic take-home number after direct costs, fixed costs, and taxes, plus your true profit margin and effective hourly rate."
   path="/calculators/profit-margin-calculator"
   jsonLd={jsonLd}
 >
@@ -50,7 +50,7 @@ const jsonLd = [
     <h1>Profit & take-home calculator</h1>
     <p class="lead">
       Revenue is not what you keep. Enter your numbers to see your real take-home profit after
-      costs and taxes — plus your true margin and effective hourly rate.
+      costs and taxes, plus your true margin and effective hourly rate.
     </p>
   </div>
 
@@ -76,7 +76,7 @@ const jsonLd = [
         </div>
         <div class="calc-field">
           <label for="fixed">Fixed monthly costs</label>
-          <p class="calc-hint">Rent, software, insurance, marketing — everything that isn't materials.</p>
+          <p class="calc-hint">Rent, software, insurance, marketing, everything that isn't materials.</p>
           <div class="calc-input-wrap">
             <span class="calc-affix">$</span>
             <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id="fixed" placeholder="0" />
@@ -84,7 +84,7 @@ const jsonLd = [
         </div>
         <div class="calc-field">
           <label for="tax">Tax set-aside</label>
-          <p class="calc-hint">A percentage of profit reserved for taxes. 25–30% is a common starting point — confirm with a tax pro.</p>
+          <p class="calc-hint">A percentage of profit reserved for taxes. 25–30% is a common starting point, confirm with a tax pro.</p>
           <div class="calc-input-wrap">
             <input class="calc-input" type="number" inputmode="numeric" min="0" max="60" step="1" id="tax" value="25" />
             <span class="calc-affix suffix">% of profit</span>
@@ -109,7 +109,7 @@ const jsonLd = [
           <li class="calc-row"><span>Operating profit</span><span class="calc-val" id="r-operating">$0</span></li>
           <li class="calc-row"><span>Tax set-aside</span><span class="calc-val" id="r-tax">$0</span></li>
           <li class="calc-row"><span>Net profit margin</span><span class="calc-val" id="r-netmargin">0%</span></li>
-          <li class="calc-row calc-row-total"><span>Effective hourly rate</span><span class="calc-val" id="r-hourly">—</span></li>
+          <li class="calc-row calc-row-total"><span>Effective hourly rate</span><span class="calc-val" id="r-hourly">, </span></li>
         </ul>
         <div class="calc-note ok" id="r-note">Enter your revenue and costs to see your real take-home.</div>
       </aside>
@@ -121,7 +121,7 @@ const jsonLd = [
         Money flows down: revenue minus direct costs is your <strong>gross profit</strong>; minus
         fixed costs is your <strong>operating profit</strong>; minus a tax set-aside is your real
         <strong>take-home</strong>. The effective hourly rate divides that take-home by the hours you
-        actually work — usually the most sobering and useful number on the page.
+        actually work, usually the most sobering and useful number on the page.
       </p>
       <p>
         This is exactly why we publish honest earnings ranges, not headline revenue, on every
@@ -173,7 +173,7 @@ const jsonLd = [
       set('r-tax', fmt(tax));
       set('r-netmargin', revenue > 0 ? Math.round(netMargin) + '%' : '0%');
       set('r-takehome', fmt(takeHome));
-      set('r-hourly', hours > 0 ? fmt(takeHome / hours) + ' / hr' : '—');
+      set('r-hourly', hours > 0 ? fmt(takeHome / hours) + ' / hr' : ', ');
 
       const note = document.getElementById('r-note') as HTMLElement;
       if (revenue <= 0) {
@@ -181,9 +181,9 @@ const jsonLd = [
         note.textContent = 'Enter your revenue and costs to see your real take-home.';
       } else if (takeHome <= 0) {
         note.className = 'calc-note warn';
-        note.textContent = 'At these numbers the business does not yet clear a profit — costs are eating everything. Try lowering costs, raising prices, or increasing revenue.';
+        note.textContent = 'At these numbers the business does not yet clear a profit, costs are eating everything. Try lowering costs, raising prices, or increasing revenue.';
       } else {
-        const hourlyTxt = hours > 0 ? ` — about ${fmt(takeHome / hours)} for every hour you actually work` : '';
+        const hourlyTxt = hours > 0 ? `, about ${fmt(takeHome / hours)} for every hour you actually work` : '';
         note.className = 'calc-note ok';
         note.textContent = `You keep about ${fmt(takeHome)} a month after costs and taxes${hourlyTxt}.`;
       }

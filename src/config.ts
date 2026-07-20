@@ -1,5 +1,5 @@
 /**
- * Honestly Profitable — central site configuration.
+ * Honestly Profitable, central site configuration.
  *
  * One website, many pages. Everything that is shared across the site
  * (brand, navigation, AdSense, category/filter definitions) lives here so
@@ -12,9 +12,9 @@ export const SITE = {
   url: 'https://honestlyprofitable.com',
   tagline: 'Every business explained honestly.',
   description:
-    'Honest, research-driven breakdowns of real businesses you can actually start — with real startup costs, realistic earnings, time to profit, and exactly how to begin.',
+    'Honest, research-driven breakdowns of real businesses you can actually start, with real startup costs, realistic earnings, time to profit, and exactly how to begin.',
   promise:
-    'Every business explained honestly — startup cost, real earnings, time to profit, and exactly how to start today.',
+    'Every business explained honestly, startup cost, real earnings, time to profit, and exactly how to start today.',
   email: 'hello@honestlyprofitable.com',
   locale: 'en_US',
 } as const;
@@ -23,12 +23,12 @@ export const SITE = {
  * AdSense / Google Publisher configuration.
  *
  * Two separate things:
- *   1. SITE CONNECTION — the AdSense loader script + `google-adsense-account`
+ *   1. SITE CONNECTION, the AdSense loader script + `google-adsense-account`
  *      verification meta in <head>. This is what lets Google connect the site
  *      to your account and REVIEW it for approval. It must be present for the
  *      application to be approved, and it shows no visible ads on its own. It is
  *      always emitted (see BaseHead) because `client` has a real default below.
- *   2. AD UNITS — actual <ins class="adsbygoogle"> slots (AdSlot.astro). These
+ *   2. AD UNITS, actual <ins class="adsbygoogle"> slots (AdSlot.astro). These
  *      stay OFF (`enabled`) until after approval, so nothing ad-like appears on
  *      the site while it is being reviewed.
  *
@@ -56,7 +56,7 @@ export const ADSENSE = {
  * Firebase web config is public by design (it ships to the browser). Analytics
  * is loaded asynchronously so it never blocks rendering, and it only records
  * standard pageview/engagement events. We deliberately never send Business
- * Finder answers, financial details, or any personal information to analytics —
+ * Finder answers, financial details, or any personal information to analytics, 
  * the finder runs entirely in the browser. Disable with PUBLIC_ANALYTICS=false.
  */
 export const ANALYTICS = {
@@ -79,7 +79,7 @@ export const ANALYTICS = {
  * "HTML tag" verification method (the `content="..."` value) into the
  * PUBLIC_GOOGLE_SITE_VERIFICATION environment variable in Netlify, then
  * redeploy. It renders the required <meta> tag site-wide. (Alternatively,
- * drop Google's google<...>.html file into /public — both methods work.)
+ * drop Google's google<...>.html file into /public, both methods work.)
  */
 export const SEO = {
   googleSiteVerification: import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION ?? '',
@@ -95,7 +95,7 @@ export type NavGroup = { heading: string; href: string; icon?: string; items: Na
 export type NavItem = { label: string; href?: string; icon?: string; groups?: NavGroup[] };
 
 /**
- * Primary navigation. Deliberately short — "Find My Business" is the CTA button
+ * Primary navigation. Deliberately short, "Find My Business" is the CTA button
  * (so it is not repeated here), and all browsing collapses into one "Browse"
  * dropdown so the bar stays uncluttered on desktop and mobile.
  */

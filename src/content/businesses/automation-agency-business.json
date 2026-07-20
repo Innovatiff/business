@@ -2,7 +2,7 @@
   "title": "Automation and AI Workflow Agency",
   "slug": "automation-agency-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start an AI Automation Agency — Real Costs, Earnings, Steps",
+  "metaTitle": "How to Start an AI Automation Agency: Real Costs, Earnings, Steps",
   "metaDescription": "Honest guide to starting an automation and AI workflow agency: what Zapier, Make, n8n, and LLM work really pays, the skills it needs, and what gets people stuck.",
   "startupCostLow": 500,
   "startupCostHigh": 5000,
@@ -19,7 +19,7 @@
   "priorities": ["max-income", "flexibility", "alongside-job"],
   "noExperienceRequired": false,
   "partTimeFriendly": true,
-  "whatItIs": "An automation and AI workflow agency builds systems that do repetitive business work automatically — connecting apps, moving and cleaning data, and adding AI steps that draft, summarize, classify, or route information. You typically work with no-code and low-code platforms like Zapier, Make, and n8n, wired into tools a business already uses (CRMs, email, spreadsheets, Slack) and into LLM APIs for the AI parts. Clients usually pay a one-time setup or build fee for each workflow plus an ongoing monthly retainer for monitoring, fixes, and changes.",
+  "whatItIs": "An automation and AI workflow agency builds systems that do repetitive business work automatically, connecting apps, moving and cleaning data, and adding AI steps that draft, summarize, classify, or route information. You typically work with no-code and low-code platforms like Zapier, Make, and n8n, wired into tools a business already uses (CRMs, email, spreadsheets, Slack) and into LLM APIs for the AI parts. Clients usually pay a one-time setup or build fee for each workflow plus an ongoing monthly retainer for monitoring, fixes, and changes.",
   "dailyReality": "Most of the work is discovery and building, not coding from scratch. You spend a lot of time on calls and messages figuring out exactly what a client's process is, where it breaks, and whether it's even worth automating. Then you build and test workflows, handle the messy edge cases real data throws at you, and document what you made. A large share of ongoing time is maintenance: an app changes its API, a prompt stops behaving, a workflow silently fails, and a client messages you because something they depend on stopped working.",
   "startupCostsItemized": [
     { "item": "Automation platform subscriptions (Zapier, Make, or n8n hosting)", "low": 240, "high": 1200, "annual": true },
@@ -34,19 +34,19 @@
   "realEarnings": {
     "yearOne": "Most new agencies earn $1,000 to $4,000 per month part-time in year one, often from a handful of small setup projects ($500 to $3,000 each) and a couple of modest retainers. Income is lumpy until you have repeatable offers and a few referrals.",
     "experienced": "Operators with a clear niche, proven case studies, and recurring clients commonly report $5,000 to $12,000 per month. The stability comes from monthly retainers ($300 to $2,000+ each) layered on top of new build fees, so you're not starting from zero each month.",
-    "topEarners": "Top solo specialists and small agencies reach $150,000 to $400,000+ per year by focusing on a specific industry or high-value process, charging on the business value delivered rather than hours, and hiring builders to take on more clients. Getting there requires genuine expertise, a sales pipeline, and reliable delivery — not just knowing the tools.",
+    "topEarners": "Top solo specialists and small agencies reach $150,000 to $400,000+ per year by focusing on a specific industry or high-value process, charging on the business value delivered rather than hours, and hiring builders to take on more clients. Getting there requires genuine expertise, a sales pipeline, and reliable delivery, not just knowing the tools.",
     "whatAffectsMost": "Picking a niche and solving an expensive, repeated problem matters far more than tool mastery. Agencies that quantify the value (hours saved, errors avoided, deals captured) and charge accordingly out-earn those billing hourly for 'building Zaps.' Retainers vs. one-off projects is the difference between steady and feast-or-famine.",
     "perHour": "Effective rates vary widely. Pure hourly work often lands at $50 to $125 per hour; value-priced projects with a strong niche can imply $150 to $300+ per hour of build time, but a lot of unbilled discovery, maintenance, and rebuilding eats into that, especially early on."
   },
   "howToStart": [
     "Month 1: Get genuinely fluent in one or two platforms (start with Make or Zapier, optionally n8n) and one LLM API. Build three to five real workflows for yourself or a friend's business so you understand how things break, not just how the demos look.",
-    "Month 1-2: Pick a niche — an industry (real estate, agencies, e-commerce) or a process (lead handling, client onboarding, reporting). Define one or two concrete, packaged offers with clear outcomes instead of selling vague 'automation consulting.'",
+    "Month 1-2: Pick a niche, an industry (real estate, agencies, e-commerce) or a process (lead handling, client onboarding, reporting). Define one or two concrete, packaged offers with clear outcomes instead of selling vague 'automation consulting.'",
     "Month 2-3: Land your first one or two clients by offering a paid pilot or a fixed-scope first project, ideally to people in your network or niche. Document the before/after and the time or money saved to create your first case study.",
     "Months 3-6: Turn delivery into a repeatable process, add monitoring and maintenance retainers so income recurs, and use case studies and referrals to land more clients in the same niche. Reinvest in deeper tooling only as the workload justifies it."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Strong logical and process thinking — mapping a real business workflow into reliable, ordered steps",
+      "Strong logical and process thinking, mapping a real business workflow into reliable, ordered steps",
       "Comfort with APIs, webhooks, data formats (JSON), and connecting tools without breaking",
       "Discovery and communication skill to extract what a client actually needs versus what they say they want"
     ],
@@ -66,12 +66,12 @@
     "Building fragile workflows with no error handling or monitoring, then drowning in unpaid maintenance when they break",
     "Underpricing by billing hourly for 'building Zaps' instead of charging for the outcome the business gets",
     "Ignoring the ongoing cost and limits of platform and LLM API usage, which can quietly erode margins at scale",
-    "Assuming the tools and AI capabilities will stay put — they change fast, breaking integrations and sometimes the value proposition itself",
+    "Assuming the tools and AI capabilities will stay put, they change fast, breaking integrations and sometimes the value proposition itself",
     "Taking on processes that aren't worth automating, so the client never sees enough value to keep paying"
   ],
   "toolsAndEquipment": [
     { "item": "Automation platform (Make, Zapier, or self-hosted n8n)", "note": "Your core build environment. Many start on Make or Zapier; n8n lowers per-task cost but you host and maintain it.", "low": 240, "high": 1200 },
-    { "item": "LLM API access (Claude, plus others as needed)", "note": "Powers the AI steps — drafting, summarizing, classifying, extracting. Watch token/usage costs in client builds.", "low": 120, "high": 1200 },
+    { "item": "LLM API access (Claude, plus others as needed)", "note": "Powers the AI steps, drafting, summarizing, classifying, extracting. Watch token/usage costs in client builds.", "low": 120, "high": 1200 },
     { "item": "A capable laptop", "note": "No special hardware needed; a normal modern laptop is fine for building and testing." },
     { "item": "Error monitoring and logging", "note": "How you catch silent failures before the client does. Essential once you carry retainers." },
     { "item": "Documentation and project tools", "note": "Notion, Loom, and a simple CRM keep builds repeatable and clients informed." },
@@ -85,7 +85,7 @@
       "Partnering with agencies, consultants, and software resellers who have clients needing automation but don't build it",
       "Content on LinkedIn or in niche communities demonstrating you solve a specific, painful problem"
     ],
-    "whereCustomersAre": "The best clients are small and mid-sized businesses with repetitive, manual processes and enough revenue to value time saved — marketing agencies, e-commerce brands, real estate teams, professional services firms. Decision-makers hang out on LinkedIn and in industry-specific communities.",
+    "whereCustomersAre": "The best clients are small and mid-sized businesses with repetitive, manual processes and enough revenue to value time saved, marketing agencies, e-commerce brands, real estate teams, professional services firms. Decision-makers hang out on LinkedIn and in industry-specific communities.",
     "timeToClientBase": "Expect one to three months to land your first clients and six to twelve months to build a stable base of retainers and referrals. Recurring revenue grows slowly at first, then compounds as case studies accumulate.",
     "wasteOfTime": "Cold, generic 'I do AI automation' blasts with no niche or proof, and chasing tiny clients who can't pay enough to justify the support burden. Spray-and-pray outreach and tutorial-style content for other automation builders rarely produces paying clients."
   },
@@ -121,11 +121,11 @@
     },
     {
       "question": "Won't AI tools just automate this work away?",
-      "answer": "AI is changing the field fast, and some simple integrations are getting easier for anyone to set up. The durable value is in understanding a specific business's messy processes, designing reliable systems, and maintaining them — which is consulting, not just tool operation. Expect to keep learning and to reposition as capabilities shift."
+      "answer": "AI is changing the field fast, and some simple integrations are getting easier for anyone to set up. The durable value is in understanding a specific business's messy processes, designing reliable systems, and maintaining them, which is consulting, not just tool operation. Expect to keep learning and to reposition as capabilities shift."
     },
     {
       "question": "How do I price automation work?",
-      "answer": "Most agencies charge a one-time setup or build fee per workflow plus a monthly retainer for monitoring and changes. Pricing on the business value — hours saved, errors avoided, revenue captured — earns far more than billing hourly. Always account for ongoing platform and LLM API costs so a busy workflow doesn't erase your margin."
+      "answer": "Most agencies charge a one-time setup or build fee per workflow plus a monthly retainer for monitoring and changes. Pricing on the business value, hours saved, errors avoided, revenue captured, earns far more than billing hourly. Always account for ongoing platform and LLM API costs so a busy workflow doesn't erase your margin."
     },
     {
       "question": "What's the difference between Zapier, Make, and n8n?",

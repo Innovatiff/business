@@ -2,7 +2,7 @@
   "title": "Meal Kit Business",
   "slug": "meal-kit-business",
   "category": "food-and-beverage",
-  "metaTitle": "How to Start a Meal Kit Business — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a Meal Kit Business: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting a meal kit business: real costs of a commissary kitchen, cold-chain logistics, thin margins, and what most founders get wrong.",
   "startupCostLow": 8000,
   "startupCostHigh": 120000,
@@ -10,7 +10,7 @@
   "monthlyEarningsHigh": 9000,
   "timeToFirstIncome": "2 to 5 months",
   "difficultyLevel": "Advanced",
-  "bestFor": "Operators who can handle perishable inventory, recurring-subscription logistics, and cold-chain packaging — not first-time cooks chasing a food brand",
+  "bestFor": "Operators who can handle perishable inventory, recurring-subscription logistics, and cold-chain packaging, not first-time cooks chasing a food brand",
   "biggestRisk": "Spoilage and cold-chain failures combined with high subscriber churn eating margins faster than new customers replace them",
   "speedToIncome": "months",
   "minWeeklyHours": 40,
@@ -34,24 +34,24 @@
     { "item": "Branding, photography, and launch marketing", "low": 1000, "high": 10000, "optional": true }
   ],
   "realEarnings": {
-    "yearOne": "Most meal kit operators make little to no owner income in year one. A local subscription with 30 to 100 weekly kits at a typical $40 to $70 per kit might gross $5,000 to $25,000 per month, but ingredient cost (often 30-40%), packaging, kitchen rent, and labor leave thin owner profit — frequently $0 to $3,000 per month while you build and retain subscribers.",
+    "yearOne": "Most meal kit operators make little to no owner income in year one. A local subscription with 30 to 100 weekly kits at a typical $40 to $70 per kit might gross $5,000 to $25,000 per month, but ingredient cost (often 30-40%), packaging, kitchen rent, and labor leave thin owner profit, frequently $0 to $3,000 per month while you build and retain subscribers.",
     "experienced": "An established local operator with several hundred recurring kits, controlled food cost, and low spoilage commonly takes home $3,000 to $9,000 per month. Reaching this depends almost entirely on subscriber retention; the business only works when most customers stay past the first few weeks.",
     "topEarners": "A small number of regional operators scale to thousands of kits with hired prep staff, refined logistics, and corporate or grocery partnerships, producing six-figure annual owner profit. National meal kit companies are venture-funded operations with razor-thin margins; competing with them head-on is not a realistic solo path.",
     "whatAffectsMost": "Subscriber churn and spoilage are the two numbers that decide profitability. A few percentage points of weekly churn or a single batch of wasted perishables can erase a cycle's profit. Food cost discipline and accurate demand forecasting matter more than menu creativity.",
     "perHour": "Including sourcing, prep, packing, delivery coordination, and customer service, effective hourly rates often run $12 to $30 in the first year or two. It improves meaningfully once volume rises and prep is partly delegated, but the work-per-dollar is high."
   },
   "howToStart": [
-    "Months 1-2: Validate before investing. Run a small pilot — a handful of kits sold to friends, neighbors, or a local group at your real target price — to prove people will pay and rebuy. Nail down 4-6 strong, source-able recipes with predictable ingredient costs and reasonable shelf life.",
-    "Month 2: Secure a licensed commissary or commercial kitchen and get your food-handler and any manager certification. Confirm your local cottage-food rules do not cover raw multi-ingredient kits — most require a commercial kitchen. Line up reliable produce and protein suppliers.",
+    "Months 1-2: Validate before investing. Run a small pilot, a handful of kits sold to friends, neighbors, or a local group at your real target price, to prove people will pay and rebuy. Nail down 4-6 strong, source-able recipes with predictable ingredient costs and reasonable shelf life.",
+    "Month 2: Secure a licensed commissary or commercial kitchen and get your food-handler and any manager certification. Confirm your local cottage-food rules do not cover raw multi-ingredient kits, most require a commercial kitchen. Line up reliable produce and protein suppliers.",
     "Months 2-3: Build the ordering system on Shopify or a subscription platform, design insulated packaging that keeps food safe to the customer's door, and set per-kit pricing that covers ingredients, packaging, labor, and rent with margin left over.",
     "Month 3: Launch locally with delivery or pickup to keep cold-chain costs down. Cap volume so your first cycles are flawless rather than overwhelming. Measure food cost and waste on every run.",
-    "Months 3-6: Focus relentlessly on retention — onboarding, menu variety, and reliability — because churn, not acquisition, is what kills meal kit businesses. Only expand the radius or volume once your unit economics and spoilage are under control."
+    "Months 3-6: Focus relentlessly on retention, onboarding, menu variety, and reliability, because churn, not acquisition, is what kills meal kit businesses. Only expand the radius or volume once your unit economics and spoilage are under control."
   ],
   "skillsRequired": {
     "mustHave": [
       "Food-safety knowledge for handling and transporting perishable raw ingredients",
       "Inventory and demand forecasting to avoid over-buying perishables",
-      "Cost discipline — pricing kits to cover ingredients, packaging, labor, and rent with real margin"
+      "Cost discipline, pricing kits to cover ingredients, packaging, labor, and rent with real margin"
     ],
     "canLearn": [
       "Subscription ecommerce setup and recurring billing",
@@ -65,7 +65,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Underestimating churn — acquiring customers is easy, but meal kit retention is brutal and most cancel within weeks",
+    "Underestimating churn, acquiring customers is easy, but meal kit retention is brutal and most cancel within weeks",
     "Trying to ship nationally too early, when cold-chain shipping costs can exceed the kit's margin entirely",
     "Over-buying perishables on optimistic forecasts and watching spoilage erase profit",
     "Pricing kits by comparing to grocery cost while ignoring packaging, kitchen rent, and labor",
@@ -88,7 +88,7 @@
       "Partnerships with local gyms, offices, and dietitians whose members want convenient home cooking",
       "Sampling at farmers markets and local events to convert tasters into trial subscribers"
     ],
-    "whereCustomersAre": "Time-pressed households — working parents, professionals, and couples — who want to cook at home but not plan and shop. Early on they are concentrated in your delivery radius, found through local social media and community groups.",
+    "whereCustomersAre": "Time-pressed households, working parents, professionals, and couples, who want to cook at home but not plan and shop. Early on they are concentrated in your delivery radius, found through local social media and community groups.",
     "timeToClientBase": "Reaching a stable, retained subscriber base usually takes 4 to 9 months of consistent cycles and active retention work. The first subscribers come quickly; keeping them is the slow part.",
     "wasteOfTime": "Broad national digital ads competing with venture-funded brands, and trying to scale acquisition before retention is solved. Early on, a small loyal local base beats a large churning one."
   },
@@ -140,7 +140,7 @@
     },
     {
       "question": "How much should I charge per kit?",
-      "answer": "Price to cover ingredients, packaging, labor, and a share of kitchen rent, plus margin and expected spoilage — not just to beat grocery prices. Many local kits land somewhere around $40 to $70 for a multi-serving meal, but the right number depends on your costs. If your math only works at full subscription with zero waste, the price is too low."
+      "answer": "Price to cover ingredients, packaging, labor, and a share of kitchen rent, plus margin and expected spoilage, not just to beat grocery prices. Many local kits land somewhere around $40 to $70 for a multi-serving meal, but the right number depends on your costs. If your math only works at full subscription with zero waste, the price is too low."
     },
     {
       "question": "How long until it makes real money?",
@@ -154,10 +154,10 @@
     "subscription-box-business"
   ],
   "dataSources": [
-    "U.S. Food and Drug Administration and state health departments — food-safety and commercial-kitchen requirements",
-    "IBISWorld — Meal Kit and Prepared-Meal Delivery industry reports",
+    "U.S. Food and Drug Administration and state health departments, food-safety and commercial-kitchen requirements",
+    "IBISWorld, Meal Kit and Prepared-Meal Delivery industry reports",
     "Public filings and reporting on national meal kit companies (margin and churn benchmarks)",
-    "Small Business Administration and SCORE — food-business startup and licensing guidance",
+    "Small Business Administration and SCORE, food-business startup and licensing guidance",
     "Operator communities (r/smallbusiness, food-startup forums) for real-world margin, churn, and packaging reports"
   ],
   "lastReviewed": "2026-06"

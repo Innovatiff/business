@@ -2,7 +2,7 @@
   "title": "Drywall Business",
   "slug": "drywall-business",
   "category": "trades-and-skilled-work",
-  "metaTitle": "How to Start a Drywall Business — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a Drywall Business: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting a drywall business: real startup costs, realistic earnings, hanging and finishing skills, subcontracting, and what most operators get wrong.",
   "startupCostLow": 1500,
   "startupCostHigh": 20000,
@@ -20,10 +20,10 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "A drywall business hangs and finishes the gypsum board that forms the interior walls and ceilings of homes and buildings. The trade splits into two related skills: hanging (cutting and fastening sheets to framing) and finishing (taping the seams, applying multiple coats of joint compound or 'mud,' and sanding to a smooth, paint-ready surface). Finishing is the harder, higher-value skill — clean, flat, blemish-free walls are what separate a professional from an amateur, and bad finishing shows the moment paint and light hit the wall.\n\nMost work comes from builders, general contractors, and remodelers rather than directly from homeowners, so a large share of drywall businesses operate as subcontractors. New construction, additions, basement finishes, remodels, and repair work (water damage, settling cracks, patches) all generate demand. Pricing is usually per square foot of board hung and finished, sometimes by the job for repairs. Startup costs are moderate — far below roofing — but the work is physically punishing, the finishing skill takes real time to master, and accurate bidding is what determines whether per-square-foot work is profitable.",
-  "dailyReality": "Days are physical and dusty. Hanging means lifting and positioning heavy 4x8 or larger sheets — often overhead for ceilings — measuring, cutting, and fastening, frequently on stilts or scaffolding. Finishing days mean taping seams, troweling on coats of mud, and waiting for each coat to dry before the next, then sanding, which fills the air with fine dust. You move between job sites that builders schedule, often working solo or with a helper, and the pace is set by the contractor's timeline and the other trades around you. As the owner you also bid jobs (measuring board footage), order materials, coordinate with the general contractor, and chase payment — which, as a subcontractor, can lag behind your work by weeks.",
+  "whatItIs": "A drywall business hangs and finishes the gypsum board that forms the interior walls and ceilings of homes and buildings. The trade splits into two related skills: hanging (cutting and fastening sheets to framing) and finishing (taping the seams, applying multiple coats of joint compound or 'mud,' and sanding to a smooth, paint-ready surface). Finishing is the harder, higher-value skill, clean, flat, blemish-free walls are what separate a professional from an amateur, and bad finishing shows the moment paint and light hit the wall.\n\nMost work comes from builders, general contractors, and remodelers rather than directly from homeowners, so a large share of drywall businesses operate as subcontractors. New construction, additions, basement finishes, remodels, and repair work (water damage, settling cracks, patches) all generate demand. Pricing is usually per square foot of board hung and finished, sometimes by the job for repairs. Startup costs are moderate, far below roofing, but the work is physically punishing, the finishing skill takes real time to master, and accurate bidding is what determines whether per-square-foot work is profitable.",
+  "dailyReality": "Days are physical and dusty. Hanging means lifting and positioning heavy 4x8 or larger sheets, often overhead for ceilings, measuring, cutting, and fastening, frequently on stilts or scaffolding. Finishing days mean taping seams, troweling on coats of mud, and waiting for each coat to dry before the next, then sanding, which fills the air with fine dust. You move between job sites that builders schedule, often working solo or with a helper, and the pace is set by the contractor's timeline and the other trades around you. As the owner you also bid jobs (measuring board footage), order materials, coordinate with the general contractor, and chase payment, which, as a subcontractor, can lag behind your work by weeks.",
   "startupCostsItemized": [
-    { "item": "Hand tools — taping knives, trowels, mud pans, utility knives, T-square", "low": 150, "high": 600 },
+    { "item": "Hand tools, taping knives, trowels, mud pans, utility knives, T-square", "low": 150, "high": 600 },
     { "item": "Drill/screw gun, drywall router, rasp", "low": 100, "high": 500 },
     { "item": "Stilts, scaffolding, or work platforms", "low": 100, "high": 1500 },
     { "item": "Drywall lift (for ceilings)", "low": 0, "high": 800, "optional": true },
@@ -42,7 +42,7 @@
   },
   "howToStart": [
     "Weeks 1-2: Be honest about your skill level. If you can already hang and finish to a paint-ready standard, you are ready; if not, work under an experienced finisher first, because finishing quality is the whole business. Buy core hand tools and get general liability insurance before paid work.",
-    "Weeks 2-4: Learn to bid per square foot accurately — measure board footage, factor in ceilings, repairs, and finish level, and include materials and your time. Build a small portfolio of clean finished work and set up a simple Google Business Profile.",
+    "Weeks 2-4: Learn to bid per square foot accurately, measure board footage, factor in ceilings, repairs, and finish level, and include materials and your time. Build a small portfolio of clean finished work and set up a simple Google Business Profile.",
     "Month 1-2: Approach local builders, general contractors, and remodeling companies offering subcontract hanging and finishing. Take on a manageable first job, hit the schedule, and deliver flawless finishing to earn the repeat work that keeps this business fed.",
     "Months 2-4: Turn satisfied contractors into steady repeat clients, add residential repair and patch work to fill gaps, and decide whether to add a helper or automatic taping tools to increase speed and volume."
   ],
@@ -64,7 +64,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Underestimating how hard finishing is — poor seams and sanding show under paint and trigger callbacks that erase profit",
+    "Underestimating how hard finishing is, poor seams and sanding show under paint and trigger callbacks that erase profit",
     "Misbidding per-square-foot jobs by forgetting ceilings, high finish levels, repairs, or material cost, then losing money on volume",
     "Taking on more than they can deliver on a builder's schedule and damaging the relationships that feed the business",
     "Ignoring dust control and respirators, risking long-term lung health from silica and joint-compound dust",
@@ -76,7 +76,7 @@
     { "item": "Screw gun / drywall drill", "note": "A dedicated drywall screw gun with depth control speeds hanging and prevents over-driving screws.", "low": 80, "high": 300 },
     { "item": "Stilts and scaffolding", "note": "For ceilings and high walls. Stilts speed finishing once you're comfortable; scaffolding is safer for some work.", "low": 100, "high": 1500 },
     { "item": "Drywall lift", "note": "Lets one person hang ceiling board safely. A major back-saver for solo operators.", "low": 0, "high": 800 },
-    { "item": "Automatic taping tools (bazooka, flat boxes)", "note": "Big speed gains for high-volume work. Expensive and skill-dependent — add once volume justifies it.", "low": 0, "high": 5000 },
+    { "item": "Automatic taping tools (bazooka, flat boxes)", "note": "Big speed gains for high-volume work. Expensive and skill-dependent, add once volume justifies it.", "low": 0, "high": 5000 },
     { "item": "Sander with dust control and respirators", "note": "Vacuum-assisted sanders and proper respirators protect your lungs and keep job sites cleaner.", "low": 150, "high": 1200 }
   ],
   "howToFindCustomers": {
@@ -127,7 +127,7 @@
     },
     {
       "question": "What is the difference between hanging and finishing?",
-      "answer": "Hanging is fastening the drywall sheets to the framing; finishing is taping the seams, applying coats of joint compound, and sanding to a smooth, paint-ready surface. Finishing is the harder, higher-value skill — it is what shows under paint and light, and it is what separates a professional from an amateur. Many operators are strong at both, but finishing quality drives reputation."
+      "answer": "Hanging is fastening the drywall sheets to the framing; finishing is taping the seams, applying coats of joint compound, and sanding to a smooth, paint-ready surface. Finishing is the harder, higher-value skill, it is what shows under paint and light, and it is what separates a professional from an amateur. Many operators are strong at both, but finishing quality drives reputation."
     },
     {
       "question": "Can I start a drywall business with no experience?",
@@ -153,9 +153,9 @@
     "electrician-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Drywall and Ceiling Tile Installers, and Tapers occupational data",
-    "OSHA / NIOSH — silica and construction dust exposure guidance",
-    "Angi / HomeAdvisor — Drywall Installation and Repair Cost Guides (reported per-square-foot ranges)",
+    "U.S. Bureau of Labor Statistics, Drywall and Ceiling Tile Installers, and Tapers occupational data",
+    "OSHA / NIOSH, silica and construction dust exposure guidance",
+    "Angi / HomeAdvisor, Drywall Installation and Repair Cost Guides (reported per-square-foot ranges)",
     "Construction subcontractor communities and operator interviews for real-world bidding and earnings"
   ],
   "lastReviewed": "2026-06"

@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { GUIDES } from '../../data/guides';
 import { SITE } from '../../config';
+import AuthorByline from '../../components/AuthorByline.astro';
 
 const all = await getCollection('businesses');
 
@@ -20,7 +21,7 @@ const jsonLd = [
     '@type': 'CollectionPage',
     name: 'Business Guides',
     description:
-      'Honest, data-driven "best of" business guides — each pick is a real business with sourced startup costs and realistic earnings.',
+      'Honest, data-driven "best of" business guides, each pick is a real business with sourced startup costs and realistic earnings.',
     hasPart: GUIDES.map((g) => ({
       '@type': 'Article',
       name: g.title,
@@ -39,8 +40,8 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title="Business Guides — Honest, Data-Driven Best-Of Lists"
-  description="Honest 'best business to start' guides — for little money, from home, with no experience, part-time, or for the highest income. Every pick is a real business with sourced costs and realistic earnings."
+  title="Business Guides: Honest, Data-Driven Best-Of Lists"
+  description="Honest 'best business to start' guides, for little money, from home, with no experience, part-time, or for the highest income. Every pick is a real business with sourced costs and realistic earnings."
   path="/guides"
   jsonLd={jsonLd}
 >
@@ -49,7 +50,7 @@ const jsonLd = [
     <h1>Honest business guides</h1>
     <p class="lead">
       Most "best business to start" lists are thin and built to sell you a course. Ours are built
-      from our real business library — every pick links to a full breakdown with sourced startup
+      from our real business library, every pick links to a full breakdown with sourced startup
       costs, realistic earnings, and the honest risks. Pick the guide that fits where you are today.
     </p>
   </div>
@@ -61,6 +62,7 @@ const jsonLd = [
           <span class="guide-hub-count">{c.count} businesses</span>
           <h2>{c.title}</h2>
           <p>{c.lead}</p>
+          <span class="guide-hub-byline"><AuthorByline variant="compact" /></span>
           <span class="guide-hub-cta">Read the guide →</span>
         </a>
       ))}
@@ -69,7 +71,7 @@ const jsonLd = [
     <div class="card browse-cta" style="display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;padding:1.5rem 1.75rem;margin-top:2rem;">
       <div>
         <h3 style="margin:0 0 0.3rem;">Want a pick made for your exact situation?</h3>
-        <p class="muted" style="margin:0;max-width:60ch;">Answer a few honest questions about your budget, time, and skills and we'll match you to the businesses that actually fit — no account, nothing stored.</p>
+        <p class="muted" style="margin:0;max-width:60ch;">Answer a few honest questions about your budget, time, and skills and we'll match you to the businesses that actually fit, no account, nothing stored.</p>
       </div>
       <a href="/find-my-business" class="btn btn-primary">Find my business →</a>
     </div>
@@ -128,6 +130,10 @@ const jsonLd = [
     font-size: 0.94rem;
     line-height: 1.55;
     flex: 1;
+  }
+  .guide-hub-byline {
+    display: block;
+    margin-bottom: 0.75rem;
   }
   .guide-hub-cta {
     font-family: var(--font-display);

@@ -2,7 +2,7 @@
   "title": "Conversion Rate Optimization Business",
   "slug": "cro-consulting-business",
   "category": "online-businesses",
-  "metaTitle": "How to Start a Conversion Rate Optimization (CRO) Business — Costs and Earnings",
+  "metaTitle": "How to Start a Conversion Rate Optimization (CRO) Business: Costs and Earnings",
   "metaDescription": "Honest breakdown of starting a conversion rate optimization business: A/B testing, funnel work, realistic earnings, finding clients, and what most people get wrong.",
   "startupCostLow": 500,
   "startupCostHigh": 5000,
@@ -21,7 +21,7 @@
   "partTimeFriendly": false,
   "featured": false,
   "whatItIs": "A conversion rate optimization (CRO) business helps ecommerce stores, SaaS companies, and lead-generation sites turn more of their existing traffic into customers without spending more on ads. The work is part analytics, part user-experience research, and part experimentation: you study where users drop off in a funnel, form hypotheses about why, and run controlled A/B or multivariate tests to prove which changes actually lift revenue, sign-ups, or leads. Unlike most marketing services, CRO is judged on measurable outcomes, which is both its strength (clients see the math) and its difficulty (you cannot hide behind activity).",
-  "dailyReality": "Your week revolves around the experimentation cycle. You pull analytics and session recordings to find leak points, watch heatmaps and user-session replays, sometimes run quick user tests or surveys, then write a prioritized hypothesis: change X because of evidence Y, expecting outcome Z. You build the test variant (often with a tool like a visual editor or by briefing a developer), QA it across devices, launch it, and then wait — tests usually need one to four weeks to gather enough data. Much of the job is patient analysis, careful test setup, and writing clear readouts that explain what won, what lost, and what to do next. Managing client expectations during the inevitable losing and inconclusive tests is a core, unglamorous part of the work.",
+  "dailyReality": "Your week revolves around the experimentation cycle. You pull analytics and session recordings to find leak points, watch heatmaps and user-session replays, sometimes run quick user tests or surveys, then write a prioritized hypothesis: change X because of evidence Y, expecting outcome Z. You build the test variant (often with a tool like a visual editor or by briefing a developer), QA it across devices, launch it, and then wait, tests usually need one to four weeks to gather enough data. Much of the job is patient analysis, careful test setup, and writing clear readouts that explain what won, what lost, and what to do next. Managing client expectations during the inevitable losing and inconclusive tests is a core, unglamorous part of the work.",
   "startupCostsItemized": [
     { "item": "Laptop you likely already own", "low": 0, "high": 1500, "optional": true },
     { "item": "A/B testing platform (VWO, Convert, or Optimizely-tier)", "low": 600, "high": 3600, "annual": true },
@@ -40,14 +40,14 @@
   },
   "howToStart": [
     "Month 1: Build the core competency. Get genuinely fluent in GA4 or your analytics stack, A/B testing statistics (sample size, significance, the dangers of peeking), and a testing platform. Study real CRO case studies to learn how wins are structured and measured.",
-    "Month 2: Get proof. Run real experiments on your own site, a friend's store, or a free/cheap engagement, and document the full cycle — hypothesis, test, result, revenue impact. One credible case study with real numbers is worth more than any certification.",
+    "Month 2: Get proof. Run real experiments on your own site, a friend's store, or a free/cheap engagement, and document the full cycle, hypothesis, test, result, revenue impact. One credible case study with real numbers is worth more than any certification.",
     "Months 2-3: Define a tight niche (e.g. Shopify DTC brands, or B2B SaaS trials) and offer a paid 'conversion audit' as a low-risk entry product that naturally leads into an ongoing testing retainer.",
     "Months 3-4: Land first retainer clients with enough traffic to test, ideally 10,000+ relevant sessions or a few hundred conversions per month. Set expectations up front that most tests will not win and that compounding gains come from a steady testing cadence.",
     "Ongoing: Treat your own case-study library as the asset. Every validated win you can show (with permission) makes the next client easier and more expensive to land."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Comfort with analytics and data — reading funnels, segments, and conversion paths without guessing",
+      "Comfort with analytics and data, reading funnels, segments, and conversion paths without guessing",
       "A working understanding of experimentation statistics: sample size, significance, and why you must not stop a test early",
       "UX and persuasion sense to form hypotheses worth testing, plus the technical ability to set up tests correctly"
     ],
@@ -57,14 +57,14 @@
       "Front-end tweaks (HTML/CSS/JS) to build variants or brief developers precisely"
     ],
     "separators": [
-      "Hypothesis quality — top consultants test high-leverage changes backed by real evidence, not random button colors",
-      "Statistical honesty — refusing to call a test before significance, which protects clients and your reputation",
-      "Selling the program, not the project — turning a one-off audit into a continuous, retained testing relationship and proving ROI in revenue terms"
+      "Hypothesis quality, top consultants test high-leverage changes backed by real evidence, not random button colors",
+      "Statistical honesty, refusing to call a test before significance, which protects clients and your reputation",
+      "Selling the program, not the project, turning a one-off audit into a continuous, retained testing relationship and proving ROI in revenue terms"
     ]
   },
   "whatPeopleGetWrong": [
     "Taking on sites with too little traffic, where tests can never reach statistical significance and you end up guessing while charging like an expert",
-    "Calling tests early when they 'look like winners' — peeking and stopping at the first good-looking moment produces false wins that vanish in reality",
+    "Calling tests early when they 'look like winners', peeking and stopping at the first good-looking moment produces false wins that vanish in reality",
     "Testing trivial changes (button colors, hero copy tweaks) instead of high-leverage funnel and offer changes that move real money",
     "Promising guaranteed lift percentages, when most tests are flat or losing and gains compound slowly over many experiments",
     "Ignoring qualitative research and testing blind, so hypotheses are just opinions dressed up as experiments",
@@ -80,7 +80,7 @@
   ],
   "howToFindCustomers": {
     "methods": [
-      "Targeting ecommerce and SaaS companies that already spend heavily on paid traffic — they feel the pain of low conversion most acutely",
+      "Targeting ecommerce and SaaS companies that already spend heavily on paid traffic, they feel the pain of low conversion most acutely",
       "Offering a paid conversion audit as a low-commitment first engagement that leads into a retainer",
       "Publishing detailed teardown content and case studies showing real, numbers-backed wins",
       "Partnering with paid-media and SEO agencies that drive traffic but do not optimize the landing experience",
@@ -95,7 +95,7 @@
     "toFullTime": "Yes, and it can become a high-income full-time business with just a handful of retained clients, because per-client value is high. Reaching it requires real proof and sales ability, which is why most people take a few months to ramp.",
     "hireAndStepBack": "Yes. CRO scales into an agency by adding analysts, designers, and developers while you focus on strategy and client relationships. Quality depends on disciplined process, since sloppy test design quietly destroys client trust.",
     "sellable": "CRO agencies with recurring retainers, documented results, and repeatable process do sell, typically to larger growth or digital agencies. A solo practice built entirely on your personal reputation is harder to transfer.",
-    "whatScalingRequires": "Productized testing process, a strong case-study portfolio, reliable junior talent, and clients with enough traffic to keep a testing program running. The constraint is rarely demand — it is finding clients with the data volume to make CRO work."
+    "whatScalingRequires": "Productized testing process, a strong case-study portfolio, reliable junior talent, and clients with enough traffic to keep a testing program running. The constraint is rarely demand, it is finding clients with the data volume to make CRO work."
   },
   "fitChecklist": {
     "strongFit": [
@@ -119,7 +119,7 @@
   "faqs": [
     {
       "question": "How much traffic does a client need for CRO to work?",
-      "answer": "Enough to reach statistical significance in a reasonable time — as a rough rule, a few hundred conversions per month per tested page, often meaning 10,000+ relevant monthly sessions. Below that, tests take months or never conclude, and you end up guessing. Screening clients on traffic is one of the most important things you can do."
+      "answer": "Enough to reach statistical significance in a reasonable time, as a rough rule, a few hundred conversions per month per tested page, often meaning 10,000+ relevant monthly sessions. Below that, tests take months or never conclude, and you end up guessing. Screening clients on traffic is one of the most important things you can do."
     },
     {
       "question": "Do I need to be a developer?",

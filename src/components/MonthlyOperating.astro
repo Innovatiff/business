@@ -1,6 +1,6 @@
 ---
 /**
- * Recurring monthly operating costs — a small P&L that sits below the one-time
+ * Recurring monthly operating costs, a small P&L that sits below the one-time
  * startup costs so readers see what it costs to KEEP the business running.
  */
 import { money } from '../lib/format';
@@ -27,7 +27,7 @@ const totalHigh = items.reduce((s, i) => s + i.high, 0);
       {items.map((it) => (
         <tr>
           <th scope="row">{it.item}</th>
-          <td class="num figure">{it.low === 0 ? '—' : money(it.low)}</td>
+          <td class="num figure">{it.low === 0 ? ', ' : money(it.low)}</td>
           <td class="num figure">{money(it.high)}</td>
           <td class="op-note">{it.note}</td>
         </tr>

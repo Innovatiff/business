@@ -2,7 +2,7 @@
   "title": "Custom PC Building Business",
   "slug": "custom-pc-building-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start a Custom PC Building Business — Real Costs & Earnings",
+  "metaTitle": "How to Start a Custom PC Building Business: Real Costs & Earnings",
   "metaDescription": "Honest breakdown of starting a custom PC building business: real startup costs, thin component margins, realistic monthly earnings, finding clients, and common mistakes.",
   "startupCostLow": 800,
   "startupCostHigh": 6000,
@@ -21,7 +21,7 @@
   "partTimeFriendly": true,
   "featured": false,
   "whatItIs": "A custom PC building business assembles tailored desktop computers for gamers, creators, and businesses, and usually adds repairs, upgrades, and troubleshooting on top. You spec a build to the customer's budget and use case, source the parts, assemble and cable-manage the machine, install and update the operating system and drivers, stress-test it, and hand over a working system. Many operators run it as a hybrid: build-to-order PCs for the higher-margin jobs and a steadier stream of upgrades, diagnostics, virus cleanups, and dead-machine repairs to keep cash flowing between builds.",
-  "dailyReality": "On a build day you confirm the parts list, verify compatibility, and assemble in a clean static-safe space — mounting the motherboard, CPU, cooler, RAM, GPU, storage, and power supply, routing cables, then posting the system and running memory and thermal tests before a clean OS install. Repair and upgrade work is more reactive: diagnosing why a machine won't boot, swapping a failed drive or PSU, reseating components, or cloning an old disk to a new SSD. Around the bench work you spend real time messaging customers, building quotes, comparing part prices across retailers, and chasing components that go in and out of stock.",
+  "dailyReality": "On a build day you confirm the parts list, verify compatibility, and assemble in a clean static-safe space, mounting the motherboard, CPU, cooler, RAM, GPU, storage, and power supply, routing cables, then posting the system and running memory and thermal tests before a clean OS install. Repair and upgrade work is more reactive: diagnosing why a machine won't boot, swapping a failed drive or PSU, reseating components, or cloning an old disk to a new SSD. Around the bench work you spend real time messaging customers, building quotes, comparing part prices across retailers, and chasing components that go in and out of stock.",
   "startupCostsItemized": [
     { "item": "Tools (screwdrivers, anti-static strap, thermal paste, cable ties, spudgers)", "low": 60, "high": 200 },
     { "item": "Diagnostic gear (POST card, PSU tester, spare known-good PSU/RAM/GPU for swap testing)", "low": 150, "high": 600 },
@@ -36,12 +36,12 @@
   "realEarnings": {
     "yearOne": "Most operators in year one earn $800 to $2,500 per month part-time, with profit coming mainly from labor and repair/upgrade work rather than the parts themselves. A typical custom build nets $75 to $250 in labor on top of parts; the bigger and steadier money early on is $60 to $120 repair and diagnostic jobs.",
     "experienced": "Established operators with a steady local reputation and a repair pipeline commonly report $3,000 to $7,000 per month. At this stage volume, a small parts markup on a reseller account, and recurring small-business clients (offices needing workstations and fixes) matter more than any single trophy build.",
-    "topEarners": "Top solo and small-shop operators reach $8,000 to $20,000+ per month, but that almost always means a storefront or busy bench, multiple builds and repairs per week, business/IT contracts, and sometimes a niche (workstations for studios, sim rigs, small-batch system integration). Getting there takes years of reputation, real inventory and cash flow, and often hiring help — and component price swings can erase a month's margin fast.",
+    "topEarners": "Top solo and small-shop operators reach $8,000 to $20,000+ per month, but that almost always means a storefront or busy bench, multiple builds and repairs per week, business/IT contracts, and sometimes a niche (workstations for studios, sim rigs, small-batch system integration). Getting there takes years of reputation, real inventory and cash flow, and often hiring help, and component price swings can erase a month's margin fast.",
     "whatAffectsMost": "Charging properly for labor and expertise rather than competing on parts price, mixing in higher-frequency repair/upgrade work, and component pricing/availability. Thin hardware margins mean operators who try to make money on parts alone rarely survive; the ones who thrive sell reliability, advice, and time.",
     "perHour": "Skilled build and repair time effectively runs $40 to $90 per hour. Counting unpaid quoting, part sourcing, and stock-chasing, realistic blended rates are often $25 to $60 per hour early on."
   },
   "howToStart": [
-    "Weeks 1-2: Set up a clean, static-safe workspace and your toolkit, and document 2-3 builds you do for yourself, friends, or family with clear photos and benchmark/stress-test results. Decide your service mix — builds, repairs, upgrades — and write simple labor pricing for each (flat build fee, hourly diagnostic, common-upgrade rates).",
+    "Weeks 1-2: Set up a clean, static-safe workspace and your toolkit, and document 2-3 builds you do for yourself, friends, or family with clear photos and benchmark/stress-test results. Decide your service mix, builds, repairs, upgrades, and write simple labor pricing for each (flat build fee, hourly diagnostic, common-upgrade rates).",
     "Weeks 3-4: Register the business, get general liability insurance, and apply for a reseller/sales-tax permit so you can buy parts correctly and charge tax. Create a Google Business Profile and post in local gaming and buy/sell/PC Facebook groups, Reddit city subs, and Discord servers offering builds and repairs.",
     "Month 1: Take your first paid jobs and decide how you handle parts: the lowest-risk path is having the customer pre-pay for or buy their own parts so you are never floating thousands in inventory. Ask every happy customer for a Google review and before/after photos the day you finish.",
     "Months 2-3: Build a referral and repeat pipeline, get reseller accounts (Newegg Business, Ingram/Synnex, or distributor accounts) once volume justifies it, and start approaching small businesses for workstation builds and ongoing repair work.",
@@ -49,9 +49,9 @@
   ],
   "skillsRequired": {
     "mustHave": [
-      "Solid, current PC hardware knowledge — compatibility, bottlenecks, BIOS, drivers, and clean OS installs",
+      "Solid, current PC hardware knowledge, compatibility, bottlenecks, BIOS, drivers, and clean OS installs",
       "Careful, methodical hands-on assembly and the patience to troubleshoot a system that won't post",
-      "Honest customer communication — explaining trade-offs and setting realistic expectations on parts and timelines"
+      "Honest customer communication, explaining trade-offs and setting realistic expectations on parts and timelines"
     ],
     "canLearn": [
       "Pricing labor and diagnostics for profit instead of guessing",
@@ -69,7 +69,7 @@
     "Floating thousands of dollars buying parts up front for customers who then back out or dispute, instead of having customers pre-pay",
     "Quoting builds without padding for component price and stock volatility, then eating the difference when a GPU jumps $100 before they buy",
     "Ignoring the steadier money in repairs and upgrades because builds feel more exciting",
-    "Mishandling customer data on repair jobs — no backups, no clear policy — and turning a fixable problem into a liability",
+    "Mishandling customer data on repair jobs, no backups, no clear policy, and turning a fixable problem into a liability",
     "Underpricing to win against big-box stores and hobbyists, then realizing the effective hourly rate isn't worth it"
   ],
   "toolsAndEquipment": [
@@ -85,7 +85,7 @@
     "methods": [
       "Local gaming, PC, and buy/sell Facebook groups, city subreddits, and Discord servers where people ask for builds and fixes",
       "A Google Business Profile with photos of real builds and steady reviews for repair-related local searches",
-      "Word of mouth and referrals from satisfied customers — the strongest channel in this niche",
+      "Word of mouth and referrals from satisfied customers, the strongest channel in this niche",
       "Small-business outreach for workstation builds and ongoing repair/upgrade contracts",
       "Niche communities (sim racing, video/3D creators, streamers) if you specialize"
     ],
@@ -133,7 +133,7 @@
     },
     {
       "question": "How do I compete with big PC retailers and system builders?",
-      "answer": "You don't beat them on price — you beat them on personalization, local service, honest advice, and being the human who fixes it when something goes wrong. Many customers will pay a fair labor fee for a machine specced exactly for their needs and a go-to person for support, especially gamers, creators, and small businesses."
+      "answer": "You don't beat them on price, you beat them on personalization, local service, honest advice, and being the human who fixes it when something goes wrong. Many customers will pay a fair labor fee for a machine specced exactly for their needs and a go-to person for support, especially gamers, creators, and small businesses."
     },
     {
       "question": "What about handling customer data during repairs?",
@@ -155,7 +155,7 @@
     "appliance-repair-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Computer, ATM, and Office Machine Repairers occupational data",
+    "U.S. Bureau of Labor Statistics, Computer, ATM, and Office Machine Repairers occupational data",
     "PCPartPicker and major retailer pricing (component price and availability trends)",
     "Small-shop and system-integrator operator communities (r/buildapcforme, r/pcmasterrace, local PC repair forums)",
     "IBISWorld and industry cost guides for computer repair and system-building services"

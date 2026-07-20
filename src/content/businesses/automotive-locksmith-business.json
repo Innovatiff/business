@@ -2,7 +2,7 @@
   "title": "Automotive Locksmith and Key Programming Business",
   "slug": "automotive-locksmith-business",
   "category": "automotive",
-  "metaTitle": "How to Start an Automotive Locksmith Business — Real Costs and Earnings",
+  "metaTitle": "How to Start an Automotive Locksmith Business: Real Costs and Earnings",
   "metaDescription": "Honest guide to starting an automotive locksmith and key programming business: transponder and fob costs, real earnings, licensing, and what most beginners get wrong.",
   "startupCostLow": 8000,
   "startupCostHigh": 45000,
@@ -20,7 +20,7 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "An automotive locksmith and key programming business makes, replaces, and programs car keys and key fobs, cuts transponder and high-security keys, and gets people back into locked vehicles. This is a distinct, more technical niche than general (residential/commercial) locksmithing: nearly every car built since the late 1990s uses a transponder chip and an immobilizer, and modern push-to-start vehicles use proximity smart fobs that must be cut to the vehicle's key code and electronically programmed to the car's computer. The work is mostly mobile — you come to the customer in a parking lot, driveway, or dealership lot — and the value is in the programming equipment, the key/fob inventory, and the know-how, not in a storefront.",
+  "whatItIs": "An automotive locksmith and key programming business makes, replaces, and programs car keys and key fobs, cuts transponder and high-security keys, and gets people back into locked vehicles. This is a distinct, more technical niche than general (residential/commercial) locksmithing: nearly every car built since the late 1990s uses a transponder chip and an immobilizer, and modern push-to-start vehicles use proximity smart fobs that must be cut to the vehicle's key code and electronically programmed to the car's computer. The work is mostly mobile, you come to the customer in a parking lot, driveway, or dealership lot, and the value is in the programming equipment, the key/fob inventory, and the know-how, not in a storefront.",
   "dailyReality": "A typical day is a string of dispatched calls across town: a lockout here, a lost-all-keys job there, a fob duplicate for someone who wants a spare. For a lost-key job you identify the vehicle and immobilizer system, look up or originate the key code, cut a blank to match, then connect a programming tool to the OBD port to register the new key and sometimes erase old ones. Lockouts are quick; lost-all-keys jobs on a push-to-start car can take 30 to 90 minutes and require the right software and a charged vehicle battery. Between jobs you are sourcing the correct blanks and fobs, keeping programming software updated, fielding calls, and driving. It rewards people who like puzzles and stay calm when a car won't cooperate.",
   "startupCostsItemized": [
     { "item": "Key programming tool(s) and software subscriptions", "low": 2500, "high": 12000 },
@@ -38,7 +38,7 @@
     "experienced": "Operators with two-plus years, broad vehicle coverage, and steady dealer and roadside-network referrals commonly report $8,000 to $18,000 per month working solo or with a helper. Lost-all-keys jobs on modern vehicles and dealer overflow carry the strongest margins.",
     "topEarners": "Multi-van operations with several techs, wide programming coverage, and contracts feeding them work from dealers, insurers, and roadside networks gross $30,000 to $90,000 per month. Reaching that means hiring and training techs on expensive equipment, dispatch systems, and a shift from doing jobs to running a fleet.",
     "whatAffectsMost": "Vehicle coverage (which makes and immobilizer systems your equipment handles) and response time matter most. The operator who can program the most cars and arrive fastest wins the high-margin lost-all-keys calls others have to turn down.",
-    "perHour": "Effective rate for solo operators is high per job but spread across driving and dispatch — commonly $80 to $200 per hour of on-site work. Counting travel, sourcing, and software upkeep, realistic blended rates are often $50 to $110 per hour."
+    "perHour": "Effective rate for solo operators is high per job but spread across driving and dispatch, commonly $80 to $200 per hour of on-site work. Counting travel, sourcing, and software upkeep, realistic blended rates are often $50 to $110 per hour."
   },
   "howToStart": [
     "Month 1: Train before you charge. Take an automotive locksmith course or apprentice with an established tech, and learn immobilizer systems, key origination, and OBD programming. This is high-stakes technical work; a mis-programmed module can disable a car.",
@@ -50,7 +50,7 @@
   "skillsRequired": {
     "mustHave": [
       "Comfort with automotive electronics, OBD diagnostics, and immobilizer systems",
-      "Methodical, careful process — one wrong step can disable a vehicle module",
+      "Methodical, careful process, one wrong step can disable a vehicle module",
       "Reliability and calm customer handling, since many calls are stressed, stranded people"
     ],
     "canLearn": [
@@ -74,7 +74,7 @@
   ],
   "toolsAndEquipment": [
     { "item": "Key programming tool (e.g. dealer-style or aftermarket programmer)", "note": "The heart of the business. Coverage breadth and subscription cost vary widely; match it to the vehicles in your market.", "low": 2500, "high": 12000 },
-    { "item": "Key cutting machine — mechanical and laser/high-security", "note": "Originates keys from code. High-security (sidewinder) cutting is needed for many modern cars.", "low": 1500, "high": 10000 },
+    { "item": "Key cutting machine, mechanical and laser/high-security", "note": "Originates keys from code. High-security (sidewinder) cutting is needed for many modern cars.", "low": 1500, "high": 10000 },
     { "item": "Lishi picks, lockout kits, wedges, and entry tools", "note": "For lockouts and non-destructive entry. Cheap relative to the value of the calls.", "low": 200, "high": 800 },
     { "item": "Key blanks, transponder chips, and OEM/quality aftermarket fobs", "note": "Inventory is real money tied up; quality fobs program reliably, cheap clones cause comebacks.", "low": 1500, "high": 6000 },
     { "item": "Battery maintainer and OBD power supply", "note": "Keeps vehicle voltage stable during programming so procedures don't corrupt. Cheap insurance against bricked modules.", "low": 100, "high": 400 },
@@ -154,8 +154,8 @@
     "car-audio-installation-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Locksmiths and Safe Repairers (wage and employment data)",
-    "Associated Locksmiths of America (ALOA) — training, certification, and industry practice references",
+    "U.S. Bureau of Labor Statistics, Locksmiths and Safe Repairers (wage and employment data)",
+    "Associated Locksmiths of America (ALOA), training, certification, and industry practice references",
     "Automotive locksmith equipment vendors and training providers (typical tool, software, and startup costs)",
     "Mobile locksmith operator communities and forums for real-world job pricing and vehicle coverage realities"
   ],

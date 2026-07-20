@@ -3,6 +3,7 @@ import { moneyRange, monthlyRange } from '../lib/format';
 import { CATEGORY_MAP } from '../data/categories';
 import DifficultyBadge from './DifficultyBadge.astro';
 import SaveButton from './SaveButton.astro';
+import AuthorByline from './AuthorByline.astro';
 import type { CollectionEntry } from 'astro:content';
 
 export interface Props {
@@ -23,6 +24,7 @@ const category = CATEGORY_MAP[d.category];
       <DifficultyBadge level={d.difficultyLevel} />
     </div>
     {category && <span class="biz-card-cat">{category.shortName}</span>}
+    <span class="biz-card-byline"><AuthorByline variant="compact" /></span>
     <p class="biz-card-best">{d.bestFor}</p>
     <dl class="biz-card-stats">
       <div>
@@ -89,6 +91,10 @@ const category = CATEGORY_MAP[d.category];
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: var(--green-dark);
+  }
+  .biz-card-byline {
+    display: block;
+    margin-top: 0.5rem;
   }
   .biz-card-best {
     margin: 0.6rem 0 1rem;

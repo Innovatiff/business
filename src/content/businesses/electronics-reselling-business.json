@@ -2,7 +2,7 @@
   "title": "Refurbished Electronics Reselling Business",
   "slug": "electronics-reselling-business",
   "category": "retail-and-products",
-  "metaTitle": "How to Start a Refurbished Electronics Reselling Business — Real Costs",
+  "metaTitle": "How to Start a Refurbished Electronics Reselling Business: Real Costs",
   "metaDescription": "Honest guide to buying, refurbishing, and reselling used phones, laptops, and consoles: real sourcing, testing, and data-wipe costs, per-unit margins, warranty and returns risk.",
   "startupCostLow": 2000,
   "startupCostHigh": 30000,
@@ -11,7 +11,7 @@
   "timeToFirstIncome": "2 to 6 weeks",
   "difficultyLevel": "Intermediate",
   "bestFor": "Tech-comfortable people who can test, grade, and lightly repair devices and have patience for sourcing and per-unit margin work",
-  "biggestRisk": "Buying inventory you can't accurately test or grade — paying too much for devices with hidden faults, locks, or fakes — and getting buried in returns and warranty claims",
+  "biggestRisk": "Buying inventory you can't accurately test or grade, paying too much for devices with hidden faults, locks, or fakes, and getting buried in returns and warranty claims",
   "speedToIncome": "weeks",
   "minWeeklyHours": 10,
   "skills": ["tech", "sales"],
@@ -19,8 +19,8 @@
   "priorities": ["max-income", "flexibility", "alongside-job"],
   "noExperienceRequired": false,
   "partTimeFriendly": true,
-  "whatItIs": "A refurbished electronics reselling business buys used or broken consumer electronics — smartphones, laptops, tablets, and game consoles — then tests, cleans, repairs or upgrades, securely wipes data, grades, and resells them at a profit. This is distinct from a phone repair service: you are not fixing customers' devices for a fee, you own the inventory and make money on the per-unit spread between what you pay and what you sell for. You source from individuals (marketplace listings, trade-ins), bulk lots, auctions, and liquidation channels, and resell on eBay, Swappa, Back Market, Amazon Renewed, Facebook Marketplace, or your own store. The work rewards technical ability to diagnose and grade accurately, discipline in sourcing below market, and careful handling of data security and returns.",
-  "dailyReality": "A typical week is a cycle of sourcing, testing, and listing. You hunt for underpriced devices and lots, then for each unit you power it on, run diagnostics, check for carrier locks, iCloud/Google activation locks, battery health, screen and port faults, and whether it is genuine. You perform a secure data wipe, clean the device, do any cost-effective repairs or part swaps, photograph it honestly, grade it, and list it with an accurate condition description. The rest is answering buyer questions, packing devices safely, shipping, and handling the inevitable returns, disputes, and warranty claims — which in electronics are a normal cost of doing business, not an exception.",
+  "whatItIs": "A refurbished electronics reselling business buys used or broken consumer electronics, smartphones, laptops, tablets, and game consoles, then tests, cleans, repairs or upgrades, securely wipes data, grades, and resells them at a profit. This is distinct from a phone repair service: you are not fixing customers' devices for a fee, you own the inventory and make money on the per-unit spread between what you pay and what you sell for. You source from individuals (marketplace listings, trade-ins), bulk lots, auctions, and liquidation channels, and resell on eBay, Swappa, Back Market, Amazon Renewed, Facebook Marketplace, or your own store. The work rewards technical ability to diagnose and grade accurately, discipline in sourcing below market, and careful handling of data security and returns.",
+  "dailyReality": "A typical week is a cycle of sourcing, testing, and listing. You hunt for underpriced devices and lots, then for each unit you power it on, run diagnostics, check for carrier locks, iCloud/Google activation locks, battery health, screen and port faults, and whether it is genuine. You perform a secure data wipe, clean the device, do any cost-effective repairs or part swaps, photograph it honestly, grade it, and list it with an accurate condition description. The rest is answering buyer questions, packing devices safely, shipping, and handling the inevitable returns, disputes, and warranty claims, which in electronics are a normal cost of doing business, not an exception.",
   "startupCostsItemized": [
     { "item": "Initial inventory (used devices / starter lots)", "low": 1000, "high": 15000 },
     { "item": "Testing and diagnostic tools (battery testers, cables, software)", "low": 100, "high": 800 },
@@ -34,8 +34,8 @@
   "realEarnings": {
     "yearOne": "Most resellers start part-time and earn $800 to $3,000 per month in their first year as they learn sourcing, grading, and which devices move. Profit per unit varies widely, and early mistakes (overpaying, missing faults, returns) eat into margins. Those who go at it seriously and reinvest typically reach $3,000 to $6,000 per month within the first year.",
     "experienced": "Experienced resellers with reliable sourcing, accurate grading, and efficient testing and listing commonly report $4,000 to $12,000 per month in profit working solo or with one helper. Margins per device often run roughly 15–35% depending on category and sourcing, so volume and disciplined buying drive income more than any single sale.",
-    "topEarners": "Top operators run higher-volume operations with bulk sourcing relationships, multiple sales channels (including wholesale and certified-refurbished programs like Back Market or Amazon Renewed), and staff for testing and fulfillment, reaching $20,000+ per month. Reaching that took capital, consistent sourcing pipelines, and tight returns/warranty management — and the margins stay thin per unit.",
-    "whatAffectsMost": "Sourcing discipline matters most — your profit is largely made at the buy, not the sale. Accurate testing and grading (which prevents returns and bad feedback), category selection, channel choice and fees, and warranty/returns control are the other major levers.",
+    "topEarners": "Top operators run higher-volume operations with bulk sourcing relationships, multiple sales channels (including wholesale and certified-refurbished programs like Back Market or Amazon Renewed), and staff for testing and fulfillment, reaching $20,000+ per month. Reaching that took capital, consistent sourcing pipelines, and tight returns/warranty management, and the margins stay thin per unit.",
+    "whatAffectsMost": "Sourcing discipline matters most, your profit is largely made at the buy, not the sale. Accurate testing and grading (which prevents returns and bad feedback), category selection, channel choice and fees, and warranty/returns control are the other major levers.",
     "perHour": "Effective hourly rate for solo resellers commonly runs $20 to $60 per hour of actual work once you count sourcing, testing, listing, packing, and handling returns. Efficient operators who source well and minimize returns sit at the higher end."
   },
   "howToStart": [
@@ -65,7 +65,7 @@
   },
   "whatPeopleGetWrong": [
     "Buying devices they can't properly test, then discovering activation locks, hidden faults, water damage, or counterfeits after paying",
-    "Overpaying at the buy — profit in this business is mostly made on sourcing, not selling",
+    "Overpaying at the buy, profit in this business is mostly made on sourcing, not selling",
     "Grading devices too generously, which drives returns, disputes, and account-damaging negative feedback",
     "Skipping or botching secure data wiping, which is a serious privacy and legal risk",
     "Underestimating returns and warranty claims, which are a normal and recurring cost in electronics",
@@ -119,7 +119,7 @@
   "faqs": [
     {
       "question": "How is this different from a phone repair business?",
-      "answer": "A phone repair business fixes customers' devices for a service fee and doesn't own the devices. A refurbished electronics reselling business buys inventory, refurbishes it, and resells it for a per-unit profit — you carry the inventory risk and make money on the spread between buy and sell price. Repair skills help, but the core of this business is sourcing, grading, and reselling, not service work."
+      "answer": "A phone repair business fixes customers' devices for a service fee and doesn't own the devices. A refurbished electronics reselling business buys inventory, refurbishes it, and resells it for a per-unit profit, you carry the inventory risk and make money on the spread between buy and sell price. Repair skills help, but the core of this business is sourcing, grading, and reselling, not service work."
     },
     {
       "question": "What is the most common way people lose money?",
@@ -127,7 +127,7 @@
     },
     {
       "question": "Do I have to wipe data, and is it a legal issue?",
-      "answer": "Yes. You must securely wipe all personal data before reselling any device — this is both an ethical duty and a legal/privacy responsibility, since reselling a device with someone's data can expose you to serious liability. Use a proper secure-erase method for each platform, and certified wiping also builds buyer trust."
+      "answer": "Yes. You must securely wipe all personal data before reselling any device, this is both an ethical duty and a legal/privacy responsibility, since reselling a device with someone's data can expose you to serious liability. Use a proper secure-erase method for each platform, and certified wiping also builds buyer trust."
     },
     {
       "question": "How big are the margins?",
@@ -135,7 +135,7 @@
     },
     {
       "question": "Should I offer a warranty on what I sell?",
-      "answer": "Many platforms (Swappa, Back Market, Amazon Renewed) expect or require a return window or warranty, and offering one can increase sales and trust. But warranty and returns are a real, recurring cost in electronics — budget for them, price them in, and grade honestly to keep claims low rather than assuming they won't happen."
+      "answer": "Many platforms (Swappa, Back Market, Amazon Renewed) expect or require a return window or warranty, and offering one can increase sales and trust. But warranty and returns are a real, recurring cost in electronics, budget for them, price them in, and grade honestly to keep claims low rather than assuming they won't happen."
     },
     {
       "question": "Where do I source devices to refurbish?",
@@ -143,7 +143,7 @@
     },
     {
       "question": "Can I really start this part-time?",
-      "answer": "Yes — it's one of the more genuinely part-time-friendly product businesses because you control your buying pace and can test and list around a job. You'll still need to handle shipping promptly and answer buyers and returns, but many people start with a few devices a week and scale as their sourcing and grading improve."
+      "answer": "Yes, it's one of the more genuinely part-time-friendly product businesses because you control your buying pace and can test and list around a job. You'll still need to handle shipping promptly and answer buyers and returns, but many people start with a few devices a week and scale as their sourcing and grading improve."
     }
   ],
   "similarBusinesses": [

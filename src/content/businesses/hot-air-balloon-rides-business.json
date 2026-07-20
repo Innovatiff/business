@@ -2,7 +2,7 @@
   "title": "Hot Air Balloon Ride Business",
   "slug": "hot-air-balloon-rides-business",
   "category": "events-and-entertainment",
-  "metaTitle": "How to Start a Hot Air Balloon Ride Business — Real Costs and FAA Rules",
+  "metaTitle": "How to Start a Hot Air Balloon Ride Business: Real Costs and FAA Rules",
   "metaDescription": "Honest guide to starting a hot air balloon ride business: FAA commercial pilot requirements, real equipment and insurance costs, weather-driven earnings, and key risks.",
   "startupCostLow": 60000,
   "startupCostHigh": 250000,
@@ -11,7 +11,7 @@
   "timeToFirstIncome": "6 to 18 months",
   "difficultyLevel": "Advanced",
   "bestFor": "Aspiring or current commercial balloon pilots willing to invest heavily in training, equipment, and insurance for a highly weather-dependent, safety-critical business",
-  "biggestRisk": "A safety incident or weather causing injury or grounding — the liability and reputational stakes are severe, and weather cancels a large share of scheduled flights",
+  "biggestRisk": "A safety incident or weather causing injury or grounding, the liability and reputational stakes are severe, and weather cancels a large share of scheduled flights",
   "speedToIncome": "long",
   "minWeeklyHours": 15,
   "skills": ["hands", "people", "sales"],
@@ -24,8 +24,8 @@
   "dailyReality": "A flight day starts before dawn. You check weather and winds obsessively, and you cancel without hesitation if conditions are marginal, because passenger safety outweighs every booking. When you fly, your crew inflates the balloon, you brief passengers, fly 45 to 90 minutes, land wherever the wind allows, and the chase crew recovers the balloon and passengers. Then there is packing, fuel, and maintenance. Far more time goes into things that are not flying: maintaining and inspecting equipment, scheduling and rescheduling weather-canceled bookings, managing crew, handling insurance and FAA compliance, and selling flights. Many flying days end in cancellation, which means a constant balancing act of disappointed customers and rebookings.",
   "startupCostsItemized": [
     { "item": "Commercial balloon pilot training and certification", "low": 8000, "high": 18000 },
-    { "item": "Balloon system — used envelope, basket, burners (passenger size)", "low": 25000, "high": 90000 },
-    { "item": "Balloon system — new commercial-capacity", "low": 0, "high": 120000, "optional": true },
+    { "item": "Balloon system, used envelope, basket, burners (passenger size)", "low": 25000, "high": 90000 },
+    { "item": "Balloon system, new commercial-capacity", "low": 0, "high": 120000, "optional": true },
     { "item": "Liability and aviation insurance", "low": 8000, "high": 30000, "annual": true },
     { "item": "Chase vehicle and trailer", "low": 5000, "high": 30000 },
     { "item": "Inflation fan, instruments, propane tanks, ground equipment", "low": 2000, "high": 8000 },
@@ -48,7 +48,7 @@
   ],
   "skillsRequired": {
     "mustHave": [
-      "An FAA commercial pilot certificate with a balloon rating — legally required to carry paying passengers",
+      "An FAA commercial pilot certificate with a balloon rating, legally required to carry paying passengers",
       "Sound, conservative weather judgment and the discipline to cancel marginal flights",
       "Customer service to manage passengers and the frequent disappointment of weather scrubs"
     ],
@@ -153,8 +153,8 @@
     "boat-rental-business"
   ],
   "dataSources": [
-    "Federal Aviation Administration — commercial pilot certification and balloon operating regulations",
-    "Balloon Federation of America — operator and safety resources",
+    "Federal Aviation Administration, commercial pilot certification and balloon operating regulations",
+    "Balloon Federation of America, operator and safety resources",
     "Aviation insurance underwriter guidance on balloon liability coverage",
     "Hot air balloon operator interviews and industry communities for cost, cancellation, and earnings ranges"
   ],

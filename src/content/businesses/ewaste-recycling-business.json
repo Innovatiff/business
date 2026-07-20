@@ -2,7 +2,7 @@
   "title": "E-Waste Recycling Business",
   "slug": "ewaste-recycling-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start an E-Waste Recycling Business — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start an E-Waste Recycling Business: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest guide to starting an e-waste recycling business: real startup costs, R2/e-Stewards certification, ITAD revenue, data destruction, and what most operators get wrong.",
   "startupCostLow": 15000,
   "startupCostHigh": 150000,
@@ -20,7 +20,7 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "An e-waste recycling business collects end-of-life electronics — computers, servers, phones, monitors, networking gear — then refurbishes what has resale value, securely destroys data, and responsibly recycles the rest. Revenue comes from three streams: reselling refurbished devices and harvested parts, recovering value from recycled commodities (metals, boards), and charging service fees for pickup, certified data destruction, and ITAD (IT asset disposition) for businesses. Most serious operators split their work between business ITAD contracts, which value security and a certified audit trail, and consumer/community e-waste collection, which is higher volume and lower margin.",
+  "whatItIs": "An e-waste recycling business collects end-of-life electronics, computers, servers, phones, monitors, networking gear, then refurbishes what has resale value, securely destroys data, and responsibly recycles the rest. Revenue comes from three streams: reselling refurbished devices and harvested parts, recovering value from recycled commodities (metals, boards), and charging service fees for pickup, certified data destruction, and ITAD (IT asset disposition) for businesses. Most serious operators split their work between business ITAD contracts, which value security and a certified audit trail, and consumer/community e-waste collection, which is higher volume and lower margin.",
   "dailyReality": "A typical week mixes warehouse work and relationships. You schedule and run pickups, receive and inventory incoming equipment, wipe or shred drives following a documented chain of custody, test and grade devices, list refurbished items for sale, and pack low-value material for downstream recyclers. Around the floor work, expect ongoing time on compliance paperwork, certificates of data destruction and recycling for clients, and selling to new business accounts. It is physical, logistics-heavy work with real regulatory weight: every drive and every hazardous component has to be tracked and handled correctly.",
   "startupCostsItemized": [
     { "item": "Warehouse or shop space lease (first month + deposit)", "low": 2000, "high": 12000 },
@@ -34,7 +34,7 @@
     { "item": "Website, branding, and initial B2B outreach", "low": 0, "high": 3000, "optional": true }
   ],
   "realEarnings": {
-    "yearOne": "Most operators in year one earn $3,000 to $8,000 per month in net income, and many reinvest much of that into equipment and certification. Margins are thin while you build volume and downstream relationships, and commodity-only recycling alone rarely pays — the refurbishment and ITAD service fees carry early profitability.",
+    "yearOne": "Most operators in year one earn $3,000 to $8,000 per month in net income, and many reinvest much of that into equipment and certification. Margins are thin while you build volume and downstream relationships, and commodity-only recycling alone rarely pays, the refurbishment and ITAD service fees carry early profitability.",
     "experienced": "Established operators with steady business ITAD contracts, a working refurbishment channel, and reliable downstream partners commonly report $10,000 to $25,000 per month in net profit. Recurring corporate accounts and a brand built on certified, auditable processes drive this stage.",
     "topEarners": "Larger regional recyclers and ITAD providers gross seven figures annually, but reaching that requires significant capital, certification at scale, multiple trucks and warehouse space, a sales team chasing enterprise contracts, and tight downstream and commodity relationships. Most small operators never reach this scale, and several large recyclers have failed by mismanaging logistics and commodity price swings.",
     "whatAffectsMost": "Your mix of revenue matters most. Refurbishment and ITAD service fees are where the margin lives; pure commodity recycling is volatile and low-margin. Volume of quality incoming equipment, certification (which unlocks corporate contracts), and reliable, vetted downstream partners determine whether the business is profitable or just busy.",
@@ -42,7 +42,7 @@
   },
   "howToStart": [
     "Before you start: Treat this as a capital- and compliance-heavy business, not a side hustle. Study your state's e-waste and hazardous waste rules, the R2v3 and e-Stewards standards, and the realities of downstream markets before committing money. Many states ban e-waste from landfills and regulate handlers tightly.",
-    "Month 1-2: Secure modest warehouse space, register the business, and line up insurance (general liability, pollution, and data/cyber coverage). Identify and vet legitimate, certified downstream recyclers — your environmental and legal exposure depends entirely on where material actually ends up.",
+    "Month 1-2: Secure modest warehouse space, register the business, and line up insurance (general liability, pollution, and data/cyber coverage). Identify and vet legitimate, certified downstream recyclers, your environmental and legal exposure depends entirely on where material actually ends up.",
     "Month 2-4: Build a defensible data destruction process with documented chain of custody and certificates of destruction. Start collecting from accessible sources (small businesses, community drop-off events) while you develop refurbishment skills and grading standards.",
     "Months 4-6: Begin selling refurbished devices through resale channels and pursue your first recurring business ITAD accounts, where the security and audit trail you offer command service fees. Start the R2v3 or e-Stewards certification process, since serious corporate clients increasingly require it.",
     "Months 6-12: Earn certification, formalize contracts with corporate and institutional clients, and optimize which material you process in-house versus pass downstream based on real margins."
@@ -50,7 +50,7 @@
   "skillsRequired": {
     "mustHave": [
       "Hands-on hardware knowledge: testing, grading, refurbishing, and safely disassembling electronics",
-      "Logistics and operations sense — managing pickups, inventory, throughput, and space",
+      "Logistics and operations sense, managing pickups, inventory, throughput, and space",
       "Discipline with compliance: documented data destruction, chain of custody, and hazardous-material handling"
     ],
     "canLearn": [
@@ -65,10 +65,10 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Assuming commodity recycling alone is profitable — without refurbishment and service fees, scrap value rarely covers labor and logistics",
+    "Assuming commodity recycling alone is profitable, without refurbishment and service fees, scrap value rarely covers labor and logistics",
     "Cutting corners on data destruction and chain of custody, which is the fastest way to a client lawsuit and a destroyed reputation",
     "Using unvetted downstream partners who dump or illegally export material, leaving the operator liable for environmental violations",
-    "Underestimating regulatory load — handler registrations, hazardous waste rules, and state e-waste laws vary and are strictly enforced",
+    "Underestimating regulatory load, handler registrations, hazardous waste rules, and state e-waste laws vary and are strictly enforced",
     "Letting low-value inventory pile up and consume warehouse space, choking cash flow and throughput",
     "Skipping certification and then being unable to win the corporate ITAD contracts that actually pay well"
   ],
@@ -124,7 +124,7 @@
     },
     {
       "question": "How is an e-waste business actually profitable?",
-      "answer": "Profit comes mostly from refurbishment resale and from service fees for pickup, certified data destruction, and ITAD — not from selling raw scrap. Commodity recovery is low-margin and volatile. Operators who treat it as a service and refurbishment business, with recycling as the responsible tail end, are the ones who make money."
+      "answer": "Profit comes mostly from refurbishment resale and from service fees for pickup, certified data destruction, and ITAD, not from selling raw scrap. Commodity recovery is low-margin and volatile. Operators who treat it as a service and refurbishment business, with recycling as the responsible tail end, are the ones who make money."
     },
     {
       "question": "What are the regulations I have to worry about?",
@@ -154,7 +154,7 @@
     "data-recovery-business"
   ],
   "dataSources": [
-    "U.S. Environmental Protection Agency — Sustainable Materials Management and electronics stewardship guidance",
+    "U.S. Environmental Protection Agency, Sustainable Materials Management and electronics stewardship guidance",
     "R2v3 (SERI) and e-Stewards certification standards and requirements",
     "Industry reports on ITAD and the global e-waste / electronics recycling market",
     "State environmental agency rules on electronic and hazardous waste handling",

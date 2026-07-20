@@ -2,7 +2,7 @@
   "title": "ATM Machine Business",
   "slug": "atm-business",
   "category": "local-and-community",
-  "metaTitle": "How to Start an ATM Business — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start an ATM Business: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of the ATM machine business: real surcharge income, machine and cash float costs, why location decides everything, and what most owners get wrong.",
   "startupCostLow": 3000,
   "startupCostHigh": 25000,
@@ -19,11 +19,11 @@
   "priorities": ["alongside-job", "low-risk", "flexibility"],
   "noExperienceRequired": false,
   "partTimeFriendly": true,
-  "whatItIs": "An ATM business earns money by owning cash machines, placing them in high-traffic locations, and collecting a surcharge fee each time someone withdraws cash. You buy or lease the machine, load it with your own cash, and split or keep the surcharge (typically $2.00 to $3.50 per transaction) depending on your agreement with the location. The business is genuinely semi-passive once a machine is placed and stocked, but it is fundamentally a placement and cash-logistics business — the location, not the machine, decides whether it makes money.",
-  "dailyReality": "Most weeks involve little hands-on work per machine: checking transaction reports remotely, and visiting to refill cash and clear the occasional paper jam or error. The real effort is upfront and ongoing prospecting — finding and pitching good locations (convenience stores, bars, smoke shops, festivals, laundromats) and negotiating terms. As you add machines, you spend more time managing a cash route: pulling cash from the bank, driving between sites, restocking, and reconciling. The cash handling demands discipline and creates real security awareness; you are moving meaningful amounts of money.",
+  "whatItIs": "An ATM business earns money by owning cash machines, placing them in high-traffic locations, and collecting a surcharge fee each time someone withdraws cash. You buy or lease the machine, load it with your own cash, and split or keep the surcharge (typically $2.00 to $3.50 per transaction) depending on your agreement with the location. The business is genuinely semi-passive once a machine is placed and stocked, but it is fundamentally a placement and cash-logistics business, the location, not the machine, decides whether it makes money.",
+  "dailyReality": "Most weeks involve little hands-on work per machine: checking transaction reports remotely, and visiting to refill cash and clear the occasional paper jam or error. The real effort is upfront and ongoing prospecting, finding and pitching good locations (convenience stores, bars, smoke shops, festivals, laundromats) and negotiating terms. As you add machines, you spend more time managing a cash route: pulling cash from the bank, driving between sites, restocking, and reconciling. The cash handling demands discipline and creates real security awareness; you are moving meaningful amounts of money.",
   "startupCostsItemized": [
-    { "item": "ATM machine — used/refurbished", "low": 1500, "high": 2500 },
-    { "item": "ATM machine — new", "low": 2300, "high": 4500, "optional": true },
+    { "item": "ATM machine, used/refurbished", "low": 1500, "high": 2500 },
+    { "item": "ATM machine, new", "low": 2300, "high": 4500, "optional": true },
     { "item": "Cash float to load the machine (your own working capital)", "low": 1000, "high": 10000 },
     { "item": "Processing / connectivity setup and SIM or internet", "low": 50, "high": 300 },
     { "item": "Installation, signage, and signage decals", "low": 0, "high": 300, "optional": true },
@@ -35,19 +35,19 @@
     "yearOne": "A single machine in a decent location typically nets the owner $1.00 to $2.50 per transaction after the processor's cut and any location split, which often works out to $100 to $400 per machine per month. Beginners with one or two machines usually earn $200 to $800 per month in year one, and a poorly placed machine can earn almost nothing.",
     "experienced": "Owners running a route of 5 to 15 well-placed machines commonly report $1,500 to $4,000 per month in surcharge income, depending heavily on traffic and how favorable their location splits are. The income is relatively steady once placements prove themselves.",
     "topEarners": "Large independent ATM operators run dozens to hundreds of machines and gross well into six figures annually, but they have negotiated bulk processing rates, financing, cash logistics, and sometimes employees or armored-cash services. Reaching that scale is a real operation, not a side hustle, and competition for prime locations is fierce.",
-    "whatAffectsMost": "Location traffic is everything — a machine in a busy bar or convenience store can do hundreds of transactions a month while an identical machine in a quiet spot does a handful. Surcharge amount, your processing rate, and how much of the surcharge you give up to the location round out the math.",
+    "whatAffectsMost": "Location traffic is everything, a machine in a busy bar or convenience store can do hundreds of transactions a month while an identical machine in a quiet spot does a handful. Surcharge amount, your processing rate, and how much of the surcharge you give up to the location round out the math.",
     "perHour": "Because the work per machine is light once placed, effective hourly rates can look high on paper, but they're dominated by upfront prospecting and cash runs. Across a small route, realistic blended rates often land around $30 to $100 per hour of actual work, with the catch that your cash is tied up in the machines."
   },
   "howToStart": [
-    "Month 1: Learn the model and the math — surcharge amounts, processing fees, and typical location splits. Set up an LLC, line up a reputable ATM processor, and decide whether to buy a new or refurbished machine. Understand the cash float you'll need to keep machines loaded.",
-    "Month 1-2: Prospect and pitch locations relentlessly. Target cash-heavy, high-foot-traffic spots without an existing ATM — convenience stores, bars, smoke shops, laundromats, food trucks, event venues. Negotiate the surcharge and any split clearly in writing.",
+    "Month 1: Learn the model and the math, surcharge amounts, processing fees, and typical location splits. Set up an LLC, line up a reputable ATM processor, and decide whether to buy a new or refurbished machine. Understand the cash float you'll need to keep machines loaded.",
+    "Month 1-2: Prospect and pitch locations relentlessly. Target cash-heavy, high-foot-traffic spots without an existing ATM, convenience stores, bars, smoke shops, laundromats, food trucks, event venues. Negotiate the surcharge and any split clearly in writing.",
     "Month 2-3: Install and load your first machine, register it with the processor, and confirm transactions and settlements are flowing correctly. Monitor the transaction reports for the first few weeks to see whether the location actually performs.",
     "Months 3-12: Reinvest profits into additional machines only in locations that prove out, build an efficient restocking route, and track per-machine performance so you can pull and relocate underperformers instead of letting them sit."
   ],
   "skillsRequired": {
     "mustHave": [
       "Sales and negotiation to land good locations and fair surcharge splits",
-      "Disciplined cash and bookkeeping habits — you're managing your own money inside the machines",
+      "Disciplined cash and bookkeeping habits, you're managing your own money inside the machines",
       "Reliability to keep machines stocked so they never sit empty during peak traffic"
     ],
     "canLearn": [
@@ -62,7 +62,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Assuming the machine makes the money — it's the location's traffic that does, and a bad placement barely breaks even",
+    "Assuming the machine makes the money, it's the location's traffic that does, and a bad placement barely breaks even",
     "Underestimating the cash float; your own money is tied up in every machine and must be replenished from the bank",
     "Signing away too much of the surcharge in the location split, leaving thin per-transaction profit",
     "Ignoring security and cash-handling risk, including theft and machine break-ins, especially without proper insurance",
@@ -79,19 +79,19 @@
   ],
   "howToFindCustomers": {
     "methods": [
-      "Direct in-person pitching to cash-heavy businesses without an existing ATM — convenience stores, bars, smoke shops, laundromats",
+      "Direct in-person pitching to cash-heavy businesses without an existing ATM, convenience stores, bars, smoke shops, laundromats",
       "Offering attractive terms to location owners (a surcharge split or a small fee) to win the placement",
       "Targeting events, festivals, and food-truck lots that need temporary cash access",
       "Building referrals from existing location owners to similar businesses they know",
       "Watching for businesses whose ATM is broken, gone, or poorly maintained and offering a better-run replacement"
     ],
-    "whereCustomersAre": "Your 'customers' are really two groups: the location owners who host the machine, and the end users who withdraw cash. The best locations are cash-preferred, high-traffic spots — nightlife, convenience retail, laundromats, and event venues — where card-only options are limited.",
+    "whereCustomersAre": "Your 'customers' are really two groups: the location owners who host the machine, and the end users who withdraw cash. The best locations are cash-preferred, high-traffic spots, nightlife, convenience retail, laundromats, and event venues, where card-only options are limited.",
     "timeToClientBase": "Landing and proving your first good location usually takes one to three months. Building a route of solidly performing machines is typically a one-to-two-year process of placing, testing, and relocating as you learn which spots actually convert traffic into transactions.",
     "wasteOfTime": "Chasing low-traffic locations just because the owner says yes, and spending on advertising the ATM to end users. The work is location acquisition and placement quality, not consumer marketing."
   },
   "howItScales": {
     "toFullTime": "Yes, but it takes a sizable route. Because each machine nets a few hundred dollars a month at best, reaching full-time income generally means 15 or more strong placements plus the cash float to keep them all loaded.",
-    "hireAndStepBack": "Yes — cash routes lend themselves to hiring people (or contracting armored-cash services) to handle restocking, letting the owner step back to managing placements and finances. The constraint is trust, since employees handle cash.",
+    "hireAndStepBack": "Yes, cash routes lend themselves to hiring people (or contracting armored-cash services) to handle restocking, letting the owner step back to managing placements and finances. The constraint is trust, since employees handle cash.",
     "sellable": "ATM routes are genuinely sellable and trade on the strength of their placement contracts and transaction history. Buyers value documented, performing locations; the machines themselves are a smaller part of the value.",
     "whatScalingRequires": "Capital for more machines and more cash float, a growing pipeline of good locations, an efficient restocking route or cash-logistics partner, bulk processing rates, and disciplined per-machine accounting to weed out weak spots."
   },
@@ -129,7 +129,7 @@
     },
     {
       "question": "Is the ATM business really passive?",
-      "answer": "It's semi-passive. Once a machine is placed and proven, the per-machine work is light — mostly remote monitoring and periodic cash refills. But landing locations, running the cash route, handling occasional service issues, and managing security are ongoing, and they grow with the number of machines."
+      "answer": "It's semi-passive. Once a machine is placed and proven, the per-machine work is light, mostly remote monitoring and periodic cash refills. But landing locations, running the cash route, handling occasional service issues, and managing security are ongoing, and they grow with the number of machines."
     },
     {
       "question": "What are the biggest risks?",

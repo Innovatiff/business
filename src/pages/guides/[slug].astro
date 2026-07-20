@@ -7,6 +7,8 @@ import { CATEGORY_MAP, CATEGORY_ICONS } from '../../data/categories';
 import { accentFor } from '../../lib/pageTheme';
 import { moneyRange, monthlyRange, difficultyClass } from '../../lib/format';
 import { SITE } from '../../config';
+import { AUTHOR } from '../../data/author';
+import AuthorByline from '../../components/AuthorByline.astro';
 
 export async function getStaticPaths() {
   const all = await getCollection('businesses');
@@ -45,7 +47,7 @@ const jsonLd = [
     '@type': 'Article',
     headline: guide.title,
     description: guide.metaDescription,
-    author: { '@type': 'Organization', name: SITE.name },
+    author: { '@type': 'Person', name: AUTHOR.name, url: new URL(AUTHOR.url, SITE.url).href },
     publisher: { '@type': 'Organization', name: SITE.name },
     mainEntityOfPage: `${SITE.url}/guides/${guide.slug}/`,
     dateModified: '2026-07-01',
@@ -88,8 +90,11 @@ const jsonLd = [
     <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Guides', href: '/guides' }, { label: guide.title }]} />
     <h1>{guide.title}</h1>
     <p class="lead">{guide.lead}</p>
+    <div class="guide-byline">
+      <AuthorByline date={reviewed} />
+    </div>
     <p class="guide-meta muted">
-      {picks.length} honest picks · Reviewed {reviewed} · Every pick links to a full breakdown
+      {picks.length} honest picks · Every pick links to a full breakdown
     </p>
   </div>
 
@@ -137,7 +142,7 @@ const jsonLd = [
     </ol>
 
     {picks.length === 0 && (
-      <p class="muted">We're still adding businesses that fit this guide — check back soon, or <a href="/businesses">browse the full library</a>.</p>
+      <p class="muted">We're still adding businesses that fit this guide, check back soon, or <a href="/businesses">browse the full library</a>.</p>
     )}
 
     <div class="guide-outro">
@@ -177,7 +182,7 @@ const jsonLd = [
     )}
 
     <p class="muted guide-disclaimer">
-      These are honest editorial picks based on publicly reported data — not guarantees or financial
+      These are honest editorial picks based on publicly reported data, not guarantees or financial
       advice, and not ranked by any paid placement. Individual results vary. See our
       <a href="/disclaimer">disclaimer</a> and <a href="/how-we-research-businesses">how we research businesses</a>.
     </p>
@@ -185,6 +190,9 @@ const jsonLd = [
 </BaseLayout>
 
 <style>
+  .guide-byline {
+    margin-top: 1rem;
+  }
   .guide-meta {
     font-size: 0.9rem;
     margin-top: 0.6rem;

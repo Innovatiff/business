@@ -2,7 +2,7 @@
   "title": "Mortgage Broker Business",
   "slug": "mortgage-broker-business",
   "category": "real-estate-and-property",
-  "metaTitle": "How to Start a Mortgage Broker Business — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a Mortgage Broker Business: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting a mortgage broker business: NMLS licensing and state bonding requirements, realistic commission per loan, lender relationships, and why interest-rate cycles are the biggest risk.",
   "startupCostLow": 6000,
   "startupCostHigh": 30000,
@@ -33,15 +33,15 @@
     { "item": "Operating reserve to cover months with no closed loans", "low": 5000, "high": 20000 }
   ],
   "realEarnings": {
-    "yearOne": "First-year income is often modest and highly uneven — many new brokers earn $0 in some months and $2,000 to $6,000 in others while building a referral pipeline. A realistic first full year for a working solo broker is roughly $30,000 to $80,000, heavily dependent on the rate environment and how many agents send them business.",
+    "yearOne": "First-year income is often modest and highly uneven, many new brokers earn $0 in some months and $2,000 to $6,000 in others while building a referral pipeline. A realistic first full year for a working solo broker is roughly $30,000 to $80,000, heavily dependent on the rate environment and how many agents send them business.",
     "experienced": "Established brokers with steady agent relationships and repeat clients commonly close enough volume to earn $80,000 to $200,000 a year. Commission per loan typically runs about 1% to 2.5% of the loan amount, so a few mid-sized loans a month can produce strong income in a healthy market.",
-    "topEarners": "Top producers and brokerage owners with teams, large referral networks, and high loan volume earn $300,000 to $1,000,000+ in strong years. Reaching that takes years of relationship building, often a team of loan officers and processors, and the ability to keep volume up even as rates move — and even top earners see income fall sharply in down cycles.",
+    "topEarners": "Top producers and brokerage owners with teams, large referral networks, and high loan volume earn $300,000 to $1,000,000+ in strong years. Reaching that takes years of relationship building, often a team of loan officers and processors, and the ability to keep volume up even as rates move, and even top earners see income fall sharply in down cycles.",
     "whatAffectsMost": "The interest-rate environment and your real estate agent referral relationships matter more than anything. When rates spike and refinancing and purchases slow, even skilled brokers see income collapse, so a diversified referral base and reserves are critical.",
     "perHour": "Effective hourly rates are extremely variable. In a busy market an efficient broker may effectively earn $80 to $200+ per hour; in a slow market, after counting all the unpaid prospecting and dead files, the blended rate can drop near or below minimum wage for stretches."
   },
   "howToStart": [
     "Month 1: Confirm your state's requirements through the NMLS, complete the required 20+ hours of pre-licensing education, and study for the SAFE national exam plus any state component.",
-    "Month 2: Pass your NMLS exam, complete the background and credit checks, and apply for your state license. Be aware that bad credit or certain criminal history can disqualify you — this is the single biggest barrier for many applicants.",
+    "Month 2: Pass your NMLS exam, complete the background and credit checks, and apply for your state license. Be aware that bad credit or certain criminal history can disqualify you, this is the single biggest barrier for many applicants.",
     "Month 3: Decide whether to work under an existing brokerage as a loan officer first (recommended for most beginners) or to license your own brokerage with a surety bond, LOS, and compliance setup. Establish relationships with several wholesale lenders.",
     "Months 3-6: Build referral relationships with real estate agents, builders, and past clients. Set up CRM and pre-approval workflows, and close your first loans cleanly to earn repeat referrals.",
     "Months 6-12: Track which referral partners actually send deals, deepen those relationships, and build a reserve so you can survive slow rate cycles. Consider adding loan officers or a processor only once volume is consistent."
@@ -49,7 +49,7 @@
   "skillsRequired": {
     "mustHave": [
       "Genuine sales ability and comfort prospecting for referral partners and borrowers",
-      "Solid financial literacy — understanding income, credit, debt-to-income, and loan structures",
+      "Solid financial literacy, understanding income, credit, debt-to-income, and loan structures",
       "Strong organization and attention to detail to manage compliance-heavy, deadline-driven files"
     ],
     "canLearn": [
@@ -64,7 +64,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Underestimating how dependent income is on interest rates — many brokers start in a boom and are wiped out when rates rise and volume collapses",
+    "Underestimating how dependent income is on interest rates, many brokers start in a boom and are wiped out when rates rise and volume collapses",
     "Starting with no reserve, then running out of money during the months before the first loans close",
     "Assuming the license is the hard part; the real work is building agent referral relationships, which takes many months",
     "Cutting compliance corners, which in a heavily regulated industry can mean fines, license loss, or worse",
@@ -80,13 +80,13 @@
   ],
   "howToFindCustomers": {
     "methods": [
-      "Real estate agent referral relationships — the dominant source of purchase-loan business",
+      "Real estate agent referral relationships, the dominant source of purchase-loan business",
       "Past-client and personal-network referrals nurtured through consistent follow-up",
       "Relationships with builders, financial advisors, and other transaction professionals",
       "A professional online presence and reviews so referred borrowers feel confident",
       "Targeted local marketing and content that builds trust without overpromising rates"
     ],
-    "whereCustomersAre": "Borrowers come almost entirely through trusted referral channels — real estate agents during home purchases, and past clients refinancing or buying again. Cold borrower leads exist but convert poorly and are expensive.",
+    "whereCustomersAre": "Borrowers come almost entirely through trusted referral channels, real estate agents during home purchases, and past clients refinancing or buying again. Cold borrower leads exist but convert poorly and are expensive.",
     "timeToClientBase": "Building a reliable referral network typically takes six to twelve months of relationship work, and a fully stable pipeline often takes a year or more, especially if you start in a slow rate environment.",
     "wasteOfTime": "Buying generic mortgage leads and running broad rate-focused ads usually burns cash for little return early on. Time is far better spent earning the trust of a handful of active real estate agents."
   },
@@ -152,9 +152,9 @@
     "bookkeeping-business"
   ],
   "dataSources": [
-    "Nationwide Multistate Licensing System (NMLS) — licensing, education, and SAFE Act requirements",
-    "U.S. Bureau of Labor Statistics — Loan Officers occupational employment and wage data",
-    "Consumer Financial Protection Bureau (CFPB) — loan originator compensation rules",
+    "Nationwide Multistate Licensing System (NMLS), licensing, education, and SAFE Act requirements",
+    "U.S. Bureau of Labor Statistics, Loan Officers occupational employment and wage data",
+    "Consumer Financial Protection Bureau (CFPB), loan originator compensation rules",
     "Mortgage industry associations and broker community forums for reported commission and volume ranges"
   ],
   "lastReviewed": "2026-06"

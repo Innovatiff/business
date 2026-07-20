@@ -2,7 +2,7 @@
   "title": "Newsletter Ad Brokerage Business",
   "slug": "newsletter-ad-brokerage-business",
   "category": "online-businesses",
-  "metaTitle": "How to Start a Newsletter Ad Brokerage — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a Newsletter Ad Brokerage: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting a newsletter ad brokerage business: real startup costs, realistic commissions, how to find publishers and advertisers, and what most people get wrong.",
   "startupCostLow": 300,
   "startupCostHigh": 4000,
@@ -20,40 +20,40 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A newsletter ad brokerage sits in the middle of the booming email-newsletter economy. Advertisers want to reach the engaged audiences that newsletters command; newsletter operators want to monetize their lists but hate selling ads. You broker the sponsorships — finding advertisers for publishers (or inventory for advertisers), negotiating placements, and handling the messy parts (briefs, ad copy, scheduling, tracking, invoicing). You earn a commission on each placement, typically 10% to 30% of the ad spend, or you run an ad network that buys inventory in bulk and resells it.",
-  "dailyReality": "Your day is outreach, negotiation, and coordination — almost entirely over email, Slack, and calls. You pitch advertisers on newsletters in your niche, pitch publishers on filling their open inventory, negotiate rates and dates, write or refine ad copy, confirm the send schedule, and reconcile results (open rates, clicks, conversions) so both sides come back. A lot of the work is chasing: confirming the ad actually ran on the agreed date, collecting payment from advertisers, and paying publishers their share. It is a relationship business dressed up as a media business.",
+  "whatItIs": "A newsletter ad brokerage sits in the middle of the booming email-newsletter economy. Advertisers want to reach the engaged audiences that newsletters command; newsletter operators want to monetize their lists but hate selling ads. You broker the sponsorships, finding advertisers for publishers (or inventory for advertisers), negotiating placements, and handling the messy parts (briefs, ad copy, scheduling, tracking, invoicing). You earn a commission on each placement, typically 10% to 30% of the ad spend, or you run an ad network that buys inventory in bulk and resells it.",
+  "dailyReality": "Your day is outreach, negotiation, and coordination, almost entirely over email, Slack, and calls. You pitch advertisers on newsletters in your niche, pitch publishers on filling their open inventory, negotiate rates and dates, write or refine ad copy, confirm the send schedule, and reconcile results (open rates, clicks, conversions) so both sides come back. A lot of the work is chasing: confirming the ad actually ran on the agreed date, collecting payment from advertisers, and paying publishers their share. It is a relationship business dressed up as a media business.",
   "startupCostsItemized": [
     { "item": "Email outreach + CRM tools (e.g. Instantly, HubSpot free, or a spreadsheet)", "low": 0, "high": 800, "annual": true },
     { "item": "Domain + simple website / media kit landing page", "low": 30, "high": 400 },
     { "item": "Email warmup and verification tools for cold outreach", "low": 0, "high": 600, "annual": true, "optional": true },
     { "item": "Business registration / LLC", "low": 50, "high": 300 },
     { "item": "Contract templates / legal review of insertion orders", "low": 0, "high": 800 },
-    { "item": "Payment + invoicing (Stripe, Bill.com) — fees only to start", "low": 0, "high": 200 },
+    { "item": "Payment + invoicing (Stripe, Bill.com), fees only to start", "low": 0, "high": 200 },
     { "item": "Ad tracking / link-tracking tools", "low": 0, "high": 400, "annual": true, "optional": true },
     { "item": "Initial paid lists or data for prospecting", "low": 0, "high": 500, "optional": true }
   ],
   "realEarnings": {
     "yearOne": "Most brokers earn $500 to $3,000 per month in year one while building relationships on both sides. A single newsletter sponsorship might bill the advertiser $500 to $5,000; at a 15% to 25% commission you keep $75 to $1,250 per placement, so early income depends entirely on how many deals you can close.",
     "experienced": "Brokers with a strong roster of publishers and repeat advertisers commonly report $4,000 to $15,000 per month. At this stage you are placing dozens of sponsorships monthly, often packaging multiple newsletters into a single advertiser buy, which raises both deal size and your commission.",
-    "topEarners": "Operators who run a real ad network or agency — exclusive inventory deals with large newsletters, a sales team, and bulk media buying — can clear $30,000 to $150,000-plus per month in revenue, though much of that flows back to publishers. Reaching it requires capital risk (committing to inventory you must then sell), staff, and years of relationships. Most independent brokers never scale past a strong solo operation.",
+    "topEarners": "Operators who run a real ad network or agency, exclusive inventory deals with large newsletters, a sales team, and bulk media buying, can clear $30,000 to $150,000-plus per month in revenue, though much of that flows back to publishers. Reaching it requires capital risk (committing to inventory you must then sell), staff, and years of relationships. Most independent brokers never scale past a strong solo operation.",
     "whatAffectsMost": "Repeat advertisers and exclusive or preferred access to high-quality newsletters matter most. A broker with three advertisers who buy every month and a handful of trusted publishers earns far more, with less effort, than one constantly cold-pitching one-off deals.",
     "perHour": "Highly variable. Early outreach can feel like $10 to $25 per hour of effort with little to show. Established brokers with repeat deal flow reach $75 to $200-plus per hour of working time, because a single email confirming a recurring placement can be worth hundreds in commission."
   },
   "howToStart": [
     "Month 1: Choose a niche where you have credibility or genuine interest (e.g. fintech, B2B SaaS, marketing, parenting). Brokers who know a niche close deals; generalists get ignored. Map the top 30 to 50 newsletters and the kinds of advertisers who want that audience.",
-    "Month 1: Decide your model — pure commission broker (you take a cut of deals you arrange) or network (you commit to buying inventory and resell it). Start as a commission broker; it carries no inventory risk. Draft a simple insertion-order template.",
-    "Month 1-2: Build relationships with 5 to 10 newsletter operators first. Understand their rates, audience, and open inventory. Publishers who trust you and give you preferred access are your real asset — more than any advertiser list.",
+    "Month 1: Decide your model, pure commission broker (you take a cut of deals you arrange) or network (you commit to buying inventory and resell it). Start as a commission broker; it carries no inventory risk. Draft a simple insertion-order template.",
+    "Month 1-2: Build relationships with 5 to 10 newsletter operators first. Understand their rates, audience, and open inventory. Publishers who trust you and give you preferred access are your real asset, more than any advertiser list.",
     "Month 2: Pitch advertisers who already run newsletter ads (look at who sponsors newsletters in your niche). Lead with audience fit and results, not just price. Close your first placements and obsess over delivering clean results so both sides return.",
     "Days 60-120: Systematize. Track every placement, rate, and result. Package multiple newsletters into bundles for advertisers. Build a media kit and a repeatable outreach process. Prioritize turning one-off advertisers into monthly recurring buyers."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Genuine sales and negotiation ability — you are selling on both sides of every deal",
+      "Genuine sales and negotiation ability, you are selling on both sides of every deal",
       "Clear, persuasive writing for outreach, pitches, and ad copy",
       "Reliability and organization to track placements, dates, results, and payments without dropping deals"
     ],
     "canLearn": [
-      "Newsletter ad metrics — CPM, CPC, CPA, open and click rates — and how to price and evaluate inventory",
+      "Newsletter ad metrics, CPM, CPC, CPA, open and click rates, and how to price and evaluate inventory",
       "Cold outreach systems and CRM workflows to keep a pipeline full",
       "Writing insertion orders and basic media-buying contracts"
     ],
@@ -65,7 +65,7 @@
   },
   "whatPeopleGetWrong": [
     "Going niche-less and pitching every newsletter and advertiser, which makes them forgettable and easy to ignore",
-    "Focusing only on advertisers and neglecting publisher relationships — the inventory side is where the durable advantage lives",
+    "Focusing only on advertisers and neglecting publisher relationships, the inventory side is where the durable advantage lives",
     "Taking a commission so thin it does not survive a make-good (a free re-run when an ad underperforms) or slow advertiser payment",
     "Failing to verify the ad actually ran and to report results, so neither side comes back",
     "Having no written insertion order, then getting caught when an advertiser disputes the date, copy, or results",
@@ -82,7 +82,7 @@
   "howToFindCustomers": {
     "methods": [
       "Direct outreach to newsletter operators in your niche to secure inventory and preferred access",
-      "Pitching advertisers who already sponsor newsletters — find them by reading the ads in your niche's newsletters",
+      "Pitching advertisers who already sponsor newsletters, find them by reading the ads in your niche's newsletters",
       "Networking in creator and newsletter communities (Twitter/X, LinkedIn, niche Slack and Discord groups)",
       "Referrals from happy publishers and advertisers, which become the main channel once you have a track record",
       "Listing as a sponsorship contact in media kits of newsletters you represent, so inbound advertisers reach you"
@@ -106,7 +106,7 @@
     ],
     "poorFit": [
       "You dislike outreach, rejection, and chasing payments",
-      "You want predictable income from day one — commissions are lumpy and slow to start",
+      "You want predictable income from day one, commissions are lumpy and slow to start",
       "You are not detail-oriented about contracts, dates, and reporting",
       "You expect this to be passive; it is a relationship and sales business"
     ],
@@ -131,7 +131,7 @@
     },
     {
       "question": "Should I broker deals or run an ad network?",
-      "answer": "Start as a commission broker — you arrange deals and take a cut with no inventory risk. An ad network commits to buying newsletter inventory and reselling it, which can be far more profitable but means you lose money if you cannot fill what you bought. Move to a network model only once you can reliably sell what you commit to."
+      "answer": "Start as a commission broker, you arrange deals and take a cut with no inventory risk. An ad network commits to buying newsletter inventory and reselling it, which can be far more profitable but means you lose money if you cannot fill what you bought. Move to a network model only once you can reliably sell what you commit to."
     },
     {
       "question": "How do I price newsletter ad placements?",
@@ -139,7 +139,7 @@
     },
     {
       "question": "Is cold outreach for this legal and effective?",
-      "answer": "B2B cold outreach is generally legal in the US if you follow CAN-SPAM rules (clear identification, valid address, easy opt-out), but deliverability and reputation matter — sloppy blasting gets you blocked and burns your domain. It can be effective in a niche, but warm introductions and community relationships almost always convert better."
+      "answer": "B2B cold outreach is generally legal in the US if you follow CAN-SPAM rules (clear identification, valid address, easy opt-out), but deliverability and reputation matter, sloppy blasting gets you blocked and burns your domain. It can be effective in a niche, but warm introductions and community relationships almost always convert better."
     },
     {
       "question": "How long before this replaces a full-time income?",
@@ -154,7 +154,7 @@
   ],
   "dataSources": [
     "Newsletter platform reports (beehiiv, Substack) on sponsorship rates and advertising trends",
-    "IAB (Interactive Advertising Bureau) — digital advertising and email marketing benchmarks",
+    "IAB (Interactive Advertising Bureau), digital advertising and email marketing benchmarks",
     "Industry CPM and newsletter-sponsorship pricing data from media-buying resources",
     "Operator interviews and creator-economy communities for real-world broker commissions and deal flow"
   ],

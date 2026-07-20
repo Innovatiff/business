@@ -2,7 +2,7 @@
   "title": "Web Hosting Business",
   "slug": "web-hosting-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start a Web Hosting Business — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a Web Hosting Business: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting a web hosting business: reseller and managed hosting costs, realistic recurring earnings, the support load, and what most people get wrong.",
   "startupCostLow": 300,
   "startupCostHigh": 8000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": true,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A web hosting business sells space and resources for other people's websites to live on the internet, billed as recurring monthly or annual plans. The realistic entry path is reseller or managed hosting: you lease capacity from an upstream provider (a reseller account, VPS, or cloud) and resell it under your own brand with control panels like cPanel or Plesk, plus the support and onboarding you layer on top. This is distinct from building websites (web development) or keeping a client's existing site updated (WordPress maintenance) — here, your product is the server space, uptime, and support, not the design or the code. The appeal is recurring revenue; the catch is that giant hosts sell plans for a few dollars a month, so you survive on managed service, support quality, and a niche, not on raw price.",
-  "dailyReality": "Most days are light but interrupted: provisioning new accounts, migrating a customer's site from another host, resetting passwords, troubleshooting email deliverability, restoring a backup, and answering tickets. The work is reactive — a server issue or a customer's hacked WordPress site can blow up your evening, and uptime problems generate angry tickets fast. Between fires you handle billing, renewals, patching, monitoring, and some marketing. As you grow, support volume, not server cost, becomes the thing that eats your time.",
+  "whatItIs": "A web hosting business sells space and resources for other people's websites to live on the internet, billed as recurring monthly or annual plans. The realistic entry path is reseller or managed hosting: you lease capacity from an upstream provider (a reseller account, VPS, or cloud) and resell it under your own brand with control panels like cPanel or Plesk, plus the support and onboarding you layer on top. This is distinct from building websites (web development) or keeping a client's existing site updated (WordPress maintenance), here, your product is the server space, uptime, and support, not the design or the code. The appeal is recurring revenue; the catch is that giant hosts sell plans for a few dollars a month, so you survive on managed service, support quality, and a niche, not on raw price.",
+  "dailyReality": "Most days are light but interrupted: provisioning new accounts, migrating a customer's site from another host, resetting passwords, troubleshooting email deliverability, restoring a backup, and answering tickets. The work is reactive, a server issue or a customer's hacked WordPress site can blow up your evening, and uptime problems generate angry tickets fast. Between fires you handle billing, renewals, patching, monitoring, and some marketing. As you grow, support volume, not server cost, becomes the thing that eats your time.",
   "startupCostsItemized": [
     { "item": "Reseller hosting account or entry VPS/cloud server", "low": 240, "high": 1200, "annual": true },
     { "item": "Control panel license (cPanel/WHM or Plesk) if not bundled", "low": 180, "high": 900, "annual": true, "optional": true },
@@ -49,7 +49,7 @@
   "skillsRequired": {
     "mustHave": [
       "Comfort with Linux servers, DNS, control panels (cPanel/Plesk), and basic web/email troubleshooting",
-      "Reliable, patient customer support — hosting customers expect fast help when their site is down",
+      "Reliable, patient customer support, hosting customers expect fast help when their site is down",
       "Basic security hygiene (patching, backups, SSL, handling compromised sites)"
     ],
     "canLearn": [
@@ -65,7 +65,7 @@
   },
   "whatPeopleGetWrong": [
     "Trying to out-price giant hosts on shared plans, where their scale makes your margins unsurvivable",
-    "Underestimating support load — tickets, hacked sites, and email problems scale faster than revenue",
+    "Underestimating support load, tickets, hacked sites, and email problems scale faster than revenue",
     "Skipping backups and monitoring until a server failure loses customer data and trust",
     "Overselling cheap unlimited plans that attract price-shoppers who churn and resource-hog",
     "Not having an incident and security plan, so a single compromise or outage cascades into mass cancellations",
@@ -74,7 +74,7 @@
   "toolsAndEquipment": [
     { "item": "Reseller account / VPS / cloud server", "note": "Your underlying capacity. Start with reseller, move to VPS/cloud as you grow.", "low": 240, "high": 3000 },
     { "item": "Control panel (cPanel/WHM or Plesk)", "note": "Lets customers self-manage and you provision fast. Often bundled with reseller plans.", "low": 0, "high": 900 },
-    { "item": "Billing & automation (WHMCS / Blesta)", "note": "Automates signup, provisioning, invoicing, and renewals — essential past a handful of accounts.", "low": 0, "high": 220 },
+    { "item": "Billing & automation (WHMCS / Blesta)", "note": "Automates signup, provisioning, invoicing, and renewals, essential past a handful of accounts.", "low": 0, "high": 220 },
     { "item": "Backup & monitoring tools", "note": "Non-negotiable. Offsite backups and uptime monitoring protect you and your customers.", "low": 0, "high": 600 },
     { "item": "Security tooling (firewall, malware scanning, SSL)", "note": "Hosted sites get attacked; basic protection reduces support fires.", "low": 0, "high": 500 },
     { "item": "Help desk / ticketing system", "note": "Keeps support organized as volume grows. Many billing tools include one.", "low": 0, "high": 300 }
@@ -93,7 +93,7 @@
     "wasteOfTime": "Generic 'cheapest hosting' ads against the big hosts, and broad social posts that attract bargain-hunters who churn. Early effort is far better spent on migrations, partnerships, and a clear niche than on competing on price."
   },
   "howItScales": {
-    "toFullTime": "Yes, but it's gradual. Recurring revenue compounds, so a focused niche host can reach full-time income over one to three years. The constraint is support time per customer, not server capacity — automation and a niche are what make full-time viable.",
+    "toFullTime": "Yes, but it's gradual. Recurring revenue compounds, so a focused niche host can reach full-time income over one to three years. The constraint is support time per customer, not server capacity, automation and a niche are what make full-time viable.",
     "hireAndStepBack": "Yes, more so than many service businesses. Hosting revenue is recurring and automatable, so hiring support staff and documenting processes lets you step back. The risk is that quality support and incident response slip if you delegate too fast.",
     "sellable": "Very much so. Hosting businesses with steady recurring revenue and low churn sell well, often at meaningful multiples of monthly recurring revenue, because buyers value predictable subscriptions and a transferable customer base.",
     "whatScalingRequires": "Solid automation (provisioning, billing, monitoring), redundant infrastructure, documented support processes, hired support, and low churn. Scaling on weak infrastructure or without automation just multiplies the support fires."
@@ -106,7 +106,7 @@
       "You're disciplined about backups, security, and uptime"
     ],
     "poorFit": [
-      "You want hands-off passive income — hosting requires real, often urgent support",
+      "You want hands-off passive income, hosting requires real, often urgent support",
       "You plan to win on being the cheapest against billion-dollar hosts",
       "You dislike on-call interruptions when sites go down",
       "You won't invest time in automation and documentation as you grow"
@@ -128,7 +128,7 @@
     },
     {
       "question": "Can I compete with hosts charging a few dollars a month?",
-      "answer": "Not on price — their scale makes that unwinnable. You compete on a niche, genuinely responsive support, managed services (handling updates, security, and migrations), and reliability. Customers who value not dealing with hosting themselves will pay more than commodity rates."
+      "answer": "Not on price, their scale makes that unwinnable. You compete on a niche, genuinely responsive support, managed services (handling updates, security, and migrations), and reliability. Customers who value not dealing with hosting themselves will pay more than commodity rates."
     },
     {
       "question": "How much technical skill do I really need?",

@@ -2,7 +2,7 @@
   "title": "AR Filter Design Business",
   "slug": "ar-filter-business",
   "category": "creative-and-content",
-  "metaTitle": "How to Start an AR Filter Design Business — Real Costs and Earnings",
+  "metaTitle": "How to Start an AR Filter Design Business: Real Costs and Earnings",
   "metaDescription": "Honest breakdown of starting an AR filter design business: real startup costs, realistic earnings, finding brand clients, and the platform risk most people ignore.",
   "startupCostLow": 300,
   "startupCostHigh": 4000,
@@ -11,7 +11,7 @@
   "timeToFirstIncome": "1 to 3 months",
   "difficultyLevel": "Intermediate",
   "bestFor": "Creative-technical people comfortable with 3D, design tools, and constant platform change who can sell to brands and marketers",
-  "biggestRisk": "Platform dependency — the tools, policies, and even whole AR programs (like Meta's Spark) can change or shut down, wiping out your distribution and the skills you specialized in",
+  "biggestRisk": "Platform dependency, the tools, policies, and even whole AR programs (like Meta's Spark) can change or shut down, wiping out your distribution and the skills you specialized in",
   "speedToIncome": "months",
   "minWeeklyHours": 12,
   "skills": ["creative", "tech"],
@@ -20,13 +20,13 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "An AR filter design business creates branded augmented-reality experiences — the face filters, lenses, and effects people use in Instagram, Facebook, Snapchat, and TikTok. Brands and agencies commission these for product launches, campaigns, events, and ongoing social presence: a cosmetics brand wanting a virtual try-on, a film releasing a themed effect, a venue creating a shareable photo moment. You build them in platform tools such as Snapchat's Lens Studio, TikTok's Effect House, and historically Meta's Spark AR, combining 3D modeling, 2D design, face/world tracking, animation, and light scripting. Work is sold per filter, as campaign packages, or on retainer for clients who want a stream of effects. It is a real, monetizable niche, but it sits entirely on top of platforms whose tools, monetization, and policies shift constantly — Meta notably wound down its Spark AR platform — so the single biggest reality of this business is platform dependency.",
-  "dailyReality": "Project days are spent inside the AR authoring tool: building or importing 3D assets, setting up face or world tracking, designing 2D textures and UI, adding animation and interactive logic, then testing on real devices because what looks right in the editor often breaks on phones. Performance optimization is constant — filters must run smoothly on a wide range of hardware and pass each platform's size and content review. Around the build you scope projects with clients, translate vague campaign briefs into feasible AR concepts, manage revisions, handle the platform submission/approval process, and report engagement metrics back to brands. Expect to spend real time just keeping up: tracking tool updates, policy changes, and new platform features, since the ground shifts under this work more than almost any other creative niche.",
+  "whatItIs": "An AR filter design business creates branded augmented-reality experiences, the face filters, lenses, and effects people use in Instagram, Facebook, Snapchat, and TikTok. Brands and agencies commission these for product launches, campaigns, events, and ongoing social presence: a cosmetics brand wanting a virtual try-on, a film releasing a themed effect, a venue creating a shareable photo moment. You build them in platform tools such as Snapchat's Lens Studio, TikTok's Effect House, and historically Meta's Spark AR, combining 3D modeling, 2D design, face/world tracking, animation, and light scripting. Work is sold per filter, as campaign packages, or on retainer for clients who want a stream of effects. It is a real, monetizable niche, but it sits entirely on top of platforms whose tools, monetization, and policies shift constantly, Meta notably wound down its Spark AR platform, so the single biggest reality of this business is platform dependency.",
+  "dailyReality": "Project days are spent inside the AR authoring tool: building or importing 3D assets, setting up face or world tracking, designing 2D textures and UI, adding animation and interactive logic, then testing on real devices because what looks right in the editor often breaks on phones. Performance optimization is constant, filters must run smoothly on a wide range of hardware and pass each platform's size and content review. Around the build you scope projects with clients, translate vague campaign briefs into feasible AR concepts, manage revisions, handle the platform submission/approval process, and report engagement metrics back to brands. Expect to spend real time just keeping up: tracking tool updates, policy changes, and new platform features, since the ground shifts under this work more than almost any other creative niche.",
   "startupCostsItemized": [
     { "item": "Capable computer (decent GPU for 3D/AR work) if not already owned", "low": 0, "high": 2500, "optional": true },
-    { "item": "AR authoring tools (Lens Studio, Effect House — typically free)", "low": 0, "high": 0 },
+    { "item": "AR authoring tools (Lens Studio, Effect House, typically free)", "low": 0, "high": 0 },
     { "item": "3D and 2D software (Blender free; Photoshop/Substance subscriptions)", "low": 0, "high": 600, "annual": true },
-    { "item": "Test devices — a couple of phones across iOS/Android", "low": 0, "high": 800, "optional": true },
+    { "item": "Test devices, a couple of phones across iOS/Android", "low": 0, "high": 800, "optional": true },
     { "item": "Courses / tutorials on AR creation and a specific platform", "low": 0, "high": 500, "optional": true },
     { "item": "Stock 3D assets, textures, and audio licenses", "low": 0, "high": 300, "optional": true },
     { "item": "Business registration / LLC and basic insurance", "low": 100, "high": 600, "annual": true },
@@ -35,13 +35,13 @@
   "realEarnings": {
     "yearOne": "Most people building this in year one earn roughly $800 to $3,000 per month, often uneven. Simple branded filters commonly pay $300 to $1,500 each early on; until you have a portfolio and a couple of brand or agency relationships, projects are sporadic.",
     "experienced": "Designers with a strong portfolio and repeat brand/agency clients commonly report $3,000 to $8,000 per month. More complex, interactive, or campaign-level filters run $1,500 to $6,000+ each, and a retainer or two with brands or marketing agencies provides the stability at this stage.",
-    "topEarners": "Top AR creators land large brand campaigns, agency partnerships, and licensed/IP effects, billing $8,000 to $20,000+ per project and grossing well into five figures monthly in busy periods. Reaching this takes an exceptional portfolio, deep technical skill, agency relationships, and timing — and it is especially vulnerable to platform changes, so even top earners diversify.",
-    "whatAffectsMost": "Technical depth (interactivity, solid 3D, performance) and access to brand budgets matter most. Agency relationships and recurring clients drive stability, while the platform you bet on heavily influences both demand and longevity — a shift in a platform's AR strategy can swing income dramatically.",
-    "perHour": "On project work, effective rates for experienced designers run roughly $40 to $120 per hour, but unbilled learning, testing across devices, revisions, and platform-review back-and-forth pull blended rates down — and time spent keeping up with changing tools is rarely billable."
+    "topEarners": "Top AR creators land large brand campaigns, agency partnerships, and licensed/IP effects, billing $8,000 to $20,000+ per project and grossing well into five figures monthly in busy periods. Reaching this takes an exceptional portfolio, deep technical skill, agency relationships, and timing, and it is especially vulnerable to platform changes, so even top earners diversify.",
+    "whatAffectsMost": "Technical depth (interactivity, solid 3D, performance) and access to brand budgets matter most. Agency relationships and recurring clients drive stability, while the platform you bet on heavily influences both demand and longevity, a shift in a platform's AR strategy can swing income dramatically.",
+    "perHour": "On project work, effective rates for experienced designers run roughly $40 to $120 per hour, but unbilled learning, testing across devices, revisions, and platform-review back-and-forth pull blended rates down, and time spent keeping up with changing tools is rarely billable."
   },
   "howToStart": [
-    "Month 1: Pick a primary platform tool (Snapchat Lens Studio and TikTok Effect House are the most active) and learn its core workflow — face tracking, world effects, 2D/3D assets, and basic interactive logic. Build and publish several practice filters.",
-    "Month 2: Develop 3D and texturing basics (Blender is free and standard) and create a portfolio of 6 to 10 polished, varied filters — a try-on, a game-style effect, a world/AR effect, a branded mock-up. Publish them so they have real usage and demos.",
+    "Month 1: Pick a primary platform tool (Snapchat Lens Studio and TikTok Effect House are the most active) and learn its core workflow, face tracking, world effects, 2D/3D assets, and basic interactive logic. Build and publish several practice filters.",
+    "Month 2: Develop 3D and texturing basics (Blender is free and standard) and create a portfolio of 6 to 10 polished, varied filters, a try-on, a game-style effect, a world/AR effect, a branded mock-up. Publish them so they have real usage and demos.",
     "Month 2 to 3: Define your offer (per filter, campaign package, or retainer) and pricing that accounts for testing and revisions. Reach out to local brands, marketing agencies, and creators, and list on relevant creative marketplaces.",
     "Days 60 to 120: Land first paid projects, even modest ones, and turn the engagement metrics into case studies. Pursue agency relationships, since agencies bring repeat brand work and shield you from chasing one-off clients.",
     "Ongoing: Stay current with platform tool and policy changes, deliberately diversify across platforms and into adjacent skills (3D, WebAR, general motion/3D design) so you are not dependent on any single platform's AR strategy surviving."
@@ -49,13 +49,13 @@
   "skillsRequired": {
     "mustHave": [
       "Comfort with AR authoring tools (Lens Studio, Effect House) and their tracking and effect systems",
-      "Design and 3D fundamentals — 2D texturing, basic 3D modeling, and a strong visual eye",
-      "Tolerance for constant change — learning new tools and adapting as platforms shift policies and features"
+      "Design and 3D fundamentals, 2D texturing, basic 3D modeling, and a strong visual eye",
+      "Tolerance for constant change, learning new tools and adapting as platforms shift policies and features"
     ],
     "canLearn": [
       "Light scripting/visual logic for interactivity (games, triggers, animations)",
       "Performance optimization so filters run smoothly across a range of phones",
-      "Client and project skills — scoping briefs, pricing, revisions, and reporting engagement"
+      "Client and project skills, scoping briefs, pricing, revisions, and reporting engagement"
     ],
     "separators": [
       "Technical depth in interactivity and solid 3D that lets you build effects most creators can't",
@@ -67,7 +67,7 @@
     "Betting everything on one platform's AR program and getting wiped out when its tools, monetization, or strategy change",
     "Underpricing campaign work because the tools are free, ignoring the testing, revisions, and review cycles that consume the time",
     "Skipping device testing and shipping filters that look great in the editor but break or lag on real phones",
-    "Treating it as a viral-fame play rather than a B2B service — the reliable money is branded work for businesses and agencies",
+    "Treating it as a viral-fame play rather than a B2B service, the reliable money is branded work for businesses and agencies",
     "Neglecting performance and platform content rules, leading to rejected submissions and frustrated clients",
     "Failing to build adjacent skills (3D, WebAR, motion design), leaving no fallback when a platform shifts away from AR"
   ],
@@ -89,14 +89,14 @@
       "Case studies showing engagement metrics from past filters, which is what convinces marketing budgets"
     ],
     "whereCustomersAre": "Brand marketing teams and the agencies that serve them, plus event organizers, entertainment/IP holders, and creators who want custom effects. They are reached through agency relationships, social platforms, and creative marketplaces rather than local foot traffic.",
-    "timeToClientBase": "Expect one to three months to land first paid projects while building a portfolio, and six to twelve months to develop steadier work. Agency and retainer relationships, which provide real stability, typically take a year or more — and remain vulnerable to platform shifts.",
+    "timeToClientBase": "Expect one to three months to land first paid projects while building a portfolio, and six to twelve months to develop steadier work. Agency and retainer relationships, which provide real stability, typically take a year or more, and remain vulnerable to platform shifts.",
     "wasteOfTime": "Chasing personal virality and hoping a fun filter blows up into clients. The dependable money is B2B; case studies and agency relationships convert far better than going viral or spending on ads early on."
   },
   "howItScales": {
-    "toFullTime": "Possible, but with real platform risk. Full-time income usually means several brand/agency relationships, higher-complexity projects, and a retainer or two — while deliberately diversifying so a single platform's change can't erase your business overnight.",
+    "toFullTime": "Possible, but with real platform risk. Full-time income usually means several brand/agency relationships, higher-complexity projects, and a retainer or two, while deliberately diversifying so a single platform's change can't erase your business overnight.",
     "hireAndStepBack": "Partially. You can build a small AR/3D studio with other designers and take on more or larger campaigns, but clients value your technical and creative judgment, and the constant tool churn makes delegation harder. Stepping back requires reliable specialists and tight processes.",
-    "sellable": "Difficult. The value is your skills, portfolio, and relationships, all tied to platforms that change — making a clean sale uncommon. A diversified studio with recurring contracts and broader 3D/immersive capabilities is more sellable than a single-platform AR practice.",
-    "whatScalingRequires": "A standout technical portfolio, agency and brand relationships, recurring contracts, a small team of AR/3D specialists, and — critically — diversification across platforms and into adjacent immersive/3D work so growth isn't hostage to one platform's roadmap."
+    "sellable": "Difficult. The value is your skills, portfolio, and relationships, all tied to platforms that change, making a clean sale uncommon. A diversified studio with recurring contracts and broader 3D/immersive capabilities is more sellable than a single-platform AR practice.",
+    "whatScalingRequires": "A standout technical portfolio, agency and brand relationships, recurring contracts, a small team of AR/3D specialists, and, critically, diversification across platforms and into adjacent immersive/3D work so growth isn't hostage to one platform's roadmap."
   },
   "fitChecklist": {
     "strongFit": [
@@ -114,7 +114,7 @@
     "askYourself": [
       "Am I comfortable building a business on platforms whose tools and strategies can change or disappear?",
       "Will I diversify across platforms and adjacent 3D/immersive skills instead of betting on one program?",
-      "Can I sell to brands and agencies, since that — not viral filters — is where the reliable income is?"
+      "Can I sell to brands and agencies, since that, not viral filters, is where the reliable income is?"
     ]
   },
   "faqs": [
@@ -124,7 +124,7 @@
     },
     {
       "question": "Do I need to know how to code?",
-      "answer": "Not heavily, but light scripting or visual logic helps a lot. Basic filters can be built with the tools' visual editors, but the higher-paying, interactive effects — games, triggers, complex animations — usually require some scripting. Combined with 3D and design skills, that technical depth is exactly what separates well-paid AR designers from hobbyists."
+      "answer": "Not heavily, but light scripting or visual logic helps a lot. Basic filters can be built with the tools' visual editors, but the higher-paying, interactive effects, games, triggers, complex animations, usually require some scripting. Combined with 3D and design skills, that technical depth is exactly what separates well-paid AR designers from hobbyists."
     },
     {
       "question": "How much can I realistically earn?",
@@ -140,7 +140,7 @@
     },
     {
       "question": "Can I start this part-time with no experience?",
-      "answer": "You can start part-time, and the tools are free, but you do need design and ideally some 3D background — a complete beginner cannot realistically jump straight to paid brand work. Plan to spend the first month or two learning a platform and building a portfolio before charging clients. The flexible, project-based nature does suit evenings and weekends once you are skilled."
+      "answer": "You can start part-time, and the tools are free, but you do need design and ideally some 3D background, a complete beginner cannot realistically jump straight to paid brand work. Plan to spend the first month or two learning a platform and building a portfolio before charging clients. The flexible, project-based nature does suit evenings and weekends once you are skilled."
     },
     {
       "question": "Will AI replace AR filter designers?",

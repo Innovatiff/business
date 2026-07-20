@@ -2,7 +2,7 @@
   "title": "Aquarium Maintenance Business",
   "slug": "aquarium-maintenance-business",
   "category": "pet-and-animal",
-  "metaTitle": "How to Start an Aquarium Maintenance Business — Costs and Earnings",
+  "metaTitle": "How to Start an Aquarium Maintenance Business: Costs and Earnings",
   "metaDescription": "Honest guide to starting an aquarium maintenance business: real startup costs, recurring contract earnings, water chemistry skills needed, and what most people get wrong.",
   "startupCostLow": 800,
   "startupCostHigh": 6000,
@@ -20,7 +20,7 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "An aquarium maintenance business handles the recurring upkeep of fish tanks for homeowners, offices, restaurants, medical waiting rooms, and businesses that want a living display without the work. On a scheduled visit — usually weekly, biweekly, or monthly — you perform partial water changes, clean glass and filters, test and adjust water chemistry, dose treatments, feed fish, and check equipment. Most of the money is in recurring service contracts rather than one-off cleanings, which makes income more predictable than many service trades.",
+  "whatItIs": "An aquarium maintenance business handles the recurring upkeep of fish tanks for homeowners, offices, restaurants, medical waiting rooms, and businesses that want a living display without the work. On a scheduled visit, usually weekly, biweekly, or monthly, you perform partial water changes, clean glass and filters, test and adjust water chemistry, dose treatments, feed fish, and check equipment. Most of the money is in recurring service contracts rather than one-off cleanings, which makes income more predictable than many service trades.",
   "dailyReality": "A typical day is a route of three to seven tanks. At each stop you haul in buckets, a Python or pump, a siphon, test kits, and cleaning supplies, then spend 20 to 60 minutes per tank doing water changes, scrubbing algae, rinsing filter media in tank water, testing ammonia/nitrite/nitrate and pH, and topping off. You will get wet, kneel and reach awkwardly, and occasionally diagnose a sick fish or a failing heater. Between stops you drive, haul water-laden gear up stairs and into offices, and message clients about issues you spotted. Most operators batch visits geographically to keep windshield time down.",
   "startupCostsItemized": [
     { "item": "Cleaning and water-change gear (siphons, Python, pumps, buckets, magnet scrapers)", "low": 150, "high": 500 },
@@ -35,20 +35,20 @@
   "realEarnings": {
     "yearOne": "Most operators in year one earn $1,200 to $3,500 per month part-time while building a route. Per-tank service contracts commonly run $60 to $150 per residential visit and $150 to $400+ for large or saltwater commercial tanks, so income climbs with each account added.",
     "experienced": "Operators with two-plus years and a dense, mostly recurring route commonly report $4,000 to $9,000 per month solo. Commercial accounts (offices, restaurants, dealerships) and saltwater/reef tanks pay the most and anchor the schedule.",
-    "topEarners": "Operations with multiple techs, a leasing/rental program (the business owns the tank and livestock and charges a monthly fee), and install work can gross $15,000 to $50,000+ per month. Getting there means hiring trustworthy techs, carrying inventory, and taking on aquarium installs and aquascaping — a meaningful step up in capital and risk.",
+    "topEarners": "Operations with multiple techs, a leasing/rental program (the business owns the tank and livestock and charges a monthly fee), and install work can gross $15,000 to $50,000+ per month. Getting there means hiring trustworthy techs, carrying inventory, and taking on aquarium installs and aquascaping, a meaningful step up in capital and risk.",
     "whatAffectsMost": "Route density and the recurring-vs-onetime mix matter most. Saltwater and large display tanks pay several times what small freshwater tanks do per visit, and commercial accounts rarely cancel, so the highest earners weight their book toward commercial and saltwater.",
     "perHour": "Effective rate is often $50 to $120 per hour of actual tank work for solo operators. Counting driving, hauling, and water-prep time, realistic blended rates run $35 to $80 per hour."
   },
   "howToStart": [
-    "Week 1: Get genuinely solid on water chemistry and the nitrogen cycle if you are not already — ammonia, nitrite, nitrate, pH, and the difference between freshwater and saltwater systems. Assemble a basic kit and practice a full service on your own tank and a friend's until your routine is fast and clean.",
-    "Week 2: Register the business and get general liability insurance before touching a client's tank — a flood or a fish kill is a real liability. Set clear per-visit pricing by tank size and type, and decide whether you will service saltwater (more skill and gear) or start freshwater-only.",
+    "Week 1: Get genuinely solid on water chemistry and the nitrogen cycle if you are not already, ammonia, nitrite, nitrate, pH, and the difference between freshwater and saltwater systems. Assemble a basic kit and practice a full service on your own tank and a friend's until your routine is fast and clean.",
+    "Week 2: Register the business and get general liability insurance before touching a client's tank, a flood or a fish kill is a real liability. Set clear per-visit pricing by tank size and type, and decide whether you will service saltwater (more skill and gear) or start freshwater-only.",
     "Month 1: Land your first recurring accounts. Post in local fish-keeping and neighborhood groups, contact independent pet/fish stores about overflow referrals, and walk into offices, restaurants, and dental practices with a tank already in the lobby. Aim for signed recurring agreements, not one-off cleanings.",
     "Days 30-90: Tighten your route by neighborhood, document each tank's parameters and equipment so any visit is repeatable, and ask happy commercial clients for referrals to similar businesses. Decide whether to add RO/DI and saltwater capability based on the inquiries you are getting."
   ],
   "skillsRequired": {
     "mustHave": [
       "Solid understanding of the nitrogen cycle and freshwater water chemistry before you take money",
-      "Careful, methodical habits — small mistakes in dosing or temperature can kill livestock",
+      "Careful, methodical habits, small mistakes in dosing or temperature can kill livestock",
       "Reliability and comfort entering clients' homes and businesses on a fixed schedule"
     ],
     "canLearn": [
@@ -59,7 +59,7 @@
     "separators": [
       "Reef and large-display competence, where per-visit rates are several times freshwater",
       "Building a recurring commercial book that does not cancel and fills the calendar",
-      "Spotting problems early — a failing heater or rising nitrates — so clients trust you with their whole system, not just cleaning"
+      "Spotting problems early, a failing heater or rising nitrates, so clients trust you with their whole system, not just cleaning"
     ]
   },
   "whatPeopleGetWrong": [
@@ -68,11 +68,11 @@
     "Cross-contaminating tanks by reusing nets, siphons, or buckets between clients and spreading disease",
     "Taking on saltwater/reef tanks before they truly understand them, then losing expensive corals or fish",
     "Building a sprawling route with no density, so driving eats the profit on small tanks",
-    "Skipping insurance — a siphon left running or a cracked tank can flood a client's floor and cost thousands"
+    "Skipping insurance, a siphon left running or a cracked tank can flood a client's floor and cost thousands"
   ],
   "toolsAndEquipment": [
     { "item": "Python / water-change system and pumps", "note": "Speeds water changes enormously and saves your back. Core daily tool.", "low": 60, "high": 250 },
-    { "item": "Liquid test kits and a TDS/conductivity meter", "note": "Liquid reagent kits over cheap strips — accuracy protects livestock.", "low": 60, "high": 250 },
+    { "item": "Liquid test kits and a TDS/conductivity meter", "note": "Liquid reagent kits over cheap strips, accuracy protects livestock.", "low": 60, "high": 250 },
     { "item": "Algae scrapers, magnet cleaners, brushes, nets per client", "note": "Dedicate or sanitize gear between tanks to avoid spreading disease.", "low": 50, "high": 200 },
     { "item": "RO/DI filtration unit", "note": "Needed for serious saltwater clients; skip until you take on reef tanks.", "low": 150, "high": 600 },
     { "item": "Treatments, dechlorinator, salt mix, spare media", "note": "Carry a small rolling inventory; buy more as the route grows.", "low": 100, "high": 400 },
@@ -86,14 +86,14 @@
       "Local fish-keeping Facebook groups, club forums, and Nextdoor where hobbyists and busy owners ask for help",
       "Referrals from existing commercial clients to other businesses in the same building or area"
     ],
-    "whereCustomersAre": "Residential clients are busy hobbyists, gift-tank owners, and parents who want the display without the labor. The most profitable customers are businesses — offices, restaurants, dealerships, and medical waiting rooms — that want a maintained tank for ambiance and will sign recurring contracts.",
+    "whereCustomersAre": "Residential clients are busy hobbyists, gift-tank owners, and parents who want the display without the labor. The most profitable customers are businesses, offices, restaurants, dealerships, and medical waiting rooms, that want a maintained tank for ambiance and will sign recurring contracts.",
     "timeToClientBase": "First paying accounts usually come within two to four weeks of marketing. A route dense and recurring enough to feel stable typically takes four to eight months, since contracts build one at a time and trust matters.",
     "wasteOfTime": "Broad paid ads and glossy branding before you have a portfolio. Early on, store relationships, a few strong before/after photos, and walking into businesses with visible tanks convert far better."
   },
   "howItScales": {
     "toFullTime": "Yes. A solo operator with a dense recurring route of mostly commercial and saltwater tanks can reach full-time income, though you are capped by how many tanks you can physically service in a day.",
     "hireAndStepBack": "Possible but requires real trust, because a careless tech can kill livestock or flood a property. Owners who scale document every tank's parameters and equipment so a trained tech can run the route, then move into sales, installs, and a leasing program.",
-    "sellable": "Recurring contracts make this genuinely sellable — a documented book of commercial service agreements is an asset. A pure residential one-off route with no contracts is essentially just your labor and is harder to sell.",
+    "sellable": "Recurring contracts make this genuinely sellable, a documented book of commercial service agreements is an asset. A pure residential one-off route with no contracts is essentially just your labor and is harder to sell.",
     "whatScalingRequires": "Documented per-tank procedures, dedicated or sanitized gear, reliable techs, inventory management, and ideally an installation and tank-leasing arm that raises both revenue and the value of the business."
   },
   "fitChecklist": {
@@ -106,7 +106,7 @@
     "poorFit": [
       "You have never kept a tank and are not willing to learn chemistry deeply first",
       "You want passive income or dislike hauling water and getting wet",
-      "You are careless with details — small dosing or temperature errors kill fish here",
+      "You are careless with details, small dosing or temperature errors kill fish here",
       "Your area has too few tank owners and businesses to build a dense route"
     ],
     "askYourself": [
@@ -118,11 +118,11 @@
   "faqs": [
     {
       "question": "Do I need a license to start an aquarium maintenance business?",
-      "answer": "No specialized license exists for aquarium service in most areas, but you will need a general business registration and general liability insurance. If you sell livestock, plants, or corals, some states require additional permits and sales tax handling — check local rules before adding a retail or leasing component."
+      "answer": "No specialized license exists for aquarium service in most areas, but you will need a general business registration and general liability insurance. If you sell livestock, plants, or corals, some states require additional permits and sales tax handling, check local rules before adding a retail or leasing component."
     },
     {
       "question": "Do I need to know how to keep saltwater and reef tanks?",
-      "answer": "Not to start — you can begin freshwater-only, which is more forgiving. But saltwater and reef tanks pay several times more per visit and are where the strongest income is, so most serious operators learn reef husbandry within their first year. Do not take on a reef tank before you genuinely understand it; killed corals are expensive and reputation-damaging."
+      "answer": "Not to start, you can begin freshwater-only, which is more forgiving. But saltwater and reef tanks pay several times more per visit and are where the strongest income is, so most serious operators learn reef husbandry within their first year. Do not take on a reef tank before you genuinely understand it; killed corals are expensive and reputation-damaging."
     },
     {
       "question": "How much should I charge per visit?",
@@ -152,7 +152,7 @@
     "houseplant-shop-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — self-employed cleaning and personal/household services data",
+    "U.S. Bureau of Labor Statistics, self-employed cleaning and personal/household services data",
     "Pet industry market reports (APPA / pet-care spending trends) for demand context",
     "Aquarium maintenance cost guides and reported service-pricing ranges",
     "Aquarium service operator communities and hobbyist forums (r/Aquariums, reef-keeping clubs) for real-world pricing and earnings"

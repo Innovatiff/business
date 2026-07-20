@@ -2,7 +2,7 @@
   "title": "Auto Transport and Car Shipping Business",
   "slug": "auto-transport-business",
   "category": "automotive",
-  "metaTitle": "How to Start an Auto Transport Business — Real Costs and Earnings",
+  "metaTitle": "How to Start an Auto Transport Business: Real Costs and Earnings",
   "metaDescription": "An honest guide to starting an auto transport and car shipping business: broker vs carrier, real startup costs, what haulers earn, and what most people get wrong.",
   "startupCostLow": 4000,
   "startupCostHigh": 180000,
@@ -20,7 +20,7 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "An auto transport business moves vehicles between locations for dealers, auctions, individuals relocating, online car buyers, and snowbirds. There are two very different models. A carrier owns or operates trucks and trailers and physically hauls cars — typically open multi-car carriers for volume or enclosed trailers for high-value vehicles. A broker owns no trucks; instead they book loads from customers and dispatch them to vetted carriers through load boards like Central Dispatch, earning the spread or a fee. The two models have completely different costs, skills, and risks, and many newcomers misjudge which one fits them.",
+  "whatItIs": "An auto transport business moves vehicles between locations for dealers, auctions, individuals relocating, online car buyers, and snowbirds. There are two very different models. A carrier owns or operates trucks and trailers and physically hauls cars, typically open multi-car carriers for volume or enclosed trailers for high-value vehicles. A broker owns no trucks; instead they book loads from customers and dispatch them to vetted carriers through load boards like Central Dispatch, earning the spread or a fee. The two models have completely different costs, skills, and risks, and many newcomers misjudge which one fits them.",
   "dailyReality": "As a carrier, your day is driving, inspecting and documenting every vehicle at pickup and delivery, securing cars with straps and chains, fueling, navigating tight loading spots, and managing hours-of-service logs and DOT compliance. As a broker, you are at a desk and phone all day: quoting customers, posting and negotiating loads on dispatch boards, vetting carrier insurance and authority, chasing paperwork, and handling the customer when a pickup runs late. Both models live on margins that move daily with fuel prices and lane demand, so constant attention to pricing and cash flow is the real job.",
   "startupCostsItemized": [
     { "item": "Broker authority (MC number) and BMC-84 surety bond ($75,000 bond)", "low": 1500, "high": 4000, "optional": true },
@@ -42,9 +42,9 @@
   "howToStart": [
     "Month 1: Choose your model honestly. If you want to drive and have or can finance a truck, plan the carrier path; if you prefer phones, logistics, and lower capital, plan the broker path. Each requires different federal authority and insurance.",
     "Month 1 to 2 (broker): File for broker authority and your MC number, post the required $75,000 BMC-84 surety bond, get contingent cargo insurance, and subscribe to Central Dispatch and a basic dispatch/TMS tool.",
-    "Month 1 to 2 (carrier): Secure operating authority and a USDOT number, buy or lease a reliable open or enclosed trailer setup, and lock in commercial auto, cargo, and liability insurance — the largest ongoing carrier cost.",
+    "Month 1 to 2 (carrier): Secure operating authority and a USDOT number, buy or lease a reliable open or enclosed trailer setup, and lock in commercial auto, cargo, and liability insurance, the largest ongoing carrier cost.",
     "Month 2 to 3: Start with simpler, well-traveled lanes. Document every vehicle's condition with timestamped photos at pickup and delivery to protect against damage claims, which are the most common dispute in this business.",
-    "Months 3 to 6: Build relationships — brokers with reliable carriers, carriers with repeat dealers and dispatch contacts — and tighten your pricing model lane by lane so you stop guessing on margins.",
+    "Months 3 to 6: Build relationships, brokers with reliable carriers, carriers with repeat dealers and dispatch contacts, and tighten your pricing model lane by lane so you stop guessing on margins.",
     "Months 6 to 12: Pursue recurring volume from dealers, auctions, and relocation companies. Steady contracts smooth out the feast-or-famine cycle that defines the first year."
   ],
   "skillsRequired": {
@@ -59,13 +59,13 @@
       "Vehicle inspection documentation and handling damage claims professionally"
     ],
     "separators": [
-      "A reliable network — vetted carriers for brokers, repeat dealer and auction accounts for carriers",
+      "A reliable network, vetted carriers for brokers, repeat dealer and auction accounts for carriers",
       "Disciplined pricing that protects margin instead of chasing every cheap load",
       "A reputation for on-time, damage-free delivery and fast, fair claim handling that earns repeat business"
     ]
   },
   "whatPeopleGetWrong": [
-    "Assuming brokering is easy money — it is a high-volume, low-margin sales and logistics grind where unreliable carriers can cost you customers fast",
+    "Assuming brokering is easy money, it is a high-volume, low-margin sales and logistics grind where unreliable carriers can cost you customers fast",
     "Underestimating carrier costs, especially commercial insurance, fuel, and maintenance on an expensive specialized truck",
     "Skipping thorough timestamped condition photos at pickup and delivery, then losing damage disputes",
     "Hauling or booking loads at rates that do not cover true costs just to stay busy, then bleeding cash",
@@ -124,7 +124,7 @@
     },
     {
       "question": "Do I need a CDL?",
-      "answer": "You need a commercial driver's license to physically haul cars as a carrier, and you must meet DOT and FMCSA requirements. Brokers do not drive, so they do not need a CDL — they need broker authority, an MC number, and a $75,000 surety bond instead. This is one of the biggest practical differences between the two paths."
+      "answer": "You need a commercial driver's license to physically haul cars as a carrier, and you must meet DOT and FMCSA requirements. Brokers do not drive, so they do not need a CDL, they need broker authority, an MC number, and a $75,000 surety bond instead. This is one of the biggest practical differences between the two paths."
     },
     {
       "question": "What is the surety bond brokers keep mentioning?",
@@ -139,7 +139,7 @@
       "answer": "Vehicle damage disputes are the most common conflict in auto transport, so timestamped photos and a signed condition report at both pickup and delivery are essential. Carriers carry cargo insurance to cover legitimate damage; brokers carry contingent cargo coverage and must vet carrier insurance. Handling claims quickly and fairly protects your reviews and repeat business."
     },
     {
-      "question": "Open versus enclosed transport — which is better business?",
+      "question": "Open versus enclosed transport, which is better business?",
       "answer": "Open carriers move more vehicles per trip at lower per-car rates and serve most everyday shipping. Enclosed transport commands much higher rates for exotics, classics, and luxury cars but carries fewer vehicles and needs more expensive equipment. Many carriers start open for volume and add enclosed capacity only when they have the high-value clientele to justify it."
     },
     {
@@ -154,8 +154,8 @@
     "fleet-maintenance-business"
   ],
   "dataSources": [
-    "Federal Motor Carrier Safety Administration (FMCSA) — broker authority, surety bond, and carrier requirements",
-    "U.S. Bureau of Labor Statistics — Heavy and Tractor-Trailer Truck Drivers wage data",
+    "Federal Motor Carrier Safety Administration (FMCSA), broker authority, surety bond, and carrier requirements",
+    "U.S. Bureau of Labor Statistics, Heavy and Tractor-Trailer Truck Drivers wage data",
     "Central Dispatch and industry load-board rate reporting",
     "Owner-operator and broker community forums for real-world lane pricing and margins"
   ],

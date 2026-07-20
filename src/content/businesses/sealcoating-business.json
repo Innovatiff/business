@@ -2,7 +2,7 @@
   "title": "Asphalt Sealcoating Business",
   "slug": "sealcoating-business",
   "category": "service-businesses",
-  "metaTitle": "How to Start an Asphalt Sealcoating Business — Costs, Earnings, Steps",
+  "metaTitle": "How to Start an Asphalt Sealcoating Business: Costs, Earnings, Steps",
   "metaDescription": "Honest guide to starting an asphalt sealcoating business: real startup costs, seasonal earnings, per-square-foot pricing, and what most operators get wrong.",
   "startupCostLow": 3000,
   "startupCostHigh": 25000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": true,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A sealcoating business applies a protective sealer over asphalt driveways and parking lots and fills cracks to extend the pavement's life and improve its appearance. It is distinct from asphalt paving (laying new asphalt) and from line striping (painting parking-lot lines) — though many operators add crack-filling and striping as complementary services. The work is seasonal because sealer needs warm, dry weather to cure, and it is recurring: a properly sealed driveway typically needs re-coating every two to three years, which builds a repeat customer base over time.",
-  "dailyReality": "A typical day starts early to beat afternoon heat and storms. You clean the surface with a blower and wire brush, fill cracks with hot or cold pour crack filler, edge and tape off, then apply sealer by spray or squeegee in even coats. Driveways take one to three hours; parking lots can take a full day or run overnight. You watch the weather obsessively — rain within hours of application ruins a job. Between jobs you are quoting, measuring square footage, buying material, and scheduling around the forecast. Cleanup of sticky equipment and managing a tight weather window are constant realities.",
+  "whatItIs": "A sealcoating business applies a protective sealer over asphalt driveways and parking lots and fills cracks to extend the pavement's life and improve its appearance. It is distinct from asphalt paving (laying new asphalt) and from line striping (painting parking-lot lines), though many operators add crack-filling and striping as complementary services. The work is seasonal because sealer needs warm, dry weather to cure, and it is recurring: a properly sealed driveway typically needs re-coating every two to three years, which builds a repeat customer base over time.",
+  "dailyReality": "A typical day starts early to beat afternoon heat and storms. You clean the surface with a blower and wire brush, fill cracks with hot or cold pour crack filler, edge and tape off, then apply sealer by spray or squeegee in even coats. Driveways take one to three hours; parking lots can take a full day or run overnight. You watch the weather obsessively, rain within hours of application ruins a job. Between jobs you are quoting, measuring square footage, buying material, and scheduling around the forecast. Cleanup of sticky equipment and managing a tight weather window are constant realities.",
   "startupCostsItemized": [
     { "item": "Used or new sealcoating spray rig or tank with pump", "low": 1000, "high": 12000 },
     { "item": "Crack-filling equipment (melter for hot pour, or cold-pour setup)", "low": 200, "high": 6000, "optional": true },
@@ -41,7 +41,7 @@
   },
   "howToStart": [
     "Week 1-2: Decide your entry point. A driveway-focused start can begin with a small tank, squeegees, and cold-pour crack filler for a few thousand dollars; a parking-lot focus needs a real spray rig. Buy general liability insurance before any paid work.",
-    "Week 2: Learn proper application — surface prep, crack filling, the right number of coats, and the weather window. Practice on your own and friends' driveways until coverage is even and curing is correct. A failed coat is the fastest way to lose referrals.",
+    "Week 2: Learn proper application, surface prep, crack filling, the right number of coats, and the weather window. Practice on your own and friends' driveways until coverage is even and curing is correct. A failed coat is the fastest way to lose referrals.",
     "Week 3-4: Set per-square-foot pricing for your area and create a Google Business Profile with before/after photos. Post in local Facebook groups and Nextdoor, and leave door hangers in older neighborhoods where driveways visibly need sealing.",
     "Month 1-2: Complete your first paid driveways, track real time and material per job, and ask every happy customer for a review. Note who you sealed and when so you can re-market to them in two to three years.",
     "Season 1 onward: Approach property managers, HOAs, and small commercial lots for higher-ticket recurring contracts, and add crack-filling and striping to raise job value and stickiness."
@@ -64,7 +64,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Skipping surface prep — sealing over dirt, oil, or standing water so the coat fails and peels within months",
+    "Skipping surface prep, sealing over dirt, oil, or standing water so the coat fails and peels within months",
     "Applying in the wrong conditions (too cold, too humid, rain coming) and ruining the job and their reputation",
     "Underbidding driveways without measuring, then losing money once material and time are counted",
     "Coating too thin to make material stretch, which shortens lifespan and triggers callbacks",
@@ -74,10 +74,10 @@
   "toolsAndEquipment": [
     { "item": "Sealcoating spray rig or squeegee tank with pump", "note": "The core tool. A used squeegee setup is cheap to start; a spray rig is needed for speed and lots.", "low": 1000, "high": 12000 },
     { "item": "Crack-filling melter (hot pour) or cold-pour kit", "note": "Crack filling should precede sealing. Cold pour is cheap to start; hot pour is faster and more durable.", "low": 200, "high": 6000 },
-    { "item": "Backpack/gas blower and wire brooms", "note": "Surface prep gear — clean pavement is the foundation of a coat that lasts.", "low": 100, "high": 600 },
+    { "item": "Backpack/gas blower and wire brooms", "note": "Surface prep gear, clean pavement is the foundation of a coat that lasts.", "low": 100, "high": 600 },
     { "item": "Squeegees, application brushes, edging tools", "note": "Even on a spray rig you need hand tools for edges and detail.", "low": 100, "high": 400 },
     { "item": "Trailer or truck", "note": "To haul the rig and material. Start with what you own or rent before buying.", "low": 0, "high": 8000 },
-    { "item": "Striping equipment", "note": "Add-on for parking-lot work — line striping raises ticket size and wins commercial jobs.", "low": 200, "high": 2500 }
+    { "item": "Striping equipment", "note": "Add-on for parking-lot work, line striping raises ticket size and wins commercial jobs.", "low": 200, "high": 2500 }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -119,7 +119,7 @@
   "faqs": [
     {
       "question": "Do I need a license to start a sealcoating business?",
-      "answer": "In most areas no specialized license is required for sealcoating, but you will need a general business registration and general liability insurance. Some states or municipalities require a contractor registration above a certain job size, and commercial work may involve permits or insurance requirements — check local rules before bidding lots."
+      "answer": "In most areas no specialized license is required for sealcoating, but you will need a general business registration and general liability insurance. Some states or municipalities require a contractor registration above a certain job size, and commercial work may involve permits or insurance requirements, check local rules before bidding lots."
     },
     {
       "question": "How is sealcoating different from paving and striping?",
@@ -139,7 +139,7 @@
     },
     {
       "question": "Can I start with just a squeegee and a small tank?",
-      "answer": "Yes — a driveway-focused start can begin with a small tank, squeegees, and cold-pour crack filler for a few thousand dollars. A spray rig is faster and necessary for parking lots, but you can grow into it once the work justifies the cost."
+      "answer": "Yes, a driveway-focused start can begin with a small tank, squeegees, and cold-pour crack filler for a few thousand dollars. A spray rig is faster and necessary for parking lots, but you can grow into it once the work justifies the cost."
     },
     {
       "question": "What ruins a sealcoating job most often?",
@@ -153,8 +153,8 @@
     "snow-removal-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Paving, Surfacing, and Tamping Equipment Operators data",
-    "Angi / HomeAdvisor — Driveway Sealing Cost Guides (reported per-square-foot pricing)",
+    "U.S. Bureau of Labor Statistics, Paving, Surfacing, and Tamping Equipment Operators data",
+    "Angi / HomeAdvisor, Driveway Sealing Cost Guides (reported per-square-foot pricing)",
     "Pavement Coatings Technology Council and asphalt-maintenance industry resources",
     "Sealcoating equipment supplier guides (material coverage and rig costs)",
     "Operator forums and communities for real-world pricing, seasonality, and application practices"

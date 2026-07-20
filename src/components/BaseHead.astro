@@ -2,7 +2,7 @@
 /**
  * Global <head>. Single source of truth for SEO tags, Open Graph, and the
  * (currently disabled) AdSense script. After AdSense approval, set
- * PUBLIC_ADSENSE_ENABLED=true and PUBLIC_ADSENSE_CLIENT — the script then
+ * PUBLIC_ADSENSE_ENABLED=true and PUBLIC_ADSENSE_CLIENT, the script then
  * loads site-wide automatically because this component is in the base layout.
  */
 import { SITE, ADSENSE, SEO } from '../config';
@@ -22,7 +22,7 @@ export interface Props {
 const { title, description, path = '', jsonLd = [], noindex = false, ogType = 'website' } = Astro.props;
 
 // Canonical URLs carry a trailing slash (except the root) so they match the
-// directory-format page Netlify serves with a 200 — sitemap, canonical tag,
+// directory-format page Netlify serves with a 200, sitemap, canonical tag,
 // and served URL all agree, leaving no redirect for Google (or browsers) to hit.
 const rawPath = path || Astro.url.pathname || '/';
 const trimmed = rawPath.replace(/^\/+|\/+$/g, '');
@@ -80,7 +80,7 @@ const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
 
 <!-- Ionicons web-component library, self-hosted under /vendor/ionicons (loader
      + only the SVGs the site uses). Vendored locally so the site stays fully
-     self-contained — no external CDN request. The module script is deferred by
+     self-contained, no external CDN request. The module script is deferred by
      default, so it never blocks first paint. -->
 <script type="module" src="/vendor/ionicons/ionicons.esm.js"></script>
 

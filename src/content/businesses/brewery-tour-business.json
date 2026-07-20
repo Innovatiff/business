@@ -2,7 +2,7 @@
   "title": "Brewery and Winery Tour Business",
   "slug": "brewery-tour-business",
   "category": "local-and-community",
-  "metaTitle": "How to Start a Brewery and Winery Tour Business — Real Costs and Earnings",
+  "metaTitle": "How to Start a Brewery and Winery Tour Business: Real Costs and Earnings",
   "metaDescription": "Honest guide to starting a brewery and winery tour business: real costs, seasonal earnings, the alcohol and transportation liability you must plan for, and what most operators get wrong.",
   "startupCostLow": 6000,
   "startupCostHigh": 60000,
@@ -11,7 +11,7 @@
   "timeToFirstIncome": "1 to 3 months",
   "difficultyLevel": "Intermediate",
   "bestFor": "Outgoing, responsible people in a beer or wine region who can manage transportation, intoxicated guests, and serious liability while delivering a fun experience",
-  "biggestRisk": "Alcohol and transportation liability — an intoxicated guest, a vehicle incident, or an insurance gap can lead to lawsuits or criminal exposure that ends the business",
+  "biggestRisk": "Alcohol and transportation liability, an intoxicated guest, a vehicle incident, or an insurance gap can lead to lawsuits or criminal exposure that ends the business",
   "speedToIncome": "months",
   "minWeeklyHours": 15,
   "skills": ["people", "sales", "hands"],
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A brewery and winery tour business runs guided outings to local breweries, wineries, distilleries, and cideries — usually a half or full day visiting two to four stops with tastings, behind-the-scenes access, and transportation between venues. You curate the route, arrange the venue relationships and tasting fees, handle logistics, and provide a knowledgeable, entertaining guide. The transportation piece is central and is where the business gets serious: you are moving groups of drinking adults, so you either operate vehicles yourself (which usually requires commercial licensing, permits, and heavy insurance) or partner with a licensed transportation provider. The appeal is real margins on premium experiences and bookings for bachelor/bachelorette parties, corporate outings, and celebrations. The catch is that you are responsible for safety and sobriety in a way most tour businesses are not, and the regulatory and insurance burden is substantial.",
-  "dailyReality": "On tour days you confirm venue reservations and tasting arrangements, prep the vehicle or coordinate with your transport partner, and meet your group. The tour itself is part host, part safety manager: you narrate the region's beer or wine story, keep the group on schedule across stops, watch for over-served guests, manage the inevitable late or rowdy rider, and make sure everyone gets home safely. Between tours you sell and book — handling inquiries for weekend parties and corporate groups, maintaining venue relationships and rates, managing reviews, and keeping insurance, permits, and waivers current. Demand clusters heavily on weekends and warm-weather and harvest seasons, so the rhythm is intense bursts of weekend work plus weekday selling and logistics, with quieter winters in most regions.",
+  "whatItIs": "A brewery and winery tour business runs guided outings to local breweries, wineries, distilleries, and cideries, usually a half or full day visiting two to four stops with tastings, behind-the-scenes access, and transportation between venues. You curate the route, arrange the venue relationships and tasting fees, handle logistics, and provide a knowledgeable, entertaining guide. The transportation piece is central and is where the business gets serious: you are moving groups of drinking adults, so you either operate vehicles yourself (which usually requires commercial licensing, permits, and heavy insurance) or partner with a licensed transportation provider. The appeal is real margins on premium experiences and bookings for bachelor/bachelorette parties, corporate outings, and celebrations. The catch is that you are responsible for safety and sobriety in a way most tour businesses are not, and the regulatory and insurance burden is substantial.",
+  "dailyReality": "On tour days you confirm venue reservations and tasting arrangements, prep the vehicle or coordinate with your transport partner, and meet your group. The tour itself is part host, part safety manager: you narrate the region's beer or wine story, keep the group on schedule across stops, watch for over-served guests, manage the inevitable late or rowdy rider, and make sure everyone gets home safely. Between tours you sell and book, handling inquiries for weekend parties and corporate groups, maintaining venue relationships and rates, managing reviews, and keeping insurance, permits, and waivers current. Demand clusters heavily on weekends and warm-weather and harvest seasons, so the rhythm is intense bursts of weekend work plus weekday selling and logistics, with quieter winters in most regions.",
   "startupCostsItemized": [
     { "item": "Business license, transportation permits, and registrations", "low": 500, "high": 6000 },
     { "item": "Commercial / liquor-liability and auto insurance", "low": 2500, "high": 12000, "annual": true },
@@ -40,7 +40,7 @@
   },
   "howToStart": [
     "Month 1: Solve transportation and liability first. Decide whether to partner with a licensed transport company (lower cost, fewer headaches to start) or operate your own vehicles, which typically requires commercial driver licensing, DOT/permit compliance, and far more insurance. Do not skip this step.",
-    "Month 1: Line up insurance built for this — general liability plus liquor-liability and commercial auto coverage if you transport. Understand your state's dram-shop and host-liability laws before carrying a single guest.",
+    "Month 1: Line up insurance built for this, general liability plus liquor-liability and commercial auto coverage if you transport. Understand your state's dram-shop and host-liability laws before carrying a single guest.",
     "Months 1-2: Build venue relationships. Visit local breweries and wineries, negotiate group tasting arrangements and rates, and design two or three routes with reliable, welcoming stops.",
     "Month 2: Set pricing for public, private, and corporate tours, build a booking system with waivers and deposits, take strong photos, and list on travel marketplaces and your own site.",
     "Months 2-3: Run your first tours with airtight safety practices, ask happy groups for reviews, and start courting bachelor/bachelorette, corporate, and celebration bookings, which become your highest-margin work."
@@ -58,7 +58,7 @@
     ],
     "separators": [
       "Locking in strong venue partnerships and premium private/corporate bookings",
-      "Managing liability flawlessly — sobriety judgment, insurance, and safe transport",
+      "Managing liability flawlessly, sobriety judgment, insurance, and safe transport",
       "Building a reputation and reviews that justify premium pricing in a competitive region"
     ]
   },
@@ -71,7 +71,7 @@
     "Skipping deposits and clear cancellation terms, then losing money on no-shows and last-minute drops"
   ],
   "toolsAndEquipment": [
-    { "item": "Transportation — owned vehicle or licensed transport partner", "note": "Owning means commercial licensing and heavy insurance; partnering is the lower-risk start.", "low": 0, "high": 35000 },
+    { "item": "Transportation, owned vehicle or licensed transport partner", "note": "Owning means commercial licensing and heavy insurance; partnering is the lower-risk start.", "low": 0, "high": 35000 },
     { "item": "Liquor-liability and commercial auto insurance", "note": "The single most important purchase; never run tours without it.", "low": 2500, "high": 12000 },
     { "item": "Booking, waiver, and payment system", "note": "Handles deposits, cancellations, and signed waivers; reduces no-shows and exposure.", "low": 0, "high": 1500 },
     { "item": "Guest supplies (water, snacks, branded glassware)", "note": "Water and food keep guests safer and reviews higher.", "low": 300, "high": 2000 },
@@ -137,7 +137,7 @@
     },
     {
       "question": "Where do the best bookings come from?",
-      "answer": "Private and corporate groups — bachelor/bachelorette parties, birthdays, anniversaries, and company outings — pay premium per-head and per-vehicle rates and book the whole tour. Building referral relationships with planners, hotels, and the venues themselves, plus strong reviews, is how operators land this higher-margin work."
+      "answer": "Private and corporate groups, bachelor/bachelorette parties, birthdays, anniversaries, and company outings, pay premium per-head and per-vehicle rates and book the whole tour. Building referral relationships with planners, hotels, and the venues themselves, plus strong reviews, is how operators land this higher-margin work."
     },
     {
       "question": "Can I start part-time?",

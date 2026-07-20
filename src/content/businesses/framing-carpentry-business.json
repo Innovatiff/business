@@ -2,7 +2,7 @@
   "title": "Framing Carpentry Business",
   "slug": "framing-carpentry-business",
   "category": "trades-and-skilled-work",
-  "metaTitle": "How to Start a Framing Carpentry Business — Real Costs and Earnings",
+  "metaTitle": "How to Start a Framing Carpentry Business: Real Costs and Earnings",
   "metaDescription": "Honest guide to starting a framing carpentry business: real startup costs, crew-based earnings, how to win GC contracts, and what people get wrong.",
   "startupCostLow": 5000,
   "startupCostHigh": 30000,
@@ -20,10 +20,10 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "A framing carpentry business builds the structural skeleton of buildings — floor systems, wall framing, roof framing, and sheathing — for new homes, additions, and remodels. It is rough carpentry, distinct from finish or custom carpentry: the work is fast, physical, and structural rather than detailed and decorative, and accuracy and code compliance matter more than fine appearance. Most framing businesses subcontract to general contractors and home builders, bidding jobs by the square foot or as a fixed contract and running a crew to hit aggressive schedules. The model rewards speed, accuracy, and reliable crews far more than low startup cost.",
+  "whatItIs": "A framing carpentry business builds the structural skeleton of buildings, floor systems, wall framing, roof framing, and sheathing, for new homes, additions, and remodels. It is rough carpentry, distinct from finish or custom carpentry: the work is fast, physical, and structural rather than detailed and decorative, and accuracy and code compliance matter more than fine appearance. Most framing businesses subcontract to general contractors and home builders, bidding jobs by the square foot or as a fixed contract and running a crew to hit aggressive schedules. The model rewards speed, accuracy, and reliable crews far more than low startup cost.",
   "dailyReality": "Days start early and are physically demanding: hauling and cutting lumber, laying out and snapping lines, building and standing walls, framing floors and roofs, sheathing, and working from plans while keeping everything plumb, level, and square to code. You run a crew, manage materials and lumber deliveries, and push to stay on the builder's schedule because the trades behind you (electrical, plumbing, HVAC) cannot start until you are done. Around the framing itself, expect significant time bidding jobs, ordering materials, coordinating with general contractors, and handling payroll and scheduling. Weather, inspections, and material delays constantly threaten the timeline.",
   "startupCostsItemized": [
-    { "item": "Framing tools — nailers, circular/worm-drive saws, compressor or battery platform", "low": 1500, "high": 5000 },
+    { "item": "Framing tools, nailers, circular/worm-drive saws, compressor or battery platform", "low": 1500, "high": 5000 },
     { "item": "Work truck or trailer suitable for crew and materials", "low": 0, "high": 15000, "optional": true },
     { "item": "General liability insurance", "low": 1500, "high": 5000, "annual": true },
     { "item": "Workers' compensation insurance (required once you hire)", "low": 0, "high": 8000, "annual": true, "optional": true },
@@ -33,22 +33,22 @@
     { "item": "Hand tools, layout tools, levels, and consumables", "low": 300, "high": 1500 }
   ],
   "realEarnings": {
-    "yearOne": "A new owner-framer in year one — often working alongside one or two helpers and still swinging a hammer — typically nets $6,000 to $12,000 per month when work is steady, with sharp swings from weather, season, and the bidding learning curve. Early underbidding commonly compresses these numbers.",
+    "yearOne": "A new owner-framer in year one, often working alongside one or two helpers and still swinging a hammer, typically nets $6,000 to $12,000 per month when work is steady, with sharp swings from weather, season, and the bidding learning curve. Early underbidding commonly compresses these numbers.",
     "experienced": "Established framing subcontractors with a reliable crew, repeat builder relationships, and disciplined bidding commonly report $12,000 to $25,000 per month in owner income during active building seasons, more in hot housing markets. Consistency depends heavily on a steady pipeline of GC work.",
     "topEarners": "Top framing companies run multiple crews across several jobs, hold standing relationships with production builders, and gross $50,000 to $200,000+ per month, with owner take-home a fraction of that after labor and materials. Reaching that means becoming a manager and estimator who rarely frames, plus carrying significant payroll and risk.",
-    "whatAffectsMost": "Accurate bidding and crew productivity matter most — framing margins are thin, so mis-estimating labor or lumber, or losing crew time to delays, can turn a job into a loss. Steady builder relationships and local housing demand are the next biggest factors.",
+    "whatAffectsMost": "Accurate bidding and crew productivity matter most, framing margins are thin, so mis-estimating labor or lumber, or losing crew time to delays, can turn a job into a loss. Steady builder relationships and local housing demand are the next biggest factors.",
     "perHour": "Skilled framers and crew leads effectively earn roughly $30 to $60 per hour of work, with owner-operators earning more when bids are accurate and crews are productive. Counting bidding, coordination, and downtime from weather and delays, realistic blended owner rates often land at $35 to $70 per hour."
   },
   "howToStart": [
-    "Before starting: Get real framing experience — several years on framing crews. This is not a no-experience business; bidding and running a crew without knowing the work firsthand is how people lose money fast.",
+    "Before starting: Get real framing experience, several years on framing crews. This is not a no-experience business; bidding and running a crew without knowing the work firsthand is how people lose money fast.",
     "Month 1: Register the business, get a contractor license/registration if your state requires one, and carry general liability insurance (and workers' comp before you hire). Set up basic accounting so you can track job costs accurately.",
-    "Weeks 2-6: Acquire your core tools — nailers, saws, compressor or battery platform, layout and safety gear — and a truck or trailer if you do not already have one. Buy reliable, professional-grade equipment, since downtime on a framing job is expensive.",
+    "Weeks 2-6: Acquire your core tools, nailers, saws, compressor or battery platform, layout and safety gear, and a truck or trailer if you do not already have one. Buy reliable, professional-grade equipment, since downtime on a framing job is expensive.",
     "Month 1-2: Approach local general contractors, home builders, and remodelers and offer to bid framing work. Start with smaller jobs (additions, garages, single homes) to prove your crew can hit schedule and quality before chasing larger contracts.",
     "Months 2-3: Learn to bid accurately by tracking your real labor hours and lumber costs against every job, build a dependable crew, and turn one or two satisfied builders into repeat clients who keep your schedule full."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Solid hands-on framing skill — reading plans and building floors, walls, and roofs plumb, level, square, and to code",
+      "Solid hands-on framing skill, reading plans and building floors, walls, and roofs plumb, level, square, and to code",
       "Physical stamina for hard, fast, all-weather work",
       "Ability to run a crew and keep a job on the builder's schedule"
     ],
@@ -87,12 +87,12 @@
       "Remodelers and addition contractors needing framing for smaller, faster-starting projects",
       "Lumberyard and supplier relationships, where builders and subs find reliable framers"
     ],
-    "whereCustomersAre": "General contractors, production and custom home builders, and remodelers — not homeowners. The work concentrates in growing housing markets, and your reputation among local builders is the entire game; framing is a relationship-and-reliability business.",
+    "whereCustomersAre": "General contractors, production and custom home builders, and remodelers, not homeowners. The work concentrates in growing housing markets, and your reputation among local builders is the entire game; framing is a relationship-and-reliability business.",
     "timeToClientBase": "Landing first jobs typically takes one to three months of bidding and proving your crew on smaller projects. A steady pipeline depends on repeat builder relationships, which usually take six to twelve months of reliable, on-schedule work to establish.",
-    "wasteOfTime": "Consumer advertising and homeowner-facing marketing are largely irrelevant — almost all work comes through builders. A polished website matters far less than a track record of hitting schedule and passing inspection."
+    "wasteOfTime": "Consumer advertising and homeowner-facing marketing are largely irrelevant, almost all work comes through builders. A polished website matters far less than a track record of hitting schedule and passing inspection."
   },
   "howItScales": {
-    "toFullTime": "Yes, and it is typically full-time from the start — framing is not a part-time business. Owner income grows by running a productive crew and keeping a steady builder pipeline, though it is capped by how much accurate work you can supervise and the local building cycle.",
+    "toFullTime": "Yes, and it is typically full-time from the start, framing is not a part-time business. Owner income grows by running a productive crew and keeping a steady builder pipeline, though it is capped by how much accurate work you can supervise and the local building cycle.",
     "hireAndStepBack": "This is the core growth model: adding crews and a foreman lets you run multiple jobs while you estimate and manage. But you take on heavy payroll, workers' comp, scheduling, and quality risk, and stepping back fully requires trusted crew leads and disciplined job costing.",
     "sellable": "An established framing company with multiple crews, standing builder relationships, equipment, and clean job-costing records has real resale value to larger contractors. A solo owner-framer with no crew is closer to a tradesman's job and harder to sell.",
     "whatScalingRequires": "Reliable trained crews and foremen, disciplined estimating and job costing, working capital to float payroll and materials between draws, equipment redundancy, and standing relationships with multiple builders to keep crews busy."
@@ -119,7 +119,7 @@
   "faqs": [
     {
       "question": "How is framing carpentry different from finish or custom carpentry?",
-      "answer": "Framing is rough, structural carpentry — building the floors, walls, and roof skeleton fast and to code — while finish and custom carpentry are detailed, decorative work like trim, cabinetry, and built-ins. Framing rewards speed, accuracy, and crew productivity over fine appearance, and it is more physically demanding. Most framers subcontract to builders rather than working directly for homeowners."
+      "answer": "Framing is rough, structural carpentry, building the floors, walls, and roof skeleton fast and to code, while finish and custom carpentry are detailed, decorative work like trim, cabinetry, and built-ins. Framing rewards speed, accuracy, and crew productivity over fine appearance, and it is more physically demanding. Most framers subcontract to builders rather than working directly for homeowners."
     },
     {
       "question": "Do I need a license to start a framing business?",
@@ -143,7 +143,7 @@
     },
     {
       "question": "Is framing physically sustainable long-term?",
-      "answer": "It is hard on the body — heavy lifting, repetitive motion, and working at height in all conditions. Many framers transition over time from swinging hammers to running crews and estimating to ease the physical toll. If your goal is longevity, plan early to build a crew so you are not the one framing every job at fifty."
+      "answer": "It is hard on the body, heavy lifting, repetitive motion, and working at height in all conditions. Many framers transition over time from swinging hammers to running crews and estimating to ease the physical toll. If your goal is longevity, plan early to build a crew so you are not the one framing every job at fifty."
     }
   ],
   "similarBusinesses": [
@@ -153,7 +153,7 @@
     "deck-building-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Carpenters (OEWS wage data) and Construction industry outlook",
+    "U.S. Bureau of Labor Statistics, Carpenters (OEWS wage data) and Construction industry outlook",
     "RSMeans and regional framing labor and lumber cost data (per-square-foot benchmarks)",
     "State contractor licensing board requirements and OSHA construction safety standards",
     "Builder and framing-contractor community discussions for real-world bidding, crew, and margin realities"

@@ -2,7 +2,7 @@
   "title": "Supplement Brand Business",
   "slug": "supplement-brand-business",
   "category": "retail-and-products",
-  "metaTitle": "How to Start a Supplement Brand — Real Costs, Rules, and Earnings",
+  "metaTitle": "How to Start a Supplement Brand: Real Costs, Rules, and Earnings",
   "metaDescription": "Honest breakdown of starting a private-label supplement brand business: real startup capital, FDA and DSHEA labeling rules, inventory, margins, and what most people get wrong.",
   "startupCostLow": 8000,
   "startupCostHigh": 75000,
@@ -20,10 +20,10 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "A supplement brand sells private-label dietary supplements — protein, vitamins, pre-workout, greens, sleep aids, and similar — under your own brand. You do not manufacture; you work with a contract manufacturer (a private-label or custom-formulation lab) that produces, bottles, and labels the product to your specs, then you market and sell it, usually direct-to-consumer online and sometimes through Amazon or retail. The category has strong gross margins and big winners, but it is capital-intensive, fiercely competitive, dominated by paid advertising and influencers, and tightly governed by federal rules on labeling and health claims.",
-  "dailyReality": "Early on, the work is product development and compliance: choosing a formula, vetting manufacturers, ordering and testing samples, designing compliant labels and packaging, and meeting minimum order quantities that lock up serious cash. Once you launch, the day-to-day is mostly marketing and operations — running and watching paid ads, working with influencers and affiliates, managing your Shopify or Amazon store, monitoring inventory and reorders, handling customer service and subscriptions, and staying on top of reviews. Compliance is continuous: every claim on your site, label, and ad must stay within the rules, and you must keep documentation.",
+  "whatItIs": "A supplement brand sells private-label dietary supplements, protein, vitamins, pre-workout, greens, sleep aids, and similar, under your own brand. You do not manufacture; you work with a contract manufacturer (a private-label or custom-formulation lab) that produces, bottles, and labels the product to your specs, then you market and sell it, usually direct-to-consumer online and sometimes through Amazon or retail. The category has strong gross margins and big winners, but it is capital-intensive, fiercely competitive, dominated by paid advertising and influencers, and tightly governed by federal rules on labeling and health claims.",
+  "dailyReality": "Early on, the work is product development and compliance: choosing a formula, vetting manufacturers, ordering and testing samples, designing compliant labels and packaging, and meeting minimum order quantities that lock up serious cash. Once you launch, the day-to-day is mostly marketing and operations, running and watching paid ads, working with influencers and affiliates, managing your Shopify or Amazon store, monitoring inventory and reorders, handling customer service and subscriptions, and staying on top of reviews. Compliance is continuous: every claim on your site, label, and ad must stay within the rules, and you must keep documentation.",
   "startupCostsItemized": [
-    { "item": "Initial inventory — first manufacturing run (meeting MOQs)", "low": 4000, "high": 30000 },
+    { "item": "Initial inventory, first manufacturing run (meeting MOQs)", "low": 4000, "high": 30000 },
     { "item": "Formulation, samples, and third-party lab testing", "low": 500, "high": 8000 },
     { "item": "Label/packaging design and compliance review (often legal/regulatory help)", "low": 500, "high": 6000 },
     { "item": "Shopify store + apps (subscriptions, reviews) or Amazon setup", "low": 50, "high": 2000, "annual": true },
@@ -41,7 +41,7 @@
   },
   "howToStart": [
     "Months 1–2: Choose a specific product and audience you can actually reach (ideally one you already have an audience or angle for). Study competitors and the regulatory landscape, and decide whether you can realistically fund inventory plus a meaningful ad budget.",
-    "Get compliance right first: Learn the FDA's dietary supplement rules and DSHEA — Supplement Facts labeling, allowed structure/function claims with the required disclaimer, and the ban on disease claims. Plan to have labels and marketing reviewed by someone who knows supplement regulation. This is the single most important step.",
+    "Get compliance right first: Learn the FDA's dietary supplement rules and DSHEA, Supplement Facts labeling, allowed structure/function claims with the required disclaimer, and the ban on disease claims. Plan to have labels and marketing reviewed by someone who knows supplement regulation. This is the single most important step.",
     "Months 2–4: Vet contract manufacturers (look for cGMP-compliant, FDA-registered facilities), order and test samples, and confirm third-party testing. Design compliant labels and packaging, secure product-liability insurance, and place a first run sized to test demand against the MOQ.",
     "Months 4–6: Build your Shopify (and/or Amazon) store with a subscription option, shoot brand content, and prepare a launch with influencers, affiliates, and paid ads aimed at your specific audience.",
     "Launch and iterate: Track customer acquisition cost, repeat purchase, and subscription retention closely. Reinvest only in channels that acquire customers profitably, and keep every claim compliant as you scale."
@@ -60,12 +60,12 @@
     "separators": [
       "Acquiring customers profitably and retaining them on subscription, not just spending on ads",
       "Building real brand trust and differentiation in a saturated, skeptical market",
-      "Rigorous compliance — staying on the right side of claims so the brand is never the one that gets shut down"
+      "Rigorous compliance, staying on the right side of claims so the brand is never the one that gets shut down"
     ]
   },
   "whatPeopleGetWrong": [
     "Making illegal disease or cure claims (e.g., 'treats', 'cures', 'prevents') that violate FDA rules and invite enforcement, lawsuits, or platform bans",
-    "Underestimating the capital needed — minimum order quantities plus ad spend tie up far more cash than expected",
+    "Underestimating the capital needed, minimum order quantities plus ad spend tie up far more cash than expected",
     "Assuming high gross margins mean easy profit, while customer acquisition cost quietly eats the entire margin",
     "Choosing the cheapest manufacturer without verifying cGMP compliance, testing, and quality, risking recalls and bad products",
     "Launching into a crowded category with no audience, differentiation, or acquisition channel",
@@ -81,7 +81,7 @@
   ],
   "howToFindCustomers": {
     "methods": [
-      "Paid social and search ads — the dominant acquisition channel, but only viable if you can acquire profitably",
+      "Paid social and search ads, the dominant acquisition channel, but only viable if you can acquire profitably",
       "Influencer and affiliate partnerships with creators whose audience trusts them on health and fitness",
       "An existing audience of your own (content, community, gym, clinic) launched into directly",
       "Amazon as a discovery and trust channel, alongside your own DTC store",
@@ -120,7 +120,7 @@
   "faqs": [
     {
       "question": "Do I need FDA approval to sell supplements?",
-      "answer": "The FDA does not approve dietary supplements before they go to market, but supplements are regulated under DSHEA. You and your manufacturer must follow current Good Manufacturing Practices (cGMP), facilities generally must be FDA-registered, and your labels and claims must comply with FDA rules. 'Not FDA-approved' does not mean unregulated — non-compliance can trigger warning letters, recalls, and enforcement."
+      "answer": "The FDA does not approve dietary supplements before they go to market, but supplements are regulated under DSHEA. You and your manufacturer must follow current Good Manufacturing Practices (cGMP), facilities generally must be FDA-registered, and your labels and claims must comply with FDA rules. 'Not FDA-approved' does not mean unregulated, non-compliance can trigger warning letters, recalls, and enforcement."
     },
     {
       "question": "What claims can I legally make?",
@@ -132,7 +132,7 @@
     },
     {
       "question": "How do I choose a contract manufacturer?",
-      "answer": "Look for cGMP-compliant, FDA-registered facilities with third-party testing, good references, and transparent documentation. Order and test samples, confirm their quality control, and understand their minimum order quantities and lead times before committing. The cheapest manufacturer is rarely the right one — quality and compliance problems can lead to recalls and liability."
+      "answer": "Look for cGMP-compliant, FDA-registered facilities with third-party testing, good references, and transparent documentation. Order and test samples, confirm their quality control, and understand their minimum order quantities and lead times before committing. The cheapest manufacturer is rarely the right one, quality and compliance problems can lead to recalls and liability."
     },
     {
       "question": "Why is this rated Advanced and high-risk?",
@@ -154,8 +154,8 @@
     "health-coaching-business"
   ],
   "dataSources": [
-    "U.S. Food and Drug Administration — Dietary Supplements guidance and DSHEA labeling rules",
-    "Federal Trade Commission — Health Products Compliance Guidance (claims substantiation)",
+    "U.S. Food and Drug Administration, Dietary Supplements guidance and DSHEA labeling rules",
+    "Federal Trade Commission, Health Products Compliance Guidance (claims substantiation)",
     "Contract manufacturing and private-label supplement pricing guides (MOQs, cGMP requirements)",
     "DTC and Amazon supplement seller communities and reports for acquisition costs and real-world margins"
   ],

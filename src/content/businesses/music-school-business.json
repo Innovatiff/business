@@ -2,7 +2,7 @@
   "title": "Music School Business",
   "slug": "music-school-business",
   "category": "education-and-coaching",
-  "metaTitle": "How to Start a Music School Business — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a Music School Business: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest guide to starting a music school business with multiple teachers and a location: real startup costs, realistic earnings, teacher pay splits, and common pitfalls.",
   "startupCostLow": 15000,
   "startupCostHigh": 90000,
@@ -31,7 +31,7 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "A music school is a multi-teacher studio with a physical location that offers private and group lessons across instruments — typically piano, guitar, voice, drums, violin, and more — to children and adults. Unlike a solo lesson teacher, you operate a small business: you lease lesson rooms, recruit and schedule independent or employed teachers, run enrollment and billing, and build a brand and recital program that families come back to year after year. Revenue comes from recurring monthly tuition, and the model lives or dies on enrollment volume, teacher retention, and keeping rooms full enough to cover fixed rent. It is a community institution as much as a business.",
+  "whatItIs": "A music school is a multi-teacher studio with a physical location that offers private and group lessons across instruments, typically piano, guitar, voice, drums, violin, and more, to children and adults. Unlike a solo lesson teacher, you operate a small business: you lease lesson rooms, recruit and schedule independent or employed teachers, run enrollment and billing, and build a brand and recital program that families come back to year after year. Revenue comes from recurring monthly tuition, and the model lives or dies on enrollment volume, teacher retention, and keeping rooms full enough to cover fixed rent. It is a community institution as much as a business.",
   "dailyReality": "Your week splits between running the school and, often early on, still teaching some lessons yourself. You handle enrollment inquiries and tours, schedule students into teachers' available slots to keep rooms occupied, manage tuition billing and the inevitable late payments and cancellations, recruit and support teachers, and handle the small fires of a busy studio (a teacher out sick, a parent disputing a charge, a broken piano pedal). Afternoons, evenings, and weekends are your peak hours because that is when students are out of school and work. A few times a year you run recitals, which are huge for retention and word of mouth. Much of the job is operations and people management, not music.",
   "startupCostsItemized": [
     {
@@ -100,7 +100,7 @@
   "skillsRequired": {
     "mustHave": [
       "Real understanding of music teaching, ideally from teaching yourself, so you can hire and evaluate teachers",
-      "Operations and people management — scheduling, billing, and keeping teachers happy and retained",
+      "Operations and people management, scheduling, billing, and keeping teachers happy and retained",
       "Basic financial literacy to manage rent, payroll, and cash flow against enrollment"
     ],
     "canLearn": [
@@ -116,7 +116,7 @@
   },
   "whatPeopleGetWrong": [
     "Signing a large lease and staffing teachers before enrollment can cover the rent and payroll, then drowning in fixed costs",
-    "Underestimating teacher turnover — when a popular teacher leaves, their students often leave with them",
+    "Underestimating teacher turnover, when a popular teacher leaves, their students often leave with them",
     "Treating it as a music passion project and neglecting the billing, scheduling, and sales that actually keep it solvent",
     "Filling only off-peak daytime hours while peak after-school slots sit empty, wasting the rooms that pay the rent",
     "Ignoring student retention and recitals, so churn eats every new enrollment they win",
@@ -174,7 +174,7 @@
   },
   "howItScales": {
     "toFullTime": "Yes, but slowly. It becomes a full-time income once enrollment fills the rooms and tuition reliably exceeds rent and teacher pay. The path runs through enrollment volume and retention, not raising prices, and the early months often pay the owner little.",
-    "hireAndStepBack": "This is the natural model — the business is built on hired or contracted teachers. Stepping back from operations requires a studio manager to handle scheduling, billing, and teacher support, which only pencils out at higher enrollment.",
+    "hireAndStepBack": "This is the natural model, the business is built on hired or contracted teachers. Stepping back from operations requires a studio manager to handle scheduling, billing, and teacher support, which only pencils out at higher enrollment.",
     "sellable": "Established music schools with stable enrollment, retained teachers, documented systems, and a lease that transfers do sell, typically for a multiple of profit (often 2 to 4 times). Recurring tuition and a recognized local brand make them more attractive than a solo teaching practice.",
     "whatScalingRequires": "Full rooms in peak hours, a deep and retained teacher roster, systems for scheduling/billing/retention, a manager to run day-to-day, and the capital and demand validation before opening additional locations. Teacher recruitment and retention are the binding constraint."
   },
@@ -204,7 +204,7 @@
     },
     {
       "question": "How do teacher pay splits usually work?",
-      "answer": "Two common models exist. With independent-contractor teachers, the school keeps a share of tuition and pays the teacher the rest — splits often range from 50/50 to 70/30 in the teacher's favor depending on who supplies students. With employed teachers, you pay an hourly wage and keep the margin. Each has tax, control, and retention trade-offs worth understanding before you choose."
+      "answer": "Two common models exist. With independent-contractor teachers, the school keeps a share of tuition and pays the teacher the rest, splits often range from 50/50 to 70/30 in the teacher's favor depending on who supplies students. With employed teachers, you pay an hourly wage and keep the margin. Each has tax, control, and retention trade-offs worth understanding before you choose."
     },
     {
       "question": "What's the biggest financial mistake new owners make?",
@@ -216,7 +216,7 @@
     },
     {
       "question": "Why does student retention matter so much?",
-      "answer": "Because music lessons are recurring revenue, a retained student is worth far more than a new sign-up — they pay tuition month after month, sometimes for years. Schools that retain students through good teachers, recitals, and progress tracking compound their revenue, while high-churn schools constantly spend on marketing just to replace who they lost. Retention, not acquisition, usually decides profitability."
+      "answer": "Because music lessons are recurring revenue, a retained student is worth far more than a new sign-up, they pay tuition month after month, sometimes for years. Schools that retain students through good teachers, recitals, and progress tracking compound their revenue, while high-churn schools constantly spend on marketing just to replace who they lost. Retention, not acquisition, usually decides profitability."
     },
     {
       "question": "How long until the school is profitable?",
@@ -234,8 +234,8 @@
     "art-classes-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Music Teachers / Self-Enrichment Education Teachers (wage and employment data)",
-    "National Association for Music Education and Music Teachers National Association — industry and pricing references",
+    "U.S. Bureau of Labor Statistics, Music Teachers / Self-Enrichment Education Teachers (wage and employment data)",
+    "National Association for Music Education and Music Teachers National Association, industry and pricing references",
     "Music school management software providers' benchmarking reports (enrollment, retention, and tuition data)",
     "Music school owner communities and forums for real-world teacher splits, retention, and margin figures"
   ],

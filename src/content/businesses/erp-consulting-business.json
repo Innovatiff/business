@@ -2,7 +2,7 @@
   "title": "ERP Consulting Business",
   "slug": "erp-consulting-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start an ERP Consulting Business — Real Costs and Earnings",
+  "metaTitle": "How to Start an ERP Consulting Business: Real Costs and Earnings",
   "metaDescription": "Honest breakdown of starting an ERP consulting business: real day rates, certifications, long implementation cycles, realistic earnings, and what most people get wrong.",
   "startupCostLow": 3000,
   "startupCostHigh": 30000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "An ERP consulting business helps mid-market companies select, implement, customize, and optimize enterprise resource planning systems — platforms like NetSuite, SAP (including S/4HANA and Business One), Microsoft Dynamics 365, and Odoo that run a company's finance, inventory, manufacturing, and operations. As a consultant you are paid for deep expertise: configuring modules, migrating data, integrating other systems, training staff, and untangling the messy gap between how the software works and how the client actually runs their business. Day rates are high because the work is specialized and the stakes are large — a botched ERP rollout can paralyze a company — but the engagements are long, the sales cycle is slow, and clients expect proven, certified expertise before they trust you with a core system.",
-  "dailyReality": "Most days are a mix of client calls, requirements workshops, system configuration, and documentation. During an active implementation you are mapping business processes, building out modules, writing or reviewing customizations and integrations, cleaning and migrating data, and running testing and training sessions — often remotely, sometimes on-site for key phases. Between the hands-on work sits the consulting reality: managing scope and expectations, writing statements of work, chasing the next engagement, and keeping certifications current as platforms release new versions. Projects run for months, so you are juggling delivery on current clients while selling the next, and the pressure of go-live deadlines is real.",
+  "whatItIs": "An ERP consulting business helps mid-market companies select, implement, customize, and optimize enterprise resource planning systems, platforms like NetSuite, SAP (including S/4HANA and Business One), Microsoft Dynamics 365, and Odoo that run a company's finance, inventory, manufacturing, and operations. As a consultant you are paid for deep expertise: configuring modules, migrating data, integrating other systems, training staff, and untangling the messy gap between how the software works and how the client actually runs their business. Day rates are high because the work is specialized and the stakes are large, a botched ERP rollout can paralyze a company, but the engagements are long, the sales cycle is slow, and clients expect proven, certified expertise before they trust you with a core system.",
+  "dailyReality": "Most days are a mix of client calls, requirements workshops, system configuration, and documentation. During an active implementation you are mapping business processes, building out modules, writing or reviewing customizations and integrations, cleaning and migrating data, and running testing and training sessions, often remotely, sometimes on-site for key phases. Between the hands-on work sits the consulting reality: managing scope and expectations, writing statements of work, chasing the next engagement, and keeping certifications current as platforms release new versions. Projects run for months, so you are juggling delivery on current clients while selling the next, and the pressure of go-live deadlines is real.",
   "startupCostsItemized": [
     { "item": "Capable laptop and a second monitor", "low": 1500, "high": 4000 },
     { "item": "Platform certifications (NetSuite, SAP, Dynamics, or Odoo) and exam fees", "low": 500, "high": 8000 },
@@ -40,15 +40,15 @@
     "perHour": "Billable rates of $150 to $300 are common, but realistic blended earnings counting unbilled sales, admin, and certification time often land around $90 to $180 per hour for a solo consultant. Utilization, not headline rate, drives actual income."
   },
   "howToStart": [
-    "Months 1-3: Pick your platform and niche based on real experience — do not try to cover every ERP. Earn or refresh the relevant certifications (NetSuite SuiteFoundation/Administrator, SAP, Microsoft Dynamics, or Odoo) and set up a developer/sandbox environment to keep your skills sharp and demo-ready.",
+    "Months 1-3: Pick your platform and niche based on real experience, do not try to cover every ERP. Earn or refresh the relevant certifications (NetSuite SuiteFoundation/Administrator, SAP, Microsoft Dynamics, or Odoo) and set up a developer/sandbox environment to keep your skills sharp and demo-ready.",
     "Months 1-4: Register the business, get professional liability (E&O) insurance, and prepare a clear positioning, a portfolio of past implementations (anonymized if needed), and solid SOW and contract templates. ERP buyers expect proof and professionalism before they trust you with a core system.",
-    "Months 2-6: Build pipeline through your existing network, former employers and colleagues, and platform partner channels — most early work comes from referrals and the vendor partner ecosystem, not cold marketing. Consider subcontracting to an existing partner firm to fill your pipeline while you build your own.",
-    "Months 4-9: Land and deliver your first engagement flawlessly — scope tightly, document everything, and over-communicate. A clean first go-live becomes your best reference and the seed of your referral pipeline.",
+    "Months 2-6: Build pipeline through your existing network, former employers and colleagues, and platform partner channels, most early work comes from referrals and the vendor partner ecosystem, not cold marketing. Consider subcontracting to an existing partner firm to fill your pipeline while you build your own.",
+    "Months 4-9: Land and deliver your first engagement flawlessly, scope tightly, document everything, and over-communicate. A clean first go-live becomes your best reference and the seed of your referral pipeline.",
     "Months 9-18: Productize repeatable services (implementations, integrations, optimization audits, managed support retainers), raise rates as your reputation grows, and decide whether to stay solo, build a subcontractor bench, or form a boutique firm."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Deep hands-on expertise in at least one major ERP platform — you cannot fake this",
+      "Deep hands-on expertise in at least one major ERP platform, you cannot fake this",
       "Strong understanding of business processes in finance, inventory, and operations (the 'why' behind the system)",
       "Project, scope, and client-expectation management to deliver long implementations without blowups"
     ],
@@ -64,7 +64,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Underestimating the sales cycle — ERP buying decisions take months, and a thin pipeline means dangerous cash-flow gaps",
+    "Underestimating the sales cycle, ERP buying decisions take months, and a thin pipeline means dangerous cash-flow gaps",
     "Trying to be a generalist across every ERP instead of going deep in one platform and niche where they can command premium rates",
     "Taking fixed-price projects with loose scope, then eating the cost when requirements balloon (scope creep is brutal in ERP)",
     "Promising customizations that fight the platform instead of guiding clients toward standard, supportable configurations",
@@ -81,7 +81,7 @@
   ],
   "howToFindCustomers": {
     "methods": [
-      "Referrals from past clients, former employers, and colleagues — by far the dominant source of ERP work",
+      "Referrals from past clients, former employers, and colleagues, by far the dominant source of ERP work",
       "Platform partner channels (NetSuite, SAP, Microsoft, Odoo partner programs) that route leads and subcontracting",
       "Subcontracting to established implementation firms to stay billable while building your own pipeline",
       "A focused LinkedIn presence and content demonstrating depth in your specific platform and industry niche",
@@ -93,7 +93,7 @@
     "wasteOfTime": "Broad cold outreach, generic digital ads, and trying to compete with large integrators on big enterprise deals early. ERP buyers trust referrals, partner channels, and demonstrated niche expertise far more than advertising."
   },
   "howItScales": {
-    "toFullTime": "Yes — high day rates mean a fully utilized solo consultant can reach a strong full-time income, often well into six figures. The constraint is utilization and pipeline, not rate; the long sales cycle makes a steady backlog essential.",
+    "toFullTime": "Yes, high day rates mean a fully utilized solo consultant can reach a strong full-time income, often well into six figures. The constraint is utilization and pipeline, not rate; the long sales cycle makes a steady backlog essential.",
     "hireAndStepBack": "Possible by building a bench of subcontractors or employees and moving into a sales, oversight, and quality role. This is how boutique firms form, but ERP delivery is expertise-dependent, so you must hire genuinely capable people and maintain delivery quality.",
     "sellable": "A solo practice built entirely on your personal expertise is hard to sell. A boutique firm with a team, repeatable methodology, recurring managed-services contracts, and partner relationships is genuinely sellable, often to larger integrators or partner firms.",
     "whatScalingRequires": "A repeatable delivery methodology, a bench of vetted consultants, recurring managed-support revenue, strong partner-channel relationships, and the systems to manage multiple concurrent projects without quality slipping."
@@ -120,11 +120,11 @@
   "faqs": [
     {
       "question": "Do I need certifications to be an ERP consultant?",
-      "answer": "Certifications are not legally required, but in practice they matter a great deal — clients and platform partners expect current credentials (such as NetSuite, SAP, Microsoft Dynamics, or Odoo certifications) as proof of expertise before trusting you with a core system. They also open doors to partner channels that route work. Real implementation experience matters even more, but certs are the table stakes."
+      "answer": "Certifications are not legally required, but in practice they matter a great deal, clients and platform partners expect current credentials (such as NetSuite, SAP, Microsoft Dynamics, or Odoo certifications) as proof of expertise before trusting you with a core system. They also open doors to partner channels that route work. Real implementation experience matters even more, but certs are the table stakes."
     },
     {
       "question": "Can I start ERP consulting without prior experience?",
-      "answer": "Realistically no. ERP implementations are high-stakes and expertise-dependent — a botched rollout can paralyze a client's operations, so buyers expect proven experience. The credible path is to work as an implementer at a firm or in-house first, build real delivery experience and certifications, and then go independent."
+      "answer": "Realistically no. ERP implementations are high-stakes and expertise-dependent, a botched rollout can paralyze a client's operations, so buyers expect proven experience. The credible path is to work as an implementer at a firm or in-house first, build real delivery experience and certifications, and then go independent."
     },
     {
       "question": "How much do ERP consultants charge?",
@@ -136,7 +136,7 @@
     },
     {
       "question": "Why is the sales cycle so long?",
-      "answer": "ERP is a core system that touches a company's entire operation, so buying decisions involve many stakeholders, careful evaluation, and significant budget — they routinely take several months. That long cycle means you must keep a healthy pipeline and financial cushion, because gaps between engagements are common, especially early on."
+      "answer": "ERP is a core system that touches a company's entire operation, so buying decisions involve many stakeholders, careful evaluation, and significant budget, they routinely take several months. That long cycle means you must keep a healthy pipeline and financial cushion, because gaps between engagements are common, especially early on."
     },
     {
       "question": "What's the biggest risk in ERP consulting?",
@@ -154,11 +154,11 @@
     "web-development-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Management Analysts and Computer Systems Analysts wage and self-employment data",
-    "Platform partner programs (Oracle NetSuite, SAP, Microsoft Dynamics, Odoo) — certification and partner requirements",
+    "U.S. Bureau of Labor Statistics, Management Analysts and Computer Systems Analysts wage and self-employment data",
+    "Platform partner programs (Oracle NetSuite, SAP, Microsoft Dynamics, Odoo), certification and partner requirements",
     "Consulting rate surveys and ERP implementation cost studies (Panorama Consulting and similar industry reports)",
     "Independent ERP consultant communities and forums for real-world day rates and project realities",
-    "Glassdoor and Indeed — ERP consultant compensation benchmarks (used as a billing-rate reference point)"
+    "Glassdoor and Indeed, ERP consultant compensation benchmarks (used as a billing-rate reference point)"
   ],
   "lastReviewed": "2026-06"
 }

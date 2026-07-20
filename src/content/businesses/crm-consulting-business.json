@@ -2,7 +2,7 @@
   "title": "CRM Consulting Business",
   "slug": "crm-consulting-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start a CRM Consulting Business — Real Costs, Earnings, Steps",
+  "metaTitle": "How to Start a CRM Consulting Business: Real Costs, Earnings, Steps",
   "metaDescription": "Honest guide to starting a CRM consulting business implementing Salesforce, HubSpot, or GoHighLevel: real day rates, certification paths, retainers, and what actually goes wrong.",
   "startupCostLow": 1500,
   "startupCostHigh": 12000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A CRM consultant implements, customizes, and optimizes customer-relationship-management platforms — most commonly Salesforce, HubSpot, and GoHighLevel — for businesses that have bought the software but cannot get it to fit how they actually work. The job is part technical configuration (pipelines, automations, integrations, reporting) and part business analysis (understanding a client's sales and service process well enough to model it in the tool). You make money from setup and migration projects, then from ongoing retainers, admin support, and optimization work once a client is live.",
-  "dailyReality": "A typical week is a mix of discovery calls, hands-on building inside a CRM, and writing up documentation. You map a client's lead-to-close process on a call, then spend hours configuring objects, fields, pipelines, workflows, and email sequences, testing automations, and importing or cleaning data. Expect meaningful time on Zoom: scoping, training the client's team, and managing expectations. Much of the work is unglamorous — deduplicating contacts, fixing a broken Zapier or native integration, explaining for the third time why their reports are wrong because their data entry is inconsistent. Strong written communication and screen recordings (Loom) save you from endless meetings.",
+  "whatItIs": "A CRM consultant implements, customizes, and optimizes customer-relationship-management platforms, most commonly Salesforce, HubSpot, and GoHighLevel, for businesses that have bought the software but cannot get it to fit how they actually work. The job is part technical configuration (pipelines, automations, integrations, reporting) and part business analysis (understanding a client's sales and service process well enough to model it in the tool). You make money from setup and migration projects, then from ongoing retainers, admin support, and optimization work once a client is live.",
+  "dailyReality": "A typical week is a mix of discovery calls, hands-on building inside a CRM, and writing up documentation. You map a client's lead-to-close process on a call, then spend hours configuring objects, fields, pipelines, workflows, and email sequences, testing automations, and importing or cleaning data. Expect meaningful time on Zoom: scoping, training the client's team, and managing expectations. Much of the work is unglamorous, deduplicating contacts, fixing a broken Zapier or native integration, explaining for the third time why their reports are wrong because their data entry is inconsistent. Strong written communication and screen recordings (Loom) save you from endless meetings.",
   "startupCostsItemized": [
     { "item": "Platform certifications (Salesforce, HubSpot, GoHighLevel admin/consultant)", "low": 200, "high": 2000 },
     { "item": "Your own CRM/sandbox or partner developer account", "low": 0, "high": 600, "annual": true },
@@ -35,20 +35,20 @@
   "realEarnings": {
     "yearOne": "Most beginners spend the first few months certifying and landing one or two small clients, earning $3,000 to $7,000 per month part-time once work starts. Project fees for a clean small-business setup typically run $2,000 to $8,000, and early retainers run $500 to $2,000 per month.",
     "experienced": "Consultants with two-plus years, real certifications, and a niche commonly bill $100 to $200 per hour or $1,000 to $2,000 per day, earning $8,000 to $18,000 per month solo. Implementation projects for mid-size companies run $10,000 to $50,000, and a handful of recurring admin retainers create a stable base.",
-    "topEarners": "Top independent Salesforce and HubSpot consultants and small agencies bill $200 to $300+ per hour or run $50,000 to $150,000 implementations, grossing $25,000 to $60,000+ per month. Reaching that takes deep specialization (a specific platform and industry), partner-program status, a referral network, and usually subcontractors or employees — it is a different job from solo building.",
+    "topEarners": "Top independent Salesforce and HubSpot consultants and small agencies bill $200 to $300+ per hour or run $50,000 to $150,000 implementations, grossing $25,000 to $60,000+ per month. Reaching that takes deep specialization (a specific platform and industry), partner-program status, a referral network, and usually subcontractors or employees, it is a different job from solo building.",
     "whatAffectsMost": "Specialization and positioning matter more than raw technical skill. A generalist who 'does all CRMs' competes on price; a consultant known for, say, HubSpot for B2B SaaS or GoHighLevel for agencies commands premium rates and referrals. Scoping discipline protects margin more than speed.",
     "perHour": "Effective blended rates for solo consultants typically land at $80 to $200 per hour once you count unpaid scoping, sales, and rework. Underscoped fixed-price projects can drag effective rates well below $50 per hour."
   },
   "howToStart": [
-    "Month 1: Pick ONE platform to specialize in based on where you have real exposure — Salesforce (enterprise), HubSpot (SMB/marketing), or GoHighLevel (agencies/local). Earn the core admin or consultant certification (HubSpot certs are free; Salesforce Administrator runs a few hundred dollars) and build a demo org you can show.",
-    "Month 1–2: Build two or three portfolio implementations — for your own pretend company, a nonprofit at low or no cost, or a friend's business. Record short Loom walkthroughs. Write contracts and a simple scoping process with discovery questions before you take paid work.",
+    "Month 1: Pick ONE platform to specialize in based on where you have real exposure, Salesforce (enterprise), HubSpot (SMB/marketing), or GoHighLevel (agencies/local). Earn the core admin or consultant certification (HubSpot certs are free; Salesforce Administrator runs a few hundred dollars) and build a demo org you can show.",
+    "Month 1–2: Build two or three portfolio implementations, for your own pretend company, a nonprofit at low or no cost, or a friend's business. Record short Loom walkthroughs. Write contracts and a simple scoping process with discovery questions before you take paid work.",
     "Month 2–3: Land your first paid clients through your existing network, platform partner directories, and communities (HubSpot Community, Salesforce Trailblazer, agency Facebook groups). Quote a fixed-price setup plus an optional support retainer. Document everything you build.",
     "Days 90–180: Convert setup clients into monthly retainers for admin, optimization, and reporting. Niche down to one industry or use case. Apply to the platform's partner program once you have a few live clients, which unlocks referrals and credibility.",
     "Ongoing: Stay certified through each platform's regular releases, raise rates as your portfolio grows, and decide whether to stay solo or build a team to take on larger implementations."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Real working understanding of sales and service processes (lead, opportunity, pipeline, lifecycle) — not just the software buttons",
+      "Real working understanding of sales and service processes (lead, opportunity, pipeline, lifecycle), not just the software buttons",
       "Comfort configuring software: fields, workflows, automations, permissions, and basic data structure",
       "Clear client communication and the discipline to scope work in writing before building",
       "Patience for data cleanup, testing, and explaining technical realities to non-technical clients"
@@ -82,10 +82,10 @@
   ],
   "howToFindCustomers": {
     "methods": [
-      "Platform partner directories (Salesforce AppExchange/partner listings, HubSpot Solutions Directory) once you qualify — they send warm, high-intent leads",
+      "Platform partner directories (Salesforce AppExchange/partner listings, HubSpot Solutions Directory) once you qualify, they send warm, high-intent leads",
       "Your existing professional network and former employers, where people already know you understand their business",
       "Niche communities and forums (HubSpot Community, Salesforce Trailblazer, agency and small-business Facebook groups) where people post real implementation questions",
-      "Referrals from complementary providers — marketing agencies, bookkeepers, fractional sales leaders, and web developers who touch the same clients",
+      "Referrals from complementary providers, marketing agencies, bookkeepers, fractional sales leaders, and web developers who touch the same clients",
       "Targeted LinkedIn content showing real before/after process improvements for a specific industry"
     ],
     "whereCustomersAre": "Small and mid-size companies that have bought a CRM but cannot get value from it, and agencies (especially for GoHighLevel) that need it configured for their own clients. The best leads come through referrals and platform directories, not cold ads.",
@@ -140,7 +140,7 @@
     },
     {
       "question": "Do I need to know how to code?",
-      "answer": "For most implementation and admin work, no — modern CRMs are configured through point-and-click tools and no-code automations. Deeper Salesforce work (Apex, custom development) does require coding and pays more, but you can build a strong business on configuration, integration, and process design alone."
+      "answer": "For most implementation and admin work, no, modern CRMs are configured through point-and-click tools and no-code automations. Deeper Salesforce work (Apex, custom development) does require coding and pays more, but you can build a strong business on configuration, integration, and process design alone."
     },
     {
       "question": "How big is the market for this?",
@@ -154,7 +154,7 @@
     "seo-consulting-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Computer Systems Analysts and Management Analysts occupational data",
+    "U.S. Bureau of Labor Statistics, Computer Systems Analysts and Management Analysts occupational data",
     "Salesforce and HubSpot partner program documentation and certification pricing",
     "Industry rate surveys and consultant communities (Salesforce Trailblazer, HubSpot Community, r/salesforce)",
     "Freelance platform and agency rate reports for CRM/implementation work"

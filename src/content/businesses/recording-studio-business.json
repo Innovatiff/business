@@ -2,7 +2,7 @@
   "title": "Recording Studio Rental Business",
   "slug": "recording-studio-business",
   "category": "local-and-community",
-  "metaTitle": "How to Start a Recording Studio Rental Business — Costs and Earnings",
+  "metaTitle": "How to Start a Recording Studio Rental Business: Costs and Earnings",
   "metaDescription": "Honest breakdown of starting a recording studio rental business: real space, acoustic treatment, and gear costs, hourly earnings, and why utilization is the challenge.",
   "startupCostLow": 15000,
   "startupCostHigh": 150000,
@@ -19,8 +19,8 @@
   "priorities": ["flexibility", "alongside-job"],
   "noExperienceRequired": false,
   "partTimeFriendly": true,
-  "whatItIs": "A recording studio rental business provides an acoustically treated space and gear that musicians, podcasters, voice actors, and content creators book by the hour or by package. There are two common models: a self-serve or lightly staffed room that clients rent and operate themselves, and a full-service studio where you (or an engineer) record, mix, and produce. Increasingly the most reliable demand is podcast and video content rather than music, because podcasters book recurring sessions and need less specialized gear. The economics are simpler than a large entertainment venue — the buildout is mostly acoustic treatment and equipment rather than a massive lease — but the core challenge is the same fixed-cost problem in miniature: rent and gear cost money every month whether the room is booked or empty, so utilization is everything.",
-  "dailyReality": "On a booking day you prep the room — set up mics, check signal chains, dial in monitors, and make sure recording software and storage are ready — then either hand the room to a self-serve client or run the session yourself if you offer engineering. Between sessions you reset and clean the space, manage the calendar, answer booking inquiries, and handle file delivery, invoicing, and follow-up. A lot of the work is sales and scheduling: confirming bookings, chasing no-shows, and marketing to keep the calendar full. Full-service work adds editing, mixing, and revisions, which can stretch well beyond the booked studio hours. Because clients record on their own schedules, evenings and weekends are common booking times.",
+  "whatItIs": "A recording studio rental business provides an acoustically treated space and gear that musicians, podcasters, voice actors, and content creators book by the hour or by package. There are two common models: a self-serve or lightly staffed room that clients rent and operate themselves, and a full-service studio where you (or an engineer) record, mix, and produce. Increasingly the most reliable demand is podcast and video content rather than music, because podcasters book recurring sessions and need less specialized gear. The economics are simpler than a large entertainment venue, the buildout is mostly acoustic treatment and equipment rather than a massive lease, but the core challenge is the same fixed-cost problem in miniature: rent and gear cost money every month whether the room is booked or empty, so utilization is everything.",
+  "dailyReality": "On a booking day you prep the room, set up mics, check signal chains, dial in monitors, and make sure recording software and storage are ready, then either hand the room to a self-serve client or run the session yourself if you offer engineering. Between sessions you reset and clean the space, manage the calendar, answer booking inquiries, and handle file delivery, invoicing, and follow-up. A lot of the work is sales and scheduling: confirming bookings, chasing no-shows, and marketing to keep the calendar full. Full-service work adds editing, mixing, and revisions, which can stretch well beyond the booked studio hours. Because clients record on their own schedules, evenings and weekends are common booking times.",
   "startupCostsItemized": [
     { "item": "Lease deposit and first month (small commercial unit or studio space)", "low": 2000, "high": 12000 },
     { "item": "Acoustic treatment (panels, bass traps, isolation, soundproofing)", "low": 2000, "high": 25000 },
@@ -35,19 +35,19 @@
   "realEarnings": {
     "yearOne": "Many operators start part-time, often around an existing job or freelance audio work, and earn $1,500 to $4,000 per month in year one as utilization builds. A self-serve room with low overhead can be profitable on modest hours; a full-service studio earns more per session but consumes more of your own time.",
     "experienced": "An established studio with a regular base of podcasters, musicians, and creators, and a calendar that stays reasonably full, commonly clears $4,000 to $10,000 per month in owner profit. Recurring podcast clients and package deals are what stabilize the income.",
-    "topEarners": "Top operators running a well-known room, multiple spaces, or a full-service production offering with engineers can net $10,000 to $20,000+ per month. Getting there usually means a strong reputation, recurring content clients, and offering production and editing services well beyond simple room rental — the pure hourly-rental ceiling is lower.",
-    "whatAffectsMost": "Utilization rate is the single biggest driver — an empty room loses money no matter how nice the gear is. Recurring clients (especially podcasters), a strong reputation, and adding higher-value services like engineering, editing, and video raise earnings far more than buying more expensive equipment.",
+    "topEarners": "Top operators running a well-known room, multiple spaces, or a full-service production offering with engineers can net $10,000 to $20,000+ per month. Getting there usually means a strong reputation, recurring content clients, and offering production and editing services well beyond simple room rental, the pure hourly-rental ceiling is lower.",
+    "whatAffectsMost": "Utilization rate is the single biggest driver, an empty room loses money no matter how nice the gear is. Recurring clients (especially podcasters), a strong reputation, and adding higher-value services like engineering, editing, and video raise earnings far more than buying more expensive equipment.",
     "perHour": "Studio time rents for roughly $25 to $150+ per hour depending on market and whether an engineer is included. But counting unbilled setup, marketing, scheduling, and editing time, realistic blended owner earnings often land around $20 to $60 per hour, especially early when the calendar is not full."
   },
   "howToStart": [
-    "Month 1: Decide your model (self-serve room vs full-service) and target client — podcasters and content creators are often easier, more recurring demand than music. Validate by talking to local creators about what they would book and pay. Find a space with workable acoustics and reasonable rent.",
+    "Month 1: Decide your model (self-serve room vs full-service) and target client, podcasters and content creators are often easier, more recurring demand than music. Validate by talking to local creators about what they would book and pay. Find a space with workable acoustics and reasonable rent.",
     "Months 1–2: Treat the room acoustically (treatment matters more than expensive gear), build your core signal chain, and set up reliable recording, file delivery, and online booking. Carry insurance before any paid client uses the space.",
     "Months 2–3: Set clear hourly and package pricing, build a simple portfolio with sample recordings and photos/video of the room, and offer introductory sessions to your first clients in exchange for reviews and referrals.",
     "Months 3–5: Focus on filling the calendar and converting one-time bookers into recurring clients. Track your utilization rate weekly and decide whether to add engineering, editing, or video services to raise revenue per booking."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Solid audio engineering fundamentals — signal flow, gain staging, mic placement, and clean recordings",
+      "Solid audio engineering fundamentals, signal flow, gain staging, mic placement, and clean recordings",
       "Comfort with a DAW and recording/editing software",
       "Reliability and people skills to manage bookings, sessions, and client relationships"
     ],
@@ -63,7 +63,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Spending heavily on glamorous gear before treating the room — poor acoustics ruin recordings that the best mic cannot fix",
+    "Spending heavily on glamorous gear before treating the room, poor acoustics ruin recordings that the best mic cannot fix",
     "Underestimating how hard it is to keep the room booked; an empty studio still owes rent every month",
     "Building only for music when podcast and content clients offer steadier, more recurring demand in most markets",
     "Pricing by the hour without accounting for unbilled setup, editing, and marketing time",
@@ -131,7 +131,7 @@
     },
     {
       "question": "Do I need to be an audio engineer?",
-      "answer": "For a full-service studio, yes — clients are paying for your ears and recordings. For a self-serve rental model you need enough knowledge to set up and maintain the room and help clients, but they operate the session themselves. Either way, solid fundamentals around acoustics and clean recording are essential."
+      "answer": "For a full-service studio, yes, clients are paying for your ears and recordings. For a self-serve rental model you need enough knowledge to set up and maintain the room and help clients, but they operate the session themselves. Either way, solid fundamentals around acoustics and clean recording are essential."
     },
     {
       "question": "How do I price studio time?",
@@ -153,8 +153,8 @@
     "voiceover-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Sound Engineering Technicians and audio occupation data",
-    "IBISWorld — Recording Studios and Music Production industry reports",
+    "U.S. Bureau of Labor Statistics, Sound Engineering Technicians and audio occupation data",
+    "IBISWorld, Recording Studios and Music Production industry reports",
     "Pro-audio retailer and acoustic-treatment cost guides for equipment and buildout ranges",
     "Operator communities and audio engineering forums (e.g., Gearspace, r/audioengineering) for reported rates and utilization"
   ],

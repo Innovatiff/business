@@ -2,7 +2,7 @@
   "title": "Music Production Business",
   "slug": "music-production-business",
   "category": "creative-and-content",
-  "metaTitle": "How to Start a Music Production Business — Real Costs and Earnings",
+  "metaTitle": "How to Start a Music Production Business: Real Costs and Earnings",
   "metaDescription": "Honest guide to starting a music production business: real startup costs, realistic earnings from beats, mixing and mastering, finding artists, and what most people get wrong.",
   "startupCostLow": 800,
   "startupCostHigh": 8000,
@@ -20,7 +20,7 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A music production business sells the craft of making and finishing recorded music: producing original tracks and instrumentals, recording vocals and instruments, mixing, and mastering for independent artists, rappers, podcasters, content creators, and small labels. Many producers also sell or lease beats online through marketplaces like BeatStars and Airbit. The work happens in a digital audio workstation (DAW) such as FL Studio, Ableton Live, Logic Pro, or Pro Tools, typically in a home studio. Income is a mix of one-off services (per-track production, mixing, mastering), beat leases and exclusive sales, and occasionally royalties or production splits — though royalty income is unreliable and slow for all but a handful of producers.",
+  "whatItIs": "A music production business sells the craft of making and finishing recorded music: producing original tracks and instrumentals, recording vocals and instruments, mixing, and mastering for independent artists, rappers, podcasters, content creators, and small labels. Many producers also sell or lease beats online through marketplaces like BeatStars and Airbit. The work happens in a digital audio workstation (DAW) such as FL Studio, Ableton Live, Logic Pro, or Pro Tools, typically in a home studio. Income is a mix of one-off services (per-track production, mixing, mastering), beat leases and exclusive sales, and occasionally royalties or production splits, though royalty income is unreliable and slow for all but a handful of producers.",
   "dailyReality": "A typical week blends focused creative work with technical grind: building beats, editing and tuning vocal takes, balancing a mix across many tracks, and doing revision passes when a client wants the snare louder or the vocals 'brighter.' If you record clients in person, you'll run sessions where managing the artist's energy and time matters as much as the gear. Around the music itself, you spend real hours on uploading and tagging beats, marketing on social media, answering inquiries, sending files and invoices, and chasing the occasional late payment. Much of the early grind is unpaid: making free beats for visibility and replying to leads that go nowhere.",
   "startupCostsItemized": [
     { "item": "DAW (FL Studio, Ableton, Logic, or Pro Tools)", "low": 0, "high": 600 },
@@ -33,16 +33,16 @@
     { "item": "Beat marketplace and distribution fees", "low": 0, "high": 250, "annual": true }
   ],
   "realEarnings": {
-    "yearOne": "Most beginners earn very little at first — often $500 to $2,000 per month, and many make far less while building skill and reputation. Beat leases commonly sell for $20 to $80, and early mixing/mastering gigs might run $50 to $150 per song. Expect months of mostly unpaid work before any consistency.",
+    "yearOne": "Most beginners earn very little at first, often $500 to $2,000 per month, and many make far less while building skill and reputation. Beat leases commonly sell for $20 to $80, and early mixing/mastering gigs might run $50 to $150 per song. Expect months of mostly unpaid work before any consistency.",
     "experienced": "Producers with a few years, a real portfolio, and steady clients commonly report $2,500 to $7,000 per month. At this level mixing runs $150 to $500 per song, mastering $40 to $150, full production $300 to $1,500+ per track, and exclusive beat sales reach the hundreds or low thousands.",
-    "topEarners": "A small number of producers and mixing engineers gross $10,000 to $30,000+ per month through high-demand mixing services, sought-after exclusive beats, label work, sync placements, and occasionally royalty income. Reaching that takes years of reputation-building, a strong niche or signature sound, and usually some industry relationships or a viral moment — it is the exception, not the path to plan around.",
+    "topEarners": "A small number of producers and mixing engineers gross $10,000 to $30,000+ per month through high-demand mixing services, sought-after exclusive beats, label work, sync placements, and occasionally royalty income. Reaching that takes years of reputation-building, a strong niche or signature sound, and usually some industry relationships or a viral moment, it is the exception, not the path to plan around.",
     "whatAffectsMost": "Reputation, niche, and a recognizable sound matter far more than gear. The producers who earn well are known for something specific (a genre, a mixing style, a client type) and have proof and referrals. A great-sounding catalog and reliable turnaround beat any plugin or microphone.",
     "perHour": "Effective rates are low early (often $10 to $25 per hour once unpaid marketing and free work are counted) and rise to $40 to $100+ per hour for established mixing engineers and in-demand producers who price per project."
   },
   "howToStart": [
-    "Months 1 to 2: Get genuinely good in one DAW and treat your room enough that your mixes translate. Decide your lane — beats for a specific genre, mixing/mastering as a service, or full production for indie artists — instead of trying to be everything.",
+    "Months 1 to 2: Get genuinely good in one DAW and treat your room enough that your mixes translate. Decide your lane, beats for a specific genre, mixing/mastering as a service, or full production for indie artists, instead of trying to be everything.",
     "Months 2 to 3: Build a portfolio: produce and finish enough tracks (or before/after mix demos) to prove your quality. Set up a BeatStars/Airbit store if selling beats, and a simple site or link page showcasing your best work.",
-    "Months 3 to 4: Start landing clients — offer mixing/mastering on producer forums and social media, network with local and online artists, and price clearly per project with a set revision limit. Deliver fast and flawlessly to earn the first reviews.",
+    "Months 3 to 4: Start landing clients, offer mixing/mastering on producer forums and social media, network with local and online artists, and price clearly per project with a set revision limit. Deliver fast and flawlessly to earn the first reviews.",
     "Months 4 to 9: Post consistently (free beats, mix breakdowns, finished songs you worked on), collect testimonials, and turn one-off clients into repeat ones. Raise rates as your catalog and reviews grow.",
     "Months 9 to 18: Specialize deeper, build relationships with artists who release often, and consider sync licensing or label work. Reinvest in the few pieces of gear or training that actually improve your output."
   ],
@@ -55,7 +55,7 @@
     "canLearn": [
       "Mastering technique and how to make mixes translate across speakers and earbuds",
       "Marketing and selling beats/services online and managing client sessions",
-      "Music business basics — licensing, splits, royalties, and contracts"
+      "Music business basics, licensing, splits, royalties, and contracts"
     ],
     "separators": [
       "A recognizable signature sound or genre specialty that makes artists seek you out",
@@ -64,11 +64,11 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Buying gear and plugins endlessly instead of mastering the tools they already own — the room and the ear matter more than the equipment",
+    "Buying gear and plugins endlessly instead of mastering the tools they already own, the room and the ear matter more than the equipment",
     "Trying to serve every genre and service, so they're memorable for nothing in a crowded market",
     "Giving work away or pricing far too low for so long that they can never raise rates with existing clients",
     "Neglecting acoustic treatment, so their mixes don't translate and clients aren't happy",
-    "Expecting royalty income to pay the bills early — for almost everyone it's slow, small, and unreliable",
+    "Expecting royalty income to pay the bills early, for almost everyone it's slow, small, and unreliable",
     "Treating it purely as a creative passion and ignoring marketing, networking, and consistent output"
   ],
   "toolsAndEquipment": [
@@ -93,10 +93,10 @@
     "wasteOfTime": "Spamming 'buy my beats' links into comments and DMs, and waiting for talent alone to attract clients. Cold spam mostly gets ignored; consistent quality work, proof, and genuine relationships convert."
   },
   "howItScales": {
-    "toFullTime": "Possible but not fast. Many producers stay part-time for a long time. Reaching full-time income usually means building a strong reputation, a repeat client base, and multiple income streams (services, beat sales, licensing) — your own hours and ear are the bottleneck.",
+    "toFullTime": "Possible but not fast. Many producers stay part-time for a long time. Reaching full-time income usually means building a strong reputation, a repeat client base, and multiple income streams (services, beat sales, licensing), your own hours and ear are the bottleneck.",
     "hireAndStepBack": "Limited. The product is largely your taste and ear, so it's hard to delegate. Some grow into a small studio with engineers or a team handling mixing/mastering, but the brand and sound stay tied to you.",
     "sellable": "Difficult. A producer business is mostly personal skill and relationships. A catalog with royalty/licensing income or a studio with recurring clients has some sale value, but a pure solo operation is hard to transfer.",
-    "whatScalingRequires": "Diversified income (services plus beat sales plus licensing), a recognizable brand and sound, systems for client intake and delivery, and ideally a catalog generating passive licensing revenue — all of which take years to build."
+    "whatScalingRequires": "Diversified income (services plus beat sales plus licensing), a recognizable brand and sound, systems for client intake and delivery, and ideally a catalog generating passive licensing revenue, all of which take years to build."
   },
   "fitChecklist": {
     "strongFit": [
@@ -123,7 +123,7 @@
       "answer": "Yes, but it's competitive and rarely fast. Most income comes from services (production, mixing, mastering) and beat sales rather than royalties. A treated home studio is enough to start; reputation, consistent output, and finding artists who release often matter far more than a fancy room."
     },
     {
-      "question": "Which DAW should I use — FL Studio, Ableton, Logic, or Pro Tools?",
+      "question": "Which DAW should I use, FL Studio, Ableton, Logic, or Pro Tools?",
       "answer": "Any of them can produce professional results. FL Studio is popular for beats, Ableton for electronic and live performance, Logic is Mac-only and well-rounded, and Pro Tools dominates pro recording studios. Pick one based on your genre and stick with it long enough to get genuinely fast and skilled."
     },
     {
@@ -132,7 +132,7 @@
     },
     {
       "question": "Should I sell beats or offer production services?",
-      "answer": "Most producers do both. Beat leases on marketplaces like BeatStars provide volume and discovery, while custom production and mixing/mastering services pay more per project and build relationships. A blend, plus eventual licensing, gives the most stable income — but each requires its own marketing."
+      "answer": "Most producers do both. Beat leases on marketplaces like BeatStars provide volume and discovery, while custom production and mixing/mastering services pay more per project and build relationships. A blend, plus eventual licensing, gives the most stable income, but each requires its own marketing."
     },
     {
       "question": "Is the music production market too saturated?",
@@ -154,7 +154,7 @@
     "youtube-channel-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Music Directors and Composers; Sound Engineering Technicians (wage data)",
+    "U.S. Bureau of Labor Statistics, Music Directors and Composers; Sound Engineering Technicians (wage data)",
     "BeatStars and Airbit published licensing and sales data for online beat sellers",
     "Industry pricing guides for mixing, mastering, and production services",
     "Producer and engineer communities (r/WeAreTheMusicMakers, r/edmproduction, Gearspace) for real-world rates"

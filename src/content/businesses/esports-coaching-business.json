@@ -2,7 +2,7 @@
   "title": "Esports Coaching Business",
   "slug": "esports-coaching-business",
   "category": "education-and-coaching",
-  "metaTitle": "How to Start an Esports Coaching Business — Real Costs and Earnings",
+  "metaTitle": "How to Start an Esports Coaching Business: Real Costs and Earnings",
   "metaDescription": "Honest guide to starting an esports coaching business: realistic 1:1 and team coaching rates, startup costs, how to find players, and the volatility nobody warns you about.",
   "startupCostLow": 200,
   "startupCostHigh": 2500,
@@ -20,7 +20,7 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "An esports coaching business sells structured improvement to competitive gamers — usually one-on-one sessions, but also team scrim review and small group programs — in titles like League of Legends, Valorant, Counter-Strike 2, Dota 2, Overwatch 2, or Rocket League. A coach reviews a player's gameplay (VOD review), runs live sessions, and gives drills and feedback to climb ranked ladders or perform in amateur and semi-pro competition. It is a young, fast-moving market: most demand sits with ranked players trying to climb, not with funded pro teams, and it lives almost entirely inside platforms like Metafy, ProGuides, Gamer Sensei, Fiverr, Discord, and direct community referrals.",
+  "whatItIs": "An esports coaching business sells structured improvement to competitive gamers, usually one-on-one sessions, but also team scrim review and small group programs, in titles like League of Legends, Valorant, Counter-Strike 2, Dota 2, Overwatch 2, or Rocket League. A coach reviews a player's gameplay (VOD review), runs live sessions, and gives drills and feedback to climb ranked ladders or perform in amateur and semi-pro competition. It is a young, fast-moving market: most demand sits with ranked players trying to climb, not with funded pro teams, and it lives almost entirely inside platforms like Metafy, ProGuides, Gamer Sensei, Fiverr, Discord, and direct community referrals.",
   "dailyReality": "A working week is mostly screen time. You watch recorded matches and write or record timestamped feedback, run live coaching calls over Discord with screen share, and message prospective and current clients. Sessions cluster in evenings and weekends because that is when amateur players are free, and many of your clients are in other time zones, so scheduling is a constant negotiation. Outside sessions you are building a reputation: posting clips, answering questions in community Discords and subreddits, and keeping current with patch notes and the metagame, which changes every few weeks and can invalidate advice you gave last month.",
   "startupCostsItemized": [
     { "item": "Quality microphone and headset", "low": 80, "high": 300 },
@@ -29,20 +29,20 @@
     { "item": "Platform / marketplace fees (Metafy, ProGuides, Fiverr take a cut rather than upfront cost)", "low": 0, "high": 0 },
     { "item": "PC or console capable of high-rank play (most coaches already own this)", "low": 0, "high": 1500, "optional": true },
     { "item": "Scheduling and payment tools (Calendly, Stripe/PayPal)", "low": 0, "high": 150, "annual": true },
-    { "item": "Basic branding — logo, simple landing page, channel art", "low": 0, "high": 300, "optional": true }
+    { "item": "Basic branding, logo, simple landing page, channel art", "low": 0, "high": 300, "optional": true }
   ],
   "realEarnings": {
     "yearOne": "Most new coaches earn $400 to $1,500 per month part-time in year one, and many earn little until they have reviews and proof. Typical session rates start around $15 to $40 per hour for newer coaches, and you spend a lot of unpaid time marketing yourself before bookings become steady.",
     "experienced": "Established coaches with a strong rank, a track record, and consistent demand commonly charge $40 to $100+ per hour and report $2,000 to $5,000 per month, often alongside another income source. Coaches who land an amateur or collegiate team on a recurring contract gain more stability than those relying purely on one-off ladder climbers.",
-    "topEarners": "A small number of well-known coaches — usually former pros, high-profile streamers, or top finishers on platforms like Metafy — earn $6,000 to $15,000+ per month by charging premium rates, selling group programs and courses, and coaching organizations. Reaching that almost always requires a public competitive resume or a large audience, not just skill, and these incomes can drop quickly when a game declines.",
+    "topEarners": "A small number of well-known coaches, usually former pros, high-profile streamers, or top finishers on platforms like Metafy, earn $6,000 to $15,000+ per month by charging premium rates, selling group programs and courses, and coaching organizations. Reaching that almost always requires a public competitive resume or a large audience, not just skill, and these incomes can drop quickly when a game declines.",
     "whatAffectsMost": "Your verifiable rank and results, the popularity of your game, your ability to explain decisions clearly rather than just play well, and whether you can convert one-off sessions into ongoing students. Game choice matters enormously: a top-tier title with a big ranked population sustains far more paying clients than a niche or fading one.",
     "perHour": "Booked session time often pays $25 to $100 per hour, but counting unpaid VOD prep, marketing, and community presence, realistic blended rates for most coaches are $15 to $50 per hour."
   },
   "howToStart": [
     "Week 1: Pick one game you genuinely rank highly in (realistically top few percent) and confirm there is paid demand for coaching in it. Set up a clean Discord, OBS for recording, a microphone, and a way to take payment.",
-    "Week 2: Define a clear offer — for example, a 60-minute live session plus a written VOD review — and price it modestly to start. List on a marketplace like Metafy or Fiverr where buyers already search, rather than relying only on cold outreach.",
+    "Week 2: Define a clear offer, for example, a 60-minute live session plus a written VOD review, and price it modestly to start. List on a marketplace like Metafy or Fiverr where buyers already search, rather than relying only on cold outreach.",
     "Month 1: Coach your first 5 to 10 clients, even at a discount, and ask each for a review and a measurable result (rank gained, specific habit fixed). Record short before/after clips you can post.",
-    "Months 2-3: Post consistently in your game's community — Discords, subreddits, short clips — answering real questions to build authority. Raise rates as reviews accumulate and start offering a recurring monthly package.",
+    "Months 2-3: Post consistently in your game's community, Discords, subreddits, short clips, answering real questions to build authority. Raise rates as reviews accumulate and start offering a recurring monthly package.",
     "Months 3-6: Pursue more stable revenue: a collegiate or amateur team on retainer, a small group program, or a structured course, so you are not fully dependent on individual ladder climbers."
   ],
   "skillsRequired": {
@@ -63,11 +63,11 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Assuming being a strong player makes them a good coach — teaching and diagnosing someone else's mistakes is a separate skill",
+    "Assuming being a strong player makes them a good coach, teaching and diagnosing someone else's mistakes is a separate skill",
     "Building everything around one game and getting wiped out when its player base shrinks or the studio nerfs interest in it",
     "Underpricing forever because there is always a cheaper coach, instead of differentiating on results and reviews",
     "Ignoring marketing and assuming bookings will appear; most coaches fail on visibility, not ability",
-    "Overpromising rank gains — climbing depends on the student's practice, and guaranteeing results breaks trust when they stall",
+    "Overpromising rank gains, climbing depends on the student's practice, and guaranteeing results breaks trust when they stall",
     "Not collecting reviews and measurable outcomes early, which are the only thing that lets you raise rates later"
   ],
   "toolsAndEquipment": [
@@ -104,13 +104,13 @@
       "You can work evenings and weekends and juggle clients across time zones"
     ],
     "poorFit": [
-      "Your rank is average — clients can verify it and will not pay for it",
+      "Your rank is average, clients can verify it and will not pay for it",
       "You dislike marketing yourself and assume bookings will just appear",
       "You want stable, predictable income, which a single-game coaching business rarely provides",
       "You are not willing to keep relearning the meta every patch"
     ],
     "askYourself": [
-      "Is the game I coach popular enough — and stable enough — to support paying clients for the next few years?",
+      "Is the game I coach popular enough, and stable enough, to support paying clients for the next few years?",
       "Can I clearly diagnose and explain someone else's mistakes, or do I only know how to play well myself?",
       "Am I prepared to build a public reputation, since that, not skill alone, drives bookings?"
     ]
@@ -122,7 +122,7 @@
     },
     {
       "question": "Which games are worth coaching?",
-      "answer": "Titles with large, active ranked populations and a culture of self-improvement — League of Legends, Valorant, Counter-Strike 2, Dota 2, Overwatch 2, and Rocket League are common examples. Niche or declining games have far fewer paying clients. Be realistic: the game's health directly determines your income ceiling."
+      "answer": "Titles with large, active ranked populations and a culture of self-improvement, League of Legends, Valorant, Counter-Strike 2, Dota 2, Overwatch 2, and Rocket League are common examples. Niche or declining games have far fewer paying clients. Be realistic: the game's health directly determines your income ceiling."
     },
     {
       "question": "How much can I charge per session?",
@@ -152,11 +152,11 @@
     "golf-instruction-business"
   ],
   "dataSources": [
-    "Newzoo and Esports Charts — esports audience and game popularity reports",
-    "Metafy and ProGuides — published coaching rate ranges and coach earnings discussions",
+    "Newzoo and Esports Charts, esports audience and game popularity reports",
+    "Metafy and ProGuides, published coaching rate ranges and coach earnings discussions",
     "Coach and player communities (game-specific subreddits and Discords) for real-world pricing and demand",
-    "Fiverr and Upwork — listed gig pricing for game coaching services",
-    "U.S. Bureau of Labor Statistics — self-employed instruction and coaching occupational data (context)"
+    "Fiverr and Upwork, listed gig pricing for game coaching services",
+    "U.S. Bureau of Labor Statistics, self-employed instruction and coaching occupational data (context)"
   ],
   "lastReviewed": "2026-06"
 }

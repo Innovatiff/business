@@ -2,7 +2,7 @@
   "title": "Indie Game Development Business",
   "slug": "game-development-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start an Indie Game Development Business — Honest Costs & Odds",
+  "metaTitle": "How to Start an Indie Game Development Business: Honest Costs & Odds",
   "metaDescription": "An honest look at indie game development as a business: long unpaid builds, brutal discoverability, why most games earn little, the engine skills required, and who it actually suits.",
   "startupCostLow": 500,
   "startupCostHigh": 15000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "An indie game development business means building and selling your own video games — on Steam, mobile app stores, consoles, or itch.io — rather than working for a studio. You design, build, and ship games using an engine like Unity, Unreal, or Godot, then earn through up-front sales, in-app purchases, or ads. It is one of the most creatively rewarding and financially brutal paths in technology. Honesty matters here more than almost anywhere: the vast majority of indie games sell very few copies, builds routinely take one to three years of mostly unpaid work, and discoverability — getting anyone to even notice your game among the tens of thousands released each year — is the hardest problem, harder than building the game itself.",
-  "dailyReality": "Most of your time is solitary building: writing gameplay code, designing levels, fixing bugs, integrating art and sound, and playtesting the same sections hundreds of times. For long stretches there is no audience and no income — just the work. The smart minority also spend real time on marketing from early on: posting development updates, building a wishlist audience, sending the game to streamers and press, and engaging communities on Steam, Discord, and social platforms. A typical week swings between deep creative focus and the uncomfortable, ongoing task of trying to get strangers to care about a game that does not exist yet.",
+  "whatItIs": "An indie game development business means building and selling your own video games, on Steam, mobile app stores, consoles, or itch.io, rather than working for a studio. You design, build, and ship games using an engine like Unity, Unreal, or Godot, then earn through up-front sales, in-app purchases, or ads. It is one of the most creatively rewarding and financially brutal paths in technology. Honesty matters here more than almost anywhere: the vast majority of indie games sell very few copies, builds routinely take one to three years of mostly unpaid work, and discoverability, getting anyone to even notice your game among the tens of thousands released each year, is the hardest problem, harder than building the game itself.",
+  "dailyReality": "Most of your time is solitary building: writing gameplay code, designing levels, fixing bugs, integrating art and sound, and playtesting the same sections hundreds of times. For long stretches there is no audience and no income, just the work. The smart minority also spend real time on marketing from early on: posting development updates, building a wishlist audience, sending the game to streamers and press, and engaging communities on Steam, Discord, and social platforms. A typical week swings between deep creative focus and the uncomfortable, ongoing task of trying to get strangers to care about a game that does not exist yet.",
   "startupCostsItemized": [
     { "item": "Game engine", "note": "Unity, Unreal, and Godot are free to start; royalties/fees apply only above revenue thresholds.", "low": 0, "high": 0 },
     { "item": "Capable development PC", "low": 0, "high": 3000, "optional": true },
@@ -33,14 +33,14 @@
     { "item": "Marketing (trailer, festival/event fees, press kit)", "low": 0, "high": 2000, "optional": true }
   ],
   "realEarnings": {
-    "yearOne": "For most indie developers, year one (and often longer) earns near $0 because the game is still being built and unreleased. Be financially honest: expect a long unpaid stretch. When a first game ships, the median indie title earns very little — many lifetime totals are in the hundreds to low thousands of dollars, not a salary.",
+    "yearOne": "For most indie developers, year one (and often longer) earns near $0 because the game is still being built and unreleased. Be financially honest: expect a long unpaid stretch. When a first game ships, the median indie title earns very little, many lifetime totals are in the hundreds to low thousands of dollars, not a salary.",
     "experienced": "Developers with shipped titles, an audience, and lessons learned do better, but outcomes are extremely uneven. A modestly successful indie game might earn $5,000 to $50,000 over its life; a developer with a small back catalog and a wishlist following might average $1,000 to $4,000 per month across releases. Many skilled developers still do not reach a reliable living from their own games.",
-    "topEarners": "Breakout hits earn hundreds of thousands to many millions, and those stories are real — but they are rare outliers, often the result of years of prior work, a standout concept, strong marketing, and luck. Most full-time indies who sustain a living do so through multiple releases, a dedicated audience built over years, and often supplementary income (contract work, Patreon, publishing deals).",
+    "topEarners": "Breakout hits earn hundreds of thousands to many millions, and those stories are real, but they are rare outliers, often the result of years of prior work, a standout concept, strong marketing, and luck. Most full-time indies who sustain a living do so through multiple releases, a dedicated audience built over years, and often supplementary income (contract work, Patreon, publishing deals).",
     "whatAffectsMost": "Discoverability and marketing matter as much as the game itself: wishlists before launch, a hook that streamers and players actually share, and a genre with demand. A great game nobody finds earns nothing; a well-marketed game in a hungry niche has a real chance.",
     "perHour": "Honestly, effective hourly pay is often near zero or negative for years, especially on a first game. Even successful indies frequently find that, divided across the full build time, their earnings work out to a low effective rate. This is not a path to choose for the hourly economics."
   },
   "howToStart": [
-    "Months 1-3: Learn an engine (Unity, Unreal, or Godot) by finishing small, complete games — a clone or a tiny original. Shipping something small teaches more than starting an ambitious dream project you will never finish.",
+    "Months 1-3: Learn an engine (Unity, Unreal, or Godot) by finishing small, complete games, a clone or a tiny original. Shipping something small teaches more than starting an ambitious dream project you will never finish.",
     "Months 3-6: Scope your first real game brutally small. The most common fatal mistake is over-scoping; pick something you can realistically finish in months, not years. Define the single hook that makes it interesting.",
     "Early and throughout: Start marketing before the game is done. Set up a Steam page for wishlists as soon as allowed, post development updates, and build a small community. An audience at launch is what separates sales from silence.",
     "Build phase: Develop, playtest relentlessly with real players, and cut features ruthlessly to ship. Register your business and set up store/developer accounts when you near release.",
@@ -50,7 +50,7 @@
     "mustHave": [
       "Real programming ability and proficiency in a game engine (Unity, Unreal, or Godot)",
       "Strong self-direction and the discipline to finish projects without a boss or deadline",
-      "Honest scoping — the judgment to design something you can actually complete"
+      "Honest scoping, the judgment to design something you can actually complete"
     ],
     "canLearn": [
       "Art, animation, and sound (or how to hire/source them) for a polished result",
@@ -66,7 +66,7 @@
   "whatPeopleGetWrong": [
     "Over-scoping the first game into a multi-year dream project that never ships",
     "Building in silence and ignoring marketing until launch, then launching to zero wishlists and zero sales",
-    "Assuming a good game sells itself — discoverability, not quality alone, is the binding constraint",
+    "Assuming a good game sells itself, discoverability, not quality alone, is the binding constraint",
     "Underestimating the years of unpaid work and running out of money or motivation before release",
     "Picking an oversaturated genre with no differentiation against thousands of similar titles",
     "Treating one mediocre launch as the verdict instead of as a first step toward a better, more visible next game"
@@ -88,12 +88,12 @@
       "Press kits and outreach to gaming press and curators, plus festival submissions for credibility"
     ],
     "whereCustomersAre": "Players congregate on Steam and mobile stores and in genre-specific communities (subreddits, Discords) and around streamers/YouTubers who shape what gets noticed. Wishlists and a pre-launch audience are how those players become buyers.",
-    "timeToClientBase": "Building a meaningful wishlist and community typically takes the entire development period — many months to years of consistent updates. There is no shortcut; an audience built late almost always means a quiet launch.",
+    "timeToClientBase": "Building a meaningful wishlist and community typically takes the entire development period, many months to years of consistent updates. There is no shortcut; an audience built late almost always means a quiet launch.",
     "wasteOfTime": "Paid ads for an unknown indie game usually burn money with little return, and posting only at launch is too late. Sporadic, polished-but-rare updates underperform consistent, authentic development sharing that builds a following over time."
   },
   "howItScales": {
     "toFullTime": "Hard and uncertain. Most indies do not reach a full-time living from their own games, and those who do usually rely on multiple releases, a built-up audience, and often supplementary income (contract work, Patreon, publishing advances) rather than a single hit.",
-    "hireAndStepBack": "Possible only after sustained success — growing into a small studio with hired developers and artists. This adds payroll and management against highly uncertain per-game revenue, so it is a late-stage move, not a starting plan.",
+    "hireAndStepBack": "Possible only after sustained success, growing into a small studio with hired developers and artists. This adds payroll and management against highly uncertain per-game revenue, so it is a late-stage move, not a starting plan.",
     "sellable": "Individual games can earn ongoing revenue, and a successful studio with a back catalog, an audience, and IP can be sold or licensed. But a single unproven project or a solo dev with no track record has little sellable value.",
     "whatScalingRequires": "A repeatable ability to ship games people want, a genuine audience that follows you between titles, marketing competence, enough capital to survive long unpaid builds, and ideally a back catalog so revenue does not depend on one launch."
   },
@@ -130,16 +130,16 @@
       "answer": "Discoverability. Tens of thousands of games release each year, and getting anyone to notice yours is harder than building it. Games launched with few wishlists and no audience usually sell almost nothing regardless of quality. Marketing, a distinctive hook, genre demand, and a pre-launch following matter as much as the game itself."
     },
     {
-      "question": "Which engine should I use — Unity, Unreal, or Godot?",
+      "question": "Which engine should I use, Unity, Unreal, or Godot?",
       "answer": "All three are free to start and capable. Unity is popular for 2D and mobile with huge learning resources; Unreal excels at high-fidelity 3D; Godot is open-source, lightweight, and increasingly popular for 2D and smaller projects. Choose based on your genre and the tutorials available, not hype, and commit long enough to get good at one."
     },
     {
       "question": "Do I need to be an artist and musician too?",
-      "answer": "Not necessarily. Solo developers commonly use quality asset packs, free or licensed music, and contractors for art and sound, focusing their own time on code and design. Strong, cohesive presentation matters for sales, so budget for or learn enough art/audio to make the game look intentional — but you do not have to do everything yourself."
+      "answer": "Not necessarily. Solo developers commonly use quality asset packs, free or licensed music, and contractors for art and sound, focusing their own time on code and design. Strong, cohesive presentation matters for sales, so budget for or learn enough art/audio to make the game look intentional, but you do not have to do everything yourself."
     },
     {
       "question": "When should I start marketing my game?",
-      "answer": "Far earlier than most people do — ideally from early in development. Open a Steam page for wishlists as soon as you are allowed, share development updates and clips consistently, and build a community over the whole build. Wishlists drive launch visibility, and an audience that exists only at launch almost always means a quiet release."
+      "answer": "Far earlier than most people do, ideally from early in development. Open a Steam page for wishlists as soon as you are allowed, share development updates and clips consistently, and build a community over the whole build. Wishlists drive launch visibility, and an audience that exists only at launch almost always means a quiet release."
     },
     {
       "question": "Should I do this full-time or alongside a job?",
@@ -153,7 +153,7 @@
     "youtube-channel-business"
   ],
   "dataSources": [
-    "Steam/SteamDB and VG Insights — indie game sales distribution and revenue-per-title data",
+    "Steam/SteamDB and VG Insights, indie game sales distribution and revenue-per-title data",
     "Game Developers Conference (GDC) State of the Game Industry surveys",
     "Unity, Unreal Engine, and Godot official licensing and pricing documentation",
     "Indie developer postmortems and communities (r/gamedev, How to Market a Game) for real-world launch and earnings outcomes"

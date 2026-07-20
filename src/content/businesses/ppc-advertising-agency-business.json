@@ -2,7 +2,7 @@
   "title": "PPC Advertising Agency",
   "slug": "ppc-advertising-agency-business",
   "category": "online-businesses",
-  "metaTitle": "How to Start a PPC Advertising Agency — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a PPC Advertising Agency: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting a PPC advertising agency: real startup costs, realistic monthly earnings managing Google and Meta ads, how to find clients, and what most people get wrong.",
   "startupCostLow": 300,
   "startupCostHigh": 4000,
@@ -20,13 +20,13 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A PPC (pay-per-click) advertising agency plans, builds, and manages paid ad campaigns for clients on platforms like Google Ads (Search, Shopping, Performance Max), Meta (Facebook and Instagram), and sometimes Microsoft Ads, TikTok, or LinkedIn. The client funds the ad spend directly; you are paid to manage it — structuring campaigns, writing ad copy, building audiences, managing bids and budgets, and reporting on results. The whole job revolves around one metric clients watch closely: return on ad spend (ROAS) or cost per acquisition (CPA). Because you are spending other people's money toward a measurable goal, the accountability is high and so is the perceived value when it works.",
-  "dailyReality": "Most days start in the ad accounts: checking yesterday's spend, conversions, cost per lead or sale, and whether anything broke overnight (a disapproved ad, a budget cap hit, a tracking gap). You shift budget between campaigns, pause losers, scale winners, write and test new ad variations, and adjust audiences and bids. Reporting is constant — clients want to know what their money did this week. A meaningful chunk of time goes to conversion tracking and analytics setup (Google Tag Manager, GA4, Meta Pixel/Conversions API), because campaigns optimize toward whatever you tell the platform to count, and broken tracking quietly wastes spend. New-client months add account audits and campaign builds on top of managing the existing book.",
+  "whatItIs": "A PPC (pay-per-click) advertising agency plans, builds, and manages paid ad campaigns for clients on platforms like Google Ads (Search, Shopping, Performance Max), Meta (Facebook and Instagram), and sometimes Microsoft Ads, TikTok, or LinkedIn. The client funds the ad spend directly; you are paid to manage it, structuring campaigns, writing ad copy, building audiences, managing bids and budgets, and reporting on results. The whole job revolves around one metric clients watch closely: return on ad spend (ROAS) or cost per acquisition (CPA). Because you are spending other people's money toward a measurable goal, the accountability is high and so is the perceived value when it works.",
+  "dailyReality": "Most days start in the ad accounts: checking yesterday's spend, conversions, cost per lead or sale, and whether anything broke overnight (a disapproved ad, a budget cap hit, a tracking gap). You shift budget between campaigns, pause losers, scale winners, write and test new ad variations, and adjust audiences and bids. Reporting is constant, clients want to know what their money did this week. A meaningful chunk of time goes to conversion tracking and analytics setup (Google Tag Manager, GA4, Meta Pixel/Conversions API), because campaigns optimize toward whatever you tell the platform to count, and broken tracking quietly wastes spend. New-client months add account audits and campaign builds on top of managing the existing book.",
   "startupCostsItemized": [
-    { "item": "Google Ads and Meta certifications (Skillshop, Meta Blueprint — free)", "low": 0, "high": 0 },
+    { "item": "Google Ads and Meta certifications (Skillshop, Meta Blueprint, free)", "low": 0, "high": 0 },
     { "item": "Reporting / dashboard tool (Looker Studio free, or AgencyAnalytics)", "low": 0, "high": 700, "annual": true, "optional": true },
     { "item": "Portfolio / case-study site", "low": 0, "high": 300, "optional": true },
-    { "item": "Analytics & tag management (GA4, Tag Manager — free)", "low": 0, "high": 0 },
+    { "item": "Analytics & tag management (GA4, Tag Manager, free)", "low": 0, "high": 0 },
     { "item": "Paid PPC training course / mentorship", "low": 200, "high": 2000, "optional": true },
     { "item": "Business registration / LLC", "low": 50, "high": 300 },
     { "item": "Errors & omissions / professional liability insurance", "low": 400, "high": 1200, "annual": true, "optional": true },
@@ -34,22 +34,22 @@
     { "item": "A small test ad budget to learn on your own offer", "low": 0, "high": 1000, "optional": true }
   ],
   "realEarnings": {
-    "yearOne": "Beginners typically manage one to three accounts at $750 to $2,500 per month each, landing around $1,500 to $5,000 per month total in year one. Pricing is usually a flat management retainer, a percentage of ad spend (commonly 10 to 20 percent), or a hybrid — performance-only deals are rare and risky early on.",
+    "yearOne": "Beginners typically manage one to three accounts at $750 to $2,500 per month each, landing around $1,500 to $5,000 per month total in year one. Pricing is usually a flat management retainer, a percentage of ad spend (commonly 10 to 20 percent), or a hybrid, performance-only deals are rare and risky early on.",
     "experienced": "With five to ten retained clients and management fees of $1,500 to $4,000 each, experienced solo operators and small agencies commonly report $9,000 to $22,000 per month. Larger ad budgets justify higher fees, and a percentage-of-spend model means your income rises as clients scale their budgets.",
-    "topEarners": "Established agencies with a team of media buyers, an analyst, and 15 to 50 accounts gross $50,000 to $200,000+ per month. Reaching that requires a real team, productized reporting, and a steady lead engine — and the constant pressure of replacing churned accounts, since PPC clients leave faster than most service clients when results dip.",
+    "topEarners": "Established agencies with a team of media buyers, an analyst, and 15 to 50 accounts gross $50,000 to $200,000+ per month. Reaching that requires a real team, productized reporting, and a steady lead engine, and the constant pressure of replacing churned accounts, since PPC clients leave faster than most service clients when results dip.",
     "whatAffectsMost": "Client ad budgets and client retention drive income most. A percentage fee on a $50k/month budget is worth ten times the same percentage on a $5k budget, but bigger budgets bring bigger expectations. Niching into one industry, where you know the benchmarks and creative that works, raises both results and pricing power.",
     "perHour": "Effective rates run $75 to $250 per hour of focused work for solo operators who are efficient. Counting audits, reporting, and the firefighting that comes with volatile accounts, blended rates are often $60 to $150 per hour."
   },
   "howToStart": [
     "Month 1: Earn the free Google Ads and Meta Blueprint certifications and run a small campaign on your own offer or a friend's business so you have hands-on reps and real screenshots, not just theory. Pick a niche (local services, ecommerce, lead gen) because benchmarks and account structure differ a lot.",
-    "Month 1-2: Land one or two clients at a fair management fee, ideally with a short trial period. Before quoting, audit their existing account and confirm conversion tracking actually works — inheriting broken tracking and getting blamed for bad numbers is a classic trap.",
+    "Month 1-2: Land one or two clients at a fair management fee, ideally with a short trial period. Before quoting, audit their existing account and confirm conversion tracking actually works, inheriting broken tracking and getting blamed for bad numbers is a classic trap.",
     "Month 2-3: Set up clean conversion tracking (GA4, Tag Manager, Meta Pixel and Conversions API) before optimizing, then restructure campaigns and establish a weekly reporting rhythm tied to CPA or ROAS.",
     "Days 60-120: Document a real before/after result as a case study and use it to do targeted outreach to similar businesses. Set explicit expectations in writing about the learning period, ad spend, and what is and is not in your control.",
-    "Ongoing: Build a churn buffer — keep a small prospecting pipeline running at all times, because even good PPC agencies lose clients when ROAS dips for reasons like seasonality, landing-page problems, or platform changes."
+    "Ongoing: Build a churn buffer, keep a small prospecting pipeline running at all times, because even good PPC agencies lose clients when ROAS dips for reasons like seasonality, landing-page problems, or platform changes."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Analytical comfort with numbers — CPA, ROAS, conversion rates, and budget math",
+      "Analytical comfort with numbers, CPA, ROAS, conversion rates, and budget math",
       "Sales ability to land retainers and, just as important, to set realistic expectations about results",
       "Discipline to manage spend carefully, because mistakes cost the client real money fast"
     ],
@@ -59,7 +59,7 @@
       "Ad copywriting and basic creative direction for testing variations"
     ],
     "separators": [
-      "Reading data fast and knowing what to change versus what to leave alone — overtweaking starves the algorithms",
+      "Reading data fast and knowing what to change versus what to leave alone, overtweaking starves the algorithms",
       "Owning the full funnel: spotting when the bottleneck is the landing page or offer, not the ads",
       "Managing client expectations through dips so you keep accounts that a less communicative buyer would lose"
     ]
@@ -78,22 +78,22 @@
     { "item": "Reporting dashboard (Looker Studio or AgencyAnalytics)", "note": "Automates client reports so you are not rebuilding numbers by hand each week.", "low": 0, "high": 700 },
     { "item": "Landing page / CRO tool (Unbounce, or client's site)", "note": "Better landing pages often move results more than ad tweaks. Use the client's stack when possible.", "low": 0, "high": 1200, "optional": true },
     { "item": "Spy / research tools (Meta Ad Library, SEMrush)", "note": "For competitor research and keyword/audience ideas. Ad Library is free.", "low": 0, "high": 1500, "optional": true },
-    { "item": "A reliable laptop you already own", "note": "No special hardware required — this is an analytics-and-dashboards business." }
+    { "item": "A reliable laptop you already own", "note": "No special hardware required, this is an analytics-and-dashboards business." }
   ],
   "howToFindCustomers": {
     "methods": [
-      "Free account audits offered to businesses already running ads inefficiently — the fastest way to show value",
+      "Free account audits offered to businesses already running ads inefficiently, the fastest way to show value",
       "Niching into one industry so referrals and benchmarks compound and your pitch gets sharper",
       "Partnerships with web developers, SEO agencies, and email agencies who serve the same clients but do not run ads",
       "Google and Meta partner directories once you have certifications and results",
-      "Running modest ads for your own agency — proof that you can do what you sell, plus a steady lead source"
+      "Running modest ads for your own agency, proof that you can do what you sell, plus a steady lead source"
     ],
-    "whereCustomersAre": "Local service businesses, ecommerce stores, and lead-gen-driven companies (legal, home services, SaaS) that already spend on ads but lack in-house expertise. Businesses spending $3k to $50k+ per month on ads are the sweet spot — enough budget to justify a real management fee.",
+    "whereCustomersAre": "Local service businesses, ecommerce stores, and lead-gen-driven companies (legal, home services, SaaS) that already spend on ads but lack in-house expertise. Businesses spending $3k to $50k+ per month on ads are the sweet spot, enough budget to justify a real management fee.",
     "timeToClientBase": "First clients usually come within one to three months of consistent audits and outreach. A stable roster of five-plus retainers often takes six to twelve months, since each documented result makes the next sale easier and you also have to absorb early churn.",
     "wasteOfTime": "Generic cold pitches with no audit, competing on being the cheapest manager, and over-investing in branding before you have a single account result. Buyers want to see you found a specific problem in their account and can fix it."
   },
   "howItScales": {
-    "toFullTime": "Yes. Five to eight retained accounts at healthy fees replace most jobs, and a percentage-of-spend model grows with clients. The solo ceiling is the number of accounts one person can manage well — usually eight to twelve before responsiveness and optimization quality slip.",
+    "toFullTime": "Yes. Five to eight retained accounts at healthy fees replace most jobs, and a percentage-of-spend model grows with clients. The solo ceiling is the number of accounts one person can manage well, usually eight to twelve before responsiveness and optimization quality slip.",
     "hireAndStepBack": "Realistic but demanding. Media buying productizes with SOPs, an analyst for reporting, and junior buyers running accounts under your strategy. Stepping back requires trust that quality holds, because a single mismanaged account can burn a client's budget and reputation.",
     "sellable": "PPC agencies with documented retainers, diversified clients, and low churn do sell for a multiple of recurring profit. Buyers scrutinize client concentration and churn rate heavily, because the revenue is only as stable as the retention.",
     "whatScalingRequires": "Standardized audits, build playbooks, automated reporting, a hiring and QA system, and a reliable lead engine. The recurring challenge is churn: scaling means constantly replacing the accounts that leave when results dip, so retention systems matter as much as acquisition."
@@ -120,7 +120,7 @@
   "faqs": [
     {
       "question": "Do I pay for the ad spend or does the client?",
-      "answer": "The client funds the ad spend directly, ideally on their own credit card and ad accounts — you should never put a client's spend on your card. You are paid a management fee on top of that spend. Keep billing for your services separate from the ad budget so there is no confusion or liability if a card declines mid-campaign."
+      "answer": "The client funds the ad spend directly, ideally on their own credit card and ad accounts, you should never put a client's spend on your card. You are paid a management fee on top of that spend. Keep billing for your services separate from the ad budget so there is no confusion or liability if a card declines mid-campaign."
     },
     {
       "question": "How should I price PPC management?",
@@ -154,9 +154,9 @@
     "web-development-business"
   ],
   "dataSources": [
-    "Google Skillshop and Meta Blueprint — official certification and platform documentation",
-    "WordStream / LocalIQ — annual paid search and Facebook ads benchmark reports (CPC, CTR, conversion rates)",
-    "U.S. Bureau of Labor Statistics — Advertising and Promotions Managers occupational data",
+    "Google Skillshop and Meta Blueprint, official certification and platform documentation",
+    "WordStream / LocalIQ, annual paid search and Facebook ads benchmark reports (CPC, CTR, conversion rates)",
+    "U.S. Bureau of Labor Statistics, Advertising and Promotions Managers occupational data",
     "Agency operator communities (r/PPC, paid media forums) for real-world management-fee and churn norms"
   ],
   "lastReviewed": "2026-06"

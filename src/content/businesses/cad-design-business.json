@@ -2,7 +2,7 @@
   "title": "CAD Design and 3D Modeling Business",
   "slug": "cad-design-business",
   "category": "creative-and-content",
-  "metaTitle": "How to Start a CAD Design and 3D Modeling Business — Costs and Earnings",
+  "metaTitle": "How to Start a CAD Design and 3D Modeling Business: Costs and Earnings",
   "metaDescription": "Honest breakdown of starting a freelance CAD design and 3D modeling business: real startup costs, realistic earnings, how to find clients, and common mistakes.",
   "startupCostLow": 800,
   "startupCostHigh": 9000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A CAD design and 3D modeling business provides freelance computer-aided design for physical products and parts: turning sketches, ideas, or rough samples into precise 3D models and 2D engineering drawings that can actually be manufactured. Typical work includes product design for inventors and startups, mechanical part modeling for manufacturing, files prepared for 3D printing or CNC machining, reverse-engineering existing parts, design-for-manufacturing tweaks, and creating technical drawings and assemblies. This is mechanical and product CAD — distinct from architectural or interior 3D rendering, where the goal is a photoreal image of a building or space. Here the model has to be dimensionally correct and producible: it specifies tolerances, fits, materials, and how a part will be made, not just how it looks. Clients pay per project or by the hour, and the work is fully remote and software-based.",
-  "dailyReality": "Most of your day is heads-down in CAD software — building parametric models, fixing geometry, generating drawings, and revising based on client feedback. A typical project starts with clarifying requirements (dimensions, materials, manufacturing method, tolerances), then modeling, then back-and-forth revisions, which are constant and where projects can drag. Around the modeling you spend time scoping jobs, writing quotes, asking the questions that prevent costly rework, exporting the right file formats (STEP, STL, DXF, IGES), and occasionally coordinating with the shop or 3D-print service that will produce the part. Expect deep-focus blocks, irregular hours that suit a side hustle, and the reality that a single misunderstood requirement can mean redoing significant work for free.",
+  "whatItIs": "A CAD design and 3D modeling business provides freelance computer-aided design for physical products and parts: turning sketches, ideas, or rough samples into precise 3D models and 2D engineering drawings that can actually be manufactured. Typical work includes product design for inventors and startups, mechanical part modeling for manufacturing, files prepared for 3D printing or CNC machining, reverse-engineering existing parts, design-for-manufacturing tweaks, and creating technical drawings and assemblies. This is mechanical and product CAD, distinct from architectural or interior 3D rendering, where the goal is a photoreal image of a building or space. Here the model has to be dimensionally correct and producible: it specifies tolerances, fits, materials, and how a part will be made, not just how it looks. Clients pay per project or by the hour, and the work is fully remote and software-based.",
+  "dailyReality": "Most of your day is heads-down in CAD software, building parametric models, fixing geometry, generating drawings, and revising based on client feedback. A typical project starts with clarifying requirements (dimensions, materials, manufacturing method, tolerances), then modeling, then back-and-forth revisions, which are constant and where projects can drag. Around the modeling you spend time scoping jobs, writing quotes, asking the questions that prevent costly rework, exporting the right file formats (STEP, STL, DXF, IGES), and occasionally coordinating with the shop or 3D-print service that will produce the part. Expect deep-focus blocks, irregular hours that suit a side hustle, and the reality that a single misunderstood requirement can mean redoing significant work for free.",
   "startupCostsItemized": [
     { "item": "Capable workstation (strong CPU/GPU, ample RAM) if you don't already own one", "low": 0, "high": 3000, "optional": true },
     { "item": "CAD software license (Fusion 360, SolidWorks, or similar)", "low": 0, "high": 4000, "annual": true },
@@ -32,23 +32,23 @@
     { "item": "Sample prints / prototypes for portfolio (3D print service fees)", "low": 50, "high": 500, "optional": true }
   ],
   "realEarnings": {
-    "yearOne": "Most freelancers building this in year one earn roughly $1,500 to $4,000 per month, often uneven, while landing first clients and building reviews. Beginner project rates and platform competition keep effective pay modest at first — small modeling jobs may pay $50 to $400 each.",
+    "yearOne": "Most freelancers building this in year one earn roughly $1,500 to $4,000 per month, often uneven, while landing first clients and building reviews. Beginner project rates and platform competition keep effective pay modest at first, small modeling jobs may pay $50 to $400 each.",
     "experienced": "Experienced CAD freelancers with a real portfolio and repeat clients commonly report $4,000 to $9,000 per month. Hourly rates in the range of $40 to $90, larger product-design projects, and ongoing relationships with manufacturers and product companies drive this stage.",
-    "topEarners": "Top specialists — strong mechanical/product-design expertise, niche focus (e.g., injection-molded consumer products, complex assemblies), or design-for-manufacturing consulting — bill $90 to $175+ per hour and gross $10,000 to $20,000+ per month, sometimes by subcontracting overflow. Reaching this takes years of real engineering judgment and a reputation for producible designs; most generalists never get there.",
+    "topEarners": "Top specialists, strong mechanical/product-design expertise, niche focus (e.g., injection-molded consumer products, complex assemblies), or design-for-manufacturing consulting, bill $90 to $175+ per hour and gross $10,000 to $20,000+ per month, sometimes by subcontracting overflow. Reaching this takes years of real engineering judgment and a reputation for producible designs; most generalists never get there.",
     "whatAffectsMost": "Manufacturing knowledge and specialization matter far more than software speed. Freelancers who understand tolerances, materials, and how parts are actually made command much higher rates than those who only push geometry. Repeat clients and direct (off-platform) relationships also raise effective pay sharply.",
     "perHour": "On project rates, experienced freelancers net roughly $40 to $100+ per hour of actual work, but unbilled scoping, revisions, and quoting pull blended rates lower. Beginners competing on platforms often net far less than their nominal rate due to rework and bidding pressure."
   },
   "howToStart": [
-    "Month 1: Become genuinely proficient in one main CAD package (Fusion 360 is low-cost and widely used; SolidWorks is the manufacturing standard). Learn parametric modeling, assemblies, and producing proper engineering drawings — not just shapes.",
+    "Month 1: Become genuinely proficient in one main CAD package (Fusion 360 is low-cost and widely used; SolidWorks is the manufacturing standard). Learn parametric modeling, assemblies, and producing proper engineering drawings, not just shapes.",
     "Month 2: Build a portfolio of 5 to 10 real-feeling projects: a manufacturable product, a mechanical assembly, a 3D-print-ready part, a reverse-engineered component, and clean technical drawings. 3D print a couple to prove they actually work.",
     "Month 2 to 3: Set up profiles on freelance platforms (Upwork, Fiverr, design marketplaces) and a simple portfolio site. Price by project, scoped carefully, and define what a 'revision' includes to avoid endless free changes.",
-    "Days 60 to 120: Take on a few small jobs to earn reviews, then target better clients — inventors, hardware startups, local manufacturers, and 3D-print/CNC shops that get modeling requests. Always confirm material, process, and tolerances before quoting.",
+    "Days 60 to 120: Take on a few small jobs to earn reviews, then target better clients, inventors, hardware startups, local manufacturers, and 3D-print/CNC shops that get modeling requests. Always confirm material, process, and tolerances before quoting.",
     "Ongoing: Specialize where the money is (e.g., product design for manufacturing, complex assemblies, or a specific industry), build off-platform repeat relationships, and keep learning design-for-manufacturing so your models are producible, not just pretty."
   ],
   "skillsRequired": {
     "mustHave": [
       "Solid proficiency in at least one professional CAD package (parametric modeling, assemblies, drawings)",
-      "Engineering/spatial sense — understanding dimensions, tolerances, fits, and how parts go together",
+      "Engineering/spatial sense, understanding dimensions, tolerances, fits, and how parts go together",
       "Clear technical communication to extract requirements and manage revisions without scope creep"
     ],
     "canLearn": [
@@ -63,11 +63,11 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Modeling parts that can't be manufactured — ignoring tolerances, wall thickness, draft, materials, and process realities",
+    "Modeling parts that can't be manufactured, ignoring tolerances, wall thickness, draft, materials, and process realities",
     "Underquoting fixed-price jobs and then drowning in unpaid revisions because the scope was never defined",
     "Competing on the cheapest bid on freelance platforms instead of on producible, reliable work",
     "Skipping clarifying questions up front, then redoing large amounts of work after a requirement turns out to be wrong",
-    "Confusing this with rendering — chasing pretty visuals when the client needs dimensionally correct, producible files",
+    "Confusing this with rendering, chasing pretty visuals when the client needs dimensionally correct, producible files",
     "Never specializing, staying a low-rate generalist instead of becoming the go-to for a specific type of product or part"
   ],
   "toolsAndEquipment": [
@@ -94,7 +94,7 @@
   "howItScales": {
     "toFullTime": "Yes. Many freelancers reach full-time income by combining repeat clients, larger product-design projects, and a higher specialized rate. The ceiling as a pure solo modeler is your billable hours, so growth comes from rate and specialization more than volume.",
     "hireAndStepBack": "Possible but limited early on. You can subcontract overflow to other CAD freelancers and grow into a small studio, but clients often want a specific designer's judgment. Stepping back requires reliable subcontractors, QA processes, and project management.",
-    "sellable": "Hard to sell as a solo freelance practice — the value is your skill and relationships. A small CAD/design studio with documented processes, recurring contracts, and staff is more sellable, but most operate as a personal practice rather than a sellable asset.",
+    "sellable": "Hard to sell as a solo freelance practice, the value is your skill and relationships. A small CAD/design studio with documented processes, recurring contracts, and staff is more sellable, but most operate as a personal practice rather than a sellable asset.",
     "whatScalingRequires": "A specialized reputation, repeat and retainer clients, dependable subcontractors for overflow, clear scoping and QA so quality holds when you delegate, and a steady lead pipeline beyond freelance platforms."
   },
   "fitChecklist": {
@@ -119,11 +119,11 @@
   "faqs": [
     {
       "question": "Do I need an engineering degree to do CAD freelancing?",
-      "answer": "No degree is required, but you do need real CAD proficiency and engineering/manufacturing sense — a beginner with no background cannot realistically start charging clients. Many successful freelancers are self-taught or come from drafting, machining, or product-design experience. What clients actually buy is producible, dimensionally correct work, so the skills matter far more than the credential."
+      "answer": "No degree is required, but you do need real CAD proficiency and engineering/manufacturing sense, a beginner with no background cannot realistically start charging clients. Many successful freelancers are self-taught or come from drafting, machining, or product-design experience. What clients actually buy is producible, dimensionally correct work, so the skills matter far more than the credential."
     },
     {
       "question": "How is this different from 3D rendering or architectural visualization?",
-      "answer": "3D rendering aims to produce a photoreal image of a product, building, or space. Mechanical and product CAD aims to produce a dimensionally correct, manufacturable model and engineering drawings — the part has to be makeable, with the right tolerances, materials, and process. They use different software, skills, and clients, which is why this is a distinct business from architectural visualization or rendering."
+      "answer": "3D rendering aims to produce a photoreal image of a product, building, or space. Mechanical and product CAD aims to produce a dimensionally correct, manufacturable model and engineering drawings, the part has to be makeable, with the right tolerances, materials, and process. They use different software, skills, and clients, which is why this is a distinct business from architectural visualization or rendering."
     },
     {
       "question": "Which CAD software should I learn?",
@@ -153,7 +153,7 @@
     "product-photography-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Drafters and Mechanical/Industrial design occupational data",
+    "U.S. Bureau of Labor Statistics, Drafters and Mechanical/Industrial design occupational data",
     "Freelance platform rate data (Upwork, Fiverr) for CAD and 3D modeling project pricing",
     "Manufacturing and design-for-manufacturing resources on tolerances, materials, and process selection",
     "CAD and engineering communities (r/cad, r/SolidWorks, r/3Dprinting, hardware forums) for real-world pricing and workflow"

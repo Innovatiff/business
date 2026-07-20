@@ -1,0 +1,125 @@
+---
+/**
+ * "Created by Daniel Hernandez" byline.
+ *   - variant="full"    → photo avatar + linked name + optional review date
+ *                         (used at the top of every article).
+ *   - variant="compact" → small initials chip + name, no link, no image
+ *                         (used on article cards; no per-card network request).
+ * The full-variant avatar shows the headshot when present and falls back to the
+ * author's initials if the image is missing, so nothing ever looks broken.
+ */
+import { AUTHOR } from '../data/author';
+
+interface Props {
+  variant?: 'full' | 'compact';
+  /** Optional "Reviewed <date>" shown on the full variant. */
+  date?: string;
+}
+const { variant = 'full', date } = Astro.props;
+---
+
+{variant === 'compact' ? (
+  <span class="ab ab-compact">
+    <span class="ab-chip" aria-hidden="true">{AUTHOR.initials}</span>
+    <span class="ab-text">Created by {AUTHOR.name}</span>
+  </span>
+) : (
+  <div class="ab ab-full">
+    <span class="ab-avatar" aria-hidden="true">
+      <span class="ab-initials">{AUTHOR.initials}</span>
+      <img src={AUTHOR.photo} alt="" width="44" height="44" loading="lazy" decoding="async" onerror="this.remove()" />
+    </span>
+    <span class="ab-lines">
+      <span class="ab-by">Created by <a href={AUTHOR.url}>{AUTHOR.name}</a></span>
+      <span class="ab-meta">
+        {AUTHOR.role}{date && <> · Reviewed {date}</>}
+      </span>
+    </span>
+  </div>
+)}
+
+<style>
+  .ab-full {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  .ab-avatar {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    flex: none;
+    border-radius: 50%;
+    overflow: hidden;
+    background: var(--navy);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+  }
+  :global(:root[data-theme='dark']) .ab-avatar {
+    background: var(--green-dark);
+    color: #04120a;
+  }
+  .ab-avatar img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .ab-lines {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+  }
+  .ab-by {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--navy);
+  }
+  .ab-by a {
+    color: var(--navy);
+  }
+  .ab-by a:hover {
+    color: var(--green-dark);
+  }
+  .ab-meta {
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+
+  /* Compact — for cards */
+  .ab-compact {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .ab-chip {
+    display: grid;
+    place-items: center;
+    width: 20px;
+    height: 20px;
+    flex: none;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 0.6rem;
+    letter-spacing: 0.02em;
+  }
+  :global(:root[data-theme='dark']) .ab-chip {
+    background: var(--green-dark);
+    color: #04120a;
+  }
+  .ab-text {
+    font-size: 0.78rem;
+    color: var(--muted);
+    font-weight: 600;
+  }
+</style>

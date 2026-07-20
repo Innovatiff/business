@@ -2,7 +2,7 @@
   "title": "App Store Optimization Agency",
   "slug": "aso-agency-business",
   "category": "online-businesses",
-  "metaTitle": "How to Start an ASO Agency — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start an ASO Agency: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting an App Store Optimization (ASO) agency: real startup costs, realistic retainer earnings, how to win app developer clients, and what most people get wrong.",
   "startupCostLow": 600,
   "startupCostHigh": 4000,
@@ -20,7 +20,7 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "An App Store Optimization (ASO) agency helps app and game developers get found and downloaded in the Apple App Store and Google Play. That means researching the keywords real users search, writing and testing titles, subtitles, descriptions, and keyword fields, designing screenshots and preview videos that convert browsers into installs, and running store-listing experiments (Apple's Product Page Optimization, Google's store listing experiments) to lift conversion rate. ASO is the organic counterpart to paid user acquisition — done well, it lowers a developer's blended cost per install and compounds over time.",
+  "whatItIs": "An App Store Optimization (ASO) agency helps app and game developers get found and downloaded in the Apple App Store and Google Play. That means researching the keywords real users search, writing and testing titles, subtitles, descriptions, and keyword fields, designing screenshots and preview videos that convert browsers into installs, and running store-listing experiments (Apple's Product Page Optimization, Google's store listing experiments) to lift conversion rate. ASO is the organic counterpart to paid user acquisition, done well, it lowers a developer's blended cost per install and compounds over time.",
   "dailyReality": "Most days are split between client deliverables and analysis. You pull keyword and ranking data from tools like AppTweak, Sensor Tower, or App Radar, review each client's store metrics in App Store Connect and Google Play Console, draft revised metadata, brief or create screenshot variants, and set up A/B tests. A meaningful share of the week is communication: monthly reporting calls, explaining why rankings moved, and managing expectations when a client confuses your conversion work with their own paid-acquisition or product problems. It is desk work, heavy on spreadsheets, written analysis, and clear reporting.",
   "startupCostsItemized": [
     { "item": "ASO data tool subscription (AppTweak, App Radar, or similar)", "low": 70, "high": 300, "annual": false },
@@ -35,15 +35,15 @@
     "yearOne": "Most new ASO consultants land their first one or two clients within one to three months and earn $1,500 to $4,000 per month part-time, usually mixing small monthly retainers ($500 to $1,500 each) with one-off audits ($300 to $1,500). Building a credible case study early is worth more than the first few checks.",
     "experienced": "Established solo operators with proven case studies and a steady book commonly report $6,000 to $15,000 per month from a handful of retainers ($1,000 to $4,000 each) plus higher-value audits and screenshot projects. Specializing in a vertical (mobile games, fintech apps, health apps) supports higher rates.",
     "topEarners": "Small ASO agencies with a few specialists and 15 to 30 active retainers gross $40,000 to $150,000+ per month, but getting there takes years of building a name, hiring designers and analysts, productizing reporting, and often layering in paid-UA management. The well-known firms in this space spent years publishing data and case studies to earn that trust.",
-    "whatAffectsMost": "Niche focus and demonstrable results matter most. An agency that can show 'we lifted this category-X app's conversion 28% and moved it into the top results for these keywords' charges multiples of one that promises generic 'more downloads.' Retention beats acquisition — keeping clients past month three is where the money is.",
+    "whatAffectsMost": "Niche focus and demonstrable results matter most. An agency that can show 'we lifted this category-X app's conversion 28% and moved it into the top results for these keywords' charges multiples of one that promises generic 'more downloads.' Retention beats acquisition, keeping clients past month three is where the money is.",
     "perHour": "Effective rate runs $60 to $200 per hour for experienced consultants once retainers are systematized, but early on, time spent learning tools, doing free audits, and pitching can push the real blended rate below $40 per hour."
   },
   "howToStart": [
-    "Month 1: Learn ASO deeply using free resources (Apple's and Google's guidelines, AppTweak/Sensor Tower blogs) and one paid data tool. Optimize one or two apps for free or at low cost — ideally a friend's app or your own — and document the before/after keyword rankings and conversion changes.",
+    "Month 1: Learn ASO deeply using free resources (Apple's and Google's guidelines, AppTweak/Sensor Tower blogs) and one paid data tool. Optimize one or two apps for free or at low cost, ideally a friend's app or your own, and document the before/after keyword rankings and conversion changes.",
     "Month 2: Turn that work into a written case study and a simple portfolio site. Define a clear offer: a one-time ASO audit, a monthly optimization retainer, or a screenshot/CRO package. Set entry pricing you can raise later.",
     "Month 3: Start targeted outreach. Find apps with weak listings (poor screenshots, missing keywords) in app store charts, on Product Hunt, and in indie-developer communities, and send specific, useful audits rather than generic pitches.",
     "Days 90 to 180: Deliver, report monthly, and ask happy clients for referrals and testimonials. Decide whether to niche down by app category and whether to bring in a designer so screenshot work does not bottleneck you.",
-    "Ongoing: Keep a private benchmark of results across clients so you can prove impact, and stay current — both stores change ranking factors and listing formats regularly."
+    "Ongoing: Keep a private benchmark of results across clients so you can prove impact, and stay current, both stores change ranking factors and listing formats regularly."
   ],
   "skillsRequired": {
     "mustHave": [
@@ -63,7 +63,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Promising download or ranking guarantees they cannot control — installs depend on the product, paid spend, and reviews, not just the listing",
+    "Promising download or ranking guarantees they cannot control, installs depend on the product, paid spend, and reviews, not just the listing",
     "Treating ASO as a one-time keyword stuffing exercise instead of ongoing testing and iteration",
     "Ignoring conversion rate optimization (screenshots, icon, video) and obsessing only over keyword rankings",
     "Failing to set a baseline and attribution model, so they cannot prove their own impact when a client questions the bill",
@@ -86,7 +86,7 @@
       "Partnering with app development agencies and paid-UA freelancers who need an ASO specialist to refer",
       "Referrals from satisfied clients, which become the main channel once you have results to show"
     ],
-    "whereCustomersAre": "Independent app developers, small studios, and growth teams at funded startups — found in developer communities, on Product Hunt, at app/game events, and in the app store charts themselves where weak listings stand out.",
+    "whereCustomersAre": "Independent app developers, small studios, and growth teams at funded startups, found in developer communities, on Product Hunt, at app/game events, and in the app store charts themselves where weak listings stand out.",
     "timeToClientBase": "Expect one to three months to land the first paying client and six to twelve months to assemble a stable book of retainers. Trust is slow because developers have usually been burned by vague 'marketing' promises before.",
     "wasteOfTime": "Broad cold email blasts with generic 'I can grow your downloads' messaging, and running paid ads for your own agency before you have a single case study. Specific value shown for free converts far better early on."
   },
@@ -110,7 +110,7 @@
       "You want purely passive income with no client management"
     ],
     "askYourself": [
-      "Can I show, with data, that I moved an app's rankings or conversion — even on a free or personal project?",
+      "Can I show, with data, that I moved an app's rankings or conversion, even on a free or personal project?",
       "Am I willing to specialize in a category instead of taking any app that comes along?",
       "Can I hold a client through a slow first quarter while results compound?"
     ]
@@ -118,7 +118,7 @@
   "faqs": [
     {
       "question": "What is the difference between ASO and app marketing or user acquisition?",
-      "answer": "ASO is the organic side: getting an app found and chosen within the app stores through keywords, listing copy, and conversion-focused creative. User acquisition usually refers to paid advertising that drives installs. They overlap — better ASO lowers paid acquisition costs — but they are distinct disciplines, and confusing the two is a common source of client friction."
+      "answer": "ASO is the organic side: getting an app found and chosen within the app stores through keywords, listing copy, and conversion-focused creative. User acquisition usually refers to paid advertising that drives installs. They overlap, better ASO lowers paid acquisition costs, but they are distinct disciplines, and confusing the two is a common source of client friction."
     },
     {
       "question": "Do I need to be a developer to run an ASO agency?",
@@ -126,7 +126,7 @@
     },
     {
       "question": "Can I guarantee a client more downloads?",
-      "answer": "No, and you should refuse to. Downloads depend on the product, reviews, pricing, competitor activity, and any paid spend the client runs — none of which you fully control. You can credibly commit to improving keyword visibility and store conversion rate and reporting those honestly. Promising download numbers is the fastest way to lose a client and your reputation."
+      "answer": "No, and you should refuse to. Downloads depend on the product, reviews, pricing, competitor activity, and any paid spend the client runs, none of which you fully control. You can credibly commit to improving keyword visibility and store conversion rate and reporting those honestly. Promising download numbers is the fastest way to lose a client and your reputation."
     },
     {
       "question": "How much can I charge for an ASO retainer?",
@@ -154,7 +154,7 @@
   "dataSources": [
     "Apple App Store and Google Play developer guidelines (ranking and listing best practices)",
     "AppTweak and Sensor Tower industry reports (ASO benchmarks, conversion, and keyword data)",
-    "Business of Apps — mobile marketing and app economy data",
+    "Business of Apps, mobile marketing and app economy data",
     "Mobile growth and indie-developer communities (Indie Hackers, r/iOSProgramming, ASO Slack groups) for real-world pricing and retention"
   ],
   "lastReviewed": "2026-06"

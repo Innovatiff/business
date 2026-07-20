@@ -41,8 +41,8 @@ const steps = FINDER_SECTIONS.map((section) => ({
 ---
 
 <BaseLayout
-  title="Find My Business — An Honest Business Finder"
-  description="Answer a few honest questions about your budget, time, skills, and situation. We will only show businesses that realistically fit you — no account, no stored answers, no hype."
+  title="Find My Business: An Honest Business Finder"
+  description="Answer a few honest questions about your budget, time, skills, and situation. We will only show businesses that realistically fit you, no account, no stored answers, no hype."
   path="/find-my-business"
 >
   <div class="container finder-head">
@@ -50,11 +50,11 @@ const steps = FINDER_SECTIONS.map((section) => ({
     <h1>Find the right business for your real life</h1>
     <p class="lead">
       Answer honestly. The more accurate your answers, the more useful your results. We will only
-      show businesses that genuinely fit your budget, time, and situation — never the ones you
+      show businesses that genuinely fit your budget, time, and situation, never the ones you
       can't realistically start.
     </p>
     <p class="finder-privacy">
-      No account required. We do not store your answers — everything runs in your browser and
+      No account required. We do not store your answers, everything runs in your browser and
       disappears when you close the page.
     </p>
   </div>
@@ -108,7 +108,7 @@ const steps = FINDER_SECTIONS.map((section) => ({
             <p>
               That usually means the budget, time, or timeframe is tighter than the businesses
               currently in our library. Rather than show you something that won't realistically
-              work, we'd rather tell you straight. Try loosening one answer — often a slightly
+              work, we'd rather tell you straight. Try loosening one answer, often a slightly
               higher budget or a longer timeframe opens up strong options.
             </p>
             <button type="button" class="btn btn-secondary" data-action="restart">Adjust my answers</button>
@@ -504,7 +504,7 @@ const steps = FINDER_SECTIONS.map((section) => ({
       if (shareRow) shareRow.hidden = false;
       sub.textContent = `Based on your answers, here ${scored.length === 1 ? 'is' : 'are'} ${scored.length} ${
         scored.length === 1 ? 'business' : 'businesses'
-      } that honestly fit — ranked by how well they match. We always show the full realistic range, not the best case.`;
+      } that honestly fit, ranked by how well they match. We always show the full realistic range, not the best case.`;
 
       resultsEl.innerHTML = scored
         .map((s, i) => {

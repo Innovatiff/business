@@ -2,7 +2,7 @@
   "title": "3D Printing Business",
   "slug": "3d-printing-business",
   "category": "retail-and-products",
-  "metaTitle": "How to Start a 3D Printing Business — Real Costs and Earnings",
+  "metaTitle": "How to Start a 3D Printing Business: Real Costs and Earnings",
   "metaDescription": "An honest guide to a 3D printing business: real startup costs, realistic earnings selling printed products and on-demand printing, and what most people get wrong.",
   "startupCostLow": 500,
   "startupCostHigh": 5000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A 3D printing business uses desktop FDM or resin printers to make physical products — custom parts, organizers, figurines, replacement components, prototypes, gifts, and niche accessories — and sells them on Etsy, your own store, and locally, or offers on-demand printing as a service for people who have a design but no printer. You either design and sell your own products, print other people's designs (respecting licenses), or do contract printing and prototyping for local makers and small businesses. The appeal is that the machines run mostly unattended, but the reality is that print times are slow, margins per item are thin, and the money lives in design, niche selection, and post-processing rather than the printing itself.",
-  "dailyReality": "A typical day mixes machine babysitting and computer work. You slice models, load filament or resin, start prints, and monitor for failures (especially in the first layers), while a single product can take anywhere from 30 minutes to many hours to print. Around that, you design or modify models in CAD, post-process prints (removing supports, sanding, painting, resin washing and curing), photograph and list products, package orders, and handle customer questions and custom requests. Resin work adds messy, fume-heavy cleanup and safety steps. The work is patient and iterative — dialing in settings and recovering from failed prints is a constant part of the job.",
+  "whatItIs": "A 3D printing business uses desktop FDM or resin printers to make physical products, custom parts, organizers, figurines, replacement components, prototypes, gifts, and niche accessories, and sells them on Etsy, your own store, and locally, or offers on-demand printing as a service for people who have a design but no printer. You either design and sell your own products, print other people's designs (respecting licenses), or do contract printing and prototyping for local makers and small businesses. The appeal is that the machines run mostly unattended, but the reality is that print times are slow, margins per item are thin, and the money lives in design, niche selection, and post-processing rather than the printing itself.",
+  "dailyReality": "A typical day mixes machine babysitting and computer work. You slice models, load filament or resin, start prints, and monitor for failures (especially in the first layers), while a single product can take anywhere from 30 minutes to many hours to print. Around that, you design or modify models in CAD, post-process prints (removing supports, sanding, painting, resin washing and curing), photograph and list products, package orders, and handle customer questions and custom requests. Resin work adds messy, fume-heavy cleanup and safety steps. The work is patient and iterative, dialing in settings and recovering from failed prints is a constant part of the job.",
   "startupCostsItemized": [
     { "item": "FDM 3D printer (entry to prosumer)", "low": 200, "high": 1000 },
     { "item": "Resin printer + wash/cure station (optional second machine)", "low": 0, "high": 800, "optional": true },
@@ -35,12 +35,12 @@
   "realEarnings": {
     "yearOne": "Most operators earn $200 to $1,200 per month part-time in year one, and many barely break even at first once filament, electricity, failed prints, and platform fees are counted. The ones who do better usually find a niche product or a steady local printing/prototyping client early.",
     "experienced": "Operators with a refined product line, multiple printers running, and repeat or contract clients commonly report $1,500 to $4,000 per month. Custom and contract work (prototypes, replacement parts, local business jobs) tends to pay better per hour than generic Etsy trinkets.",
-    "topEarners": "Top operations clear $6,000 to $15,000+ per month, but that almost always means a print farm of many machines, a strong proprietary product or licensed line, design skill, and systems for production and fulfillment. Reaching it is a real manufacturing operation with significant equipment, maintenance, and labor — not a one-printer side hustle.",
+    "topEarners": "Top operations clear $6,000 to $15,000+ per month, but that almost always means a print farm of many machines, a strong proprietary product or licensed line, design skill, and systems for production and fulfillment. Reaching it is a real manufacturing operation with significant equipment, maintenance, and labor, not a one-printer side hustle.",
     "whatAffectsMost": "Niche selection, original design, and post-processing quality matter far more than printer count. Selling unique or hard-to-find items, or doing contract/prototyping work, beats competing on common downloadable designs that anyone with a printer can undercut.",
     "perHour": "Because printing is slow and largely unattended, effective rates depend on how you value machine time. Hands-on design, post-processing, and fulfillment commonly net $10 to $25 per hour for beginners and $25 to $50+ for established operators with a strong niche or contract work. Generic low-priced products often net close to nothing per hour once failures are counted."
   },
   "howToStart": [
-    "Month 1: Get one reliable FDM printer and learn it well — calibration, slicing, materials, and recovering from failed prints. Print test products and dial in consistent quality before trying to sell anything.",
+    "Month 1: Get one reliable FDM printer and learn it well, calibration, slicing, materials, and recovering from failed prints. Print test products and dial in consistent quality before trying to sell anything.",
     "Month 2: Choose a niche where you can offer original or hard-to-find products (functional parts, a specific hobby, custom/personalized items) rather than generic designs anyone can copy. Learn enough CAD to modify or design models, and respect commercial licenses on anything you did not create.",
     "Month 3: Open an Etsy or Shopify store, photograph products well, and list a tight line. Offer local on-demand printing and prototyping on Facebook and Reddit to land higher-paying custom jobs. Track filament, electricity, failure rate, and time per item.",
     "Months 3-6: Double down on what sells, add a second printer if demand justifies it, and decide whether your edge is products, custom/contract work, or both. Build reviews and repeat clients before expanding equipment."
@@ -54,7 +54,7 @@
     "canLearn": [
       "Slicer settings, material selection, and printer maintenance",
       "CAD design and modifying models to create original products",
-      "Post-processing — sanding, painting, support removal, resin washing and curing"
+      "Post-processing, sanding, painting, support removal, resin washing and curing"
     ],
     "separators": [
       "Original design and niche selection so you are not undercut on common downloadable models",
@@ -64,7 +64,7 @@
   },
   "whatPeopleGetWrong": [
     "Selling generic, widely available designs that anyone with a printer can undercut on price",
-    "Ignoring true costs — filament, electricity, failed prints, machine wear, and platform fees — and pricing as if printing were free",
+    "Ignoring true costs, filament, electricity, failed prints, machine wear, and platform fees, and pricing as if printing were free",
     "Underestimating print times, then promising delivery dates a single slow machine cannot meet",
     "Reselling other people's designs without commercial licenses, risking takedowns and disputes",
     "Skipping ventilation and safety with resin, which involves real fume and skin hazards",
@@ -93,7 +93,7 @@
   },
   "howItScales": {
     "toFullTime": "Possible but constrained by print speed. Reaching full-time income usually means running several printers (a print farm), a strong original or licensed product line, or steady contract work, since a single slow machine caps output. Many keep it as part-time income alongside a job.",
-    "hireAndStepBack": "Partly. You can hire for post-processing, fulfillment, and machine monitoring, but design and niche decisions — the part that makes the money — are hard to delegate. A print farm with documented processes can run with some help, though the owner usually stays close to design and quality.",
+    "hireAndStepBack": "Partly. You can hire for post-processing, fulfillment, and machine monitoring, but design and niche decisions, the part that makes the money, are hard to delegate. A print farm with documented processes can run with some help, though the owner usually stays close to design and quality.",
     "sellable": "A 3D printing business with original products, a recognizable brand, repeat contracts, and documented processes can sell, though usually for a modest multiple. A single-printer operation built around the owner's tinkering is essentially a job and is much harder to sell.",
     "whatScalingRequires": "More machines and the maintenance they demand, reliable original or licensed products, efficient post-processing and fulfillment, and either contract relationships or strong product-market fit. The hard constraint is always print throughput and the labor of finishing and shipping."
   },

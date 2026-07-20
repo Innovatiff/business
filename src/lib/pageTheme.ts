@@ -3,7 +3,7 @@
  *
  * Two levers give every business page a distinct look while keeping one
  * cohesive design system:
- *   1. A category ACCENT palette — each of the 14 categories has its own accent
+ *   1. A category ACCENT palette, each of the 14 categories has its own accent
  *      color, so an automotive page reads differently from a pet page.
  *   2. A deterministic LAYOUT VARIANT (a | b | c) derived from the slug, so two
  *      businesses in the same category still get different hero + section

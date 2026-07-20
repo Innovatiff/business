@@ -2,7 +2,7 @@
   "title": "Livestock Hauling and Transport Business",
   "slug": "livestock-hauling-business",
   "category": "pet-and-animal",
-  "metaTitle": "How to Start a Livestock Hauling Business — Real Costs and Earnings",
+  "metaTitle": "How to Start a Livestock Hauling Business: Real Costs and Earnings",
   "metaDescription": "Honest guide to starting a livestock hauling and transport business: CDL and welfare rules, real startup costs, realistic earnings, finding clients, and common mistakes.",
   "startupCostLow": 8000,
   "startupCostHigh": 95000,
@@ -11,7 +11,7 @@
   "timeToFirstIncome": "1 to 3 months",
   "difficultyLevel": "Advanced",
   "bestFor": "Experienced drivers or ranch-raised people who are comfortable with livestock, long hours behind the wheel, and heavy regulation",
-  "biggestRisk": "An animal-welfare incident or accident in transit — injured or dead stock and the liability that follows can end the business overnight",
+  "biggestRisk": "An animal-welfare incident or accident in transit, injured or dead stock and the liability that follows can end the business overnight",
   "speedToIncome": "months",
   "minWeeklyHours": 30,
   "skills": ["hands", "people", "sales"],
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "A livestock hauling business moves live animals — cattle, horses, hogs, sheep, goats, and sometimes poultry — between ranches, auctions, sale barns, feedlots, fairs, and processing facilities. Some operators run local farm-to-auction routes with a gooseneck trailer; others run long-haul cattle pots (the tall aluminum trailers you see on interstates) across state lines for feedlots and order buyers. It sits at the intersection of trucking and animal husbandry: you are running a regulated commercial transport operation, but your cargo is alive, can panic, can be injured, and is subject to federal and state welfare and health-paperwork rules that ordinary freight is not.",
-  "dailyReality": "Days start early and run long. You confirm the load, check the trailer and bedding, and inspect that animals are fit to travel before loading — lame, late-pregnancy, or sick stock should not go. Loading is physical and can be dangerous: animals kick, crowd, and balk. On the road you drive within hours-of-service rules, monitor temperature and ventilation, and plan stops carefully because the federal 28-Hour Law limits how long animals can be confined without unloading for feed, water, and rest. You handle brand inspections, health certificates (CVIs), and bills of lading at pickup and delivery. Between hauls you clean and disinfect the trailer, maintain equipment, and chase the next load. Weather, auction schedules, and seasonal cattle movement dictate your week far more than you do.",
+  "whatItIs": "A livestock hauling business moves live animals, cattle, horses, hogs, sheep, goats, and sometimes poultry, between ranches, auctions, sale barns, feedlots, fairs, and processing facilities. Some operators run local farm-to-auction routes with a gooseneck trailer; others run long-haul cattle pots (the tall aluminum trailers you see on interstates) across state lines for feedlots and order buyers. It sits at the intersection of trucking and animal husbandry: you are running a regulated commercial transport operation, but your cargo is alive, can panic, can be injured, and is subject to federal and state welfare and health-paperwork rules that ordinary freight is not.",
+  "dailyReality": "Days start early and run long. You confirm the load, check the trailer and bedding, and inspect that animals are fit to travel before loading, lame, late-pregnancy, or sick stock should not go. Loading is physical and can be dangerous: animals kick, crowd, and balk. On the road you drive within hours-of-service rules, monitor temperature and ventilation, and plan stops carefully because the federal 28-Hour Law limits how long animals can be confined without unloading for feed, water, and rest. You handle brand inspections, health certificates (CVIs), and bills of lading at pickup and delivery. Between hauls you clean and disinfect the trailer, maintain equipment, and chase the next load. Weather, auction schedules, and seasonal cattle movement dictate your week far more than you do.",
   "startupCostsItemized": [
     { "item": "CDL Class A licensing, training, and endorsements", "low": 3000, "high": 8000 },
     { "item": "Gooseneck/bumper-pull livestock trailer (used to good)", "low": 4000, "high": 25000, "optional": true },
@@ -48,7 +48,7 @@
   "skillsRequired": {
     "mustHave": [
       "A valid CDL Class A (for semi/cattle-pot work) and a clean driving record",
-      "Genuine livestock-handling experience — reading animal behavior and loading safely",
+      "Genuine livestock-handling experience, reading animal behavior and loading safely",
       "Comfort with long hours, early mornings, and heavy regulation and paperwork"
     ],
     "canLearn": [
@@ -63,7 +63,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Underestimating insurance — livestock-in-transit and commercial auto coverage is expensive and many quote the business without it, then can't afford to operate legally",
+    "Underestimating insurance, livestock-in-transit and commercial auto coverage is expensive and many quote the business without it, then can't afford to operate legally",
     "Ignoring the 28-Hour Law and hours-of-service rules until a violation or a load of stressed animals forces the lesson",
     "Hauling unfit animals (lame, sick, heavily pregnant) to keep a customer happy, then absorbing welfare complaints, fines, or dead stock",
     "Buying a long-haul truck and cattle pot before they have the loads to keep it full, then drowning in the payment",
@@ -76,11 +76,11 @@
     { "item": "Loading panels, sorting sticks, ramps", "note": "Safe, calm loading prevents injuries to you and the animals.", "low": 150, "high": 1000 },
     { "item": "ELD and dashcam", "note": "Required for hours-of-service logging on most commercial vehicles; dashcam protects you in disputes.", "low": 200, "high": 800 },
     { "item": "Bedding, water, and ventilation gear", "note": "Sawdust or shavings, water for stops, and good airflow keep stock healthy in transit.", "low": 50, "high": 400 },
-    { "item": "Pressure washer and disinfectant", "note": "For biosecurity between loads — non-negotiable with serious clients.", "low": 200, "high": 1200 }
+    { "item": "Pressure washer and disinfectant", "note": "For biosecurity between loads, non-negotiable with serious clients.", "low": 200, "high": 1200 }
   ],
   "howToFindCustomers": {
     "methods": [
-      "Building direct relationships with local ranchers, sale barns, and auction yards — most work moves by word of mouth here",
+      "Building direct relationships with local ranchers, sale barns, and auction yards, most work moves by word of mouth here",
       "Connecting with order buyers, feedlots, and dealers who need regular cattle movement",
       "Serving the horse community: show circuits, breeders, 4-H and FFA families, and boarding barns",
       "Listing on livestock-hauling and load boards (e.g. Uship, EquineNow transport listings) to fill backhauls",
@@ -130,7 +130,7 @@
     },
     {
       "question": "Can I start with just a pickup and a gooseneck trailer?",
-      "answer": "For local farm-to-auction and horse work, yes — that's the cheapest entry point, and many successful haulers never run anything bigger. Long-haul cattle-pot work requires a semi, a CDL, and far more capital. Starting local lets you build relationships and cash flow before deciding whether to scale up."
+      "answer": "For local farm-to-auction and horse work, yes, that's the cheapest entry point, and many successful haulers never run anything bigger. Long-haul cattle-pot work requires a semi, a CDL, and far more capital. Starting local lets you build relationships and cash flow before deciding whether to scale up."
     },
     {
       "question": "Is livestock hauling seasonal?",
@@ -152,9 +152,9 @@
     "tow-truck-business"
   ],
   "dataSources": [
-    "U.S. Department of Transportation / FMCSA — commercial driver, hours-of-service, and registration requirements",
-    "USDA APHIS — interstate livestock movement and health-certificate (CVI) guidance",
-    "28-Hour Law (49 U.S.C. 80502) — federal livestock-transport welfare standard",
+    "U.S. Department of Transportation / FMCSA, commercial driver, hours-of-service, and registration requirements",
+    "USDA APHIS, interstate livestock movement and health-certificate (CVI) guidance",
+    "28-Hour Law (49 U.S.C. 80502), federal livestock-transport welfare standard",
     "American Trucking Associations and owner-operator cost data for fuel, insurance, and equipment ranges",
     "Livestock hauler and owner-operator communities for real-world rate, deadhead, and seasonality patterns"
   ],

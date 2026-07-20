@@ -1,5 +1,5 @@
 /**
- * Business Finder — questions and matching logic.
+ * Business Finder, questions and matching logic.
  *
  * This module is intentionally framework-free and side-effect-free so the same
  * `rankBusinesses` function can run in a client <script> for instant,
@@ -59,7 +59,7 @@ export const QUESTIONS: Question[] = [
       { value: '15', label: '5 to 15 hours' },
       { value: '30', label: '15 to 30 hours' },
       { value: '40', label: '30 to 40 hours' },
-      { value: '60', label: 'Full time — 40 or more hours' },
+      { value: '60', label: 'Full time, 40 or more hours' },
     ],
   },
   {
@@ -89,10 +89,10 @@ export const QUESTIONS: Question[] = [
       { value: 'sales', label: 'Sales or marketing' },
       { value: 'finance', label: 'Finance or numbers' },
       { value: 'teaching', label: 'Teaching or explaining things' },
-      { value: 'creative', label: 'Creative work — design, photography, video' },
+      { value: 'creative', label: 'Creative work, design, photography, video' },
       { value: 'health', label: 'Health or fitness' },
       { value: 'food', label: 'Food or cooking' },
-      { value: 'none', label: 'None of the above — I am starting from zero' },
+      { value: 'none', label: 'None of the above, I am starting from zero' },
     ],
   },
   {
@@ -102,10 +102,10 @@ export const QUESTIONS: Question[] = [
     type: 'single',
     options: [
       { value: 'home', label: 'From home' },
-      { value: 'mobile', label: 'Mobile — I can travel locally' },
+      { value: 'mobile', label: 'Mobile, I can travel locally' },
       { value: 'space', label: 'I can rent or use a space' },
       { value: 'online', label: 'Online only' },
-      { value: 'flexible', label: 'Flexible — whatever works' },
+      { value: 'flexible', label: 'Flexible, whatever works' },
     ],
   },
   {

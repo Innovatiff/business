@@ -2,7 +2,7 @@
   "title": "Low-Voltage and Network Cabling Business",
   "slug": "low-voltage-cabling-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start a Low-Voltage Cabling Business — Costs, Earnings, Steps",
+  "metaTitle": "How to Start a Low-Voltage Cabling Business: Costs, Earnings, Steps",
   "metaDescription": "Honest guide to starting a low-voltage and network cabling business: real startup costs, per-drop and per-job earnings, licensing realities, and common mistakes.",
   "startupCostLow": 4000,
   "startupCostHigh": 30000,
@@ -20,7 +20,7 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "A low-voltage and network cabling business installs the structured wiring that buildings run on below the line of mains electricity — Ethernet (Cat6/Cat6A) data drops, fiber runs, security cameras, access control, alarms, audio/video, and the racks and patch panels that tie them together. Work spans new commercial construction, office moves and renovations, retail and warehouse build-outs, and residential structured wiring, smart-home, and AV. Most revenue is B2B, billed per cable drop, per device, or per project, often as a subcontractor to general contractors, electricians, IT firms, and security integrators.",
+  "whatItIs": "A low-voltage and network cabling business installs the structured wiring that buildings run on below the line of mains electricity, Ethernet (Cat6/Cat6A) data drops, fiber runs, security cameras, access control, alarms, audio/video, and the racks and patch panels that tie them together. Work spans new commercial construction, office moves and renovations, retail and warehouse build-outs, and residential structured wiring, smart-home, and AV. Most revenue is B2B, billed per cable drop, per device, or per project, often as a subcontractor to general contractors, electricians, IT firms, and security integrators.",
   "dailyReality": "A typical day is on a job site: pulling cable through walls, ceilings, and conduit, mounting cameras and access points, terminating jacks and patch panels, dressing cable neatly into racks, and testing and certifying every run. You are on ladders and in ceilings, hauling spools and tools, often coordinating around other trades on an active construction site. Around the install, expect site walks to bid jobs, ordering materials, scheduling crews, and documenting labeled runs. Clean, labeled, tested work that passes inspection is the whole reputation of the business.",
   "startupCostsItemized": [
     { "item": "Hand tools (punch-down, crimpers, fish tape, drills, ladders)", "low": 500, "high": 2500 },
@@ -40,7 +40,7 @@
     "perHour": "Skilled installers bill out at roughly $65 to $125 per hour of labor, and per-drop pricing (commonly $100 to $250 per finished, tested drop) can imply higher effective rates on efficient runs. Counting bidding, material runs, and travel, realistic blended owner rates are often $45 to $90 per hour early on."
   },
   "howToStart": [
-    "Month 1: Confirm your state and local licensing — many states require a low-voltage (limited energy) license or registration, and some require it under a master/contractor. Register the business and bind general liability insurance and bonding before bidding any jobs. Buy core hand tools and a basic tester.",
+    "Month 1: Confirm your state and local licensing, many states require a low-voltage (limited energy) license or registration, and some require it under a master/contractor. Register the business and bind general liability insurance and bonding before bidding any jobs. Buy core hand tools and a basic tester.",
     "Month 1-2: Build skill and references by subcontracting for an established cabling firm, electrician, or IT/security integrator, or by completing a few well-documented residential structured-wiring jobs. Photograph clean, labeled work for your portfolio.",
     "Month 2-3: Approach general contractors, IT managed-service providers, and security integrators who regularly need cabling subs. Offer reliable, on-time, certified installs. Set per-drop and per-project pricing based on real measured labor, not guesses.",
     "Months 3-6: Lock in two or three repeat commercial relationships, invest in a certification tester once jobs require certified runs, and decide whether to add a helper or second crew based on the backlog you can actually fill."
@@ -63,10 +63,10 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Skipping the licensing question — many states require a low-voltage license, and working without one risks fines and lost contracts",
+    "Skipping the licensing question, many states require a low-voltage license, and working without one risks fines and lost contracts",
     "Underbidding labor-heavy pulls and discovering the job loses money once the ceilings and conduit fight back",
     "Sloppy terminations and unlabeled runs that fail certification and generate expensive callbacks",
-    "Underestimating cash flow needs — GCs pay slowly, while you front materials and payroll",
+    "Underestimating cash flow needs, GCs pay slowly, while you front materials and payroll",
     "Chasing low-margin one-off residential jobs instead of building repeat commercial subcontract work",
     "Buying an expensive certification tester before any job requires it, instead of starting with a basic tester"
   ],
@@ -86,7 +86,7 @@
       "A Google Business Profile and a portfolio of clean, labeled, certified installs",
       "Referrals from electricians and other trades who run into low-voltage scope they do not handle"
     ],
-    "whereCustomersAre": "Most steady work comes from commercial channels — general contractors, IT and security firms, and property managers handling offices, retail, warehouses, and tenant improvements. Residential structured-wiring and smart-home jobs add volume but are usually one-off.",
+    "whereCustomersAre": "Most steady work comes from commercial channels, general contractors, IT and security firms, and property managers handling offices, retail, warehouses, and tenant improvements. Residential structured-wiring and smart-home jobs add volume but are usually one-off.",
     "timeToClientBase": "Expect one to three months to land first jobs and three to six months to secure a couple of repeat commercial relationships. A reliable backlog from steady contractor partners usually takes six to twelve months to build.",
     "wasteOfTime": "Broad consumer advertising and low-bid online lead platforms. This is a relationship-and-reputation B2B trade; showing up reliable, clean, and on time for a few contractors does more than any ad budget."
   },
@@ -126,7 +126,7 @@
     },
     {
       "question": "How do you price cabling work?",
-      "answer": "Most commercial work is priced per drop (a finished, tested cable run, commonly $100 to $250 each) or per project, with device and rack work priced separately. The key is estimating real labor — a pull through finished walls or hard ceilings takes far longer than open construction. Underbidding labor is the most common way these jobs lose money."
+      "answer": "Most commercial work is priced per drop (a finished, tested cable run, commonly $100 to $250 each) or per project, with device and rack work priced separately. The key is estimating real labor, a pull through finished walls or hard ceilings takes far longer than open construction. Underbidding labor is the most common way these jobs lose money."
     },
     {
       "question": "Do I need an expensive certification tester to start?",
@@ -152,7 +152,7 @@
     "managed-it-services-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Telecommunications Line Installers and electrical/wiring trade data",
+    "U.S. Bureau of Labor Statistics, Telecommunications Line Installers and electrical/wiring trade data",
     "BICSI and TIA/EIA structured cabling standards and certification materials",
     "State licensing boards for low-voltage / limited-energy contractors",
     "Angi / HomeAdvisor and commercial cost guides for cabling and network drop pricing",

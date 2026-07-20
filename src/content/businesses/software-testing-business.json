@@ -2,7 +2,7 @@
   "title": "Software Testing and QA Business",
   "slug": "software-testing-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start a Software Testing & QA Business — Costs and Earnings",
+  "metaTitle": "How to Start a Software Testing & QA Business: Costs and Earnings",
   "metaDescription": "Honest breakdown of starting a software testing and QA business: real startup costs, per-project and retainer earnings, manual vs automated testing, and common mistakes.",
   "startupCostLow": 500,
   "startupCostHigh": 6000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A software testing and QA (quality assurance) business helps software teams find bugs and verify that their products work before and after release. Work ranges from manual testing — methodically clicking through an app to confirm features behave correctly across browsers and devices — to automated testing, where you write scripts and test suites that run repeatedly to catch regressions. Many independent QA businesses also handle test planning, exploratory testing, API testing, performance and load testing, and setting up CI/CD test pipelines. Clients are software companies and agencies that either lack QA staff or need extra capacity. Revenue comes from per-project work, hourly contracts, and monthly retainers, and the work is almost entirely remote.",
-  "dailyReality": "On a manual-testing day you work through test cases against a build, reproduce and document bugs with clear steps and screenshots, file them in a tracker like Jira, and verify fixes. On automation-focused work you write and maintain test scripts (Selenium, Playwright, Cypress), wire them into a client's CI pipeline, and investigate failures. There is steady communication with developers and product managers — clarifying expected behavior, prioritizing what to test, and reporting results. Much of the value is in being thorough and clear: a bug report a developer can act on immediately is worth far more than a vague 'it's broken.' Because it is remote and often asynchronous, the work fits flexible hours.",
+  "whatItIs": "A software testing and QA (quality assurance) business helps software teams find bugs and verify that their products work before and after release. Work ranges from manual testing, methodically clicking through an app to confirm features behave correctly across browsers and devices, to automated testing, where you write scripts and test suites that run repeatedly to catch regressions. Many independent QA businesses also handle test planning, exploratory testing, API testing, performance and load testing, and setting up CI/CD test pipelines. Clients are software companies and agencies that either lack QA staff or need extra capacity. Revenue comes from per-project work, hourly contracts, and monthly retainers, and the work is almost entirely remote.",
+  "dailyReality": "On a manual-testing day you work through test cases against a build, reproduce and document bugs with clear steps and screenshots, file them in a tracker like Jira, and verify fixes. On automation-focused work you write and maintain test scripts (Selenium, Playwright, Cypress), wire them into a client's CI pipeline, and investigate failures. There is steady communication with developers and product managers, clarifying expected behavior, prioritizing what to test, and reporting results. Much of the value is in being thorough and clear: a bug report a developer can act on immediately is worth far more than a vague 'it's broken.' Because it is remote and often asynchronous, the work fits flexible hours.",
   "startupCostsItemized": [
     { "item": "Business registration / LLC", "low": 50, "high": 300 },
     { "item": "Capable laptop/computer", "low": 0, "high": 2500 },
@@ -34,21 +34,21 @@
   ],
   "realEarnings": {
     "yearOne": "Most independents in year one earn $1,500 to $4,000 per month, often part-time around a job, doing manual testing and small projects while building a portfolio and reviews. Manual-only testers competing on freelance platforms face heavy price pressure from offshore rates, so beginners who can only do manual work tend to land at the low end.",
-    "experienced": "Experienced QA freelancers, especially those who do test automation and can own a client's testing process, commonly earn $5,000 to $12,000 per month at hourly rates often ranging from $40 to $120+. Retainers — being a team's ongoing QA — provide the most stable income at this stage.",
+    "experienced": "Experienced QA freelancers, especially those who do test automation and can own a client's testing process, commonly earn $5,000 to $12,000 per month at hourly rates often ranging from $40 to $120+. Retainers, being a team's ongoing QA, provide the most stable income at this stage.",
     "topEarners": "Top independents and small QA studios gross $15,000 to $40,000+ per month by running multiple automation-heavy retainers, specializing (performance, security, or a specific stack), or building a small team to take on larger contracts. Getting there required deep expertise, a strong reputation, and usually moving well beyond manual click-testing into high-value automation and consulting.",
     "whatAffectsMost": "The single biggest factor is whether you offer commodity manual testing (price-pressured) or higher-value automation, specialized testing, and process ownership (well-paid). Reputation, reliability, and the ability to communicate clearly with developers also strongly affect rates and repeat work.",
     "perHour": "Manual-testing rates can be modest, often $20 to $50 per hour and pressured by global competition. Automation and specialized QA commonly bill $50 to $120+ per hour. Retainers smooth income but require consistent availability."
   },
   "howToStart": [
-    "Month 1: Build or sharpen real skills. You need solid QA fundamentals — test case design, bug reporting, and at least one automation framework (Playwright, Cypress, or Selenium) to escape the low-paid manual-only tier. Consider an ISTQB foundation certification and build a portfolio by testing real or open-source apps and publishing example bug reports and test suites.",
-    "Month 1-2: Set up the basics — business registration, a simple portfolio site showing sample test plans and a public automation repo, and profiles on platforms where software clients hire (Upwork, Toptal-style networks, and your professional network).",
-    "Month 2-3: Land your first small projects. Price by project or hour, and over-deliver on clarity — clean, reproducible bug reports and a tidy test repo win repeat work and referrals. Ask for testimonials and turn one-off projects into ongoing relationships.",
-    "Months 2-4: Move clients toward retainers — being their ongoing QA — for stable income. Specialize where you can (automation, API/performance testing, or a specific stack) to command higher rates and reduce price competition.",
+    "Month 1: Build or sharpen real skills. You need solid QA fundamentals, test case design, bug reporting, and at least one automation framework (Playwright, Cypress, or Selenium) to escape the low-paid manual-only tier. Consider an ISTQB foundation certification and build a portfolio by testing real or open-source apps and publishing example bug reports and test suites.",
+    "Month 1-2: Set up the basics, business registration, a simple portfolio site showing sample test plans and a public automation repo, and profiles on platforms where software clients hire (Upwork, Toptal-style networks, and your professional network).",
+    "Month 2-3: Land your first small projects. Price by project or hour, and over-deliver on clarity, clean, reproducible bug reports and a tidy test repo win repeat work and referrals. Ask for testimonials and turn one-off projects into ongoing relationships.",
+    "Months 2-4: Move clients toward retainers, being their ongoing QA, for stable income. Specialize where you can (automation, API/performance testing, or a specific stack) to command higher rates and reduce price competition.",
     "Months 4-9: Systematize how you onboard a client's product and stand up test coverage. Build a referral pipeline among developers and agencies, and decide whether to stay solo, raise rates and reduce client count, or bring on help for larger contracts."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Solid QA fundamentals — test case design, exploratory testing, and clear, reproducible bug reporting",
+      "Solid QA fundamentals, test case design, exploratory testing, and clear, reproducible bug reporting",
       "Strong attention to detail and methodical, systematic thinking",
       "Comfort with software development workflows, version control, and bug trackers like Jira",
       "Clear written communication with developers and product managers"
@@ -76,9 +76,9 @@
   ],
   "toolsAndEquipment": [
     { "item": "Capable laptop or desktop", "note": "Needs to run multiple browsers, VMs, and test tooling smoothly; a machine you already own is often fine to start." },
-    { "item": "Automation frameworks", "note": "Playwright, Cypress, or Selenium — mostly free and open source; the skill matters more than the tool." },
+    { "item": "Automation frameworks", "note": "Playwright, Cypress, or Selenium, mostly free and open source; the skill matters more than the tool." },
     { "item": "Cross-browser/device cloud (BrowserStack, Sauce Labs)", "note": "Tests across many browsers and real devices without owning them all. Pay monthly as needed.", "low": 0, "high": 1500 },
-    { "item": "Bug tracker and test management tools", "note": "Jira, TestRail, or similar — often you work in the client's instance, so this can cost you nothing.", "low": 0, "high": 600 },
+    { "item": "Bug tracker and test management tools", "note": "Jira, TestRail, or similar, often you work in the client's instance, so this can cost you nothing.", "low": 0, "high": 600 },
     { "item": "A few real test devices", "note": "A couple of phones/tablets help for mobile testing; a device cloud covers the rest.", "low": 0, "high": 1500 },
     { "item": "Portfolio site and code repository", "note": "A public repo of sample test suites and clean bug reports is your strongest sales asset." }
   ],
@@ -91,13 +91,13 @@
       "Tech and QA communities, LinkedIn, and developer Slack/Discord groups",
       "Subcontracting for software agencies that need overflow testing capacity"
     ],
-    "whereCustomersAre": "Software startups, SaaS companies, app developers, and digital agencies — especially smaller teams that ship frequently but cannot justify a full-time QA hire. They are found on freelance platforms, through developer referrals, and in tech communities, and the work is essentially all remote.",
+    "whereCustomersAre": "Software startups, SaaS companies, app developers, and digital agencies, especially smaller teams that ship frequently but cannot justify a full-time QA hire. They are found on freelance platforms, through developer referrals, and in tech communities, and the work is essentially all remote.",
     "timeToClientBase": "First small projects can come within weeks to a couple of months once your profile and portfolio are credible. Building a stable base of retainer clients and steady referrals usually takes six months to a year of consistent, high-quality delivery.",
     "wasteOfTime": "Generic low-bid proposals on freelance platforms that drag you into price wars, and paid ads. Early on, a strong portfolio, clear sample bug reports, and direct relationships with developers convert far better than chasing the cheapest gigs."
   },
   "howItScales": {
     "toFullTime": "Yes. Moving from manual testing into automation and retainer relationships lets a solo QA freelancer reach a comfortable full-time income, since well-priced automation and process-ownership work commands strong rates and repeat business.",
-    "hireAndStepBack": "Possible by building a small QA studio — bringing on testers and automation engineers to handle multiple client contracts while you manage relationships and quality. Stepping back requires documented processes and trustworthy senior testers, since clients rely on consistent, careful work.",
+    "hireAndStepBack": "Possible by building a small QA studio, bringing on testers and automation engineers to handle multiple client contracts while you manage relationships and quality. Stepping back requires documented processes and trustworthy senior testers, since clients rely on consistent, careful work.",
     "sellable": "A solo freelance practice tied to your personal skills is hard to sell. A small QA agency with multiple clients on retainer, documented processes, and a team has modest sale value, typically based on its recurring contracts and reputation.",
     "whatScalingRequires": "Repeatable onboarding and test-coverage processes, a reliable team of testers and automation engineers, a steady pipeline of retainer clients, and a positioning that avoids commodity manual work. Specialization is what keeps margins healthy as you scale."
   },
@@ -123,7 +123,7 @@
   "faqs": [
     {
       "question": "Do I need to know how to code to start a QA business?",
-      "answer": "You can begin with manual testing without coding, but you will be competing on price against offshore testers and your earnings will be limited. To command good rates you need test automation skills — writing scripts in frameworks like Playwright, Cypress, or Selenium — which require some programming ability. Understanding how software is built also makes you far more valuable, so coding is strongly recommended even if not strictly required on day one."
+      "answer": "You can begin with manual testing without coding, but you will be competing on price against offshore testers and your earnings will be limited. To command good rates you need test automation skills, writing scripts in frameworks like Playwright, Cypress, or Selenium, which require some programming ability. Understanding how software is built also makes you far more valuable, so coding is strongly recommended even if not strictly required on day one."
     },
     {
       "question": "What is the difference between manual and automated testing as a business?",
@@ -131,7 +131,7 @@
     },
     {
       "question": "How much can I charge for QA work?",
-      "answer": "Manual testing often goes for roughly $20 to $50 per hour and faces strong global price competition. Automation and specialized testing commonly bill $50 to $120+ per hour. Retainers — being a team's ongoing QA for a fixed monthly fee — provide the most stable income. Your rate depends mostly on your skill level and specialization, not on the tools you use."
+      "answer": "Manual testing often goes for roughly $20 to $50 per hour and faces strong global price competition. Automation and specialized testing commonly bill $50 to $120+ per hour. Retainers, being a team's ongoing QA for a fixed monthly fee, provide the most stable income. Your rate depends mostly on your skill level and specialization, not on the tools you use."
     },
     {
       "question": "Do I need certifications like ISTQB?",
@@ -157,7 +157,7 @@
     "micro-saas-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Software Developers, Quality Assurance Analysts, and Testers occupational data",
+    "U.S. Bureau of Labor Statistics, Software Developers, Quality Assurance Analysts, and Testers occupational data",
     "Freelance platform rate data (Upwork and vetted networks) for QA and test automation roles",
     "ISTQB and QA community resources on testing practices and certification",
     "Independent contractor and freelance-tech income surveys for hourly and retainer benchmarks"

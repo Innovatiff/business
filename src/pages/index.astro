@@ -51,21 +51,21 @@ const situations = [
 ];
 
 const differentiators = [
-  { title: 'Real startup costs', body: 'Itemized and realistic — not estimates pulled from thin air.' },
+  { title: 'Real startup costs', body: 'Itemized and realistic, not estimates pulled from thin air.' },
   { title: 'Realistic earnings', body: 'Based on reported data and operator accounts, not best-case scenarios.' },
   { title: 'Honest failure analysis', body: 'What actually goes wrong, why people quit, and how to avoid it.' },
   { title: 'No courses to sell', body: 'No upsells, no affiliate pressure, no hype. Just the numbers.' },
 ];
 
 const tools = [
-  { href: '/calculators/startup-cost-calculator', title: 'Startup Cost Calculator', desc: 'The real cash you need before day one — one-time costs plus runway.' },
+  { href: '/calculators/startup-cost-calculator', title: 'Startup Cost Calculator', desc: 'The real cash you need before day one, one-time costs plus runway.' },
   { href: '/calculators/break-even-calculator', title: 'Break-Even Calculator', desc: 'How many sales a month it takes to cover costs and start profiting.' },
   { href: '/calculators/profit-margin-calculator', title: 'Profit & Take-Home', desc: 'Turn revenue into real take-home after costs and taxes.' },
 ];
 ---
 
 <BaseLayout
-  title={`${SITE.name} — Find a Real Business You Can Actually Start, With Honest Numbers`}
+  title={`${SITE.name}, Find a Real Business You Can Actually Start, With Honest Numbers`}
   description={SITE.description}
   path="/"
 >
@@ -73,10 +73,10 @@ const tools = [
   <section class="hero bg-navy">
     <div class="container hero-inner">
       <p class="hero-eyebrow">Honest business research · no hype · no courses to sell</p>
-      <h1>Find a real business you can actually start — with honest numbers, not hype.</h1>
+      <h1>Find a real business you can actually start, with honest numbers, not hype.</h1>
       <p class="hero-sub">
         Every business here comes with real startup costs, realistic earnings, time to profit, and
-        exactly what it takes to make it work — including the parts most sites leave out.
+        exactly what it takes to make it work, including the parts most sites leave out.
       </p>
       <div class="hero-cta">
         <a href="/find-my-business" class="btn btn-primary btn-lg">Find the right business for me</a>
@@ -150,7 +150,7 @@ const tools = [
     <div class="container">
       <p class="eyebrow">Explore the library</p>
       <h2>Browse by category</h2>
-      <p class="lead">{categoryCounts.length} categories and counting — hundreds of honest business breakdowns.</p>
+      <p class="lead">{categoryCounts.length} categories and counting, hundreds of honest business breakdowns.</p>
       <div class="grid grid-3 category-grid">
         {categoryCounts.map((c) => (
           <a href={`/${c.slug}`} class="cat-card card" style={`--accent:${c.accent.accent};--accent-dark:${c.accent.dark};--accent-tint:${c.accent.tint};--accent-soft:${c.accent.soft}`}>

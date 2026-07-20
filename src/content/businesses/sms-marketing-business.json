@@ -2,7 +2,7 @@
   "title": "SMS Marketing Agency",
   "slug": "sms-marketing-business",
   "category": "online-businesses",
-  "metaTitle": "How to Start an SMS Marketing Agency — Real Costs and Earnings",
+  "metaTitle": "How to Start an SMS Marketing Agency: Real Costs and Earnings",
   "metaDescription": "Honest guide to starting an SMS marketing agency: real startup costs, realistic earnings, TCPA compliance risk, finding ecommerce clients, and what most agencies get wrong.",
   "startupCostLow": 500,
   "startupCostHigh": 4000,
@@ -11,7 +11,7 @@
   "timeToFirstIncome": "1 to 3 months",
   "difficultyLevel": "Intermediate",
   "bestFor": "People who can write persuasive short messages, manage compliance carefully, and tie their work directly to revenue for ecommerce and local brands",
-  "biggestRisk": "A TCPA compliance mistake — texting without proper consent — which can trigger statutory penalties of $500 to $1,500 per message and devastate both your client and your agency",
+  "biggestRisk": "A TCPA compliance mistake, texting without proper consent, which can trigger statutory penalties of $500 to $1,500 per message and devastate both your client and your agency",
   "speedToIncome": "months",
   "minWeeklyHours": 10,
   "skills": ["sales", "writing"],
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "An SMS marketing agency runs text-message campaigns for ecommerce stores and local brands — building subscriber lists, writing and scheduling promotional and automated texts, and tying message flows to sales. Because texts have very high open rates compared to email, brands use SMS for launches, flash sales, abandoned-cart recovery, restock alerts, and loyalty programs. You typically work inside platforms like Postscript, Attentive, Klaviyo SMS, or SimpleTexting, managing opt-in collection, message copy, segmentation, and the compliance rules that govern texting strangers. The work rewards people who can write persuasively in a few words while staying obsessive about consent and timing, because the same channel that drives fast revenue also carries serious legal risk.",
-  "dailyReality": "A typical week is writing campaign copy, scheduling sends around a client's promotional calendar, building and testing automated flows (welcome, abandoned cart, post-purchase), segmenting lists, and reviewing performance — clicks, conversions, opt-out rates, and revenue per send. A real and constant part of the job is compliance: confirming consent records, honoring opt-outs immediately, respecting quiet hours and frequency limits, and keeping disclosures correct. You also spend time on client calls, reporting, and selling, since most income comes from monthly retainers plus a performance share, so clients expect you to show the revenue you drove.",
+  "whatItIs": "An SMS marketing agency runs text-message campaigns for ecommerce stores and local brands, building subscriber lists, writing and scheduling promotional and automated texts, and tying message flows to sales. Because texts have very high open rates compared to email, brands use SMS for launches, flash sales, abandoned-cart recovery, restock alerts, and loyalty programs. You typically work inside platforms like Postscript, Attentive, Klaviyo SMS, or SimpleTexting, managing opt-in collection, message copy, segmentation, and the compliance rules that govern texting strangers. The work rewards people who can write persuasively in a few words while staying obsessive about consent and timing, because the same channel that drives fast revenue also carries serious legal risk.",
+  "dailyReality": "A typical week is writing campaign copy, scheduling sends around a client's promotional calendar, building and testing automated flows (welcome, abandoned cart, post-purchase), segmenting lists, and reviewing performance, clicks, conversions, opt-out rates, and revenue per send. A real and constant part of the job is compliance: confirming consent records, honoring opt-outs immediately, respecting quiet hours and frequency limits, and keeping disclosures correct. You also spend time on client calls, reporting, and selling, since most income comes from monthly retainers plus a performance share, so clients expect you to show the revenue you drove.",
   "startupCostsItemized": [
     { "item": "SMS platform access (often billed to client, but a sandbox/agency plan helps)", "low": 0, "high": 500, "annual": false },
     { "item": "Domain, email, and simple website", "low": 15, "high": 300, "annual": true },
@@ -41,7 +41,7 @@
   },
   "howToStart": [
     "Weeks 1-3: Learn one platform deeply (Postscript and Attentive dominate ecommerce; Klaviyo for stores already on it) and study TCPA and CTIA rules until you genuinely understand consent, opt-outs, and quiet hours. Compliance literacy is the foundation, not an afterthought.",
-    "Month 1: Pick a niche — ecommerce is where the money is because of high-volume sends and clear attribution. Build sample flows and copy, and study how top brands structure welcome series, abandoned-cart, and campaign calendars.",
+    "Month 1: Pick a niche, ecommerce is where the money is because of high-volume sends and clear attribution. Build sample flows and copy, and study how top brands structure welcome series, abandoned-cart, and campaign calendars.",
     "Month 1-2: Land your first client by offering SMS as a high-value add-on to an existing email or ecommerce relationship, sub-contracting for a marketing agency, or doing one fixed-scope setup at a fair price for a case study.",
     "Months 2-4: Prove attributable revenue, then move to a retainer plus a percentage of SMS-driven sales. Document opt-in compliance meticulously for every client so neither of you is exposed.",
     "Ongoing: Specialize in a product category, build referral relationships with ecommerce agencies and Shopify experts, and raise prices as your revenue case studies grow."
@@ -64,7 +64,7 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Treating compliance as paperwork — texting without documented consent, ignoring opt-outs, or sending in quiet hours can expose the client to $500 to $1,500 per-message penalties and destroy your reputation",
+    "Treating compliance as paperwork, texting without documented consent, ignoring opt-outs, or sending in quiet hours can expose the client to $500 to $1,500 per-message penalties and destroy your reputation",
     "Sending too frequently and burning out the list, spiking opt-outs and tanking long-term revenue for short-term sales",
     "Failing to set up clean attribution, so you cannot prove the revenue you drove and cannot defend your fees",
     "Pricing as a flat low retainer with no performance share, leaving most of the upside on the table",
@@ -87,7 +87,7 @@
       "Case studies showing attributable SMS revenue, shared on LinkedIn and to your network",
       "Local brand outreach for businesses that could use texting for appointments, restocks, and loyalty"
     ],
-    "whereCustomersAre": "Ecommerce brands doing meaningful online revenue (especially on Shopify) and local brands with repeat customers — found in ecommerce communities, platform partner programs, and the client rosters of complementary agencies.",
+    "whereCustomersAre": "Ecommerce brands doing meaningful online revenue (especially on Shopify) and local brands with repeat customers, found in ecommerce communities, platform partner programs, and the client rosters of complementary agencies.",
     "timeToClientBase": "Expect one to three months to land a first client and three to six months to build a small base. A stable, performance-fee roster usually takes a year of proven results.",
     "wasteOfTime": "Cold-blasting tiny stores with no email list or low revenue, since there is nothing to text and no margin for a performance share. Early effort is best spent on brands that already have engaged customers and clear sales to grow."
   },

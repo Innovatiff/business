@@ -2,7 +2,7 @@
   "title": "Agricultural Drone Business",
   "slug": "drone-agriculture-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start an Agricultural Drone Business — Real Costs, Earnings, Steps",
+  "metaTitle": "How to Start an Agricultural Drone Business: Real Costs, Earnings, Steps",
   "metaDescription": "Honest breakdown of starting an agricultural drone business: real costs for spray drones, FAA Part 137 and pesticide licensing, seasonal earnings, and common mistakes.",
   "startupCostLow": 35000,
   "startupCostHigh": 150000,
@@ -21,7 +21,7 @@
   "partTimeFriendly": false,
   "featured": false,
   "whatItIs": "An agricultural drone business uses large, heavy-lift drones to do field work for farms: spraying pesticides, herbicides, fungicides, and liquid fertilizer; spreading seed and dry fertilizer; and crop-mapping or scouting with imaging sensors to spot pests, disease, and irrigation problems. Spray drones can cover terrain that's too wet, steep, or sensitive for tractors and ground rigs, and they use less water than conventional application. This is a heavily regulated, capital-intensive operation, not a hobby. To spray commercially you generally need an FAA Part 137 agricultural aircraft operator certificate, a Part 107 remote pilot certificate (plus exemptions for drones over 55 pounds, which most spray drones are), and a state commercial pesticide applicator license. The equipment is expensive and the work is highly seasonal, tied to crop and spray windows.",
-  "dailyReality": "In season, days start early to spray in calm, cool conditions before wind picks up. You scout the field, plan flight lines and no-spray buffers, mix chemicals to label rates, load tanks, swap and charge a stack of batteries constantly (a spray drone drains batteries fast), and monitor flights for drift and obstacles. Between flights you clean tanks and nozzles, log applications for regulatory records, and manage chemical handling and PPE. Off-season is for crop-mapping work, equipment maintenance, marketing to farmers for next season, and recertification. Weather rules everything — wind, rain, and temperature can wipe out spray days entirely.",
+  "dailyReality": "In season, days start early to spray in calm, cool conditions before wind picks up. You scout the field, plan flight lines and no-spray buffers, mix chemicals to label rates, load tanks, swap and charge a stack of batteries constantly (a spray drone drains batteries fast), and monitor flights for drift and obstacles. Between flights you clean tanks and nozzles, log applications for regulatory records, and manage chemical handling and PPE. Off-season is for crop-mapping work, equipment maintenance, marketing to farmers for next season, and recertification. Weather rules everything, wind, rain, and temperature can wipe out spray days entirely.",
   "startupCostsItemized": [
     { "item": "Agricultural spray drone (heavy-lift, tank + nozzles)", "low": 20000, "high": 60000 },
     { "item": "Spare batteries and fast/generator charging system", "low": 4000, "high": 20000 },
@@ -37,11 +37,11 @@
     "yearOne": "Year one is often a net loss after equipment and licensing. Because work is seasonal and you're still earning trust with farmers, monthly income swings from near $0 in the off-season to several thousand dollars during peak spray windows. Many operators report roughly $0 to $6,000 per month, averaging out to modest first-year income while the big capital outlay is recovered slowly.",
     "experienced": "Operators with two-plus years, a Part 137 certificate, reliable equipment, and established farm relationships commonly earn $5,000 to $20,000 per month during the active season. Spray pricing is typically billed per acre, so income scales with acreage covered and how efficiently you fly. Annual income is concentrated into the growing season, so off-season cash management matters.",
     "topEarners": "Top operators running multiple spray drones, employing additional licensed pilots, and covering large acreage across a region can gross several hundred thousand dollars per season, sometimes $300,000 to $700,000+ in revenue. Reaching that requires real capital, a fleet, hired licensed applicators, and dense regional demand. Margins are squeezed by chemical handling, equipment wear, insurance, and the short season. Most operators stay small and regional.",
-    "whatAffectsMost": "Acreage volume and route density within the season matter most — billing is per acre, so covering more acres efficiently drives income. Local crop mix and demand, weather windows, and avoiding costly drift/damage claims also heavily affect whether a season is profitable.",
-    "perHour": "During peak flying, effective rates can be high — often $100 to $300+ per hour of actual spraying — but counting battery swaps, mixing, travel, recordkeeping, weather days, and the long off-season, realistic blended annual rates are far lower and highly variable."
+    "whatAffectsMost": "Acreage volume and route density within the season matter most, billing is per acre, so covering more acres efficiently drives income. Local crop mix and demand, weather windows, and avoiding costly drift/damage claims also heavily affect whether a season is profitable.",
+    "perHour": "During peak flying, effective rates can be high, often $100 to $300+ per hour of actual spraying, but counting battery swaps, mixing, travel, recordkeeping, weather days, and the long off-season, realistic blended annual rates are far lower and highly variable."
   },
   "howToStart": [
-    "Months 1-3: Get licensed before you spend big. Earn your Part 107 remote pilot certificate, then begin the FAA Part 137 agricultural aircraft operator process and (for drones over 55 lbs) the required exemption — this paperwork takes months. Simultaneously study for and pass your state's commercial pesticide applicator exam.",
+    "Months 1-3: Get licensed before you spend big. Earn your Part 107 remote pilot certificate, then begin the FAA Part 137 agricultural aircraft operator process and (for drones over 55 lbs) the required exemption, this paperwork takes months. Simultaneously study for and pass your state's commercial pesticide applicator exam.",
     "Months 2-5: Validate demand and choose equipment to match. Talk to local farmers and ag retailers about what they'd pay per acre and what crops dominate your area. Only then buy a spray drone sized to that work, plus enough batteries and charging to fly a full day.",
     "Months 4-7: Get insured and set up safe chemical handling. Secure proper aviation and chemical/pollution liability insurance, build your mixing, containment, and PPE setup, and create the application recordkeeping you're legally required to maintain.",
     "Months 5-9: Land your first season's clients. Partner with ag retailers, co-ops, and crop consultants, and offer mapping/scouting in the off-season to stay in front of farmers. Price per acre and prove reliability on smaller jobs first.",
@@ -89,7 +89,7 @@
       "Referrals from satisfied farmers, who talk to each other within a region",
       "Targeting specialty and high-value crops where precision application is worth a premium"
     ],
-    "whereCustomersAre": "Customers are farmers and growers — especially those with terrain unsuited to ground equipment, specialty crops, or a need for spot treatment — plus ag retailers and co-ops who subcontract application. They're found through agricultural networks, co-ops, and grower associations, not online ads.",
+    "whereCustomersAre": "Customers are farmers and growers, especially those with terrain unsuited to ground equipment, specialty crops, or a need for spot treatment, plus ag retailers and co-ops who subcontract application. They're found through agricultural networks, co-ops, and grower associations, not online ads.",
     "timeToClientBase": "Because demand is seasonal and trust-driven, expect most of your first real income in the first full growing season after you're licensed, and a stable client base over two to three seasons as farmers see results and refer others.",
     "wasteOfTime": "Generic online advertising and broad social media. Farmers buy on trust, results, and relationships through ag channels; consumer-style marketing rarely reaches or convinces them and wastes scarce pre-season time."
   },
@@ -141,7 +141,7 @@
     },
     {
       "question": "What's the biggest risk in this business?",
-      "answer": "Sinking large capital into equipment and licensing, then not finding enough acreage in a short, weather-dependent season to recover it. A close second is liability — spray drift onto neighboring crops or mishandled chemicals can cause expensive damage claims, which is why proper insurance and a clean safety record are critical."
+      "answer": "Sinking large capital into equipment and licensing, then not finding enough acreage in a short, weather-dependent season to recover it. A close second is liability, spray drift onto neighboring crops or mishandled chemicals can cause expensive damage claims, which is why proper insurance and a clean safety record are critical."
     },
     {
       "question": "Can a beginner with no farming background start this?",
@@ -155,7 +155,7 @@
     "lawn-treatment-business"
   ],
   "dataSources": [
-    "FAA — Part 137 agricultural aircraft operations, Part 107 remote pilot rules, and over-55lb exemptions",
+    "FAA, Part 137 agricultural aircraft operations, Part 107 remote pilot rules, and over-55lb exemptions",
     "State department of agriculture commercial pesticide applicator licensing requirements",
     "Agricultural drone manufacturer pricing and specifications (heavy-lift spray platforms)",
     "Ag-services and precision-agriculture industry reports on per-acre application pricing",

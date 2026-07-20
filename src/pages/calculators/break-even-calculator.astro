@@ -7,7 +7,7 @@ const faqs = [
   {
     question: 'What is a break-even point?',
     answer:
-      'Your break-even point is the number of sales (or jobs) per month where your revenue exactly covers your costs — the point where you stop losing money and start making a profit. Every sale beyond it adds profit; every sale below it means you are running at a loss.',
+      'Your break-even point is the number of sales (or jobs) per month where your revenue exactly covers your costs, the point where you stop losing money and start making a profit. Every sale beyond it adds profit; every sale below it means you are running at a loss.',
   },
   {
     question: 'How do I calculate break-even?',
@@ -17,12 +17,12 @@ const faqs = [
   {
     question: 'What is the difference between fixed and variable costs?',
     answer:
-      'Fixed costs stay roughly the same no matter how much you sell — rent, insurance, software, your base pay. Variable costs rise with each sale — materials, supplies, payment fees, fuel for a job. Getting this split right is the key to a useful break-even number.',
+      'Fixed costs stay roughly the same no matter how much you sell, rent, insurance, software, your base pay. Variable costs rise with each sale, materials, supplies, payment fees, fuel for a job. Getting this split right is the key to a useful break-even number.',
   },
   {
-    question: 'My price is lower than my variable cost — what does that mean?',
+    question: 'My price is lower than my variable cost, what does that mean?',
     answer:
-      'It means you lose money on every single sale, so there is no break-even point — selling more only loses more. That is a pricing or cost problem to fix before anything else: raise your price, cut the per-sale cost, or both.',
+      'It means you lose money on every single sale, so there is no break-even point, selling more only loses more. That is a pricing or cost problem to fix before anything else: raise your price, cut the per-sale cost, or both.',
   },
 ];
 
@@ -40,7 +40,7 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title="Break-Even Calculator — Sales Needed to Cover Costs"
+  title="Break-Even Calculator, Sales Needed to Cover Costs"
   description="Free break-even calculator: enter your fixed costs, price, and cost per sale to find exactly how many sales or jobs a month it takes to cover costs and start making a profit."
   path="/calculators/break-even-calculator"
   jsonLd={jsonLd}
@@ -50,7 +50,7 @@ const jsonLd = [
     <h1>Break-even calculator</h1>
     <p class="lead">
       How many sales or jobs a month does it take just to cover your costs? Enter three numbers and
-      find your break-even point — the line between losing money and making it.
+      find your break-even point, the line between losing money and making it.
     </p>
   </div>
 
@@ -60,7 +60,7 @@ const jsonLd = [
         <p class="calc-group-title">Your numbers</p>
         <div class="calc-field">
           <label for="fixed">Fixed costs per month</label>
-          <p class="calc-hint">Rent, insurance, software, your base pay — costs that don't change with sales.</p>
+          <p class="calc-hint">Rent, insurance, software, your base pay, costs that don't change with sales.</p>
           <div class="calc-input-wrap">
             <span class="calc-affix">$</span>
             <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id="fixed" placeholder="0" />
@@ -76,7 +76,7 @@ const jsonLd = [
         </div>
         <div class="calc-field">
           <label for="variable">Variable cost per sale or job</label>
-          <p class="calc-hint">Materials, supplies, fees, fuel — costs you only pay when you make a sale.</p>
+          <p class="calc-hint">Materials, supplies, fees, fuel, costs you only pay when you make a sale.</p>
           <div class="calc-input-wrap">
             <span class="calc-affix">$</span>
             <input class="calc-input" type="number" inputmode="numeric" min="0" step="1" id="variable" placeholder="0" />
@@ -86,7 +86,7 @@ const jsonLd = [
 
       <aside class="calc-results" aria-live="polite">
         <span class="calc-results-label">You break even at</span>
-        <div class="calc-headline" id="r-units">—</div>
+        <div class="calc-headline" id="r-units">, </div>
         <p class="calc-headline-sub">sales or jobs per month</p>
         <ul class="calc-breakdown">
           <li class="calc-row"><span>Profit per sale</span><span class="calc-val" id="r-margin">$0</span></li>
@@ -112,7 +112,7 @@ const jsonLd = [
       </p>
       <p>
         For realistic prices and costs by business, browse the <a href="/businesses">full
-        breakdowns</a> — each one lists typical pricing and monthly costs.
+        breakdowns</a>, each one lists typical pricing and monthly costs.
       </p>
 
       <h2>Frequently asked questions</h2>
@@ -151,7 +151,7 @@ const jsonLd = [
       set('r-marginpct', price > 0 ? Math.round((margin / price) * 100) + '%' : '0%');
 
       if (price <= 0 || fixed <= 0) {
-        set('r-units', '—');
+        set('r-units', ', ');
         set('r-revenue', '$0');
         note.className = 'calc-note ok';
         note.textContent = 'Enter your fixed costs and price to see your break-even point.';
@@ -159,9 +159,9 @@ const jsonLd = [
       }
       if (margin <= 0) {
         set('r-units', '∞');
-        set('r-revenue', '—');
+        set('r-revenue', ', ');
         note.className = 'calc-note warn';
-        note.textContent = 'Your price is at or below your cost per sale, so you lose money on every sale — there is no break-even. Raise the price or cut the per-sale cost first.';
+        note.textContent = 'Your price is at or below your cost per sale, so you lose money on every sale, there is no break-even. Raise the price or cut the per-sale cost first.';
         return;
       }
       const units = Math.ceil(fixed / margin);

@@ -2,7 +2,7 @@
   "title": "IT Support and Computer Repair Business",
   "slug": "it-support-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start an IT Support Business — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start an IT Support Business: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting an IT support and computer repair business: real startup costs, realistic earnings, where managed IT money actually comes from, and what most people get wrong.",
   "startupCostLow": 800,
   "startupCostHigh": 8000,
@@ -41,7 +41,7 @@
   },
   "howToStart": [
     "Week 1: Get honest about your skill level. You should already be comfortable with Windows and Mac troubleshooting, basic networking, and common business tools like Microsoft 365 before charging anyone. Set up an LLC, get general liability and errors-and-omissions insurance, and create a simple website and Google Business Profile.",
-    "Weeks 2 to 4: Choose remote support and (eventually) RMM tools, and write clear pricing — an hourly rate, a flat residential diagnostic fee, and a draft managed-services per-user price. Tell everyone you know you are open for business and offer to help a few small businesses or nonprofits at a fair rate to build references and reviews.",
+    "Weeks 2 to 4: Choose remote support and (eventually) RMM tools, and write clear pricing, an hourly rate, a flat residential diagnostic fee, and a draft managed-services per-user price. Tell everyone you know you are open for business and offer to help a few small businesses or nonprofits at a fair rate to build references and reviews.",
     "Month 1 to 2: Take on break/fix and residential work to generate cash and reviews while documenting every client's setup carefully. Treat each small-business repair as a chance to point out gaps (no backups, no patching, weak passwords) that a managed plan would solve.",
     "Months 2 to 6: Convert your best small-business clients to recurring managed contracts. Even two or three contracts that cover your baseline costs change the business entirely. Build relationships with local accountants, real estate offices, and other small firms who refer one another.",
     "Months 6 to 12: Standardize your onboarding, tools, and documentation so each new managed client is profitable and consistent. Decide whether to niche into an industry and whether you eventually need a second technician."
@@ -50,7 +50,7 @@
     "mustHave": [
       "Solid hands-on troubleshooting across Windows, Mac, basic networking, and common business software",
       "The patience and people skills to explain technical problems to non-technical clients without condescension",
-      "Reliability and clear communication — clients judge you on response time and follow-through, not just technical skill"
+      "Reliability and clear communication, clients judge you on response time and follow-through, not just technical skill"
     ],
     "canLearn": [
       "RMM, ticketing, and remote-support tooling (most have good documentation and short learning curves)",
@@ -59,7 +59,7 @@
     ],
     "separators": [
       "Selling proactive managed contracts instead of waiting for things to break, which is where predictable income lives",
-      "Documentation discipline so any client's environment can be understood quickly — this is what lets you scale or sell",
+      "Documentation discipline so any client's environment can be understood quickly, this is what lets you scale or sell",
       "Niching into an industry and speaking its language, which justifies premium pricing and drives referrals"
     ]
   },
@@ -72,12 +72,12 @@
     "Not setting and enforcing a real backup and patching process for managed clients, then carrying the blame when something fails"
   ],
   "toolsAndEquipment": [
-    { "item": "Remote monitoring and management (RMM) platform", "note": "The backbone of managed services — lets you patch, monitor, and support clients remotely. Adopt it as you take on contracts, not on day one.", "low": 0, "high": 100 },
+    { "item": "Remote monitoring and management (RMM) platform", "note": "The backbone of managed services, lets you patch, monitor, and support clients remotely. Adopt it as you take on contracts, not on day one.", "low": 0, "high": 100 },
     { "item": "Remote support tool", "note": "For ad-hoc remote sessions. Several reputable options with free or low-cost tiers exist; start cheap.", "low": 0, "high": 50 },
     { "item": "Ticketing / PSA and invoicing software", "note": "Keeps requests, time, and billing organized once you have more than a few clients.", "low": 0, "high": 60 },
     { "item": "Hardware toolkit and bootable diagnostic media", "note": "Screwdrivers, anti-static gear, USB drives, spare cables. Cheap and essential for on-site work.", "low": 80, "high": 300 },
     { "item": "Reliable laptop and a few spare parts", "note": "Your primary tool plus common parts (RAM, SSDs, cables) you can swap on-site.", "low": 400, "high": 1500 },
-    { "item": "Documentation / password management platform", "note": "For securely storing each client's configuration and credentials — what separates a real MSP from a repair guy.", "low": 0, "high": 80 }
+    { "item": "Documentation / password management platform", "note": "For securely storing each client's configuration and credentials, what separates a real MSP from a repair guy.", "low": 0, "high": 80 }
   ],
   "howToFindCustomers": {
     "methods": [
@@ -123,7 +123,7 @@
     },
     {
       "question": "What is the difference between break/fix and managed services?",
-      "answer": "Break/fix means a client calls when something is broken and you bill for the repair — reactive and unpredictable. Managed services (MSP) means you proactively monitor, patch, and maintain a client's systems for a recurring monthly fee, usually priced per user or per device. Managed services is where stable, scalable income comes from, and converting clients to it is the core growth strategy."
+      "answer": "Break/fix means a client calls when something is broken and you bill for the repair, reactive and unpredictable. Managed services (MSP) means you proactively monitor, patch, and maintain a client's systems for a recurring monthly fee, usually priced per user or per device. Managed services is where stable, scalable income comes from, and converting clients to it is the core growth strategy."
     },
     {
       "question": "How much can I charge for managed IT support?",
@@ -153,8 +153,8 @@
     "virtual-assistant-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Computer Support Specialists occupational data and self-employment trends",
-    "CompTIA — IT industry and managed-services market reports",
+    "U.S. Bureau of Labor Statistics, Computer Support Specialists occupational data and self-employment trends",
+    "CompTIA, IT industry and managed-services market reports",
     "MSP industry surveys and pricing benchmarks (per-user and per-device managed-services rates)",
     "Operator communities (r/msp, r/sysadmin, r/computertechs) for real-world pricing, contracts, and earnings",
     "Small-business IT cost guides for typical break/fix and managed-support price ranges"

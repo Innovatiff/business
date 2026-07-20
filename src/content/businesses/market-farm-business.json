@@ -2,7 +2,7 @@
   "title": "Market Garden and CSA Farm Business",
   "slug": "market-farm-business",
   "category": "food-and-beverage",
-  "metaTitle": "How to Start a Market Garden / CSA Farm — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a Market Garden / CSA Farm: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest breakdown of starting a market garden and CSA farm business: real startup costs, thin-margin earnings, selling via markets and CSA, and what most people get wrong.",
   "startupCostLow": 8000,
   "startupCostHigh": 60000,
@@ -11,7 +11,7 @@
   "timeToFirstIncome": "4 to 8 months",
   "difficultyLevel": "Advanced",
   "bestFor": "Hardworking people who love physical outdoor work and accept thin margins, long days, and weather risk",
-  "biggestRisk": "Thin margins colliding with crop failure, weather, or perishability — losing a season's income to one bad stretch",
+  "biggestRisk": "Thin margins colliding with crop failure, weather, or perishability, losing a season's income to one bad stretch",
   "speedToIncome": "long",
   "minWeeklyHours": 40,
   "skills": ["food", "hands"],
@@ -20,36 +20,36 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "A market garden and CSA farm is small-scale, intensive vegetable farming — typically a quarter-acre to a few acres — that sells fresh produce directly to consumers and chefs rather than to wholesale commodity buyers. Income comes from farmers markets, a CSA (Community Supported Agriculture) program where members pre-pay for a weekly share of the harvest, and direct sales to local restaurants. Done well on tightly managed beds, a small footprint can produce surprising revenue per acre, but the work is relentless, the margins are thin, and the produce is perishable — what does not sell quickly is lost. This is a serious, physically demanding business that rewards efficiency, planning, and resilience far more than romantic ideas about farming.",
-  "dailyReality": "In the growing season you are up at dawn for harvest while it is cool, then washing, weighing, and packing produce, seeding trays, transplanting, weeding, irrigating, and managing pests — for ten to fourteen hours, six or seven days a week. Market days mean loading a vehicle before sunrise, standing at a stall for hours, then coming home to prep for the next day. CSA weeks mean packing dozens of boxes to a deadline. Winter is for planning, ordering seed, fixing infrastructure, and the books. The work is genuinely hard on the body, dictated by weather you cannot control, and never fully 'done.'",
+  "whatItIs": "A market garden and CSA farm is small-scale, intensive vegetable farming, typically a quarter-acre to a few acres, that sells fresh produce directly to consumers and chefs rather than to wholesale commodity buyers. Income comes from farmers markets, a CSA (Community Supported Agriculture) program where members pre-pay for a weekly share of the harvest, and direct sales to local restaurants. Done well on tightly managed beds, a small footprint can produce surprising revenue per acre, but the work is relentless, the margins are thin, and the produce is perishable, what does not sell quickly is lost. This is a serious, physically demanding business that rewards efficiency, planning, and resilience far more than romantic ideas about farming.",
+  "dailyReality": "In the growing season you are up at dawn for harvest while it is cool, then washing, weighing, and packing produce, seeding trays, transplanting, weeding, irrigating, and managing pests, for ten to fourteen hours, six or seven days a week. Market days mean loading a vehicle before sunrise, standing at a stall for hours, then coming home to prep for the next day. CSA weeks mean packing dozens of boxes to a deadline. Winter is for planning, ordering seed, fixing infrastructure, and the books. The work is genuinely hard on the body, dictated by weather you cannot control, and never fully 'done.'",
   "startupCostsItemized": [
-    { "item": "Land — lease per season (buying is far higher)", "low": 0, "high": 6000, "annual": true },
+    { "item": "Land, lease per season (buying is far higher)", "low": 0, "high": 6000, "annual": true },
     { "item": "Soil prep, amendments, and compost", "low": 500, "high": 4000 },
     { "item": "Seeds, transplants, and trays (first season)", "low": 800, "high": 3000 },
-    { "item": "Irrigation — drip lines, timers, pump", "low": 500, "high": 5000 },
+    { "item": "Irrigation, drip lines, timers, pump", "low": 500, "high": 5000 },
     { "item": "Hand tools, broadfork, seeders, wheel hoes", "low": 600, "high": 4000 },
     { "item": "Caterpillar tunnel or small greenhouse", "low": 1500, "high": 12000, "optional": true },
     { "item": "Wash/pack station, sinks, tables, scale, coolers", "low": 800, "high": 6000 },
-    { "item": "Market gear — canopy, tables, display, signage", "low": 400, "high": 2500 },
+    { "item": "Market gear, canopy, tables, display, signage", "low": 400, "high": 2500 },
     { "item": "Insurance, licenses, market fees, and registration", "low": 500, "high": 3000, "annual": true }
   ],
   "realEarnings": {
-    "yearOne": "Most new market farmers earn little to nothing net in year one, and many lose money as they build soil, infrastructure, and a customer base. Gross sales of $5,000 to $25,000 are common on a small plot, but after seed, supplies, and market fees, take-home is often near zero while you learn. Income is highly seasonal — strong in summer and fall, near zero in winter in cold climates.",
-    "experienced": "Experienced growers on well-managed beds commonly report gross sales of $40,000 to $100,000+ per cultivated acre, but net margins are thin — often 20% to 40% before paying yourself a real wage. A solid solo or two-person operation might net $25,000 to $50,000 in a good year after several seasons of dialing in crops, markets, and efficiency.",
+    "yearOne": "Most new market farmers earn little to nothing net in year one, and many lose money as they build soil, infrastructure, and a customer base. Gross sales of $5,000 to $25,000 are common on a small plot, but after seed, supplies, and market fees, take-home is often near zero while you learn. Income is highly seasonal, strong in summer and fall, near zero in winter in cold climates.",
+    "experienced": "Experienced growers on well-managed beds commonly report gross sales of $40,000 to $100,000+ per cultivated acre, but net margins are thin, often 20% to 40% before paying yourself a real wage. A solid solo or two-person operation might net $25,000 to $50,000 in a good year after several seasons of dialing in crops, markets, and efficiency.",
     "topEarners": "Top market farmers gross $100,000 to $300,000+ on a few intensively managed acres with strong CSA membership, multiple market locations, restaurant accounts, and season extension. Reaching that took years of refinement, paid labor, infrastructure, and ruthless efficiency. Even then, net income per hour worked is modest, and a single bad season can erase a year's gains.",
     "whatAffectsMost": "Yield per bed, crop selection (high-value crops like salad mix, tomatoes, and herbs versus low-value storage crops), sales mix (CSA and restaurant stability versus market-day uncertainty), and minimizing waste. Weather, pests, and your own efficiency determine whether thin margins turn positive.",
     "perHour": "Brutally honest: many beginning market farmers effectively earn well under $15 per hour once all the unpaid hours are counted. Efficient experienced growers can reach $20 to $35 per hour of labor in a good season, but the long days mean total income still requires enormous time."
   },
   "howToStart": [
-    "Months 1-3 (off-season): Validate demand and choose your sales channels — apply to local farmers markets (many have waitlists), gauge CSA interest, and talk to chefs about what they buy. Secure land you can lease or use, and test the soil. Make a crop plan focused on high-value, fast-turning crops.",
-    "Months 2-4: Build core infrastructure — irrigation, a wash/pack station, and beds. Buy seed and start transplants. Keep year-one scale small (a quarter to a half acre) so you can actually manage it well rather than failing at scale.",
+    "Months 1-3 (off-season): Validate demand and choose your sales channels, apply to local farmers markets (many have waitlists), gauge CSA interest, and talk to chefs about what they buy. Secure land you can lease or use, and test the soil. Make a crop plan focused on high-value, fast-turning crops.",
+    "Months 2-4: Build core infrastructure, irrigation, a wash/pack station, and beds. Buy seed and start transplants. Keep year-one scale small (a quarter to a half acre) so you can actually manage it well rather than failing at scale.",
     "Months 4-6: Plant on a staggered schedule so you harvest continuously rather than all at once. Begin succession seeding weekly. Line up your first market stall or open CSA sign-ups with a conservative member cap you can reliably feed.",
     "Months 6-9: Start harvesting and selling. Track what sells, what wastes, and your real cost and time per crop. Build relationships with regular market customers, CSA members, and one or two restaurants for steadier demand.",
     "Year 1 winter: Review the numbers honestly, cut crops and channels that lost money, invest in efficiency (better tools, season extension) where it pays, and plan a more profitable second season. Most farms only become viable in year two or three."
   ],
   "skillsRequired": {
     "mustHave": [
-      "Real horticultural knowledge — soil, fertility, pest and disease management, and crop timing",
+      "Real horticultural knowledge, soil, fertility, pest and disease management, and crop timing",
       "Physical stamina for long days of demanding manual labor in all weather",
       "Planning and discipline to run succession plantings and harvest schedules",
       "Comfort selling directly to the public at markets and managing CSA members"
@@ -63,13 +63,13 @@
     "separators": [
       "Choosing and growing high-value crops efficiently for strong revenue per bed",
       "Building stable, pre-paid demand through CSA and restaurant accounts to reduce market-day risk",
-      "Ruthless efficiency and waste reduction — the difference between a thin profit and a loss",
+      "Ruthless efficiency and waste reduction, the difference between a thin profit and a loss",
       "Marketing and community-building that keep CSA members renewing year after year"
     ]
   },
   "whatPeopleGetWrong": [
-    "Starting too big — taking on more land than they can manage well, leading to weeds, waste, and burnout instead of focusing a small plot intensively",
-    "Underestimating perishability — produce that does not sell within days is lost, so demand must be lined up before harvest",
+    "Starting too big, taking on more land than they can manage well, leading to weeds, waste, and burnout instead of focusing a small plot intensively",
+    "Underestimating perishability, produce that does not sell within days is lost, so demand must be lined up before harvest",
     "Growing low-value storage crops that fill space but generate little revenue per bed",
     "Forgetting that weather, pests, and disease will eventually wipe out a crop, and not budgeting or diversifying for it",
     "Not tracking real cost and time per crop, so they keep growing things that quietly lose money",
@@ -86,15 +86,15 @@
   ],
   "howToFindCustomers": {
     "methods": [
-      "A stall at established local farmers markets (apply early — popular ones have waitlists)",
+      "A stall at established local farmers markets (apply early, popular ones have waitlists)",
       "A CSA program with pre-paid weekly shares, ideally with sign-ups before the season starts",
       "Direct accounts with local restaurants and chefs who value fresh, local produce",
       "A simple website and active social media showing the farm, harvests, and what is available weekly",
-      "Word of mouth and community events — farm tours, tastings, and local food groups",
+      "Word of mouth and community events, farm tours, tastings, and local food groups",
       "Local food co-ops, farm stands, and online local-food marketplaces"
     ],
     "whereCustomersAre": "Direct customers are local households that value fresh, local food and shop at farmers markets or join CSAs. Wholesale-leaning buyers are chefs at independent restaurants and local grocers and co-ops. Demand concentrates near towns and cities and peaks in summer and fall.",
-    "timeToClientBase": "Your first market or CSA sales can come in the first growing season, but a reliable, renewing customer base — especially repeat CSA members and steady restaurant accounts — usually takes two to three seasons of consistent quality and presence.",
+    "timeToClientBase": "Your first market or CSA sales can come in the first growing season, but a reliable, renewing customer base, especially repeat CSA members and steady restaurant accounts, usually takes two to three seasons of consistent quality and presence.",
     "wasteOfTime": "Paid advertising and a fancy brand before you have consistent product and a market presence. Early on, showing up reliably with great produce, a clean stall, and personal relationships at the market and with chefs converts far better than ads."
   },
   "howItScales": {
@@ -118,7 +118,7 @@
     ],
     "askYourself": [
       "Can I financially survive a year or more of little to no profit while I learn and build demand?",
-      "Have I lined up real demand — markets, CSA members, or restaurants — before I plant a large crop I cannot sell?",
+      "Have I lined up real demand, markets, CSA members, or restaurants, before I plant a large crop I cannot sell?",
       "Am I prepared, physically and mentally, for long days, weather risk, and modest pay per hour even in good years?"
     ]
   },
@@ -149,7 +149,7 @@
     },
     {
       "question": "What is the single biggest reason new market farms fail?",
-      "answer": "Trying to do too much, too soon, on too much land — leading to weeds, waste, burnout, and money lost on crops that never sold. Combined with thin margins and one bad weather or pest event, an overextended first season ends many farms. Starting small, managing intensively, and lining up demand before planting is the more survivable path."
+      "answer": "Trying to do too much, too soon, on too much land, leading to weeds, waste, burnout, and money lost on crops that never sold. Combined with thin margins and one bad weather or pest event, an overextended first season ends many farms. Starting small, managing intensively, and lining up demand before planting is the more survivable path."
     }
   ],
   "similarBusinesses": [
@@ -159,7 +159,7 @@
     "catering-business"
   ],
   "dataSources": [
-    "USDA National Agricultural Statistics Service and Census of Agriculture — small-farm and direct-marketing data",
+    "USDA National Agricultural Statistics Service and Census of Agriculture, small-farm and direct-marketing data",
     "USDA SARE (Sustainable Agriculture Research and Education) reports on market gardening and CSA economics",
     "University extension service crop budgets and small-farm enterprise cost guides",
     "Market-farming operator communities and published per-acre revenue benchmarks for intensive vegetable production"

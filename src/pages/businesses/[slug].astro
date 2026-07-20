@@ -22,10 +22,12 @@ import MonthlyOperating from '../../components/MonthlyOperating.astro';
 import Scenarios from '../../components/Scenarios.astro';
 import Timeline from '../../components/Timeline.astro';
 import RegionalVariation from '../../components/RegionalVariation.astro';
+import AuthorByline from '../../components/AuthorByline.astro';
 import { CATEGORY_MAP } from '../../data/categories';
 import { money, moneyRange, monthlyRange, reviewedDate } from '../../lib/format';
 import { accentFor, variantFor, accentVars } from '../../lib/pageTheme';
 import { SITE } from '../../config';
+import { AUTHOR } from '../../data/author';
 
 export async function getStaticPaths() {
   const businesses = await getCollection('businesses');
@@ -94,7 +96,7 @@ const jsonLd: Record<string, unknown>[] = [
     headline: d.metaTitle,
     description: d.metaDescription,
     about: d.title,
-    author: { '@type': 'Organization', name: SITE.name },
+    author: { '@type': 'Person', name: AUTHOR.name, url: new URL(AUTHOR.url, SITE.url).href },
     publisher: { '@type': 'Organization', name: SITE.name },
     mainEntityOfPage: new URL(path, SITE.url).href,
     dateModified: `${d.lastReviewed}-01`,
@@ -121,7 +123,7 @@ const jsonLd: Record<string, unknown>[] = [
     '@context': 'https://schema.org',
     '@type': 'HowTo',
     name: `How to start a ${d.title}`,
-    description: `A step-by-step, honest guide to starting a ${d.title.toLowerCase()} — the real costs, realistic earnings, and exactly what to do first.`,
+    description: `A step-by-step, honest guide to starting a ${d.title.toLowerCase()}, the real costs, realistic earnings, and exactly what to do first.`,
     estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: d.startupCostLow },
     step: d.howToStart.map((s, i) => {
       const colon = s.indexOf(':');
@@ -145,10 +147,10 @@ const heading =
       : `Starting a ${d.title}`;
 const lead =
   variant === 'a'
-    ? 'An honest breakdown — what it really costs, what it realistically earns, how long it takes to see income, and exactly what it takes to make it work.'
+    ? 'An honest breakdown, what it really costs, what it realistically earns, how long it takes to see income, and exactly what it takes to make it work.'
     : variant === 'b'
       ? 'Real startup costs, honest earnings ranges, the biggest risks, and a clear-eyed look at whether this one is actually for you.'
-      : 'The real numbers, the real timeline, and the real work — no hype, no best-case fantasies, just what it takes to make this pay.';
+      : 'The real numbers, the real timeline, and the real work, no hype, no best-case fantasies, just what it takes to make this pay.';
 
 // A concise, direct "short answer" summarizing cost / earnings / time /
 // difficulty. Placed high on the page as a featured-snippet target and a fast
@@ -157,7 +159,7 @@ const monthlyEarn = `${money(d.monthlyEarningsLow)} – ${money(d.monthlyEarning
 const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRange(
   d.startupCostLow,
   d.startupCostHigh,
-)}. A realistic monthly income for a solo operator is ${monthlyEarn} — beginners earn less and experienced operators more — with first income typically in ${d.timeToFirstIncome.toLowerCase()}. It is rated ${d.difficultyLevel.toLowerCase()} to start.`;
+)}. A realistic monthly income for a solo operator is ${monthlyEarn}, beginners earn less and experienced operators more, with first income typically in ${d.timeToFirstIncome.toLowerCase()}. It is rated ${d.difficultyLevel.toLowerCase()} to start.`;
 ---
 
 <BaseLayout title={d.metaTitle} description={d.metaDescription} path={path} jsonLd={jsonLd} ogType="article">
@@ -228,6 +230,9 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
 
     <div class="container biz-layout">
       <article class="biz-article">
+        <div class="biz-byline">
+          <AuthorByline date={reviewedDate(d.lastReviewed)} />
+        </div>
         {/* QuickNumbers is redundant with variant B's snapshot card, so skip it there. */}
         {variant !== 'b' && <QuickNumbers data={d} />}
 
@@ -238,7 +243,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
 
         <div class="biz-save-row">
           <SaveButton slug={d.slug} title={d.title} />
-          <span class="biz-save-hint">Save this to compare it side by side with others — no account, stays in your browser.</span>
+          <span class="biz-save-hint">Save this to compare it side by side with others, no account, stays in your browser.</span>
         </div>
 
         {metricsAtTop && (
@@ -251,7 +256,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
         <section id="what-it-is" class="biz-section prose">
           <h2>What this business actually is</h2>
           {d.whatItIs.split(/\n+/).map((p) => p.trim()).filter(Boolean).map((p) => <p>{p}</p>)}
-          <h3>What you actually do — the daily reality</h3>
+          <h3>What you actually do, the daily reality</h3>
           {d.dailyReality.split(/\n+/).map((p) => p.trim()).filter(Boolean).map((p) => <p>{p}</p>)}
         </section>
 
@@ -265,7 +270,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
         <AdSlot slot="biz-mid-1" />
 
         <section id="startup-costs" class="biz-section">
-          <h2>Real startup costs — itemized</h2>
+          <h2>Real startup costs, itemized</h2>
           <p class="section-intro">
             Every realistic cost, with low and high ranges. You can start near
             <strong class="figure">{money(d.startupCostLow)}</strong> by skipping what is optional,
@@ -277,23 +282,23 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
             startupCostLow={d.startupCostLow}
             startupCostHigh={d.startupCostHigh}
           />
-          <p class="costbars-caption">Where the money goes — biggest costs first</p>
+          <p class="costbars-caption">Where the money goes, biggest costs first</p>
           <CostBars items={d.startupCostsItemized} />
         </section>
 
         {hasOperating && (
           <section id="operating" class="biz-section">
-            <h2>What it costs to keep running — monthly</h2>
+            <h2>What it costs to keep running, monthly</h2>
             <p class="section-intro">Startup cost is one-time. These are the recurring monthly costs that come out before you pay yourself.</p>
             <MonthlyOperating items={d.monthlyOperating!} />
           </section>
         )}
 
         <section id="earnings" class="biz-section">
-          <h2>Real earnings — an honest breakdown</h2>
+          <h2>Real earnings, an honest breakdown</h2>
           <p class="section-intro">
             Not best-case fantasies. Here is what beginners, experienced operators, and the top
-            earners actually report — and what it took to get there.
+            earners actually report, and what it took to get there.
           </p>
           <EarningsBreakdown earnings={d.realEarnings} />
         </section>
@@ -307,7 +312,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
         {moneyEarly && hasScenarios && (
           <section id="scenarios" class="biz-section">
             <h2>Three realistic operators</h2>
-            <p class="section-intro">The same business at different scales — with real revenue, take-home, and hours.</p>
+            <p class="section-intro">The same business at different scales, with real revenue, take-home, and hours.</p>
             <Scenarios scenarios={d.scenarios!} />
           </section>
         )}
@@ -315,13 +320,13 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
         <AdSlot slot="biz-mid-2" />
 
         <section id="how-to-start" class="biz-section">
-          <h2>How to actually start — step by step</h2>
+          <h2>How to actually start, step by step</h2>
           <HowToStart steps={d.howToStart} />
         </section>
 
         {hasTimeline && (
           <section id="timeline" class="biz-section">
-            <h2>The realistic ramp — stage by stage</h2>
+            <h2>The realistic ramp, stage by stage</h2>
             <p class="section-intro">What actually happens when, and the income you can realistically expect at each stage.</p>
             <Timeline steps={d.timeline!} />
           </section>
@@ -336,7 +341,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
         {!moneyEarly && hasScenarios && (
           <section id="scenarios" class="biz-section">
             <h2>Three realistic operators</h2>
-            <p class="section-intro">The same business at different scales — with real revenue, take-home, and hours.</p>
+            <p class="section-intro">The same business at different scales, with real revenue, take-home, and hours.</p>
             <Scenarios scenarios={d.scenarios!} />
           </section>
         )}
@@ -423,7 +428,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
           <h2>Data sources and research notes</h2>
           <p class="muted section-intro">
             Figures on this page reflect ranges reported across the sources below plus operator
-            accounts. They are honest estimates, not guarantees — your results will vary.
+            accounts. They are honest estimates, not guarantees, your results will vary.
           </p>
           <ul>{d.dataSources.map((s) => <li>{s}</li>)}</ul>
           <p class="reviewed">Last reviewed: <strong>{reviewedDate(d.lastReviewed)}</strong></p>
@@ -480,7 +485,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
     border-radius: 999px;
   }
 
-  /* Variant C — accent band hero */
+  /* Variant C, accent band hero */
   .hero-band {
     margin-top: 0.9rem;
     background: var(--accent-tint, var(--surface));
@@ -511,7 +516,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
     color: var(--muted);
   }
 
-  /* Variant B — split hero with snapshot card */
+  /* Variant B, split hero with snapshot card */
   .hero-split {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 260px;
@@ -571,7 +576,7 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
   .biz-section > h2 {
     scroll-margin-top: 84px;
   }
-  /* Accent-themed section headings — differs slightly per variant. */
+  /* Accent-themed section headings, differs slightly per variant. */
   .biz-article :global(h2) {
     position: relative;
   }
@@ -629,6 +634,11 @@ const quickAnswer = `Starting a ${d.title.toLowerCase()} costs roughly ${moneyRa
     color: var(--muted);
     font-weight: 700;
     margin: 1.4rem 0 0.6rem;
+  }
+  .biz-byline {
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--border);
   }
   .biz-save-row {
     display: flex;

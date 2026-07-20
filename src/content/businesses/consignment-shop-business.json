@@ -2,7 +2,7 @@
   "title": "Consignment Shop Business",
   "slug": "consignment-shop-business",
   "category": "retail-and-products",
-  "metaTitle": "How to Start a Consignment Shop — Real Costs, Earnings, and Steps",
+  "metaTitle": "How to Start a Consignment Shop: Real Costs, Earnings, and Steps",
   "metaDescription": "Honest guide to starting a consignment shop: real lease and startup costs, realistic earnings, how commission splits work, intake and turnover, and what owners get wrong.",
   "startupCostLow": 3000,
   "startupCostHigh": 60000,
@@ -20,14 +20,14 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "A consignment shop sells other people's used goods — clothing, furniture, baby gear, designer items, sporting equipment, home decor — and pays the original owner (the consignor) a share of the sale price, keeping the rest as commission (a common split is 40-60% to the consignor). Unlike thrift flipping or reselling, you do not buy the inventory: you take it in on consignment, so your cash is not tied up in stock, but you also do not control supply and you carry the cost of space and labor. It can run as a physical storefront, an online shop, or both, and lives or dies on curation, pricing, and turnover.",
+  "whatItIs": "A consignment shop sells other people's used goods, clothing, furniture, baby gear, designer items, sporting equipment, home decor, and pays the original owner (the consignor) a share of the sale price, keeping the rest as commission (a common split is 40-60% to the consignor). Unlike thrift flipping or reselling, you do not buy the inventory: you take it in on consignment, so your cash is not tied up in stock, but you also do not control supply and you carry the cost of space and labor. It can run as a physical storefront, an online shop, or both, and lives or dies on curation, pricing, and turnover.",
   "dailyReality": "The work is steady and people-heavy. You greet and evaluate consignors, decide what to accept (the hardest and most important skill), price items, tag and enter them into consignment software, and merchandise the floor or photograph items for online listings. You ring up sales, handle customer questions and returns, manage the calendar of consignor payouts and unsold-item pickups, and constantly cull stale stock to keep the space fresh. Online, much of that time shifts to photography, listing, and shipping. Either way, expect to negotiate gently with consignors who overvalue their items.",
   "startupCostsItemized": [
     { "item": "Security deposit + first/last month rent (storefront)", "low": 0, "high": 12000, "optional": true },
     { "item": "Buildout, fixtures, racks, shelving, lighting, signage", "low": 500, "high": 15000 },
     { "item": "Point-of-sale + consignment management software (annual)", "low": 300, "high": 1800, "annual": true },
     { "item": "Business license, resale/seller's permit, LLC", "low": 150, "high": 1000 },
-    { "item": "Insurance — general liability + contents (annual)", "low": 500, "high": 2500, "annual": true },
+    { "item": "Insurance, general liability + contents (annual)", "low": 500, "high": 2500, "annual": true },
     { "item": "Initial marketing, grand opening, local ads", "low": 200, "high": 3000 },
     { "item": "Operating reserve for rent/payroll before steady sales", "low": 1000, "high": 15000 },
     { "item": "Camera, lightbox, shipping supplies (online focus)", "low": 100, "high": 1500, "optional": true }
@@ -40,9 +40,9 @@
     "perHour": "Storefront owners often earn a poor effective hourly rate in the early years given long retail hours, improving to roughly $20 to $45 per hour once established. Online-only operators can do better per hour but are limited by listing and shipping labor."
   },
   "howToStart": [
-    "Month 1: Choose your model (storefront, online, or hybrid) and a niche — designer fashion, furniture, kids' gear, sporting goods. Research local demand, competitors, and what consignors and buyers in your area actually want. Write a clear consignment agreement: split percentage, pricing authority, consignment period, markdown schedule, and what happens to unsold items.",
+    "Month 1: Choose your model (storefront, online, or hybrid) and a niche, designer fashion, furniture, kids' gear, sporting goods. Research local demand, competitors, and what consignors and buyers in your area actually want. Write a clear consignment agreement: split percentage, pricing authority, consignment period, markdown schedule, and what happens to unsold items.",
     "Month 1-2: Register the business, get a resale/seller's permit and insurance, and set up consignment management software (Ricochet, SimpleConsign, or similar) to track items, consignors, and payouts. For a storefront, negotiate the smallest viable lease and a workable buildout; for online, set up your platform, photography, and shipping process.",
-    "Month 2: Build your consignor pipeline before opening — local Facebook groups, flyers, word of mouth, and outreach to people downsizing or refreshing wardrobes. Take in a strong opening inventory and price it to move, not to maximize a single sale.",
+    "Month 2: Build your consignor pipeline before opening, local Facebook groups, flyers, word of mouth, and outreach to people downsizing or refreshing wardrobes. Take in a strong opening inventory and price it to move, not to maximize a single sale.",
     "Month 2-3: Open or launch. Merchandise attractively, keep the floor fresh, and ring up your first sales. Track sell-through by category and consignor so you learn what to accept and what to decline.",
     "Months 3-12: Tighten intake standards based on what actually sells, enforce markdown and pull-date schedules to keep turnover high, build repeat consignors and buyers, and reinvest in marketing the items and categories that move fastest."
   ],
@@ -58,7 +58,7 @@
       "Online listing, photography, and shipping for an online or hybrid model"
     ],
     "separators": [
-      "Disciplined intake — saying no to items that will not sell, which protects turnover and cash flow",
+      "Disciplined intake, saying no to items that will not sell, which protects turnover and cash flow",
       "Aggressive but fair markdown and pull-date policies that keep inventory fresh",
       "Building a loyal base of repeat consignors who bring in quality goods and repeat buyers who shop often"
     ]
@@ -124,7 +124,7 @@
     },
     {
       "question": "How is consignment different from buying inventory to flip?",
-      "answer": "When you flip, you buy items outright and your cash is tied up until they sell, but you keep all the profit. With consignment, you do not buy the goods — the consignor still owns them until sold — so your cash is not at risk in inventory, but you split the proceeds and you do not control what supply comes in. Consignment trades inventory risk for lower margins and dependence on a steady flow of quality items."
+      "answer": "When you flip, you buy items outright and your cash is tied up until they sell, but you keep all the profit. With consignment, you do not buy the goods, the consignor still owns them until sold, so your cash is not at risk in inventory, but you split the proceeds and you do not control what supply comes in. Consignment trades inventory risk for lower margins and dependence on a steady flow of quality items."
     },
     {
       "question": "Do I need a physical store, or can I run it online?",
@@ -155,7 +155,7 @@
   ],
   "dataSources": [
     "America's Research Group / NARTS (National Association of Resale Professionals) industry data on resale and consignment",
-    "U.S. Bureau of Labor Statistics — retail trade and used merchandise store data",
+    "U.S. Bureau of Labor Statistics, retail trade and used merchandise store data",
     "Consignment software vendor guides (Ricochet, SimpleConsign) on splits and operations",
     "Small-business cost guides for retail leasing, fixtures, and insurance",
     "Resale operator communities and forums for real-world intake, turnover, and earnings"

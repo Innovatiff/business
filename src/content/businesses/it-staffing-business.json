@@ -2,7 +2,7 @@
   "title": "IT Staffing Agency Business",
   "slug": "it-staffing-business",
   "category": "technology-and-software",
-  "metaTitle": "How to Start an IT Staffing Agency — Real Costs, Margins, and Earnings",
+  "metaTitle": "How to Start an IT Staffing Agency: Real Costs, Margins, and Earnings",
   "metaDescription": "Honest guide to starting an IT staffing agency: contract placement margins, cash-flow reality of payrolling consultants, how to win clients, and what most people get wrong.",
   "startupCostLow": 3000,
   "startupCostHigh": 30000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": false,
   "featured": false,
-  "whatItIs": "An IT staffing agency places technology professionals — software engineers, DevOps, data, security, cloud, and infrastructure specialists — into companies, primarily on contract and contract-to-hire terms rather than as permanent direct hires. On a contract placement, the consultant is typically your W-2 or 1099 worker, you bill the client an hourly rate, pay the consultant a lower rate, and keep the spread (the markup). This makes it distinct from a permanent-placement recruiting agency, which earns a one-time fee when a hire is made: IT staffing carries the consultant on your books and earns recurring margin every hour they work, but it also means you front payroll and absorb real cash-flow and employment risk.",
-  "dailyReality": "Your week splits between two sales motions: winning job requisitions from clients and finding qualified tech talent to fill them. That means business development calls to hiring managers and vendor-management systems, writing and posting reqs, sourcing candidates on LinkedIn and job boards, screening for real technical fit, negotiating bill and pay rates, and shepherding consultants through interviews and onboarding. Once people are placed, you manage timesheets, run or coordinate payroll, invoice clients, and chase late payments. There is constant urgency — reqs get filled by whoever moves fastest — and a lot of relationship management with both clients and consultants who can leave at any time.",
+  "whatItIs": "An IT staffing agency places technology professionals, software engineers, DevOps, data, security, cloud, and infrastructure specialists, into companies, primarily on contract and contract-to-hire terms rather than as permanent direct hires. On a contract placement, the consultant is typically your W-2 or 1099 worker, you bill the client an hourly rate, pay the consultant a lower rate, and keep the spread (the markup). This makes it distinct from a permanent-placement recruiting agency, which earns a one-time fee when a hire is made: IT staffing carries the consultant on your books and earns recurring margin every hour they work, but it also means you front payroll and absorb real cash-flow and employment risk.",
+  "dailyReality": "Your week splits between two sales motions: winning job requisitions from clients and finding qualified tech talent to fill them. That means business development calls to hiring managers and vendor-management systems, writing and posting reqs, sourcing candidates on LinkedIn and job boards, screening for real technical fit, negotiating bill and pay rates, and shepherding consultants through interviews and onboarding. Once people are placed, you manage timesheets, run or coordinate payroll, invoice clients, and chase late payments. There is constant urgency, reqs get filled by whoever moves fastest, and a lot of relationship management with both clients and consultants who can leave at any time.",
   "startupCostsItemized": [
     { "item": "Business registration / LLC and contracts/legal review", "low": 800, "high": 4000 },
     { "item": "General liability + professional liability insurance", "low": 1000, "high": 4000, "annual": true },
@@ -40,10 +40,10 @@
     "perHour": "There is no clean hourly figure because income comes from margin on consultants' hours, not your own. Effective owner economics improve sharply as billing headcount grows; early on, you may work full-time for months for little, then earn strongly once a stable book of contractors is billing."
   },
   "howToStart": [
-    "Months 1-2: Pick a focus — a tech niche (cloud, data, security) and a region or remote market — and set up the legal and financial foundation: LLC, contracts reviewed by an attorney, insurance, workers' comp, and a back-office plan for payroll and invoicing. Decide whether you'll use payroll funding/factoring to cover the cash gap.",
+    "Months 1-2: Pick a focus, a tech niche (cloud, data, security) and a region or remote market, and set up the legal and financial foundation: LLC, contracts reviewed by an attorney, insurance, workers' comp, and a back-office plan for payroll and invoicing. Decide whether you'll use payroll funding/factoring to cover the cash gap.",
     "Month 2-3: Win your first client relationships through your existing network, former employers, and direct business development to hiring managers and staffing-vendor programs. A signed client agreement and an open req come before sourcing.",
     "Month 3-4: Source and place your first contractor. Negotiate a bill rate and pay rate that leave a healthy, sustainable margin, run background and reference checks, and handle onboarding and timesheets cleanly so the client trusts you with more reqs.",
-    "Months 4-12: Build a repeatable pipeline — deepen client relationships into repeat reqs, build a bench of pre-screened candidates, and protect cash flow as billing headcount grows. Only hire your first recruiter once your placement and cash systems are proven."
+    "Months 4-12: Build a repeatable pipeline, deepen client relationships into repeat reqs, build a bench of pre-screened candidates, and protect cash flow as billing headcount grows. Only hire your first recruiter once your placement and cash systems are proven."
   ],
   "skillsRequired": {
     "mustHave": [
@@ -63,8 +63,8 @@
     ]
   },
   "whatPeopleGetWrong": [
-    "Underestimating cash flow — you pay consultants weekly or biweekly but clients pay invoices in 30 to 90 days, and that gap sinks undercapitalized agencies",
-    "Confusing it with permanent recruiting — staffing means you employ and payroll the consultant and carry ongoing liability, not just collect a one-time fee",
+    "Underestimating cash flow, you pay consultants weekly or biweekly but clients pay invoices in 30 to 90 days, and that gap sinks undercapitalized agencies",
+    "Confusing it with permanent recruiting, staffing means you employ and payroll the consultant and carry ongoing liability, not just collect a one-time fee",
     "Misclassifying contractors as 1099 when they should be W-2, creating serious tax and legal exposure",
     "Setting bill-to-pay margins too thin to survive a consultant ending a contract early",
     "Chasing reqs across every tech skill instead of building a defensible niche where they have real candidate networks",
@@ -84,14 +84,14 @@
       "Leveraging your own former employers, colleagues, and tech-industry network for warm intros",
       "Getting approved as a vendor in staffing-vendor (VMS) and managed-service-provider (MSP) programs",
       "Subcontracting under larger prime vendors to fill their overflow reqs while you build direct clients",
-      "Niche credibility — content, meetups, and a reputation in a specific tech specialty"
+      "Niche credibility, content, meetups, and a reputation in a specific tech specialty"
     ],
     "whereCustomersAre": "Mid-size and enterprise companies with ongoing engineering and IT hiring needs, plus larger staffing primes who subcontract overflow. Demand concentrates in tech hubs and remote-friendly companies, and tracks the broader tech hiring cycle.",
     "timeToClientBase": "Landing a first client and placement typically takes three to six months of business development. A stable, repeat-client base with steady reqs usually takes a year or more, and the tech hiring cycle can speed it up or stall it.",
     "wasteOfTime": "Generic cold mass-emailing, paid ads, and a slick brand before you have placements or references. Reqs come from relationships and speed; early effort is best spent on direct outreach and subcontracting under established vendors."
   },
   "howItScales": {
-    "toFullTime": "Yes — even a solo owner with a modest book of billing contractors can reach strong full-time income from recurring margin. The model rewards keeping headcount on bill more than chasing one-time fees.",
+    "toFullTime": "Yes, even a solo owner with a modest book of billing contractors can reach strong full-time income from recurring margin. The model rewards keeping headcount on bill more than chasing one-time fees.",
     "hireAndStepBack": "Yes, this is one of the more scalable people businesses. Owners hire recruiters and account managers, build a bench, and step back into client and finance oversight. The constraints are cash to fund growing payroll and maintaining consultant and client quality.",
     "sellable": "Yes. Staffing agencies with recurring contract margin, repeat clients, and documented processes sell to larger staffing firms and acquirers, often for a multiple of profit. Buyers scrutinize client concentration, margins, contractor retention, and how much depends on the founder personally.",
     "whatScalingRequires": "Working capital or payroll factoring to float larger payrolls, recruiters who can both source and sell, vendor/MSP relationships for deal flow, and tight margin and compliance controls. Cash and client diversification, not effort, are the usual limiters."
@@ -142,7 +142,7 @@
     },
     {
       "question": "What's the biggest legal risk?",
-      "answer": "Worker misclassification — treating someone as a 1099 contractor when they should be a W-2 employee — creates serious tax and legal exposure, as does inadequate workers' comp and weak contracts. Get an employment attorney and a competent back-office provider before placing anyone, not after a problem arises."
+      "answer": "Worker misclassification, treating someone as a 1099 contractor when they should be a W-2 employee, creates serious tax and legal exposure, as does inadequate workers' comp and weak contracts. Get an employment attorney and a competent back-office provider before placing anyone, not after a problem arises."
     }
   ],
   "similarBusinesses": [
@@ -152,8 +152,8 @@
     "fractional-cto-business"
   ],
   "dataSources": [
-    "U.S. Bureau of Labor Statistics — Employment Services and computer occupations data",
-    "American Staffing Association — industry margin, bill-rate, and growth benchmarks",
+    "U.S. Bureau of Labor Statistics, Employment Services and computer occupations data",
+    "American Staffing Association, industry margin, bill-rate, and growth benchmarks",
     "Staffing Industry Analysts (SIA) reports on IT staffing demand and rates",
     "Payroll-funding and factoring provider guides on staffing cash-flow practices",
     "Staffing-owner communities and forums for real-world margins and cash-flow experience"

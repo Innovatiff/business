@@ -2,7 +2,7 @@
   "title": "White-Label SaaS Business",
   "slug": "white-label-saas-business",
   "category": "online-businesses",
-  "metaTitle": "How to Start a White-Label SaaS Business — Real Costs and Earnings",
+  "metaTitle": "How to Start a White-Label SaaS Business: Real Costs and Earnings",
   "metaDescription": "Honest guide to reselling white-label SaaS under your own brand: real startup costs, recurring revenue math, churn risk, finding customers, and what people get wrong.",
   "startupCostLow": 1000,
   "startupCostHigh": 25000,
@@ -11,7 +11,7 @@
   "timeToFirstIncome": "2 to 6 months",
   "difficultyLevel": "Advanced",
   "bestFor": "Marketers or agency owners with a clear niche and audience who want recurring software revenue without building software",
-  "biggestRisk": "Depending on a platform you do not control — price hikes, shutdowns, or churn can collapse the business overnight",
+  "biggestRisk": "Depending on a platform you do not control, price hikes, shutdowns, or churn can collapse the business overnight",
   "speedToIncome": "months",
   "minWeeklyHours": 20,
   "skills": ["sales", "tech", "writing", "people"],
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A white-label SaaS business takes an existing software platform built by someone else and resells it under your own brand, your own pricing, and ideally to your own niche. The underlying provider handles the engineering, hosting, and updates; you handle branding, marketing, onboarding, support, and the customer relationship. Common examples include reselling marketing automation, social media scheduling, online course platforms, review and reputation tools, link-in-bio tools, or all-in-one agency platforms that explicitly offer reseller or white-label tiers. The appeal is recurring subscription revenue without the cost, time, and risk of building software from scratch. It sits between two other models: unlike a micro-SaaS where you build and own the product, here you own the brand and customers but not the code; and unlike pure affiliate reselling, your customers see your brand and pay you directly, which gives you the margin and the relationship — but also the support burden and the platform dependency. The whole game is buying access at a wholesale or per-seat rate and selling it at a marked-up subscription, keeping the spread on every customer every month.",
-  "dailyReality": "Day to day, this is mostly marketing, sales, and customer success — not coding. You spend time creating content and running campaigns to attract a niche audience, demoing the tool, onboarding new customers so they actually use it (because usage prevents churn), and handling support questions that the provider does not field for you. There is configuration work setting up the white-label branding, domains, and billing, and ongoing work monitoring churn and the platform's reliability. Behind it all is the constant, quiet task of watching for changes from your provider — price increases, feature removals, or outages — that you must absorb or pass along.",
+  "whatItIs": "A white-label SaaS business takes an existing software platform built by someone else and resells it under your own brand, your own pricing, and ideally to your own niche. The underlying provider handles the engineering, hosting, and updates; you handle branding, marketing, onboarding, support, and the customer relationship. Common examples include reselling marketing automation, social media scheduling, online course platforms, review and reputation tools, link-in-bio tools, or all-in-one agency platforms that explicitly offer reseller or white-label tiers. The appeal is recurring subscription revenue without the cost, time, and risk of building software from scratch. It sits between two other models: unlike a micro-SaaS where you build and own the product, here you own the brand and customers but not the code; and unlike pure affiliate reselling, your customers see your brand and pay you directly, which gives you the margin and the relationship, but also the support burden and the platform dependency. The whole game is buying access at a wholesale or per-seat rate and selling it at a marked-up subscription, keeping the spread on every customer every month.",
+  "dailyReality": "Day to day, this is mostly marketing, sales, and customer success, not coding. You spend time creating content and running campaigns to attract a niche audience, demoing the tool, onboarding new customers so they actually use it (because usage prevents churn), and handling support questions that the provider does not field for you. There is configuration work setting up the white-label branding, domains, and billing, and ongoing work monitoring churn and the platform's reliability. Behind it all is the constant, quiet task of watching for changes from your provider, price increases, feature removals, or outages, that you must absorb or pass along.",
   "startupCostsItemized": [
     { "item": "White-label / reseller platform subscription", "low": 300, "high": 6000, "annual": true },
     { "item": "Custom domain, branding, and landing site", "low": 100, "high": 3000 },
@@ -34,14 +34,14 @@
   "realEarnings": {
     "yearOne": "Many resellers earn little or nothing for the first several months while they build an audience and acquire their first paying customers; this is why the realistic low end is effectively $0. Those who already have a niche audience or agency client base often reach $500 to $4,000 per month in net profit (after platform fees) within the first year.",
     "experienced": "Resellers with a defined niche, a working acquisition channel, and a few dozen to a few hundred subscribers commonly net $3,000 to $15,000 per month after paying the underlying platform. The economics depend entirely on your markup, your churn rate, and how cheaply you can acquire customers relative to their lifetime value.",
-    "topEarners": "The strongest operators, often agencies bundling white-label software into larger service offerings, net $20,000 to $80,000+ per month in recurring revenue. Reaching that takes years, a large customer base or high-value niche, low churn, and a real moat beyond the software itself — usually a brand, a community, or services the bare platform cannot replace. Most resellers never get here.",
+    "topEarners": "The strongest operators, often agencies bundling white-label software into larger service offerings, net $20,000 to $80,000+ per month in recurring revenue. Reaching that takes years, a large customer base or high-value niche, low churn, and a real moat beyond the software itself, usually a brand, a community, or services the bare platform cannot replace. Most resellers never get here.",
     "whatAffectsMost": "Churn and customer acquisition cost decide everything. Because the product is not unique, customers can leave easily, so retention through onboarding, support, and added value matters more than the tool. Your markup over the wholesale rate and how cheaply you acquire customers determine whether the recurring revenue actually compounds or just churns in place.",
     "perHour": "Early on, effective hourly pay is often very low or negative as you invest in marketing and onboarding before revenue arrives. Once a base of subscribers is in place and acquisition is working, the recurring nature can make effective rates attractive, but it is highly variable and entirely dependent on keeping churn low."
   },
   "howToStart": [
-    "Month 1: Pick a specific niche where you understand the customers and their problem — generic reselling fails because you compete with everyone, including the original platform. Choose a reputable white-label provider with a genuine reseller program and read the agreement carefully.",
+    "Month 1: Pick a specific niche where you understand the customers and their problem, generic reselling fails because you compete with everyone, including the original platform. Choose a reputable white-label provider with a genuine reseller program and read the agreement carefully.",
     "Month 1-2: Set up the white-label branding, custom domain, your own pricing, and billing through Stripe or the platform's reseller billing. Price for a healthy spread over your wholesale cost while staying competitive in your niche.",
-    "Month 2-3: Build a focused landing page and onboarding flow, and stand up a support process, since you — not the provider — answer your customers. Decide how you will handle outages and platform changes you cannot control.",
+    "Month 2-3: Build a focused landing page and onboarding flow, and stand up a support process, since you, not the provider, answer your customers. Decide how you will handle outages and platform changes you cannot control.",
     "Months 2-4: Acquire your first customers through your existing audience, niche content and SEO, partnerships, or bundling the software into services you already sell. Onboard each one personally to drive real usage.",
     "Days 90+: Obsess over churn and lifetime value. Add onboarding, training, community, or services that make customers stick, and only scale acquisition spend once you know a customer is worth more than they cost to acquire."
   ],
@@ -49,7 +49,7 @@
     "mustHave": [
       "Marketing and sales ability, because acquiring customers is the entire job",
       "Enough technical comfort to configure white-label settings, domains, billing, and integrations",
-      "Customer success skills — onboarding and support that keep churn low",
+      "Customer success skills, onboarding and support that keep churn low",
       "Financial literacy to model markup, churn, and customer acquisition cost"
     ],
     "canLearn": [
@@ -60,12 +60,12 @@
     "separators": [
       "A defined niche and audience that makes you more than a generic reseller",
       "Low churn driven by onboarding, support, and added value the bare platform lacks",
-      "A moat — brand, community, or bundled services — that protects you from platform dependency and competitors"
+      "A moat, brand, community, or bundled services, that protects you from platform dependency and competitors"
     ]
   },
   "whatPeopleGetWrong": [
     "Reselling a generic tool to a generic audience, which means competing on price against everyone, including the original vendor",
-    "Ignoring churn — without retention, you refill a leaky bucket forever and the recurring revenue never compounds",
+    "Ignoring churn, without retention, you refill a leaky bucket forever and the recurring revenue never compounds",
     "Underestimating the support burden, since the customers are yours and the provider does not help them",
     "Building on a platform with no real moat, so customers realize they could buy the same tool cheaper elsewhere",
     "Failing to read the reseller agreement, then getting blindsided by price hikes, feature changes, or shutdowns",
@@ -87,7 +87,7 @@
       "Partnerships and affiliates who serve the same audience",
       "Personal onboarding and referrals from satisfied customers, which lowers acquisition cost over time"
     ],
-    "whereCustomersAre": "Wherever your niche gathers — industry communities, niche newsletters, agency client bases, and search results for the specific problem. The narrower and clearer your niche, the easier and cheaper customers are to reach.",
+    "whereCustomersAre": "Wherever your niche gathers, industry communities, niche newsletters, agency client bases, and search results for the specific problem. The narrower and clearer your niche, the easier and cheaper customers are to reach.",
     "timeToClientBase": "Most resellers take two to six months to land their first paying customers and longer to build a base large enough to live on. Those starting with an existing audience or agency clients move much faster; starting cold from zero audience is slow and difficult.",
     "wasteOfTime": "Broad, untargeted ads selling a generic tool, and trying to out-feature or undercut the original platform. Without a niche and a reason to buy from you specifically, paid acquisition just burns money against competitors who offer the same software."
   },
@@ -127,7 +127,7 @@
     },
     {
       "question": "What is the biggest risk in this model?",
-      "answer": "Platform dependency. You do not own the software, so a provider's price increase, feature removal, outage, or shutdown can damage or end your business with little warning. Read the reseller agreement carefully, understand whether you can migrate customers if needed, and build value — brand, community, services — that does not depend solely on the underlying tool."
+      "answer": "Platform dependency. You do not own the software, so a provider's price increase, feature removal, outage, or shutdown can damage or end your business with little warning. Read the reseller agreement carefully, understand whether you can migrate customers if needed, and build value, brand, community, services, that does not depend solely on the underlying tool."
     },
     {
       "question": "How do I make money if customers could just buy the tool directly?",
@@ -135,7 +135,7 @@
     },
     {
       "question": "How much can I realistically charge above my wholesale cost?",
-      "answer": "It depends on the niche and the value you add, but successful resellers typically mark up meaningfully over their per-seat or wholesale rate — sometimes two to several times — while staying competitive for their target customer. The key is that your markup must cover support and acquisition costs and leave profit after churn. Model this carefully before launching, because thin spreads do not survive churn."
+      "answer": "It depends on the niche and the value you add, but successful resellers typically mark up meaningfully over their per-seat or wholesale rate, sometimes two to several times, while staying competitive for their target customer. The key is that your markup must cover support and acquisition costs and leave profit after churn. Model this carefully before launching, because thin spreads do not survive churn."
     },
     {
       "question": "Do I need technical skills to run a white-label SaaS business?",

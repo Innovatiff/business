@@ -2,7 +2,7 @@
   "title": "Vehicle Inspection Station Business",
   "slug": "vehicle-inspection-business",
   "category": "automotive",
-  "metaTitle": "How to Start a Vehicle Inspection Station — Costs and Earnings",
+  "metaTitle": "How to Start a Vehicle Inspection Station: Costs and Earnings",
   "metaDescription": "Honest guide to starting a vehicle inspection station: real licensing and equipment costs, realistic earnings, why it works best as an add-on, and common mistakes.",
   "startupCostLow": 10000,
   "startupCostHigh": 70000,
@@ -20,8 +20,8 @@
   "noExperienceRequired": false,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A vehicle inspection station is a state-licensed facility authorized to perform mandatory safety and/or emissions (smog) inspections that vehicles must pass to be registered and legally driven. The specifics vary enormously by state: some states require annual safety inspections, some require emissions testing in certain counties, some require both, and many require neither — so this business only exists where the state mandates inspections. Stations are certified by the state (or its program contractor), use approved analyzers and software that report results directly to the state, and charge a fee that is typically capped by regulation. Because the per-inspection fee is modest and state-controlled, a pure standalone inspection-only station is uncommon; far more often, inspection certification is added to an existing repair shop, oil-change shop, tire store, or dealership, where it drives steady foot traffic and feeds repair work for vehicles that fail. It is a compliance-driven, recurring-demand service tied tightly to state programs.",
-  "dailyReality": "When a customer arrives for an inspection, you pull the vehicle in, run the state-defined checklist — lights, brakes, tires, suspension, steering, wipers, horn, and where required an emissions test via an approved analyzer — and submit the results electronically to the state system. A passing inspection takes 15 to 45 minutes; a failure means explaining what's wrong, and often quoting and performing the repair so the vehicle can be re-inspected. Around the inspections you manage state compliance: keeping certifications current, maintaining and calibrating equipment, passing audits, and keeping meticulous records. Demand is steady and recurring because every registered vehicle needs it on a schedule, with predictable spikes around month-end and registration renewal cycles.",
+  "whatItIs": "A vehicle inspection station is a state-licensed facility authorized to perform mandatory safety and/or emissions (smog) inspections that vehicles must pass to be registered and legally driven. The specifics vary enormously by state: some states require annual safety inspections, some require emissions testing in certain counties, some require both, and many require neither, so this business only exists where the state mandates inspections. Stations are certified by the state (or its program contractor), use approved analyzers and software that report results directly to the state, and charge a fee that is typically capped by regulation. Because the per-inspection fee is modest and state-controlled, a pure standalone inspection-only station is uncommon; far more often, inspection certification is added to an existing repair shop, oil-change shop, tire store, or dealership, where it drives steady foot traffic and feeds repair work for vehicles that fail. It is a compliance-driven, recurring-demand service tied tightly to state programs.",
+  "dailyReality": "When a customer arrives for an inspection, you pull the vehicle in, run the state-defined checklist, lights, brakes, tires, suspension, steering, wipers, horn, and where required an emissions test via an approved analyzer, and submit the results electronically to the state system. A passing inspection takes 15 to 45 minutes; a failure means explaining what's wrong, and often quoting and performing the repair so the vehicle can be re-inspected. Around the inspections you manage state compliance: keeping certifications current, maintaining and calibrating equipment, passing audits, and keeping meticulous records. Demand is steady and recurring because every registered vehicle needs it on a schedule, with predictable spikes around month-end and registration renewal cycles.",
   "startupCostsItemized": [
     { "item": "Approved emissions analyzer / inspection equipment", "low": 3000, "high": 30000, "optional": true },
     { "item": "State station certification and inspector licensing fees", "low": 200, "high": 3000 },
@@ -34,13 +34,13 @@
   ],
   "realEarnings": {
     "yearOne": "As a standalone activity, inspections alone are modest: at state-capped fees often in the $7 to $40 range, even 200 to 400 inspections a month grosses only a few thousand dollars. A new station typically sees $1,500 to $4,000 per month from inspection fees themselves in year one while volume builds.",
-    "experienced": "An established station with steady volume and, crucially, the repair work that failed inspections generate commonly nets $4,000 to $9,000 per month attributable to the inspection line — but most of that comes from the repairs and foot traffic inspections bring in, not the fee. Inspection certification is best understood as a traffic and lead engine for a shop.",
+    "experienced": "An established station with steady volume and, crucially, the repair work that failed inspections generate commonly nets $4,000 to $9,000 per month attributable to the inspection line, but most of that comes from the repairs and foot traffic inspections bring in, not the fee. Inspection certification is best understood as a traffic and lead engine for a shop.",
     "topEarners": "High-volume stations in dense, mandate-heavy areas, or multi-bay shops that convert inspection traffic into substantial repair and maintenance revenue, can attribute $10,000 to $25,000+ per month to the inspection-driven side of the business. That comes from location, throughput, and a strong repair operation behind the inspection, not from the fee alone.",
-    "whatAffectsMost": "Location and the rules of your state's program matter most — whether inspections are mandated, how often, and the fee cap. After that, converting inspection visits into legitimate repair work and keeping throughput high are the biggest earnings drivers.",
+    "whatAffectsMost": "Location and the rules of your state's program matter most, whether inspections are mandated, how often, and the fee cap. After that, converting inspection visits into legitimate repair work and keeping throughput high are the biggest earnings drivers.",
     "perHour": "On fees alone, inspections pay a low effective rate (often $20 to $50 per hour of inspector time given the capped fee). The real value is the higher-margin repair work and recurring customers the inspections funnel into the shop."
   },
   "howToStart": [
-    "Months 1-2: Confirm your state actually mandates inspections and learn the program rules cold — fee caps, required equipment, certification standards, and whether you need safety, emissions, or both. This research determines whether the business is even viable in your area.",
+    "Months 1-2: Confirm your state actually mandates inspections and learn the program rules cold, fee caps, required equipment, certification standards, and whether you need safety, emissions, or both. This research determines whether the business is even viable in your area.",
     "Months 2-3: Secure or designate a compliant bay, then apply for station certification and have at least one technician complete the required inspector training and licensing. Order only state-approved analyzers and software.",
     "Months 3-4: Pass the state's facility inspection and any audit, set up the electronic reporting connection, and get garage liability insurance and any required surety bond in place.",
     "Months 4-6: Open for inspections and capture every customer's contact for renewal reminders, since inspections recur on a schedule. Make the failure-to-repair handoff smooth and honest so you capture legitimate repair work without ever failing vehicles dishonestly.",
@@ -84,7 +84,7 @@
       "A Google Business Profile and signage so drivers searching 'inspection near me' near registration-renewal time find you",
       "Renewal reminders to past customers, since every vehicle needs re-inspection on a state schedule",
       "Bundling inspection with oil changes, tire service, or quick maintenance to add value and capture repair work",
-      "Local visibility and convenience — easy access, short wait times, and clear hours win repeat business",
+      "Local visibility and convenience, easy access, short wait times, and clear hours win repeat business",
       "Referrals and relationships with nearby used-car sellers and fleets that need vehicles inspected regularly"
     ],
     "whereCustomersAre": "Every registered-vehicle owner in a mandate state or county, with demand concentrated around registration renewals and month-end deadlines. Used-car dealers and fleets are recurring sources of inspection volume.",
@@ -155,7 +155,7 @@
   "dataSources": [
     "State motor vehicle / environmental agency vehicle inspection and emissions program rules",
     "EPA vehicle emissions inspection and maintenance (I/M) program guidance",
-    "U.S. Bureau of Labor Statistics — Automotive Service Technicians and Mechanics wage data",
+    "U.S. Bureau of Labor Statistics, Automotive Service Technicians and Mechanics wage data",
     "State-approved inspection equipment and software vendor cost guides",
     "Independent shop operator communities for real-world inspection volume and conversion benchmarks"
   ],

@@ -2,7 +2,7 @@
   "title": "Trash Bin Cleaning Business",
   "slug": "trash-bin-cleaning-business",
   "category": "service-businesses",
-  "metaTitle": "How to Start a Trash Bin Cleaning Business — Real Costs and Earnings",
+  "metaTitle": "How to Start a Trash Bin Cleaning Business: Real Costs and Earnings",
   "metaDescription": "Honest breakdown of starting a trash bin cleaning business: real startup costs, realistic earnings, building a recurring route, wastewater rules, and what to avoid.",
   "startupCostLow": 2000,
   "startupCostHigh": 30000,
@@ -20,12 +20,12 @@
   "noExperienceRequired": true,
   "partTimeFriendly": true,
   "featured": false,
-  "whatItIs": "A trash bin cleaning business cleans, sanitizes, and deodorizes residential and commercial garbage and recycling bins, usually right at the curb on the customer's collection day. Specialized equipment — typically a truck- or trailer-mounted system with high-pressure hot water and rotating jets — washes the bins, and the dirty wastewater is captured rather than left on the street, which is both an environmental rule and a selling point. The business model is recurring: customers subscribe to monthly, quarterly, or one-time cleanings, and you run an efficient route. The appeal is predictable subscription revenue and low skill barrier; the challenge is that the equipment is the main cost, so you only make money once you pack enough subscribers into a tight route.",
-  "dailyReality": "On a service day you follow your route, ideally timed just after the garbage truck empties the bins, and clean each subscriber's bins curbside in a few minutes per stop. The machine does most of the work — you position the bin, run the wash cycle, and the system captures the dirty water. The work is repetitive, can be smelly, and is weather-dependent (you cannot wash bins in hard freezes). Around the route, you spend time on subscription billing, scheduling, capturing and disposing of wastewater according to local rules, and marketing to add subscribers in neighborhoods you already serve. The economics live and die on density: tight clusters of subscribers turn a long driving day into a short, profitable one.",
+  "whatItIs": "A trash bin cleaning business cleans, sanitizes, and deodorizes residential and commercial garbage and recycling bins, usually right at the curb on the customer's collection day. Specialized equipment, typically a truck- or trailer-mounted system with high-pressure hot water and rotating jets, washes the bins, and the dirty wastewater is captured rather than left on the street, which is both an environmental rule and a selling point. The business model is recurring: customers subscribe to monthly, quarterly, or one-time cleanings, and you run an efficient route. The appeal is predictable subscription revenue and low skill barrier; the challenge is that the equipment is the main cost, so you only make money once you pack enough subscribers into a tight route.",
+  "dailyReality": "On a service day you follow your route, ideally timed just after the garbage truck empties the bins, and clean each subscriber's bins curbside in a few minutes per stop. The machine does most of the work, you position the bin, run the wash cycle, and the system captures the dirty water. The work is repetitive, can be smelly, and is weather-dependent (you cannot wash bins in hard freezes). Around the route, you spend time on subscription billing, scheduling, capturing and disposing of wastewater according to local rules, and marketing to add subscribers in neighborhoods you already serve. The economics live and die on density: tight clusters of subscribers turn a long driving day into a short, profitable one.",
   "startupCostsItemized": [
-    { "item": "Bin cleaning system — entry trailer-mounted unit", "low": 1500, "high": 8000 },
-    { "item": "Bin cleaning system — truck-mounted professional rig", "low": 12000, "high": 25000, "optional": true },
-    { "item": "Tow vehicle or service truck — if you do not already own one", "low": 0, "high": 10000, "optional": true },
+    { "item": "Bin cleaning system, entry trailer-mounted unit", "low": 1500, "high": 8000 },
+    { "item": "Bin cleaning system, truck-mounted professional rig", "low": 12000, "high": 25000, "optional": true },
+    { "item": "Tow vehicle or service truck, if you do not already own one", "low": 0, "high": 10000, "optional": true },
     { "item": "Wastewater capture/holding and disposal setup", "low": 100, "high": 800 },
     { "item": "Eco-friendly detergents, deodorizers, hoses, nozzles", "low": 100, "high": 400 },
     { "item": "General liability insurance (and commercial auto)", "low": 600, "high": 2000, "annual": true },
@@ -42,7 +42,7 @@
   "howToStart": [
     "Weeks 1-2: Research the model and your local rules, then buy or finance an entry-level trailer-mounted system rather than the most expensive rig. Confirm a tow vehicle and set up wastewater capture and disposal that complies with local discharge rules.",
     "Week 2: Register the business, get general liability and commercial auto insurance, and check whether your municipality requires a discharge or wastewater permit. Set clear subscription pricing (monthly, quarterly, one-time) per bin.",
-    "Weeks 2-4: Concentrate marketing on a few target neighborhoods to build density from day one — door hangers timed to trash day, local Facebook and Nextdoor posts, and a Google Business Profile. Offer a launch discount to sign up clusters of neighbors at once.",
+    "Weeks 2-4: Concentrate marketing on a few target neighborhoods to build density from day one, door hangers timed to trash day, local Facebook and Nextdoor posts, and a Google Business Profile. Offer a launch discount to sign up clusters of neighbors at once.",
     "Month 1: Run your first routes timed just after collection day, sanitize and deodorize properly, and capture wastewater every time. Ask satisfied customers to refer neighbors, since each nearby signup makes the route more profitable.",
     "Months 2-3: Add commercial accounts (apartments, restaurants, HOAs) with multiple bins and steady billing, and use subscription software to manage recurring billing and reduce churn. Expand to a new neighborhood only once your current one is dense."
   ],
@@ -73,7 +73,7 @@
   ],
   "toolsAndEquipment": [
     { "item": "Bin cleaning system (trailer- or truck-mounted)", "note": "The core asset: hot high-pressure water, rotating jets, and a holding tank. Start with a trailer unit and upgrade only once routes justify it.", "low": 1500, "high": 25000 },
-    { "item": "Wastewater capture and holding tank", "note": "Dirty water must be contained and disposed of properly — both a legal requirement and a key selling point.", "low": 100, "high": 800 },
+    { "item": "Wastewater capture and holding tank", "note": "Dirty water must be contained and disposed of properly, both a legal requirement and a key selling point.", "low": 100, "high": 800 },
     { "item": "Tow vehicle or service truck", "note": "To pull the trailer or carry the rig along the route. Using a vehicle you already own keeps startup low.", "low": 0, "high": 10000 },
     { "item": "Eco-friendly detergents and deodorizers", "note": "Cleaning and sanitizing agents that are safe for runoff capture and pleasant for customers.", "low": 50, "high": 250 },
     { "item": "Route and subscription management software", "note": "Handles recurring billing, scheduling around collection days, and reducing churn.", "low": 0, "high": 600 }
@@ -84,7 +84,7 @@
       "Local Facebook groups and Nextdoor, where the before/after appeal spreads quickly among neighbors",
       "A Google Business Profile with photos and reviews so local searchers find you",
       "Referrals and neighbor-signup discounts that add customers right next to existing stops",
-      "Direct outreach to commercial accounts — apartment complexes, restaurants, HOAs, and property managers with multiple bins"
+      "Direct outreach to commercial accounts, apartment complexes, restaurants, HOAs, and property managers with multiple bins"
     ],
     "whereCustomersAre": "Suburban homeowners who value cleanliness and convenience, concentrated in middle- and upper-income neighborhoods, plus commercial sites with dumpsters and multiple bins. Demand favors warmer regions and warmer months when bins smell worst.",
     "timeToClientBase": "First subscribers can sign up within two to six weeks of focused neighborhood marketing. A genuinely profitable dense route usually takes three to six months, and a fully booked route can take a season or more.",
@@ -118,7 +118,7 @@
   "faqs": [
     {
       "question": "Do I need a permit to start a trash bin cleaning business?",
-      "answer": "You will need standard business registration and insurance, and many areas regulate the wastewater you generate — you generally cannot let dirty water run into storm drains. Some municipalities require a discharge or wastewater permit and proper disposal. Always check local environmental rules before you start, because non-compliance can bring fines."
+      "answer": "You will need standard business registration and insurance, and many areas regulate the wastewater you generate, you generally cannot let dirty water run into storm drains. Some municipalities require a discharge or wastewater permit and proper disposal. Always check local environmental rules before you start, because non-compliance can bring fines."
     },
     {
       "question": "Why is route density so important?",
@@ -138,7 +138,7 @@
     },
     {
       "question": "What do I do with the dirty wastewater?",
-      "answer": "Reputable systems capture the wash water rather than letting it run into the street or storm drains, and you dispose of it according to local rules — often through sanitary sewer or approved disposal. Proper wastewater handling is both a legal requirement and a genuine selling point that distinguishes you from anyone hosing bins onto the pavement."
+      "answer": "Reputable systems capture the wash water rather than letting it run into the street or storm drains, and you dispose of it according to local rules, often through sanitary sewer or approved disposal. Proper wastewater handling is both a legal requirement and a genuine selling point that distinguishes you from anyone hosing bins onto the pavement."
     },
     {
       "question": "Can I run this part-time around a job?",
