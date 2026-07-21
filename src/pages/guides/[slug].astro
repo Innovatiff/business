@@ -7,7 +7,7 @@ import { CATEGORY_MAP, CATEGORY_ICONS } from '../../data/categories';
 import { accentFor } from '../../lib/pageTheme';
 import { moneyRange, monthlyRange, difficultyClass } from '../../lib/format';
 import { SITE } from '../../config';
-import { AUTHOR } from '../../data/author';
+import { EDITORIAL } from '../../data/author';
 import AuthorByline from '../../components/AuthorByline.astro';
 
 export async function getStaticPaths() {
@@ -47,7 +47,7 @@ const jsonLd = [
     '@type': 'Article',
     headline: guide.title,
     description: guide.metaDescription,
-    author: { '@type': 'Person', name: AUTHOR.name, url: new URL(AUTHOR.url, SITE.url).href },
+    author: { '@type': 'Organization', name: EDITORIAL.name, url: new URL(EDITORIAL.url, SITE.url).href },
     publisher: { '@type': 'Organization', name: SITE.name },
     mainEntityOfPage: `${SITE.url}/guides/${guide.slug}/`,
     dateModified: '2026-07-01',

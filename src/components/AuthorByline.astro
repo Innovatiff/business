@@ -1,14 +1,14 @@
 ---
 /**
- * "Created by Daniel Hernandez" byline.
- *   - variant="full"    → photo avatar + linked name + optional review date
+ * "Created by the Honestly Profitable Editorial Team" byline.
+ *   - variant="full"    → brand mark + linked team name + optional review date
  *                         (used at the top of every article).
- *   - variant="compact" → small initials chip + name, no link, no image
- *                         (used on article cards; no per-card network request).
- * The full-variant avatar shows the headshot when present and falls back to the
- * author's initials if the image is missing, so nothing ever looks broken.
+ *   - variant="compact" → small brand mark + team name, no link
+ *                         (used on article cards).
+ * The breakdowns are produced by the editorial team, so the byline uses the
+ * site's mark rather than one person's photo.
  */
-import { AUTHOR } from '../data/author';
+import { EDITORIAL } from '../data/author';
 
 interface Props {
   variant?: 'full' | 'compact';
@@ -20,19 +20,20 @@ const { variant = 'full', date } = Astro.props;
 
 {variant === 'compact' ? (
   <span class="ab ab-compact">
-    <span class="ab-chip" aria-hidden="true">{AUTHOR.initials}</span>
-    <span class="ab-text">Created by {AUTHOR.name}</span>
+    <span class="ab-mark ab-mark-sm" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M3 17l5-5 4 4 8-9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 7h-4M20 7v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+    <span class="ab-text">{EDITORIAL.byline}</span>
   </span>
 ) : (
   <div class="ab ab-full">
-    <span class="ab-avatar" aria-hidden="true">
-      <span class="ab-initials">{AUTHOR.initials}</span>
-      <img src={AUTHOR.photo} alt="" width="44" height="44" loading="lazy" decoding="async" onerror="this.remove()" />
+    <span class="ab-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M3 17l5-5 4 4 8-9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 7h-4M20 7v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </span>
     <span class="ab-lines">
-      <span class="ab-by">Created by <a href={AUTHOR.url}>{AUTHOR.name}</a></span>
+      <span class="ab-by">Created by the <a href={EDITORIAL.url}>Honestly Profitable Editorial Team</a></span>
       <span class="ab-meta">
-        {AUTHOR.role}{date && <> · Reviewed {date}</>}
+        Independent research, no courses to sell{date && <> · Reviewed {date}</>}
       </span>
     </span>
   </div>
@@ -44,32 +45,19 @@ const { variant = 'full', date } = Astro.props;
     align-items: center;
     gap: 0.7rem;
   }
-  .ab-avatar {
-    position: relative;
+  .ab-mark {
     display: grid;
     place-items: center;
-    width: 44px;
-    height: 44px;
+    width: 42px;
+    height: 42px;
     flex: none;
-    border-radius: 50%;
-    overflow: hidden;
-    background: var(--navy);
-    color: #fff;
-    font-family: var(--font-display);
-    font-weight: 800;
-    font-size: 0.95rem;
-    letter-spacing: 0.02em;
+    border-radius: 10px;
+    background: #0f172a;
+    color: var(--green);
   }
-  :global(:root[data-theme='dark']) .ab-avatar {
-    background: var(--green-dark);
-    color: #04120a;
-  }
-  .ab-avatar img {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .ab-mark svg {
+    width: 24px;
+    height: 24px;
   }
   .ab-lines {
     display: flex;
@@ -97,25 +85,16 @@ const { variant = 'full', date } = Astro.props;
   .ab-compact {
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.45rem;
   }
-  .ab-chip {
-    display: grid;
-    place-items: center;
-    width: 20px;
-    height: 20px;
-    flex: none;
-    border-radius: 50%;
-    background: var(--navy);
-    color: #fff;
-    font-family: var(--font-display);
-    font-weight: 800;
-    font-size: 0.6rem;
-    letter-spacing: 0.02em;
+  .ab-mark-sm {
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
   }
-  :global(:root[data-theme='dark']) .ab-chip {
-    background: var(--green-dark);
-    color: #04120a;
+  .ab-mark-sm svg {
+    width: 13px;
+    height: 13px;
   }
   .ab-text {
     font-size: 0.78rem;

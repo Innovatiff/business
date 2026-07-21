@@ -27,7 +27,7 @@ import { CATEGORY_MAP } from '../../data/categories';
 import { money, moneyRange, monthlyRange, reviewedDate } from '../../lib/format';
 import { accentFor, variantFor, accentVars } from '../../lib/pageTheme';
 import { SITE } from '../../config';
-import { AUTHOR } from '../../data/author';
+import { EDITORIAL } from '../../data/author';
 
 export async function getStaticPaths() {
   const businesses = await getCollection('businesses');
@@ -96,7 +96,7 @@ const jsonLd: Record<string, unknown>[] = [
     headline: d.metaTitle,
     description: d.metaDescription,
     about: d.title,
-    author: { '@type': 'Person', name: AUTHOR.name, url: new URL(AUTHOR.url, SITE.url).href },
+    author: { '@type': 'Organization', name: EDITORIAL.name, url: new URL(EDITORIAL.url, SITE.url).href },
     publisher: { '@type': 'Organization', name: SITE.name },
     mainEntityOfPage: new URL(path, SITE.url).href,
     dateModified: `${d.lastReviewed}-01`,
